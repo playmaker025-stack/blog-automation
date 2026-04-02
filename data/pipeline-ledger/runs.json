@@ -4,14 +4,14 @@
       "pipelineId": "pipe-e54389c1",
       "topicId": "topic-44121a2e",
       "userId": "a",
-      "stage": "strategy-planning",
-      "error": null,
+      "stage": "failed",
+      "error": "Connection error.",
       "approvalGranted": false,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-02T09:23:16.487Z",
-      "updatedAt": "2026-04-02T09:23:18.768Z"
+      "updatedAt": "2026-04-02T09:23:21.457Z"
     }
   ],
-  "lastUpdated": "2026-04-02T09:23:18.768Z"
+  "lastUpdated": "2026-04-02T09:23:21.457Z"
 }
