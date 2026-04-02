@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import type { Topic } from "@/lib/types/github-data";
+import { parseTopicText, readFileAutoEncoding } from "@/lib/skills/import-parser";
 
 type StatusFilter = "all" | Topic["status"];
 
@@ -21,17 +22,6 @@ const STATUS_COLORS: Record<Topic["status"], string> = {
   archived: "bg-zinc-100 text-zinc-400",
 };
 
-// ── 파싱 ────────────────────────────────────────────────────
-// 글목록 파일 형식:
-//   A 블로그         ← 섹션 헤더 → 이하 항목의 blog="A"
-//   (빈 줄)
-//   제목1
-//   제목2
-//   B 블로그
-//   제목3
-//   ...
-const BLOG_HEADER_RE = /^([A-Z])\s*(블로그|blog)\s*$/i;
-
 // category가 "A블로그" 형태이면 "A" 추출, 아니면 null
 function blogCode(category: string): string | null {
   const m = /^([A-E])블로그$/.exec(category);
@@ -45,35 +35,6 @@ const BLOG_BADGE_COLORS: Record<string, string> = {
   D: "bg-orange-100 text-orange-700",
   E: "bg-pink-100 text-pink-700",
 };
-
-function parseTopicFile(text: string): {
-  items: Array<{ title: string; blog: string }>;
-  skipped: number;
-} {
-  // BOM 제거
-  const src = text.startsWith("\uFEFF") ? text.slice(1) : text;
-  const items: Array<{ title: string; blog: string }> = [];
-  let currentBlog = "";
-  let skipped = 0;
-
-  for (const raw of src.split("\n")) {
-    const l = raw.trim(); // \r 포함 공백 전체 제거
-    if (!l) continue;
-
-    const headerMatch = BLOG_HEADER_RE.exec(l);
-    if (headerMatch) {
-      currentBlog = headerMatch[1].toUpperCase();
-      continue;
-    }
-
-    // 최소 2자 미만이면 파싱 실패로 간주
-    if (l.length < 2) { skipped++; continue; }
-
-    items.push({ title: l, blog: currentBlog });
-  }
-
-  return { items, skipped };
-}
 
 interface EditTopicState {
   topicId: string;
@@ -89,7 +50,6 @@ export default function TopicsPage() {
 
   // 불러오기 패널
   const [importTab, setImportTab] = useState<"text" | "file">("text");
-  const [encoding, setEncoding] = useState<"utf-8" | "euc-kr">("euc-kr");
   const [pasteText, setPasteText] = useState("");
   const [preview, setPreview] = useState<Array<{ title: string; blog: string }>>([]);
   const [parseSkipped, setParseSkipped] = useState(0);
@@ -120,28 +80,17 @@ export default function TopicsPage() {
   // ── 파일/텍스트 처리 ────────────────────────────────────
   const applyText = (text: string) => {
     setPasteText(text);
-    const { items, skipped } = parseTopicFile(text);
+    const { items, skipped } = parseTopicText(text);
     setPreview(items);
     setParseSkipped(skipped);
     setNotice(null);
   };
 
-  const handleFile = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFile = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
-    const reader = new FileReader();
-    reader.onload = (ev) => applyText((ev.target?.result as string) ?? "");
-    reader.readAsText(file, encoding);
-  };
-
-  // 인코딩 변경 시 파일 재해석
-  const handleEncodingChange = (enc: "utf-8" | "euc-kr") => {
-    setEncoding(enc);
-    const file = fileRef.current?.files?.[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = (ev) => applyText((ev.target?.result as string) ?? "");
-    reader.readAsText(file, enc);
+    const text = await readFileAutoEncoding(file);
+    applyText(text);
   };
 
   // ── 교체 저장 ──────────────────────────────────────────
@@ -257,25 +206,14 @@ export default function TopicsPage() {
           저장하면 대기 상태 목록이 새 목록으로 교체됩니다 (진행 중/발행된 항목은 유지).
         </p>
 
-        {/* 인코딩 + 탭 선택 */}
-        <div className="flex items-center gap-4 mb-4 flex-wrap">
-          <div className="flex gap-1.5">
-            {(["text", "file"] as const).map((tab) => (
-              <button key={tab} onClick={() => setImportTab(tab)}
-                className={`px-3 py-1.5 text-xs font-medium rounded-full transition-colors ${importTab === tab ? "bg-zinc-900 text-white" : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"}`}>
-                {tab === "text" ? "텍스트 붙여넣기" : "파일 업로드"}
-              </button>
-            ))}
-          </div>
-          <div className="flex items-center gap-1.5 ml-auto">
-            <span className="text-xs text-zinc-400">인코딩:</span>
-            {(["euc-kr", "utf-8"] as const).map((enc) => (
-              <button key={enc} onClick={() => handleEncodingChange(enc)}
-                className={`px-2.5 py-1 text-xs font-mono rounded transition-colors ${encoding === enc ? "bg-zinc-800 text-white" : "bg-zinc-100 text-zinc-500 hover:bg-zinc-200"}`}>
-                {enc === "euc-kr" ? "EUC-KR (기본)" : "UTF-8"}
-              </button>
-            ))}
-          </div>
+        {/* 탭 선택 */}
+        <div className="flex gap-1.5 mb-4">
+          {(["text", "file"] as const).map((tab) => (
+            <button key={tab} onClick={() => setImportTab(tab)}
+              className={`px-3 py-1.5 text-xs font-medium rounded-full transition-colors ${importTab === tab ? "bg-zinc-900 text-white" : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"}`}>
+              {tab === "text" ? "텍스트 붙여넣기" : "파일 업로드"}
+            </button>
+          ))}
         </div>
 
         {importTab === "text" ? (
@@ -290,7 +228,7 @@ export default function TopicsPage() {
           <div onClick={() => fileRef.current?.click()}
             className="border-2 border-dashed border-zinc-200 rounded-lg p-10 text-center cursor-pointer hover:border-blue-400 hover:bg-blue-50/30 transition-colors">
             <p className="text-sm text-zinc-500">TXT 파일 클릭하여 선택</p>
-            <p className="text-xs text-zinc-400 mt-1">한 줄에 글제목 하나 · 인코딩: <strong>{encoding.toUpperCase()}</strong></p>
+            <p className="text-xs text-zinc-400 mt-1">한 줄에 글제목 하나 · 인코딩 자동 감지 (UTF-8 / EUC-KR)</p>
             {pasteText && <p className="text-xs text-emerald-600 mt-2">파일 로드됨 — 유효 제목 {preview.length}개</p>}
             <input ref={fileRef} type="file" accept=".txt" className="hidden" onChange={handleFile} />
           </div>

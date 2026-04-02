@@ -7,7 +7,8 @@ import { ApprovalDialog } from "@/components/pipeline/approval-dialog";
 import { ScoreChart } from "@/components/eval/score-chart";
 import type { PipelineStage } from "@/lib/types/agent";
 import type { SSEEvent, ApprovalRequest, EvalResult } from "@/lib/agents/types";
-import type { Topic, UserProfile } from "@/lib/types/github-data";
+import type { Topic, UserProfile, PostingRecord } from "@/lib/types/github-data";
+import { resolveRemainingTopics } from "@/lib/skills/remaining-topic-resolver";
 
 interface ApprovalData {
   pipelineId: string;
@@ -37,7 +38,7 @@ export default function PipelinePage() {
 
   const [topicMode, setTopicMode] = useState<TopicMode>("list");
   const [topics, setTopics] = useState<Topic[]>([]);
-  const [usedTopicIds, setUsedTopicIds] = useState<Set<string>>(new Set());
+  const [posts, setPosts] = useState<PostingRecord[]>([]);
   const [selectedTopicId, setSelectedTopicId] = useState("");
   const [directTitle, setDirectTitle] = useState("");
 
@@ -56,21 +57,13 @@ export default function PipelinePage() {
     const t = Date.now();
     Promise.allSettled([
       fetch(`/api/github/topics?_t=${t}`).then((r) => r.json()) as Promise<{ topics: Topic[] }>,
-      fetch(`/api/github/posts?limit=1000&_t=${t}`).then((r) => r.json()) as Promise<{ posts: Array<{ topicId: string }> }>,
+      fetch(`/api/github/posts?limit=1000&_t=${t}`).then((r) => r.json()) as Promise<{ posts: PostingRecord[] }>,
     ]).then(([topicResult, postResult]) => {
-      // posts가 실패해도 topics는 표시
       const postData = postResult.status === "fulfilled" ? postResult.value : { posts: [] };
       const topicData = topicResult.status === "fulfilled" ? topicResult.value : { topics: [] };
-
-      // 발행 인덱스에 이미 존재하는 topicId 집합
-      const used = new Set(
-        (postData.posts ?? []).map((p) => p.topicId).filter(Boolean)
-      );
-      setUsedTopicIds(used);
       // draft만 허용 — in-progress/published/archived 모두 제외
-      setTopics(
-        (topicData.topics ?? []).filter((t) => t.status === "draft")
-      );
+      setTopics((topicData.topics ?? []).filter((t) => t.status === "draft"));
+      setPosts(postData.posts ?? []);
     });
   }, []);
 
@@ -217,19 +210,18 @@ export default function PipelinePage() {
     return !!directTitle.trim();
   })();
 
-  // 사용자 ID 배정 + 발행 인덱스 미등록 주제만 표시 (대소문자 무시)
-  const availableTopics = topics.filter((t) => {
-    if (usedTopicIds.has(t.topicId)) return false; // 이미 쓴 글 제외
-    const uid = userId.trim().toLowerCase();
-    if (uid) return t.assignedUserId?.toLowerCase() === uid;
-    return true;
-  });
+  // RemainingTopicResolver: 발행 인덱스와 cross-check (topicId 비교 금지)
+  const currentUid = userId.trim().toLowerCase();
+  const userTopics = currentUid
+    ? topics.filter((t) => t.assignedUserId?.toLowerCase() === currentUid)
+    : topics;
+  const { remaining: availableTopics } = resolveRemainingTopics(userTopics, posts);
 
   return (
     <div className="p-8 max-w-3xl">
       <div className="mb-6">
         <h1 className="text-2xl font-bold text-zinc-900">글쓰기 실행</h1>
-        <p className="text-zinc-500 mt-1 text-sm">전략 수립 → 승인 → 본문 작성 → 평가</p>
+        <p className="text-zinc-500 mt-1 text-sm">전략 수립 완료 → 승인 후 본문 작성 시작</p>
       </div>
 
       {/* ── 실행 설정 ─────────────────────────────────────── */}

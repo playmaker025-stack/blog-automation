@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import type { PostingRecord } from "@/lib/types/github-data";
+import { parseIndexText, readFileAutoEncoding } from "@/lib/skills/import-parser";
 
 type StatusFilter = "all" | PostingRecord["status"];
 
@@ -49,86 +50,6 @@ const BLOG_BADGE_COLORS: Record<string, string> = {
   E: "bg-pink-100 text-pink-700",
 };
 
-// ── TSV 파서 (RFC 4180 quote + 멀티라인 지원) ───────────────
-function parseTSVRows(text: string): string[][] {
-  const rows: string[][] = [];
-  let row: string[] = [];
-  let field = "";
-  let inQuotes = false;
-
-  // BOM 제거
-  const src = text.startsWith("\uFEFF") ? text.slice(1) : text;
-
-  for (let i = 0; i < src.length; i++) {
-    const ch = src[i];
-    if (inQuotes) {
-      if (ch === '"') {
-        if (src[i + 1] === '"') { field += '"'; i++; } // escaped quote
-        else inQuotes = false;
-      } else { field += ch; } // newlines inside quotes are kept as-is
-    } else {
-      if (ch === '"') { inQuotes = true; }
-      else if (ch === '\t') { row.push(field); field = ""; }
-      else if (ch === '\n') {
-        row.push(field); field = "";
-        if (row.some((f) => f.trim())) rows.push(row);
-        row = [];
-      } else if (ch !== '\r') { field += ch; }
-    }
-  }
-  // 마지막 행 처리
-  row.push(field);
-  if (row.some((f) => f.trim())) rows.push(row);
-  return rows;
-}
-
-// ── 인덱스 TXT 파싱 ──────────────────────────────────────────
-// 형식 A (6컬럼): No / 블로그 / 발행일 / URL / 타겟키워드 / 검색의도
-//   → col[3]=URL,  col[4]=키워드(title)
-// 형식 B (7컬럼): No / 블로그 / 발행일 / 글제목 / URL / 타겟키워드 / 검색의도
-//   → col[3]=title, col[4]=URL
-// col[3]이 "http"로 시작하면 형식 A, 아니면 형식 B
-function parseImportLines(text: string): {
-  items: Array<{ title: string; url: string; blog: string }>;
-  skipped: number;
-} {
-  const rows = parseTSVRows(text);
-  const items: Array<{ title: string; url: string; blog: string }> = [];
-  let skipped = 0;
-
-  for (const cols of rows) {
-    // 데이터 행 최소 조건: col[0]이 정수
-    const no = (cols[0] ?? "").trim();
-    if (!/^\d+$/.test(no)) continue; // 헤더 행 건너뜀 (skipped 미포함)
-
-    if (cols.length < 4) { skipped++; continue; }
-
-    const rawBlog = (cols[1] ?? "").trim().toUpperCase();
-    const blog = /^[A-E]$/.test(rawBlog) ? rawBlog : "";
-
-    const c3 = (cols[3] ?? "").trim();
-    const c4 = (cols[4] ?? "").trim();
-
-    let title: string;
-    let url: string;
-
-    if (c3.startsWith("http")) {
-      // 6컬럼: col[3]=URL, col[4]=키워드 → 키워드를 제목으로 사용
-      url = c3;
-      title = c4 || url;
-    } else {
-      // 7컬럼: col[3]=제목, col[4]=URL
-      title = c3;
-      url = c4.startsWith("http") ? c4 : "";
-    }
-
-    if (!title) { skipped++; continue; }
-    items.push({ title, url, blog });
-  }
-
-  return { items, skipped };
-}
-
 export default function PostsPage() {
   const [posts, setPosts] = useState<PostingRecord[]>([]);
   const [filter, setFilter] = useState<StatusFilter>("all");
@@ -150,7 +71,6 @@ export default function PostsPage() {
   const [importPreview, setImportPreview] = useState<Array<{ title: string; url: string; blog: string }>>([]);
   const [parseSkipped, setParseSkipped] = useState(0);
   const [importing, setSaving] = useState(false);
-  const [importEncoding, setImportEncoding] = useState<"euc-kr" | "utf-8">("euc-kr");
 
   const [notice, setNotice] = useState<{ type: "ok" | "err"; msg: string } | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
@@ -246,28 +166,17 @@ export default function PostsPage() {
   // ── TXT 가져오기 ───────────────────────────────────────────
   const applyImportText = (text: string) => {
     setImportText(text);
-    const { items, skipped } = parseImportLines(text);
+    const { items, skipped } = parseIndexText(text);
     setImportPreview(items);
     setParseSkipped(skipped);
     setNotice(null);
   };
 
-  const handleImportFile = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleImportFile = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
-    const reader = new FileReader();
-    reader.onload = (ev) => applyImportText((ev.target?.result as string) ?? "");
-    reader.readAsText(file, importEncoding);
-  };
-
-  // 인코딩 변경 시 파일 재해석
-  const handleImportEncodingChange = (enc: "euc-kr" | "utf-8") => {
-    setImportEncoding(enc);
-    const file = fileRef.current?.files?.[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = (ev) => applyImportText((ev.target?.result as string) ?? "");
-    reader.readAsText(file, enc);
+    const text = await readFileAutoEncoding(file);
+    applyImportText(text);
   };
 
   const handleBulkAdd = async () => {
@@ -514,27 +423,14 @@ export default function PostsPage() {
               <code className="bg-zinc-100 px-1 rounded">제목|URL</code>, 또는 제목만
             </p>
 
-            {/* 탭 + 인코딩 */}
-            <div className="flex items-center gap-4 mb-4 flex-wrap">
-              <div className="flex gap-1.5">
-                {(["text", "file"] as const).map((tab) => (
-                  <button key={tab} onClick={() => setImportTab(tab)}
-                    className={`px-3 py-1.5 text-xs font-medium rounded-full transition-colors ${importTab === tab ? "bg-zinc-900 text-white" : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"}`}>
-                    {tab === "text" ? "텍스트 붙여넣기" : "파일 업로드"}
-                  </button>
-                ))}
-              </div>
-              {importTab === "file" && (
-                <div className="flex items-center gap-1.5 ml-auto">
-                  <span className="text-xs text-zinc-400">인코딩:</span>
-                  {(["euc-kr", "utf-8"] as const).map((enc) => (
-                    <button key={enc} onClick={() => handleImportEncodingChange(enc)}
-                      className={`px-2.5 py-1 text-xs font-mono rounded transition-colors ${importEncoding === enc ? "bg-zinc-800 text-white" : "bg-zinc-100 text-zinc-500 hover:bg-zinc-200"}`}>
-                      {enc === "euc-kr" ? "EUC-KR" : "UTF-8"}
-                    </button>
-                  ))}
-                </div>
-              )}
+            {/* 탭 선택 */}
+            <div className="flex gap-1.5 mb-4">
+              {(["text", "file"] as const).map((tab) => (
+                <button key={tab} onClick={() => setImportTab(tab)}
+                  className={`px-3 py-1.5 text-xs font-medium rounded-full transition-colors ${importTab === tab ? "bg-zinc-900 text-white" : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"}`}>
+                  {tab === "text" ? "텍스트 붙여넣기" : "파일 업로드"}
+                </button>
+              ))}
             </div>
 
             {importTab === "text" ? (
@@ -549,7 +445,7 @@ export default function PostsPage() {
               <div onClick={() => fileRef.current?.click()}
                 className="border-2 border-dashed border-zinc-200 rounded-lg p-8 text-center cursor-pointer hover:border-blue-400 transition-colors">
                 <p className="text-sm text-zinc-500">TXT 파일 클릭하여 선택</p>
-                <p className="text-xs text-zinc-400 mt-1">인코딩: <strong>{importEncoding.toUpperCase()}</strong></p>
+                <p className="text-xs text-zinc-400 mt-1">인코딩 자동 감지 (UTF-8 / EUC-KR)</p>
                 {importText && <p className="text-xs text-emerald-600 mt-1">{importPreview.length}개 항목 로드됨</p>}
                 <input ref={fileRef} type="file" accept=".txt" className="hidden" onChange={handleImportFile} />
               </div>
