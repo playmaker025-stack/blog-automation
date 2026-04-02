@@ -1,0 +1,15 @@
+{
+  "userId": "example-user",
+  "samples": [
+    {
+      "sampleId": "sample-001",
+      "title": "서울 성수동 카페 투어 — 직접 가본 솔직 후기",
+      "category": "여행",
+      "tags": ["서울", "카페", "성수동", "주말나들이"],
+      "wordCount": 1450,
+      "publishedAt": "2026-02-15T00:00:00.000Z",
+      "filePath": "user-modeling/users/example-user/corpus/samples/sample-001.md"
+    }
+  ],
+  "lastUpdated": "2026-03-27T00:00:00.000Z"
+}

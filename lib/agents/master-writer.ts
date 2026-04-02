@@ -1,0 +1,253 @@
+import type { Tool } from "@anthropic-ai/sdk/resources/messages";
+import { getAnthropicClient, MODELS } from "@/lib/anthropic/client";
+import { userCorpusRetriever } from "@/lib/skills/user-corpus-retriever";
+import { expansionPlanner } from "@/lib/skills/expansion-planner";
+import { sourceResolver } from "@/lib/skills/source-resolver";
+import { writeFile, fileExists } from "@/lib/github/repository";
+import { Paths } from "@/lib/github/paths";
+import { randomUUID } from "crypto";
+import type { StrategyPlanResult, WriterResult } from "./types";
+import type { CorpusSummaryArtifact } from "./corpus-selector";
+
+// ============================================================
+// 발행용 본문은 이 에이전트만 작성한다 — 핵심 원칙
+// ============================================================
+
+function buildCorpusSummarySection(corpus: CorpusSummaryArtifact): string {
+  const { styleProfile, exemplarExcerpts } = corpus;
+  return `
+## 사용자 스타일 프로필 (corpus summary)
+- 주요 어투: ${styleProfile.dominantTone}
+- 평균 글자수: ${styleProfile.avgWordCount}자
+- 서두 패턴: ${styleProfile.openingPattern}
+- 구조 패턴: ${styleProfile.structurePattern}
+- 시그니처 표현: ${styleProfile.signatureExpressions.join(", ") || "없음"}
+
+## 예시 글 발췌 (${exemplarExcerpts.length}개)
+${exemplarExcerpts
+  .map(
+    (e, i) =>
+      `### 예시 ${i + 1}: ${e.title}\n스타일 메모: ${e.styleNotes}\n발췌: ${e.excerpt}`
+  )
+  .join("\n\n")}`;
+}
+
+const buildSystemPrompt = (userId: string, corpus: CorpusSummaryArtifact | null) => {
+  const corpusSection =
+    corpus
+      ? buildCorpusSummarySection(corpus)
+      : `사용자 "${userId}"의 예시 글을 user_corpus_retriever로 로드하여 스타일을 분석하세요.`;
+
+  const step1 = corpus
+    ? "1. 아래 코퍼스 summary를 바탕으로 스타일 분석 (별도 로드 불필요)"
+    : `1. user_corpus_retriever로 사용자 "${userId}"의 예시 글 로드 후 스타일 분석`;
+
+  return `당신은 네이버 블로그 본문 작성 전문가입니다.
+이 에이전트만이 발행 가능한 본문을 작성할 수 있습니다.
+
+## 작업 순서
+${step1}
+2. expansion_planner로 아웃라인 상세 확장
+3. (필요 시) source_resolver로 참조 URL 내용 확인
+4. 코퍼스 스타일을 완전히 재현한 한국어 본문 작성
+
+## 글쓰기 원칙
+- 코퍼스 스타일 완전 모방: 예시 글의 문체, 어투, 개인 표현 그대로 사용
+- 한국어 전용: 영어 단어는 해당 한국어가 없을 때만 사용
+- 금지 표현 절대 사용 금지
+- 자연스러운 키워드 삽입 (억지 삽입 금지)
+- 독자 관점에서 실제 유용한 내용 중심
+
+## 출력 형식
+전략에 따른 마크다운 본문 전체를 출력한다. 설명·메타 정보 없이 본문만 출력한다.
+
+${corpusSection}`;
+};
+
+const CORPUS_TOOL: Tool = {
+  name: "user_corpus_retriever",
+  description: "사용자 예시 글 코퍼스를 로드합니다.",
+  input_schema: {
+    type: "object" as const,
+    properties: {
+      userId: { type: "string" },
+      limit: { type: "number" },
+      category: { type: "string" },
+    },
+    required: ["userId"],
+  },
+};
+
+const BASE_TOOLS: Tool[] = [
+  {
+    name: "expansion_planner",
+    description: "아웃라인을 받아 섹션별 상세 작성 방향을 계획합니다.",
+    input_schema: {
+      type: "object" as const,
+      properties: {
+        outline: { type: "array", description: "OutlineSection 배열" },
+        targetLength: { type: "number", description: "목표 글자수" },
+        tone: { type: "string" },
+        keywords: { type: "array", items: { type: "string" } },
+      },
+      required: ["outline", "targetLength", "tone", "keywords"],
+    },
+  },
+  {
+    name: "source_resolver",
+    description: "참조 URL 내용을 확인합니다.",
+    input_schema: {
+      type: "object" as const,
+      properties: {
+        urls: { type: "array", items: { type: "string" } },
+      },
+      required: ["urls"],
+    },
+  },
+];
+
+export async function runMasterWriter(params: {
+  strategy: StrategyPlanResult;
+  userId: string;
+  topicId: string;
+  corpusSummary?: CorpusSummaryArtifact;
+  onToken?: (token: string) => void;
+  onProgress?: (message: string) => void;
+  signal?: AbortSignal;
+}): Promise<WriterResult> {
+  const { strategy, userId, topicId, corpusSummary, onToken, onProgress, signal } = params;
+
+  onProgress?.(corpusSummary ? "Master Writer 시작 — corpus summary 적용 중..." : "Master Writer 시작 — 코퍼스 로드 중...");
+
+  const client = getAnthropicClient();
+  const TOOLS = corpusSummary ? BASE_TOOLS : [CORPUS_TOOL, ...BASE_TOOLS];
+  const toolRegistry = {
+    user_corpus_retriever: (input: unknown) =>
+      userCorpusRetriever(input as Parameters<typeof userCorpusRetriever>[0]),
+    expansion_planner: (input: unknown) => {
+      const i = input as Parameters<typeof expansionPlanner>[0];
+      return Promise.resolve(expansionPlanner(i));
+    },
+    source_resolver: (input: unknown) =>
+      sourceResolver(input as Parameters<typeof sourceResolver>[0]),
+  };
+
+  const userMessage = `다음 전략에 따라 네이버 블로그 본문을 작성해주세요.
+
+제목: ${strategy.title}
+목표 글자수: ${strategy.estimatedLength}자
+톤: ${strategy.tone}
+키워드: ${strategy.keywords.join(", ")}
+핵심 포인트: ${strategy.keyPoints.join(" / ")}
+
+아웃라인:
+${strategy.outline
+  .map(
+    (s, i) =>
+      `${i + 1}. ${s.heading}\n   - ${s.subPoints.join("\n   - ")}\n   방향: ${s.contentDirection}`
+  )
+  .join("\n\n")}
+
+${
+    corpusSummary
+      ? "시스템 프롬프트의 코퍼스 summary를 바탕으로 스타일을 분석한 후,"
+      : `먼저 user_corpus_retriever로 사용자 "${userId}"의 예시 글을 로드하여 스타일을 분석한 후,`
+  }
+expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 작성해주세요.`;
+
+  // 1단계: tool-use loop (corpus retrieval + expansion planning)
+  const messages: import("@anthropic-ai/sdk/resources/messages").MessageParam[] = [
+    { role: "user", content: userMessage },
+  ];
+
+  let iterCount = 0;
+  const maxIter = 8;
+
+  while (iterCount < maxIter) {
+    iterCount++;
+    if (signal?.aborted) throw new Error("파이프라인이 중단되었습니다.");
+
+    const resp = await client.messages.create({
+      model: MODELS.sonnet,
+      system: buildSystemPrompt(userId, corpusSummary ?? null),
+      messages,
+      tools: TOOLS,
+      max_tokens: 8192,
+    });
+
+    messages.push({ role: "assistant", content: resp.content });
+
+    if (resp.stop_reason === "end_turn") {
+      const textBlock = resp.content.find((b) => b.type === "text");
+      const bodyText = textBlock && "text" in textBlock ? textBlock.text : "";
+
+      onProgress?.("본문 생성 완료 — GitHub에 저장 중...");
+
+      // 토큰 스트리밍 시뮬레이션 (청크 단위)
+      if (onToken) {
+        const chunks = bodyText.match(/.{1,80}/g) ?? [];
+        for (const chunk of chunks) {
+          onToken(chunk);
+          await new Promise((r) => setTimeout(r, 5));
+        }
+      }
+
+      return await saveWriterResult({ topicId, title: strategy.title, content: bodyText });
+    }
+
+    if (resp.stop_reason === "tool_use") {
+      const toolResults: import("@anthropic-ai/sdk/resources/messages").ToolResultBlockParam[] = [];
+
+      for (const block of resp.content) {
+        if (block.type !== "tool_use") continue;
+        const fn = toolRegistry[block.name as keyof typeof toolRegistry];
+        if (!fn) {
+          toolResults.push({ type: "tool_result", tool_use_id: block.id, is_error: true, content: `알 수 없는 도구: ${block.name}` });
+          continue;
+        }
+        try {
+          const result = await fn(block.input);
+          toolResults.push({ type: "tool_result", tool_use_id: block.id, content: JSON.stringify(result) });
+        } catch (err) {
+          toolResults.push({ type: "tool_result", tool_use_id: block.id, is_error: true, content: String(err) });
+        }
+      }
+
+      messages.push({ role: "user", content: toolResults });
+      continue;
+    }
+    break;
+  }
+
+  throw new Error(`Master Writer가 ${maxIter}회 반복 한계에 도달했습니다.`);
+}
+
+async function saveWriterResult(params: {
+  topicId: string;
+  title: string;
+  content: string;
+}): Promise<WriterResult> {
+  const postId = `post-${randomUUID().slice(0, 8)}`;
+  const contentPath = Paths.postContent(postId);
+  const wordCount = params.content.replace(/\s+/g, "").length;
+  const generatedAt = new Date().toISOString();
+
+  // GitHub에 본문 저장 (파일이 없을 때만 — sha null)
+  const exists = await fileExists(contentPath);
+  if (!exists) {
+    await writeFile(
+      contentPath,
+      params.content,
+      `feat: master-writer generated post ${postId}`,
+      null
+    );
+  }
+
+  return {
+    postId,
+    title: params.title,
+    content: params.content,
+    wordCount,
+    generatedAt,
+  };
+}

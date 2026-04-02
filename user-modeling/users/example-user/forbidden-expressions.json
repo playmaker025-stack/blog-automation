@@ -1,0 +1,21 @@
+{
+  "userId": "example-user",
+  "expressions": [
+    {
+      "pattern": "광고",
+      "reason": "광고성 게시물로 오해받을 수 있음",
+      "isRegex": false
+    },
+    {
+      "pattern": "협찬",
+      "reason": "협찬 게시물로 오해받을 수 있음",
+      "isRegex": false
+    },
+    {
+      "pattern": "\\b(사기|도박|불법)\\b",
+      "reason": "부적절한 키워드",
+      "isRegex": true
+    }
+  ],
+  "updatedAt": "2026-03-27T00:00:00.000Z"
+}

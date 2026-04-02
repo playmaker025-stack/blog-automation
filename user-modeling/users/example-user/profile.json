@@ -1,0 +1,23 @@
+{
+  "userId": "example-user",
+  "displayName": "예시 사용자",
+  "naverBlogUrl": "https://blog.naver.com/example-user",
+  "writingStyle": {
+    "tone": "friendly",
+    "averagePostLength": 1500,
+    "preferredStructure": "narrative",
+    "signatureExpressions": [
+      "정말 도움이 됐어요",
+      "솔직하게 말씀드리면",
+      "오늘은 제가 직접 경험한"
+    ]
+  },
+  "targetAudience": {
+    "ageRange": "20-30대",
+    "interests": ["생활", "여행", "음식"],
+    "knowledgeLevel": "beginner"
+  },
+  "githubDataRepo": "yourname/blog-automation-data",
+  "createdAt": "2026-03-27T00:00:00.000Z",
+  "updatedAt": "2026-03-27T00:00:00.000Z"
+}
