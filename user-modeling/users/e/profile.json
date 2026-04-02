@@ -1,6 +1,6 @@
 {
   "userId": "e",
-  "displayName": "E ���α�",
+  "displayName": "E blog",
   "naverBlogUrl": "https://blog.naver.com/youfetst",
   "writingStyle": {
     "tone": "casual",
@@ -9,11 +9,11 @@
     "signatureExpressions": []
   },
   "targetAudience": {
-    "ageRange": "20-30��",
+    "ageRange": "20-30",
     "interests": [],
     "knowledgeLevel": "beginner"
   },
   "githubDataRepo": "playmaker025-stack/blog-automation",
-  "createdAt": "2026-04-02T09:19:08Z",
-  "updatedAt": "2026-04-02T09:19:11.025Z"
+  "createdAt": "2026-04-02T00:00:00Z",
+  "updatedAt": "2026-04-02T09:19:48.245Z"
 }
