@@ -1,0 +1,19 @@
+{
+  "userId": "d",
+  "displayName": "D ���α�",
+  "naverBlogUrl": "https://blog.naver.com/moya5522",
+  "writingStyle": {
+    "tone": "casual",
+    "averagePostLength": 1500,
+    "preferredStructure": "listicle",
+    "signatureExpressions": []
+  },
+  "targetAudience": {
+    "ageRange": "20-30��",
+    "interests": [],
+    "knowledgeLevel": "beginner"
+  },
+  "githubDataRepo": "playmaker025-stack/blog-automation",
+  "createdAt": "2026-04-02T09:19:07Z",
+  "updatedAt": "2026-04-02T09:19:09.703Z"
+}
