@@ -5,6 +5,8 @@ import { StageIndicator } from "@/components/pipeline/stage-indicator";
 import { PipelineStream } from "@/components/pipeline/pipeline-stream";
 import { ApprovalDialog } from "@/components/pipeline/approval-dialog";
 import { ScoreChart } from "@/components/eval/score-chart";
+import { PipelineStateInspector, applyEventToInspector, INITIAL_INSPECTOR_STATE } from "@/components/pipeline/state-inspector";
+import type { InspectorState } from "@/components/pipeline/state-inspector";
 import type { PipelineStage } from "@/lib/types/agent";
 import type { SSEEvent, ApprovalRequest, EvalResult } from "@/lib/agents/types";
 import type { Topic, UserProfile, PostingRecord } from "@/lib/types/github-data";
@@ -50,6 +52,7 @@ export default function PipelinePage() {
   const [result, setResult] = useState<ResultData | null>(null);
   const [evalScores, setEvalScores] = useState<EvalResult["scores"] | null>(null);
   const [running, setRunning] = useState(false);
+  const [inspector, setInspector] = useState<InspectorState>(INITIAL_INSPECTOR_STATE);
   const esRef = useRef<EventSource | null>(null);
 
   // 토픽 목록 + 발행 인덱스 동시 로드
@@ -83,6 +86,7 @@ export default function PipelinePage() {
 
   const handleEvent = useCallback((event: SSEEvent) => {
     setEvents((prev) => [...prev, event]);
+    setInspector((prev) => applyEventToInspector(prev, event));
 
     if (event.type === "stage_change") {
       setStage((event.data as { stage?: PipelineStage })?.stage ?? event.stage);
@@ -147,6 +151,18 @@ export default function PipelinePage() {
     setStage("idle");
     setRunning(true);
 
+    // 선택 주제 제목 결정 (inspector용)
+    const selectedTitle =
+      topicMode === "list"
+        ? topics.find((t) => t.topicId === selectedTopicId)?.title ?? selectedTopicId
+        : directTitle.trim();
+
+    setInspector({
+      ...INITIAL_INSPECTOR_STATE,
+      selected_topic: selectedTitle,
+      remaining_topics_count: availableTopics.length,
+    });
+
     const topicId = await resolveTopicId();
     if (!topicId) { setRunning(false); return; }
 
@@ -201,6 +217,7 @@ export default function PipelinePage() {
       return;
     }
     setApproval(null);
+    setInspector((prev) => ({ ...prev, approval_received: req.approved }));
     if (!req.approved) setRunning(false);
   };
 
@@ -352,6 +369,13 @@ export default function PipelinePage() {
       {stage !== "idle" && (
         <div className="bg-white border border-zinc-200 rounded-xl p-5 mb-6 overflow-x-auto">
           <StageIndicator currentStage={stage} />
+        </div>
+      )}
+
+      {/* 파이프라인 상태 인스펙터 */}
+      {(running || result) && (
+        <div className="mb-6">
+          <PipelineStateInspector state={inspector} />
         </div>
       )}
 
