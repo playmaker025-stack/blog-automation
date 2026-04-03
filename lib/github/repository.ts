@@ -56,11 +56,16 @@ export async function writeFile(
 
   const encoded = Buffer.from(content, "utf-8").toString("base64");
 
+  // [skip ci] — 데이터 커밋이 Railway 재배포를 트리거하지 않도록
+  const commitMessage = message.includes("[skip ci]")
+    ? message
+    : `${message} [skip ci]`;
+
   const response = await octokit.repos.createOrUpdateFileContents({
     owner,
     repo,
     path: filePath,
-    message,
+    message: commitMessage,
     content: encoded,
     branch,
     ...(sha ? { sha } : {}),
