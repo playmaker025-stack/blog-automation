@@ -1,3 +1,6 @@
+// Next.js 환경에서 SDK가 web-runtime을 사용하는 문제 방지
+// globalThis.fetch가 있으면 SDK가 브라우저로 착각해 node:https agent를 사용하지 않아 "Connection error." 발생
+import "@anthropic-ai/sdk/shims/node";
 import Anthropic from "@anthropic-ai/sdk";
 
 let _client: Anthropic | null = null;
