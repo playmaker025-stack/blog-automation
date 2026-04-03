@@ -16,14 +16,14 @@
       "pipelineId": "pipe-cc733035",
       "topicId": "topic-44121a2e",
       "userId": "a",
-      "stage": "strategy-planning",
-      "error": null,
+      "stage": "failed",
+      "error": "Connection error.",
       "approvalGranted": false,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-03T08:09:38.825Z",
-      "updatedAt": "2026-04-03T08:09:41.083Z"
+      "updatedAt": "2026-04-03T08:09:43.793Z"
     }
   ],
-  "lastUpdated": "2026-04-03T08:09:41.083Z"
+  "lastUpdated": "2026-04-03T08:09:43.793Z"
 }
