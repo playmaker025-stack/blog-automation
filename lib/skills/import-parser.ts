@@ -25,32 +25,37 @@ export function readFileAutoEncoding(file: File): Promise<string> {
   });
 }
 
+// ── 공통 반환 타입 ────────────────────────────────────────────
+
+export interface ParseResult<T> {
+  items: T[];
+  parsed_count: number;
+  duplicate_count: number;
+  failed_count: number;
+  warnings: string[];
+}
+
 // ── 글목록 파싱 ──────────────────────────────────────────────
 // 형식:
-//   A 블로그     ← 섹션 헤더 → 이하 항목의 blog="A"
+//   A 블로그     ← 섹션 헤더
 //   글제목1
 //   글제목2
-//   B 블로그
-//   글제목3
 
 const BLOG_HEADER_RE = /^([A-Z])\s*(블로그|blog)\s*$/i;
 
 export interface TopicItem {
   title: string;
-  blog: string; // "A" | "B" | ... | ""
+  blog: string;
 }
 
-export interface TopicParseResult {
-  items: TopicItem[];
-  parsed: number;
-  skipped: number;
-}
-
-export function parseTopicText(text: string): TopicParseResult {
+export function parseTopicText(text: string): ParseResult<TopicItem> {
   const src = text.startsWith("\uFEFF") ? text.slice(1) : text;
   const items: TopicItem[] = [];
+  const seenTitles = new Set<string>();
+  const warnings: string[] = [];
   let currentBlog = "";
-  let skipped = 0;
+  let duplicate_count = 0;
+  let failed_count = 0;
 
   for (const raw of src.split("\n")) {
     const l = raw.trim();
@@ -62,30 +67,34 @@ export function parseTopicText(text: string): TopicParseResult {
       continue;
     }
 
-    if (l.length < 2) { skipped++; continue; }
+    if (l.length < 2) {
+      failed_count++;
+      warnings.push(`너무 짧은 항목 제외: "${l}"`);
+      continue;
+    }
+
+    const titleKey = l.toLowerCase();
+    if (seenTitles.has(titleKey)) {
+      duplicate_count++;
+      warnings.push(`중복 제목 제외: "${l}"`);
+      continue;
+    }
+
+    seenTitles.add(titleKey);
     items.push({ title: l, blog: currentBlog });
   }
 
-  return { items, parsed: items.length, skipped };
+  return { items, parsed_count: items.length, duplicate_count, failed_count, warnings };
 }
 
 // ── 발행 인덱스 파싱 (TSV) ───────────────────────────────────
 // 형식 A (6컬럼): No / 블로그 / 날짜 / URL / 키워드 / 검색의도
-//   col[3]=URL, col[4]=키워드(→title)
 // 형식 B (7컬럼): No / 블로그 / 날짜 / 글제목 / URL / 키워드 / 검색의도
-//   col[3]=title, col[4]=URL
-// col[3]이 "http"로 시작하면 형식 A
 
 export interface IndexItem {
   title: string;
   url: string;
-  blog: string; // "A" | "B" | ... | ""
-}
-
-export interface IndexParseResult {
-  items: IndexItem[];
-  parsed: number;
-  skipped: number;
+  blog: string;
 }
 
 function parseTSVRows(text: string): string[][] {
@@ -118,16 +127,24 @@ function parseTSVRows(text: string): string[][] {
   return rows;
 }
 
-export function parseIndexText(text: string): IndexParseResult {
+export function parseIndexText(text: string): ParseResult<IndexItem> {
   const rows = parseTSVRows(text);
   const items: IndexItem[] = [];
-  let skipped = 0;
+  const seenTitles = new Set<string>();
+  const seenUrls = new Set<string>();
+  const warnings: string[] = [];
+  let duplicate_count = 0;
+  let failed_count = 0;
 
   for (const cols of rows) {
     const no = (cols[0] ?? "").trim();
-    if (!/^\d+$/.test(no)) continue;
+    if (!/^\d+$/.test(no)) continue; // 헤더 행
 
-    if (cols.length < 4) { skipped++; continue; }
+    if (cols.length < 4) {
+      failed_count++;
+      warnings.push(`컬럼 부족 (행 ${no}): ${cols.length}개`);
+      continue;
+    }
 
     const rawBlog = (cols[1] ?? "").trim().toUpperCase();
     const blog = /^[A-E]$/.test(rawBlog) ? rawBlog : "";
@@ -146,9 +163,25 @@ export function parseIndexText(text: string): IndexParseResult {
       url = c4.startsWith("http") ? c4 : "";
     }
 
-    if (!title) { skipped++; continue; }
+    if (!title) {
+      failed_count++;
+      warnings.push(`제목 없음 (행 ${no})`);
+      continue;
+    }
+
+    const titleKey = title.toLowerCase();
+    const urlKey = url.toLowerCase();
+
+    if (seenTitles.has(titleKey) || (urlKey && seenUrls.has(urlKey))) {
+      duplicate_count++;
+      warnings.push(`중복 항목 제외 (행 ${no}): "${title}"`);
+      continue;
+    }
+
+    seenTitles.add(titleKey);
+    if (urlKey) seenUrls.add(urlKey);
     items.push({ title, url, blog });
   }
 
-  return { items, parsed: items.length, skipped };
+  return { items, parsed_count: items.length, duplicate_count, failed_count, warnings };
 }

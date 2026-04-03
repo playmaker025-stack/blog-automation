@@ -69,7 +69,9 @@ export default function PostsPage() {
   const [importTab, setImportTab] = useState<"text" | "file">("text");
   const [importText, setImportText] = useState("");
   const [importPreview, setImportPreview] = useState<Array<{ title: string; url: string; blog: string }>>([]);
-  const [parseSkipped, setParseSkipped] = useState(0);
+  const [parsedCount, setParsedCount] = useState(0);
+  const [duplicateCount, setDuplicateCount] = useState(0);
+  const [failedCount, setFailedCount] = useState(0);
   const [importing, setSaving] = useState(false);
 
   const [notice, setNotice] = useState<{ type: "ok" | "err"; msg: string } | null>(null);
@@ -166,9 +168,11 @@ export default function PostsPage() {
   // ── TXT 가져오기 ───────────────────────────────────────────
   const applyImportText = (text: string) => {
     setImportText(text);
-    const { items, skipped } = parseIndexText(text);
-    setImportPreview(items);
-    setParseSkipped(skipped);
+    const result = parseIndexText(text);
+    setImportPreview(result.items);
+    setParsedCount(result.parsed_count);
+    setDuplicateCount(result.duplicate_count);
+    setFailedCount(result.failed_count);
     setNotice(null);
   };
 
@@ -196,10 +200,10 @@ export default function PostsPage() {
       setShowImport(false);
       setImportText("");
       setImportPreview([]);
-      setParseSkipped(0);
+      setParsedCount(0); setDuplicateCount(0); setFailedCount(0);
       const parts = [`추가 ${json.added ?? 0}건`];
       if (json.duplicates) parts.push(`중복 제외 ${json.duplicates}건`);
-      if (parseSkipped > 0) parts.push(`파싱 제외 ${parseSkipped}건`);
+      if (failedCount > 0) parts.push(`실패 ${failedCount}건`);
       setNotice({ type: "ok", msg: parts.join(" / ") });
       load();
     } catch (e) {
@@ -453,9 +457,12 @@ export default function PostsPage() {
 
             {importPreview.length > 0 && (
               <div className="mt-3 bg-zinc-50 rounded-lg p-3 max-h-44 overflow-y-auto">
-                <p className="text-xs text-zinc-500 mb-2 font-medium">
-                  {importPreview.length}개 인식됨{parseSkipped > 0 ? ` / ${parseSkipped}건 제외됨` : ""}
-                </p>
+                <div className="flex items-center gap-3 mb-2">
+                  <p className="text-xs font-medium text-zinc-600">미리보기</p>
+                  <span className="text-xs text-emerald-600">파싱 {parsedCount}건</span>
+                  {duplicateCount > 0 && <span className="text-xs text-amber-600">중복 {duplicateCount}건</span>}
+                  {failedCount > 0 && <span className="text-xs text-red-500">실패 {failedCount}건</span>}
+                </div>
                 {importPreview.map(({ title, url, blog }, i) => (
                   <div key={i} className="flex items-center gap-2 text-xs py-0.5">
                     <span className="text-zinc-400 w-5 text-right shrink-0">{i + 1}</span>

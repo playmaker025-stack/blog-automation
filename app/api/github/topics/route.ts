@@ -3,6 +3,7 @@ import { readJsonFile, writeJsonFile, fileExists } from "@/lib/github/repository
 import { Paths } from "@/lib/github/paths";
 import type { TopicIndex, Topic } from "@/lib/types/github-data";
 import { randomUUID } from "crypto";
+import { normalizeUserId } from "@/lib/utils/normalize";
 
 const EMPTY_INDEX: TopicIndex = { topics: [], lastUpdated: "" };
 
@@ -23,7 +24,10 @@ export async function GET(request: NextRequest) {
     const { data: index } = await loadIndex();
     let topics = index.topics;
     if (status) topics = topics.filter((t) => t.status === status);
-    if (userId) topics = topics.filter((t) => t.assignedUserId === userId);
+    if (userId) {
+      const uid = normalizeUserId(userId);
+      topics = topics.filter((t) => normalizeUserId(t.assignedUserId ?? "") === uid);
+    }
     return NextResponse.json({ topics });
   } catch (err) {
     console.error("[GET /api/github/topics]", err);
@@ -63,7 +67,7 @@ export async function PUT(request: NextRequest) {
         feasibility: null,
         relatedSources: [],
         status: "draft" as const,
-        assignedUserId: blogToUserId(item.blog),
+        assignedUserId: blogToUserId(item.blog) ? normalizeUserId(blogToUserId(item.blog)!) : null,
         createdAt: now,
         updatedAt: now,
       }));
@@ -170,7 +174,7 @@ export async function POST(request: NextRequest) {
       feasibility: null,
       relatedSources: body.relatedSources ?? [],
       status: "draft",
-      assignedUserId: body.assignedUserId ?? null,
+      assignedUserId: body.assignedUserId ? normalizeUserId(body.assignedUserId) : null,
       createdAt: now,
       updatedAt: now,
     };

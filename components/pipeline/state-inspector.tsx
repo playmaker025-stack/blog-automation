@@ -38,11 +38,18 @@ export function applyEventToInspector(
     case "result":
       return { ...prev, draft_output_created: true };
     case "gate_blocked": {
-      const d = event.data as { reason?: string } | null;
+      const d = event.data as { reason?: string; blockedBy?: string } | null;
       return {
         ...prev,
         pre_write_gate_result: "blocked",
-        blocking_reason: d?.reason ?? "gate 차단",
+        blocking_reason: d?.reason ?? d?.blockedBy ?? "gate 차단",
+      };
+    }
+    case "error": {
+      const d = event.data as { message?: string } | null;
+      return {
+        ...prev,
+        blocking_reason: prev.blocking_reason ?? (d?.message ?? "알 수 없는 오류"),
       };
     }
     case "progress": {
@@ -74,23 +81,21 @@ interface PipelineStateInspectorProps {
 }
 
 export function PipelineStateInspector({ state }: PipelineStateInspectorProps) {
+  // 승인 대기 중 강조 배너
+  const awaitingApproval = state.approval_required_emitted && state.approval_received === null && !state.draft_output_created;
+
   const rows: Array<{ label: string; value: React.ReactNode }> = [
     {
       label: "선택 주제",
-      value: state.selected_topic ? (
-        <span className="text-zinc-800 truncate max-w-[220px] inline-block">{state.selected_topic}</span>
-      ) : (
-        <span className="text-zinc-400">—</span>
-      ),
+      value: state.selected_topic
+        ? <span className="text-zinc-800 truncate max-w-[220px] inline-block">{state.selected_topic}</span>
+        : <span className="text-zinc-400">—</span>,
     },
     {
       label: "남은 주제 수",
-      value:
-        state.remaining_topics_count !== null ? (
-          <span className="font-mono text-zinc-700">{state.remaining_topics_count}개</span>
-        ) : (
-          <span className="text-zinc-400">—</span>
-        ),
+      value: state.remaining_topics_count !== null
+        ? <span className="font-mono text-zinc-700">{state.remaining_topics_count}개</span>
+        : <span className="text-zinc-400">—</span>,
     },
     {
       label: "전략 수립",
@@ -102,7 +107,7 @@ export function PipelineStateInspector({ state }: PipelineStateInspectorProps) {
       ),
     },
     {
-      label: "승인 요청 발행",
+      label: "승인 요청",
       value: (
         <span className="flex items-center gap-1.5">
           <StatusDot ok={state.approval_required_emitted ? true : null} />
@@ -117,9 +122,7 @@ export function PipelineStateInspector({ state }: PipelineStateInspectorProps) {
           <StatusDot ok={state.approval_received} />
           {state.approval_received === null
             ? "미응답"
-            : state.approval_received
-            ? "승인"
-            : "거절"}
+            : state.approval_received ? "승인" : "거절"}
         </span>
       ),
     },
@@ -128,19 +131,9 @@ export function PipelineStateInspector({ state }: PipelineStateInspectorProps) {
       value: (
         <span className="flex items-center gap-1.5">
           <StatusDot
-            ok={
-              state.pre_write_gate_result === "pass"
-                ? true
-                : state.pre_write_gate_result === "blocked"
-                ? false
-                : null
-            }
+            ok={state.pre_write_gate_result === "pass" ? true : state.pre_write_gate_result === "blocked" ? false : null}
           />
-          {state.pre_write_gate_result === "pass"
-            ? "통과"
-            : state.pre_write_gate_result === "blocked"
-            ? "차단"
-            : "대기"}
+          {state.pre_write_gate_result === "pass" ? "통과" : state.pre_write_gate_result === "blocked" ? "차단" : "대기"}
         </span>
       ),
     },
@@ -155,23 +148,34 @@ export function PipelineStateInspector({ state }: PipelineStateInspectorProps) {
     },
   ];
 
-  if (state.blocking_reason) {
-    rows.push({
-      label: "차단 사유",
-      value: <span className="text-red-500 text-xs">{state.blocking_reason}</span>,
-    });
-  }
-
   return (
-    <div className="bg-zinc-50 border border-zinc-200 rounded-xl p-4">
-      <p className="text-xs font-semibold text-zinc-500 mb-3 uppercase tracking-wide">파이프라인 상태</p>
-      <div className="grid grid-cols-2 gap-x-4 gap-y-2">
-        {rows.map(({ label, value }) => (
-          <div key={label} className="contents">
-            <span className="text-xs text-zinc-400">{label}</span>
-            <span className="text-xs">{value}</span>
+    <div className="bg-zinc-50 border border-zinc-200 rounded-xl overflow-hidden">
+      {/* 승인 대기 강조 배너 */}
+      {awaitingApproval && (
+        <div className="bg-amber-50 border-b border-amber-200 px-4 py-2.5 flex items-center gap-2">
+          <span className="inline-block w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
+          <p className="text-xs font-semibold text-amber-700">승인 대기 중 — 위 다이얼로그에서 전략을 확인해주세요</p>
+        </div>
+      )}
+
+      <div className="p-4">
+        <p className="text-xs font-semibold text-zinc-500 mb-3 uppercase tracking-wide">파이프라인 상태</p>
+        <div className="grid grid-cols-2 gap-x-4 gap-y-2">
+          {rows.map(({ label, value }) => (
+            <div key={label} className="contents">
+              <span className="text-xs text-zinc-400">{label}</span>
+              <span className="text-xs">{value}</span>
+            </div>
+          ))}
+        </div>
+
+        {/* 차단/에러 사유 — 눈에 잘 보이게 별도 표시 */}
+        {state.blocking_reason && (
+          <div className="mt-3 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
+            <p className="text-xs font-semibold text-red-600 mb-1">차단 / 오류 사유</p>
+            <p className="text-xs text-red-700 break-all">{state.blocking_reason}</p>
           </div>
-        ))}
+        )}
       </div>
     </div>
   );

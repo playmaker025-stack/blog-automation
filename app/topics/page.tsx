@@ -1,10 +1,12 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import type { Topic } from "@/lib/types/github-data";
+import type { Topic, PostingRecord } from "@/lib/types/github-data";
 import { parseTopicText, readFileAutoEncoding } from "@/lib/skills/import-parser";
+import { resolveRemainingTopics } from "@/lib/skills/remaining-topic-resolver";
+import { blogCode } from "@/lib/utils/blog-code";
 
-type StatusFilter = "all" | Topic["status"];
+type StatusFilter = "all" | "remaining" | "matched" | Topic["status"];
 
 const STATUS_LABELS: Record<Topic["status"], string> = {
   draft: "대기",
@@ -21,12 +23,6 @@ const STATUS_COLORS: Record<Topic["status"], string> = {
   published: "bg-emerald-100 text-emerald-700",
   archived: "bg-zinc-100 text-zinc-400",
 };
-
-// category가 "A블로그" 형태이면 "A" 추출, 아니면 null
-function blogCode(category: string): string | null {
-  const m = /^([A-E])블로그$/.exec(category);
-  return m ? m[1] : null;
-}
 
 const BLOG_BADGE_COLORS: Record<string, string> = {
   A: "bg-blue-100 text-blue-700",
@@ -45,6 +41,7 @@ interface EditTopicState {
 
 export default function TopicsPage() {
   const [topics, setTopics] = useState<Topic[]>([]);
+  const [posts, setPosts] = useState<PostingRecord[]>([]);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<StatusFilter>("all");
 
@@ -52,7 +49,9 @@ export default function TopicsPage() {
   const [importTab, setImportTab] = useState<"text" | "file">("text");
   const [pasteText, setPasteText] = useState("");
   const [preview, setPreview] = useState<Array<{ title: string; blog: string }>>([]);
-  const [parseSkipped, setParseSkipped] = useState(0);
+  const [parsedCount, setParsedCount] = useState(0);
+  const [duplicateCount, setDuplicateCount] = useState(0);
+  const [failedCount, setFailedCount] = useState(0);
   const [saving, setSaving] = useState(false);
   const [notice, setNotice] = useState<{ type: "ok" | "err"; msg: string } | null>(null);
 
@@ -68,21 +67,33 @@ export default function TopicsPage() {
 
   const loadTopics = () => {
     setLoading(true);
-    fetch(`/api/github/topics?_t=${Date.now()}`)
-      .then((r) => r.json())
-      .then((data: { topics: Topic[] }) => setTopics(data.topics ?? []))
-      .catch(() => setNotice({ type: "err", msg: "글목록 로드 실패" }))
+    const t = Date.now();
+    Promise.allSettled([
+      fetch(`/api/github/topics?_t=${t}`).then((r) => r.json()) as Promise<{ topics: Topic[] }>,
+      fetch(`/api/github/posts?limit=1000&_t=${t}`).then((r) => r.json()) as Promise<{ posts: PostingRecord[] }>,
+    ]).then(([topicResult, postResult]) => {
+      const topicData = topicResult.status === "fulfilled" ? topicResult.value : { topics: [] };
+      const postData = postResult.status === "fulfilled" ? postResult.value : { posts: [] };
+      setTopics(topicData.topics ?? []);
+      setPosts(postData.posts ?? []);
+    }).catch(() => setNotice({ type: "err", msg: "글목록 로드 실패" }))
       .finally(() => setLoading(false));
   };
 
   useEffect(() => { loadTopics(); }, []);
 
+  // RemainingTopicResolver: 교차체크
+  const { remaining, matched } = resolveRemainingTopics(topics, posts);
+  const remainingIds = new Set(remaining.map((t) => t.topicId));
+
   // ── 파일/텍스트 처리 ────────────────────────────────────
   const applyText = (text: string) => {
     setPasteText(text);
-    const { items, skipped } = parseTopicText(text);
-    setPreview(items);
-    setParseSkipped(skipped);
+    const result = parseTopicText(text);
+    setPreview(result.items);
+    setParsedCount(result.parsed_count);
+    setDuplicateCount(result.duplicate_count);
+    setFailedCount(result.failed_count);
     setNotice(null);
   };
 
@@ -108,9 +119,11 @@ export default function TopicsPage() {
       if (!res.ok) throw new Error(json.error ?? "저장 실패");
       const parts = [`저장 ${json.replaced}건`];
       if (json.kept) parts.push(`진행 중 ${json.kept}건 유지`);
-      if (parseSkipped > 0) parts.push(`파싱 제외 ${parseSkipped}건`);
+      if (duplicateCount > 0) parts.push(`중복 ${duplicateCount}건 제외`);
+      if (failedCount > 0) parts.push(`실패 ${failedCount}건 제외`);
       setNotice({ type: "ok", msg: parts.join(" / ") });
-      setPasteText(""); setPreview([]); setParseSkipped(0);
+      setPasteText(""); setPreview([]);
+      setParsedCount(0); setDuplicateCount(0); setFailedCount(0);
       if (fileRef.current) fileRef.current.value = "";
       loadTopics();
     } catch (e) {
@@ -127,7 +140,7 @@ export default function TopicsPage() {
       const res = await fetch("/api/github/topics", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ title: addTitle.trim(), assignedUserId: addUserId.trim() || null }),
+        body: JSON.stringify({ title: addTitle.trim(), assignedUserId: addUserId.trim().toLowerCase() || null }),
       });
       if (!res.ok) throw new Error();
       setShowAdd(false); setAddTitle(""); setAddUserId("");
@@ -148,7 +161,12 @@ export default function TopicsPage() {
       const res = await fetch("/api/github/topics", {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ topicId: editing.topicId, title: editing.title, assignedUserId: editing.assignedUserId || null, status: editing.status }),
+        body: JSON.stringify({
+          topicId: editing.topicId,
+          title: editing.title,
+          assignedUserId: editing.assignedUserId.trim().toLowerCase() || null,
+          status: editing.status,
+        }),
       });
       if (!res.ok) throw new Error();
       setEditing(null);
@@ -175,14 +193,22 @@ export default function TopicsPage() {
     }
   };
 
-  const filtered = filter === "all" ? topics : topics.filter((t) => t.status === filter);
+  // 필터 적용
+  const filtered = (() => {
+    if (filter === "remaining") return remaining;
+    if (filter === "matched") return matched;
+    if (filter === "all") return topics;
+    return topics.filter((t) => t.status === filter);
+  })();
 
   return (
     <div className="p-8 max-w-4xl">
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-2xl font-bold text-zinc-900">글목록</h1>
-          <p className="text-zinc-500 mt-1 text-sm">총 {topics.length}개 글제목</p>
+          <p className="text-zinc-500 mt-1 text-sm">
+            총 {topics.length}개 · 남은 항목 {remaining.length}개 · 발행완료 {matched.length}개
+          </p>
         </div>
         <button
           onClick={() => { setShowAdd(true); setNotice(null); }}
@@ -206,7 +232,6 @@ export default function TopicsPage() {
           저장하면 대기 상태 목록이 새 목록으로 교체됩니다 (진행 중/발행된 항목은 유지).
         </p>
 
-        {/* 탭 선택 */}
         <div className="flex gap-1.5 mb-4">
           {(["text", "file"] as const).map((tab) => (
             <button key={tab} onClick={() => setImportTab(tab)}
@@ -229,22 +254,25 @@ export default function TopicsPage() {
             className="border-2 border-dashed border-zinc-200 rounded-lg p-10 text-center cursor-pointer hover:border-blue-400 hover:bg-blue-50/30 transition-colors">
             <p className="text-sm text-zinc-500">TXT 파일 클릭하여 선택</p>
             <p className="text-xs text-zinc-400 mt-1">한 줄에 글제목 하나 · 인코딩 자동 감지 (UTF-8 / EUC-KR)</p>
-            {pasteText && <p className="text-xs text-emerald-600 mt-2">파일 로드됨 — 유효 제목 {preview.length}개</p>}
+            {pasteText && <p className="text-xs text-emerald-600 mt-2">파일 로드됨 — 유효 제목 {parsedCount}개</p>}
             <input ref={fileRef} type="file" accept=".txt" className="hidden" onChange={handleFile} />
           </div>
         )}
 
         {preview.length > 0 && (
           <div className="mt-3 bg-zinc-50 border border-zinc-100 rounded-lg p-3">
-            <p className="text-xs text-zinc-500 mb-2 font-medium">
-              미리보기 — {preview.length}개 항목{parseSkipped > 0 ? ` / ${parseSkipped}건 제외됨` : ""}
-            </p>
+            <div className="flex items-center gap-3 mb-2">
+              <p className="text-xs font-medium text-zinc-600">미리보기</p>
+              <span className="text-xs text-emerald-600">파싱 {parsedCount}건</span>
+              {duplicateCount > 0 && <span className="text-xs text-amber-600">중복 {duplicateCount}건</span>}
+              {failedCount > 0 && <span className="text-xs text-red-500">실패 {failedCount}건</span>}
+            </div>
             <div className="max-h-44 overflow-y-auto space-y-1">
               {preview.map((item, i) => (
                 <div key={i} className="flex items-center gap-2">
                   <span className="text-xs text-zinc-400 w-6 text-right shrink-0">{i + 1}</span>
                   {item.blog && (
-                    <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-zinc-200 text-zinc-600 shrink-0">
+                    <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded shrink-0 ${BLOG_BADGE_COLORS[item.blog] ?? "bg-zinc-100 text-zinc-600"}`}>
                       {item.blog}
                     </span>
                   )}
@@ -258,22 +286,24 @@ export default function TopicsPage() {
         <div className="flex justify-end mt-4">
           <button onClick={handleSave} disabled={preview.length === 0 || saving}
             className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed transition-colors">
-            {saving ? "저장 중..." : preview.length > 0 ? `기존 목록 교체 저장 (${preview.length}개)` : "기존 목록 교체 저장"}
+            {saving ? "저장 중..." : preview.length > 0 ? `기존 목록 교체 저장 (${parsedCount}개)` : "기존 목록 교체 저장"}
           </button>
         </div>
       </div>
 
-      {/* ── 현재 글목록 ─────────────────────────────────── */}
+      {/* ── 필터 ─────────────────────────────────────── */}
       <div className="flex gap-2 mb-4 flex-wrap">
-        {(["all", "draft", "planned", "in-progress", "published", "archived"] as const).map((s) => {
-          const count = s === "all" ? topics.length : topics.filter((t) => t.status === s).length;
-          return (
-            <button key={s} onClick={() => setFilter(s)}
-              className={`px-3 py-1.5 text-xs font-medium rounded-full transition-colors ${filter === s ? "bg-zinc-900 text-white" : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"}`}>
-              {s === "all" ? `전체 (${count})` : `${STATUS_LABELS[s as Topic["status"]]} (${count})`}
-            </button>
-          );
-        })}
+        {([
+          { value: "all", label: `전체 (${topics.length})` },
+          { value: "remaining", label: `남은 항목 (${remaining.length})` },
+          { value: "matched", label: `발행완료 (${matched.length})` },
+          { value: "in-progress", label: `진행 중 (${topics.filter((t) => t.status === "in-progress").length})` },
+        ] as const).map(({ value, label }) => (
+          <button key={value} onClick={() => setFilter(value)}
+            className={`px-3 py-1.5 text-xs font-medium rounded-full transition-colors ${filter === value ? "bg-zinc-900 text-white" : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"}`}>
+            {label}
+          </button>
+        ))}
       </div>
 
       {loading ? (
@@ -288,7 +318,6 @@ export default function TopicsPage() {
           {filtered.map((topic, idx) => (
             <div key={topic.topicId}>
               {editing?.topicId === topic.topicId ? (
-                // 인라인 수정 폼
                 <div className="bg-white border-2 border-blue-300 rounded-xl p-4">
                   <div className="grid grid-cols-1 gap-3 mb-3">
                     <div>
@@ -322,7 +351,6 @@ export default function TopicsPage() {
                   </div>
                 </div>
               ) : (
-                // 일반 행
                 <div className="bg-white border border-zinc-200 rounded-lg px-4 py-3 flex items-center gap-3">
                   <span className="text-xs text-zinc-400 w-6 text-right shrink-0">{idx + 1}</span>
                   {(() => {
@@ -334,12 +362,20 @@ export default function TopicsPage() {
                     ) : null;
                   })()}
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-zinc-900 truncate">{topic.title}</p>
+                    <p className={`text-sm font-medium truncate ${remainingIds.has(topic.topicId) ? "text-zinc-900" : "text-zinc-400"}`}>
+                      {topic.title}
+                    </p>
                     {topic.assignedUserId && (
                       <p className="text-xs text-zinc-400 mt-0.5">담당: {topic.assignedUserId}</p>
                     )}
                   </div>
                   <div className="flex items-center gap-2 shrink-0">
+                    {/* 교차체크 뱃지 */}
+                    {remainingIds.has(topic.topicId) ? (
+                      <span className="px-2 py-0.5 text-[10px] font-medium rounded-full bg-sky-100 text-sky-700">대기</span>
+                    ) : (
+                      <span className="px-2 py-0.5 text-[10px] font-medium rounded-full bg-emerald-100 text-emerald-700">발행완료</span>
+                    )}
                     <span className={`px-2 py-0.5 text-xs font-medium rounded-full ${STATUS_COLORS[topic.status]}`}>
                       {STATUS_LABELS[topic.status]}
                     </span>

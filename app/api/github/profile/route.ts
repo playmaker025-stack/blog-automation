@@ -2,12 +2,14 @@ import { NextRequest, NextResponse } from "next/server";
 import { readJsonFile, writeJsonFile, fileExists } from "@/lib/github/repository";
 import { Paths } from "@/lib/github/paths";
 import type { UserProfile } from "@/lib/types/github-data";
+import { normalizeUserId } from "@/lib/utils/normalize";
 
 export async function GET(request: NextRequest) {
-  const userId = request.nextUrl.searchParams.get("userId");
-  if (!userId) {
+  const rawUserId = request.nextUrl.searchParams.get("userId");
+  if (!rawUserId) {
     return NextResponse.json({ error: "userId 파라미터가 필요합니다." }, { status: 400 });
   }
+  const userId = normalizeUserId(rawUserId);
 
   try {
     const path = Paths.userProfile(userId);

@@ -2,37 +2,43 @@
  * RemainingTopicResolver
  *
  * topicId 비교 금지 — 임포트된 posts는 topicId=""이므로 구조적으로 불가
- * 대신 normalize(userId) + normalize(title) 기반 매칭
  *
- * 결과:
- *   remaining  — 아직 작성되지 않은 topics
- *   duplicate  — 이미 작성된 것으로 판단된 topics
+ * 3-key 매칭:
+ *   1. normalize(userId)
+ *   2. normalize(blog)   — Topic: blogCode(category), Post: userId.toUpperCase()
+ *   3. normalize(title)
  */
 
 import { normalize } from "@/lib/utils/normalize";
+import { blogCode, userIdToBlogCode } from "@/lib/utils/blog-code";
 import type { Topic, PostingRecord } from "@/lib/types/github-data";
 
 export interface ResolveResult {
-  remaining: Topic[];
-  duplicate: Topic[];
-  remainingCount: number;
-  duplicateCount: number;
+  remaining: Topic[];    // 아직 작성되지 않은 topics
+  matched: Topic[];      // 인덱스에 이미 존재하는 topics
+  remaining_count: number;
+  matched_count: number;
 }
 
-/**
- * posts 목록에서 매칭 키 집합을 생성
- * 키 = normalize(userId) + "||" + normalize(title)
- */
+/** posts 목록에서 매칭 키 집합 생성 (3-key) */
 function buildPostKeySet(posts: PostingRecord[]): Set<string> {
   const keys = new Set<string>();
   for (const p of posts) {
-    keys.add(normalize(p.userId) + "||" + normalize(p.title));
+    const blog = userIdToBlogCode(p.userId);
+    keys.add(normalize(p.userId) + "||" + normalize(blog) + "||" + normalize(p.title));
   }
   return keys;
 }
 
+/** Topic → 3-key */
+function topicKey(t: Topic): string {
+  const uid = t.assignedUserId ?? "";
+  const blog = blogCode(t.category) ?? userIdToBlogCode(uid);
+  return normalize(uid) + "||" + normalize(blog) + "||" + normalize(t.title);
+}
+
 /**
- * 주어진 topics 중 posts에 이미 존재하는 항목을 제외하고 반환
+ * 주어진 topics 중 posts에 이미 존재하는 항목을 분리해 반환
  */
 export function resolveRemainingTopics(
   topics: Topic[],
@@ -40,13 +46,11 @@ export function resolveRemainingTopics(
 ): ResolveResult {
   const postKeys = buildPostKeySet(posts);
   const remaining: Topic[] = [];
-  const duplicate: Topic[] = [];
+  const matched: Topic[] = [];
 
   for (const t of topics) {
-    const userId = t.assignedUserId ?? "";
-    const key = normalize(userId) + "||" + normalize(t.title);
-    if (postKeys.has(key)) {
-      duplicate.push(t);
+    if (postKeys.has(topicKey(t))) {
+      matched.push(t);
     } else {
       remaining.push(t);
     }
@@ -54,8 +58,8 @@ export function resolveRemainingTopics(
 
   return {
     remaining,
-    duplicate,
-    remainingCount: remaining.length,
-    duplicateCount: duplicate.length,
+    matched,
+    remaining_count: remaining.length,
+    matched_count: matched.length,
   };
 }
