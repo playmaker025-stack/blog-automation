@@ -128,7 +128,7 @@ export async function GET(req: NextRequest) {
   // ── Step 4: 사용자 선택 가능 여부 체크 ───────────────────────
   try {
     const userTopics = topics.filter(
-      (t) => (t.assignedUserId ?? "").toLowerCase() === userId.toLowerCase() && t.status === "pending"
+      (t) => (t.assignedUserId ?? "").toLowerCase() === userId.toLowerCase() && t.status === "draft"
     );
     const resolved = resolveRemainingTopics(userTopics, posts);
 
@@ -161,7 +161,7 @@ export async function GET(req: NextRequest) {
   try {
     // 사용할 topicId
     const userTopics = topics.filter(
-      (t) => (t.assignedUserId ?? "").toLowerCase() === userId.toLowerCase() && t.status === "pending"
+      (t) => (t.assignedUserId ?? "").toLowerCase() === userId.toLowerCase() && t.status === "draft"
     );
     const resolved = resolveRemainingTopics(userTopics, posts);
     const targetTopic = topicIdParam
@@ -222,9 +222,9 @@ function respond(results: StepResult[]) {
   return NextResponse.json({ ok: allOk, steps: results }, { status: allOk ? 200 : 502 });
 }
 
-function countBy<T extends Record<string, unknown>>(arr: T[], key: keyof T): Record<string, number> {
+function countBy<T>(arr: T[], key: keyof T): Record<string, number> {
   return arr.reduce<Record<string, number>>((acc, item) => {
-    const val = String(item[key] ?? "unknown");
+    const val = String((item[key] as unknown) ?? "unknown");
     acc[val] = (acc[val] ?? 0) + 1;
     return acc;
   }, {});
