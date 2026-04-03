@@ -29,13 +29,26 @@ export async function runToolUseLoop(
   while (iterations < maxIterations) {
     iterations++;
 
-    const response = await client.messages.create({
-      model,
-      system,
-      messages,
-      tools,
-      max_tokens: 8192,
-    });
+    let response: Awaited<ReturnType<typeof client.messages.create>>;
+    try {
+      response = await client.messages.create({
+        model,
+        system,
+        messages,
+        tools,
+        max_tokens: 8192,
+      });
+    } catch (err) {
+      // 원본 오류 상세 정보를 서버 로그에 기록
+      console.error("[tool-executor] Anthropic API 오류:", {
+        name: err instanceof Error ? err.constructor.name : "UnknownError",
+        message: err instanceof Error ? err.message : String(err),
+        status: (err as { status?: number }).status,
+        cause: err instanceof Error ? (err as { cause?: unknown }).cause : undefined,
+        code: err instanceof Error ? (err as { code?: string }).code : undefined,
+      });
+      throw err;
+    }
 
     // 어시스턴트 응답을 메시지 히스토리에 추가
     messages.push({ role: "assistant", content: response.content });

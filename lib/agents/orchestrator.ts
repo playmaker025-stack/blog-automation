@@ -648,7 +648,20 @@ export async function runPipeline(params: {
       message: "파이프라인이 완료되었습니다.",
     }));
   } catch (err) {
-    const message = err instanceof Error ? err.message : "알 수 없는 오류";
+    let message = err instanceof Error ? err.message : "알 수 없는 오류";
+
+    // APIConnectionError: 서버 로그에 상세 정보 기록 + 사용자 메시지 보강
+    if (err instanceof Error && err.constructor.name === "APIConnectionError") {
+      const cause = (err as { cause?: unknown }).cause;
+      const causeMsg = cause instanceof Error ? ` (원인: ${cause.message})` : "";
+      console.error("[orchestrator] Anthropic 연결 오류:", {
+        message: err.message,
+        cause,
+        code: (err as { code?: string }).code,
+      });
+      message = `Anthropic API 연결 실패${causeMsg} — Railway 환경 변수 ANTHROPIC_API_KEY 확인 및 /api/anthropic/ping 엔드포인트로 진단하세요.`;
+    }
+
     state = updateState(state, { stage: "failed", error: message });
     activePipelines.set(pipelineId, state);
     await upsertLedgerEntry({ pipelineId, topicId: request.topicId, userId: request.userId, stage: "failed", error: message, approvalGranted: gate.approved, postingListUpdated: false, indexUpdated: false, createdAt: now }).catch(() => {});
