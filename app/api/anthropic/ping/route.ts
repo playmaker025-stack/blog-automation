@@ -37,6 +37,10 @@ export async function GET() {
       model: response.model,
       stopReason: response.stop_reason,
       response: text,
+      env: {
+        TELEGRAM_BOT_TOKEN: !!process.env.TELEGRAM_BOT_TOKEN,
+        NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL ?? null,
+      },
     });
   } catch (err) {
     const name = err instanceof Error ? err.constructor.name : "UnknownError";
