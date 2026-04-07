@@ -39,6 +39,11 @@ export async function GET(req: NextRequest) {
       // 연결 즉시 첫 이벤트 전송 (Railway 게이트웨이 타임아웃 방지)
       emit("connected", "E2E 테스트 연결됨 — 파이프라인 준비 중...");
 
+      // Railway keepalive: 15초마다 ping 전송 (무응답 시 연결 끊김 방지)
+      const keepalive = setInterval(() => {
+        outerController.enqueue(new TextEncoder().encode(": keepalive\n\n"));
+      }, 15_000);
+
       // 1. 토픽 선택
       emit("setup", "테스트 토픽 선택 중...");
       let testTopicId: string;
@@ -161,6 +166,7 @@ export async function GET(req: NextRequest) {
         },
         close() {
           clearInterval(autoApproveLoop);
+          clearInterval(keepalive);
           if (!resolved) {
             resolved = true;
             emit("test_result", "❌ 스트림 종료 — 완료 이벤트 미수신", {
@@ -172,6 +178,7 @@ export async function GET(req: NextRequest) {
         },
         error(err: unknown) {
           clearInterval(autoApproveLoop);
+          clearInterval(keepalive);
           if (!resolved) {
             resolved = true;
             emit("test_result", `❌ 스트림 오류: ${String(err)}`, {
@@ -191,6 +198,7 @@ export async function GET(req: NextRequest) {
         });
       } catch (err) {
         clearInterval(autoApproveLoop);
+        clearInterval(keepalive);
         if (!resolved) {
           resolved = true;
           emit("test_result", `❌ 파이프라인 예외: ${String(err)}`, {
@@ -200,6 +208,8 @@ export async function GET(req: NextRequest) {
           });
         }
       }
+
+      clearInterval(keepalive);
 
       // 3. cleanup
       if (cleanup && finalPostId) {
