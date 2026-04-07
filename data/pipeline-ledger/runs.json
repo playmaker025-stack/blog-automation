@@ -160,13 +160,13 @@
       "pipelineId": "pipe-c4de1c6e",
       "topicId": "topic-44121a2e",
       "userId": "a",
-      "stage": "awaiting-approval",
+      "stage": "writing",
       "error": null,
       "approvalGranted": true,
       "postingListUpdated": true,
-      "indexUpdated": false,
+      "indexUpdated": true,
       "createdAt": "2026-04-07T08:55:52.775Z",
-      "updatedAt": "2026-04-07T08:56:57.996Z"
+      "updatedAt": "2026-04-07T08:57:00.043Z"
     },
     {
       "pipelineId": "pipe-a66cb762",
@@ -181,5 +181,5 @@
       "updatedAt": "2026-04-07T08:56:25.232Z"
     }
   ],
-  "lastUpdated": "2026-04-07T08:56:57.996Z"
+  "lastUpdated": "2026-04-07T08:57:00.043Z"
 }
