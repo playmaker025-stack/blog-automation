@@ -220,14 +220,14 @@
       "pipelineId": "pipe-d505a653",
       "topicId": "topic-c52a44ec",
       "userId": "A",
-      "stage": "strategy-planning",
+      "stage": "awaiting-approval",
       "error": null,
-      "approvalGranted": false,
+      "approvalGranted": true,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-07T10:09:56.676Z",
-      "updatedAt": "2026-04-07T10:09:58.989Z"
+      "updatedAt": "2026-04-07T10:10:55.022Z"
     }
   ],
-  "lastUpdated": "2026-04-07T10:09:58.989Z"
+  "lastUpdated": "2026-04-07T10:10:55.022Z"
 }
