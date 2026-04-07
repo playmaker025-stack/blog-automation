@@ -8,10 +8,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-07T07:34:00.896Z"
+      "updatedAt": "2026-04-07T07:59:01.094Z"
     },
     {
       "topicId": "topic-157a1185",
@@ -391,5 +391,5 @@
       "updatedAt": "2026-04-02T07:01:19.418Z"
     }
   ],
-  "lastUpdated": "2026-04-07T07:34:00.896Z"
+  "lastUpdated": "2026-04-07T07:59:01.094Z"
 }
