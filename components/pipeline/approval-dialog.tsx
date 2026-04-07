@@ -20,7 +20,7 @@ export function ApprovalDialog({
   rationale,
   outline,
   onApprove,
-  onReject,
+  onReject: _onReject,
 }: Props) {
   const [modifications, setModifications] = useState("");
   const [loading, setLoading] = useState(false);

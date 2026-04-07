@@ -357,7 +357,7 @@ describe("운영 보강 2 — SHA 충돌 재시도 (posting-list / index)", () =
 
   test("updatePostRecord — SHA 충돌 1회 후 재시도 성공", async () => {
     // 초기 데이터 설정
-    const initialSha = await gh.writeJsonFile(POSTING_LIST_PATH, {
+    const _initialSha = await gh.writeJsonFile(POSTING_LIST_PATH, {
       posts: [{ postId: "post-123", status: "draft", wordCount: 0 }],
       lastUpdated: "",
     }, "init", null);
@@ -538,7 +538,7 @@ describe("운영 보강 3 — 관리자 API 인증 + 감사 로그", () => {
   test("감사 로그는 rolling 없이 전체 보존됨 (operation-log와 차이)", async () => {
     // 600건 저장해도 전체 유지 (operation-log는 500건 rollover)
     const bigEntries = [];
-    const startSha = await gh.writeJsonFile(
+    const _startSha = await gh.writeJsonFile(
       ADMIN_AUDIT_PATH,
       { entries: bigEntries, lastUpdated: "" },
       "init", null

@@ -7,12 +7,25 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:harness": "node --test tests/harness/*.test.mjs",
+    "verify": "node scripts/verify.mjs",
+    "verify:fast": "node scripts/verify.mjs --skip-build --skip-test",
+    "gc": "knip",
+    "clean:artifacts": "node scripts/clean-artifacts.mjs",
+    "clean:artifacts:dry": "node scripts/clean-artifacts.mjs --dry-run",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": ["eslint --fix"]
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
     "@octokit/rest": "^20.1.1",
     "@tailwindcss/postcss": "^4.2.2",
+    "@typescript-eslint/eslint-plugin": "^8.58.0",
+    "@typescript-eslint/parser": "^8.58.0",
+    "es-abstract": "^1.24.1",
     "next": "^15.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -22,12 +35,16 @@
     "zustand": "^5.0.3"
   },
   "devDependencies": {
+    "@playwright/test": "^1.59.1",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/uuid": "^10.0.0",
     "eslint": "^9.0.0",
     "eslint-config-next": "^15.3.0",
+    "husky": "^9.1.7",
+    "knip": "^6.3.0",
+    "lint-staged": "^16.4.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.4",
     "typescript": "^5.8.3"

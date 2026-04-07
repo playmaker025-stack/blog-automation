@@ -81,6 +81,38 @@ evals/
 `_dotfiles/` 디렉토리에 템플릿이 있으며, 프로젝트를 C: 등으로 이동 후
 `_dotfiles/setup.ps1` 스크립트를 실행하면 dotfile이 자동 생성된다.
 
+## 코딩 자동 교정 루프 (필수)
+
+코드를 작성하거나 수정한 후에는 반드시 아래 절차를 따른다.
+
+### 규칙
+
+1. **코드 수정 후 즉시 `/verify` 실행** — 수동 판단으로 완료 선언 금지
+2. **실패 시 완료 선언 금지** — 모든 ✅ 가 나올 때까지 수정 반복
+3. **실패 로그 보존** — `data/verify-failures/` 삭제 금지, 반복 실패 패턴은 "알려진 실패 패턴" 섹션에 기록
+4. **테스트 수정 금지** — 테스트가 실패해도 구현 로직을 수정한다. 테스트 자체가 잘못됐다고 판단되면 사용자에게 확인 후 수정
+
+### 검증 명령어
+
+```bash
+node scripts/verify.mjs            # 전체 검증 (typecheck + lint + build + harness)
+node scripts/verify.mjs --skip-build --skip-test  # 빠른 검증 (typecheck + lint만)
+```
+
+### 자동 강제 시스템
+
+| 시점 | 검사 항목 |
+|------|-----------|
+| `git commit` | ESLint + TypeScript (lint-staged) |
+| `git push` | typecheck + lint + harness 테스트 |
+| GitHub PR | CI 전체 (typecheck + lint + harness) |
+
+## 알려진 실패 패턴
+
+<!-- AI가 저질렀던 실수 목록 — 재발 방지용. 발견 시 한 줄씩 추가 -->
+
+- (아직 기록된 실패 패턴 없음)
+
 ## 개발 스택
 
 - **Framework**: Next.js 15 (App Router, TypeScript)

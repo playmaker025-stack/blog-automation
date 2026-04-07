@@ -32,7 +32,7 @@ export function BaselinePromoter({ scenarioId, onPromoted }: BaselinePromoterPro
       .finally(() => setLoading(false));
   };
 
-  useEffect(() => { loadData(); }, [scenarioId]);
+  useEffect(() => { loadData(); }, [scenarioId]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handlePromote = async (runId: string) => {
     setPromoting(runId);

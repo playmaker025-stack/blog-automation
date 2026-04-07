@@ -2,7 +2,7 @@ import { randomUUID } from "crypto";
 import { runStrategyPlanner } from "./strategy-planner";
 import { runMasterWriter } from "./master-writer";
 import { runHarnessEvaluator } from "./harness-evaluator";
-import { ApprovalGate, validateTopicSelection } from "./completion-checker";
+import { ApprovalGate } from "./completion-checker";
 import { upsertLedgerEntry, saveArtifactContract } from "./pipeline-ledger";
 import { detectMaterialChange } from "./material-change-detector";
 import { getCorpusSummary } from "./corpus-selector";
@@ -48,9 +48,9 @@ interface PendingApproval {
 
 // global에 저장 — Next.js HMR이 모듈을 재로드해도 Map이 유지됨
 declare global {
-  // eslint-disable-next-line no-var
+   
   var _pendingApprovals: Map<string, PendingApproval> | undefined;
-  // eslint-disable-next-line no-var
+   
   var _activePipelines: Map<string, PipelineState> | undefined;
 }
 const pendingApprovals: Map<string, PendingApproval> =

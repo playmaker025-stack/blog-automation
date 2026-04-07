@@ -118,7 +118,7 @@ const ROLE_PATTERNS: Record<string, RegExp> = {
   "informational": /이란|정의|개념|뜻|원인|역사|종류/,
 };
 
-function classifyRole(title: string, tags: string[] = []): ArticleRole {
+function _classifyRole(title: string, tags: string[] = []): ArticleRole {
   const text = `${title} ${tags.join(" ")}`.toLowerCase();
   for (const [role, pattern] of Object.entries(ROLE_PATTERNS)) {
     if (pattern.test(text)) return role as ArticleRole;

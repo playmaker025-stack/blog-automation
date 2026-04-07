@@ -228,7 +228,7 @@ export default function TopicsPage() {
       <div className="bg-white border border-zinc-200 rounded-xl p-5 mb-6">
         <h2 className="text-sm font-semibold text-zinc-800 mb-0.5">글목록 불러오기</h2>
         <p className="text-xs text-zinc-400 mb-4">
-          한 줄에 글제목 하나. "A 블로그" 같은 섹션 헤더는 자동으로 제외됩니다.
+          한 줄에 글제목 하나. &quot;A 블로그&quot; 같은 섹션 헤더는 자동으로 제외됩니다.
           저장하면 대기 상태 목록이 새 목록으로 교체됩니다 (진행 중/발행된 항목은 유지).
         </p>
 

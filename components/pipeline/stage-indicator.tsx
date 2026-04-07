@@ -36,8 +36,6 @@ export function StageIndicator({ currentStage }: Props) {
         const sIdx = stageIndex(s.key);
         const done = !isFailed && currentIdx > sIdx;
         const active = !isFailed && currentIdx === sIdx;
-        const pending = isFailed ? false : currentIdx < sIdx;
-
         return (
           <div key={s.key} className="flex items-center">
             <div className="flex flex-col items-center">

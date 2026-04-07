@@ -34,7 +34,7 @@ function getAppUrl(): string {
 // ── 승인 대기 중인 파이프라인 in-memory 저장 ─────────────────
 // orchestrator의 pendingApprovals와 연결하기 위한 공유 상태
 declare global {
-  // eslint-disable-next-line no-var
+   
   var _telegramPendingApprovals: Map<string, {
     chatId: number;
     messageId?: number;
@@ -55,7 +55,7 @@ export const telegramPendingApprovals: Map<string, {
 
 // ── 기본 userId 설정 저장 ─────────────────────────────────────
 declare global {
-  // eslint-disable-next-line no-var
+   
   var _telegramUserMap: Map<number, string> | undefined;
 }
 const telegramUserMap: Map<number, string> =

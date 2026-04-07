@@ -241,7 +241,7 @@ function compareWithBaseline({ scenarioId, current, baseline }) {
 // ============================================================
 
 function buildSummaryArtifact({ userId, exemplars, strategy, userTone }) {
-  const excerpts = exemplars.map(e => e.excerpt).filter(Boolean);
+  const _excerpts = exemplars.map(e => e.excerpt).filter(Boolean);
   const avgWordCount = exemplars.length > 0
     ? Math.round(exemplars.reduce((acc, e) => acc + e.wordCount, 0) / exemplars.length)
     : 0;
