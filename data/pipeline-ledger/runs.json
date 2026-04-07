@@ -76,14 +76,14 @@
       "pipelineId": "pipe-5bbac581",
       "topicId": "topic-b7b3deaf",
       "userId": "a",
-      "stage": "idle",
+      "stage": "strategy-planning",
       "error": null,
       "approvalGranted": false,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-07T08:10:25.030Z",
-      "updatedAt": "2026-04-07T08:10:25.372Z"
+      "updatedAt": "2026-04-07T08:10:27.532Z"
     }
   ],
-  "lastUpdated": "2026-04-07T08:10:25.372Z"
+  "lastUpdated": "2026-04-07T08:10:27.532Z"
 }
