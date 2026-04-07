@@ -157,7 +157,18 @@
       "reason": "pre-write gate 통과",
       "pipelineId": "pipe-b997445a",
       "at": "2026-04-07T09:41:17.477Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부평 전자담배 처음 방문하면 받는 상담",
+      "proposedTitle": "부평 전자담배 처음 방문하면 받는 상담, 이런 내용이에요",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.6666666666666667,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-d505a653",
+      "at": "2026-04-07T10:10:49.930Z"
     }
   ],
-  "lastUpdated": "2026-04-07T09:41:17.477Z"
+  "lastUpdated": "2026-04-07T10:10:49.930Z"
 }
