@@ -1289,7 +1289,22 @@
       "publishedAt": null,
       "createdAt": "2026-04-02T07:02:14.733Z",
       "updatedAt": "2026-04-02T07:02:14.733Z"
+    },
+    {
+      "postId": "post-a161de5c",
+      "topicId": "topic-44121a2e",
+      "userId": "a",
+      "title": "인천 전자담배 매장 고르는 기준 5가지 | 처음이라면 꼭 보세요",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-c4de1c6e",
+      "pendingApproval": null,
+      "createdAt": "2026-04-07T08:56:56.624Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-07T08:56:56.624Z"
     }
   ],
-  "lastUpdated": "2026-04-07T08:00:39.819Z"
+  "lastUpdated": "2026-04-07T08:56:56.624Z"
 }
