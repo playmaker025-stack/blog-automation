@@ -39,10 +39,10 @@ export async function GET(req: NextRequest) {
       // 연결 즉시 첫 이벤트 전송 (Railway 게이트웨이 타임아웃 방지)
       emit("connected", "E2E 테스트 연결됨 — 파이프라인 준비 중...");
 
-      // Railway keepalive: 15초마다 ping 전송 (무응답 시 연결 끊김 방지)
+      // Railway keepalive: 5초마다 ping 전송 (무응답 시 연결 끊김 방지)
       const keepalive = setInterval(() => {
-        outerController.enqueue(new TextEncoder().encode(": keepalive\n\n"));
-      }, 15_000);
+        outerController.enqueue(new TextEncoder().encode(": ping\n\n"));
+      }, 5_000);
 
       // 1. 토픽 선택
       emit("setup", "테스트 토픽 선택 중...");
