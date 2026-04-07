@@ -202,22 +202,22 @@ export async function runStrategyPlanner(params: {
 
   onProgress?.("strategy-planner 에이전트 실행 중...");
 
-  const result = await runToolUseLoop({
-    model: MODELS.sonnet,
-    system: SYSTEM_PROMPT,
-    messages: [{ role: "user", content: userMessage }],
-    tools: TOOLS,
-    toolRegistry,
-    maxIterations: 12,
-  });
-
-  onProgress?.("전략 계획 파싱 중...");
   let plan: StrategyPlanResult;
   try {
+    const result = await runToolUseLoop({
+      model: MODELS.sonnet,
+      system: SYSTEM_PROMPT,
+      messages: [{ role: "user", content: userMessage }],
+      tools: TOOLS,
+      toolRegistry,
+      maxIterations: 12,
+    });
+
+    onProgress?.("전략 계획 파싱 중...");
     plan = parseStrategyFromText(result);
-  } catch (parseErr) {
-    // tool-use 루프 응답 파싱 실패 → 직접 호출 폴백
-    console.warn("[strategy-planner] tool-use 응답 파싱 실패, simple 폴백 시도:", String(parseErr));
+  } catch (loopOrParseErr) {
+    // tool-use 루프 오류 또는 파싱 실패 → 직접 호출 폴백
+    console.warn("[strategy-planner] tool-use 루프/파싱 실패, simple 폴백 시도:", String(loopOrParseErr));
     onProgress?.("전략 파싱 재시도 중 (direct 모드)...");
     plan = await runStrategyPlannerSimple({
       topicTitle: topic.title,
