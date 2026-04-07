@@ -37,7 +37,7 @@ export async function runToolUseLoop(
         messages,
         tools,
         max_tokens: 8192,
-      }, { signal: AbortSignal.timeout(90_000) }); // 90초 타임아웃
+      });
     } catch (err) {
       // 원본 오류 상세 정보를 서버 로그에 기록
       console.error("[tool-executor] Anthropic API 오류:", {

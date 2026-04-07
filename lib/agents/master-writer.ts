@@ -167,15 +167,13 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
     iterCount++;
     if (signal?.aborted) throw new Error("파이프라인이 중단되었습니다.");
 
-    // 각 API 호출에 60초 타임아웃 적용 (Railway 기본 제한 대비)
-    const callTimeout = AbortSignal.timeout(60_000);
     const resp = await client.messages.create({
       model: MODELS.sonnet,
       system: buildSystemPrompt(userId, corpusSummary ?? null),
       messages,
       tools: TOOLS,
       max_tokens: 8192,
-    }, { signal: callTimeout });
+    });
 
     messages.push({ role: "assistant", content: resp.content });
 

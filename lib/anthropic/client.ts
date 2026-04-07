@@ -13,7 +13,7 @@ export function getAnthropicClient(): Anthropic {
     throw new Error("ANTHROPIC_API_KEY 환경 변수가 설정되지 않았습니다.");
   }
 
-  _client = new Anthropic({ apiKey });
+  _client = new Anthropic({ apiKey, timeout: 120_000, maxRetries: 1 });
   return _client;
 }
 
