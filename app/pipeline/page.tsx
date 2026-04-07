@@ -44,6 +44,9 @@ export default function PipelinePage() {
   const [selectedTopicId, setSelectedTopicId] = useState("");
   const [directTitle, setDirectTitle] = useState("");
 
+  // 자동 승인 모드 (테스트용)
+  const [autoApprove, setAutoApprove] = useState(false);
+
   // 파이프라인 상태
   const [stage, setStage] = useState<PipelineStage>("idle");
   const [events, setEvents] = useState<SSEEvent[]>([]);
@@ -105,7 +108,17 @@ export default function PipelinePage() {
       setStreamingBody((prev) => prev + ((event.data as { token?: string })?.token ?? ""));
     }
     if (event.type === "approval_required") {
-      setApproval(event.data as ApprovalData);
+      const approvalData = event.data as ApprovalData;
+      // 자동 승인 모드: 즉시 approve 처리
+      if (autoApprove) {
+        fetch("/api/pipeline/approve", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ pipelineId: approvalData.pipelineId, approved: true }),
+        }).catch(() => {});
+      } else {
+        setApproval(approvalData);
+      }
     }
     if (event.type === "result") {
       const d = event.data as ResultData;
@@ -136,7 +149,7 @@ export default function PipelinePage() {
       if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
       esRef.current?.close();
     }
-  }, []);
+  }, [autoApprove]);  
 
   // "직접 주제 입력" 모드: 먼저 draft 토픽을 생성하고 그 ID를 사용
   const resolveTopicId = async (): Promise<string | null> => {
@@ -377,6 +390,18 @@ export default function PipelinePage() {
             </div>
           )}
         </div>
+
+        {/* 자동 승인 토글 */}
+        <label className="flex items-center gap-2 text-xs text-zinc-500 cursor-pointer select-none">
+          <input
+            type="checkbox"
+            checked={autoApprove}
+            onChange={(e) => setAutoApprove(e.target.checked)}
+            disabled={running}
+            className="rounded"
+          />
+          <span>자동 승인 모드 <span className="text-zinc-400">(테스트용 — 전략 검토 없이 즉시 진행)</span></span>
+        </label>
 
         {/* 실행 버튼 */}
         <button
