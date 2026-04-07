@@ -58,6 +58,13 @@ export default function PipelinePage() {
   const esRef = useRef<EventSource | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
+  // 컴포넌트 언마운트 시 타이머 정리
+  useEffect(() => {
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, []);
+
   // 토픽 목록 + 발행 인덱스 동시 로드
   useEffect(() => {
     const t = Date.now();
@@ -380,16 +387,25 @@ export default function PipelinePage() {
           {running ? "글쓰기 진행 중..." : "글쓰기 시작"}
         </button>
 
-        {/* 진행 중 상태 표시 */}
-        {running && runningTitle && (
-          <div className="bg-blue-50 border border-blue-200 rounded-lg px-3 py-2 flex items-center justify-between text-sm">
-            <span className="text-blue-700 truncate">✍️ {runningTitle}</span>
-            <span className={`ml-3 text-xs font-mono shrink-0 ${elapsed > 240 ? "text-red-500" : "text-blue-500"}`}>
-              {Math.floor(elapsed / 60)}:{String(elapsed % 60).padStart(2, "0")} / 5:00
+      </div>
+
+      {/* 타임아웃 카운트다운 — 실행 중 항상 표시 */}
+      {running && (
+        <div className={`rounded-xl p-4 mb-6 flex items-center justify-between ${elapsed > 240 ? "bg-red-50 border border-red-200" : "bg-blue-50 border border-blue-200"}`}>
+          <div className="flex items-center gap-2 min-w-0">
+            <span className="text-base animate-pulse">⏱</span>
+            <span className={`text-sm font-medium truncate ${elapsed > 240 ? "text-red-700" : "text-blue-700"}`}>
+              {runningTitle ?? "글쓰기 진행 중..."}
             </span>
           </div>
-        )}
-      </div>
+          <div className="ml-4 shrink-0 text-right">
+            <span className={`text-lg font-mono font-bold ${elapsed > 240 ? "text-red-600" : "text-blue-600"}`}>
+              {Math.floor(elapsed / 60)}:{String(elapsed % 60).padStart(2, "0")}
+            </span>
+            <span className={`text-xs ml-1 ${elapsed > 240 ? "text-red-400" : "text-blue-400"}`}>/ 5:00</span>
+          </div>
+        </div>
+      )}
 
       {/* 단계 표시 */}
       {stage !== "idle" && (
