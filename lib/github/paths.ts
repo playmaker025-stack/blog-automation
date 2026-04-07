@@ -49,4 +49,7 @@ export const Paths = {
   // exemplar index
   exemplarIndex: (userId: string) =>
     `user-modeling/users/${userId}/corpus/exemplar_index.json`,
+
+  // 앱 설정 (토큰 등 런타임 설정값)
+  appConfig: () => `data/config/app.json`,
 } as const;

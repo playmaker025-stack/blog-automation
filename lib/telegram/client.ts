@@ -3,11 +3,13 @@
  * 메시지 전송, 인라인 키보드, 알림 기능
  */
 
-const BASE_URL = () => {
-  const token = process.env.TELEGRAM_BOT_TOKEN?.trim();
-  if (!token) throw new Error("TELEGRAM_BOT_TOKEN 환경 변수가 없습니다.");
-  return `https://api.telegram.org/bot${token}`;
-};
+import { getTelegramToken } from "@/lib/config/app-config";
+
+async function getBotToken(): Promise<string> {
+  const token = await getTelegramToken();
+  if (!token) throw new Error("TELEGRAM_BOT_TOKEN이 설정되지 않았습니다. /api/telegram/token으로 설정하세요.");
+  return token;
+}
 
 export interface TelegramMessage {
   message_id: number;
@@ -34,7 +36,8 @@ export interface InlineKeyboardButton {
 }
 
 async function apiCall(method: string, body: Record<string, unknown>): Promise<unknown> {
-  const res = await fetch(`${BASE_URL()}/${method}`, {
+  const token = await getBotToken();
+  const res = await fetch(`https://api.telegram.org/bot${token}/${method}`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(body),
@@ -95,8 +98,8 @@ export async function deleteWebhook(): Promise<unknown> {
 
 /** 웹훅 정보 조회 */
 export async function getWebhookInfo(): Promise<unknown> {
-  const token = process.env.TELEGRAM_BOT_TOKEN?.trim();
-  if (!token) throw new Error("TELEGRAM_BOT_TOKEN 환경 변수가 없습니다.");
+  const token = await getTelegramToken();
+  if (!token) throw new Error("TELEGRAM_BOT_TOKEN이 설정되지 않았습니다.");
   const res = await fetch(`https://api.telegram.org/bot${token}/getWebhookInfo`);
   return res.json();
 }

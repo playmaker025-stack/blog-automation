@@ -5,6 +5,7 @@
 
 import { NextRequest, NextResponse } from "next/server";
 import { setWebhook, getWebhookInfo } from "@/lib/telegram/client";
+import { getTelegramToken } from "@/lib/config/app-config";
 
 export const dynamic = "force-dynamic";
 
@@ -17,7 +18,7 @@ function getAppUrl(): string {
 }
 
 export async function GET(req: NextRequest) {
-  const token = process.env.TELEGRAM_BOT_TOKEN?.trim();
+  const token = await getTelegramToken();
   const action = req.nextUrl.searchParams.get("action") ?? "status";
 
   // 상태 조회는 토큰 없어도 진단 정보 반환
@@ -27,6 +28,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({
       ok: !!token,
       tokenSet: !!token,
+      tokenSource: process.env.TELEGRAM_BOT_TOKEN?.trim() ? "env" : (token ? "github-config" : "none"),
       appUrl: appUrl || null,
       railwayDomain: process.env.RAILWAY_PUBLIC_DOMAIN?.trim() ?? null,
       nextPublicAppUrl: process.env.NEXT_PUBLIC_APP_URL?.trim() ?? null,
@@ -36,7 +38,7 @@ export async function GET(req: NextRequest) {
 
   if (!token) {
     return NextResponse.json(
-      { ok: false, error: "TELEGRAM_BOT_TOKEN 환경 변수가 없습니다. Railway Variables에서 BotFather 토큰을 설정하세요." },
+      { ok: false, error: "TELEGRAM_BOT_TOKEN이 없습니다. POST /api/telegram/token으로 설정하세요." },
       { status: 500 }
     );
   }
