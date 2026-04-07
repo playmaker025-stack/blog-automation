@@ -107,7 +107,19 @@
       "indexUpdated": false,
       "createdAt": "2026-04-07T08:40:55.594Z",
       "updatedAt": "2026-04-07T08:40:57.878Z"
+    },
+    {
+      "pipelineId": "pipe-d9535701",
+      "topicId": "topic-44121a2e",
+      "userId": "a",
+      "stage": "idle",
+      "error": null,
+      "approvalGranted": false,
+      "postingListUpdated": false,
+      "indexUpdated": false,
+      "createdAt": "2026-04-07T08:43:42.519Z",
+      "updatedAt": "2026-04-07T08:43:42.859Z"
     }
   ],
-  "lastUpdated": "2026-04-07T08:40:57.878Z"
+  "lastUpdated": "2026-04-07T08:43:42.859Z"
 }
