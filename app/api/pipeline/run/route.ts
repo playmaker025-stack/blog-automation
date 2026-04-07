@@ -22,20 +22,28 @@ export async function POST(request: NextRequest) {
 
   const stream = new ReadableStream({
     start(controller) {
-      // AbortSignal 연결
       const signal = request.signal;
+      const encoder = new TextEncoder();
 
-      runPipeline({ request: body, controller, signal }).catch((err) => {
-        const encoder = new TextEncoder();
-        const event = JSON.stringify({
-          type: "error",
-          stage: "failed",
-          data: { message: err instanceof Error ? err.message : "파이프라인 오류" },
-          timestamp: new Date().toISOString(),
+      // Railway 30s 게이트웨이 타임아웃 방지 — 15초마다 SSE 주석 전송
+      const keepalive = setInterval(() => {
+        try { controller.enqueue(encoder.encode(": ping\n\n")); } catch { /* stream closed */ }
+      }, 15_000);
+
+      runPipeline({ request: body, controller, signal })
+        .catch((err) => {
+          const event = JSON.stringify({
+            type: "error",
+            stage: "failed",
+            data: { message: err instanceof Error ? err.message : "파이프라인 오류" },
+            timestamp: new Date().toISOString(),
+          });
+          try { controller.enqueue(encoder.encode(`data: ${event}\n\n`)); } catch { /* ignore */ }
+        })
+        .finally(() => {
+          clearInterval(keepalive);
+          try { controller.close(); } catch { /* already closed */ }
         });
-        controller.enqueue(encoder.encode(`data: ${event}\n\n`));
-        controller.close();
-      });
     },
   });
 
