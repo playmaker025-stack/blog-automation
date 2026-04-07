@@ -10,7 +10,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-95a8b936",
       "at": "2026-04-07T07:33:09.990Z"
+    },
+    {
+      "type": "approval_ux",
+      "materialChange": false,
+      "requestedAt": "2026-04-07T07:33:11.758Z",
+      "respondedAt": "2026-04-07T07:33:54.315Z",
+      "approved": true,
+      "elapsedMs": 42557,
+      "timedOut": false,
+      "pipelineId": "pipe-95a8b936",
+      "at": "2026-04-07T07:33:54.695Z"
     }
   ],
-  "lastUpdated": "2026-04-07T07:33:09.990Z"
+  "lastUpdated": "2026-04-07T07:33:54.695Z"
 }
