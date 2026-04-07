@@ -111,7 +111,35 @@ node scripts/verify.mjs --skip-build --skip-test  # 빠른 검증 (typecheck + l
 
 <!-- AI가 저질렀던 실수 목록 — 재발 방지용. 발견 시 한 줄씩 추가 -->
 
-- (아직 기록된 실패 패턴 없음)
+### [2026-04-07] 파이프라인 초안쓰기 단계에서 무한 대기 (stuck)
+
+**증상**: 전략 수립 → 승인 → 초안쓰기 단계에서 Railway 서버가 응답 없이 멈춤. topic 상태가 `in-progress`로 남고 빈 draft post(`wordCount:0`)가 생성됨.
+
+**원인 분석**:
+1. `master-writer.ts`의 `client.messages.create` 호출에 타임아웃이 없어 Railway 300초 제한 도달 시 SSE 스트림이 끊어짐
+2. `tool-executor.ts`의 `runToolUseLoop`도 동일하게 타임아웃 없음
+3. 파이프라인 실패 시 catch 블록에서 topic을 `draft`로 복구하지 않아 `in-progress` stuck 발생
+
+**수정 사항**:
+- `master-writer.ts`: `AbortSignal.timeout(60_000)` 각 API 호출에 적용
+- `tool-executor.ts`: `AbortSignal.timeout(90_000)` 각 API 호출에 적용
+- `strategy-planner.ts`: `AbortSignal.timeout(60_000)` 적용
+- `orchestrator.ts` catch 블록: 실패 시 topic status를 `in-progress` → `draft`로 자동 복구
+
+**재발 방지 규칙**:
+- 모든 `client.messages.create` 호출에는 반드시 `AbortSignal.timeout(N)` 옵션을 추가할 것
+- 파이프라인 실패 시 topic/post 상태를 원상복구하는 로직을 catch 블록에 반드시 포함할 것
+- 수동 복구 절차: `PATCH /api/github/topics` → `{topicId, status:"draft"}`, `DELETE /api/github/posts?postId=XXX`
+
+### [2026-04-07] 교차체크 불일치 — 임포트된 posts의 topicId 없음
+
+**증상**: 발행 인덱스(posts)에는 글이 있는데 글목록(topics)에서는 아직 미작성(draft)으로 표시됨.
+
+**원인**: 기존에 임포트된 posts는 `topicId: ""`이므로 `topicId` 기반 매칭 불가. `resolveRemainingTopics`는 3-key 매칭(userId + blogCode + title normalize) 방식 사용. 제목이 정확히 일치하지 않으면 매칭 실패.
+
+**해결 방향**: 임포트된 posts와 topics 간 제목 유사도 매칭 개선 필요 (현재 exact normalize 매칭만 지원).
+
+**현재 상태**: `matched_count: 7 / 30` (30개 중 23개 미매칭).
 
 ## 개발 스택
 

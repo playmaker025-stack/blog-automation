@@ -666,6 +666,17 @@ export async function runPipeline(params: {
     activePipelines.set(pipelineId, state);
     await upsertLedgerEntry({ pipelineId, topicId: request.topicId, userId: request.userId, stage: "failed", error: message, approvalGranted: gate.approved, postingListUpdated: false, indexUpdated: false, createdAt: now }).catch(() => {});
     emit(controller, makeEvent("error", "failed", { pipelineId, message }));
+
+    // 파이프라인 실패 시 topic이 in-progress 상태로 stuck되는 것 방지 — draft로 복구
+    try {
+      const currentStatus = await loadTopicStatus(request.topicId);
+      if (currentStatus === "in-progress") {
+        await updateTopicStatus(request.topicId, "draft");
+        emit(controller, makeEvent("progress", "failed", { message: "토픽 상태를 draft로 복구했습니다." }));
+      }
+    } catch {
+      // 복구 실패는 무시 (이미 error 이벤트 전송됨)
+    }
   } finally {
     pendingApprovals.delete(pipelineId);
     controller.close();

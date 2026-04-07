@@ -223,7 +223,7 @@ export async function runStrategyPlannerSimple(params: {
         content: `토픽 제목: ${params.topicTitle}\n설명: ${params.topicDescription}\n사용자 ID: ${params.userId}\n\n전략 JSON을 출력해주세요.`,
       },
     ],
-  });
+  }, { signal: AbortSignal.timeout(60_000) });
 
   const text = response.content.find((b) => b.type === "text");
   if (!text || text.type !== "text") throw new Error("응답 없음");
