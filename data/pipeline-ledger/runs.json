@@ -220,14 +220,14 @@
       "pipelineId": "pipe-d505a653",
       "topicId": "topic-c52a44ec",
       "userId": "A",
-      "stage": "awaiting-approval",
+      "stage": "writing",
       "error": null,
       "approvalGranted": true,
       "postingListUpdated": true,
-      "indexUpdated": false,
+      "indexUpdated": true,
       "createdAt": "2026-04-07T10:09:56.676Z",
-      "updatedAt": "2026-04-07T10:10:57.068Z"
+      "updatedAt": "2026-04-07T10:10:59.145Z"
     }
   ],
-  "lastUpdated": "2026-04-07T10:10:57.068Z"
+  "lastUpdated": "2026-04-07T10:10:59.145Z"
 }
