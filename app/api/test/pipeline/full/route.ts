@@ -36,6 +36,9 @@ export async function GET(req: NextRequest) {
         outerController.enqueue(sse({ type, message, elapsedSec: Math.round((Date.now() - startedAt) / 1000), ...extra }));
       }
 
+      // 연결 즉시 첫 이벤트 전송 (Railway 게이트웨이 타임아웃 방지)
+      emit("connected", "E2E 테스트 연결됨 — 파이프라인 준비 중...");
+
       // 1. 토픽 선택
       emit("setup", "테스트 토픽 선택 중...");
       let testTopicId: string;
