@@ -102,7 +102,16 @@
       "targetCategory": "A블로그",
       "pipelineId": "pipe-c4de1c6e",
       "at": "2026-04-07T08:57:03.376Z"
+    },
+    {
+      "type": "gate_result",
+      "gate": "pre-write",
+      "passed": true,
+      "blockedBy": null,
+      "reason": "pre-write gate 통과",
+      "pipelineId": "pipe-c4de1c6e",
+      "at": "2026-04-07T08:57:05.119Z"
     }
   ],
-  "lastUpdated": "2026-04-07T08:57:03.376Z"
+  "lastUpdated": "2026-04-07T08:57:05.119Z"
 }
