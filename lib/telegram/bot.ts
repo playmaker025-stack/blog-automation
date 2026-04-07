@@ -20,6 +20,17 @@ import { Paths } from "@/lib/github/paths";
 import type { TopicIndex, PostingIndex } from "@/lib/types/github-data";
 import { resolveRemainingTopics } from "@/lib/skills/remaining-topic-resolver";
 
+// ── 앱 URL 자동 감지 (Railway 우선, 환경 변수 fallback) ──────
+function getAppUrl(): string {
+  // Railway가 자동 제공하는 도메인 변수 우선 사용
+  const railwayDomain = process.env.RAILWAY_PUBLIC_DOMAIN?.trim();
+  if (railwayDomain) return `https://${railwayDomain}`;
+  // 명시적 설정값
+  const explicit = process.env.NEXT_PUBLIC_APP_URL?.trim();
+  if (explicit && !explicit.includes("localhost")) return explicit;
+  return "http://localhost:3000";
+}
+
 // ── 승인 대기 중인 파이프라인 in-memory 저장 ─────────────────
 // orchestrator의 pendingApprovals와 연결하기 위한 공유 상태
 declare global {
@@ -199,7 +210,7 @@ async function handleWrite(chatId: number, arg: string) {
     );
 
     // 파이프라인 API 호출 (비동기 SSE 스트림 시작)
-    const appUrl = process.env.NEXT_PUBLIC_APP_URL?.trim() ?? "http://localhost:3000";
+    const appUrl = getAppUrl();
 
     // SSE 스트리밍을 백그라운드에서 처리
     startPipelineAndNotify({ chatId, topicId: topic.topicId, userId, appUrl }).catch(
@@ -255,7 +266,7 @@ async function handleApprovalResponse(
   messageId?: number
 ) {
   try {
-    const appUrl = process.env.NEXT_PUBLIC_APP_URL?.trim() ?? "http://localhost:3000";
+    const appUrl = getAppUrl();
 
     const res = await fetch(`${appUrl}/api/pipeline/approve`, {
       method: "POST",

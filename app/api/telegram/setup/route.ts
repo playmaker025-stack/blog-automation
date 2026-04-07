@@ -1,7 +1,6 @@
 /**
  * GET /api/telegram/setup
  * 웹훅 자동 등록 + 현재 상태 확인
- * 배포 후 한 번 호출하면 Telegram이 이 서버로 업데이트를 전송하기 시작함
  */
 
 import { NextRequest, NextResponse } from "next/server";
@@ -9,34 +8,52 @@ import { setWebhook, getWebhookInfo } from "@/lib/telegram/client";
 
 export const dynamic = "force-dynamic";
 
+function getAppUrl(): string {
+  const railwayDomain = process.env.RAILWAY_PUBLIC_DOMAIN?.trim();
+  if (railwayDomain) return `https://${railwayDomain}`;
+  const explicit = process.env.NEXT_PUBLIC_APP_URL?.trim();
+  if (explicit && !explicit.includes("localhost")) return explicit;
+  return "";
+}
+
 export async function GET(req: NextRequest) {
   const token = process.env.TELEGRAM_BOT_TOKEN?.trim();
+  const action = req.nextUrl.searchParams.get("action") ?? "status";
+
+  // 상태 조회는 토큰 없어도 진단 정보 반환
+  if (action === "status") {
+    const appUrl = getAppUrl();
+    const info = token ? await getWebhookInfo().catch(() => null) : null;
+    return NextResponse.json({
+      ok: !!token,
+      tokenSet: !!token,
+      appUrl: appUrl || null,
+      railwayDomain: process.env.RAILWAY_PUBLIC_DOMAIN?.trim() ?? null,
+      nextPublicAppUrl: process.env.NEXT_PUBLIC_APP_URL?.trim() ?? null,
+      info,
+    });
+  }
+
   if (!token) {
     return NextResponse.json(
-      { ok: false, error: "TELEGRAM_BOT_TOKEN 환경 변수가 없습니다." },
+      { ok: false, error: "TELEGRAM_BOT_TOKEN 환경 변수가 없습니다. Railway Variables에서 BotFather 토큰을 설정하세요." },
       { status: 500 }
     );
   }
 
-  const action = req.nextUrl.searchParams.get("action") ?? "status";
-
   if (action === "register") {
-    const appUrl = process.env.NEXT_PUBLIC_APP_URL?.trim();
-    if (!appUrl || appUrl.includes("localhost")) {
+    const appUrl = getAppUrl();
+    if (!appUrl) {
       return NextResponse.json(
-        { ok: false, error: "NEXT_PUBLIC_APP_URL이 localhost입니다. Railway URL로 설정 후 다시 시도하세요." },
+        { ok: false, error: "RAILWAY_PUBLIC_DOMAIN 또는 NEXT_PUBLIC_APP_URL이 필요합니다." },
         { status: 400 }
       );
     }
 
     const webhookUrl = `${appUrl}/api/telegram/webhook`;
-    const secret = process.env.TELEGRAM_WEBHOOK_SECRET?.trim();
-
     const result = await setWebhook(webhookUrl);
     return NextResponse.json({ ok: true, action: "registered", webhookUrl, result });
   }
 
-  // 기본: 현재 웹훅 상태 조회
-  const info = await getWebhookInfo();
-  return NextResponse.json({ ok: true, action: "status", info });
+  return NextResponse.json({ ok: false, error: `알 수 없는 action: ${action}` }, { status: 400 });
 }

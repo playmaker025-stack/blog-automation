@@ -40,6 +40,7 @@ export async function GET() {
       env: {
         TELEGRAM_BOT_TOKEN_len: process.env.TELEGRAM_BOT_TOKEN?.trim().length ?? 0,
         NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL ?? null,
+        RAILWAY_PUBLIC_DOMAIN: process.env.RAILWAY_PUBLIC_DOMAIN ?? null,
         NODE_ENV: process.env.NODE_ENV,
       },
     });
