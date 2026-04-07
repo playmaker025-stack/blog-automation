@@ -136,7 +136,19 @@
       "timedOut": false,
       "pipelineId": "pipe-b997445a",
       "at": "2026-04-07T09:41:05.242Z"
+    },
+    {
+      "type": "corpus_retrieval",
+      "userId": "A",
+      "selectedCount": 0,
+      "strategy": "fallback_recent",
+      "staleCount": 0,
+      "staleWarnings": [],
+      "topScores": [],
+      "targetCategory": "A블로그",
+      "pipelineId": "pipe-b997445a",
+      "at": "2026-04-07T09:41:15.703Z"
     }
   ],
-  "lastUpdated": "2026-04-07T09:41:05.242Z"
+  "lastUpdated": "2026-04-07T09:41:15.703Z"
 }
