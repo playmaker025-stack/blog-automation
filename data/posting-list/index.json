@@ -1319,7 +1319,22 @@
       "createdAt": "2026-04-07T09:41:08.549Z",
       "publishedAt": null,
       "updatedAt": "2026-04-07T09:41:08.549Z"
+    },
+    {
+      "postId": "post-4718ec9c",
+      "topicId": "topic-c52a44ec",
+      "userId": "A",
+      "title": "부평 전자담배 처음 방문하면 받는 상담, 이런 내용이에요",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-d505a653",
+      "pendingApproval": null,
+      "createdAt": "2026-04-07T10:10:55.511Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-07T10:10:55.511Z"
     }
   ],
-  "lastUpdated": "2026-04-07T09:41:08.549Z"
+  "lastUpdated": "2026-04-07T10:10:55.511Z"
 }
