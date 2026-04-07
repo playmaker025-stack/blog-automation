@@ -163,10 +163,10 @@
       "stage": "awaiting-approval",
       "error": null,
       "approvalGranted": true,
-      "postingListUpdated": false,
+      "postingListUpdated": true,
       "indexUpdated": false,
       "createdAt": "2026-04-07T08:55:52.775Z",
-      "updatedAt": "2026-04-07T08:56:56.089Z"
+      "updatedAt": "2026-04-07T08:56:57.996Z"
     },
     {
       "pipelineId": "pipe-a66cb762",
@@ -181,5 +181,5 @@
       "updatedAt": "2026-04-07T08:56:25.232Z"
     }
   ],
-  "lastUpdated": "2026-04-07T08:56:56.089Z"
+  "lastUpdated": "2026-04-07T08:56:57.996Z"
 }
