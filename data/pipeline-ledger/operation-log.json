@@ -111,7 +111,21 @@
       "reason": "pre-write gate 통과",
       "pipelineId": "pipe-c4de1c6e",
       "at": "2026-04-07T08:57:05.119Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부평 전자담배 입문 기기 추천",
+      "proposedTitle": "부평 전자담배 입문자를 위한 기기 선택 완벽 가이드",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "searchIntentChanged",
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.47619047619047616,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-b997445a",
+      "at": "2026-04-07T09:41:03.101Z"
     }
   ],
-  "lastUpdated": "2026-04-07T08:57:05.119Z"
+  "lastUpdated": "2026-04-07T09:41:03.101Z"
 }
