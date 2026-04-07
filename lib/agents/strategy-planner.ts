@@ -129,24 +129,37 @@ async function loadTopic(topicId: string): Promise<Topic> {
 }
 
 function parseStrategyFromText(text: string): StrategyPlanResult {
+  // 1. ```json ... ``` 블록
   const jsonMatch = text.match(/```json\s*([\s\S]*?)```/);
   if (jsonMatch?.[1]) {
-    try {
-      return JSON.parse(jsonMatch[1]) as StrategyPlanResult;
-    } catch {
-      // fallthrough
+    try { return JSON.parse(jsonMatch[1].trim()) as StrategyPlanResult; } catch { /* fallthrough */ }
+  }
+
+  // 2. ``` ... ``` (언어 명시 없는 코드블록)
+  const codeMatch = text.match(/```\s*([\s\S]*?)```/);
+  if (codeMatch?.[1]) {
+    try { return JSON.parse(codeMatch[1].trim()) as StrategyPlanResult; } catch { /* fallthrough */ }
+  }
+
+  // 3. 가장 큰 { } 블록 추출 (중첩 고려)
+  let depth = 0, start = -1, best = "";
+  for (let i = 0; i < text.length; i++) {
+    if (text[i] === "{") { if (depth === 0) start = i; depth++; }
+    else if (text[i] === "}") {
+      depth--;
+      if (depth === 0 && start >= 0) {
+        const candidate = text.slice(start, i + 1);
+        if (candidate.length > best.length) best = candidate;
+      }
     }
   }
-  // fallback: 중괄호 탐색
-  const braceMatch = text.match(/\{[\s\S]*\}/);
-  if (braceMatch) {
-    try {
-      return JSON.parse(braceMatch[0]) as StrategyPlanResult;
-    } catch {
-      // fallthrough
-    }
+  if (best) {
+    try { return JSON.parse(best) as StrategyPlanResult; } catch { /* fallthrough */ }
   }
-  throw new Error("strategy-planner 응답에서 JSON을 파싱할 수 없습니다.");
+
+  // 파싱 실패 — 디버그용으로 원문 앞 500자 포함
+  const preview = text.slice(0, 500).replace(/\n/g, " ");
+  throw new Error(`strategy-planner JSON 파싱 실패. 응답 미리보기: ${preview}`);
 }
 
 export async function runStrategyPlanner(params: {
@@ -199,7 +212,19 @@ export async function runStrategyPlanner(params: {
   });
 
   onProgress?.("전략 계획 파싱 중...");
-  const plan = parseStrategyFromText(result);
+  let plan: StrategyPlanResult;
+  try {
+    plan = parseStrategyFromText(result);
+  } catch (parseErr) {
+    // tool-use 루프 응답 파싱 실패 → 직접 호출 폴백
+    console.warn("[strategy-planner] tool-use 응답 파싱 실패, simple 폴백 시도:", String(parseErr));
+    onProgress?.("전략 파싱 재시도 중 (direct 모드)...");
+    plan = await runStrategyPlannerSimple({
+      topicTitle: topic.title,
+      topicDescription: topic.description,
+      userId,
+    });
+  }
 
   onProgress?.(`전략 수립 완료: "${plan.title}"`);
   return plan;
