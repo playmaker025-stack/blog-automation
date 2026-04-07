@@ -33,7 +33,18 @@
       "targetCategory": "A블로그",
       "pipelineId": "pipe-95a8b936",
       "at": "2026-04-07T07:34:05.262Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부평 전자담배 입문 기기 추천",
+      "proposedTitle": "부평 전자담배 입문 기기 추천, 처음이라면 이것부터",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.5454545454545454,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-b4568940",
+      "at": "2026-04-07T08:09:42.179Z"
     }
   ],
-  "lastUpdated": "2026-04-07T07:34:05.262Z"
+  "lastUpdated": "2026-04-07T08:09:42.179Z"
 }
