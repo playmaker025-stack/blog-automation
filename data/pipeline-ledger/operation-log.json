@@ -66,7 +66,20 @@
       "timedOut": false,
       "pipelineId": "pipe-a22231b5",
       "at": "2026-04-07T08:37:28.996Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 전자담배 추천 매장 고르는 기준 5가지",
+      "proposedTitle": "인천 전자담배 매장 고르는 기준 5가지 | 처음이라면 꼭 보세요",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.5384615384615384,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-c4de1c6e",
+      "at": "2026-04-07T08:56:51.553Z"
     }
   ],
-  "lastUpdated": "2026-04-07T08:37:28.996Z"
+  "lastUpdated": "2026-04-07T08:56:51.553Z"
 }
