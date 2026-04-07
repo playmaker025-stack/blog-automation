@@ -1,0 +1,21 @@
+{
+  "pipelineId": "pipe-7845788b",
+  "type": "approval_request",
+  "savedAt": "2026-04-07T10:31:57.297Z",
+  "data": {
+    "pipelineId": "pipe-7845788b",
+    "previousTitle": "구월동 전자담배 추천 기기 가이드",
+    "proposedTitle": "구월동 전자담배 기기 추천 | 입문자부터 마니아까지 완벽 가이드",
+    "materialChange": false,
+    "materialChangeSignals": [
+      "coreKeywordChanged"
+    ],
+    "rationale": "⚠️ 본 전략은 사용자 A의 실제 프로필·코퍼스·금지 표현 목록을 확인하지 못한 상태에서 작성된 초안입니다. 구월동이라는 지역 키워드를 중심으로 로컬 SEO를 강화하고, 전자담배 입문자와 마니아를 동시에 타깃하는 이중 구조를 채택했습니다. 가격·프로모션 정보는 시스템 원칙에 따라 전면 배제하였으며, 기기의 기능·특징·선택 기준 중심의 정보성 콘텐츠로 구성했습니다. 실제 사용자 코퍼스 스타일 반영 및 금지 표현 최종 검수를 위해 도구 연동 후 재실행을 강력히 권장합니다.",
+    "requestedAt": "2026-04-07T10:31:56.076Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-07T10:31:57.297Z",
+      "modifications": null
+    }
+  }
+}
