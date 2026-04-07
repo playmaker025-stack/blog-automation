@@ -2,7 +2,7 @@
   "pipelineId": "pipe-a22231b5",
   "topicId": "topic-44121a2e",
   "userId": "a",
-  "state": "draft_ready",
+  "state": "waiting_for_user_approval",
   "history": [
     {
       "from": null,
@@ -10,8 +10,15 @@
       "reason": "파이프라인 시작",
       "at": "2026-04-07T08:36:22.376Z",
       "actor": "system"
+    },
+    {
+      "from": "draft_ready",
+      "to": "waiting_for_user_approval",
+      "reason": "승인 요청 발송",
+      "at": "2026-04-07T08:37:28.027Z",
+      "actor": "system"
     }
   ],
   "createdAt": "2026-04-07T08:36:22.376Z",
-  "updatedAt": "2026-04-07T08:36:22.376Z"
+  "updatedAt": "2026-04-07T08:37:28.027Z"
 }
