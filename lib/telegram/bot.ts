@@ -53,6 +53,31 @@ export const telegramPendingApprovals: Map<string, {
 }> = globalThis._telegramPendingApprovals ??
   (globalThis._telegramPendingApprovals = new Map());
 
+// 1시간 이상 된 승인 대기 항목 자동 정리
+const APPROVAL_TTL_MS = 60 * 60 * 1000;
+declare global {
+  var _telegramPendingTimestamps: Map<string, number> | undefined;
+}
+const pendingTimestamps: Map<string, number> =
+  globalThis._telegramPendingTimestamps ?? (globalThis._telegramPendingTimestamps = new Map());
+
+function setPendingApproval(pipelineId: string, data: { chatId: number; pipelineId: string; proposedTitle: string; rationale: string }) {
+  telegramPendingApprovals.set(pipelineId, data);
+  pendingTimestamps.set(pipelineId, Date.now());
+  // 만료된 항목 정리
+  for (const [id, ts] of pendingTimestamps) {
+    if (Date.now() - ts > APPROVAL_TTL_MS) {
+      telegramPendingApprovals.delete(id);
+      pendingTimestamps.delete(id);
+    }
+  }
+}
+
+function deletePendingApproval(pipelineId: string) {
+  telegramPendingApprovals.delete(pipelineId);
+  pendingTimestamps.delete(pipelineId);
+}
+
 // ── 기본 userId 설정 저장 ─────────────────────────────────────
 declare global {
    
@@ -292,7 +317,7 @@ async function handleApprovalResponse(
       await sendMessage(chatId, `${emoji} 전략 ${action} 완료.`);
     }
 
-    telegramPendingApprovals.delete(pipelineId);
+    deletePendingApproval(pipelineId);
 
     if (approved) {
       await sendMessage(chatId, `✍️ 본문 작성 중입니다... 완료 시 알림을 드립니다.`);
@@ -372,7 +397,7 @@ async function handlePipelineEvent(
       const proposedTitle = String(data.proposedTitle ?? "");
       const rationale = String(data.rationale ?? "").slice(0, 200);
 
-      telegramPendingApprovals.set(pipelineId, {
+      setPendingApproval(pipelineId, {
         chatId,
         pipelineId,
         proposedTitle,

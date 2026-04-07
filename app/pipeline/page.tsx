@@ -52,8 +52,11 @@ export default function PipelinePage() {
   const [result, setResult] = useState<ResultData | null>(null);
   const [evalScores, setEvalScores] = useState<EvalResult["scores"] | null>(null);
   const [running, setRunning] = useState(false);
+  const [runningTitle, setRunningTitle] = useState<string | null>(null);
+  const [elapsed, setElapsed] = useState(0);
   const [inspector, setInspector] = useState<InspectorState>(INITIAL_INSPECTOR_STATE);
   const esRef = useRef<EventSource | null>(null);
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   // 토픽 목록 + 발행 인덱스 동시 로드
   useEffect(() => {
@@ -101,21 +104,29 @@ export default function PipelinePage() {
       const d = event.data as ResultData;
       setResult(d);
       setRunning(false);
+      setRunningTitle(null);
+      if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
       esRef.current?.close();
     }
     if (event.type === "rejected") {
       // 전략 거절 — 에러가 아니라 재시도 가능한 상태로 복귀
       setApproval(null);
       setRunning(false);
+      setRunningTitle(null);
       setStage("idle");
+      if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
       esRef.current?.close();
     }
     if (event.type === "gate_blocked") {
       setRunning(false);
+      setRunningTitle(null);
+      if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
       esRef.current?.close();
     }
     if (event.type === "error") {
       setRunning(false);
+      setRunningTitle(null);
+      if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
       esRef.current?.close();
     }
   }, []);
@@ -157,6 +168,7 @@ export default function PipelinePage() {
         ? topics.find((t) => t.topicId === selectedTopicId)?.title ?? selectedTopicId
         : directTitle.trim();
 
+    setRunningTitle(selectedTitle);
     setInspector({
       ...INITIAL_INSPECTOR_STATE,
       selected_topic: selectedTitle,
@@ -165,6 +177,10 @@ export default function PipelinePage() {
 
     const topicId = await resolveTopicId();
     if (!topicId) { setRunning(false); return; }
+
+    // 타이머 시작
+    setElapsed(0);
+    timerRef.current = setInterval(() => setElapsed((s) => s + 1), 1000);
 
     fetch("/api/pipeline/run", {
       method: "POST",
@@ -363,6 +379,16 @@ export default function PipelinePage() {
         >
           {running ? "글쓰기 진행 중..." : "글쓰기 시작"}
         </button>
+
+        {/* 진행 중 상태 표시 */}
+        {running && runningTitle && (
+          <div className="bg-blue-50 border border-blue-200 rounded-lg px-3 py-2 flex items-center justify-between text-sm">
+            <span className="text-blue-700 truncate">✍️ {runningTitle}</span>
+            <span className={`ml-3 text-xs font-mono shrink-0 ${elapsed > 240 ? "text-red-500" : "text-blue-500"}`}>
+              {Math.floor(elapsed / 60)}:{String(elapsed % 60).padStart(2, "0")} / 5:00
+            </span>
+          </div>
+        )}
       </div>
 
       {/* 단계 표시 */}

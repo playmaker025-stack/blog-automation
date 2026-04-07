@@ -23,6 +23,8 @@ export default function SettingsPage() {
   const [token, setToken] = useState("");
   const [saving, setSaving] = useState(false);
   const [registering, setRegistering] = useState(false);
+  const [testing, setTesting] = useState(false);
+  const [chatId, setChatId] = useState("");
   const [message, setMessage] = useState<{ type: "ok" | "err"; text: string } | null>(null);
 
   async function loadStatus() {
@@ -58,6 +60,27 @@ export default function SettingsPage() {
       setMessage({ type: "err", text: String(e) });
     } finally {
       setSaving(false);
+    }
+  }
+
+  async function handleTest() {
+    const id = parseInt(chatId.trim(), 10);
+    if (!id) { setMessage({ type: "err", text: "유효한 Chat ID를 입력하세요." }); return; }
+    setTesting(true);
+    setMessage(null);
+    try {
+      const res = await fetch("/api/telegram/test", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ chatId: id }),
+      });
+      const data = await res.json();
+      if (data.ok) setMessage({ type: "ok", text: "테스트 메시지를 발송했습니다. 텔레그램을 확인하세요." });
+      else setMessage({ type: "err", text: data.error });
+    } catch (e) {
+      setMessage({ type: "err", text: String(e) });
+    } finally {
+      setTesting(false);
     }
   }
 
@@ -136,6 +159,33 @@ export default function SettingsPage() {
           >
             {registering ? "등록 중..." : "웹훅 자동 등록"}
           </button>
+        </section>
+      )}
+
+      {/* 테스트 메시지 */}
+      {tokenStatus?.tokenSet && (
+        <section className="border rounded p-4 space-y-3">
+          <h2 className="font-semibold">봇 테스트</h2>
+          <p className="text-sm text-gray-600">
+            텔레그램에서 봇에게 /start를 보낸 뒤 Chat ID를 확인하세요.<br />
+            봇이 정상 작동하는지 테스트 메시지로 확인할 수 있습니다.
+          </p>
+          <div className="flex gap-2">
+            <input
+              type="number"
+              className="flex-1 border rounded px-3 py-2 text-sm font-mono"
+              placeholder="Chat ID (예: 123456789)"
+              value={chatId}
+              onChange={(e) => setChatId(e.target.value)}
+            />
+            <button
+              onClick={handleTest}
+              disabled={testing || !chatId.trim()}
+              className="px-4 py-2 bg-zinc-700 text-white rounded text-sm disabled:opacity-50"
+            >
+              {testing ? "발송 중..." : "테스트 발송"}
+            </button>
+          </div>
         </section>
       )}
 
