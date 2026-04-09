@@ -364,14 +364,14 @@
       "pipelineId": "pipe-812045a5",
       "topicId": "topic-e6ebfbdd",
       "userId": "c",
-      "stage": "writing",
-      "error": null,
+      "stage": "gate_blocked",
+      "error": "eval 점수 미달: 53점 (기준: 70점)",
       "approvalGranted": true,
       "postingListUpdated": true,
       "indexUpdated": true,
       "createdAt": "2026-04-09T10:55:52.859Z",
-      "updatedAt": "2026-04-09T10:57:54.415Z"
+      "updatedAt": "2026-04-09T11:00:08.446Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:57:54.415Z"
+  "lastUpdated": "2026-04-09T11:00:08.446Z"
 }
