@@ -256,14 +256,14 @@
       "pipelineId": "pipe-a17c3af8",
       "topicId": "topic-b39ccdca",
       "userId": "a",
-      "stage": "writing",
-      "error": null,
+      "stage": "failed",
+      "error": "Invalid state: Controller is already closed",
       "approvalGranted": true,
-      "postingListUpdated": true,
-      "indexUpdated": true,
+      "postingListUpdated": false,
+      "indexUpdated": false,
       "createdAt": "2026-04-09T09:44:20.579Z",
-      "updatedAt": "2026-04-09T09:45:44.504Z"
+      "updatedAt": "2026-04-09T09:45:48.286Z"
     }
   ],
-  "lastUpdated": "2026-04-09T09:45:44.504Z"
+  "lastUpdated": "2026-04-09T09:45:48.286Z"
 }
