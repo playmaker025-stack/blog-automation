@@ -280,14 +280,14 @@
       "pipelineId": "pipe-c8cf4565",
       "topicId": "topic-9e11f8af",
       "userId": "b",
-      "stage": "awaiting-approval",
+      "stage": "writing",
       "error": null,
       "approvalGranted": true,
       "postingListUpdated": true,
-      "indexUpdated": false,
+      "indexUpdated": true,
       "createdAt": "2026-04-09T09:57:21.797Z",
-      "updatedAt": "2026-04-09T09:58:51.575Z"
+      "updatedAt": "2026-04-09T09:58:54.807Z"
     }
   ],
-  "lastUpdated": "2026-04-09T09:58:51.575Z"
+  "lastUpdated": "2026-04-09T09:58:54.807Z"
 }
