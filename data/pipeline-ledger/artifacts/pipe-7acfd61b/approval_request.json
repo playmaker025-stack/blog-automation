@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-7acfd61b",
+  "type": "approval_request",
+  "savedAt": "2026-04-09T09:49:25.217Z",
+  "data": {
+    "pipelineId": "pipe-7acfd61b",
+    "previousTitle": "구월동 전자담배 매장 방문 전 체크리스트",
+    "proposedTitle": "구월동 전자담배 매장 방문 전 꼭 확인해야 할 체크리스트",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "과거 포스팅 패턴 분석 결과, '구월동 전자담배 처음 매장 가는 분들이 생각해야할 체크리스트 10' 등 동일 주제의 글이 이미 발행된 이력이 있어, 해당 글과 차별화된 구성이 필요합니다. 이번 전략은 ①사전 자가 파악 → ②기기 이해 → ③액상 이해 → ④실물 준비물 → ⑤현장 소통법 → ⑥요약 순으로 독자의 행동 흐름에 맞게 재설계했습니다. 사용자의 작성 스타일(casual 톤, listicle 구조, 1500자 분량)을 그대로 반영하고, 20-30대 초보 독자를 타깃으로 어렵지 않은 언어와 친근한 말투를 유지합니다. 금지 원칙에 따라 가격 정보 및 이벤트·프로모션 내용은 전 영역에서 완전히 배제되었습니다.",
+    "requestedAt": "2026-04-09T09:49:23.025Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-09T09:49:25.217Z",
+      "modifications": null
+    }
+  }
+}
