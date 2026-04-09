@@ -650,7 +650,16 @@
       "targetCategory": "C블로그",
       "pipelineId": "pipe-3a1675cb",
       "at": "2026-04-09T10:35:29.955Z"
+    },
+    {
+      "type": "gate_result",
+      "gate": "pre-write",
+      "passed": true,
+      "blockedBy": null,
+      "reason": "pre-write gate 통과",
+      "pipelineId": "pipe-3a1675cb",
+      "at": "2026-04-09T10:35:32.250Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:35:29.955Z"
+  "lastUpdated": "2026-04-09T10:35:32.250Z"
 }
