@@ -735,7 +735,20 @@
       "evalScore": 53,
       "pipelineId": "pipe-812045a5",
       "at": "2026-04-09T11:00:03.484Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "젤로맥스 vs 발라리안맥스 비교",
+      "proposedTitle": "젤로맥스 vs 발라리안맥스 비교 – 입문용 전자담배 뭐가 더 맞을까?",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.48275862068965514,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-adb6489d",
+      "at": "2026-04-09T11:08:19.760Z"
     }
   ],
-  "lastUpdated": "2026-04-09T11:00:03.484Z"
+  "lastUpdated": "2026-04-09T11:08:19.760Z"
 }
