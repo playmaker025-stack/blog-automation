@@ -443,7 +443,19 @@
       "timedOut": false,
       "pipelineId": "pipe-0d88e80e",
       "at": "2026-04-09T10:13:34.507Z"
+    },
+    {
+      "type": "corpus_retrieval",
+      "userId": "a",
+      "selectedCount": 0,
+      "strategy": "fallback_recent",
+      "staleCount": 0,
+      "staleWarnings": [],
+      "topScores": [],
+      "targetCategory": "일반",
+      "pipelineId": "pipe-0d88e80e",
+      "at": "2026-04-09T10:13:49.275Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:13:34.507Z"
+  "lastUpdated": "2026-04-09T10:13:49.275Z"
 }
