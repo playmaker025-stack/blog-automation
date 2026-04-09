@@ -203,10 +203,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "c",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-02T07:01:19.418Z"
+      "updatedAt": "2026-04-09T10:57:53.106Z"
     },
     {
       "topicId": "topic-dcc38665",
@@ -417,5 +417,5 @@
       "updatedAt": "2026-04-09T10:30:21.442Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:35:23.988Z"
+  "lastUpdated": "2026-04-09T10:57:53.106Z"
 }
