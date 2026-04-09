@@ -78,7 +78,7 @@ export function ApprovalDialog({
             <p className="text-xs text-zinc-500 font-medium mb-1">전략 근거</p>
             <ol className="space-y-1">
               {rationale
-                .split(/(?=\d+\.\s)/)
+                .split(/(?=[①②③④⑤⑥⑦⑧⑨⑩])|(?=\d+\.\s)|\n/)
                 .map((s) => s.trim())
                 .filter(Boolean)
                 .map((item, i) => (
