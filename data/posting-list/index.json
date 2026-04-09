@@ -1430,16 +1430,16 @@
       "topicId": "topic-d9416a48",
       "userId": "a",
       "title": "인천 전자담배 입문 가이드 | 처음이라면 이것만 알면 됩니다",
-      "status": "ready",
+      "status": "approved",
       "naverPostUrl": null,
-      "evalScore": null,
+      "evalScore": 73,
       "wordCount": 2147,
       "compositionSessionId": "pipe-4cad2fb2",
       "pendingApproval": null,
       "createdAt": "2026-04-09T10:30:16.516Z",
       "publishedAt": null,
-      "updatedAt": "2026-04-09T10:31:40.731Z"
+      "updatedAt": "2026-04-09T10:32:39.731Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:31:40.731Z"
+  "lastUpdated": "2026-04-09T10:32:39.731Z"
 }
