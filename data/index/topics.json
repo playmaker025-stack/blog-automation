@@ -60,10 +60,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "a",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-02T07:01:19.418Z"
+      "updatedAt": "2026-04-09T09:49:32.421Z"
     },
     {
       "topicId": "topic-c52a44ec",
@@ -391,5 +391,5 @@
       "updatedAt": "2026-04-02T07:01:19.418Z"
     }
   ],
-  "lastUpdated": "2026-04-09T09:45:43.041Z"
+  "lastUpdated": "2026-04-09T09:49:32.421Z"
 }
