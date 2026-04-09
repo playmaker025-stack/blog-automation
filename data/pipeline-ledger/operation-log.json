@@ -484,7 +484,20 @@
       "reason": "candidate 등록 완료 (73점)",
       "pipelineId": "pipe-0d88e80e",
       "at": "2026-04-09T10:16:36.705Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "말론 vs 아스트로 MK3 입문 추천",
+      "proposedTitle": "말론 vs 아스트로 MK3 입문 추천 – 입호흡 전자담배 차이 총정리",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.5357142857142857,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-fcd4a2f1",
+      "at": "2026-04-09T10:18:51.227Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:16:36.705Z"
+  "lastUpdated": "2026-04-09T10:18:51.227Z"
 }
