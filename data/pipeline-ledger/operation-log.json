@@ -497,7 +497,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-fcd4a2f1",
       "at": "2026-04-09T10:18:51.227Z"
+    },
+    {
+      "type": "approval_ux",
+      "materialChange": false,
+      "requestedAt": "2026-04-09T10:18:53.077Z",
+      "respondedAt": "2026-04-09T10:18:58.713Z",
+      "approved": true,
+      "elapsedMs": 5636,
+      "timedOut": false,
+      "pipelineId": "pipe-fcd4a2f1",
+      "at": "2026-04-09T10:18:59.288Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:18:51.227Z"
+  "lastUpdated": "2026-04-09T10:18:59.288Z"
 }
