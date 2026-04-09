@@ -614,7 +614,20 @@
       "reason": "candidate 등록 완료 (73점)",
       "pipelineId": "pipe-4cad2fb2",
       "at": "2026-04-09T10:32:38.014Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "그래피티2 vs 그래피티3 차이",
+      "proposedTitle": "그래피티2 vs 그래피티3 차이 – 어떤 게 나한테 맞을까?",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.56,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-3a1675cb",
+      "at": "2026-04-09T10:34:46.685Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:32:38.014Z"
+  "lastUpdated": "2026-04-09T10:34:46.685Z"
 }
