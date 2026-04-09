@@ -771,7 +771,16 @@
       "targetCategory": "C블로그",
       "pipelineId": "pipe-adb6489d",
       "at": "2026-04-09T11:12:24.864Z"
+    },
+    {
+      "type": "gate_result",
+      "gate": "pre-write",
+      "passed": true,
+      "blockedBy": null,
+      "reason": "pre-write gate 통과",
+      "pipelineId": "pipe-adb6489d",
+      "at": "2026-04-09T11:12:27.426Z"
     }
   ],
-  "lastUpdated": "2026-04-09T11:12:24.864Z"
+  "lastUpdated": "2026-04-09T11:12:27.426Z"
 }
