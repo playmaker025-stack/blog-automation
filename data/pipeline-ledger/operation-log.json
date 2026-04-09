@@ -539,7 +539,17 @@
       "evalScore": 78,
       "pipelineId": "pipe-fcd4a2f1",
       "at": "2026-04-09T10:21:22.634Z"
+    },
+    {
+      "type": "baseline_candidate",
+      "scenarioId": "topic-6ca55bd1",
+      "runId": "eval-47ed01b0",
+      "aggregateScore": 78,
+      "registered": true,
+      "reason": "candidate 등록 완료 (78점)",
+      "pipelineId": "pipe-fcd4a2f1",
+      "at": "2026-04-09T10:21:25.042Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:21:22.634Z"
+  "lastUpdated": "2026-04-09T10:21:25.042Z"
 }
