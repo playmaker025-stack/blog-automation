@@ -1379,7 +1379,22 @@
       "createdAt": "2026-04-09T09:49:28.670Z",
       "publishedAt": null,
       "updatedAt": "2026-04-09T09:51:56.936Z"
+    },
+    {
+      "postId": "post-7742b817",
+      "topicId": "topic-9e11f8af",
+      "userId": "b",
+      "title": "입문용 팟 전자담배 고를 때, 한 달 유지 부담이 달라지는 4가지 변수",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-c8cf4565",
+      "pendingApproval": null,
+      "createdAt": "2026-04-09T09:58:49.399Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-09T09:58:49.399Z"
     }
   ],
-  "lastUpdated": "2026-04-09T09:51:56.936Z"
+  "lastUpdated": "2026-04-09T09:58:49.399Z"
 }
