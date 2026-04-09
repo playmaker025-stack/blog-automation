@@ -304,14 +304,14 @@
       "pipelineId": "pipe-fcd4a2f1",
       "topicId": "topic-6ca55bd1",
       "userId": "c",
-      "stage": "awaiting-approval",
+      "stage": "writing",
       "error": null,
       "approvalGranted": true,
       "postingListUpdated": true,
-      "indexUpdated": false,
+      "indexUpdated": true,
       "createdAt": "2026-04-09T10:17:40.790Z",
-      "updatedAt": "2026-04-09T10:19:06.121Z"
+      "updatedAt": "2026-04-09T10:19:09.103Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:19:06.121Z"
+  "lastUpdated": "2026-04-09T10:19:09.103Z"
 }
