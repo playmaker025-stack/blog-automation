@@ -1424,7 +1424,22 @@
       "createdAt": "2026-04-09T10:19:03.539Z",
       "publishedAt": null,
       "updatedAt": "2026-04-09T10:21:26.526Z"
+    },
+    {
+      "postId": "post-7ac44530",
+      "topicId": "topic-d9416a48",
+      "userId": "a",
+      "title": "인천 전자담배 입문 가이드 | 처음이라면 이것만 알면 됩니다",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-4cad2fb2",
+      "pendingApproval": null,
+      "createdAt": "2026-04-09T10:30:16.516Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-09T10:30:16.516Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:21:26.526Z"
+  "lastUpdated": "2026-04-09T10:30:16.516Z"
 }
