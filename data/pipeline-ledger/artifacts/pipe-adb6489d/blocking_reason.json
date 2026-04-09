@@ -1,0 +1,12 @@
+{
+  "pipelineId": "pipe-adb6489d",
+  "type": "blocking_reason",
+  "savedAt": "2026-04-09T11:14:37.958Z",
+  "data": {
+    "gate": "post-audit",
+    "code": "audit_not_approved",
+    "summary": "평가 점수 미달 (63점): eval 점수 미달: 63점 (기준: 70점)",
+    "actionRequired": "본문을 수정하거나 평가 기준을 재검토한 후 다시 실행해 주세요.",
+    "canRetry": true
+  }
+}
