@@ -304,14 +304,14 @@
       "pipelineId": "pipe-fcd4a2f1",
       "topicId": "topic-6ca55bd1",
       "userId": "c",
-      "stage": "strategy-planning",
+      "stage": "awaiting-approval",
       "error": null,
-      "approvalGranted": false,
+      "approvalGranted": true,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-09T10:17:40.790Z",
-      "updatedAt": "2026-04-09T10:17:44.502Z"
+      "updatedAt": "2026-04-09T10:19:02.939Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:17:44.502Z"
+  "lastUpdated": "2026-04-09T10:19:02.939Z"
 }
