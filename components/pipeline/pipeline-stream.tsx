@@ -60,8 +60,8 @@ export function PipelineStream({ events, streamingBody }: Props) {
             <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
             <p className="text-xs text-zinc-500 font-medium">본문 생성 중...</p>
           </div>
-          <div className="px-4 py-3 max-h-64 overflow-y-auto">
-            <pre className="text-sm text-zinc-800 whitespace-pre-wrap font-sans leading-relaxed">
+          <div className="px-4 py-3 max-h-64 overflow-y-auto bg-zinc-950 rounded-b-lg">
+            <pre className="text-sm text-white whitespace-pre-wrap font-sans leading-relaxed">
               {streamingBody}
             </pre>
           </div>

@@ -13,6 +13,46 @@ import type { CorpusSummaryArtifact } from "./corpus-selector";
 // 발행용 본문은 이 에이전트만 작성한다 — 핵심 원칙
 // ============================================================
 
+// 네이버 블로그 줄바꿈 규칙: 1줄 최대 25자
+// 빈 줄, 구분선(---), 마크다운 헤더(#)만 유지, 나머지 전부 25자 래핑
+function wrapTo25Chars(text: string): string {
+  const MAX = 25;
+  const lines = text.split("\n");
+  const result: string[] = [];
+
+  for (const line of lines) {
+    const trimmed = line.trimStart();
+
+    // 빈 줄 또는 구분선 → 그대로
+    if (trimmed === "" || /^-{3,}$/.test(trimmed)) {
+      result.push(line);
+      continue;
+    }
+
+    // 마크다운 헤더(#) → 그대로 (구조적 포맷)
+    if (trimmed.startsWith("#")) {
+      result.push(line);
+      continue;
+    }
+
+    // 25자 이하 → 그대로
+    if (line.length <= MAX) {
+      result.push(line);
+      continue;
+    }
+
+    // 25자 초과 → 25자 단위로 줄바꿈
+    let remaining = line;
+    while (remaining.length > MAX) {
+      result.push(remaining.slice(0, MAX));
+      remaining = remaining.slice(MAX);
+    }
+    if (remaining) result.push(remaining);
+  }
+
+  return result.join("\n");
+}
+
 function buildCorpusSummarySection(corpus: CorpusSummaryArtifact): string {
   const { styleProfile, exemplarExcerpts } = corpus;
   return `
@@ -179,7 +219,9 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
 
     if (resp.stop_reason === "end_turn") {
       const textBlock = resp.content.find((b) => b.type === "text");
-      const bodyText = textBlock && "text" in textBlock ? textBlock.text : "";
+      const rawText = textBlock && "text" in textBlock ? textBlock.text : "";
+      // 네이버 블로그 줄바꿈 규칙: 1줄 최대 25자
+      const bodyText = wrapTo25Chars(rawText);
 
       onProgress?.("본문 생성 완료 — GitHub에 저장 중...");
 

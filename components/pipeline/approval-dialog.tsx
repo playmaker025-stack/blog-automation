@@ -76,7 +76,15 @@ export function ApprovalDialog({
 
           <div>
             <p className="text-xs text-zinc-500 font-medium mb-1">전략 근거</p>
-            <p className="text-sm text-zinc-700">{rationale}</p>
+            <ol className="space-y-1">
+              {rationale
+                .split(/(?=\d+\.\s)/)
+                .map((s) => s.trim())
+                .filter(Boolean)
+                .map((item, i) => (
+                  <li key={i} className="text-sm text-zinc-700">{item}</li>
+                ))}
+            </ol>
           </div>
 
           {outline.length > 0 && (
