@@ -390,7 +390,16 @@
       "targetCategory": "B블로그",
       "pipelineId": "pipe-c8cf4565",
       "at": "2026-04-09T09:58:59.347Z"
+    },
+    {
+      "type": "gate_result",
+      "gate": "pre-write",
+      "passed": true,
+      "blockedBy": null,
+      "reason": "pre-write gate 통과",
+      "pipelineId": "pipe-c8cf4565",
+      "at": "2026-04-09T09:59:01.805Z"
     }
   ],
-  "lastUpdated": "2026-04-09T09:58:59.347Z"
+  "lastUpdated": "2026-04-09T09:59:01.805Z"
 }
