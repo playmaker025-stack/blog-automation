@@ -1,0 +1,21 @@
+{
+  "pipelineId": "pipe-adb6489d",
+  "type": "approval_request",
+  "savedAt": "2026-04-09T11:12:10.618Z",
+  "data": {
+    "pipelineId": "pipe-adb6489d",
+    "previousTitle": "젤로맥스 vs 발라리안맥스 비교",
+    "proposedTitle": "젤로맥스 vs 발라리안맥스 비교 – 입문용 전자담배 뭐가 더 맞을까?",
+    "materialChange": false,
+    "materialChangeSignals": [
+      "coreKeywordChanged"
+    ],
+    "rationale": "과거 포스팅 패턴 분석 결과, '말론 vs 아스트로 MK3' 비교형 포스팅이 실제 발행된 선례가 있으며, 발라리안 단독 포스팅(누수·코일)도 2건 존재해 독자의 발라리안 관심도가 검증된 상태입니다. 이번 토픽은 두 제품을 처음 접하는 입문자(20~30대, beginner)가 구매 결정에 도움받는 '비교·추천형' 콘텐츠로 기획하는 것이 가장 적합합니다. 블로그의 listicle 선호 구조에 맞춰 섹션별 목록 정리를 기본 뼈대로 삼고, casual 톤의 구어체로 친근하게 서술합니다. 가격·이벤트 언급은 전략 전체에서 배제하며, 성능·사용성·유형별 적합도 중심으로 콘텐츠 가치를 구성합니다. 발라리안 기존 포스팅으로의 내부 링크 유도를 통해 블로그 체류 시간 및 페이지뷰 향상도 기대할 수 있습니다.",
+    "requestedAt": "2026-04-09T11:08:22.065Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-09T11:12:10.618Z",
+      "modifications": null
+    }
+  }
+}
