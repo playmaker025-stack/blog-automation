@@ -340,14 +340,14 @@
       "pipelineId": "pipe-cfea0ab9",
       "topicId": "topic-668670c4",
       "userId": "c",
-      "stage": "idle",
+      "stage": "strategy-planning",
       "error": null,
       "approvalGranted": false,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-09T10:42:58.795Z",
-      "updatedAt": "2026-04-09T10:42:59.337Z"
+      "updatedAt": "2026-04-09T10:43:01.534Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:42:59.337Z"
+  "lastUpdated": "2026-04-09T10:43:01.534Z"
 }
