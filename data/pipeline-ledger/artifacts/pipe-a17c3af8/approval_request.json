@@ -1,0 +1,21 @@
+{
+  "pipelineId": "pipe-a17c3af8",
+  "type": "approval_request",
+  "savedAt": "2026-04-09T09:45:34.942Z",
+  "data": {
+    "pipelineId": "pipe-a17c3af8",
+    "previousTitle": "인천 전자담배 액상 고르는 방법",
+    "proposedTitle": "인천 전자담배 액상 고르는 방법 완전 정리 (입문자 필독)",
+    "materialChange": false,
+    "materialChangeSignals": [
+      "coreKeywordChanged"
+    ],
+    "rationale": "① 사용자 프로필 반영: casual 톤 + listicle 구조를 그대로 채택해 번호 목록과 체크리스트 중심으로 아웃라인을 구성했습니다. 평균 글 길이 1,500자에 맞춰 estimatedLength를 설정했습니다. ② 타깃 독자 반영: 20~30대 beginner를 위해 PG·VG 같은 전문 용어를 섹션 1에서 쉽게 풀어 설명하고, 전 섹션에 걸쳐 '나는 어떤 타입인가' 자기 진단 구조를 배치했습니다. ③ 과거 포스팅 패턴 반영: '체크리스트', 'TOP5', '완전 정리', '종결' 같은 성과 제목 패턴을 제목과 섹션명에 적용했습니다. 지역 키워드(인천·만수동·부평·구월동)를 섹션 5와 키워드 목록에 녹여 지역 검색 SEO를 강화했습니다. ④ 절대 금지 원칙 준수: 가격 정보, 할인·이벤트·프로모션 관련 내용은 제목·아웃라인·키포인트·키워드 어디에도 포함하지 않았습니다. ⑤ 토픽 실현 가능성 100점으로 전략 전면 실행에 적합합니다.",
+    "requestedAt": "2026-04-09T09:45:32.928Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-09T09:45:34.942Z",
+      "modifications": null
+    }
+  }
+}
