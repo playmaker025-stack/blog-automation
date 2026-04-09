@@ -679,7 +679,21 @@
       "reason": "candidate 등록 완료 (75점)",
       "pipelineId": "pipe-3a1675cb",
       "at": "2026-04-09T10:37:36.055Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "팟 전자담배 vs 일회용 전자담배 차이",
+      "proposedTitle": "팟 전자담배 vs 일회용 전자담배 차이 – 입문자라면 꼭 알아야 할 정리",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "searchIntentChanged",
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.5517241379310345,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-812045a5",
+      "at": "2026-04-09T10:56:55.556Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:37:36.055Z"
+  "lastUpdated": "2026-04-09T10:56:55.556Z"
 }
