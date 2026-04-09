@@ -201,7 +201,7 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
   ];
 
   let iterCount = 0;
-  const maxIter = 8;
+  const maxIter = 4;
 
   while (iterCount < maxIter) {
     iterCount++;
@@ -212,7 +212,7 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
       system: buildSystemPrompt(userId, corpusSummary ?? null),
       messages,
       tools: TOOLS,
-      max_tokens: 8192,
+      max_tokens: 4096,
     });
 
     messages.push({ role: "assistant", content: resp.content });

@@ -17,7 +17,7 @@ const SYSTEM_PROMPT = `당신은 네이버 블로그 포스팅 전략 전문가�
 
 ## 작업 순서
 1. user_profile_loader로 사용자 프로필과 금지 표현 로드
-2. user_corpus_retriever로 관련 예시 글 4-5개 로드 (스타일 분석)
+2. user_corpus_retriever로 관련 예시 글 2개 로드 (스타일 분석, limit:2)
 3. topic_feasibility_judge로 토픽 실현 가능성 확인
 4. (참조 URL이 있으면) source_resolver로 검증
 5. review_record_audit으로 과거 패턴 참조
@@ -210,7 +210,7 @@ export async function runStrategyPlanner(params: {
       messages: [{ role: "user", content: userMessage }],
       tools: TOOLS,
       toolRegistry,
-      maxIterations: 12,
+      maxIterations: 6,
     });
 
     onProgress?.("전략 계획 파싱 중...");

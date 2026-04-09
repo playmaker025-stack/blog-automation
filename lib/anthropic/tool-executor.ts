@@ -36,7 +36,7 @@ export async function runToolUseLoop(
         system,
         messages,
         tools,
-        max_tokens: 8192,
+        max_tokens: 4096,
       });
     } catch (err) {
       // 원본 오류 상세 정보를 서버 로그에 기록

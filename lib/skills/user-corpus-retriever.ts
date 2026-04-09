@@ -9,7 +9,7 @@ import type {
 export async function userCorpusRetriever(
   input: UserCorpusRetrieverInput
 ): Promise<UserCorpusRetrieverOutput> {
-  const { userId, limit = 5, category, tags } = input;
+  const { userId, limit = 2, category, tags } = input;
 
   const indexPath = Paths.corpusIndex(userId);
   const indexExists = await fileExists(indexPath);

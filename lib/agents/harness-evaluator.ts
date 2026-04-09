@@ -144,7 +144,7 @@ export async function runHarnessEvaluator(params: {
 담당 사용자 ID: ${userId}
 
 --- 본문 시작 ---
-${writerResult.content.slice(0, 3000)}${writerResult.content.length > 3000 ? "\n...(이하 생략)..." : ""}
+${writerResult.content.slice(0, 1500)}${writerResult.content.length > 1500 ? "\n...(이하 생략)..." : ""}
 --- 본문 끝 ---
 
 user_corpus_retriever로 코퍼스를 로드하고, review_record_audit으로 패턴을 확인한 후 평가 JSON을 출력해주세요.`;
@@ -157,7 +157,7 @@ user_corpus_retriever로 코퍼스를 로드하고, review_record_audit으로 �
     messages: [{ role: "user", content: userMessage }],
     tools: TOOLS,
     toolRegistry,
-    maxIterations: 8,
+    maxIterations: 4,
   });
 
   onProgress?.("평가 결과 파싱 중...");
