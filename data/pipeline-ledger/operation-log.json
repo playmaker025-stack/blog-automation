@@ -356,7 +356,18 @@
       "reason": "candidate 등록 완료 (74점)",
       "pipelineId": "pipe-7acfd61b",
       "at": "2026-04-09T09:51:55.599Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "입문용 팟 전자담배 기준, 한달 비용이 달라지는 4가지 변수",
+      "proposedTitle": "입문용 팟 전자담배 고를 때, 한 달 유지 부담이 달라지는 4가지 변수",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.75,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-c8cf4565",
+      "at": "2026-04-09T09:58:35.356Z"
     }
   ],
-  "lastUpdated": "2026-04-09T09:51:55.599Z"
+  "lastUpdated": "2026-04-09T09:58:35.356Z"
 }
