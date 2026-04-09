@@ -336,7 +336,17 @@
       "reason": "pre-write gate 통과",
       "pipelineId": "pipe-7acfd61b",
       "at": "2026-04-09T09:49:41.226Z"
+    },
+    {
+      "type": "gate_result",
+      "gate": "post-audit",
+      "passed": true,
+      "blockedBy": null,
+      "reason": "post-audit gate 통과",
+      "evalScore": 74,
+      "pipelineId": "pipe-7acfd61b",
+      "at": "2026-04-09T09:51:53.369Z"
     }
   ],
-  "lastUpdated": "2026-04-09T09:49:41.226Z"
+  "lastUpdated": "2026-04-09T09:51:53.369Z"
 }
