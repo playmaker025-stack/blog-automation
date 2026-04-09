@@ -1,0 +1,21 @@
+{
+  "pipelineId": "pipe-fcd4a2f1",
+  "type": "approval_request",
+  "savedAt": "2026-04-09T10:19:00.080Z",
+  "data": {
+    "pipelineId": "pipe-fcd4a2f1",
+    "previousTitle": "말론 vs 아스트로 MK3 입문 추천",
+    "proposedTitle": "말론 vs 아스트로 MK3 입문 추천 – 입호흡 전자담배 차이 총정리",
+    "materialChange": false,
+    "materialChangeSignals": [
+      "coreKeywordChanged"
+    ],
+    "rationale": "과거 포스팅 패턴 분석 결과, 'vs 비교형' 제목과 '5가지 이유', '차이 정리' 등 리스티클 구조가 이 블로그의 핵심 패턴으로 확인됨. 동일 제목(말론 vs 아스트로 MK3)의 기발행 포스트도 존재하나, 본 전략은 섹션 구조를 '스펙 → 직접 비교 → 유형별 추천 → 결론' 순으로 체계화하여 가독성과 검색 체류 시간을 높이는 방향으로 설계함. 타깃인 20-30대 전담 입문자는 '내게 맞는 기기 선택'에 대한 정보 니즈가 강하므로, 단순 스펙 비교보다 '어떤 사람에게 맞는가'라는 유형별 추천 구조가 검색 의도에 더 정확히 부합함. 캐주얼 톤과 리스티클 구조를 유지하되, 섹션 간 대칭 구성으로 비교 글 특유의 균형감을 확보함.",
+    "requestedAt": "2026-04-09T10:18:53.077Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-09T10:19:00.080Z",
+      "modifications": null
+    }
+  }
+}
