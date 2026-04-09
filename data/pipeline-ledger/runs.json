@@ -379,11 +379,11 @@
       "stage": "awaiting-approval",
       "error": null,
       "approvalGranted": true,
-      "postingListUpdated": false,
+      "postingListUpdated": true,
       "indexUpdated": false,
       "createdAt": "2026-04-09T11:07:14.474Z",
-      "updatedAt": "2026-04-09T11:12:13.749Z"
+      "updatedAt": "2026-04-09T11:12:17.017Z"
     }
   ],
-  "lastUpdated": "2026-04-09T11:12:13.749Z"
+  "lastUpdated": "2026-04-09T11:12:17.017Z"
 }
