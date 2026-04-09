@@ -1,0 +1,21 @@
+{
+  "pipelineId": "pipe-3a1675cb",
+  "type": "approval_request",
+  "savedAt": "2026-04-09T10:35:15.837Z",
+  "data": {
+    "pipelineId": "pipe-3a1675cb",
+    "previousTitle": "그래피티2 vs 그래피티3 차이",
+    "proposedTitle": "그래피티2 vs 그래피티3 차이 – 어떤 게 나한테 맞을까?",
+    "materialChange": false,
+    "materialChangeSignals": [
+      "coreKeywordChanged"
+    ],
+    "rationale": "① 과거 포스팅에서 '말론 vs 아스트로 MK3', '젤로맥스 vs 발라리안맥스' 등 비교형 포스팅이 다수 확인되어, 동일한 'A vs B 차이 정리' 구조를 그대로 적용했습니다. ② 타깃 독자가 20-30대 입문자이므로 전문 용어보다 사용 경험 중심의 쉬운 서술을 택했습니다. ③ 선호 구조인 리스티클(번호형 목록)을 핵심 비교 섹션과 유형별 추천 섹션에 집중 배치하여 스캔 가독성을 높였습니다. ④ 블로그 정체성(만수르 전담 매장)에 맞게 로컬 지역명 키워드(인천, 구월동 등)를 자연스럽게 포함시켜 네이버 로컬 검색 노출을 강화했습니다. ⑤ 가격·이벤트 관련 내용은 전략 전반에 걸쳐 완전히 배제하였습니다.",
+    "requestedAt": "2026-04-09T10:34:48.727Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-09T10:35:15.837Z",
+      "modifications": null
+    }
+  }
+}
