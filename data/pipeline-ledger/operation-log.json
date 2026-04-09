@@ -759,7 +759,19 @@
       "timedOut": false,
       "pipelineId": "pipe-adb6489d",
       "at": "2026-04-09T11:12:09.857Z"
+    },
+    {
+      "type": "corpus_retrieval",
+      "userId": "c",
+      "selectedCount": 0,
+      "strategy": "fallback_recent",
+      "staleCount": 0,
+      "staleWarnings": [],
+      "topScores": [],
+      "targetCategory": "C블로그",
+      "pipelineId": "pipe-adb6489d",
+      "at": "2026-04-09T11:12:24.864Z"
     }
   ],
-  "lastUpdated": "2026-04-09T11:12:09.857Z"
+  "lastUpdated": "2026-04-09T11:12:24.864Z"
 }
