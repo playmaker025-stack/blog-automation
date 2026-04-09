@@ -1460,16 +1460,16 @@
       "topicId": "topic-e6ebfbdd",
       "userId": "c",
       "title": "팟 전자담배 vs 일회용 전자담배 차이 – 입문자라면 꼭 알아야 할 정리",
-      "status": "ready",
+      "status": "audit_failed",
       "naverPostUrl": null,
-      "evalScore": null,
+      "evalScore": 53,
       "wordCount": 2078,
       "compositionSessionId": "pipe-812045a5",
       "pendingApproval": null,
       "createdAt": "2026-04-09T10:57:49.448Z",
       "publishedAt": null,
-      "updatedAt": "2026-04-09T10:59:09.158Z"
+      "updatedAt": "2026-04-09T11:00:05.033Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:59:09.158Z"
+  "lastUpdated": "2026-04-09T11:00:05.033Z"
 }
