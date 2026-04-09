@@ -316,14 +316,14 @@
       "pipelineId": "pipe-4cad2fb2",
       "topicId": "topic-d9416a48",
       "userId": "a",
-      "stage": "awaiting-approval",
+      "stage": "writing",
       "error": null,
       "approvalGranted": true,
       "postingListUpdated": true,
-      "indexUpdated": false,
+      "indexUpdated": true,
       "createdAt": "2026-04-09T10:29:07.856Z",
-      "updatedAt": "2026-04-09T10:30:19.687Z"
+      "updatedAt": "2026-04-09T10:30:22.753Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:30:19.687Z"
+  "lastUpdated": "2026-04-09T10:30:22.753Z"
 }
