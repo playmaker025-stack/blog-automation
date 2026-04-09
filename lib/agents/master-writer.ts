@@ -227,7 +227,7 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
 
       // 토큰 스트리밍 시뮬레이션 (청크 단위)
       if (onToken) {
-        const chunks = bodyText.match(/.{1,80}/g) ?? [];
+        const chunks = bodyText.match(/[\s\S]{1,80}/g) ?? [];
         for (const chunk of chunks) {
           onToken(chunk);
           await new Promise((r) => setTimeout(r, 5));
