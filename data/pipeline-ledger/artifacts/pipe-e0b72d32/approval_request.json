@@ -1,0 +1,21 @@
+{
+  "pipelineId": "pipe-e0b72d32",
+  "type": "approval_request",
+  "savedAt": "2026-04-09T09:38:46.616Z",
+  "data": {
+    "pipelineId": "pipe-e0b72d32",
+    "previousTitle": "구월동 전자담배 추천 기기 가이드",
+    "proposedTitle": "구월동 전자담배 추천 기기 가이드 | 입문자도 바로 선택 가능",
+    "materialChange": false,
+    "materialChangeSignals": [
+      "coreKeywordChanged"
+    ],
+    "rationale": "사용자 A 블로그의 핵심 패턴은 '지역명 + 전자담배 + 추천/가이드' 조합의 리스티클 구조다. 과거 발행 포스팅에서 부평·만수동·구월동 등 인천 지역 매장 연계 전자담배 추천 글이 반복적으로 확인되며, 입문자를 위한 기기 유형 비교, TOP N 형식, 체크리스트 형식이 주요 포맷으로 사용됐다. 이번 전략도 동일한 리스티클 구조에 입문자(beginner) 눈높이에 맞는 쉬운 설명을 결합하고, '구월동'이라는 지역 키워드를 제목과 본문에 자연스럽게 배치해 지역 검색 유입을 극대화하는 방향으로 설계했다. 평균 글 길이인 1,500자를 목표로 하되, 가격·프로모션 등 절대 금지 원칙을 전 섹션에서 준수했다.",
+    "requestedAt": "2026-04-09T09:38:44.544Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-09T09:38:46.616Z",
+      "modifications": null
+    }
+  }
+}
