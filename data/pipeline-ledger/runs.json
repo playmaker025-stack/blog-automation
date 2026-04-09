@@ -367,11 +367,11 @@
       "stage": "awaiting-approval",
       "error": null,
       "approvalGranted": true,
-      "postingListUpdated": false,
+      "postingListUpdated": true,
       "indexUpdated": false,
       "createdAt": "2026-04-09T10:55:52.859Z",
-      "updatedAt": "2026-04-09T10:57:48.854Z"
+      "updatedAt": "2026-04-09T10:57:51.755Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:57:48.854Z"
+  "lastUpdated": "2026-04-09T10:57:51.755Z"
 }
