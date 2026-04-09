@@ -2,7 +2,7 @@
   "pipelineId": "pipe-adb6489d",
   "topicId": "topic-668670c4",
   "userId": "c",
-  "state": "records_updated",
+  "state": "audit_failed",
   "history": [
     {
       "from": null,
@@ -31,8 +31,18 @@
       "reason": "posting-list + index 반영 완료",
       "at": "2026-04-09T11:12:22.663Z",
       "actor": "system"
+    },
+    {
+      "from": "records_updated",
+      "to": "audit_failed",
+      "reason": "eval 점수 미달: 63점 (기준: 70점)",
+      "at": "2026-04-09T11:14:35.529Z",
+      "actor": "system"
     }
   ],
   "createdAt": "2026-04-09T11:07:15.952Z",
-  "updatedAt": "2026-04-09T11:12:22.663Z"
+  "updatedAt": "2026-04-09T11:14:35.529Z",
+  "gateBlockedBy": "audit_not_approved",
+  "gateBlockedReason": "eval 점수 미달: 63점 (기준: 70점)",
+  "gateBlockedAt": "2026-04-09T11:14:35.529Z"
 }
