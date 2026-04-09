@@ -1,0 +1,21 @@
+{
+  "pipelineId": "pipe-4cad2fb2",
+  "type": "approval_request",
+  "savedAt": "2026-04-09T10:30:12.927Z",
+  "data": {
+    "pipelineId": "pipe-4cad2fb2",
+    "previousTitle": "인천 전자담배 입문 가이드 테스트",
+    "proposedTitle": "인천 전자담배 입문 가이드 | 처음이라면 이것만 알면 됩니다",
+    "materialChange": false,
+    "materialChangeSignals": [
+      "coreKeywordChanged"
+    ],
+    "rationale": "① 사용자 프로필: casual 톤 + listicle 구조 + beginner 타깃(20-30대)에 맞춰 번호형 목록, 체크리스트, Q&A 형식을 중심으로 구성했습니다. ② 과거 포스팅 패턴: '인천/구월동/부평 전자담배', '입호흡·폐호흡 차이', '코일 교체시기', '체크리스트 10' 등 이미 검증된 주제 구조를 이번 입문 가이드에 통합하여 기존 독자의 기대에도 부응하도록 했습니다. ③ 검색 의도: '인천 전자담배 입문', '전자담배 처음 시작' 등 지역 + 입문 키워드를 제목과 각 섹션에 자연스럽게 배치해 네이버 검색 유입을 극대화합니다. ④ 절대 금지 원칙 준수: 가격·할인·이벤트·프로모션 관련 내용은 아웃라인 및 키포인트 전 구간에서 완전히 배제했습니다.",
+    "requestedAt": "2026-04-09T10:30:10.398Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-09T10:30:12.927Z",
+      "modifications": null
+    }
+  }
+}
