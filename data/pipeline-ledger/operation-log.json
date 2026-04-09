@@ -573,7 +573,19 @@
       "timedOut": false,
       "pipelineId": "pipe-4cad2fb2",
       "at": "2026-04-09T10:30:12.017Z"
+    },
+    {
+      "type": "corpus_retrieval",
+      "userId": "a",
+      "selectedCount": 0,
+      "strategy": "fallback_recent",
+      "staleCount": 0,
+      "staleWarnings": [],
+      "topScores": [],
+      "targetCategory": "일반",
+      "pipelineId": "pipe-4cad2fb2",
+      "at": "2026-04-09T10:30:27.886Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:30:12.017Z"
+  "lastUpdated": "2026-04-09T10:30:27.886Z"
 }
