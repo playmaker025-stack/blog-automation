@@ -1439,7 +1439,22 @@
       "createdAt": "2026-04-09T10:30:16.516Z",
       "publishedAt": null,
       "updatedAt": "2026-04-09T10:32:39.731Z"
+    },
+    {
+      "postId": "post-e82a1953",
+      "topicId": "topic-1fa85501",
+      "userId": "c",
+      "title": "그래피티2 vs 그래피티3 차이 – 어떤 게 나한테 맞을까?",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-3a1675cb",
+      "pendingApproval": null,
+      "createdAt": "2026-04-09T10:35:19.518Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-09T10:35:19.518Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:32:39.731Z"
+  "lastUpdated": "2026-04-09T10:35:19.518Z"
 }
