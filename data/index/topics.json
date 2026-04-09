@@ -389,7 +389,20 @@
       "assignedUserId": "e",
       "createdAt": "2026-04-02T07:01:19.418Z",
       "updatedAt": "2026-04-02T07:01:19.418Z"
+    },
+    {
+      "topicId": "topic-32ad4b9e",
+      "title": "인천 전자담배 입문 가이드 테스트",
+      "description": "",
+      "category": "일반",
+      "tags": [],
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-04-09T10:12:13.980Z",
+      "updatedAt": "2026-04-09T10:12:13.980Z"
     }
   ],
-  "lastUpdated": "2026-04-09T09:58:53.315Z"
+  "lastUpdated": "2026-04-09T10:12:13.980Z"
 }
