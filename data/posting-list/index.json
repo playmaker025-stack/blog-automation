@@ -1409,7 +1409,22 @@
       "createdAt": "2026-04-09T10:13:39.150Z",
       "publishedAt": null,
       "updatedAt": "2026-04-09T10:16:38.057Z"
+    },
+    {
+      "postId": "post-97fd0e14",
+      "topicId": "topic-6ca55bd1",
+      "userId": "c",
+      "title": "말론 vs 아스트로 MK3 입문 추천 – 입호흡 전자담배 차이 총정리",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-fcd4a2f1",
+      "pendingApproval": null,
+      "createdAt": "2026-04-09T10:19:03.539Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-09T10:19:03.539Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:16:38.057Z"
+  "lastUpdated": "2026-04-09T10:19:03.539Z"
 }
