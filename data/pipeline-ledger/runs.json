@@ -340,14 +340,14 @@
       "pipelineId": "pipe-cfea0ab9",
       "topicId": "topic-668670c4",
       "userId": "c",
-      "stage": "strategy-planning",
-      "error": null,
+      "stage": "failed",
+      "error": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CZt4MypVLVSpex1Dphfu5\"}",
       "approvalGranted": false,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-09T10:42:58.795Z",
-      "updatedAt": "2026-04-09T10:43:01.534Z"
+      "updatedAt": "2026-04-09T10:43:03.314Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:43:01.534Z"
+  "lastUpdated": "2026-04-09T10:43:03.314Z"
 }
