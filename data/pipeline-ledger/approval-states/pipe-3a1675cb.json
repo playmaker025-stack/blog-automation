@@ -2,7 +2,7 @@
   "pipelineId": "pipe-3a1675cb",
   "topicId": "topic-1fa85501",
   "userId": "c",
-  "state": "approved_pending_record_update",
+  "state": "records_updated",
   "history": [
     {
       "from": null,
@@ -24,8 +24,15 @@
       "reason": "사용자 승인 완료",
       "at": "2026-04-09T10:35:17.397Z",
       "actor": "c"
+    },
+    {
+      "from": "approved_pending_record_update",
+      "to": "records_updated",
+      "reason": "posting-list + index 반영 완료",
+      "at": "2026-04-09T10:35:27.666Z",
+      "actor": "system"
     }
   ],
   "createdAt": "2026-04-09T10:33:45.299Z",
-  "updatedAt": "2026-04-09T10:35:17.397Z"
+  "updatedAt": "2026-04-09T10:35:27.666Z"
 }
