@@ -725,7 +725,17 @@
       "reason": "pre-write gate 통과",
       "pipelineId": "pipe-812045a5",
       "at": "2026-04-09T10:58:01.959Z"
+    },
+    {
+      "type": "gate_result",
+      "gate": "post-audit",
+      "passed": false,
+      "blockedBy": "audit_not_approved",
+      "reason": "eval 점수 미달: 53점 (기준: 70점)",
+      "evalScore": 53,
+      "pipelineId": "pipe-812045a5",
+      "at": "2026-04-09T11:00:03.484Z"
     }
   ],
-  "lastUpdated": "2026-04-09T10:58:01.959Z"
+  "lastUpdated": "2026-04-09T11:00:03.484Z"
 }
