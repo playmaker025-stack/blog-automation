@@ -1,0 +1,21 @@
+{
+  "pipelineId": "pipe-fce28442",
+  "type": "approval_request",
+  "savedAt": "2026-04-10T07:53:31.515Z",
+  "data": {
+    "pipelineId": "pipe-fce28442",
+    "previousTitle": "입문 전자담배 TOP5 비교",
+    "proposedTitle": "입문자를 위한 전자담배 TOP5 완벽 비교 가이드",
+    "materialChange": false,
+    "materialChangeSignals": [
+      "searchIntentChanged"
+    ],
+    "rationale": "사용자 프로필·코퍼스·과거 포스팅 이력이 모두 신규 상태이므로, 블로그 초기 트래픽 확보에 유리한 '비교형 정보글' 구조를 채택했습니다. 토픽 제목의 'TOP5 비교'는 가격 비교로 흐를 수 있으나, 금지 원칙에 따라 가격·이벤트 정보를 완전히 배제하고 기능·사용감·편의성·유형별 추천 중심으로 재구성했습니다. 전자담배 입문자라는 명확한 타깃을 설정해 검색 의도(입문자의 제품 선택 고민)를 정확히 겨냥하고, 비교표·추천 흐름도·주의사항 등 다양한 콘텐츠 포맷을 혼합해 체류 시간과 재방문율을 높이는 방향으로 전략을 수립했습니다.",
+    "requestedAt": "2026-04-10T07:53:20.899Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-10T07:53:31.515Z",
+      "modifications": null
+    }
+  }
+}
