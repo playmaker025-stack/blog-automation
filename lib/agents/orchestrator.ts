@@ -72,8 +72,12 @@ function emit(
   controller: ReadableStreamDefaultController,
   event: SSEEvent
 ): void {
-  const encoder = new TextEncoder();
-  controller.enqueue(encoder.encode(`data: ${JSON.stringify(event)}\n\n`));
+  try {
+    const encoder = new TextEncoder();
+    controller.enqueue(encoder.encode(`data: ${JSON.stringify(event)}\n\n`));
+  } catch {
+    // stream이 이미 닫힌 경우 — 무시
+  }
 }
 
 function makeEvent(

@@ -13,7 +13,10 @@ export function getAnthropicClient(): Anthropic {
     throw new Error("ANTHROPIC_API_KEY 환경 변수가 설정되지 않았습니다.");
   }
 
-  _client = new Anthropic({ apiKey, timeout: 120_000, maxRetries: 1 });
+  // maxRetries: 0 — SDK 내부 재시도 비활성화.
+  // 재시도 시 조용한 대기(최대 수십초)가 발생해 stall timer가 오작동함.
+  // 에러 즉시 노출 → 상위 stall timer / race timeout이 처리.
+  _client = new Anthropic({ apiKey, timeout: 120_000, maxRetries: 0 });
   return _client;
 }
 
