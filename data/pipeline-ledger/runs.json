@@ -515,7 +515,19 @@
       "indexUpdated": false,
       "createdAt": "2026-04-10T04:26:04.975Z",
       "updatedAt": "2026-04-10T04:26:07.236Z"
+    },
+    {
+      "pipelineId": "pipe-3afda073",
+      "topicId": "topic-afccca09",
+      "userId": "b",
+      "stage": "idle",
+      "error": null,
+      "approvalGranted": false,
+      "postingListUpdated": false,
+      "indexUpdated": false,
+      "createdAt": "2026-04-10T04:27:15.919Z",
+      "updatedAt": "2026-04-10T04:27:16.573Z"
     }
   ],
-  "lastUpdated": "2026-04-10T04:26:07.236Z"
+  "lastUpdated": "2026-04-10T04:27:16.573Z"
 }
