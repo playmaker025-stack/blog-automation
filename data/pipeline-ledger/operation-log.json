@@ -1148,7 +1148,21 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-76aa8c1d",
       "at": "2026-04-10T06:49:16.276Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "입문 전자담배 TOP5 비교",
+      "proposedTitle": "입문 전자담배 어떻게 고를까? 초보자를 위한 기기 특징 비교 가이드",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "searchIntentChanged",
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.2857142857142857,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-d8e92c11",
+      "at": "2026-04-10T06:49:25.904Z"
     }
   ],
-  "lastUpdated": "2026-04-10T06:49:16.276Z"
+  "lastUpdated": "2026-04-10T06:49:25.904Z"
 }
