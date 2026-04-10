@@ -32,21 +32,19 @@ export async function runToolUseLoop(
     let response: Awaited<ReturnType<typeof client.messages.create>>;
     const CALL_TIMEOUT_MS = 90_000;
     try {
-      response = await Promise.race([
-        client.messages.create({
-          model,
-          system,
-          messages,
-          tools,
-          max_tokens: 4096,
-        }),
-        new Promise<never>((_, reject) =>
-          setTimeout(
-            () => reject(new Error(`tool-executor API 타임아웃 (${CALL_TIMEOUT_MS / 1000}초) — iteration ${iterations}`)),
-            CALL_TIMEOUT_MS
-          )
-        ),
-      ]);
+      // AbortSignal.timeout: HTTP 연결 레벨에서 강제 취소
+      // Promise.race + setTimeout 패턴은 타임아웃 후에도 HTTP 연결이 살아있어
+      // 다중 파이프라인 동시 실행 시 자원 고갈이 발생할 수 있음
+      const callSignal = AbortSignal.timeout(CALL_TIMEOUT_MS);
+      console.log(`[tool-executor] iteration ${iterations} API call start`);
+      response = await client.messages.create({
+        model,
+        system,
+        messages,
+        tools,
+        max_tokens: 4096,
+      }, { signal: callSignal });
+      console.log(`[tool-executor] iteration ${iterations} API call done — stop_reason=${response.stop_reason}`);
     } catch (err) {
       // 원본 오류 상세 정보를 서버 로그에 기록
       console.error("[tool-executor] Anthropic API 오류:", {

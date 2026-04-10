@@ -244,22 +244,17 @@ export async function runStrategyPlannerSimple(params: {
   const client = getAnthropicClient();
 
   const timeoutMs = 60_000;
-  const response = await Promise.race([
-    client.messages.create({
-      model: MODELS.sonnet,
-      system: SYSTEM_PROMPT,
-      max_tokens: 4096,
-      messages: [
-        {
-          role: "user",
-          content: `토픽 제목: ${params.topicTitle}\n설명: ${params.topicDescription}\n사용자 ID: ${params.userId}\n\n전략 JSON을 출력해주세요.`,
-        },
-      ],
-    }),
-    new Promise<never>((_, reject) =>
-      setTimeout(() => reject(new Error(`Strategy Planner API 타임아웃 (${timeoutMs / 1000}초)`)), timeoutMs)
-    ),
-  ]);
+  const response = await client.messages.create({
+    model: MODELS.sonnet,
+    system: SYSTEM_PROMPT,
+    max_tokens: 4096,
+    messages: [
+      {
+        role: "user",
+        content: `토픽 제목: ${params.topicTitle}\n설명: ${params.topicDescription}\n사용자 ID: ${params.userId}\n\n전략 JSON을 출력해주세요.`,
+      },
+    ],
+  }, { signal: AbortSignal.timeout(timeoutMs) });
 
   const text = response.content.find((b) => b.type === "text");
   if (!text || text.type !== "text") throw new Error("응답 없음");
