@@ -790,7 +790,21 @@
       "evalScore": 63,
       "pipelineId": "pipe-adb6489d",
       "at": "2026-04-09T11:14:32.479Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "입호흡 vs 폐호흡 차이",
+      "proposedTitle": "입호흡 vs 폐호흡, 뭐가 다를까? 초보자도 이해하는 완벽 정리",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "searchIntentChanged",
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.33333333333333337,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-7feed85d",
+      "at": "2026-04-10T03:01:26.621Z"
     }
   ],
-  "lastUpdated": "2026-04-09T11:14:32.479Z"
+  "lastUpdated": "2026-04-10T03:01:26.621Z"
 }
