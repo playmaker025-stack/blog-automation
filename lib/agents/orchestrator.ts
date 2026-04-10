@@ -876,7 +876,7 @@ async function createPostingRecord(params: {
 // fn() 내부에서 최신 SHA를 매번 새로 읽으므로 단순히 재호출하면 된다.
 async function withConflictRetry<T>(
   fn: () => Promise<T>,
-  maxAttempts = 4
+  maxAttempts = 8
 ): Promise<T> {
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
     try {
@@ -884,7 +884,9 @@ async function withConflictRetry<T>(
     } catch (err) {
       const status = (err as { status?: number }).status;
       if ((status === 409 || status === 422) && attempt < maxAttempts - 1) {
-        // stale SHA — fn()이 내부에서 재조회하므로 즉시 재시도
+        // stale SHA — fn()이 내부에서 재조회. jitter로 thundering herd 방지
+        const jitter = Math.floor(Math.random() * 100) + 50; // 50~150ms
+        await new Promise((r) => setTimeout(r, jitter * (attempt + 1)));
         continue;
       }
       throw err;
