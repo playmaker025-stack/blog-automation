@@ -535,11 +535,11 @@
       "stage": "awaiting-approval",
       "error": null,
       "approvalGranted": true,
-      "postingListUpdated": false,
+      "postingListUpdated": true,
       "indexUpdated": false,
       "createdAt": "2026-04-10T04:31:41.095Z",
-      "updatedAt": "2026-04-10T04:32:41.172Z"
+      "updatedAt": "2026-04-10T04:32:43.652Z"
     }
   ],
-  "lastUpdated": "2026-04-10T04:32:41.172Z"
+  "lastUpdated": "2026-04-10T04:32:43.652Z"
 }
