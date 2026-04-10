@@ -388,14 +388,14 @@
       "pipelineId": "pipe-7feed85d",
       "topicId": "topic-dcc38665",
       "userId": "C",
-      "stage": "idle",
+      "stage": "strategy-planning",
       "error": null,
       "approvalGranted": false,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-10T03:00:16.422Z",
-      "updatedAt": "2026-04-10T03:00:17.170Z"
+      "updatedAt": "2026-04-10T03:00:19.833Z"
     }
   ],
-  "lastUpdated": "2026-04-10T03:00:17.170Z"
+  "lastUpdated": "2026-04-10T03:00:19.833Z"
 }
