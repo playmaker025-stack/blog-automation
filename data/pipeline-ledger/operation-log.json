@@ -1023,7 +1023,18 @@
       "reason": "pre-write gate 통과",
       "pipelineId": "pipe-c91f9662",
       "at": "2026-04-10T05:04:30.882Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부평전자담배 매장에서 가장 많이 팔리는 기기는 무엇일까?",
+      "proposedTitle": "부평전자담배 매장에서 가장 많이 팔리는 기기는 무엇일까?",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-9d774edf",
+      "at": "2026-04-10T05:24:32.427Z"
     }
   ],
-  "lastUpdated": "2026-04-10T05:04:30.882Z"
+  "lastUpdated": "2026-04-10T05:24:32.427Z"
 }
