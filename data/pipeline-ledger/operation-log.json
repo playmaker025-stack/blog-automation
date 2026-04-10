@@ -1334,7 +1334,19 @@
       "timedOut": false,
       "pipelineId": "pipe-f6c3fc2f",
       "at": "2026-04-10T08:31:44.218Z"
+    },
+    {
+      "type": "corpus_retrieval",
+      "userId": "D",
+      "selectedCount": 0,
+      "strategy": "fallback_recent",
+      "staleCount": 0,
+      "staleWarnings": [],
+      "topScores": [],
+      "targetCategory": "D블로그",
+      "pipelineId": "pipe-f6c3fc2f",
+      "at": "2026-04-10T08:31:54.153Z"
     }
   ],
-  "lastUpdated": "2026-04-10T08:31:44.218Z"
+  "lastUpdated": "2026-04-10T08:31:54.153Z"
 }
