@@ -1323,7 +1323,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-f6c3fc2f",
       "at": "2026-04-10T08:31:35.232Z"
+    },
+    {
+      "type": "approval_ux",
+      "materialChange": false,
+      "requestedAt": "2026-04-10T08:31:36.856Z",
+      "respondedAt": "2026-04-10T08:31:43.670Z",
+      "approved": true,
+      "elapsedMs": 6814,
+      "timedOut": false,
+      "pipelineId": "pipe-f6c3fc2f",
+      "at": "2026-04-10T08:31:44.218Z"
     }
   ],
-  "lastUpdated": "2026-04-10T08:31:35.232Z"
+  "lastUpdated": "2026-04-10T08:31:44.218Z"
 }
