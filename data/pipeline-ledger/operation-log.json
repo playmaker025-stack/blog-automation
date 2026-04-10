@@ -905,7 +905,19 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-b08a7320",
       "at": "2026-04-10T04:32:35.797Z"
+    },
+    {
+      "type": "corpus_retrieval",
+      "userId": "b",
+      "selectedCount": 0,
+      "strategy": "fallback_recent",
+      "staleCount": 0,
+      "staleWarnings": [],
+      "topScores": [],
+      "targetCategory": "B블로그",
+      "pipelineId": "pipe-b08a7320",
+      "at": "2026-04-10T04:32:49.060Z"
     }
   ],
-  "lastUpdated": "2026-04-10T04:32:35.797Z"
+  "lastUpdated": "2026-04-10T04:32:49.060Z"
 }
