@@ -30,14 +30,23 @@ export async function runToolUseLoop(
     iterations++;
 
     let response: Awaited<ReturnType<typeof client.messages.create>>;
+    const CALL_TIMEOUT_MS = 90_000;
     try {
-      response = await client.messages.create({
-        model,
-        system,
-        messages,
-        tools,
-        max_tokens: 4096,
-      });
+      response = await Promise.race([
+        client.messages.create({
+          model,
+          system,
+          messages,
+          tools,
+          max_tokens: 4096,
+        }),
+        new Promise<never>((_, reject) =>
+          setTimeout(
+            () => reject(new Error(`tool-executor API 타임아웃 (${CALL_TIMEOUT_MS / 1000}초) — iteration ${iterations}`)),
+            CALL_TIMEOUT_MS
+          )
+        ),
+      ]);
     } catch (err) {
       // 원본 오류 상세 정보를 서버 로그에 기록
       console.error("[tool-executor] Anthropic API 오류:", {
