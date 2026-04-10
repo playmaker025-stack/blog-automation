@@ -804,7 +804,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-7feed85d",
       "at": "2026-04-10T03:01:26.621Z"
+    },
+    {
+      "type": "approval_ux",
+      "materialChange": true,
+      "requestedAt": "2026-04-10T03:01:28.488Z",
+      "respondedAt": "2026-04-10T03:02:15.309Z",
+      "approved": true,
+      "elapsedMs": 46821,
+      "timedOut": false,
+      "pipelineId": "pipe-7feed85d",
+      "at": "2026-04-10T03:02:16.287Z"
     }
   ],
-  "lastUpdated": "2026-04-10T03:01:26.621Z"
+  "lastUpdated": "2026-04-10T03:02:16.287Z"
 }
