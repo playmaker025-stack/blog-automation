@@ -556,14 +556,14 @@
       "pipelineId": "pipe-f97ce08d",
       "topicId": "topic-f03efaa1",
       "userId": "b",
-      "stage": "awaiting-approval",
+      "stage": "writing",
       "error": null,
       "approvalGranted": true,
       "postingListUpdated": true,
-      "indexUpdated": false,
+      "indexUpdated": true,
       "createdAt": "2026-04-10T04:49:39.062Z",
-      "updatedAt": "2026-04-10T04:50:47.744Z"
+      "updatedAt": "2026-04-10T04:50:50.036Z"
     }
   ],
-  "lastUpdated": "2026-04-10T04:50:47.744Z"
+  "lastUpdated": "2026-04-10T04:50:50.036Z"
 }
