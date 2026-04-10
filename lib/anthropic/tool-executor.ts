@@ -84,7 +84,16 @@ export async function runToolUseLoop(
         }
 
         try {
-          const result = await skillFn(block.input);
+          // 스킬 실행 타임아웃: GitHub API 등 외부 IO가 무한 대기하는 것 방지
+          const SKILL_TIMEOUT_MS = 30_000;
+          console.log(`[tool-executor] skill "${block.name}" start`);
+          const result = await Promise.race([
+            skillFn(block.input),
+            new Promise<never>((_, reject) =>
+              setTimeout(() => reject(new Error(`스킬 타임아웃 "${block.name}" (${SKILL_TIMEOUT_MS / 1000}초)`)), SKILL_TIMEOUT_MS)
+            ),
+          ]);
+          console.log(`[tool-executor] skill "${block.name}" done`);
           toolResults.push({
             type: "tool_result",
             tool_use_id: block.id,
@@ -92,6 +101,7 @@ export async function runToolUseLoop(
           });
         } catch (err) {
           const message = err instanceof Error ? err.message : "스킬 실행 오류";
+          console.error(`[tool-executor] skill "${block.name}" error:`, message);
           toolResults.push({
             type: "tool_result",
             tool_use_id: block.id,
