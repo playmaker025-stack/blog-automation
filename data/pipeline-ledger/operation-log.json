@@ -1346,7 +1346,16 @@
       "targetCategory": "D블로그",
       "pipelineId": "pipe-f6c3fc2f",
       "at": "2026-04-10T08:31:54.153Z"
+    },
+    {
+      "type": "gate_result",
+      "gate": "pre-write",
+      "passed": true,
+      "blockedBy": null,
+      "reason": "pre-write gate 통과",
+      "pipelineId": "pipe-f6c3fc2f",
+      "at": "2026-04-10T08:31:56.445Z"
     }
   ],
-  "lastUpdated": "2026-04-10T08:31:54.153Z"
+  "lastUpdated": "2026-04-10T08:31:56.445Z"
 }
