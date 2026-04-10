@@ -5,10 +5,9 @@ import { StageIndicator } from "@/components/pipeline/stage-indicator";
 import { PipelineStream } from "@/components/pipeline/pipeline-stream";
 import { ApprovalDialog } from "@/components/pipeline/approval-dialog";
 import { ScoreChart } from "@/components/eval/score-chart";
-import { PipelineStateInspector, applyEventToInspector, INITIAL_INSPECTOR_STATE } from "@/components/pipeline/state-inspector";
-import type { InspectorState } from "@/components/pipeline/state-inspector";
-import type { PipelineStage } from "@/lib/types/agent";
-import type { SSEEvent, ApprovalRequest, EvalResult } from "@/lib/agents/types";
+import { PipelineStateInspector, applyEventToInspector } from "@/components/pipeline/state-inspector";
+import { usePipelineStore } from "@/lib/store/pipeline-store";
+import type { SSEEvent, ApprovalRequest } from "@/lib/agents/types";
 import type { Topic, UserProfile, PostingRecord } from "@/lib/types/github-data";
 import { resolveRemainingTopics } from "@/lib/skills/remaining-topic-resolver";
 
@@ -29,35 +28,45 @@ interface ResultData {
   recommendations: string[];
 }
 
-// 주제 선택 방식
-type TopicMode = "list" | "direct";
-
 export default function PipelinePage() {
-  // 설정
-  const [userId, setUserId] = useState("");
+  // ── Zustand store (페이지 이탈 후 복원) ──────────────────────
+  const userId = usePipelineStore((s) => s.userId);
+  const topicMode = usePipelineStore((s) => s.topicMode);
+  const selectedTopicId = usePipelineStore((s) => s.selectedTopicId);
+  const directTitle = usePipelineStore((s) => s.directTitle);
+  const autoApprove = usePipelineStore((s) => s.autoApprove);
+  const stage = usePipelineStore((s) => s.stage);
+  const events = usePipelineStore((s) => s.events);
+  const streamingBody = usePipelineStore((s) => s.streamingBody);
+  const result = usePipelineStore((s) => s.result);
+  const evalScores = usePipelineStore((s) => s.evalScores);
+  const inspector = usePipelineStore((s) => s.inspector);
+  const runningTitle = usePipelineStore((s) => s.runningTitle);
+
+  const setUserId = usePipelineStore((s) => s.setUserId);
+  const setTopicMode = usePipelineStore((s) => s.setTopicMode);
+  const setSelectedTopicId = usePipelineStore((s) => s.setSelectedTopicId);
+  const setDirectTitle = usePipelineStore((s) => s.setDirectTitle);
+  const setAutoApprove = usePipelineStore((s) => s.setAutoApprove);
+  const setStage = usePipelineStore((s) => s.setStage);
+  const appendEvent = usePipelineStore((s) => s.appendEvent);
+  const setEvents = usePipelineStore((s) => s.setEvents);
+  const appendStreamingToken = usePipelineStore((s) => s.appendStreamingToken);
+  const setStreamingBody = usePipelineStore((s) => s.setStreamingBody);
+  const setResult = usePipelineStore((s) => s.setResult);
+  const setEvalScores = usePipelineStore((s) => s.setEvalScores);
+  const setInspector = usePipelineStore((s) => s.setInspector);
+  const setRunningTitle = usePipelineStore((s) => s.setRunningTitle);
+  const resetRun = usePipelineStore((s) => s.resetRun);
+
+  // ── 로컬 상태 (이탈 시 초기화해도 무방) ─────────────────────
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [profileLoading, setProfileLoading] = useState(false);
-
-  const [topicMode, setTopicMode] = useState<TopicMode>("list");
   const [topics, setTopics] = useState<Topic[]>([]);
   const [posts, setPosts] = useState<PostingRecord[]>([]);
-  const [selectedTopicId, setSelectedTopicId] = useState("");
-  const [directTitle, setDirectTitle] = useState("");
-
-  // 자동 승인 모드 (테스트용)
-  const [autoApprove, setAutoApprove] = useState(false);
-
-  // 파이프라인 상태
-  const [stage, setStage] = useState<PipelineStage>("idle");
-  const [events, setEvents] = useState<SSEEvent[]>([]);
-  const [streamingBody, setStreamingBody] = useState("");
   const [approval, setApproval] = useState<ApprovalData | null>(null);
-  const [result, setResult] = useState<ResultData | null>(null);
-  const [evalScores, setEvalScores] = useState<EvalResult["scores"] | null>(null);
   const [running, setRunning] = useState(false);
-  const [runningTitle, setRunningTitle] = useState<string | null>(null);
   const [elapsed, setElapsed] = useState(0);
-  const [inspector, setInspector] = useState<InspectorState>(INITIAL_INSPECTOR_STATE);
   const esRef = useRef<EventSource | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -98,18 +107,17 @@ export default function PipelinePage() {
   }, [userId]);
 
   const handleEvent = useCallback((event: SSEEvent) => {
-    setEvents((prev) => [...prev, event]);
+    appendEvent(event);
     setInspector((prev) => applyEventToInspector(prev, event));
 
     if (event.type === "stage_change") {
-      setStage((event.data as { stage?: PipelineStage })?.stage ?? event.stage);
+      setStage((event.data as { stage?: import("@/lib/types/agent").PipelineStage })?.stage ?? event.stage);
     }
     if (event.type === "token") {
-      setStreamingBody((prev) => prev + ((event.data as { token?: string })?.token ?? ""));
+      appendStreamingToken((event.data as { token?: string })?.token ?? "");
     }
     if (event.type === "approval_required") {
       const approvalData = event.data as ApprovalData;
-      // 자동 승인 모드: 즉시 approve 처리
       if (autoApprove) {
         fetch("/api/pipeline/approve", {
           method: "POST",
@@ -129,7 +137,6 @@ export default function PipelinePage() {
       esRef.current?.close();
     }
     if (event.type === "rejected") {
-      // 전략 거절 — 에러가 아니라 재시도 가능한 상태로 복귀
       setApproval(null);
       setRunning(false);
       setRunningTitle(null);
@@ -149,7 +156,7 @@ export default function PipelinePage() {
       if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
       esRef.current?.close();
     }
-  }, [autoApprove]);  
+  }, [autoApprove, appendEvent, setInspector, setStage, appendStreamingToken, setResult, setRunningTitle]);
 
   // "직접 주제 입력" 모드: 먼저 draft 토픽을 생성하고 그 ID를 사용
   const resolveTopicId = async (): Promise<string | null> => {
@@ -174,15 +181,14 @@ export default function PipelinePage() {
     if (topicMode === "list" && !selectedTopicId) return;
     if (topicMode === "direct" && !directTitle.trim()) return;
 
+    resetRun();
     setEvents([]);
     setStreamingBody("");
-    setApproval(null);
     setResult(null);
     setEvalScores(null);
     setStage("idle");
     setRunning(true);
 
-    // 선택 주제 제목 결정 (inspector용)
     const selectedTitle =
       topicMode === "list"
         ? topics.find((t) => t.topicId === selectedTopicId)?.title ?? selectedTopicId
@@ -190,7 +196,7 @@ export default function PipelinePage() {
 
     setRunningTitle(selectedTitle);
     setInspector({
-      ...INITIAL_INSPECTOR_STATE,
+      ...usePipelineStore.getState().inspector,
       selected_topic: selectedTitle,
       remaining_topics_count: availableTopics.length,
     });
@@ -198,7 +204,6 @@ export default function PipelinePage() {
     const topicId = await resolveTopicId();
     if (!topicId) { setRunning(false); return; }
 
-    // 타이머 시작
     setElapsed(0);
     timerRef.current = setInterval(() => setElapsed((s) => s + 1), 1000);
 
@@ -237,19 +242,15 @@ export default function PipelinePage() {
       body: JSON.stringify(req),
     });
     if (!res.ok) {
-      // 승인 전달 실패 — 파이프라인이 이미 종료됐거나 서버가 재시작됨
       setApproval(null);
       setRunning(false);
       setStage("idle");
-      setEvents((prev) => [
-        ...prev,
-        {
-          type: "error",
-          stage: "failed",
-          data: { message: "승인 전달 실패: 서버가 재시작됐을 수 있습니다. 다시 시도해 주세요." },
-          timestamp: new Date().toISOString(),
-        },
-      ]);
+      appendEvent({
+        type: "error",
+        stage: "failed",
+        data: { message: "승인 전달 실패: 서버가 재시작됐을 수 있습니다. 다시 시도해 주세요." },
+        timestamp: new Date().toISOString(),
+      });
       return;
     }
     setApproval(null);
@@ -263,7 +264,6 @@ export default function PipelinePage() {
     return !!directTitle.trim();
   })();
 
-  // RemainingTopicResolver: 발행 인덱스와 cross-check (topicId 비교 금지)
   const currentUid = userId.trim().toLowerCase();
   const userTopics = currentUid
     ? topics.filter((t) => t.assignedUserId?.toLowerCase() === currentUid)
