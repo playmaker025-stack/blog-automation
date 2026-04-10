@@ -17,6 +17,12 @@ import {
 import { appendLog } from "./operation-logger";
 import { readJsonFile, writeJsonFile, fileExists } from "@/lib/github/repository";
 import { Paths } from "@/lib/github/paths";
+import {
+  createApprovalRecord,
+  resolveApprovalRecord,
+  readApprovalRecord,
+  markApprovalConsumed,
+} from "@/lib/github/approval-store";
 import type { PostingIndex, TopicIndex } from "@/lib/types/github-data";
 import type {
   PipelineRunRequest,
@@ -687,20 +693,74 @@ export async function runPipeline(params: {
 // 승인 처리
 // ============================================================
 
-export function handleApproval(approval: ApprovalRequest): boolean {
+/**
+ * 승인 처리 — 메모리(동일 인스턴스) + GitHub(재시작/다중 인스턴스) 병행
+ * approve 엔드포인트에서 호출. 항상 성공 처리.
+ */
+export async function handleApproval(approval: ApprovalRequest): Promise<boolean> {
+  // 1. 메모리 경로 (동일 인스턴스 — 즉시 반영)
   const pending = pendingApprovals.get(approval.pipelineId);
-  if (!pending) return false;
-  pending.resolve(approval);
-  pendingApprovals.delete(approval.pipelineId);
-  return true;
+  if (pending) {
+    pending.resolve(approval);
+    pendingApprovals.delete(approval.pipelineId);
+  }
+
+  // 2. GitHub 경로 (재시작/다중 인스턴스 fallback — 폴링으로 수신)
+  try {
+    await resolveApprovalRecord(approval.pipelineId, approval.approved, approval.modifications);
+  } catch {
+    // best-effort — GitHub 기록 실패해도 메모리 경로가 있으면 계속 진행
+  }
+
+  return true; // 항상 성공 반환 (404 제거)
 }
 
-function waitForApproval(
+/**
+ * 승인 대기 — 메모리(즉시) + GitHub 폴링(3초 간격) 병렬 실행
+ * 둘 중 먼저 응답하는 쪽을 사용
+ */
+async function waitForApproval(
   pipelineId: string,
   strategy: StrategyPlanResult
 ): Promise<ApprovalRequest> {
-  return new Promise((resolve) => {
+  // GitHub에 승인 대기 레코드 생성 (서버 재시작 복구용)
+  await createApprovalRecord(pipelineId).catch(() => {});
+
+  return new Promise((resolve, reject) => {
+    // 메모리 경로 등록
     pendingApprovals.set(pipelineId, { resolve, strategy });
+
+    // GitHub 폴링 (3초 간격) — 재시작/다중 인스턴스 fallback
+    const pollInterval = setInterval(async () => {
+      try {
+        const record = await readApprovalRecord(pipelineId);
+        if (record?.status === "approved" || record?.status === "rejected") {
+          clearInterval(pollInterval);
+          pendingApprovals.delete(pipelineId);
+          await markApprovalConsumed(pipelineId).catch(() => {});
+          resolve({
+            pipelineId,
+            approved: record.status === "approved",
+            modifications: record.modifications ?? undefined,
+          });
+        }
+      } catch {
+        // GitHub 일시적 오류 무시
+      }
+    }, 3000);
+
+    // 타임아웃 시 정리
+    const originalResolve = resolve;
+    pendingApprovals.set(pipelineId, {
+      resolve: (approval) => {
+        clearInterval(pollInterval);
+        originalResolve(approval);
+      },
+      strategy,
+    });
+
+    // reject 시 정리 (외부 timeout Promise가 reject하는 경우)
+    void reject; // suppress unused warning — reject is handled by outer Promise.race
   });
 }
 

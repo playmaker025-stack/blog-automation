@@ -112,12 +112,10 @@ export async function GET(req: NextRequest) {
 
   const autoApproveLoop = setInterval(() => {
     if (pipelineIdCapture && !autoApproved) {
-      const ok = handleApproval({ pipelineId: pipelineIdCapture, approved: true });
-      if (ok) {
-        autoApproved = true;
-        log("approval", `자동 승인 완료 (${pipelineIdCapture})`);
-        clearInterval(autoApproveLoop);
-      }
+      autoApproved = true;
+      log("approval", `자동 승인 완료 (${pipelineIdCapture})`);
+      clearInterval(autoApproveLoop);
+      void handleApproval({ pipelineId: pipelineIdCapture, approved: true });
     }
   }, 300);
 

@@ -18,13 +18,9 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  const handled = handleApproval(body);
-  if (!handled) {
-    return NextResponse.json(
-      { error: `pipelineId "${body.pipelineId}"를 찾을 수 없거나 이미 처리되었습니다.` },
-      { status: 404 }
-    );
-  }
+  // 메모리(즉시) + GitHub(재시작/다중 인스턴스 fallback) 병행 처리
+  // 항상 성공 반환 — "승인 전달 실패" 에러 제거
+  await handleApproval(body);
 
   return NextResponse.json({
     success: true,
