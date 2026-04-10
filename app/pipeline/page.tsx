@@ -285,7 +285,7 @@ export default function PipelinePage() {
     <div className="p-8 max-w-3xl">
       <div className="mb-6">
         <h1 className="text-2xl font-bold text-zinc-900">글쓰기 실행</h1>
-        <p className="text-zinc-500 mt-1 text-sm">전략 수립 완료 → 승인 후 본문 작성 시작</p>
+        <p className="text-zinc-500 mt-1 text-sm">승인 후 본문 작성 시작</p>
       </div>
 
       {/* ── 실행 설정 ─────────────────────────────────────── */}
