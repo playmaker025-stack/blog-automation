@@ -2,11 +2,11 @@
   "pipelineId": "pipe-d7ac3446",
   "topicId": "topic-b7b3deaf",
   "userId": "a",
-  "stage": "awaiting-approval",
+  "stage": "writing",
   "error": null,
   "approvalGranted": true,
   "postingListUpdated": true,
-  "indexUpdated": false,
+  "indexUpdated": true,
   "createdAt": "2026-04-10T08:22:57.991Z",
-  "updatedAt": "2026-04-10T08:24:07.443Z"
+  "updatedAt": "2026-04-10T08:24:09.500Z"
 }
