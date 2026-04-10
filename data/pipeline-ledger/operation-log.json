@@ -1114,7 +1114,19 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-98da1b9f",
       "at": "2026-04-10T06:23:04.468Z"
+    },
+    {
+      "type": "corpus_retrieval",
+      "userId": "a",
+      "selectedCount": 0,
+      "strategy": "fallback_recent",
+      "staleCount": 0,
+      "staleWarnings": [],
+      "topScores": [],
+      "targetCategory": "A블로그",
+      "pipelineId": "pipe-98da1b9f",
+      "at": "2026-04-10T06:23:21.453Z"
     }
   ],
-  "lastUpdated": "2026-04-10T06:23:04.468Z"
+  "lastUpdated": "2026-04-10T06:23:21.453Z"
 }
