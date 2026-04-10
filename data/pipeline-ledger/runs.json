@@ -604,14 +604,14 @@
       "pipelineId": "pipe-d40b224a",
       "topicId": "topic-44121a2e",
       "userId": "a",
-      "stage": "idle",
-      "error": null,
+      "stage": "failed",
+      "error": "data/pipeline-ledger/runs.json does not match c329fd5d6985463879b32c8c69dafdf3276cd6c5 - https://docs.github.com/rest/repos/contents#create-or-update-file-contents",
       "approvalGranted": false,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-10T05:54:21.245Z",
-      "updatedAt": "2026-04-10T05:54:21.714Z"
+      "updatedAt": "2026-04-10T05:54:24.646Z"
     }
   ],
-  "lastUpdated": "2026-04-10T05:54:21.714Z"
+  "lastUpdated": "2026-04-10T05:54:24.646Z"
 }
