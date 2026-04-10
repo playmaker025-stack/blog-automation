@@ -10,7 +10,7 @@ export function getGitHubClient(): Octokit {
     throw new Error("GITHUB_TOKEN 환경 변수가 설정되지 않았습니다.");
   }
 
-  _client = new Octokit({ auth: token });
+  _client = new Octokit({ auth: token, request: { timeout: 20_000 } });
   return _client;
 }
 

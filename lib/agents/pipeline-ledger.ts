@@ -43,23 +43,39 @@ async function loadLedger(): Promise<{ data: Ledger; sha: string | null }> {
 export async function upsertLedgerEntry(
   entry: Omit<LedgerEntry, "updatedAt">
 ): Promise<void> {
-  const { data: ledger, sha } = await loadLedger();
-  const now = new Date().toISOString();
+  const MAX_RETRIES = 3;
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    const { data: ledger, sha } = await loadLedger();
+    const now = new Date().toISOString();
 
-  const existing = ledger.runs.findIndex((r) => r.pipelineId === entry.pipelineId);
-  const updated: LedgerEntry = { ...entry, updatedAt: now };
+    const existing = ledger.runs.findIndex((r) => r.pipelineId === entry.pipelineId);
+    const updated: LedgerEntry = { ...entry, updatedAt: now };
 
-  const newRuns =
-    existing >= 0
-      ? ledger.runs.map((r, i) => (i === existing ? updated : r))
-      : [...ledger.runs, updated];
+    const newRuns =
+      existing >= 0
+        ? ledger.runs.map((r, i) => (i === existing ? updated : r))
+        : [...ledger.runs, updated];
 
-  await writeJsonFile<Ledger>(
-    LEDGER_PATH,
-    { runs: newRuns, lastUpdated: now },
-    `chore: ledger upsert ${entry.pipelineId} → ${entry.stage}`,
-    sha
-  );
+    try {
+      await writeJsonFile<Ledger>(
+        LEDGER_PATH,
+        { runs: newRuns, lastUpdated: now },
+        `chore: ledger upsert ${entry.pipelineId} → ${entry.stage}`,
+        sha
+      );
+      return;
+    } catch (err) {
+      const isConflict =
+        err instanceof Error &&
+        (err.message.includes("does not match") || err.message.includes("409") || ("status" in err && (err as { status: number }).status === 409) || ("status" in err && (err as { status: number }).status === 422));
+      if (isConflict && attempt < MAX_RETRIES) {
+        // sha 충돌 — 잠시 대기 후 재시도
+        await new Promise((r) => setTimeout(r, 300 * attempt));
+        continue;
+      }
+      throw err;
+    }
+  }
 }
 
 export async function getLedgerEntry(pipelineId: string): Promise<LedgerEntry | null> {
