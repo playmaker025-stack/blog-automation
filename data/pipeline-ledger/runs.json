@@ -688,14 +688,14 @@
       "pipelineId": "pipe-98da1b9f",
       "topicId": "topic-44121a2e",
       "userId": "a",
-      "stage": "idle",
+      "stage": "strategy-planning",
       "error": null,
       "approvalGranted": false,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-10T06:21:57.794Z",
-      "updatedAt": "2026-04-10T06:21:58.224Z"
+      "updatedAt": "2026-04-10T06:21:59.960Z"
     }
   ],
-  "lastUpdated": "2026-04-10T06:21:58.224Z"
+  "lastUpdated": "2026-04-10T06:21:59.960Z"
 }
