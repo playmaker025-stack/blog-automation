@@ -388,14 +388,14 @@
       "pipelineId": "pipe-7feed85d",
       "topicId": "topic-dcc38665",
       "userId": "C",
-      "stage": "awaiting-approval",
+      "stage": "writing",
       "error": null,
       "approvalGranted": true,
       "postingListUpdated": true,
-      "indexUpdated": false,
+      "indexUpdated": true,
       "createdAt": "2026-04-10T03:00:16.422Z",
-      "updatedAt": "2026-04-10T03:02:22.841Z"
+      "updatedAt": "2026-04-10T03:02:26.174Z"
     }
   ],
-  "lastUpdated": "2026-04-10T03:02:22.841Z"
+  "lastUpdated": "2026-04-10T03:02:26.174Z"
 }
