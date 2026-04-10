@@ -1529,7 +1529,22 @@
       "createdAt": "2026-04-10T06:49:38.231Z",
       "publishedAt": null,
       "updatedAt": "2026-04-10T06:49:38.231Z"
+    },
+    {
+      "postId": "post-846314ff",
+      "topicId": "topic-356ef75d",
+      "userId": "C",
+      "title": "입문자를 위한 전자담배 TOP5 완벽 비교 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-fce28442",
+      "pendingApproval": null,
+      "createdAt": "2026-04-10T07:53:34.014Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-10T07:53:34.014Z"
     }
   ],
-  "lastUpdated": "2026-04-10T06:49:38.231Z"
+  "lastUpdated": "2026-04-10T07:53:34.014Z"
 }
