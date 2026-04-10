@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-f6c3fc2f",
+  "type": "approval_request",
+  "savedAt": "2026-04-10T08:31:44.929Z",
+  "data": {
+    "pipelineId": "pipe-f6c3fc2f",
+    "previousTitle": "전자담배 액상 실패 확률 높은 맛",
+    "proposedTitle": "전자담배 액상 실패 확률 높은 맛 유형 총정리",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "사용자 프로필 및 코퍼스 미등록, 발행 이력 없음으로 인해 일반적인 정보성 블로그 스타일을 기준으로 전략을 수립했습니다. 토픽의 핵심 검색 의도는 '액상 선택 실패를 피하고 싶은 독자'이므로, 실패 유형별 원인 분석 → 실천 가능한 해결책 제시 구조로 아웃라인을 설계했습니다. 가격·프로모션 금지 원칙에 따라 특정 제품의 가격 비교, 할인 정보는 전면 제외하고, 맛 특성·향료 성분·기기 변수 등 순수 정보성 콘텐츠로만 구성했습니다. 검색 노출을 위해 '전자담배 액상 추천', '액상 실패', '맛 종류' 등 실제 검색량이 높은 롱테일 키워드를 제목과 소제목에 자연스럽게 녹여냈습니다.",
+    "requestedAt": "2026-04-10T08:31:36.856Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-10T08:31:44.929Z",
+      "modifications": null
+    }
+  }
+}
