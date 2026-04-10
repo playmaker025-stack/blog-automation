@@ -112,10 +112,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "b",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-10T05:35:31.315Z"
+      "updatedAt": "2026-04-10T05:42:05.701Z"
     },
     {
       "topicId": "topic-bbfcb4ec",
@@ -417,5 +417,5 @@
       "updatedAt": "2026-04-09T10:30:21.442Z"
     }
   ],
-  "lastUpdated": "2026-04-10T05:35:31.315Z"
+  "lastUpdated": "2026-04-10T05:42:05.701Z"
 }
