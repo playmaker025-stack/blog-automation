@@ -937,7 +937,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-b377b425",
       "at": "2026-04-10T04:42:28.677Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부평전자담배 매장에서 가장 많이 팔리는 기기는 무엇일까?",
+      "proposedTitle": "부평전자담배 매장에서 가장 많이 팔리는 기기는 무엇일까?",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-f97ce08d",
+      "at": "2026-04-10T04:50:37.172Z"
     }
   ],
-  "lastUpdated": "2026-04-10T04:42:28.677Z"
+  "lastUpdated": "2026-04-10T04:50:37.172Z"
 }
