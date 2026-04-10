@@ -559,11 +559,11 @@
       "stage": "awaiting-approval",
       "error": null,
       "approvalGranted": true,
-      "postingListUpdated": false,
+      "postingListUpdated": true,
       "indexUpdated": false,
       "createdAt": "2026-04-10T04:49:39.062Z",
-      "updatedAt": "2026-04-10T04:50:45.411Z"
+      "updatedAt": "2026-04-10T04:50:47.744Z"
     }
   ],
-  "lastUpdated": "2026-04-10T04:50:45.411Z"
+  "lastUpdated": "2026-04-10T04:50:47.744Z"
 }
