@@ -736,13 +736,13 @@
       "pipelineId": "pipe-76aa8c1d",
       "topicId": "topic-b7b3deaf",
       "userId": "a",
-      "stage": "strategy-planning",
+      "stage": "awaiting-approval",
       "error": null,
-      "approvalGranted": false,
+      "approvalGranted": true,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-10T06:48:16.908Z",
-      "updatedAt": "2026-04-10T06:48:19.222Z"
+      "updatedAt": "2026-04-10T06:49:37.531Z"
     },
     {
       "pipelineId": "pipe-d8e92c11",
@@ -757,5 +757,5 @@
       "updatedAt": "2026-04-10T06:48:26.280Z"
     }
   ],
-  "lastUpdated": "2026-04-10T06:48:26.280Z"
+  "lastUpdated": "2026-04-10T06:49:37.531Z"
 }
