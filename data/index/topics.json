@@ -255,10 +255,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "d",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-02T07:01:19.418Z"
+      "updatedAt": "2026-04-10T08:31:49.868Z"
     },
     {
       "topicId": "topic-b74d01b0",
@@ -417,5 +417,5 @@
       "updatedAt": "2026-04-10T05:54:01.572Z"
     }
   ],
-  "lastUpdated": "2026-04-10T08:24:08.863Z"
+  "lastUpdated": "2026-04-10T08:31:49.868Z"
 }
