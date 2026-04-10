@@ -1,5 +1,8 @@
 {
   "pipelineId": "pipe-b377b425",
-  "status": "waiting",
-  "createdAt": "2026-04-10T04:42:30.078Z"
+  "status": "approved",
+  "createdAt": "2026-04-10T04:42:30.078Z",
+  "resolvedAt": "2026-04-10T04:42:52.329Z",
+  "approved": true,
+  "modifications": null
 }
