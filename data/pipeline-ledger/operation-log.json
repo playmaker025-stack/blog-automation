@@ -846,7 +846,20 @@
       "evalScore": 62,
       "pipelineId": "pipe-7feed85d",
       "at": "2026-04-10T03:04:34.156Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "입문 전자담배 TOP5 비교",
+      "proposedTitle": "입문 전자담배 TOP5 비교 – 처음 시작하는 분들께 딱 맞는 기기는?",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.4137931034482759,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-27cd3330",
+      "at": "2026-04-10T03:46:53.518Z"
     }
   ],
-  "lastUpdated": "2026-04-10T03:04:34.156Z"
+  "lastUpdated": "2026-04-10T03:46:53.518Z"
 }
