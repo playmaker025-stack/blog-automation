@@ -832,14 +832,14 @@
       "pipelineId": "pipe-713fdeb2",
       "topicId": "topic-a251a701",
       "userId": "D",
-      "stage": "idle",
+      "stage": "strategy-planning",
       "error": null,
       "approvalGranted": false,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-10T07:58:34.776Z",
-      "updatedAt": "2026-04-10T07:58:35.274Z"
+      "updatedAt": "2026-04-10T07:58:37.244Z"
     }
   ],
-  "lastUpdated": "2026-04-10T07:58:35.274Z"
+  "lastUpdated": "2026-04-10T07:58:37.244Z"
 }
