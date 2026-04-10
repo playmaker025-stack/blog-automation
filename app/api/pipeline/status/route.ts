@@ -1,3 +1,4 @@
+import "@anthropic-ai/sdk/shims/node";
 import { NextRequest, NextResponse } from "next/server";
 import { getPipelineState } from "@/lib/agents/orchestrator";
 

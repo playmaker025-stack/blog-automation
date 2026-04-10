@@ -1,3 +1,4 @@
+import "@anthropic-ai/sdk/shims/node";
 import { NextRequest, NextResponse } from "next/server";
 import { handleApproval } from "@/lib/agents/orchestrator";
 import type { ApprovalRequest } from "@/lib/agents/types";

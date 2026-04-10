@@ -15,6 +15,7 @@
  *   cleanup   "false"이면 생성된 post 보존 (기본 삭제)
  */
 
+import "@anthropic-ai/sdk/shims/node";
 import { NextRequest, NextResponse } from "next/server";
 import { runPipeline, handleApproval } from "@/lib/agents/orchestrator";
 import { readJsonFile, writeJsonFile, fileExists } from "@/lib/github/repository";
