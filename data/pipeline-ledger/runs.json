@@ -383,7 +383,19 @@
       "indexUpdated": true,
       "createdAt": "2026-04-09T11:07:14.474Z",
       "updatedAt": "2026-04-09T11:14:37.363Z"
+    },
+    {
+      "pipelineId": "pipe-7feed85d",
+      "topicId": "topic-dcc38665",
+      "userId": "C",
+      "stage": "idle",
+      "error": null,
+      "approvalGranted": false,
+      "postingListUpdated": false,
+      "indexUpdated": false,
+      "createdAt": "2026-04-10T03:00:16.422Z",
+      "updatedAt": "2026-04-10T03:00:17.170Z"
     }
   ],
-  "lastUpdated": "2026-04-09T11:14:37.363Z"
+  "lastUpdated": "2026-04-10T03:00:17.170Z"
 }
