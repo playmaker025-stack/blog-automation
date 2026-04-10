@@ -2,11 +2,11 @@
   "pipelineId": "pipe-73d1dd7a",
   "topicId": "topic-b39ccdca",
   "userId": "a",
-  "stage": "idle",
+  "stage": "strategy-planning",
   "error": null,
   "approvalGranted": false,
   "postingListUpdated": false,
   "indexUpdated": false,
   "createdAt": "2026-04-10T08:34:56.969Z",
-  "updatedAt": "2026-04-10T08:34:56.969Z"
+  "updatedAt": "2026-04-10T08:34:59.449Z"
 }
