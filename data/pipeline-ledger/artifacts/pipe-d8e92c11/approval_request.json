@@ -1,0 +1,22 @@
+{
+  "pipelineId": "pipe-d8e92c11",
+  "type": "approval_request",
+  "savedAt": "2026-04-10T06:49:35.841Z",
+  "data": {
+    "pipelineId": "pipe-d8e92c11",
+    "previousTitle": "입문 전자담배 TOP5 비교",
+    "proposedTitle": "입문 전자담배 어떻게 고를까? 초보자를 위한 기기 특징 비교 가이드",
+    "materialChange": true,
+    "materialChangeSignals": [
+      "searchIntentChanged",
+      "coreKeywordChanged"
+    ],
+    "rationale": "사용자 프로필 및 코퍼스를 조회할 수 없어 'C블로그' 카테고리 표준 친근체(friendly) 스타일을 기본값으로 적용하였다. 토픽 제목 '입문 전자담배 TOP5 비교'는 가격 비교로 흐를 위험이 있으나, 금지 항목 처리 원칙에 따라 가격·할인·프로모션 관련 내용을 전면 배제하고, 편의성·사용감·유지 난이도·휴대성·입문 적합도 5가지 기준으로 비교 구조를 재설계하였다. 발행 이력이 전혀 없는 신규 블로그이므로 검색 유입을 염두에 둔 정보성 키워드를 제목과 본문 전반에 자연스럽게 배치하고, 독자가 자신의 유형을 대입해 결론을 내릴 수 있도록 유형별 추천 섹션을 추가하여 체류 시간과 공유 유인을 높이는 방향으로 전략을 수립하였다.",
+    "requestedAt": "2026-04-10T06:49:27.351Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-10T06:49:35.841Z",
+      "modifications": null
+    }
+  }
+}
