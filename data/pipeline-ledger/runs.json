@@ -400,14 +400,14 @@
       "pipelineId": "pipe-67994185",
       "topicId": "topic-356ef75d",
       "userId": "C",
-      "stage": "strategy-planning",
-      "error": null,
+      "stage": "failed",
+      "error": "strategy-planner JSON 파싱 실패. 응답 미리보기: 작업 순서에 따라 도구를 순차적으로 호출하겠습니다.  **1단계: 사용자 프로필 로드**  `user_profile_loader` 호출 → 사용자 C의 프로필 및 금지 표현 로드  **2단계: 관련 예시 글 로드**  `user_corpus_retriever` 호출 → \"입문 전자담배 비교\" 관련 예시 글 2개 로드 (스타일 분석, limit:2)  **3단계: 토픽 실현 가능성 확인**  `topic_feasibility_judge` 호출 → \"입문 전자담배 TOP5 비교\" 토픽 검토  ---  도구 호출 없이 단독으로 판단할 수 있는 사항을 먼저 검토하겠습니다.  ## ⚠️ 전략 수립 불가 안내  해당 토픽에 대해 **전략 JSON을 출력할 수 없습니다.**  ---  ### 거부 사유  **\"입문 전자담배 TOP5 비교\"** 토픽은 시스템의 **절대 금지 원칙**과 구조적으로 충돌합니다.  | 검토 항목 | 판단 | 사유 | |---|---|---| | 가격 정보 언급 금지 |",
       "approvalGranted": false,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-10T03:22:33.111Z",
-      "updatedAt": "2026-04-10T03:22:36.377Z"
+      "updatedAt": "2026-04-10T03:23:33.854Z"
     }
   ],
-  "lastUpdated": "2026-04-10T03:22:36.377Z"
+  "lastUpdated": "2026-04-10T03:23:33.854Z"
 }
