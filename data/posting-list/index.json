@@ -1490,16 +1490,16 @@
       "topicId": "topic-dcc38665",
       "userId": "C",
       "title": "입호흡 vs 폐호흡, 뭐가 다를까? 초보자도 이해하는 완벽 정리",
-      "status": "ready",
+      "status": "audit_failed",
       "naverPostUrl": null,
-      "evalScore": null,
+      "evalScore": 62,
       "wordCount": 2061,
       "compositionSessionId": "pipe-7feed85d",
       "pendingApproval": null,
       "createdAt": "2026-04-10T03:02:20.240Z",
       "publishedAt": null,
-      "updatedAt": "2026-04-10T03:03:36.862Z"
+      "updatedAt": "2026-04-10T03:04:36.082Z"
     }
   ],
-  "lastUpdated": "2026-04-10T03:03:36.862Z"
+  "lastUpdated": "2026-04-10T03:04:36.082Z"
 }
