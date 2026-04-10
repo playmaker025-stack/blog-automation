@@ -623,7 +623,19 @@
       "indexUpdated": false,
       "createdAt": "2026-04-10T06:04:07.575Z",
       "updatedAt": "2026-04-10T06:04:09.837Z"
+    },
+    {
+      "pipelineId": "pipe-53b16a36",
+      "topicId": "topic-bbfcb4ec",
+      "userId": "B",
+      "stage": "idle",
+      "error": null,
+      "approvalGranted": false,
+      "postingListUpdated": false,
+      "indexUpdated": false,
+      "createdAt": "2026-04-10T06:06:12.401Z",
+      "updatedAt": "2026-04-10T06:06:12.959Z"
     }
   ],
-  "lastUpdated": "2026-04-10T06:04:09.837Z"
+  "lastUpdated": "2026-04-10T06:06:12.959Z"
 }
