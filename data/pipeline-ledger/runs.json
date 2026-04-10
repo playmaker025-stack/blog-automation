@@ -388,14 +388,14 @@
       "pipelineId": "pipe-7feed85d",
       "topicId": "topic-dcc38665",
       "userId": "C",
-      "stage": "writing",
-      "error": null,
+      "stage": "gate_blocked",
+      "error": "eval 점수 미달: 62점 (기준: 70점)",
       "approvalGranted": true,
       "postingListUpdated": true,
       "indexUpdated": true,
       "createdAt": "2026-04-10T03:00:16.422Z",
-      "updatedAt": "2026-04-10T03:02:26.174Z"
+      "updatedAt": "2026-04-10T03:04:38.574Z"
     }
   ],
-  "lastUpdated": "2026-04-10T03:02:26.174Z"
+  "lastUpdated": "2026-04-10T03:04:38.574Z"
 }
