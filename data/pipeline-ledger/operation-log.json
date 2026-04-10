@@ -1244,7 +1244,20 @@
       "reason": "pre-write gate 통과",
       "pipelineId": "pipe-fce28442",
       "at": "2026-04-10T07:53:43.435Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 전자담배 추천 매장 고르는 기준 5가지",
+      "proposedTitle": "인천 전자담배 매장 고르는 기준 5가지 | 후회 없이 선택하는 법",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.5384615384615384,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-646ff5ad",
+      "at": "2026-04-10T08:10:51.993Z"
     }
   ],
-  "lastUpdated": "2026-04-10T07:53:43.435Z"
+  "lastUpdated": "2026-04-10T08:10:51.993Z"
 }
