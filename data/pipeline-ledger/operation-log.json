@@ -1312,7 +1312,18 @@
       "reason": "pre-write gate 통과",
       "pipelineId": "pipe-d7ac3446",
       "at": "2026-04-10T08:24:15.105Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 액상 실패 확률 높은 맛",
+      "proposedTitle": "전자담배 액상 실패 확률 높은 맛 유형 총정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.7222222222222222,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-f6c3fc2f",
+      "at": "2026-04-10T08:31:35.232Z"
     }
   ],
-  "lastUpdated": "2026-04-10T08:24:15.105Z"
+  "lastUpdated": "2026-04-10T08:31:35.232Z"
 }
