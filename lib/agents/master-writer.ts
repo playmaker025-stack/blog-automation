@@ -207,47 +207,88 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
     iterCount++;
     if (signal?.aborted) throw new Error("파이프라인이 중단되었습니다.");
 
-    const timeoutMs = 120_000;
-    const resp = await Promise.race([
-      client.messages.create({
-        model: MODELS.sonnet,
-        system: buildSystemPrompt(userId, corpusSummary ?? null),
-        messages,
-        tools: TOOLS,
-        max_tokens: 4096,
-      }),
-      new Promise<never>((_, reject) =>
-        setTimeout(() => reject(new Error(`Master Writer API 타임아웃 (${timeoutMs / 1000}초)`)), timeoutMs)
-      ),
-    ]);
+    // 스트리밍 모드로 API 호출 — 토큰 단위 수신으로 타임아웃 감지 신뢰성 향상
+    const STALL_TIMEOUT_MS = 45_000; // 45초 이상 새 토큰이 없으면 타임아웃
+    let stallTimer: ReturnType<typeof setTimeout> | null = null;
+    let stallReject: ((err: Error) => void) | null = null;
 
-    messages.push({ role: "assistant", content: resp.content });
+    const resetStallTimer = () => {
+      if (stallTimer) clearTimeout(stallTimer);
+      if (!stallReject) return;
+      stallTimer = setTimeout(
+        () => stallReject!(new Error(`Master Writer 스트림 타임아웃 — ${STALL_TIMEOUT_MS / 1000}초 이상 응답 없음`)),
+        STALL_TIMEOUT_MS
+      );
+    };
 
-    if (resp.stop_reason === "end_turn") {
-      const textBlock = resp.content.find((b) => b.type === "text");
-      const rawText = textBlock && "text" in textBlock ? textBlock.text : "";
-      // 네이버 블로그 줄바꿈 규칙: 1줄 최대 25자
+    const stallPromise = new Promise<never>((_, reject) => {
+      stallReject = reject;
+      resetStallTimer();
+    });
+
+    let rawText = "";
+    let finalStopReason: string | null = null;
+    const toolUseBlocks: Array<{ id: string; name: string; input: Record<string, unknown> }> = [];
+
+    try {
+      await Promise.race([
+        (async () => {
+          const stream = client.messages.stream({
+            model: MODELS.sonnet,
+            system: buildSystemPrompt(userId, corpusSummary ?? null),
+            messages,
+            tools: TOOLS,
+            max_tokens: 4096,
+          });
+
+          resetStallTimer(); // 연결 직후 타이머 시작
+
+          for await (const event of stream) {
+            resetStallTimer();
+            if (event.type === "content_block_delta") {
+              if (event.delta.type === "text_delta") {
+                rawText += event.delta.text;
+                onToken?.(event.delta.text);
+              }
+            } else if (event.type === "message_stop") {
+              finalStopReason = "end_turn"; // stream 완료
+            }
+          }
+
+          // 최종 메시지에서 tool_use 블록 추출
+          const finalMsg = await stream.finalMessage();
+          finalStopReason = finalMsg.stop_reason ?? "end_turn";
+          for (const block of finalMsg.content) {
+            if (block.type === "tool_use") {
+              toolUseBlocks.push({
+                id: block.id,
+                name: block.name,
+                input: block.input as Record<string, unknown>,
+              });
+            }
+            if (block.type === "text" && !rawText) {
+              rawText = block.text;
+            }
+          }
+          messages.push({ role: "assistant", content: finalMsg.content });
+        })(),
+        stallPromise,
+      ]);
+    } finally {
+      if (stallTimer) clearTimeout(stallTimer);
+    }
+
+    if (finalStopReason === "end_turn" && toolUseBlocks.length === 0) {
+      // 본문 생성 완료
       const bodyText = wrapTo25Chars(rawText);
-
       onProgress?.("본문 생성 완료 — GitHub에 저장 중...");
-
-      // 토큰 스트리밍 시뮬레이션 (청크 단위)
-      if (onToken) {
-        const chunks = bodyText.match(/[\s\S]{1,80}/g) ?? [];
-        for (const chunk of chunks) {
-          onToken(chunk);
-          await new Promise((r) => setTimeout(r, 5));
-        }
-      }
-
       return await saveWriterResult({ topicId, title: strategy.title, content: bodyText });
     }
 
-    if (resp.stop_reason === "tool_use") {
+    if (toolUseBlocks.length > 0) {
       const toolResults: import("@anthropic-ai/sdk/resources/messages").ToolResultBlockParam[] = [];
 
-      for (const block of resp.content) {
-        if (block.type !== "tool_use") continue;
+      for (const block of toolUseBlocks) {
         const fn = toolRegistry[block.name as keyof typeof toolRegistry];
         if (!fn) {
           toolResults.push({ type: "tool_result", tool_use_id: block.id, is_error: true, content: `알 수 없는 도구: ${block.name}` });
