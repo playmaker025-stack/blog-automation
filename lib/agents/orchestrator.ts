@@ -670,7 +670,10 @@ export async function runPipeline(params: {
 
     state = updateState(state, { stage: "failed", error: message });
     activePipelines.set(pipelineId, state);
-    await upsertLedgerEntry({ pipelineId, topicId: request.topicId, userId: request.userId, stage: "failed", error: message, approvalGranted: gate.approved, postingListUpdated: false, indexUpdated: false, createdAt: now }).catch(() => {});
+    console.error(`[orchestrator] pipeline ${pipelineId} FAILED at stage=${state.stage}:`, message);
+    await upsertLedgerEntry({ pipelineId, topicId: request.topicId, userId: request.userId, stage: "failed", error: message, approvalGranted: gate.approved, postingListUpdated: false, indexUpdated: false, createdAt: now }).catch((e) => {
+      console.error(`[orchestrator] ledger failed-write error (ignored):`, e instanceof Error ? e.message : e);
+    });
     emit(controller, makeEvent("error", "failed", { pipelineId, message }));
 
     // 파이프라인 실패 시 topic이 in-progress 상태로 stuck되는 것 방지 — draft로 복구
@@ -680,8 +683,8 @@ export async function runPipeline(params: {
         await updateTopicStatus(request.topicId, "draft");
         emit(controller, makeEvent("progress", "failed", { message: "토픽 상태를 draft로 복구했습니다." }));
       }
-    } catch {
-      // 복구 실패는 무시 (이미 error 이벤트 전송됨)
+    } catch (recoveryErr) {
+      console.error(`[orchestrator] topic recovery failed (ignored):`, recoveryErr instanceof Error ? recoveryErr.message : recoveryErr);
     }
   } finally {
     pendingApprovals.delete(pipelineId);

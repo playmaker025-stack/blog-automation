@@ -208,7 +208,7 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
     if (signal?.aborted) throw new Error("파이프라인이 중단되었습니다.");
 
     // 스트리밍 모드로 API 호출 — 토큰 단위 수신으로 타임아웃 감지 신뢰성 향상
-    const STALL_TIMEOUT_MS = 45_000; // 45초 이상 새 토큰이 없으면 타임아웃
+    const STALL_TIMEOUT_MS = 90_000; // 90초 이상 새 토큰이 없으면 타임아웃
     let stallTimer: ReturnType<typeof setTimeout> | null = null;
     let stallReject: ((err: Error) => void) | null = null;
 
