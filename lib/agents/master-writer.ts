@@ -207,6 +207,11 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
     iterCount++;
     if (signal?.aborted) throw new Error("파이프라인이 중단되었습니다.");
 
+    console.log(`[master-writer] iteration ${iterCount} start — messages=${messages.length}, topicId=${topicId}`);
+    if (iterCount > 1) {
+      onProgress?.(`본문 생성 중... (단계 ${iterCount})`);
+    }
+
     // 스트리밍 모드로 API 호출 — 토큰 단위 수신으로 타임아웃 감지 신뢰성 향상
     // INITIAL: 첫 이벤트까지 120초, STALL: 이후 연속 무응답 90초
     const INITIAL_TIMEOUT_MS = 120_000;
@@ -221,8 +226,8 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
       const ms = firstEventReceived ? STALL_TIMEOUT_MS : INITIAL_TIMEOUT_MS;
       stallTimer = setTimeout(
         () => stallReject!(new Error(firstEventReceived
-          ? `Master Writer 스트림 타임아웃 — ${ms / 1000}초 이상 응답 없음`
-          : `Master Writer 초기 응답 타임아웃 — ${ms / 1000}초 이내 응답 없음`)),
+          ? `Master Writer 스트림 타임아웃 — ${ms / 1000}초 이상 응답 없음 (iter=${iterCount})`
+          : `Master Writer 초기 응답 타임아웃 — ${ms / 1000}초 이내 응답 없음 (iter=${iterCount})`)),
         ms
       );
     };
@@ -231,6 +236,13 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
       stallReject = reject;
       resetStallTimer();
     });
+
+    // AbortSignal: 외부 signal + 하드 데드라인(160초) 조합
+    // stall timer(120/90초)의 백업 — HTTP 연결 수준에서도 강제 취소
+    const hardDeadline = AbortSignal.timeout(160_000);
+    const callSignal = signal
+      ? AbortSignal.any([signal, hardDeadline])
+      : hardDeadline;
 
     let rawText = "";
     let finalStopReason: string | null = null;
@@ -245,7 +257,7 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
             messages,
             tools: TOOLS,
             max_tokens: 4096,
-          });
+          }, { signal: callSignal });
 
           for await (const event of stream) {
             if (!firstEventReceived) { firstEventReceived = true; }
@@ -282,6 +294,8 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
     } finally {
       if (stallTimer) clearTimeout(stallTimer);
     }
+
+    console.log(`[master-writer] iteration ${iterCount} done — stopReason=${finalStopReason}, tools=${toolUseBlocks.map((b) => b.name).join(",") || "none"}, textLen=${rawText.length}`);
 
     if (finalStopReason === "end_turn" && toolUseBlocks.length === 0) {
       // 본문 생성 완료
