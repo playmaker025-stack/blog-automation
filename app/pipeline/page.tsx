@@ -4,7 +4,6 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { StageIndicator } from "@/components/pipeline/stage-indicator";
 import { PipelineStream } from "@/components/pipeline/pipeline-stream";
 import { ApprovalDialog } from "@/components/pipeline/approval-dialog";
-import { ScoreChart } from "@/components/eval/score-chart";
 import { PipelineStateInspector, applyEventToInspector } from "@/components/pipeline/state-inspector";
 import { usePipelineStore } from "@/lib/store/pipeline-store";
 import type { SSEEvent, ApprovalRequest } from "@/lib/agents/types";
@@ -39,7 +38,6 @@ export default function PipelinePage() {
   const events = usePipelineStore((s) => s.events);
   const streamingBody = usePipelineStore((s) => s.streamingBody);
   const result = usePipelineStore((s) => s.result);
-  const evalScores = usePipelineStore((s) => s.evalScores);
   const inspector = usePipelineStore((s) => s.inspector);
   const runningTitle = usePipelineStore((s) => s.runningTitle);
 
@@ -54,7 +52,6 @@ export default function PipelinePage() {
   const appendStreamingToken = usePipelineStore((s) => s.appendStreamingToken);
   const setStreamingBody = usePipelineStore((s) => s.setStreamingBody);
   const setResult = usePipelineStore((s) => s.setResult);
-  const setEvalScores = usePipelineStore((s) => s.setEvalScores);
   const setInspector = usePipelineStore((s) => s.setInspector);
   const setRunningTitle = usePipelineStore((s) => s.setRunningTitle);
   const resetRun = usePipelineStore((s) => s.resetRun);
@@ -75,16 +72,6 @@ export default function PipelinePage() {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, []);
-
-  // F5 새로고침 시 비완료 run 상태 초기화
-  // complete / gate_blocked(미달)는 결과 확인용이므로 보존, 나머지는 초기화
-  useEffect(() => {
-    const TERMINAL: import("@/lib/types/agent").PipelineStage[] = ["complete", "gate_blocked"];
-    if (stage !== "idle" && !TERMINAL.includes(stage)) {
-      resetRun();
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // 토픽 목록 + 발행 인덱스 동시 로드
@@ -210,7 +197,6 @@ export default function PipelinePage() {
     setEvents([]);
     setStreamingBody("");
     setResult(null);
-    setEvalScores(null);
     setStage("idle");
     setRunning(true);
 
@@ -504,9 +490,6 @@ export default function PipelinePage() {
             </p>
           </div>
 
-          {evalScores && (
-            <ScoreChart scores={evalScores} aggregateScore={result.evalScore} />
-          )}
 
           {result.recommendations.length > 0 && (
             <div className="bg-white border border-zinc-200 rounded-xl p-4">
