@@ -583,11 +583,11 @@
       "stage": "awaiting-approval",
       "error": null,
       "approvalGranted": true,
-      "postingListUpdated": false,
+      "postingListUpdated": true,
       "indexUpdated": false,
       "createdAt": "2026-04-10T05:23:29.870Z",
-      "updatedAt": "2026-04-10T05:24:41.479Z"
+      "updatedAt": "2026-04-10T05:24:43.808Z"
     }
   ],
-  "lastUpdated": "2026-04-10T05:24:41.479Z"
+  "lastUpdated": "2026-04-10T05:24:43.808Z"
 }
