@@ -467,7 +467,19 @@
       "indexUpdated": false,
       "createdAt": "2026-04-10T04:10:43.162Z",
       "updatedAt": "2026-04-10T04:10:45.386Z"
+    },
+    {
+      "pipelineId": "pipe-cdcfa129",
+      "topicId": "topic-bbfcb4ec",
+      "userId": "b",
+      "stage": "idle",
+      "error": null,
+      "approvalGranted": false,
+      "postingListUpdated": false,
+      "indexUpdated": false,
+      "createdAt": "2026-04-10T04:20:47.809Z",
+      "updatedAt": "2026-04-10T04:20:48.330Z"
     }
   ],
-  "lastUpdated": "2026-04-10T04:16:56.045Z"
+  "lastUpdated": "2026-04-10T04:20:48.330Z"
 }
