@@ -451,11 +451,9 @@ export default function PipelinePage() {
       )}
 
       {/* 파이프라인 상태 인스펙터 */}
-      {(running || result) && (
-        <div className="mb-6">
-          <PipelineStateInspector state={inspector} />
-        </div>
-      )}
+      <div className="mb-6">
+        <PipelineStateInspector state={inspector} />
+      </div>
 
       {/* 스트리밍 로그 */}
       {(events.length > 0 || streamingBody) && (
