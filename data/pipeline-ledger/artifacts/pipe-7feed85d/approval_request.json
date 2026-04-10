@@ -1,0 +1,22 @@
+{
+  "pipelineId": "pipe-7feed85d",
+  "type": "approval_request",
+  "savedAt": "2026-04-10T03:02:16.829Z",
+  "data": {
+    "pipelineId": "pipe-7feed85d",
+    "previousTitle": "입호흡 vs 폐호흡 차이",
+    "proposedTitle": "입호흡 vs 폐호흡, 뭐가 다를까? 초보자도 이해하는 완벽 정리",
+    "materialChange": true,
+    "materialChangeSignals": [
+      "searchIntentChanged",
+      "coreKeywordChanged"
+    ],
+    "rationale": "① 사용자 프로필 및 코퍼스가 존재하지 않아, 네이버 블로그 표준 정보성 포스팅 구조와 'C블로그' 카테고리 특성을 기반으로 전략을 수립했습니다. ② '입호흡 vs 폐호흡'은 전자담배 입문자의 검색 빈도가 높은 정보 탐색형 키워드로, 비교·설명 구조가 SEO 및 독자 만족도 양면에서 유리합니다. ③ 과거 발행 이력이 없어 카테고리 패턴 최적화는 불가했으나, 입문자 타깃의 친근한(friendly) 톤과 단계적 설명 방식을 채택해 이탈률을 낮추는 방향으로 설계했습니다. ④ 가격·프로모션·이벤트 관련 내용은 제목, 아웃라인, 키포인트, 전략 근거 전체에서 완전히 배제되었습니다.",
+    "requestedAt": "2026-04-10T03:01:28.488Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-10T03:02:16.829Z",
+      "modifications": null
+    }
+  }
+}
