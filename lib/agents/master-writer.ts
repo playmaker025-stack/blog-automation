@@ -208,16 +208,22 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
     if (signal?.aborted) throw new Error("파이프라인이 중단되었습니다.");
 
     // 스트리밍 모드로 API 호출 — 토큰 단위 수신으로 타임아웃 감지 신뢰성 향상
-    const STALL_TIMEOUT_MS = 90_000; // 90초 이상 새 토큰이 없으면 타임아웃
+    // INITIAL: 첫 이벤트까지 120초, STALL: 이후 연속 무응답 90초
+    const INITIAL_TIMEOUT_MS = 120_000;
+    const STALL_TIMEOUT_MS = 90_000;
     let stallTimer: ReturnType<typeof setTimeout> | null = null;
     let stallReject: ((err: Error) => void) | null = null;
+    let firstEventReceived = false;
 
     const resetStallTimer = () => {
       if (stallTimer) clearTimeout(stallTimer);
       if (!stallReject) return;
+      const ms = firstEventReceived ? STALL_TIMEOUT_MS : INITIAL_TIMEOUT_MS;
       stallTimer = setTimeout(
-        () => stallReject!(new Error(`Master Writer 스트림 타임아웃 — ${STALL_TIMEOUT_MS / 1000}초 이상 응답 없음`)),
-        STALL_TIMEOUT_MS
+        () => stallReject!(new Error(firstEventReceived
+          ? `Master Writer 스트림 타임아웃 — ${ms / 1000}초 이상 응답 없음`
+          : `Master Writer 초기 응답 타임아웃 — ${ms / 1000}초 이내 응답 없음`)),
+        ms
       );
     };
 
@@ -241,9 +247,8 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
             max_tokens: 4096,
           });
 
-          resetStallTimer(); // 연결 직후 타이머 시작
-
           for await (const event of stream) {
+            if (!firstEventReceived) { firstEventReceived = true; }
             resetStallTimer();
             if (event.type === "content_block_delta") {
               if (event.delta.type === "text_delta") {
