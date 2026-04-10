@@ -1,0 +1,25 @@
+{
+  "pipelineId": "pipe-7feed85d",
+  "type": "gate_failure_report",
+  "savedAt": "2026-04-10T03:04:39.406Z",
+  "data": {
+    "gate": "post-audit",
+    "blockedBy": "audit_not_approved",
+    "reason": "eval 점수 미달: 62점 (기준: 70점)",
+    "evalScore": 62,
+    "evalScores": {
+      "originality": 52,
+      "style_match": 61,
+      "structure": 55,
+      "engagement": 63,
+      "forbidden_check": 100
+    },
+    "recommendations": [
+      "【즉시 수정 필수】 본문 최상단의 'AI 플래너 오류가 발생했지만…' 메타 문구를 완전히 삭제하세요. 이 문구가 포함된 상태로 발행되면 독자 신뢰도와 브랜드 이미지에 치명적 손상을 줍니다.",
+      "【완성도 보완】 '...(이하 생략)...' 처리된 비교 표 하단 및 이후 섹션(예: 초보자 추천 방식, 기기 선택 가이드, CTA 등)을 반드시 완성하여 제출하세요. 현재 본문은 미완성 상태로 발행 불가 수준입니다.",
+      "【독창성 강화】 실제 기기 사용 경험, 특정 제품 에어플로우 수치 비교, 또는 '나는 처음에 이렇게 실패했다'류의 개인 스토리를 추가하면 유사 블로그 대비 차별화가 가능합니다. 또한 사용자 C의 코퍼스(예시 글)를 등록해두면 다음 평가부터 style_match 점수의 신뢰도가 크게 향상됩니다."
+    ],
+    "baselineDelta": null,
+    "blockedAt": "2026-04-10T03:04:39.406Z"
+  }
+}
