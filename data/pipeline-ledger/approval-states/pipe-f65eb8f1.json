@@ -1,0 +1,17 @@
+{
+  "pipelineId": "pipe-f65eb8f1",
+  "topicId": "topic-b7b3deaf",
+  "userId": "a",
+  "state": "draft_ready",
+  "history": [
+    {
+      "from": null,
+      "to": "draft_ready",
+      "reason": "파이프라인 시작",
+      "at": "2026-04-10T06:07:57.136Z",
+      "actor": "system"
+    }
+  ],
+  "createdAt": "2026-04-10T06:07:57.136Z",
+  "updatedAt": "2026-04-10T06:07:57.136Z"
+}
