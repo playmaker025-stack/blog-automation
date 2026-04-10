@@ -391,11 +391,11 @@
       "stage": "awaiting-approval",
       "error": null,
       "approvalGranted": true,
-      "postingListUpdated": false,
+      "postingListUpdated": true,
       "indexUpdated": false,
       "createdAt": "2026-04-10T03:00:16.422Z",
-      "updatedAt": "2026-04-10T03:02:19.676Z"
+      "updatedAt": "2026-04-10T03:02:22.841Z"
     }
   ],
-  "lastUpdated": "2026-04-10T03:02:19.676Z"
+  "lastUpdated": "2026-04-10T03:02:22.841Z"
 }
