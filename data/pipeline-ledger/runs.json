@@ -412,13 +412,13 @@
       "pipelineId": "pipe-27cd3330",
       "topicId": "topic-356ef75d",
       "userId": "c",
-      "stage": "strategy-planning",
-      "error": null,
+      "stage": "failed",
+      "error": "승인 대기 시간 초과 (30분)",
       "approvalGranted": false,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-10T03:45:37.144Z",
-      "updatedAt": "2026-04-10T03:45:40.649Z"
+      "updatedAt": "2026-04-10T04:16:56.045Z"
     },
     {
       "pipelineId": "pipe-17529a69",
@@ -469,5 +469,5 @@
       "updatedAt": "2026-04-10T04:10:45.386Z"
     }
   ],
-  "lastUpdated": "2026-04-10T04:10:45.386Z"
+  "lastUpdated": "2026-04-10T04:16:56.045Z"
 }
