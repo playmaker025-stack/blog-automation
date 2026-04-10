@@ -1186,7 +1186,20 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-44c62dd6",
       "at": "2026-04-10T07:24:13.831Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "입문 전자담배 TOP5 비교",
+      "proposedTitle": "입문자를 위한 전자담배 TOP5 완벽 비교 가이드",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "searchIntentChanged"
+      ],
+      "stringSimilarity": 0.5714285714285714,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-fce28442",
+      "at": "2026-04-10T07:53:19.503Z"
     }
   ],
-  "lastUpdated": "2026-04-10T07:24:13.831Z"
+  "lastUpdated": "2026-04-10T07:53:19.503Z"
 }
