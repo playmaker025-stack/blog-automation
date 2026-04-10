@@ -1,0 +1,21 @@
+{
+  "pipelineId": "pipe-d7ac3446",
+  "type": "approval_request",
+  "savedAt": "2026-04-10T08:24:03.856Z",
+  "data": {
+    "pipelineId": "pipe-d7ac3446",
+    "previousTitle": "부평 전자담배 입문 기기 추천",
+    "proposedTitle": "부평 전자담배 입문 기기 추천 – 처음이라면 이것부터 보세요",
+    "materialChange": false,
+    "materialChangeSignals": [
+      "coreKeywordChanged"
+    ],
+    "rationale": "① 사용자 프로필상 casual 톤·listicle 구조·1500자 평균을 그대로 준수하였다. ② 과거 포스팅 패턴 분석 결과 '부평/인천 지역 + 전자담배 + 입문·추천' 조합이 반복 사용된 핵심 포맷임을 확인, 동일 패턴을 계승하여 채널 일관성을 유지하였다. ③ 타깃 독자(20-30대 입문자)에 맞게 전문 용어를 최소화하고 체크리스트·순위형 포맷을 채택하였다. ④ 시스템 금지 항목(가격 정보·이벤트·프로모션)은 전략 전반에서 완전히 제거하고, 기능·사용감·특징 비교 각도로 대체하여 정보 가치를 유지하였다. ⑤ 참조 URL이 없으므로 source_resolver 단계는 생략하였으며, 토픽 실현 가능성 점수 100점으로 별도 조정 없이 전략을 수립하였다.",
+    "requestedAt": "2026-04-10T08:23:59.934Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-10T08:24:03.856Z",
+      "modifications": null
+    }
+  }
+}
