@@ -1223,7 +1223,19 @@
       "timedOut": false,
       "pipelineId": "pipe-fce28442",
       "at": "2026-04-10T07:53:30.790Z"
+    },
+    {
+      "type": "corpus_retrieval",
+      "userId": "C",
+      "selectedCount": 0,
+      "strategy": "fallback_recent",
+      "staleCount": 0,
+      "staleWarnings": [],
+      "topScores": [],
+      "targetCategory": "C블로그",
+      "pipelineId": "pipe-fce28442",
+      "at": "2026-04-10T07:53:41.671Z"
     }
   ],
-  "lastUpdated": "2026-04-10T07:53:30.790Z"
+  "lastUpdated": "2026-04-10T07:53:41.671Z"
 }
