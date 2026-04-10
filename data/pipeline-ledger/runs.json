@@ -688,14 +688,14 @@
       "pipelineId": "pipe-98da1b9f",
       "topicId": "topic-44121a2e",
       "userId": "a",
-      "stage": "awaiting-approval",
+      "stage": "writing",
       "error": null,
       "approvalGranted": true,
       "postingListUpdated": true,
-      "indexUpdated": false,
+      "indexUpdated": true,
       "createdAt": "2026-04-10T06:21:57.794Z",
-      "updatedAt": "2026-04-10T06:23:14.952Z"
+      "updatedAt": "2026-04-10T06:23:17.369Z"
     }
   ],
-  "lastUpdated": "2026-04-10T06:23:14.952Z"
+  "lastUpdated": "2026-04-10T06:23:17.369Z"
 }
