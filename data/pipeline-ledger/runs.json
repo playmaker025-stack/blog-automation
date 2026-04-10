@@ -571,11 +571,11 @@
       "stage": "awaiting-approval",
       "error": null,
       "approvalGranted": true,
-      "postingListUpdated": false,
+      "postingListUpdated": true,
       "indexUpdated": false,
       "createdAt": "2026-04-10T05:03:14.625Z",
-      "updatedAt": "2026-04-10T05:04:21.767Z"
+      "updatedAt": "2026-04-10T05:04:23.815Z"
     }
   ],
-  "lastUpdated": "2026-04-10T05:04:21.767Z"
+  "lastUpdated": "2026-04-10T05:04:23.815Z"
 }
