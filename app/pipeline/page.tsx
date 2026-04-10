@@ -145,6 +145,21 @@ export default function PipelinePage() {
       esRef.current?.close();
     }
     if (event.type === "gate_blocked") {
+      const d = event.data as {
+        postId: string;
+        evalScore: number;
+        recommendations: string[];
+        draft?: { title: string; wordCount: number };
+      };
+      setStage("gate_blocked");
+      setResult({
+        postId: d.postId,
+        title: d.draft?.title ?? "",
+        wordCount: d.draft?.wordCount ?? 0,
+        evalScore: d.evalScore,
+        pass: false,
+        recommendations: d.recommendations ?? [],
+      });
       setRunning(false);
       setRunningTitle(null);
       if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
