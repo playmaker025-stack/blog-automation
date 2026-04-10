@@ -799,11 +799,11 @@
       "stage": "awaiting-approval",
       "error": null,
       "approvalGranted": true,
-      "postingListUpdated": false,
+      "postingListUpdated": true,
       "indexUpdated": false,
       "createdAt": "2026-04-10T07:52:19.270Z",
-      "updatedAt": "2026-04-10T07:53:33.517Z"
+      "updatedAt": "2026-04-10T07:53:35.906Z"
     }
   ],
-  "lastUpdated": "2026-04-10T07:53:35.321Z"
+  "lastUpdated": "2026-04-10T07:53:35.906Z"
 }
