@@ -1,0 +1,21 @@
+{
+  "pipelineId": "pipe-646ff5ad",
+  "type": "approval_request",
+  "savedAt": "2026-04-10T08:10:57.794Z",
+  "data": {
+    "pipelineId": "pipe-646ff5ad",
+    "previousTitle": "인천 전자담배 추천 매장 고르는 기준 5가지",
+    "proposedTitle": "인천 전자담배 매장 고르는 기준 5가지 | 후회 없이 선택하는 법",
+    "materialChange": false,
+    "materialChangeSignals": [
+      "coreKeywordChanged"
+    ],
+    "rationale": "해당 토픽은 '매장 선택 기준'이라는 정보성 콘텐츠로, 가격·이벤트 정보 없이도 충분히 풍부한 전략 구성이 가능합니다. 제품 다양성·전문성·위생환경·접근성·사후관리라는 5개 축은 독자가 실제 매장 방문 전 참고할 수 있는 실용적 체크리스트로 기능하며, 인천 지역 상권명(부평·송도·구월동·주안)을 자연스럽게 녹여 로컬 SEO 효과를 극대화합니다. 친근하고 경험담 기반의 어투로 작성하여 네이버 블로그 특유의 공감형 콘텐츠 문법에 맞게 구성했습니다.",
+    "requestedAt": "2026-04-10T08:10:53.775Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-10T08:10:57.794Z",
+      "modifications": null
+    }
+  }
+}
