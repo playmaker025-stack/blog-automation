@@ -827,7 +827,16 @@
       "targetCategory": "C블로그",
       "pipelineId": "pipe-7feed85d",
       "at": "2026-04-10T03:02:30.762Z"
+    },
+    {
+      "type": "gate_result",
+      "gate": "pre-write",
+      "passed": true,
+      "blockedBy": null,
+      "reason": "pre-write gate 통과",
+      "pipelineId": "pipe-7feed85d",
+      "at": "2026-04-10T03:02:33.136Z"
     }
   ],
-  "lastUpdated": "2026-04-10T03:02:30.762Z"
+  "lastUpdated": "2026-04-10T03:02:33.136Z"
 }
