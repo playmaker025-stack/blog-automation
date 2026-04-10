@@ -808,14 +808,14 @@
       "pipelineId": "pipe-637bf347",
       "topicId": "topic-b7b3deaf",
       "userId": "a",
-      "stage": "idle",
+      "stage": "strategy-planning",
       "error": null,
       "approvalGranted": false,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-10T07:54:25.189Z",
-      "updatedAt": "2026-04-10T07:54:25.623Z"
+      "updatedAt": "2026-04-10T07:54:27.563Z"
     }
   ],
-  "lastUpdated": "2026-04-10T07:54:25.623Z"
+  "lastUpdated": "2026-04-10T07:54:27.563Z"
 }
