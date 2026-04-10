@@ -9,7 +9,6 @@ const NAV_ITEMS = [
   { href: "/pipeline", label: "글쓰기 실행", icon: "▶", admin: false },
   { href: "/posts", label: "발행 인덱스", icon: "≡", admin: false },
   { href: "/eval", label: "운영 리포트", icon: "◉", admin: true },
-  { href: "/settings", label: "설정", icon: "⚙", admin: false },
 ] as const;
 
 export function Sidebar() {

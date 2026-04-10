@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/verify.mjs --skip-build --skip-test)",
+      "Bash(npx eslint:*)",
+      "Bash(npx playwright:*)",
+      "Bash(curl -s \"http://localhost:3001/api/github/topics\")",
+      "Bash(xargs grep:*)",
+      "Bash(curl -s \"http://localhost:3001/api/github/profile?userId=a\")",
+      "Bash(curl -s \"http://localhost:3001/api/github/posts?limit=1000\")",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); posts=[p for p in data.get\\('posts',[]\\) if p.get\\('userId',''\\).lower\\(\\)=='a']; print\\(f'Total A posts: {len\\(posts\\)}'\\); [print\\(f'  {p[\\\\\"status\\\\\"]}: {p[\\\\\"title\\\\\"][:60]}'\\) for p in posts]\")",
+      "Bash(node -e \"const j=require\\('/tmp/posts.json'\\); const posts=j.posts.filter\\(p=>p.userId?.toLowerCase\\(\\)==='a'\\); console.log\\('Total A posts:',posts.length\\); posts.forEach\\(p=>console.log\\(' ',p.status+':',p.title?.slice\\(0,60\\)\\)\\)\")",
+      "Bash(cat .eslintrc*)",
+      "Bash(cat eslint.config.*)",
+      "Bash(node -e \"let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\); const posts=j.posts; console.log\\('Total:',posts.length\\); posts.filter\\(p=>p.userId?.toLowerCase\\(\\)==='a'\\).forEach\\(p=>console.log\\(p.status,p.wordCount+'자',p.title?.slice\\(0,50\\)\\)\\)}\\)\")",
+      "Bash(node -e \"let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\); const a=j.topics.filter\\(t=>t.assignedUserId?.toLowerCase\\(\\)==='a'\\); a.forEach\\(t=>console.log\\(t.status,t.topicId,t.title?.slice\\(0,50\\)\\)\\)}\\)\")",
+      "Bash(node -e \"let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\); const all=j.posts; console.log\\('총 포스트:',all.length\\); const byStatus={}; all.forEach\\(p=>{byStatus[p.status]=\\(byStatus[p.status]||0\\)+1}\\); console.log\\('상태별:',JSON.stringify\\(byStatus\\)\\); const completed=all.filter\\(p=>\\(p.status==='ready'||p.status==='draft'\\)&&\\(p.wordCount||0\\)>100\\); console.log\\('완성된 포스트 \\(100자 이상\\):',completed.length\\); completed.forEach\\(p=>console.log\\(' ',p.status,p.wordCount+'자',p.title?.slice\\(0,50\\)\\)\\)}\\)\")",
+      "Bash(node -e \"let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\); const ready=j.posts.filter\\(p=>p.status==='ready'||p.status==='approved'\\); console.log\\('완성 포스트:',ready.length\\); ready.forEach\\(p=>console.log\\(p.postId, p.status, p.wordCount+'자', p.title?.slice\\(0,50\\)\\)\\)}\\)\")",
+      "Bash(curl -s \"http://localhost:3001/api/github/posts/post-9fa1f12d/content\")",
+      "Bash(node -e \"let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\); const p=j.posts.find\\(p=>p.postId==='post-9fa1f12d'\\); console.log\\(JSON.stringify\\(p,null,2\\)\\)}\\)\")",
+      "Bash(node -e \"let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\); console.log\\('repo:',j.githubDataRepo||j.dataRepo||'unknown'\\)}\\)\")",
+      "Bash(node -e \"let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\); if\\(j.content\\){const text=Buffer.from\\(j.content,'base64'\\).toString\\('utf8'\\); const lines=text.split\\('\\\\n'\\); console.log\\('총 라인 수:',lines.length\\); const longLines=lines.filter\\(l=>l.length>25\\); console.log\\('25자 초과 줄 수:',longLines.length\\); console.log\\('첫 20줄:'\\); lines.slice\\(0,20\\).forEach\\(\\(l,i\\)=>console.log\\(i+1+':',l.length+'자',JSON.stringify\\(l.slice\\(0,40\\)\\)\\)\\)} else {console.log\\('에러:',j.message\\)}}\\)\")",
+      "Bash(node -e \"let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\); if\\(j.content\\){const text=Buffer.from\\(j.content,'base64'\\).toString\\('utf8'\\); const lines=text.split\\('\\\\n'\\); console.log\\('총 라인 수:',lines.length\\); const longLines=lines.filter\\(l=>l.length>25\\); console.log\\('25자 초과 줄 수:',longLines.length\\); console.log\\('\\\\n--- 첫 15줄 ---'\\); lines.slice\\(0,15\\).forEach\\(\\(l,i\\)=>console.log\\(\\(i+1\\)+' ['+l.length+'자]:',l.slice\\(0,50\\)\\)\\)} else {console.log\\('에러:',JSON.stringify\\(j\\)\\)}}\\)\")",
+      "Bash(node -e \"let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{try{const j=JSON.parse\\(d\\); if\\(Array.isArray\\(j\\)\\){console.log\\('폴더들:',j.map\\(x=>x.name\\).join\\(', '\\)\\)}else{console.log\\('응답:',JSON.stringify\\(j\\).slice\\(0,200\\)\\)}}catch\\(e\\){console.log\\('파싱 에러:',d.slice\\(0,200\\)\\)}}\\)\")",
+      "Bash(node -e \"let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\); if\\(j.content\\){const text=Buffer.from\\(j.content,'base64'\\).toString\\('utf8'\\); const lines=text.split\\('\\\\n'\\); console.log\\('총 라인 수:',lines.length\\); const longLines=lines.filter\\(l=>l.length>25\\); console.log\\('25자 초과 줄 수:',longLines.length\\); lines.slice\\(0,15\\).forEach\\(\\(l,i\\)=>console.log\\(\\(i+1\\)+' ['+l.length+'자]:',l.slice\\(0,60\\)\\)\\)}}\\)\")",
+      "Bash(node -e ':*)",
+      "Bash(node:*)",
+      "Bash(npx tsc:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)",
+      "Bash(git rebase:*)",
+      "Bash(cat data/verify-failures)",
+      "Bash(ls data/)",
+      "Bash(cat data/pipeline-ledger/*.json)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); topics=d.get\\('topics',[]\\); print\\(f'Total: {len\\(topics\\)}'\\); statuses={}; [statuses.update\\({t['status']:statuses.get\\(t['status'],0\\)+1}\\) for t in topics]; print\\(statuses\\)\")",
+      "Skill(ralph-loop)",
+      "Bash(powershell.exe:*)"
+    ]
+  }
+}
