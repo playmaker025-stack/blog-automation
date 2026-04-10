@@ -23,7 +23,6 @@ export async function POST(request: NextRequest) {
 
   const stream = new ReadableStream({
     start(controller) {
-      const signal = request.signal;
       const encoder = new TextEncoder();
 
       // Railway 30s 게이트웨이 타임아웃 방지 — 15초마다 SSE 주석 전송
@@ -31,7 +30,8 @@ export async function POST(request: NextRequest) {
         try { controller.enqueue(encoder.encode(": ping\n\n")); } catch { /* stream closed */ }
       }, 15_000);
 
-      runPipeline({ request: body, controller, signal })
+      // request.signal을 파이프라인에 전달하지 않음 — SSE 클라이언트 연결 해제 시에도 파이프라인이 완료까지 실행되어야 함
+      runPipeline({ request: body, controller })
         .catch((err) => {
           const event = JSON.stringify({
             type: "error",
