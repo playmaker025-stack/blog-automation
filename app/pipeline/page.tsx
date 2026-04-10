@@ -77,6 +77,16 @@ export default function PipelinePage() {
     };
   }, []);
 
+  // F5 새로고침 시 비완료 run 상태 초기화
+  // complete / gate_blocked(미달)는 결과 확인용이므로 보존, 나머지는 초기화
+  useEffect(() => {
+    const TERMINAL: import("@/lib/types/agent").PipelineStage[] = ["complete", "gate_blocked"];
+    if (stage !== "idle" && !TERMINAL.includes(stage)) {
+      resetRun();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   // 토픽 목록 + 발행 인덱스 동시 로드
   useEffect(() => {
     const t = Date.now();
