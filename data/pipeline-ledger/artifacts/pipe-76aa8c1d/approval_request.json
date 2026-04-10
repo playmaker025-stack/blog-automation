@@ -1,0 +1,21 @@
+{
+  "pipelineId": "pipe-76aa8c1d",
+  "type": "approval_request",
+  "savedAt": "2026-04-10T06:49:35.461Z",
+  "data": {
+    "pipelineId": "pipe-76aa8c1d",
+    "previousTitle": "부평 전자담배 입문 기기 추천",
+    "proposedTitle": "부평 전자담배 입문 기기 추천 – 처음이라면 이것만 보세요",
+    "materialChange": false,
+    "materialChangeSignals": [
+      "coreKeywordChanged"
+    ],
+    "rationale": "사용자 A블로그는 20~30대 입문자를 타깃으로 casual 톤의 listicle 구조를 선호하며, 평균 1,500자 분량을 유지해왔습니다. 과거 포스팅 패턴을 보면 '부평 전자담배 추천', '구월동 전자담배 체크리스트', '입호흡 vs 폐호흡 비교' 등 지역 키워드 + 입문자 교육형 콘텐츠가 반복적으로 발행된 것을 확인할 수 있습니다. 이번 토픽 역시 동일한 패턴을 유지하되, '입문 기기 추천'이라는 키워드에 집중해 ①기초 개념 교육 → ②유형별 비교 → ③선택 체크리스트 → ④지역 연계 정보 → ⑤마무리 요약의 5단 구조로 설계했습니다. 가격·이벤트 언급은 시스템 금지 원칙에 따라 전면 배제하고, 기능·사용감·편의성 중심의 정보성 콘텐츠로 재구성해 블로그 신뢰도와 검색 유입을 동시에 확보하는 전략을 채택했습니다.",
+    "requestedAt": "2026-04-10T06:49:17.930Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-10T06:49:35.461Z",
+      "modifications": null
+    }
+  }
+}
