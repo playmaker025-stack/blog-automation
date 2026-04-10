@@ -568,14 +568,14 @@
       "pipelineId": "pipe-c91f9662",
       "topicId": "topic-f03efaa1",
       "userId": "b",
-      "stage": "strategy-planning",
+      "stage": "awaiting-approval",
       "error": null,
-      "approvalGranted": false,
+      "approvalGranted": true,
       "postingListUpdated": false,
       "indexUpdated": false,
       "createdAt": "2026-04-10T05:03:14.625Z",
-      "updatedAt": "2026-04-10T05:03:16.870Z"
+      "updatedAt": "2026-04-10T05:04:21.767Z"
     }
   ],
-  "lastUpdated": "2026-04-10T05:03:16.870Z"
+  "lastUpdated": "2026-04-10T05:04:21.767Z"
 }
