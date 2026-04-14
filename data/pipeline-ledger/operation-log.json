@@ -1413,7 +1413,16 @@
       "targetCategory": "일반",
       "pipelineId": "pipe-16a3267e",
       "at": "2026-04-14T03:46:22.278Z"
+    },
+    {
+      "type": "gate_result",
+      "gate": "pre-write",
+      "passed": true,
+      "blockedBy": null,
+      "reason": "pre-write gate 통과",
+      "pipelineId": "pipe-16a3267e",
+      "at": "2026-04-14T03:46:24.052Z"
     }
   ],
-  "lastUpdated": "2026-04-14T03:46:22.278Z"
+  "lastUpdated": "2026-04-14T03:46:24.052Z"
 }
