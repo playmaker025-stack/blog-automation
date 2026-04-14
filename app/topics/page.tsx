@@ -198,7 +198,12 @@ export default function TopicsPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userId: generateUserId.trim() }),
       });
-      const json = await res.json() as TopicGeneratorOutput & { error?: string };
+      let json: TopicGeneratorOutput & { error?: string };
+      try {
+        json = await res.json() as TopicGeneratorOutput & { error?: string };
+      } catch {
+        throw new Error("서버 응답 파싱 실패 — 잠시 후 다시 시도해주세요.");
+      }
       if (!res.ok) throw new Error(json.error ?? "생성 실패");
       setGenerateResult(json);
       setSelectedGenerated(new Set(json.generatedTopics.map((_, i) => i)));

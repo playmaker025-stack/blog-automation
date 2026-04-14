@@ -59,6 +59,7 @@ export default function PipelinePage() {
   // ── 로컬 상태 (이탈 시 초기화해도 무방) ─────────────────────
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [profileLoading, setProfileLoading] = useState(false);
+  const [profileError, setProfileError] = useState<string | null>(null);
   const [topics, setTopics] = useState<Topic[]>([]);
   const [posts, setPosts] = useState<PostingRecord[]>([]);
   const [approval, setApproval] = useState<ApprovalData | null>(null);
@@ -98,13 +99,17 @@ export default function PipelinePage() {
 
   // 사용자 프로필 로드 (userId 입력 후 딜레이)
   useEffect(() => {
-    if (!userId.trim()) { setProfile(null); return; }
+    if (!userId.trim()) { setProfile(null); setProfileError(null); return; }
     const timer = setTimeout(() => {
       setProfileLoading(true);
+      setProfileError(null);
       fetch(`/api/github/profile?userId=${encodeURIComponent(userId.trim())}`)
-        .then((r) => r.ok ? r.json() : null)
-        .then((d: { profile: UserProfile } | null) => setProfile(d?.profile ?? null))
-        .catch(() => setProfile(null))
+        .then(async (r) => {
+          const json = await r.json() as { profile?: UserProfile; error?: string };
+          if (r.ok) { setProfile(json.profile ?? null); }
+          else { setProfile(null); setProfileError(json.error ?? "프로필 조회 실패"); }
+        })
+        .catch((e) => { setProfile(null); setProfileError(e instanceof Error ? e.message : "네트워크 오류"); })
         .finally(() => setProfileLoading(false));
     }, 600);
     return () => clearTimeout(timer);
@@ -341,7 +346,10 @@ export default function PipelinePage() {
             {!profileLoading && profile && (
               <span className="text-xs text-emerald-600 font-medium">{profile.displayName}</span>
             )}
-            {!profileLoading && userId.trim() && !profile && (
+            {!profileLoading && userId.trim() && !profile && profileError && (
+              <span className="text-xs text-red-500" title={profileError}>오류: {profileError}</span>
+            )}
+            {!profileLoading && userId.trim() && !profile && !profileError && (
               <span className="text-xs text-zinc-400">프로필 없음</span>
             )}
           </div>
