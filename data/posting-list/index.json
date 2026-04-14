@@ -1634,7 +1634,22 @@
       "createdAt": "2026-04-14T05:22:54.127Z",
       "publishedAt": null,
       "updatedAt": "2026-04-14T05:25:22.344Z"
+    },
+    {
+      "postId": "post-cbc28baf",
+      "topicId": "topic-157a1185",
+      "userId": "a",
+      "title": "구월동 전자담배 기기 추천 입문자도 쉽게 고르는 완벽 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-ae1b5697",
+      "pendingApproval": null,
+      "createdAt": "2026-04-14T08:57:39.481Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-14T08:57:39.481Z"
     }
   ],
-  "lastUpdated": "2026-04-14T05:25:22.344Z"
+  "lastUpdated": "2026-04-14T08:57:39.481Z"
 }
