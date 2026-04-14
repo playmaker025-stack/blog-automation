@@ -1487,7 +1487,20 @@
       "reason": "candidate 등록 완료 (75점)",
       "pipelineId": "pipe-af50c048",
       "at": "2026-04-14T05:09:46.957Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "구월동 전자담배 추천 기기 가이드",
+      "proposedTitle": "구월동 전자담배 추천 기기 가이드 | 유형별로 딱 맞는 기기 찾기",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.5384615384615384,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-64366b3a",
+      "at": "2026-04-14T05:13:13.752Z"
     }
   ],
-  "lastUpdated": "2026-04-14T05:09:46.957Z"
+  "lastUpdated": "2026-04-14T05:13:13.752Z"
 }
