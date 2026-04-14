@@ -6,6 +6,8 @@ import { userCorpusRetriever } from "@/lib/skills/user-corpus-retriever";
 import { topicFeasibilityJudge } from "@/lib/skills/topic-feasibility-judge";
 import { sourceResolver } from "@/lib/skills/source-resolver";
 import { reviewRecordAudit } from "@/lib/skills/review-record-audit";
+import { naverKeywordResearch } from "@/lib/skills/naver-keyword-research";
+import { naverContentFetcher } from "@/lib/skills/naver-content-fetcher";
 import { readJsonFile, fileExists } from "@/lib/github/repository";
 import { Paths } from "@/lib/github/paths";
 import type { Topic } from "@/lib/types/github-data";
@@ -19,9 +21,11 @@ const SYSTEM_PROMPT = `당신은 네이버 블로그 포스팅 전략 전문가�
 1. user_profile_loader로 사용자 프로필과 금지 표현 로드
 2. user_corpus_retriever로 관련 예시 글 2개 로드 (스타일 분석, limit:2)
 3. topic_feasibility_judge로 토픽 실현 가능성 확인
-4. (참조 URL이 있으면) source_resolver로 검증
-5. review_record_audit으로 과거 패턴 참조
-6. 위 정보를 종합하여 전략 JSON 출력
+4. naver_keyword_research로 키워드 경쟁도 및 연관 키워드 조사
+5. naver_content_fetcher로 상위 블로그 글 본문 수집 및 핵심 내용 파악
+6. (참조 URL이 있으면) source_resolver로 검증
+7. review_record_audit으로 과거 패턴 참조
+8. 위 정보를 종합하여 전략 JSON 출력 — 특히 naver_content_fetcher 요약을 바탕으로 기존 글과 차별화된 각도를 전략에 반영할 것
 
 ## 출력 형식 (반드시 JSON 코드블록)
 \`\`\`json
@@ -120,6 +124,36 @@ const TOOLS: Tool[] = [
       required: ["userId"],
     },
   },
+  {
+    name: "naver_keyword_research",
+    description:
+      "네이버 블로그 검색 API로 키워드 경쟁도, 연관 키워드, 롱테일 제안, 상위 글 목록을 조회합니다.",
+    input_schema: {
+      type: "object" as const,
+      properties: {
+        keyword: { type: "string", description: "조사할 키워드 (토픽 제목 또는 핵심 키워드)" },
+        display: { type: "number", description: "수집할 블로그 글 수 (기본 30)" },
+      },
+      required: ["keyword"],
+    },
+  },
+  {
+    name: "naver_content_fetcher",
+    description:
+      "네이버 상위 블로그 글 URL 목록을 받아 실제 본문을 수집하고 AI로 핵심 내용을 요약합니다. naver_keyword_research의 topItems[].link 값을 urls로 전달하세요.",
+    input_schema: {
+      type: "object" as const,
+      properties: {
+        urls: {
+          type: "array",
+          items: { type: "string" },
+          description: "수집할 블로그 글 URL 목록 (최대 5개)",
+        },
+        keyword: { type: "string", description: "원본 키워드 (요약 컨텍스트용)" },
+      },
+      required: ["urls", "keyword"],
+    },
+  },
 ];
 
 async function loadTopic(topicId: string): Promise<Topic> {
@@ -191,6 +225,10 @@ export async function runStrategyPlanner(params: {
       sourceResolver(input as Parameters<typeof sourceResolver>[0]),
     review_record_audit: (input: unknown) =>
       reviewRecordAudit(input as Parameters<typeof reviewRecordAudit>[0]),
+    naver_keyword_research: (input: unknown) =>
+      naverKeywordResearch(input as Parameters<typeof naverKeywordResearch>[0]),
+    naver_content_fetcher: (input: unknown) =>
+      naverContentFetcher(input as Parameters<typeof naverContentFetcher>[0]),
   };
 
   const userMessage = `다음 토픽으로 포스팅 전략을 수립해주세요.

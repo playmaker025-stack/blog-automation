@@ -5,6 +5,7 @@ import type { Topic, PostingRecord } from "@/lib/types/github-data";
 import { parseTopicText, readFileAutoEncoding } from "@/lib/skills/import-parser";
 import { resolveRemainingTopics } from "@/lib/skills/remaining-topic-resolver";
 import { blogCode } from "@/lib/utils/blog-code";
+import type { GeneratedTopic, TopicGeneratorOutput } from "@/lib/agents/topic-generator";
 
 type StatusFilter = "all" | "remaining" | "matched" | Topic["status"];
 
@@ -62,6 +63,13 @@ export default function TopicsPage() {
   const [showAdd, setShowAdd] = useState(false);
   const [addTitle, setAddTitle] = useState("");
   const [addUserId, setAddUserId] = useState("");
+
+  // AI 글목록 생성
+  const [generateUserId, setGenerateUserId] = useState("");
+  const [generating, setGenerating] = useState(false);
+  const [generateResult, setGenerateResult] = useState<TopicGeneratorOutput | null>(null);
+  const [selectedGenerated, setSelectedGenerated] = useState<Set<number>>(new Set());
+  const [savingGenerated, setSavingGenerated] = useState(false);
 
   const fileRef = useRef<HTMLInputElement>(null);
 
@@ -177,6 +185,57 @@ export default function TopicsPage() {
     }
   };
 
+  // ── AI 글목록 생성 ─────────────────────────────────────
+  const handleGenerate = async () => {
+    if (!generateUserId.trim()) return;
+    setGenerating(true);
+    setGenerateResult(null);
+    setSelectedGenerated(new Set());
+    setNotice(null);
+    try {
+      const res = await fetch("/api/topics/generate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ userId: generateUserId.trim() }),
+      });
+      const json = await res.json() as TopicGeneratorOutput & { error?: string };
+      if (!res.ok) throw new Error(json.error ?? "생성 실패");
+      setGenerateResult(json);
+      setSelectedGenerated(new Set(json.generatedTopics.map((_, i) => i)));
+    } catch (e) {
+      setNotice({ type: "err", msg: e instanceof Error ? e.message : "생성 실패" });
+    } finally {
+      setGenerating(false);
+    }
+  };
+
+  const handleSaveGenerated = async () => {
+    if (!generateResult || selectedGenerated.size === 0) return;
+    setSavingGenerated(true);
+    setNotice(null);
+    try {
+      const selected = generateResult.generatedTopics.filter((_, i) => selectedGenerated.has(i));
+      for (const topic of selected) {
+        await fetch("/api/github/topics", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            title: topic.title,
+            assignedUserId: generateUserId.trim().toLowerCase(),
+          }),
+        });
+      }
+      setNotice({ type: "ok", msg: `${selected.length}개 토픽이 추가되었습니다.` });
+      setGenerateResult(null);
+      setSelectedGenerated(new Set());
+      loadTopics();
+    } catch {
+      setNotice({ type: "err", msg: "저장 실패" });
+    } finally {
+      setSavingGenerated(false);
+    }
+  };
+
   // ── 삭제 ───────────────────────────────────────────────
   const handleDelete = async (topicId: string, title: string) => {
     if (!confirm(`"${title}" 항목을 삭제하시겠습니까?`)) return;
@@ -289,6 +348,100 @@ export default function TopicsPage() {
             {saving ? "저장 중..." : preview.length > 0 ? `기존 목록 교체 저장 (${parsedCount}개)` : "기존 목록 교체 저장"}
           </button>
         </div>
+      </div>
+
+      {/* ── AI 새 글목록 생성 ───────────────────────────── */}
+      <div className="bg-white border border-zinc-200 rounded-xl p-5 mb-6">
+        <div className="flex items-start justify-between mb-1">
+          <h2 className="text-sm font-semibold text-zinc-800">AI 새 글목록 생성</h2>
+          <span className="text-[10px] px-2 py-0.5 bg-blue-50 text-blue-600 rounded-full font-medium">네이버 리서치 기반</span>
+        </div>
+        <p className="text-xs text-zinc-400 mb-4">
+          사용자의 모든 글이 발행 완료되면, 기존 글과 연관된 신규 토픽 5개를 자동 생성합니다.
+        </p>
+        <div className="flex gap-2 mb-4">
+          <input
+            value={generateUserId}
+            onChange={(e) => setGenerateUserId(e.target.value)}
+            placeholder="사용자 ID (예: user-a)"
+            className="flex-1 border border-zinc-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          <button
+            onClick={handleGenerate}
+            disabled={generating || !generateUserId.trim()}
+            className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed transition-colors whitespace-nowrap"
+          >
+            {generating ? "생성 중..." : "AI 생성"}
+          </button>
+        </div>
+
+        {generateResult && (
+          <div className="space-y-3">
+            <div className="text-xs text-zinc-500 bg-zinc-50 rounded-lg px-3 py-2">
+              <span className="font-medium">리서치 키워드:</span> {generateResult.researchKeyword} &nbsp;·&nbsp;
+              {generateResult.competitionInfo}
+            </div>
+            <div className="space-y-2">
+              {generateResult.generatedTopics.map((topic: GeneratedTopic, i: number) => (
+                <div
+                  key={i}
+                  onClick={() => {
+                    const next = new Set(selectedGenerated);
+                    if (next.has(i)) next.delete(i); else next.add(i);
+                    setSelectedGenerated(next);
+                  }}
+                  className={`border rounded-lg px-4 py-3 cursor-pointer transition-colors ${
+                    selectedGenerated.has(i)
+                      ? "border-blue-400 bg-blue-50/50"
+                      : "border-zinc-200 hover:border-zinc-300"
+                  }`}
+                >
+                  <div className="flex items-start gap-2">
+                    <div className={`mt-0.5 w-4 h-4 rounded border shrink-0 flex items-center justify-center ${
+                      selectedGenerated.has(i) ? "border-blue-500 bg-blue-500" : "border-zinc-300"
+                    }`}>
+                      {selectedGenerated.has(i) && (
+                        <svg className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                        </svg>
+                      )}
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm font-medium text-zinc-900">{topic.title}</p>
+                      <p className="text-xs text-zinc-500 mt-0.5">{topic.description}</p>
+                      <p className="text-[10px] text-blue-500 mt-1 italic">{topic.rationale}</p>
+                      <div className="flex flex-wrap gap-1 mt-1.5">
+                        {topic.tags.map((tag: string) => (
+                          <span key={tag} className="text-[10px] px-1.5 py-0.5 bg-zinc-100 text-zinc-500 rounded">
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="flex justify-between items-center pt-1">
+              <p className="text-xs text-zinc-400">{selectedGenerated.size}개 선택됨</p>
+              <div className="flex gap-2">
+                <button
+                  onClick={() => { setGenerateResult(null); setSelectedGenerated(new Set()); }}
+                  className="px-3 py-1.5 text-xs text-zinc-600 hover:text-zinc-900"
+                >
+                  취소
+                </button>
+                <button
+                  onClick={handleSaveGenerated}
+                  disabled={savingGenerated || selectedGenerated.size === 0}
+                  className="px-4 py-1.5 bg-blue-600 text-white text-xs font-medium rounded-lg hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed"
+                >
+                  {savingGenerated ? "저장 중..." : `선택한 ${selectedGenerated.size}개 추가`}
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* ── 필터 ─────────────────────────────────────── */}
