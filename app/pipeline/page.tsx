@@ -67,15 +67,54 @@ export default function PipelinePage() {
   const [elapsed, setElapsed] = useState(0);
   const [stuckCount, setStuckCount] = useState(0);
   const [recovering, setRecovering] = useState(false);
+  const [currentPipelineId, setCurrentPipelineId] = useState<string | null>(null);
   const esRef = useRef<EventSource | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const pollRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   // 컴포넌트 언마운트 시 타이머 정리
   useEffect(() => {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
+      if (pollRef.current) clearInterval(pollRef.current);
     };
   }, []);
+
+  // SSE 이벤트 누락 대비 — 파이프라인 승인 대기 상태 폴링
+  // running 중이고 60초 이상 경과했으며 승인 다이얼로그가 아직 없을 때 10초마다 상태 확인
+  useEffect(() => {
+    if (pollRef.current) { clearInterval(pollRef.current); pollRef.current = null; }
+    if (!running || !currentPipelineId) return;
+
+    pollRef.current = setInterval(async () => {
+      if (!running || approval) return;
+      try {
+        const res = await fetch(`/api/pipeline/status?pipelineId=${currentPipelineId}`);
+        if (!res.ok) return;
+        const { state } = await res.json() as { state: { stage: string; strategy?: { title: string; rationale: string; outline: Array<{ heading: string }> } } };
+        if (state.stage === "awaiting-approval" && !approval && state.strategy) {
+          const approvalData: ApprovalData = {
+            pipelineId: currentPipelineId,
+            previousTitle: "",
+            proposedTitle: state.strategy.title,
+            rationale: state.strategy.rationale,
+            outline: state.strategy.outline.map((s) => s.heading),
+          };
+          if (autoApprove) {
+            fetch("/api/pipeline/approve", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ pipelineId: currentPipelineId, approved: true }),
+            }).catch(() => {});
+          } else {
+            setApproval(approvalData);
+          }
+        }
+      } catch { /* ignore */ }
+    }, 10_000);
+
+    return () => { if (pollRef.current) { clearInterval(pollRef.current); pollRef.current = null; } };
+  }, [running, currentPipelineId, approval, autoApprove]);
 
   // 토픽 목록 + 발행 인덱스 + stuck count 동시 로드
   const reloadTopics = () => {
@@ -121,6 +160,9 @@ export default function PipelinePage() {
 
     if (event.type === "stage_change") {
       setStage((event.data as { stage?: import("@/lib/types/agent").PipelineStage })?.stage ?? event.stage);
+      // 첫 이벤트에서 pipelineId 추출
+      const pid = (event.data as { pipelineId?: string })?.pipelineId;
+      if (pid) setCurrentPipelineId(pid);
     }
     if (event.type === "token") {
       appendStreamingToken((event.data as { token?: string })?.token ?? "");
@@ -210,6 +252,8 @@ export default function PipelinePage() {
     setStreamingBody("");
     setResult(null);
     setStage("idle");
+    setApproval(null);
+    setCurrentPipelineId(null);
     setRunning(true);
 
     const selectedTitle =
