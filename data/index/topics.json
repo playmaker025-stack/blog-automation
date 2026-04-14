@@ -8,10 +8,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-10T08:11:03.338Z"
+      "updatedAt": "2026-04-14T05:02:16.064Z"
     },
     {
       "topicId": "topic-157a1185",
@@ -21,10 +21,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-09T09:38:54.399Z"
+      "updatedAt": "2026-04-14T05:02:16.064Z"
     },
     {
       "topicId": "topic-b7b3deaf",
@@ -34,10 +34,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-10T08:24:08.863Z"
+      "updatedAt": "2026-04-14T05:02:16.064Z"
     },
     {
       "topicId": "topic-b39ccdca",
@@ -73,10 +73,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-07T10:10:58.179Z"
+      "updatedAt": "2026-04-14T05:02:16.064Z"
     },
     {
       "topicId": "topic-afccca09",
@@ -99,10 +99,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "b",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-09T09:58:53.315Z"
+      "updatedAt": "2026-04-14T05:02:16.064Z"
     },
     {
       "topicId": "topic-f03efaa1",
@@ -112,10 +112,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "b",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-10T05:42:05.701Z"
+      "updatedAt": "2026-04-14T05:02:16.064Z"
     },
     {
       "topicId": "topic-bbfcb4ec",
@@ -164,10 +164,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-09T10:19:07.617Z"
+      "updatedAt": "2026-04-14T05:02:16.064Z"
     },
     {
       "topicId": "topic-668670c4",
@@ -177,10 +177,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-09T11:12:19.006Z"
+      "updatedAt": "2026-04-14T05:02:16.064Z"
     },
     {
       "topicId": "topic-1fa85501",
@@ -190,10 +190,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-09T10:35:23.988Z"
+      "updatedAt": "2026-04-14T05:02:16.064Z"
     },
     {
       "topicId": "topic-e6ebfbdd",
@@ -203,10 +203,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-09T10:57:53.106Z"
+      "updatedAt": "2026-04-14T05:02:16.064Z"
     },
     {
       "topicId": "topic-dcc38665",
@@ -216,10 +216,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-10T03:02:24.814Z"
+      "updatedAt": "2026-04-14T05:02:16.064Z"
     },
     {
       "topicId": "topic-356ef75d",
@@ -229,10 +229,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-10T07:53:37.008Z"
+      "updatedAt": "2026-04-14T05:02:16.064Z"
     },
     {
       "topicId": "topic-f07b6c1e",
@@ -255,10 +255,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "d",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-10T08:31:49.868Z"
+      "updatedAt": "2026-04-14T05:02:16.064Z"
     },
     {
       "topicId": "topic-b74d01b0",
@@ -398,10 +398,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-04-09T10:12:13.980Z",
-      "updatedAt": "2026-04-14T03:46:18.395Z"
+      "updatedAt": "2026-04-14T05:02:16.064Z"
     },
     {
       "topicId": "topic-d9416a48",
@@ -417,5 +417,5 @@
       "updatedAt": "2026-04-10T05:54:01.572Z"
     }
   ],
-  "lastUpdated": "2026-04-14T03:46:18.395Z"
+  "lastUpdated": "2026-04-14T05:02:16.064Z"
 }
