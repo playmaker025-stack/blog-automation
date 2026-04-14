@@ -1671,7 +1671,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-ae1b5697",
       "at": "2026-04-14T08:57:34.892Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "말론 vs 아스트로 MK3 입문 추천",
+      "proposedTitle": "말론 vs 아스트로 MK3, 입문자라면 뭘 골라야 할까? 차이 완벽 정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.43333333333333335,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-3a3af7c6",
+      "at": "2026-04-14T09:04:06.493Z"
     }
   ],
-  "lastUpdated": "2026-04-14T08:57:34.892Z"
+  "lastUpdated": "2026-04-14T09:04:06.493Z"
 }
