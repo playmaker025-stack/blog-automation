@@ -32,6 +32,11 @@ const steps = [
     description: 'ESLint 코드 품질 검사',
     skip: false,
   },
+  {
+    name: 'patterns',
+    cmd: 'node scripts/check-patterns.mjs',
+    description: '알려진 실패 패턴 재발 방지 검사 (RULE-001~004)',
+  },
   ...(!skipBuild
     ? [
         {
@@ -46,7 +51,7 @@ const steps = [
         {
           name: 'harness',
           cmd: 'node --test tests/harness/*.test.mjs',
-          description: 'Harness 통합 테스트',
+          description: 'Harness 통합 테스트 (회귀 포함)',
         },
       ]
     : []),
