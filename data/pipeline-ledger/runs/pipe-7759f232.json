@@ -2,11 +2,11 @@
   "pipelineId": "pipe-7759f232",
   "topicId": "topic-44121a2e",
   "userId": "a",
-  "stage": "strategy-planning",
-  "error": null,
+  "stage": "failed",
+  "error": "승인 대기 시간 초과 (30분)",
   "approvalGranted": false,
   "postingListUpdated": false,
   "indexUpdated": false,
   "createdAt": "2026-04-14T05:05:45.346Z",
-  "updatedAt": "2026-04-14T05:05:48.512Z"
+  "updatedAt": "2026-04-14T05:37:22.746Z"
 }
