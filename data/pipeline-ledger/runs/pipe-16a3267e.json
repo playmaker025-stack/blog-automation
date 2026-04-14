@@ -1,0 +1,12 @@
+{
+  "pipelineId": "pipe-16a3267e",
+  "topicId": "topic-32ad4b9e",
+  "userId": "a",
+  "stage": "idle",
+  "error": null,
+  "approvalGranted": false,
+  "postingListUpdated": false,
+  "indexUpdated": false,
+  "createdAt": "2026-04-14T03:44:47.299Z",
+  "updatedAt": "2026-04-14T03:44:47.300Z"
+}
