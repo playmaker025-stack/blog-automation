@@ -310,7 +310,15 @@ setPipelineError(null);
         reader.read().then(({ done, value }) => {
           if (done) {
             // 스트림 종료 — approval 다이얼로그가 열려 있으면 running 유지 (write phase 대기)
-            // approval 없이 종료 → 에러 또는 완료
+            // approval 없이 종료(에러/타임아웃) → running 해제
+            setApproval((current) => {
+              if (!current) {
+                // approval이 없으면 에러로 종료된 것 — running 해제
+                setRunning(false);
+                if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
+              }
+              return current;
+            });
             return;
           }
           buffer += decoder.decode(value, { stream: true });

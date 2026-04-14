@@ -265,6 +265,10 @@ export async function runStrategyPlanner(params: {
       throw new Error("전략 파싱 실패: title 필드 없음 — 폴백 시도");
     }
   } catch (loopOrParseErr) {
+    // pipeline signal이 이미 abort됐으면 폴백 없이 즉시 throw
+    if (signal?.aborted) {
+      throw new Error("파이프라인 취소 — 전략 수립 중단");
+    }
     // tool-use 루프 오류 또는 파싱 실패 → 직접 호출 폴백
     console.warn("[strategy-planner] tool-use 루프/파싱 실패, simple 폴백 시도:", String(loopOrParseErr));
     onProgress?.("전략 파싱 재시도 중 (direct 모드)...");
@@ -272,6 +276,7 @@ export async function runStrategyPlanner(params: {
       topicTitle: topic.title,
       topicDescription: topic.description,
       userId,
+      signal,
     });
     if (!plan.title || typeof plan.title !== "string") {
       throw new Error(`전략 수립 최종 실패: 폴백 응답에도 title 없음 (topicId=${topicId})`);
@@ -287,10 +292,15 @@ export async function runStrategyPlannerSimple(params: {
   topicTitle: string;
   topicDescription: string;
   userId: string;
+  signal?: AbortSignal;
 }): Promise<StrategyPlanResult> {
   const client = getAnthropicClient();
 
-  const timeoutMs = 60_000;
+  const CALL_TIMEOUT_MS = 45_000;
+  const callSignal = params.signal
+    ? AbortSignal.any([AbortSignal.timeout(CALL_TIMEOUT_MS), params.signal])
+    : AbortSignal.timeout(CALL_TIMEOUT_MS);
+
   const response = await client.messages.create({
     model: MODELS.sonnet,
     system: SYSTEM_PROMPT,
@@ -301,7 +311,7 @@ export async function runStrategyPlannerSimple(params: {
         content: `토픽 제목: ${params.topicTitle}\n설명: ${params.topicDescription}\n사용자 ID: ${params.userId}\n\n전략 JSON을 출력해주세요.`,
       },
     ],
-  }, { signal: AbortSignal.timeout(timeoutMs) });
+  }, { signal: callSignal });
 
   const text = response.content.find((b) => b.type === "text");
   if (!text || text.type !== "text") throw new Error("응답 없음");
