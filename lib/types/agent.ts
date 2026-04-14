@@ -139,4 +139,6 @@ export interface ToolUseLoopOptions {
   tools: import("@anthropic-ai/sdk/resources/messages").Tool[];
   toolRegistry: ToolRegistry;
   maxIterations?: number; // 기본값: 10
+  onProgress?: (msg: string) => void;
+  signal?: AbortSignal; // 파이프라인 수준 취소 신호
 }

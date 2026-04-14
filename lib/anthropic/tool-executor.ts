@@ -20,6 +20,8 @@ export async function runToolUseLoop(
     tools,
     toolRegistry,
     maxIterations = DEFAULT_MAX_ITERATIONS,
+    onProgress,
+    signal: pipelineSignal,
   } = options;
 
   const client = getAnthropicClient();
@@ -30,12 +32,16 @@ export async function runToolUseLoop(
     iterations++;
 
     let response: Awaited<ReturnType<typeof client.messages.create>>;
-    const CALL_TIMEOUT_MS = 90_000;
+    // 45s per call — 3 calls × 45s = 135s 이내, Railway 300s 여유
+    const CALL_TIMEOUT_MS = 45_000;
     try {
-      // AbortSignal.timeout: HTTP 연결 레벨에서 강제 취소
-      // Promise.race + setTimeout 패턴은 타임아웃 후에도 HTTP 연결이 살아있어
-      // 다중 파이프라인 동시 실행 시 자원 고갈이 발생할 수 있음
-      const callSignal = AbortSignal.timeout(CALL_TIMEOUT_MS);
+      // AbortSignal.any: 파이프라인 취소 신호 또는 per-call 타임아웃 중 먼저 발생하는 쪽으로 취소
+      const callTimeoutSignal = AbortSignal.timeout(CALL_TIMEOUT_MS);
+      const callSignal = pipelineSignal
+        ? AbortSignal.any([callTimeoutSignal, pipelineSignal])
+        : callTimeoutSignal;
+
+      onProgress?.(`AI 분석 중... (${iterations}/${maxIterations})`);
       console.log(`[tool-executor] iteration ${iterations} API call start`);
       response = await client.messages.create({
         model,
@@ -86,6 +92,16 @@ export async function runToolUseLoop(
         try {
           // 스킬 실행 타임아웃: GitHub API 등 외부 IO가 무한 대기하는 것 방지
           const SKILL_TIMEOUT_MS = 30_000;
+          const skillLabel: Record<string, string> = {
+            user_profile_loader: "사용자 프로필 로드",
+            user_corpus_retriever: "코퍼스 분석",
+            topic_feasibility_judge: "실현 가능성 검토",
+            naver_keyword_research: "네이버 키워드 리서치",
+            naver_content_fetcher: "상위 블로그 수집",
+            review_record_audit: "과거 패턴 분석",
+            source_resolver: "참조 URL 검증",
+          };
+          onProgress?.(`${skillLabel[block.name] ?? block.name} 중...`);
           console.log(`[tool-executor] skill "${block.name}" start`);
           const result = await Promise.race([
             skillFn(block.input),

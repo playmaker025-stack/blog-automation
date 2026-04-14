@@ -30,27 +30,30 @@ export async function POST(request: NextRequest) {
         try { controller.enqueue(encoder.encode(": ping\n\n")); } catch { /* stream closed */ }
       }, 15_000);
 
-      // 글로벌 강제종료 타이머 — 290초 후 아무것도 완료 안 되면 강제 에러 종료
-      // 개별 타임아웃(120s/160s)이 작동하지 않는 경우의 최후 보루
-      // Railway 300s 게이트웨이 제한보다 10s 낮게 설정
+      // 파이프라인 수준 AbortController — 글로벌 타임아웃 시 Anthropic API 호출까지 취소
+      const pipelineAbortController = new AbortController();
+
+      // 글로벌 강제종료 타이머 — 280초 후 파이프라인 취소 + SSE 닫기
+      // Railway 300s 제한보다 20s 낮게 설정
       let streamClosed = false;
       const globalTimeout = setTimeout(() => {
         if (streamClosed) return;
-        console.error("[pipeline/run] global timeout 290s — force closing stream");
+        console.error("[pipeline/run] global timeout 280s — aborting pipeline");
+        pipelineAbortController.abort(new Error("파이프라인 글로벌 타임아웃 (280초)"));
         const event = JSON.stringify({
           type: "error",
           stage: "failed",
-          data: { message: "파이프라인 글로벌 타임아웃 (290초) — 자동 종료" },
+          data: { message: "파이프라인 글로벌 타임아웃 (280초) — 자동 종료" },
           timestamp: new Date().toISOString(),
         });
         try { controller.enqueue(encoder.encode(`data: ${event}\n\n`)); } catch { /* ignore */ }
         try { controller.close(); } catch { /* ignore */ }
         streamClosed = true;
-      }, 290_000);
+      }, 280_000);
 
-      // request.signal을 파이프라인에 전달하지 않음 — SSE 클라이언트 연결 해제 시에도 파이프라인이 완료까지 실행되어야 함
-      runPipeline({ request: body, controller })
+      runPipeline({ request: body, controller, signal: pipelineAbortController.signal })
         .catch((err) => {
+          if (streamClosed) return; // 글로벌 타임아웃이 이미 처리
           const event = JSON.stringify({
             type: "error",
             stage: "failed",
@@ -63,6 +66,7 @@ export async function POST(request: NextRequest) {
           streamClosed = true;
           clearTimeout(globalTimeout);
           clearInterval(keepalive);
+          pipelineAbortController.abort(); // 정상 완료 시에도 정리
           try { controller.close(); } catch { /* already closed */ }
         });
     },

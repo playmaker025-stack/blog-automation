@@ -205,8 +205,9 @@ export async function runStrategyPlanner(params: {
   topicId: string;
   userId: string;
   onProgress?: (message: string) => void;
+  signal?: AbortSignal;
 }): Promise<StrategyPlanResult> {
-  const { topicId, userId, onProgress } = params;
+  const { topicId, userId, onProgress, signal } = params;
 
   onProgress?.(`토픽 "${topicId}" 전략 수립 시작`);
 
@@ -254,6 +255,8 @@ export async function runStrategyPlanner(params: {
       tools: TOOLS,
       toolRegistry,
       maxIterations: 6,
+      onProgress,
+      signal,
     });
 
     onProgress?.("전략 계획 파싱 중...");

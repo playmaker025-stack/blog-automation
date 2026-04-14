@@ -174,6 +174,7 @@ export async function runPipeline(params: {
       userId: request.userId,
       onProgress: (msg) =>
         emit(controller, makeEvent("progress", "strategy-planning", { message: msg })),
+      signal,
     });
 
     state = updateState(state, { strategy });
