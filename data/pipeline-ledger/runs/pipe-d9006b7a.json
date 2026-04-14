@@ -5,8 +5,8 @@
   "stage": "awaiting-approval",
   "error": null,
   "approvalGranted": true,
-  "postingListUpdated": false,
+  "postingListUpdated": true,
   "indexUpdated": false,
   "createdAt": "2026-04-14T05:21:20.372Z",
-  "updatedAt": "2026-04-14T05:22:53.221Z"
+  "updatedAt": "2026-04-14T05:22:56.419Z"
 }
