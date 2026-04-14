@@ -1477,7 +1477,17 @@
       "evalScore": 75,
       "pipelineId": "pipe-af50c048",
       "at": "2026-04-14T05:09:44.324Z"
+    },
+    {
+      "type": "baseline_candidate",
+      "scenarioId": "topic-44121a2e",
+      "runId": "eval-4d90c7a2",
+      "aggregateScore": 75,
+      "registered": true,
+      "reason": "candidate 등록 완료 (75점)",
+      "pipelineId": "pipe-af50c048",
+      "at": "2026-04-14T05:09:46.957Z"
     }
   ],
-  "lastUpdated": "2026-04-14T05:09:44.324Z"
+  "lastUpdated": "2026-04-14T05:09:46.957Z"
 }
