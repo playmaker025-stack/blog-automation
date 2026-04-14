@@ -6,16 +6,18 @@ import { PipelineStream } from "@/components/pipeline/pipeline-stream";
 import { ApprovalDialog } from "@/components/pipeline/approval-dialog";
 import { PipelineStateInspector, applyEventToInspector } from "@/components/pipeline/state-inspector";
 import { usePipelineStore } from "@/lib/store/pipeline-store";
-import type { SSEEvent, ApprovalRequest } from "@/lib/agents/types";
+import type { SSEEvent, ApprovalRequest, StrategyPlanResult } from "@/lib/agents/types";
 import type { Topic, UserProfile, PostingRecord } from "@/lib/types/github-data";
 import { resolveRemainingTopics } from "@/lib/skills/remaining-topic-resolver";
 
 interface ApprovalData {
   pipelineId: string;
+  topicId: string;
   previousTitle: string;
   proposedTitle: string;
   rationale: string;
   outline: string[];
+  strategy: StrategyPlanResult; // write phase에서 사용
 }
 
 interface ResultData {
@@ -67,9 +69,7 @@ export default function PipelinePage() {
   const [elapsed, setElapsed] = useState(0);
   const [stuckCount, setStuckCount] = useState(0);
   const [recovering, setRecovering] = useState(false);
-  const [currentPipelineId, setCurrentPipelineId] = useState<string | null>(null);
   const [pipelineError, setPipelineError] = useState<string | null>(null);
-  const esRef = useRef<EventSource | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const pollRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -81,41 +81,11 @@ export default function PipelinePage() {
     };
   }, []);
 
-  // SSE 이벤트 누락 대비 — 파이프라인 승인 대기 상태 폴링
-  // running 중이고 60초 이상 경과했으며 승인 다이얼로그가 아직 없을 때 10초마다 상태 확인
+  // pollRef는 더 이상 사용하지 않음 — 2단계 파이프라인에서 승인은 클라이언트에서 처리
+  // (제거하면 기존 refs 참조 오류 발생하므로 useEffect만 비워둠)
   useEffect(() => {
-    if (pollRef.current) { clearInterval(pollRef.current); pollRef.current = null; }
-    if (!running || !currentPipelineId) return;
-
-    pollRef.current = setInterval(async () => {
-      if (!running || approval) return;
-      try {
-        const res = await fetch(`/api/pipeline/status?pipelineId=${currentPipelineId}`);
-        if (!res.ok) return;
-        const { state } = await res.json() as { state: { stage: string; strategy?: { title: string; rationale: string; outline: Array<{ heading: string }> } } };
-        if (state.stage === "awaiting-approval" && !approval && state.strategy) {
-          const approvalData: ApprovalData = {
-            pipelineId: currentPipelineId,
-            previousTitle: "",
-            proposedTitle: state.strategy.title,
-            rationale: state.strategy.rationale,
-            outline: state.strategy.outline.map((s) => s.heading),
-          };
-          if (autoApprove) {
-            fetch("/api/pipeline/approve", {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ pipelineId: currentPipelineId, approved: true }),
-            }).catch(() => {});
-          } else {
-            setApproval(approvalData);
-          }
-        }
-      } catch { /* ignore */ }
-    }, 10_000);
-
     return () => { if (pollRef.current) { clearInterval(pollRef.current); pollRef.current = null; } };
-  }, [running, currentPipelineId, approval, autoApprove]);
+  }, []);
 
   // 토픽 목록 + 발행 인덱스 + stuck count 동시 로드
   const reloadTopics = () => {
@@ -161,24 +131,32 @@ export default function PipelinePage() {
 
     if (event.type === "stage_change") {
       setStage((event.data as { stage?: import("@/lib/types/agent").PipelineStage })?.stage ?? event.stage);
-      // 첫 이벤트에서 pipelineId 추출
-      const pid = (event.data as { pipelineId?: string })?.pipelineId;
-      if (pid) setCurrentPipelineId(pid);
+      // pipelineId는 approval 데이터를 통해 전달됨 — 여기선 추적 불필요
     }
     if (event.type === "token") {
       appendStreamingToken((event.data as { token?: string })?.token ?? "");
     }
     if (event.type === "approval_required") {
-      const approvalData = event.data as ApprovalData;
-      if (autoApprove) {
-        fetch("/api/pipeline/approve", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ pipelineId: approvalData.pipelineId, approved: true }),
-        }).catch(() => {});
-      } else {
-        setApproval(approvalData);
-      }
+      // strategy phase 완료 — approval 데이터에 strategy 포함
+      const d = event.data as {
+        pipelineId: string;
+        previousTitle: string;
+        proposedTitle: string;
+        rationale: string;
+        outline: string[];
+        strategy: StrategyPlanResult;
+      };
+      const approvalData: ApprovalData = {
+        pipelineId: d.pipelineId,
+        topicId: (event.data as Record<string, unknown>).__topicId as string ?? "",
+        previousTitle: d.previousTitle,
+        proposedTitle: d.proposedTitle,
+        rationale: d.rationale,
+        outline: d.outline,
+        strategy: d.strategy,
+      };
+      // autoApprove 여부는 위 useEffect가 처리 — 여기선 항상 setApproval만
+      setApproval(approvalData);
     }
     if (event.type === "result") {
       const d = event.data as ResultData;
@@ -186,15 +164,6 @@ export default function PipelinePage() {
       setRunning(false);
       setRunningTitle(null);
       if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
-      esRef.current?.close();
-    }
-    if (event.type === "rejected") {
-      setApproval(null);
-      setRunning(false);
-      setRunningTitle(null);
-      setStage("idle");
-      if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
-      esRef.current?.close();
     }
     if (event.type === "gate_blocked") {
       const d = event.data as {
@@ -215,7 +184,6 @@ export default function PipelinePage() {
       setRunning(false);
       setRunningTitle(null);
       if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
-      esRef.current?.close();
     }
     if (event.type === "error") {
       const msg = (event.data as { message?: string })?.message ?? "파이프라인 오류가 발생했습니다.";
@@ -224,9 +192,8 @@ export default function PipelinePage() {
       setRunning(false);
       setRunningTitle(null);
       if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
-      esRef.current?.close();
     }
-  }, [autoApprove, appendEvent, setInspector, setStage, appendStreamingToken, setResult, setRunningTitle]);
+  }, [appendEvent, setInspector, setStage, appendStreamingToken, setResult, setRunningTitle]);
 
   // "직접 주제 입력" 모드: 먼저 draft 토픽을 생성하고 그 ID를 사용
   const resolveTopicId = async (): Promise<string | null> => {
@@ -245,6 +212,54 @@ export default function PipelinePage() {
     return json.topic.topicId;
   };
 
+  // write phase 시작 — 승인 후 호출
+  const startWritePhase = useCallback((approvalData: ApprovalData, uid: string) => {
+    fetch("/api/pipeline/write", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        pipelineId: approvalData.pipelineId,
+        topicId: approvalData.topicId,
+        userId: uid,
+        strategy: approvalData.strategy,
+      }),
+    }).then((res) => {
+      if (!res.body) { setRunning(false); return; }
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = "";
+      const read = () => {
+        reader.read().then(({ done, value }) => {
+          if (done) { setRunning(false); return; }
+          buffer += decoder.decode(value, { stream: true });
+          const lines = buffer.split("\n\n");
+          buffer = lines.pop() ?? "";
+          for (const line of lines) {
+            if (line.startsWith("data: ")) {
+              try { handleEvent(JSON.parse(line.slice(6)) as SSEEvent); } catch { /* ignore */ }
+            }
+          }
+          read();
+        }).catch(() => setRunning(false));
+      };
+      read();
+    }).catch(() => setRunning(false));
+  }, [handleEvent]);
+
+  // 자동 승인 처리 — approval 상태가 설정되고 autoApprove이면 즉시 write phase 시작
+  const autoApproveRef = useRef(autoApprove);
+  useEffect(() => { autoApproveRef.current = autoApprove; }, [autoApprove]);
+
+  useEffect(() => {
+    if (!approval || !autoApproveRef.current) return;
+    const uid = userId.trim();
+    setApproval(null);
+    setInspector((prev) => ({ ...prev, approval_received: true }));
+    startWritePhase(approval, uid);
+  // approval 변경 시에만 실행 — startWritePhase/userId는 stable refs
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [approval]);
+
   const startPipeline = async () => {
     const uid = userId.trim();
     if (!uid) return;
@@ -257,8 +272,7 @@ export default function PipelinePage() {
     setResult(null);
     setStage("idle");
     setApproval(null);
-    setCurrentPipelineId(null);
-    setPipelineError(null);
+setPipelineError(null);
     setRunning(true);
 
     const selectedTitle =
@@ -279,7 +293,10 @@ export default function PipelinePage() {
     setElapsed(0);
     timerRef.current = setInterval(() => setElapsed((s) => s + 1), 1000);
 
-    fetch("/api/pipeline/run", {
+    // Phase 1: 전략 수립 (approval_required 이벤트까지만)
+    // approval_required를 받으면 setApproval()이 호출되고 스트림은 자동으로 닫힘
+    // Phase 2는 handleApprove에서 시작
+    fetch("/api/pipeline/strategy", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ topicId, userId: uid }),
@@ -288,16 +305,28 @@ export default function PipelinePage() {
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
       let buffer = "";
-
+      let topicIdInjected = false;
       const read = () => {
         reader.read().then(({ done, value }) => {
-          if (done) { setRunning(false); return; }
+          if (done) {
+            // 스트림 종료 — approval 다이얼로그가 열려 있으면 running 유지 (write phase 대기)
+            // approval 없이 종료 → 에러 또는 완료
+            return;
+          }
           buffer += decoder.decode(value, { stream: true });
           const lines = buffer.split("\n\n");
           buffer = lines.pop() ?? "";
           for (const line of lines) {
             if (line.startsWith("data: ")) {
-              try { handleEvent(JSON.parse(line.slice(6)) as SSEEvent); } catch { /* ignore */ }
+              try {
+                const event = JSON.parse(line.slice(6)) as SSEEvent;
+                // approval_required 이벤트에 topicId 주입 (handleApprove에서 필요)
+                if (event.type === "approval_required" && !topicIdInjected) {
+                  topicIdInjected = true;
+                  (event.data as Record<string, unknown>).__topicId = topicId;
+                }
+                handleEvent(event);
+              } catch { /* ignore */ }
             }
           }
           read();
@@ -308,26 +337,23 @@ export default function PipelinePage() {
   };
 
   const handleApprove = async (req: ApprovalRequest) => {
-    const res = await fetch("/api/pipeline/approve", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(req),
-    });
-    if (!res.ok) {
+    const uid = userId.trim();
+    if (!req.approved) {
       setApproval(null);
       setRunning(false);
+      setRunningTitle(null);
       setStage("idle");
-      appendEvent({
-        type: "error",
-        stage: "failed",
-        data: { message: "승인 전달 실패: 서버가 재시작됐을 수 있습니다. 다시 시도해 주세요." },
-        timestamp: new Date().toISOString(),
-      });
+      if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
       return;
     }
+
+    // 승인 — approval 상태에서 strategy와 topicId 꺼내서 write phase 시작
+    const currentApproval = approval;
     setApproval(null);
-    setInspector((prev) => ({ ...prev, approval_received: req.approved }));
-    if (!req.approved) setRunning(false);
+    setInspector((prev) => ({ ...prev, approval_received: true }));
+
+    if (!currentApproval) return;
+    startWritePhase(currentApproval, uid);
   };
 
   const canStart = (() => {

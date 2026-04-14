@@ -232,6 +232,17 @@ export function detectMaterialChange(input: MaterialChangeInput): MaterialChange
     };
   }
 
+  // proposed.title 없음 → 파싱 실패 케이스, material_change 없음으로 처리
+  if (!proposed.title) {
+    return {
+      isMaterial: false,
+      signals: { searchIntentChanged: false, coreKeywordChanged: false, articleAngleChanged: false, decisionLogicChanged: false, stringSimilarity: 0 },
+      triggeredSignals: [],
+      reason: "제안 제목 없음 — 전략 파싱 실패로 인한 안전 처리",
+      stringSimilarity: 0,
+    };
+  }
+
   const sim = stringSimilarity(original.title, proposed.title);
 
   // 문자열이 거의 동일(≥0.85)하면 오탐 방지 — signal 무시

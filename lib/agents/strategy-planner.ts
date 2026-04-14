@@ -261,6 +261,9 @@ export async function runStrategyPlanner(params: {
 
     onProgress?.("전략 계획 파싱 중...");
     plan = parseStrategyFromText(result);
+    if (!plan.title || typeof plan.title !== "string") {
+      throw new Error("전략 파싱 실패: title 필드 없음 — 폴백 시도");
+    }
   } catch (loopOrParseErr) {
     // tool-use 루프 오류 또는 파싱 실패 → 직접 호출 폴백
     console.warn("[strategy-planner] tool-use 루프/파싱 실패, simple 폴백 시도:", String(loopOrParseErr));
@@ -270,6 +273,9 @@ export async function runStrategyPlanner(params: {
       topicDescription: topic.description,
       userId,
     });
+    if (!plan.title || typeof plan.title !== "string") {
+      throw new Error(`전략 수립 최종 실패: 폴백 응답에도 title 없음 (topicId=${topicId})`);
+    }
   }
 
   onProgress?.(`전략 수립 완료: "${plan.title}"`);

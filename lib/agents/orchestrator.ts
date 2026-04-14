@@ -1012,3 +1012,377 @@ async function updateTopicStatus(
     await writeJsonFile(path, updated, `chore: topic ${topicId} -> ${status}`, sha);
   });
 }
+
+// ============================================================
+// 2단계 파이프라인 — Phase 1: 전략 수립
+// ============================================================
+
+export async function runStrategyPhase(params: {
+  topicId: string;
+  userId: string;
+  pipelineId: string;
+  controller: ReadableStreamDefaultController;
+  signal?: AbortSignal;
+}): Promise<void> {
+  const { topicId, userId, pipelineId, controller, signal } = params;
+  const now = new Date().toISOString();
+
+  let state: PipelineState = {
+    pipelineId,
+    topicId,
+    userId,
+    stage: "idle",
+    strategy: null,
+    writerResult: null,
+    evalResult: null,
+    error: null,
+    createdAt: now,
+    updatedAt: now,
+  };
+  activePipelines.set(pipelineId, state);
+
+  try {
+    // ── 0. 토픽 유효성 검사
+    const topicValidation = await validateTopicSelectionFromGitHub(topicId);
+    if (!topicValidation.valid) {
+      throw new Error(`토픽 선택 실패: ${topicValidation.reason}`);
+    }
+
+    // ── 1. 전략 수립
+    state = updateState(state, { stage: "strategy-planning" });
+    activePipelines.set(pipelineId, state);
+    emit(controller, makeEvent("stage_change", "strategy-planning", {
+      pipelineId,
+      message: "전략 수립을 시작합니다.",
+    }));
+
+    const strategy = await runStrategyPlanner({
+      topicId,
+      userId,
+      onProgress: (msg) => emit(controller, makeEvent("progress", "strategy-planning", { message: msg })),
+      signal,
+    });
+
+    state = updateState(state, { strategy });
+    activePipelines.set(pipelineId, state);
+
+    // strategy_plan artifact 저장 (best-effort)
+    await saveArtifact<StrategyPlanData>(pipelineId, "strategy_plan", {
+      title: strategy.title,
+      outline: strategy.outline,
+      keyPoints: strategy.keyPoints,
+      estimatedLength: strategy.estimatedLength,
+      tone: strategy.tone,
+      keywords: strategy.keywords,
+      rationale: strategy.rationale,
+      corpusSummary: null,
+    }).catch((e: unknown) => {
+      console.warn("[orchestrator] saveArtifact(strategy_plan) 실패 (무시):", e instanceof Error ? e.message : e);
+    });
+
+    // ── 2. material_change 감지
+    const originalTitle = (await loadTopicTitle(topicId)) ?? "";
+    const mcResult = detectMaterialChange({
+      original: { title: originalTitle },
+      proposed: { title: strategy.title, keywords: strategy.keywords, rationale: strategy.rationale },
+    });
+
+    await appendLog(pipelineId, {
+      type: "material_change",
+      originalTitle,
+      proposedTitle: strategy.title,
+      isMaterial: mcResult.isMaterial,
+      triggeredSignals: mcResult.triggeredSignals,
+      stringSimilarity: mcResult.stringSimilarity ?? 0,
+      overrideByHighSim: !mcResult.isMaterial && (mcResult.stringSimilarity ?? 0) >= 0.85,
+    }).catch(() => {});
+
+    state = updateState(state, { stage: "awaiting-approval" });
+    activePipelines.set(pipelineId, state);
+
+    // 승인 요청 이벤트 발행 (strategy 전체 포함 — write phase에서 사용)
+    emit(controller, makeEvent("approval_required", "awaiting-approval", {
+      pipelineId,
+      previousTitle: originalTitle,
+      proposedTitle: strategy.title,
+      materialChange: mcResult.isMaterial,
+      rationale: strategy.rationale,
+      outline: strategy.outline.map((s) => s.heading),
+      strategy, // write phase가 이 값을 받아 POST body에 포함
+    }));
+
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "알 수 없는 오류";
+    state = updateState(state, { stage: "failed", error: message });
+    activePipelines.set(pipelineId, state);
+    console.error(`[orchestrator] strategy phase ${pipelineId} FAILED:`, message);
+    emit(controller, makeEvent("error", "failed", { pipelineId, message }));
+  } finally {
+    controller.close();
+  }
+}
+
+// ============================================================
+// 2단계 파이프라인 — Phase 2: 글쓰기 + 평가
+// ============================================================
+
+export async function runWritePhase(params: {
+  topicId: string;
+  userId: string;
+  pipelineId: string;
+  strategy: StrategyPlanResult;
+  controller: ReadableStreamDefaultController;
+  signal?: AbortSignal;
+}): Promise<void> {
+  const { topicId, userId, pipelineId, strategy, controller, signal } = params;
+  const now = new Date().toISOString();
+  const gate = new ApprovalGate(pipelineId);
+  gate.grant(); // 클라이언트에서 이미 승인됨
+
+  let thisSetTopicInProgress = false;
+
+  let state: PipelineState = {
+    pipelineId,
+    topicId,
+    userId,
+    stage: "awaiting-approval",
+    strategy,
+    writerResult: null,
+    evalResult: null,
+    error: null,
+    createdAt: now,
+    updatedAt: now,
+  };
+  activePipelines.set(pipelineId, state);
+
+  try {
+    // ── 3. posting-list 업데이트 (승인 후)
+    const postRecord = await createPostingRecord({ topicId, userId, title: strategy.title, pipelineId });
+
+    // ── 4. topic in-progress 원자적 설정
+    gate.assertApproved();
+    const setResult = await atomicSetTopicInProgress(topicId);
+    if (!setResult.success) {
+      throw new Error(`토픽 in-progress 설정 실패: ${setResult.reason}`);
+    }
+    thisSetTopicInProgress = true;
+
+    // approval_request artifact (best-effort)
+    await saveArtifact<ApprovalRequestData>(pipelineId, "approval_request", {
+      pipelineId,
+      previousTitle: "",
+      proposedTitle: strategy.title,
+      materialChange: false,
+      materialChangeSignals: [],
+      rationale: strategy.rationale,
+      requestedAt: now,
+      response: { approved: true, respondedAt: now, modifications: null },
+    }).catch(() => {});
+
+    // record_update artifact (best-effort)
+    await saveArtifact<RecordUpdateData>(pipelineId, "record_update", {
+      postingListUpdated: true,
+      postingListUpdatedAt: now,
+      indexUpdated: true,
+      indexUpdatedAt: now,
+      postId: postRecord.postId,
+      topicStatusBefore: "draft",
+      topicStatusAfter: "in-progress",
+    }).catch(() => {});
+
+    // ── 4.5. corpus + pre-write gate
+    emit(controller, makeEvent("progress", "writing", { message: "코퍼스 분석 중..." }));
+    const corpusSummary = await getCorpusSummary({
+      userId,
+      category: await loadTopicCategory(topicId),
+      userTone: strategy.tone,
+      topicTitle: strategy.title,
+    });
+
+    const { getArtifact: _getArtifact } = await import("./artifact-registry");
+    const approvalArtifact = await _getArtifact<ApprovalRequestData>(pipelineId, "approval_request");
+    const recordArtifact = await _getArtifact<RecordUpdateData>(pipelineId, "record_update");
+    const preGateResult = runPreWriteGate({
+      sourceReport: null as SourceReportData | null,
+      approvalRequest: approvalArtifact?.data ?? null,
+      recordUpdate: recordArtifact?.data ?? null,
+    });
+
+    if (!preGateResult.passed) {
+      throw new Error(`pre-write gate 차단: ${preGateResult.reason}`);
+    }
+    emit(controller, makeEvent("progress", "writing", { message: "pre-write gate 통과" }));
+
+    // ── 5. 본문 작성
+    state = updateState(state, { stage: "writing" });
+    activePipelines.set(pipelineId, state);
+    emit(controller, makeEvent("stage_change", "writing", {
+      pipelineId,
+      message: "Master Writer가 본문을 작성합니다.",
+    }));
+
+    const writerResult = await runMasterWriter({
+      strategy,
+      userId,
+      topicId,
+      corpusSummary,
+      onToken: (token) => emit(controller, makeEvent("token", "writing", { token })),
+      onProgress: (msg) => emit(controller, makeEvent("progress", "writing", { message: msg })),
+      signal,
+    });
+
+    state = updateState(state, { writerResult });
+    activePipelines.set(pipelineId, state);
+
+    await saveArtifact<DraftOutputData>(pipelineId, "draft_output", {
+      postId: writerResult.postId,
+      title: writerResult.title,
+      wordCount: writerResult.wordCount,
+      generatedAt: writerResult.generatedAt,
+      contentPath: Paths.postContent(writerResult.postId),
+      corpusSummaryUsed: true,
+    }).catch(() => {});
+
+    await updatePostRecord(postRecord.postId, {
+      status: "ready",
+      wordCount: writerResult.wordCount,
+      compositionSessionId: pipelineId,
+    });
+
+    // ── 6. 품질 평가
+    state = updateState(state, { stage: "evaluating" });
+    activePipelines.set(pipelineId, state);
+    emit(controller, makeEvent("stage_change", "evaluating", {
+      pipelineId,
+      message: "Harness Evaluator가 품질을 평가합니다.",
+    }));
+
+    const evalResult = await runHarnessEvaluator({
+      writerResult,
+      strategy,
+      userId,
+      onProgress: (msg) => emit(controller, makeEvent("progress", "evaluating", { message: msg })),
+    });
+
+    state = updateState(state, { evalResult });
+    activePipelines.set(pipelineId, state);
+
+    const postGateResult = runPostAuditGate({
+      auditReport: { pass: evalResult.pass, aggregateScore: evalResult.aggregateScore },
+    });
+
+    const scenarioId = topicId;
+    const baselineDiff = await compareWithCurrentBaseline({
+      scenarioId,
+      current: { runId: evalResult.runId, scores: evalResult.scores, aggregateScore: evalResult.aggregateScore },
+    });
+    const baselineDelta = baselineDiff?.aggregateDelta ?? null;
+
+    await saveArtifact<AuditReportData>(pipelineId, "audit_report", {
+      runId: evalResult.runId,
+      scores: evalResult.scores,
+      aggregateScore: evalResult.aggregateScore,
+      reasoning: evalResult.reasoning,
+      recommendations: evalResult.recommendations,
+      pass: evalResult.pass,
+      baselineDelta,
+    }).catch(() => {});
+
+    if (!postGateResult.passed) {
+      await updatePostRecord(postRecord.postId, {
+        evalScore: evalResult.aggregateScore,
+        status: "audit_failed" as Parameters<typeof updatePostRecord>[1]["status"],
+      });
+      state = updateState(state, { stage: "gate_blocked" });
+      activePipelines.set(pipelineId, state);
+      emit(controller, makeEvent("gate_blocked", "gate_blocked", {
+        pipelineId,
+        postId: postRecord.postId,
+        blockedBy: postGateResult.blockedBy,
+        reason: postGateResult.reason,
+        evalScore: evalResult.aggregateScore,
+        recommendations: evalResult.recommendations,
+        draft: {
+          title: writerResult.title,
+          wordCount: writerResult.wordCount,
+          contentPath: Paths.postContent(writerResult.postId),
+        },
+      }));
+      return;
+    }
+
+    // ── 7. 완료
+    const candidateResult = await registerBaselineCandidate({
+      scenarioId,
+      runId: evalResult.runId,
+      postId: writerResult.postId,
+      pipelineId,
+      scores: evalResult.scores,
+      aggregateScore: evalResult.aggregateScore,
+      notes: `pipeline ${pipelineId} / post ${writerResult.postId}`,
+    });
+
+    if (baselineDiff?.overallRegression) {
+      emit(controller, makeEvent("progress", "evaluating", {
+        message: `⚠ baseline 회귀: ${baselineDiff.summary}`,
+      }));
+    }
+    emit(controller, makeEvent("progress", "evaluating", {
+      message: `baseline candidate: ${candidateResult.reason}`,
+    }));
+
+    await updatePostRecord(postRecord.postId, {
+      evalScore: evalResult.aggregateScore,
+      status: "approved",
+    });
+
+    await saveArtifactContract({
+      pipelineId,
+      postId: postRecord.postId,
+      topicId,
+      userId,
+      title: writerResult.title,
+      wordCount: writerResult.wordCount,
+      contentPath: Paths.postContent(postRecord.postId),
+      generatedAt: writerResult.generatedAt,
+      evalRunId: evalResult.runId,
+      evalScore: evalResult.aggregateScore,
+    });
+
+    state = updateState(state, { stage: "complete" });
+    activePipelines.set(pipelineId, state);
+
+    emit(controller, makeEvent("result", "complete", {
+      pipelineId,
+      postId: postRecord.postId,
+      title: writerResult.title,
+      wordCount: writerResult.wordCount,
+      evalScore: evalResult.aggregateScore,
+      baselineDelta,
+      pass: evalResult.pass,
+      recommendations: evalResult.recommendations,
+    }));
+    emit(controller, makeEvent("stage_change", "complete", {
+      pipelineId,
+      message: "파이프라인이 완료되었습니다.",
+    }));
+
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "알 수 없는 오류";
+    state = updateState(state, { stage: "failed", error: message });
+    activePipelines.set(pipelineId, state);
+    console.error(`[orchestrator] write phase ${pipelineId} FAILED:`, message);
+    emit(controller, makeEvent("error", "failed", { pipelineId, message }));
+
+    if (thisSetTopicInProgress) {
+      try {
+        const currentStatus = await loadTopicStatus(topicId);
+        if (currentStatus === "in-progress") {
+          await updateTopicStatus(topicId, "draft");
+        }
+      } catch { /* ignore */ }
+    }
+  } finally {
+    controller.close();
+  }
+}
