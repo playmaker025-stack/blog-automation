@@ -12,6 +12,9 @@ export interface FileEntry {
   type: "file" | "dir";
 }
 
+// GitHub API 호출당 타임아웃 — Octokit request.timeout이 v20에서 미동작하는 케이스 대비
+const GITHUB_TIMEOUT_MS = 15_000;
+
 // ============================================================
 // 파일 읽기
 // ============================================================
@@ -25,6 +28,7 @@ export async function readFile(filePath: string): Promise<FileContent> {
     repo,
     path: filePath,
     ref: branch,
+    request: { signal: AbortSignal.timeout(GITHUB_TIMEOUT_MS) },
   });
 
   const data = response.data;
@@ -69,6 +73,7 @@ export async function writeFile(
     content: encoded,
     branch,
     ...(sha ? { sha } : {}),
+    request: { signal: AbortSignal.timeout(GITHUB_TIMEOUT_MS) },
   });
 
   return response.data.content?.sha ?? "";
@@ -117,6 +122,7 @@ export async function listFiles(dirPath: string): Promise<FileEntry[]> {
     repo,
     path: dirPath,
     ref: branch,
+    request: { signal: AbortSignal.timeout(GITHUB_TIMEOUT_MS) },
   });
 
   const data = response.data;
