@@ -77,7 +77,7 @@ export async function runTopicGenerator(
 ): Promise<TopicGeneratorOutput> {
   const { userId, publishedTopics, onProgress } = input;
 
-  onProgress?.(`${publishedTopics.length}개 발행 글 분석 중...`);
+  onProgress?.(`${publishedTopics.length}개 기존 글 분석 중...`);
 
   // 대표 키워드로 네이버 리서치
   const representativeKeyword = extractRepresentativeKeyword(publishedTopics);
@@ -108,10 +108,10 @@ export async function runTopicGenerator(
       messages: [
         {
           role: "user",
-          content: `사용자(${userId})가 아래 블로그 글들을 모두 발행했습니다.
-이제 다음에 쓸 신규 토픽 5개를 추천해주세요.
+          content: `사용자(${userId})의 블로그 글 목록입니다.
+이 목록을 참고해 다음에 쓸 신규 토픽 5개를 추천해주세요.
 
-## 기존 발행 글 목록
+## 기존 글 목록
 ${publishedTitles}
 
 ## 주력 카테고리

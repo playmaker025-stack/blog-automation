@@ -68,6 +68,7 @@ export default function PipelinePage() {
   const [stuckCount, setStuckCount] = useState(0);
   const [recovering, setRecovering] = useState(false);
   const [currentPipelineId, setCurrentPipelineId] = useState<string | null>(null);
+  const [pipelineError, setPipelineError] = useState<string | null>(null);
   const esRef = useRef<EventSource | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const pollRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -217,6 +218,9 @@ export default function PipelinePage() {
       esRef.current?.close();
     }
     if (event.type === "error") {
+      const msg = (event.data as { message?: string })?.message ?? "파이프라인 오류가 발생했습니다.";
+      setPipelineError(msg);
+      setStage("idle");
       setRunning(false);
       setRunningTitle(null);
       if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
@@ -254,6 +258,7 @@ export default function PipelinePage() {
     setStage("idle");
     setApproval(null);
     setCurrentPipelineId(null);
+    setPipelineError(null);
     setRunning(true);
 
     const selectedTitle =
@@ -368,6 +373,22 @@ export default function PipelinePage() {
             className="ml-4 px-3 py-1 bg-amber-600 text-white text-xs font-semibold rounded hover:bg-amber-700 disabled:opacity-50 transition-colors whitespace-nowrap"
           >
             {recovering ? "복구 중..." : "일괄 복구"}
+          </button>
+        </div>
+      )}
+
+      {/* ── 파이프라인 에러 배너 ──────────────────────────── */}
+      {pipelineError && (
+        <div className="mb-4 flex items-start justify-between bg-red-50 border border-red-200 rounded-lg px-4 py-3">
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-semibold text-red-700">글쓰기 실패</p>
+            <p className="text-xs text-red-600 mt-0.5 break-words">{pipelineError}</p>
+          </div>
+          <button
+            onClick={() => setPipelineError(null)}
+            className="ml-3 text-red-400 hover:text-red-600 shrink-0 text-lg leading-none"
+          >
+            ×
           </button>
         </div>
       )}

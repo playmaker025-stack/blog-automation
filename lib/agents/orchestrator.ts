@@ -179,7 +179,7 @@ export async function runPipeline(params: {
     state = updateState(state, { strategy });
     activePipelines.set(pipelineId, state);
 
-    // strategy_plan artifact 저장
+    // strategy_plan artifact 저장 (best-effort — GitHub 실패해도 파이프라인 계속)
     await saveArtifact<StrategyPlanData>(pipelineId, "strategy_plan", {
       title: strategy.title,
       outline: strategy.outline,
@@ -189,6 +189,8 @@ export async function runPipeline(params: {
       keywords: strategy.keywords,
       rationale: strategy.rationale,
       corpusSummary: null,
+    }).catch((e: unknown) => {
+      console.warn("[orchestrator] saveArtifact(strategy_plan) 실패 (무시):", e instanceof Error ? e.message : e);
     });
 
     // ── 2. material_change 감지 + 승인 대기 ───────────────────
@@ -213,11 +215,13 @@ export async function runPipeline(params: {
     state = updateState(state, { stage: "awaiting-approval" });
     activePipelines.set(pipelineId, state);
 
-    // 승인 상태 전이: draft_ready → waiting_for_user_approval
+    // 승인 상태 전이: draft_ready → waiting_for_user_approval (best-effort — in-memory 경로가 핵심)
     await transitionApprovalState({
       pipelineId,
       to: "waiting_for_user_approval",
       reason: "승인 요청 발송",
+    }).catch((e: unknown) => {
+      console.warn("[orchestrator] transitionApprovalState(waiting) 실패 (무시):", e instanceof Error ? e.message : e);
     });
 
     const approvalRequestedAt = new Date().toISOString();

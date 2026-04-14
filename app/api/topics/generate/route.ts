@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { runTopicGenerator } from "@/lib/agents/topic-generator";
 import { readJsonFile, fileExists } from "@/lib/github/repository";
 import { Paths } from "@/lib/github/paths";
-import type { TopicIndex, Topic } from "@/lib/types/github-data";
+import type { TopicIndex } from "@/lib/types/github-data";
 import { normalizeUserId } from "@/lib/utils/normalize";
 
 export async function POST(request: NextRequest) {
@@ -29,19 +29,10 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "해당 사용자의 글목록이 없습니다." }, { status: 404 });
   }
 
-  const publishedTopics = userTopics.filter((t: Topic) => t.status === "published");
-
-  if (publishedTopics.length === 0) {
-    return NextResponse.json(
-      { error: "발행된 글이 없습니다. 최소 1개 이상 발행 후 사용할 수 있습니다." },
-      { status: 409 }
-    );
-  }
-
   try {
     const result = await runTopicGenerator({
       userId,
-      publishedTopics,
+      publishedTopics: userTopics,
     });
     return NextResponse.json(result);
   } catch (err) {
