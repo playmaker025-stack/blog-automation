@@ -32,9 +32,10 @@ export async function runToolUseLoop(
     iterations++;
 
     let response: Awaited<ReturnType<typeof client.messages.create>>;
-    // 70s per call — 마지막 합성 호출(전략 JSON 생성)이 60s 이상 걸릴 수 있음
-    // strategy route 110s 한도: 이터레이션 1-3 ~24s + 마지막 ~70s = ~94s 이내
-    const CALL_TIMEOUT_MS = 70_000;
+    // 90s per call — 전략 합성·평가 JSON 생성 호출이 80s 이상 걸릴 수 있음
+    // strategy route: 이터레이션 1-3 ~24s + 합성 ~90s = ~114s → route 한도 160s 이내
+    // evaluator: 도구 호출 ~10s + 평가 JSON ~90s = ~100s → write route 240s 이내
+    const CALL_TIMEOUT_MS = 90_000;
     try {
       // AbortSignal.any: 파이프라인 취소 신호 또는 per-call 타임아웃 중 먼저 발생하는 쪽으로 취소
       const callTimeoutSignal = AbortSignal.timeout(CALL_TIMEOUT_MS);

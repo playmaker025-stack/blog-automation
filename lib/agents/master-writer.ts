@@ -213,8 +213,9 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
     }
 
     // 스트리밍 모드로 API 호출 — 토큰 단위 수신으로 타임아웃 감지 신뢰성 향상
-    // INITIAL: 첫 이벤트까지 120초, STALL: 이후 연속 무응답 90초
-    const INITIAL_TIMEOUT_MS = 120_000;
+    // INITIAL: 첫 이벤트까지 150초 (블로그 본문 생성 시작이 느릴 수 있음)
+    // STALL: 이후 연속 무응답 90초
+    const INITIAL_TIMEOUT_MS = 150_000;
     const STALL_TIMEOUT_MS = 90_000;
     let stallTimer: ReturnType<typeof setTimeout> | null = null;
     let stallReject: ((err: Error) => void) | null = null;
@@ -305,9 +306,15 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
     }
 
     if (toolUseBlocks.length > 0) {
+      const toolLabels: Record<string, string> = {
+        user_corpus_retriever: "코퍼스 로드 중...",
+        expansion_planner: "아웃라인 확장 중...",
+        source_resolver: "참조 URL 확인 중...",
+      };
       const toolResults: import("@anthropic-ai/sdk/resources/messages").ToolResultBlockParam[] = [];
 
       for (const block of toolUseBlocks) {
+        onProgress?.(toolLabels[block.name] ?? `${block.name} 실행 중...`);
         const fn = toolRegistry[block.name as keyof typeof toolRegistry];
         if (!fn) {
           toolResults.push({ type: "tool_result", tool_use_id: block.id, is_error: true, content: `알 수 없는 도구: ${block.name}` });
@@ -320,7 +327,7 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
           toolResults.push({ type: "tool_result", tool_use_id: block.id, is_error: true, content: String(err) });
         }
       }
-
+      onProgress?.(`본문 생성 중... (단계 ${iterCount + 1})`);
       messages.push({ role: "user", content: toolResults });
       continue;
     }

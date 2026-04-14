@@ -123,8 +123,9 @@ export async function runHarnessEvaluator(params: {
   strategy: StrategyPlanResult;
   userId: string;
   onProgress?: (message: string) => void;
+  signal?: AbortSignal;
 }): Promise<EvalResult> {
-  const { writerResult, strategy, userId, onProgress } = params;
+  const { writerResult, strategy, userId, onProgress, signal } = params;
 
   onProgress?.("Harness Evaluator 시작...");
 
@@ -158,6 +159,8 @@ user_corpus_retriever로 코퍼스를 로드하고, review_record_audit으로 �
     tools: TOOLS,
     toolRegistry,
     maxIterations: 4,
+    onProgress,
+    signal,
   });
 
   onProgress?.("평가 결과 파싱 중...");

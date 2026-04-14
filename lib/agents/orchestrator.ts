@@ -1262,6 +1262,7 @@ export async function runWritePhase(params: {
       strategy,
       userId,
       onProgress: (msg) => emit(controller, makeEvent("progress", "evaluating", { message: msg })),
+      signal,
     });
 
     state = updateState(state, { evalResult });
@@ -1295,6 +1296,9 @@ export async function runWritePhase(params: {
       });
       state = updateState(state, { stage: "gate_blocked" });
       activePipelines.set(pipelineId, state);
+      // gate_blocked에서도 topic을 draft로 복구 — 재시도 가능하도록
+      try { await updateTopicStatus(topicId, "draft"); } catch { /* 무시 */ }
+
       emit(controller, makeEvent("gate_blocked", "gate_blocked", {
         pipelineId,
         postId: postRecord.postId,
@@ -1348,6 +1352,9 @@ export async function runWritePhase(params: {
       evalRunId: evalResult.runId,
       evalScore: evalResult.aggregateScore,
     });
+
+    // 완료 후 topic을 draft로 복구 — 글목록에서 다시 보이도록 (다음 단계 작업 위해)
+    try { await updateTopicStatus(topicId, "draft"); } catch { /* 무시 */ }
 
     state = updateState(state, { stage: "complete" });
     activePipelines.set(pipelineId, state);
