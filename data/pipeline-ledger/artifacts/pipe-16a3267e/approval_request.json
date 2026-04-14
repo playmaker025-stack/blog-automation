@@ -1,0 +1,21 @@
+{
+  "pipelineId": "pipe-16a3267e",
+  "type": "approval_request",
+  "savedAt": "2026-04-14T03:46:13.477Z",
+  "data": {
+    "pipelineId": "pipe-16a3267e",
+    "previousTitle": "인천 전자담배 입문 가이드 테스트",
+    "proposedTitle": "인천 전자담배 입문 가이드 — 처음이라면 이 글 하나로 끝",
+    "materialChange": false,
+    "materialChangeSignals": [
+      "coreKeywordChanged"
+    ],
+    "rationale": "키워드 경쟁도 '보통'(86,927건)으로 신규 글이 상위 노출될 여지가 충분함. 상위 노출 중인 글들은 대부분 특정 매장 홍보·특정 제품 리뷰에 집중되어 있으며, 입문자를 위한 종합 정보성 가이드는 거의 없음 — 이 빈틈을 공략하는 것이 핵심 전략. 사용자의 과거 포스팅 패턴(입호흡/폐호흡 구분, 체크리스트, TOP5 추천 등 정보성 강점)을 적극 활용하고, casual 톤 + listicle 구조를 유지하여 20-30대 입문 독자의 높은 체류율과 저장·공유를 유도함. 가격·이벤트 정보 없이도 기능·사용감·유지 편의성·타입 비교 중심으로 충분히 고품질 정보를 제공할 수 있으며, 블로그 내 기존 글(코일 교체 시기, 입호흡 폐호흡 차이 등)과의 내부 링크 연결로 체류 시간 및 블로그 전체 SEO 점수를 높이는 효과도 기대할 수 있음.",
+    "requestedAt": "2026-04-14T03:45:59.237Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-14T03:46:13.477Z",
+      "modifications": null
+    }
+  }
+}
