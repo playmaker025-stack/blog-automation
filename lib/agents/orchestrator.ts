@@ -130,6 +130,9 @@ export async function runPipeline(params: {
   // 승인 게이트 — index update는 grant() 후에만 가능
   const gate = new ApprovalGate(pipelineId);
 
+  // 이 파이프라인이 직접 topic을 in-progress로 설정한 경우에만 catch에서 복구
+  let thisSetTopicInProgress = false;
+
   // 레저 초기화
   await upsertLedgerEntry({
     pipelineId,
@@ -257,6 +260,13 @@ export async function runPipeline(params: {
       });
       state = updateState(state, { stage: "idle" });
       activePipelines.set(pipelineId, state);
+      // 거절 시 topic 상태가 이미 in-progress인 경우 draft로 복구
+      try {
+        const statusAtReject = await loadTopicStatus(request.topicId);
+        if (statusAtReject === "in-progress") {
+          await updateTopicStatus(request.topicId, "draft");
+        }
+      } catch { /* 복구 실패는 무시 */ }
       emit(controller, makeEvent("rejected", "idle", {
         pipelineId,
         message: "전략이 거절되었습니다. 수정 후 다시 시도해 주세요.",
@@ -305,7 +315,12 @@ export async function runPipeline(params: {
     // ── 4. index 업데이트 (posting-list 완료 이후, 게이트 확인) ─
     gate.assertApproved(); // 방어적 호출 — 여기서 실패하면 코드 버그
     const topicStatusBefore = await loadTopicStatus(request.topicId);
-    await updateTopicStatus(request.topicId, "in-progress");
+    // 원자적 check-and-set: 동시 파이프라인이 같은 토픽을 중복 작성하는 것을 방지
+    const setResult = await atomicSetTopicInProgress(request.topicId);
+    if (!setResult.success) {
+      throw new Error(`토픽 in-progress 설정 실패: ${setResult.reason}`);
+    }
+    thisSetTopicInProgress = true; // 이 파이프라인이 직접 설정함 → 실패 시 catch에서 복구 허용
     await upsertLedgerEntry({ pipelineId, topicId: request.topicId, userId: request.userId, stage: "writing", error: null, approvalGranted: true, postingListUpdated: true, indexUpdated: true, createdAt: now });
 
     // record_update artifact 저장
@@ -681,14 +696,18 @@ export async function runPipeline(params: {
     emit(controller, makeEvent("error", "failed", { pipelineId, message }));
 
     // 파이프라인 실패 시 topic이 in-progress 상태로 stuck되는 것 방지 — draft로 복구
-    try {
-      const currentStatus = await loadTopicStatus(request.topicId);
-      if (currentStatus === "in-progress") {
-        await updateTopicStatus(request.topicId, "draft");
-        emit(controller, makeEvent("progress", "failed", { message: "토픽 상태를 draft로 복구했습니다." }));
+    // thisSetTopicInProgress 플래그로 이 파이프라인이 직접 설정한 경우만 복구
+    // (다른 파이프라인이 in-progress로 설정한 경우 덮어쓰지 않음)
+    if (thisSetTopicInProgress) {
+      try {
+        const currentStatus = await loadTopicStatus(request.topicId);
+        if (currentStatus === "in-progress") {
+          await updateTopicStatus(request.topicId, "draft");
+          emit(controller, makeEvent("progress", "failed", { message: "토픽 상태를 draft로 복구했습니다." }));
+        }
+      } catch (recoveryErr) {
+        console.error(`[orchestrator] topic recovery failed (ignored):`, recoveryErr instanceof Error ? recoveryErr.message : recoveryErr);
       }
-    } catch (recoveryErr) {
-      console.error(`[orchestrator] topic recovery failed (ignored):`, recoveryErr instanceof Error ? recoveryErr.message : recoveryErr);
     }
   } finally {
     pendingApprovals.delete(pipelineId);
@@ -877,19 +896,22 @@ async function createPostingRecord(params: {
 
 // ── SHA 충돌 재시도 래퍼 ────────────────────────────────────────
 // GitHub API는 SHA 불일치 시 409/422를 반환한다.
+// 500/503은 서버 일시 오류, 429는 rate limit — 모두 재시도한다.
 // fn() 내부에서 최신 SHA를 매번 새로 읽으므로 단순히 재호출하면 된다.
 async function withConflictRetry<T>(
   fn: () => Promise<T>,
-  maxAttempts = 8
+  maxAttempts = 10
 ): Promise<T> {
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
     try {
       return await fn();
     } catch (err) {
       const status = (err as { status?: number }).status;
-      if ((status === 409 || status === 422) && attempt < maxAttempts - 1) {
-        // stale SHA — fn()이 내부에서 재조회. jitter로 thundering herd 방지
-        const jitter = Math.floor(Math.random() * 100) + 50; // 50~150ms
+      const retryable = status === 409 || status === 422 || status === 429 || status === 500 || status === 503;
+      if (retryable && attempt < maxAttempts - 1) {
+        // jitter로 thundering herd 방지 (429의 경우 더 긴 대기)
+        const base = status === 429 ? 500 : 50;
+        const jitter = Math.floor(Math.random() * base) + base;
         await new Promise((r) => setTimeout(r, jitter * (attempt + 1)));
         continue;
       }
@@ -898,6 +920,48 @@ async function withConflictRetry<T>(
   }
   /* istanbul ignore next */
   throw new Error("withConflictRetry: unreachable");
+}
+
+// ── 토픽 상태 원자적 in-progress 설정 ──────────────────────────
+// validate → write를 한 번의 SHA 트랜잭션 안에서 수행.
+// 동시 파이프라인이 같은 토픽에 접근해도 정확히 하나만 in-progress로 진입.
+async function atomicSetTopicInProgress(
+  topicId: string
+): Promise<{ success: boolean; reason: string }> {
+  let result: { success: boolean; reason: string } = { success: false, reason: "unknown" };
+
+  await withConflictRetry(async () => {
+    const path = Paths.topicsIndex();
+    if (!(await fileExists(path))) {
+      result = { success: false, reason: "topics index 없음" };
+      return;
+    }
+    const { data: index, sha } = await readJsonFile<TopicIndex>(path);
+    const topic = index.topics.find((t) => t.topicId === topicId);
+    if (!topic) {
+      result = { success: false, reason: `topicId "${topicId}"를 찾을 수 없음` };
+      return;
+    }
+    if (topic.status === "in-progress") {
+      result = { success: false, reason: "이미 다른 파이프라인이 이 토픽을 작성 중입니다." };
+      return;
+    }
+    if (topic.status !== "draft") {
+      result = { success: false, reason: `토픽 상태가 draft가 아닙니다 (현재: ${topic.status})` };
+      return;
+    }
+    const now = new Date().toISOString();
+    const updated: TopicIndex = {
+      topics: index.topics.map((t) =>
+        t.topicId === topicId ? { ...t, status: "in-progress", updatedAt: now } : t
+      ),
+      lastUpdated: now,
+    };
+    await writeJsonFile(path, updated, `chore: topic ${topicId} → in-progress [atomic]`, sha);
+    result = { success: true, reason: "in-progress 설정 완료" };
+  });
+
+  return result;
 }
 
 async function updatePostRecord(

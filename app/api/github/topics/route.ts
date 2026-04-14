@@ -16,6 +16,26 @@ async function loadIndex(): Promise<{ data: TopicIndex; sha: string | null }> {
   return { data, sha };
 }
 
+// SHA 충돌 재시도 래퍼 — 409/422/429/500/503 모두 재시도
+async function withRetry<T>(fn: () => Promise<T>, maxAttempts = 8): Promise<T> {
+  for (let attempt = 0; attempt < maxAttempts; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      const status = (err as { status?: number }).status;
+      const retryable = status === 409 || status === 422 || status === 429 || status === 500 || status === 503;
+      if (retryable && attempt < maxAttempts - 1) {
+        const base = status === 429 ? 400 : 50;
+        const jitter = Math.floor(Math.random() * base) + base;
+        await new Promise((r) => setTimeout(r, jitter * (attempt + 1)));
+        continue;
+      }
+      throw err;
+    }
+  }
+  throw new Error("withRetry: unreachable");
+}
+
 export async function GET(request: NextRequest) {
   const status = request.nextUrl.searchParams.get("status");
   const userId = request.nextUrl.searchParams.get("userId");
@@ -38,53 +58,66 @@ export async function GET(request: NextRequest) {
 // 글목록 교체 저장 — 진행 중/발행된 항목은 유지하고 나머지를 새 목록으로 교체
 // body: { items: Array<{ title: string; blog?: string }> }
 export async function PUT(request: NextRequest) {
+  let body: { items: Array<{ title: string; blog?: string }> };
   try {
-    const body = await request.json() as { items: Array<{ title: string; blog?: string }> };
-    if (!Array.isArray(body.items) || body.items.length === 0) {
-      return NextResponse.json({ error: "items 배열이 필요합니다." }, { status: 400 });
-    }
+    body = await request.json() as typeof body;
+  } catch {
+    return NextResponse.json({ error: "요청 본문 파싱 실패" }, { status: 400 });
+  }
 
-    const { data: existing, sha } = await loadIndex();
-    const now = new Date().toISOString();
+  if (!Array.isArray(body.items) || body.items.length === 0) {
+    return NextResponse.json({ error: "items 배열이 필요합니다." }, { status: 400 });
+  }
 
-    const locked = existing.topics.filter(
-      (t) => t.status === "in-progress" || t.status === "published"
-    );
-    const lockedTitles = new Set(locked.map((t) => t.title.toLowerCase().trim()));
+  try {
+    let replaced = 0;
+    let kept = 0;
 
-    // blog 코드(A~E) → 사용자 ID(a~e) 매핑
-    const blogToUserId = (blog?: string): string | null =>
-      blog ? blog.toLowerCase() : null;
+    await withRetry(async () => {
+      const { data: existing, sha } = await loadIndex();
+      const now = new Date().toISOString();
 
-    const newTopics: Topic[] = body.items
-      .filter((item) => !lockedTitles.has(item.title.toLowerCase().trim()))
-      .map((item) => ({
-        topicId: `topic-${randomUUID().slice(0, 8)}`,
-        title: item.title.trim(),
-        description: "",
-        category: item.blog ? `${item.blog}블로그` : "일반",
-        tags: [],
-        feasibility: null,
-        relatedSources: [],
-        status: "draft" as const,
-        assignedUserId: blogToUserId(item.blog) ? normalizeUserId(blogToUserId(item.blog)!) : null,
-        createdAt: now,
-        updatedAt: now,
-      }));
+      const locked = existing.topics.filter(
+        (t) => t.status === "in-progress" || t.status === "published"
+      );
+      const lockedTitles = new Set(locked.map((t) => t.title.toLowerCase().trim()));
 
-    const updated: TopicIndex = {
-      topics: [...locked, ...newTopics],
-      lastUpdated: now,
-    };
+      const blogToUserId = (blog?: string): string | null =>
+        blog ? blog.toLowerCase() : null;
 
-    await writeJsonFile(
-      Paths.topicsIndex(),
-      updated,
-      `feat: replace topics list (${newTopics.length} items)`,
-      sha
-    );
+      const newTopics: Topic[] = body.items
+        .filter((item) => !lockedTitles.has(item.title.toLowerCase().trim()))
+        .map((item) => ({
+          topicId: `topic-${randomUUID().slice(0, 8)}`,
+          title: item.title.trim(),
+          description: "",
+          category: item.blog ? `${item.blog}블로그` : "일반",
+          tags: [],
+          feasibility: null,
+          relatedSources: [],
+          status: "draft" as const,
+          assignedUserId: blogToUserId(item.blog) ? normalizeUserId(blogToUserId(item.blog)!) : null,
+          createdAt: now,
+          updatedAt: now,
+        }));
 
-    return NextResponse.json({ replaced: newTopics.length, kept: locked.length });
+      const updated: TopicIndex = {
+        topics: [...locked, ...newTopics],
+        lastUpdated: now,
+      };
+
+      await writeJsonFile(
+        Paths.topicsIndex(),
+        updated,
+        `feat: replace topics list (${newTopics.length} items)`,
+        sha
+      );
+
+      replaced = newTopics.length;
+      kept = locked.length;
+    });
+
+    return NextResponse.json({ replaced, kept });
   } catch (err) {
     console.error("[PUT /api/github/topics]", err);
     return NextResponse.json(
@@ -96,30 +129,40 @@ export async function PUT(request: NextRequest) {
 
 // 단일 토픽 수정
 export async function PATCH(request: NextRequest) {
+  let body: { topicId: string } & Partial<Topic>;
   try {
-    const body = await request.json() as { topicId: string } & Partial<Topic>;
-    if (!body.topicId) {
-      return NextResponse.json({ error: "topicId가 필요합니다." }, { status: 400 });
-    }
+    body = await request.json() as typeof body;
+  } catch {
+    return NextResponse.json({ error: "요청 본문 파싱 실패" }, { status: 400 });
+  }
 
-    const { data: index, sha } = await loadIndex();
-    const exists = index.topics.find((t) => t.topicId === body.topicId);
-    if (!exists) {
-      return NextResponse.json({ error: "토픽을 찾을 수 없습니다." }, { status: 404 });
-    }
+  if (!body.topicId) {
+    return NextResponse.json({ error: "topicId가 필요합니다." }, { status: 400 });
+  }
 
-    const now = new Date().toISOString();
-    const { topicId, ...patch } = body;
-    const updated: TopicIndex = {
-      topics: index.topics.map((t) =>
-        t.topicId === topicId ? { ...t, ...patch, topicId, updatedAt: now } : t
-      ),
-      lastUpdated: now,
-    };
+  try {
+    await withRetry(async () => {
+      const { data: index, sha } = await loadIndex();
+      const exists = index.topics.find((t) => t.topicId === body.topicId);
+      if (!exists) throw Object.assign(new Error("토픽을 찾을 수 없습니다."), { notFound: true });
 
-    await writeJsonFile(Paths.topicsIndex(), updated, `chore: update topic ${topicId}`, sha);
+      const now = new Date().toISOString();
+      const { topicId, ...patch } = body;
+      const updated: TopicIndex = {
+        topics: index.topics.map((t) =>
+          t.topicId === topicId ? { ...t, ...patch, topicId, updatedAt: now } : t
+        ),
+        lastUpdated: now,
+      };
+
+      await writeJsonFile(Paths.topicsIndex(), updated, `chore: update topic ${topicId}`, sha);
+    });
+
     return NextResponse.json({ updated: true });
   } catch (err) {
+    if ((err as { notFound?: boolean }).notFound) {
+      return NextResponse.json({ error: "토픽을 찾을 수 없습니다." }, { status: 404 });
+    }
     console.error("[PATCH /api/github/topics]", err);
     return NextResponse.json({ error: "토픽 수정 실패" }, { status: 500 });
   }
@@ -133,21 +176,25 @@ export async function DELETE(request: NextRequest) {
   }
 
   try {
-    const { data: index, sha } = await loadIndex();
-    const target = index.topics.find((t) => t.topicId === topicId);
-    if (!target) {
-      return NextResponse.json({ error: "토픽을 찾을 수 없습니다." }, { status: 404 });
-    }
-    if (target.status === "in-progress") {
-      return NextResponse.json({ error: "진행 중인 토픽은 삭제할 수 없습니다." }, { status: 400 });
-    }
+    let notFound = false;
+    let inProgress = false;
 
-    const updated: TopicIndex = {
-      topics: index.topics.filter((t) => t.topicId !== topicId),
-      lastUpdated: new Date().toISOString(),
-    };
+    await withRetry(async () => {
+      const { data: index, sha } = await loadIndex();
+      const target = index.topics.find((t) => t.topicId === topicId);
+      if (!target) { notFound = true; return; }
+      if (target.status === "in-progress") { inProgress = true; return; }
 
-    await writeJsonFile(Paths.topicsIndex(), updated, `chore: delete topic ${topicId}`, sha);
+      const updated: TopicIndex = {
+        topics: index.topics.filter((t) => t.topicId !== topicId),
+        lastUpdated: new Date().toISOString(),
+      };
+
+      await writeJsonFile(Paths.topicsIndex(), updated, `chore: delete topic ${topicId}`, sha);
+    });
+
+    if (notFound) return NextResponse.json({ error: "토픽을 찾을 수 없습니다." }, { status: 404 });
+    if (inProgress) return NextResponse.json({ error: "진행 중인 토픽은 삭제할 수 없습니다." }, { status: 400 });
     return NextResponse.json({ deleted: true });
   } catch (err) {
     console.error("[DELETE /api/github/topics]", err);
@@ -156,14 +203,18 @@ export async function DELETE(request: NextRequest) {
 }
 
 export async function POST(request: NextRequest) {
+  let body: Partial<Topic>;
   try {
-    const body = await request.json() as Partial<Topic>;
-    if (!body.title) {
-      return NextResponse.json({ error: "title이 필요합니다." }, { status: 400 });
-    }
+    body = await request.json() as Partial<Topic>;
+  } catch {
+    return NextResponse.json({ error: "요청 본문 파싱 실패" }, { status: 400 });
+  }
 
-    const { data: index, sha } = await loadIndex();
+  if (!body.title) {
+    return NextResponse.json({ error: "title이 필요합니다." }, { status: 400 });
+  }
 
+  try {
     const now = new Date().toISOString();
     const newTopic: Topic = {
       topicId: `topic-${randomUUID().slice(0, 8)}`,
@@ -179,17 +230,19 @@ export async function POST(request: NextRequest) {
       updatedAt: now,
     };
 
-    const updated: TopicIndex = {
-      topics: [...index.topics, newTopic],
-      lastUpdated: now,
-    };
-
-    await writeJsonFile(
-      Paths.topicsIndex(),
-      updated,
-      `feat: add topic "${newTopic.title}"`,
-      sha
-    );
+    await withRetry(async () => {
+      const { data: index, sha } = await loadIndex();
+      const updated: TopicIndex = {
+        topics: [...index.topics, newTopic],
+        lastUpdated: now,
+      };
+      await writeJsonFile(
+        Paths.topicsIndex(),
+        updated,
+        `feat: add topic "${newTopic.title}"`,
+        sha
+      );
+    });
 
     return NextResponse.json({ topic: newTopic }, { status: 201 });
   } catch (err) {

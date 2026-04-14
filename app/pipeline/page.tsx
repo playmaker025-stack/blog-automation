@@ -64,6 +64,8 @@ export default function PipelinePage() {
   const [approval, setApproval] = useState<ApprovalData | null>(null);
   const [running, setRunning] = useState(false);
   const [elapsed, setElapsed] = useState(0);
+  const [stuckCount, setStuckCount] = useState(0);
+  const [recovering, setRecovering] = useState(false);
   const esRef = useRef<EventSource | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -74,20 +76,25 @@ export default function PipelinePage() {
     };
   }, []);
 
-  // 토픽 목록 + 발행 인덱스 동시 로드
-  useEffect(() => {
+  // 토픽 목록 + 발행 인덱스 + stuck count 동시 로드
+  const reloadTopics = () => {
     const t = Date.now();
     Promise.allSettled([
       fetch(`/api/github/topics?_t=${t}`).then((r) => r.json()) as Promise<{ topics: Topic[] }>,
       fetch(`/api/github/posts?limit=1000&_t=${t}`).then((r) => r.json()) as Promise<{ posts: PostingRecord[] }>,
-    ]).then(([topicResult, postResult]) => {
+      fetch(`/api/github/topics/recover-stuck?_t=${t}`).then((r) => r.json()) as Promise<{ count: number }>,
+    ]).then(([topicResult, postResult, stuckResult]) => {
       const postData = postResult.status === "fulfilled" ? postResult.value : { posts: [] };
       const topicData = topicResult.status === "fulfilled" ? topicResult.value : { topics: [] };
+      const stuckData = stuckResult.status === "fulfilled" ? stuckResult.value : { count: 0 };
       // draft만 허용 — in-progress/published/archived 모두 제외
       setTopics((topicData.topics ?? []).filter((t) => t.status === "draft"));
       setPosts(postData.posts ?? []);
+      setStuckCount(stuckData.count ?? 0);
     });
-  }, []);
+  };
+
+  useEffect(() => { reloadTopics(); }, []);
 
   // 사용자 프로필 로드 (userId 입력 후 딜레이)
   useEffect(() => {
@@ -275,6 +282,18 @@ export default function PipelinePage() {
     return !!directTitle.trim();
   })();
 
+  const handleRecoverStuck = async () => {
+    setRecovering(true);
+    try {
+      const res = await fetch("/api/github/topics/recover-stuck", { method: "POST" });
+      if (res.ok) {
+        reloadTopics();
+      }
+    } finally {
+      setRecovering(false);
+    }
+  };
+
   const currentUid = userId.trim().toLowerCase();
   const userTopics = currentUid
     ? topics.filter((t) => t.assignedUserId?.toLowerCase() === currentUid)
@@ -287,6 +306,22 @@ export default function PipelinePage() {
         <h1 className="text-2xl font-bold text-zinc-900">글쓰기 실행</h1>
         <p className="text-zinc-500 mt-1 text-sm">승인 후 본문 작성 시작</p>
       </div>
+
+      {/* ── 멈춤 토픽 복구 경고 ────────────────────────────── */}
+      {stuckCount > 0 && (
+        <div className="mb-4 flex items-center justify-between bg-amber-50 border border-amber-200 rounded-lg px-4 py-3">
+          <p className="text-sm text-amber-800">
+            <span className="font-semibold">{stuckCount}개 토픽</span>이 이전 파이프라인 실패로 진행 중 상태에 멈춰 있습니다.
+          </p>
+          <button
+            onClick={handleRecoverStuck}
+            disabled={recovering}
+            className="ml-4 px-3 py-1 bg-amber-600 text-white text-xs font-semibold rounded hover:bg-amber-700 disabled:opacity-50 transition-colors whitespace-nowrap"
+          >
+            {recovering ? "복구 중..." : "일괄 복구"}
+          </button>
+        </div>
+      )}
 
       {/* ── 실행 설정 ─────────────────────────────────────── */}
       <div className="bg-white border border-zinc-200 rounded-xl p-5 mb-6 space-y-5">

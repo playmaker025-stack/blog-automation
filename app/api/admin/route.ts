@@ -17,6 +17,8 @@ import { forceApprovalState } from "@/lib/agents/approval-state-machine";
 import { getQualityReport, getLogEntries } from "@/lib/agents/operation-logger";
 import { upsertLedgerEntry, getLedgerEntry } from "@/lib/agents/pipeline-ledger";
 import { writeJsonFile, readJsonFile, fileExists } from "@/lib/github/repository";
+import { Paths } from "@/lib/github/paths";
+import type { TopicIndex } from "@/lib/types/github-data";
 import type { ApprovalState } from "@/lib/agents/approval-state-machine";
 
 // ============================================================
@@ -269,8 +271,45 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
       });
     }
 
+    // ── 멈춤 토픽 일괄 복구 (in-progress → draft) ───────────────
+    if (action === "recover_stuck_topics") {
+      const topicsPath = Paths.topicsIndex();
+      if (!(await fileExists(topicsPath))) {
+        return NextResponse.json({ error: "topics index가 없습니다." }, { status: 404 });
+      }
+      const { data: index, sha } = await readJsonFile<TopicIndex>(topicsPath);
+      const stuck = index.topics.filter((t) => t.status === "in-progress");
+      if (stuck.length === 0) {
+        return NextResponse.json({ recovered: 0, message: "멈춤 토픽 없음" });
+      }
+      const now = new Date().toISOString();
+      const updated: TopicIndex = {
+        topics: index.topics.map((t) =>
+          t.status === "in-progress" ? { ...t, status: "draft", updatedAt: now } : t
+        ),
+        lastUpdated: now,
+      };
+      await writeJsonFile(
+        topicsPath,
+        updated,
+        `admin: recover ${stuck.length} stuck topics → draft (actor: ${actor}) [skip ci]`,
+        sha
+      );
+      await appendAdminAudit({
+        ...auditBase,
+        params: { stuckCount: stuck.length, topicIds: stuck.map((t) => t.topicId) },
+        result: "success",
+        detail: `recover_stuck_topics: ${stuck.length}개 → draft 복구`,
+      });
+      return NextResponse.json({
+        recovered: stuck.length,
+        topicIds: stuck.map((t) => t.topicId),
+        titles: stuck.map((t) => t.title),
+      });
+    }
+
     return NextResponse.json(
-      { error: "action은 force_stop | recover_approval | discard_candidate 중 하나여야 합니다." },
+      { error: "action은 force_stop | recover_approval | discard_candidate | recover_stuck_topics 중 하나여야 합니다." },
       { status: 400 }
     );
   } catch (err) {
