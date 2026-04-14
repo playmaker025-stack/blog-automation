@@ -2,11 +2,11 @@
   "pipelineId": "pipe-10ae348a",
   "topicId": "topic-b7b3deaf",
   "userId": "b",
-  "stage": "strategy-planning",
-  "error": null,
+  "stage": "failed",
+  "error": "429 {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"This request would exceed your organization's rate limit of 30,000 input tokens per minute (org: 71690a5a-38b7-47ce-ba17-7c98c0f55d5c, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase.\"},\"request_id\":\"req_011Ca37HarPbJCbBvx314MCA\"}",
   "approvalGranted": false,
   "postingListUpdated": false,
   "indexUpdated": false,
   "createdAt": "2026-04-14T05:26:11.719Z",
-  "updatedAt": "2026-04-14T05:26:15.201Z"
+  "updatedAt": "2026-04-14T05:26:44.677Z"
 }
