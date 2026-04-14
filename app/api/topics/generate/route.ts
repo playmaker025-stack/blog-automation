@@ -30,18 +30,6 @@ export async function POST(request: NextRequest) {
   }
 
   const publishedTopics = userTopics.filter((t: Topic) => t.status === "published");
-  const unpublishedCount = userTopics.filter(
-    (t: Topic) => t.status !== "published" && t.status !== "archived"
-  ).length;
-
-  if (unpublishedCount > 0) {
-    return NextResponse.json(
-      {
-        error: `아직 발행되지 않은 글이 ${unpublishedCount}개 있습니다. 모두 발행 완료 후 새 글목록을 생성할 수 있습니다.`,
-      },
-      { status: 409 }
-    );
-  }
 
   if (publishedTopics.length === 0) {
     return NextResponse.json(

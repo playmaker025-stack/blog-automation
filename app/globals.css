@@ -24,3 +24,16 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* 입력 요소 기본 글자색 — 검정 고정 */
+input,
+textarea,
+select {
+  color: #171717;
+}
+
+/* placeholder 색상 — 진한 회색 (입력값과 구분되는 최소한의 차이) */
+::placeholder {
+  color: #71717a;
+  opacity: 1;
+}

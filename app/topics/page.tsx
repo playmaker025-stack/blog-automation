@@ -306,7 +306,7 @@ export default function TopicsPage() {
             onChange={(e) => applyText(e.target.value)}
             placeholder={"서울 카페 베스트 10\n제주 여행 코스 추천\nA 블로그  ← 이런 줄은 자동 제외됩니다\n한강 공원 피크닉 가이드"}
             rows={7}
-            className="w-full border border-zinc-200 rounded-lg px-3 py-2.5 text-sm text-zinc-800 placeholder:text-zinc-300 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none font-mono"
+            className="w-full border border-zinc-200 rounded-lg px-3 py-2.5 text-sm text-zinc-900 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none font-mono"
           />
         ) : (
           <div onClick={() => fileRef.current?.click()}
@@ -357,7 +357,7 @@ export default function TopicsPage() {
           <span className="text-[10px] px-2 py-0.5 bg-blue-50 text-blue-600 rounded-full font-medium">네이버 리서치 기반</span>
         </div>
         <p className="text-xs text-zinc-400 mb-4">
-          사용자의 모든 글이 발행 완료되면, 기존 글과 연관된 신규 토픽 5개를 자동 생성합니다.
+          기존 발행 글을 분석해 연관된 신규 토픽 5개를 생성합니다. 생성 후 원하는 항목만 선택해 추가할 수 있습니다.
         </p>
         <div className="flex gap-2 mb-4">
           <input
