@@ -1658,7 +1658,20 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-bb17bcdd",
       "at": "2026-04-14T08:34:27.512Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "구월동 전자담배 추천 기기 가이드",
+      "proposedTitle": "구월동 전자담배 기기 추천 입문자도 쉽게 고르는 완벽 가이드",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.48,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-ae1b5697",
+      "at": "2026-04-14T08:57:34.892Z"
     }
   ],
-  "lastUpdated": "2026-04-14T08:34:27.512Z"
+  "lastUpdated": "2026-04-14T08:57:34.892Z"
 }
