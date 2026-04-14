@@ -1649,7 +1649,22 @@
       "createdAt": "2026-04-14T08:57:39.481Z",
       "publishedAt": null,
       "updatedAt": "2026-04-14T08:57:39.481Z"
+    },
+    {
+      "postId": "post-81218051",
+      "topicId": "topic-6ca55bd1",
+      "userId": "c",
+      "title": "말론 vs 아스트로 MK3, 입문자라면 뭘 골라야 할까? 차이 완벽 정리",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-3a3af7c6",
+      "pendingApproval": null,
+      "createdAt": "2026-04-14T09:04:10.640Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-14T09:04:10.640Z"
     }
   ],
-  "lastUpdated": "2026-04-14T08:57:39.481Z"
+  "lastUpdated": "2026-04-14T09:04:10.640Z"
 }
