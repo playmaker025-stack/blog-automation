@@ -2,11 +2,11 @@
   "pipelineId": "pipe-060e028b",
   "topicId": "topic-b7b3deaf",
   "userId": "a",
-  "stage": "strategy-planning",
-  "error": null,
+  "stage": "failed",
+  "error": "Cannot read properties of undefined (reading 'toLowerCase')",
   "approvalGranted": false,
   "postingListUpdated": false,
   "indexUpdated": false,
   "createdAt": "2026-04-14T08:08:37.006Z",
-  "updatedAt": "2026-04-14T08:08:38.775Z"
+  "updatedAt": "2026-04-14T08:10:34.147Z"
 }
