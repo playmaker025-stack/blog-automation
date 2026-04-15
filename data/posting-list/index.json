@@ -1814,7 +1814,22 @@
       "createdAt": "2026-04-15T09:22:59.922Z",
       "publishedAt": null,
       "updatedAt": "2026-04-15T09:22:59.922Z"
+    },
+    {
+      "postId": "post-a358bba7",
+      "topicId": "topic-b7b3deaf",
+      "userId": "a",
+      "title": "부평 전자담배 입문 기기 고를 때 꼭 알아야 할 기준 총정리",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-beeea7ed",
+      "pendingApproval": null,
+      "createdAt": "2026-04-15T09:23:05.924Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-15T09:23:05.924Z"
     }
   ],
-  "lastUpdated": "2026-04-15T09:22:59.922Z"
+  "lastUpdated": "2026-04-15T09:23:05.924Z"
 }
