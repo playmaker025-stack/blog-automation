@@ -1805,15 +1805,15 @@
       "topicId": "topic-668670c4",
       "userId": "c",
       "title": "젤로맥스 vs 발라리안맥스, 입문용 전자담배 뭐가 더 맞을까? 차이점 총정리",
-      "status": "draft",
+      "status": "ready",
       "naverPostUrl": null,
       "evalScore": null,
-      "wordCount": 0,
+      "wordCount": 1983,
       "compositionSessionId": "pipe-f2e302e8",
       "pendingApproval": null,
       "createdAt": "2026-04-15T09:22:59.922Z",
       "publishedAt": null,
-      "updatedAt": "2026-04-15T09:22:59.922Z"
+      "updatedAt": "2026-04-15T09:24:11.851Z"
     },
     {
       "postId": "post-a358bba7",
@@ -1831,5 +1831,5 @@
       "updatedAt": "2026-04-15T09:23:05.924Z"
     }
   ],
-  "lastUpdated": "2026-04-15T09:23:05.924Z"
+  "lastUpdated": "2026-04-15T09:24:11.851Z"
 }
