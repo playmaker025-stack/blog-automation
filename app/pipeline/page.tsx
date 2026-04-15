@@ -25,9 +25,10 @@ export default function PipelinePage() {
   const result = usePipelineStore((s) => s.result);
   const inspector = usePipelineStore((s) => s.inspector);
   const runningTitle = usePipelineStore((s) => s.runningTitle);
-  const running = usePipelineStore((s) => s.running);        // 스토어에서 읽음
-  const approval = usePipelineStore((s) => s.approval);      // 스토어에서 읽음
-  const pipelineError = usePipelineStore((s) => s.pipelineError); // 스토어에서 읽음
+  const running = usePipelineStore((s) => s.running);
+  const runStartedAt = usePipelineStore((s) => s.runStartedAt);
+  const approval = usePipelineStore((s) => s.approval);
+  const pipelineError = usePipelineStore((s) => s.pipelineError);
 
   const setUserId = usePipelineStore((s) => s.setUserId);
   const setTopicMode = usePipelineStore((s) => s.setTopicMode);
@@ -57,18 +58,20 @@ export default function PipelinePage() {
   const [batchRunning, setBatchRunning] = useState(false);
   const [batchQueue, setBatchQueue] = useState<BatchItemStatus[]>([]);
 
-  // ── 타이머: running이 true면 시작, false면 정지 ──────────────
-  // running은 이제 Zustand에 있으므로 컴포넌트 리마운트 시에도
-  // 이미 실행 중이라면 타이머가 자동으로 재시작됨
+  // ── 타이머: runStartedAt 기반으로 실제 경과시간 계산 ─────────
+  // running/runStartedAt이 Zustand에 있으므로 리마운트 시에도
+  // 정확한 경과시간을 즉시 복원함
   useEffect(() => {
-    if (running) {
-      setElapsed(0);
-      timerRef.current = setInterval(() => setElapsed((s) => s + 1), 1000);
+    if (running && runStartedAt) {
+      const tick = () => setElapsed(Math.floor((Date.now() - runStartedAt) / 1000));
+      tick(); // 즉시 현재 경과시간 반영
+      timerRef.current = setInterval(tick, 1000);
     } else {
       if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
+      if (!running) setElapsed(0);
     }
     return () => { if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; } };
-  }, [running]);
+  }, [running, runStartedAt]);
 
   // ── 토픽/포스트 목록 로드 ────────────────────────────────────
   const reloadTopics = useCallback(() => {

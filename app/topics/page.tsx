@@ -6,6 +6,7 @@ import { parseTopicText, readFileAutoEncoding } from "@/lib/skills/import-parser
 import { resolveRemainingTopics } from "@/lib/skills/remaining-topic-resolver";
 import { blogCode } from "@/lib/utils/blog-code";
 import type { GeneratedTopic, TopicGeneratorOutput } from "@/lib/agents/topic-generator";
+import { useTopicsStore } from "@/lib/store/topics-store";
 
 type StatusFilter = "all" | "remaining" | "matched" | Topic["status"];
 
@@ -41,37 +42,48 @@ interface EditTopicState {
 }
 
 export default function TopicsPage() {
+  // ── 로컬 상태 — 리마운트 시 초기화 허용 ──────────────────────
   const [topics, setTopics] = useState<Topic[]>([]);
   const [posts, setPosts] = useState<PostingRecord[]>([]);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<StatusFilter>("all");
-
-  // 불러오기 패널
-  const [importTab, setImportTab] = useState<"text" | "file">("text");
-  const [pasteText, setPasteText] = useState("");
-  const [preview, setPreview] = useState<Array<{ title: string; blog: string }>>([]);
-  const [parsedCount, setParsedCount] = useState(0);
-  const [duplicateCount, setDuplicateCount] = useState(0);
-  const [failedCount, setFailedCount] = useState(0);
-  const [saving, setSaving] = useState(false);
-  const [notice, setNotice] = useState<{ type: "ok" | "err"; msg: string } | null>(null);
-
-  // 개별 편집
   const [editing, setEditing] = useState<EditTopicState | null>(null);
-
-  // 단일 추가
   const [showAdd, setShowAdd] = useState(false);
   const [addTitle, setAddTitle] = useState("");
   const [addUserId, setAddUserId] = useState("");
-
-  // AI 글목록 생성
-  const [generateUserId, setGenerateUserId] = useState("");
-  const [generating, setGenerating] = useState(false);
-  const [generateResult, setGenerateResult] = useState<TopicGeneratorOutput | null>(null);
-  const [selectedGenerated, setSelectedGenerated] = useState<Set<number>>(new Set());
-  const [savingGenerated, setSavingGenerated] = useState(false);
+  const [saving, setSaving] = useState(false);
 
   const fileRef = useRef<HTMLInputElement>(null);
+
+  // ── Zustand store — 페이지 이탈 후에도 유지 ─────────────────
+  // AI 생성 결과, 불러오기 프리뷰 등 작업 진행 중 이탈해도 복원됨
+  const generateUserId = useTopicsStore((s) => s.generateUserId);
+  const generating = useTopicsStore((s) => s.generating);
+  const generateResult = useTopicsStore((s) => s.generateResult);
+  const selectedGenerated = useTopicsStore((s) => s.selectedGenerated);
+  const savingGenerated = useTopicsStore((s) => s.savingGenerated);
+  const importTab = useTopicsStore((s) => s.importTab);
+  const pasteText = useTopicsStore((s) => s.pasteText);
+  const preview = useTopicsStore((s) => s.preview);
+  const parsedCount = useTopicsStore((s) => s.parsedCount);
+  const duplicateCount = useTopicsStore((s) => s.duplicateCount);
+  const failedCount = useTopicsStore((s) => s.failedCount);
+  const notice = useTopicsStore((s) => s.notice);
+
+  const setGenerateUserId = useTopicsStore((s) => s.setGenerateUserId);
+  const setSelectedGenerated = useTopicsStore((s) => s.setSelectedGenerated);
+  const setSavingGenerated = useTopicsStore((s) => s.setSavingGenerated);
+  const setImportTab = useTopicsStore((s) => s.setImportTab);
+  const setPreview = useTopicsStore((s) => s.setPreview);
+  const setParsedCount = useTopicsStore((s) => s.setParsedCount);
+  const setDuplicateCount = useTopicsStore((s) => s.setDuplicateCount);
+  const setFailedCount = useTopicsStore((s) => s.setFailedCount);
+  const setNotice = useTopicsStore((s) => s.setNotice);
+  const clearImport = useTopicsStore((s) => s.clearImport);
+  const clearGenerate = useTopicsStore((s) => s.clearGenerate);
+
+  // pasteText setter — store에 반영 (textarea onChange에서 호출)
+  const setPasteTextStore = useTopicsStore((s) => s.setPasteText);
 
   const loadTopics = () => {
     setLoading(true);
@@ -88,15 +100,15 @@ export default function TopicsPage() {
       .finally(() => setLoading(false));
   };
 
-  useEffect(() => { loadTopics(); }, []);
+  useEffect(() => { loadTopics(); }, []);  // eslint-disable-line react-hooks/exhaustive-deps
 
   // RemainingTopicResolver: 교차체크
   const { remaining, matched } = resolveRemainingTopics(topics, posts);
   const remainingIds = new Set(remaining.map((t) => t.topicId));
 
-  // ── 파일/텍스트 처리 ────────────────────────────────────
+  // ── 파일/텍스트 처리 ─────────────────────────────────────────
   const applyText = (text: string) => {
-    setPasteText(text);
+    setPasteTextStore(text);
     const result = parseTopicText(text);
     setPreview(result.items);
     setParsedCount(result.parsed_count);
@@ -112,7 +124,7 @@ export default function TopicsPage() {
     applyText(text);
   };
 
-  // ── 교체 저장 ──────────────────────────────────────────
+  // ── 교체 저장 ─────────────────────────────────────────────────
   const handleSave = async () => {
     if (preview.length === 0) return;
     setSaving(true);
@@ -130,8 +142,7 @@ export default function TopicsPage() {
       if (duplicateCount > 0) parts.push(`중복 ${duplicateCount}건 제외`);
       if (failedCount > 0) parts.push(`실패 ${failedCount}건 제외`);
       setNotice({ type: "ok", msg: parts.join(" / ") });
-      setPasteText(""); setPreview([]);
-      setParsedCount(0); setDuplicateCount(0); setFailedCount(0);
+      clearImport();
       if (fileRef.current) fileRef.current.value = "";
       loadTopics();
     } catch (e) {
@@ -141,7 +152,7 @@ export default function TopicsPage() {
     }
   };
 
-  // ── 단일 추가 ───────────────────────────────────────────
+  // ── 단일 추가 ─────────────────────────────────────────────────
   const handleAdd = async () => {
     if (!addTitle.trim()) return;
     try {
@@ -159,7 +170,7 @@ export default function TopicsPage() {
     }
   };
 
-  // ── 수정 ───────────────────────────────────────────────
+  // ── 수정 ──────────────────────────────────────────────────────
   const startEdit = (t: Topic) =>
     setEditing({ topicId: t.topicId, title: t.title, assignedUserId: t.assignedUserId ?? "", status: t.status });
 
@@ -185,13 +196,19 @@ export default function TopicsPage() {
     }
   };
 
-  // ── AI 글목록 생성 ─────────────────────────────────────
+  // ── AI 글목록 생성 ────────────────────────────────────────────
+  // 컴포넌트 언마운트 후에도 fetch가 완료되면 Zustand store가 업데이트됨
+  // 돌아왔을 때 generating 상태 또는 generateResult를 그대로 복원
   const handleGenerate = async () => {
     if (!generateUserId.trim()) return;
-    setGenerating(true);
-    setGenerateResult(null);
-    setSelectedGenerated(new Set());
-    setNotice(null);
+
+    // store 직접 업데이트 — 컴포넌트 언마운트 후에도 Zustand 액션은 동작함
+    const store = useTopicsStore.getState();
+    store.setGenerating(true);
+    store.setGenerateResult(null);
+    store.setSelectedGenerated(new Set());
+    store.setNotice(null);
+
     try {
       const res = await fetch("/api/topics/generate", {
         method: "POST",
@@ -205,12 +222,14 @@ export default function TopicsPage() {
         throw new Error("서버 응답 파싱 실패 — 잠시 후 다시 시도해주세요.");
       }
       if (!res.ok) throw new Error(json.error ?? "생성 실패");
-      setGenerateResult(json);
-      setSelectedGenerated(new Set(json.generatedTopics.map((_, i) => i)));
+
+      // 컴포넌트가 언마운트되어 있어도 Zustand 액션은 정상 동작
+      useTopicsStore.getState().setGenerateResult(json);
+      useTopicsStore.getState().setSelectedGenerated(new Set(json.generatedTopics.map((_, i) => i)));
     } catch (e) {
-      setNotice({ type: "err", msg: e instanceof Error ? e.message : "생성 실패" });
+      useTopicsStore.getState().setNotice({ type: "err", msg: e instanceof Error ? e.message : "생성 실패" });
     } finally {
-      setGenerating(false);
+      useTopicsStore.getState().setGenerating(false);
     }
   };
 
@@ -231,8 +250,7 @@ export default function TopicsPage() {
         });
       }
       setNotice({ type: "ok", msg: `${selected.length}개 토픽이 추가되었습니다.` });
-      setGenerateResult(null);
-      setSelectedGenerated(new Set());
+      clearGenerate();
       loadTopics();
     } catch {
       setNotice({ type: "err", msg: "저장 실패" });
@@ -241,7 +259,7 @@ export default function TopicsPage() {
     }
   };
 
-  // ── 삭제 ───────────────────────────────────────────────
+  // ── 삭제 ──────────────────────────────────────────────────────
   const handleDelete = async (topicId: string, title: string) => {
     if (!confirm(`"${title}" 항목을 삭제하시겠습니까?`)) return;
     try {
@@ -288,7 +306,7 @@ export default function TopicsPage() {
         </p>
       )}
 
-      {/* ── 글목록 불러오기 ─────────────────────────────── */}
+      {/* ── 글목록 불러오기 ──────────────────────────────────── */}
       <div className="bg-white border border-zinc-200 rounded-xl p-5 mb-6">
         <h2 className="text-sm font-semibold text-zinc-800 mb-0.5">글목록 불러오기</h2>
         <p className="text-xs text-zinc-400 mb-4">
@@ -355,7 +373,7 @@ export default function TopicsPage() {
         </div>
       </div>
 
-      {/* ── AI 새 글목록 생성 ───────────────────────────── */}
+      {/* ── AI 새 글목록 생성 ────────────────────────────────── */}
       <div className="bg-white border border-zinc-200 rounded-xl p-5 mb-6">
         <div className="flex items-start justify-between mb-1">
           <h2 className="text-sm font-semibold text-zinc-800">AI 새 글목록 생성</h2>
@@ -364,12 +382,22 @@ export default function TopicsPage() {
         <p className="text-xs text-zinc-400 mb-4">
           기존 발행 글을 분석해 연관된 신규 토픽 5개를 생성합니다. 생성 후 원하는 항목만 선택해 추가할 수 있습니다.
         </p>
+
+        {/* 생성 중 배너 — 다른 메뉴 갔다 돌아와도 표시 */}
+        {generating && (
+          <div className="mb-4 flex items-center gap-2 bg-blue-50 border border-blue-200 rounded-lg px-4 py-3">
+            <span className="animate-spin text-blue-500">⟳</span>
+            <span className="text-sm text-blue-700">AI가 글목록을 생성하고 있습니다... 잠시 기다려주세요.</span>
+          </div>
+        )}
+
         <div className="flex gap-2 mb-4">
           <input
             value={generateUserId}
             onChange={(e) => setGenerateUserId(e.target.value)}
             placeholder="사용자 ID (예: user-a)"
-            className="flex-1 border border-zinc-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            disabled={generating}
+            className="flex-1 border border-zinc-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50"
           />
           <button
             onClick={handleGenerate}
@@ -431,7 +459,7 @@ export default function TopicsPage() {
               <p className="text-xs text-zinc-400">{selectedGenerated.size}개 선택됨</p>
               <div className="flex gap-2">
                 <button
-                  onClick={() => { setGenerateResult(null); setSelectedGenerated(new Set()); }}
+                  onClick={() => clearGenerate()}
                   className="px-3 py-1.5 text-xs text-zinc-600 hover:text-zinc-900"
                 >
                   취소
@@ -449,7 +477,7 @@ export default function TopicsPage() {
         )}
       </div>
 
-      {/* ── 필터 ─────────────────────────────────────── */}
+      {/* ── 필터 ─────────────────────────────────────────────── */}
       <div className="flex gap-2 mb-4 flex-wrap">
         {([
           { value: "all", label: `전체 (${topics.length})` },
@@ -528,7 +556,6 @@ export default function TopicsPage() {
                     )}
                   </div>
                   <div className="flex items-center gap-2 shrink-0">
-                    {/* 교차체크 뱃지 */}
                     {remainingIds.has(topic.topicId) ? (
                       <span className="px-2 py-0.5 text-[10px] font-medium rounded-full bg-sky-100 text-sky-700">대기</span>
                     ) : (
@@ -550,7 +577,7 @@ export default function TopicsPage() {
         </div>
       )}
 
-      {/* ── 단일 추가 모달 ──────────────────────────────── */}
+      {/* ── 단일 추가 모달 ───────────────────────────────────── */}
       {showAdd && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
           <div className="bg-white rounded-xl shadow-2xl w-full max-w-md p-6">

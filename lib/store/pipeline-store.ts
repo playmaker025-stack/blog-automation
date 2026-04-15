@@ -44,6 +44,7 @@ interface PipelineStore {
 
   // 실행 상태 (컴포넌트 언마운트에도 유지)
   running: boolean;
+  runStartedAt: number | null; // 실행 시작 timestamp — 타이머 복원용
   stage: PipelineStage;
   events: SSEEvent[];
   streamingBody: string;
@@ -60,6 +61,7 @@ interface PipelineStore {
   setDirectTitle: (title: string) => void;
   setAutoApprove: (v: boolean) => void;
   setRunning: (v: boolean) => void;
+  setRunStartedAt: (ts: number | null) => void;
   setStage: (stage: PipelineStage) => void;
   appendEvent: (event: SSEEvent) => void;
   setEvents: (events: SSEEvent[]) => void;
@@ -83,6 +85,7 @@ export const usePipelineStore = create<PipelineStore>()((set) => ({
   autoApprove: false,
 
   running: false,
+  runStartedAt: null,
   stage: "idle",
   events: [],
   streamingBody: "",
@@ -101,6 +104,7 @@ export const usePipelineStore = create<PipelineStore>()((set) => ({
         selectedTopicId: "",
         directTitle: "",
         running: false,
+        runStartedAt: null,
         stage: "idle",
         events: [],
         streamingBody: "",
@@ -116,6 +120,7 @@ export const usePipelineStore = create<PipelineStore>()((set) => ({
   setDirectTitle: (title) => set({ directTitle: title }),
   setAutoApprove: (v) => set({ autoApprove: v }),
   setRunning: (v) => set({ running: v }),
+  setRunStartedAt: (ts) => set({ runStartedAt: ts }),
   setStage: (stage) => set({ stage }),
   appendEvent: (event) => set((s) => ({ events: [...s.events, event] })),
   setEvents: (events) => set({ events }),
@@ -132,6 +137,7 @@ export const usePipelineStore = create<PipelineStore>()((set) => ({
   resetRun: () =>
     set({
       running: false,
+      runStartedAt: null,
       stage: "idle",
       events: [],
       streamingBody: "",

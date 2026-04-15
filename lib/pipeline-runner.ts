@@ -80,6 +80,7 @@ class PipelineRunner {
       const d = event.data as PipelineResultData;
       s.setResult(d);
       s.setRunning(false);
+      s.setRunStartedAt(null);
       s.setRunningTitle(null);
     }
     if (event.type === "gate_blocked") {
@@ -99,6 +100,7 @@ class PipelineRunner {
         recommendations: d.recommendations ?? [],
       });
       s.setRunning(false);
+      s.setRunStartedAt(null);
       s.setRunningTitle(null);
     }
     if (event.type === "error") {
@@ -108,6 +110,7 @@ class PipelineRunner {
       s.setPipelineError(msg);
       s.setStage("idle");
       s.setRunning(false);
+      s.setRunStartedAt(null);
       s.setRunningTitle(null);
     }
   }
@@ -144,6 +147,7 @@ class PipelineRunner {
   async start(topicId: string, uid: string, runningTitle: string): Promise<void> {
     const s = this.store();
     s.setRunning(true);
+    s.setRunStartedAt(Date.now());
     s.setPipelineError(null);
     s.setApproval(null);
     s.setRunningTitle(runningTitle);
@@ -214,6 +218,7 @@ class PipelineRunner {
     const s = this.store();
     s.setApproval(null);
     s.setRunning(false);
+    s.setRunStartedAt(null);
     s.setRunningTitle(null);
     s.setStage("idle");
   }
