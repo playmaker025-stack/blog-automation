@@ -87,7 +87,7 @@ export default function PipelinePage() {
   const [batchSelected, setBatchSelected] = useState<Set<string>>(new Set());
   const [batchRunning, setBatchRunning] = useState(false);
   const [batchQueue, setBatchQueue] = useState<BatchItemStatus[]>([]);
-  const [batchCurrentIdx, setBatchCurrentIdx] = useState(-1);
+  const [_batchCurrentIdx, setBatchCurrentIdx] = useState(-1);
   const batchCancelRef = useRef(false);
 
   // 컴포넌트 언마운트 시 타이머 정리
