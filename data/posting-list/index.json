@@ -1754,7 +1754,22 @@
       "createdAt": "2026-04-15T08:14:22.970Z",
       "publishedAt": null,
       "updatedAt": "2026-04-15T08:15:40.019Z"
+    },
+    {
+      "postId": "post-d6b80040",
+      "topicId": "topic-b39ccdca",
+      "userId": "A",
+      "title": "인천 전자담배 액상 고르는 법 | 입문자도 실수 없이 선택하는 5가지 기준",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-634d137c",
+      "pendingApproval": null,
+      "createdAt": "2026-04-15T08:55:45.203Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-15T08:55:45.203Z"
     }
   ],
-  "lastUpdated": "2026-04-15T08:15:40.019Z"
+  "lastUpdated": "2026-04-15T08:55:45.203Z"
 }
