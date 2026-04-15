@@ -1709,7 +1709,22 @@
       "createdAt": "2026-04-15T03:24:48.043Z",
       "publishedAt": null,
       "updatedAt": "2026-04-15T03:24:48.043Z"
+    },
+    {
+      "postId": "post-5ac3bb06",
+      "topicId": "topic-b7b3deaf",
+      "userId": "a",
+      "title": "부평 전자담배 입문 기기 추천 — 처음 고르는 법부터 기기 유형별 특징까지",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-840046f2",
+      "pendingApproval": null,
+      "createdAt": "2026-04-15T07:12:45.770Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-15T07:12:45.770Z"
     }
   ],
-  "lastUpdated": "2026-04-15T03:24:48.043Z"
+  "lastUpdated": "2026-04-15T07:12:45.770Z"
 }
