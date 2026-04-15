@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-c648f838",
+  "type": "approval_request",
+  "savedAt": "2026-04-15T09:04:26.841Z",
+  "data": {
+    "pipelineId": "pipe-c648f838",
+    "previousTitle": "",
+    "proposedTitle": "말론 vs 아스트로 MK3, 전담 입문자라면 어떤 기기가 맞을까?",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "① 키워드 경쟁도 '낮음'(146건, 최근 30일 100%) → 지금 발행 시 상위 노출 가능성 높음. ② 기존 상위 글 5개 분석 결과, 모두 매장 소개·가격 나열 중심이며 말론과 아스트로 MK3를 1:1로 심층 비교한 글은 전무 → 비교 리뷰 포맷이 명확한 차별화 전략. ③ 금지 항목(가격·이벤트) 완전 배제 후 기능·사용감·유형별 추천 각도로 재구성, 정보성 콘텐츠로서의 가치를 극대화. ④ 사용자 C의 코퍼스·이력 데이터가 없어 기본 friendly 톤을 적용하되, 입문자 타깃의 쉬운 언어와 공감형 도입부를 활용하여 진입 장벽을 낮춤. ⑤ '유지관리 팁' 섹션은 기존 경쟁 글에 전혀 없는 내용으로, 체류 시간 증가 및 재방문 유도 효과를 기대할 수 있음.",
+    "requestedAt": "2026-04-15T09:04:23.975Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-15T09:04:23.975Z",
+      "modifications": null
+    }
+  }
+}
