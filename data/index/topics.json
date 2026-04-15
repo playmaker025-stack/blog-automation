@@ -21,10 +21,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-15T03:24:49.727Z"
+      "updatedAt": "2026-04-15T07:30:36.522Z"
     },
     {
       "topicId": "topic-b7b3deaf",
@@ -34,10 +34,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-15T07:12:47.831Z"
+      "updatedAt": "2026-04-15T07:30:36.522Z"
     },
     {
       "topicId": "topic-b39ccdca",
@@ -417,5 +417,5 @@
       "updatedAt": "2026-04-10T05:54:01.572Z"
     }
   ],
-  "lastUpdated": "2026-04-15T07:12:47.831Z"
+  "lastUpdated": "2026-04-15T07:30:36.522Z"
 }
