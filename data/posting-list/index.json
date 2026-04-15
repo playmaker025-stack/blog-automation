@@ -1829,7 +1829,22 @@
       "createdAt": "2026-04-15T09:23:05.924Z",
       "publishedAt": null,
       "updatedAt": "2026-04-15T09:23:05.924Z"
+    },
+    {
+      "postId": "post-0fa1421b",
+      "topicId": "topic-157a1185",
+      "userId": "a",
+      "title": "구월동 전자담배 기기 추천 | 입문자를 위한 선택 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-59740991",
+      "pendingApproval": null,
+      "createdAt": "2026-04-15T09:50:00.165Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-15T09:50:00.165Z"
     }
   ],
-  "lastUpdated": "2026-04-15T09:24:11.851Z"
+  "lastUpdated": "2026-04-15T09:50:00.165Z"
 }
