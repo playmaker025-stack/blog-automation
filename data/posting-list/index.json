@@ -1724,7 +1724,22 @@
       "createdAt": "2026-04-15T07:12:45.770Z",
       "publishedAt": null,
       "updatedAt": "2026-04-15T07:14:10.483Z"
+    },
+    {
+      "postId": "post-565ee7dc",
+      "topicId": "topic-b7b3deaf",
+      "userId": "A",
+      "title": "부평 전자담배 입문 기기 추천 | 처음 시작한다면 꼭 알아야 할 선택 기준",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-01ed998b",
+      "pendingApproval": null,
+      "createdAt": "2026-04-15T07:32:00.887Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-15T07:32:00.887Z"
     }
   ],
-  "lastUpdated": "2026-04-15T07:14:10.483Z"
+  "lastUpdated": "2026-04-15T07:32:00.887Z"
 }
