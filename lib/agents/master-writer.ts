@@ -201,7 +201,7 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
   ];
 
   let iterCount = 0;
-  const maxIter = 4;
+  const maxIter = 8;
 
   while (iterCount < maxIter) {
     iterCount++;
@@ -334,7 +334,7 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
     break;
   }
 
-  throw new Error(`Master Writer가 ${maxIter}회 반복 한계에 도달했습니다.`);
+  throw new Error(`Master Writer가 ${maxIter}회 반복 한계에 도달했습니다. 마지막 응답이 도구 호출로만 이루어졌습니다.`);
 }
 
 async function saveWriterResult(params: {
