@@ -1829,7 +1829,21 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-beeea7ed",
       "at": "2026-04-15T09:22:40.840Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "젤로맥스 vs 발라리안맥스 비교",
+      "proposedTitle": "젤로맥스 vs 발라리안맥스, 입문용 전자담배 뭐가 더 맞을까? 차이점 총정리",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "searchIntentChanged",
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.36363636363636365,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-f2e302e8",
+      "at": "2026-04-15T09:22:47.056Z"
     }
   ],
-  "lastUpdated": "2026-04-15T09:22:40.840Z"
+  "lastUpdated": "2026-04-15T09:22:47.056Z"
 }
