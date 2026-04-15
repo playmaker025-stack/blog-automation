@@ -1870,7 +1870,21 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-59740991",
       "at": "2026-04-15T09:49:56.297Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "그래피티2 vs 그래피티3 차이",
+      "proposedTitle": "버블몬 그래피티2 vs 그래피티3 차이 완벽 정리 – 어떤 게 나한테 맞을까?",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "searchIntentChanged",
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.4375,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-42aaa60d",
+      "at": "2026-04-15T09:50:29.786Z"
     }
   ],
-  "lastUpdated": "2026-04-15T09:49:56.297Z"
+  "lastUpdated": "2026-04-15T09:50:29.786Z"
 }
