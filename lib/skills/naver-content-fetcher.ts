@@ -7,6 +7,7 @@
  */
 
 import { getAnthropicClient, MODELS } from "@/lib/anthropic/client";
+import { anthropicSemaphore } from "@/lib/anthropic/semaphore";
 
 export interface NaverContentFetcherInput {
   /** 수집할 블로그 글 URL 목록 (최대 5개) */
@@ -138,7 +139,7 @@ async function summarizeArticles(
     .join("\n\n---\n\n");
 
   const client = getAnthropicClient();
-  const response = await client.messages.create(
+  const response = await anthropicSemaphore.run(() => client.messages.create(
     {
       model: MODELS.haiku,
       max_tokens: 1024,
@@ -172,7 +173,7 @@ ${articlesText}
       ],
     },
     { signal: AbortSignal.timeout(30_000) }
-  );
+  ));
 
   const text = response.content.find((b) => b.type === "text");
   return text?.type === "text" ? text.text : "요약 생성 실패";

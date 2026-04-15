@@ -8,6 +8,7 @@
  */
 
 import { getAnthropicClient, MODELS } from "@/lib/anthropic/client";
+import { anthropicSemaphore } from "@/lib/anthropic/semaphore";
 import { naverKeywordResearch } from "@/lib/skills/naver-keyword-research";
 import type { Topic } from "@/lib/types/github-data";
 
@@ -101,7 +102,7 @@ export async function runTopicGenerator(
     .join(", ");
 
   const client = getAnthropicClient();
-  const response = await client.messages.create(
+  const response = await anthropicSemaphore.run(() => client.messages.create(
     {
       model: MODELS.sonnet,
       max_tokens: 2048,
@@ -147,7 +148,7 @@ ${mainCategory}
       ],
     },
     { signal: AbortSignal.timeout(60_000) }
-  );
+  ));
 
   const text = response.content.find((b) => b.type === "text");
   const rawText = text?.type === "text" ? text.text : "";

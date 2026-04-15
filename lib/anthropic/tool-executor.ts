@@ -1,5 +1,6 @@
 import type { MessageParam, ToolResultBlockParam } from "@anthropic-ai/sdk/resources/messages";
 import { getAnthropicClient } from "./client";
+import { anthropicSemaphore } from "./semaphore";
 import type { ToolUseLoopOptions } from "@/lib/types/agent";
 
 const DEFAULT_MAX_ITERATIONS = 10;
@@ -43,15 +44,18 @@ export async function runToolUseLoop(
         ? AbortSignal.any([callTimeoutSignal, pipelineSignal])
         : callTimeoutSignal;
 
+      const sem = anthropicSemaphore.stats;
       onProgress?.(`AI 분석 중... (${iterations}/${maxIterations})`);
-      console.log(`[tool-executor] iteration ${iterations} API call start`);
-      response = await client.messages.create({
-        model,
-        system,
-        messages,
-        tools,
-        max_tokens: 4096,
-      }, { signal: callSignal });
+      console.log(`[tool-executor] iteration ${iterations} API call start — semaphore: running=${sem.running}/${sem.max}, queued=${sem.queued}`);
+      response = await anthropicSemaphore.run(() =>
+        client.messages.create({
+          model,
+          system,
+          messages,
+          tools,
+          max_tokens: 4096,
+        }, { signal: callSignal })
+      );
       console.log(`[tool-executor] iteration ${iterations} API call done — stop_reason=${response.stop_reason}`);
     } catch (err) {
       // 원본 오류 상세 정보를 서버 로그에 기록

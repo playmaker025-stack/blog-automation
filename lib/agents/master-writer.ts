@@ -1,5 +1,6 @@
 import type { Tool } from "@anthropic-ai/sdk/resources/messages";
 import { getAnthropicClient, MODELS } from "@/lib/anthropic/client";
+import { anthropicSemaphore } from "@/lib/anthropic/semaphore";
 import { userCorpusRetriever } from "@/lib/skills/user-corpus-retriever";
 import { expansionPlanner } from "@/lib/skills/expansion-planner";
 import { sourceResolver } from "@/lib/skills/source-resolver";
@@ -251,7 +252,7 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
 
     try {
       await Promise.race([
-        (async () => {
+        anthropicSemaphore.run(async () => {
           const stream = client.messages.stream({
             model: MODELS.sonnet,
             system: buildSystemPrompt(userId, corpusSummary ?? null),
@@ -289,7 +290,7 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
             }
           }
           messages.push({ role: "assistant", content: finalMsg.content });
-        })(),
+        }),
         stallPromise,
       ]);
     } finally {

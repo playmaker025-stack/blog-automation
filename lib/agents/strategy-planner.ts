@@ -1,5 +1,6 @@
 import type { Tool } from "@anthropic-ai/sdk/resources/messages";
 import { getAnthropicClient, MODELS } from "@/lib/anthropic/client";
+import { anthropicSemaphore } from "@/lib/anthropic/semaphore";
 import { runToolUseLoop } from "@/lib/anthropic/tool-executor";
 import { userProfileLoader } from "@/lib/skills/user-profile-loader";
 import { userCorpusRetriever } from "@/lib/skills/user-corpus-retriever";
@@ -301,7 +302,7 @@ export async function runStrategyPlannerSimple(params: {
     ? AbortSignal.any([AbortSignal.timeout(CALL_TIMEOUT_MS), params.signal])
     : AbortSignal.timeout(CALL_TIMEOUT_MS);
 
-  const response = await client.messages.create({
+  const response = await anthropicSemaphore.run(() => client.messages.create({
     model: MODELS.sonnet,
     system: SYSTEM_PROMPT,
     max_tokens: 4096,
@@ -311,7 +312,7 @@ export async function runStrategyPlannerSimple(params: {
         content: `토픽 제목: ${params.topicTitle}\n설명: ${params.topicDescription}\n사용자 ID: ${params.userId}\n\n전략 JSON을 출력해주세요.`,
       },
     ],
-  }, { signal: callSignal });
+  }, { signal: callSignal }));
 
   const text = response.content.find((b) => b.type === "text");
   if (!text || text.type !== "text") throw new Error("응답 없음");
