@@ -1844,7 +1844,22 @@
       "createdAt": "2026-04-15T09:50:00.165Z",
       "publishedAt": null,
       "updatedAt": "2026-04-15T09:50:00.165Z"
+    },
+    {
+      "postId": "post-a8c1db14",
+      "topicId": "topic-1fa85501",
+      "userId": "c",
+      "title": "버블몬 그래피티2 vs 그래피티3 차이 완벽 정리 – 어떤 게 나한테 맞을까?",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-42aaa60d",
+      "pendingApproval": null,
+      "createdAt": "2026-04-15T09:50:52.730Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-15T09:50:52.730Z"
     }
   ],
-  "lastUpdated": "2026-04-15T09:50:00.165Z"
+  "lastUpdated": "2026-04-15T09:50:52.730Z"
 }
