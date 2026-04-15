@@ -6,7 +6,6 @@ import { ApprovalDialog } from "@/components/pipeline/approval-dialog";
 import { PipelineStateInspector } from "@/components/pipeline/state-inspector";
 import { usePipelineStore } from "@/lib/store/pipeline-store";
 import { pipelineRunner } from "@/lib/pipeline-runner";
-import type { BatchItemStatus } from "@/lib/pipeline-runner";
 import type { ApprovalRequest, SSEEvent } from "@/lib/agents/types";
 import type { Topic, UserProfile, PostingRecord } from "@/lib/types/github-data";
 import { resolveRemainingTopics } from "@/lib/skills/remaining-topic-resolver";
@@ -18,6 +17,10 @@ export default function PipelinePage() {
   const selectedTopicId = usePipelineStore((s) => s.selectedTopicId);
   const directTitle = usePipelineStore((s) => s.directTitle);
   const autoApprove = usePipelineStore((s) => s.autoApprove);
+  const execMode = usePipelineStore((s) => s.execMode);
+  const batchSelectedIds = usePipelineStore((s) => s.batchSelectedIds);
+  const batchRunning = usePipelineStore((s) => s.batchRunning);
+  const batchQueue = usePipelineStore((s) => s.batchQueue);
   const stage = usePipelineStore((s) => s.stage);
   const events = usePipelineStore((s) => s.events);
   const streamingBody = usePipelineStore((s) => s.streamingBody);
@@ -34,13 +37,19 @@ export default function PipelinePage() {
   const setSelectedTopicId = usePipelineStore((s) => s.setSelectedTopicId);
   const setDirectTitle = usePipelineStore((s) => s.setDirectTitle);
   const setAutoApprove = usePipelineStore((s) => s.setAutoApprove);
+  const setExecMode = usePipelineStore((s) => s.setExecMode);
+  const setBatchSelectedIds = usePipelineStore((s) => s.setBatchSelectedIds);
+  const toggleBatchItem = usePipelineStore((s) => s.toggleBatchItem);
+  const setBatchRunning = usePipelineStore((s) => s.setBatchRunning);
+  const setBatchQueue = usePipelineStore((s) => s.setBatchQueue);
+  const updateBatchItem = usePipelineStore((s) => s.updateBatchItem);
   const setEvents = usePipelineStore((s) => s.setEvents);
   const setStreamingBody = usePipelineStore((s) => s.setStreamingBody);
   const setInspector = usePipelineStore((s) => s.setInspector);
   const setPipelineError = usePipelineStore((s) => s.setPipelineError);
   const resetRun = usePipelineStore((s) => s.resetRun);
 
-  // ── 로컬 상태 ─────────────────────────────────────────────────
+  // ── 로컬 상태 (API 데이터 — 마운트마다 재로드 허용) ────────────
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [profileLoading, setProfileLoading] = useState(false);
   const [profileError, setProfileError] = useState<string | null>(null);
@@ -53,13 +62,7 @@ export default function PipelinePage() {
   const logRef = useRef<HTMLDivElement>(null);
   const bodyRef = useRef<HTMLDivElement>(null);
 
-  // ── 배치 상태 ─────────────────────────────────────────────────
-  const [execMode, setExecMode] = useState<"single" | "batch">("single");
-  const [batchSelected, setBatchSelected] = useState<Set<string>>(new Set());
-  const [batchRunning, setBatchRunning] = useState(false);
-  const [batchQueue, setBatchQueue] = useState<BatchItemStatus[]>([]);
-
-  // ── 타이머 (runStartedAt 기반) ────────────────────────────────
+  // ── 타이머 (runStartedAt 기반 — 네비게이션 후 복원됨) ─────────
   useEffect(() => {
     if (running && runStartedAt) {
       const tick = () => setElapsed(Math.floor((Date.now() - runStartedAt) / 1000));
@@ -183,27 +186,17 @@ export default function PipelinePage() {
   // ── 배치 실행 ────────────────────────────────────────────────
   const startBatch = async () => {
     const uid = userId.trim();
-    if (!uid || batchSelected.size === 0 || batchRunning) return;
-    const queue: BatchItemStatus[] = [...batchSelected].map((id) => ({
+    if (!uid || batchSelectedIds.length === 0 || batchRunning) return;
+    const queue = batchSelectedIds.map((id) => ({
       topicId: id,
       title: availableTopics.find((t) => t.topicId === id)?.title ?? id,
-      status: "pending",
+      status: "pending" as const,
     }));
     setBatchQueue(queue);
     setBatchRunning(true);
-    await pipelineRunner.startBatch(queue, uid, (idx, update) =>
-      setBatchQueue((prev) => prev.map((item, i) => (i === idx ? { ...item, ...update } : item)))
-    );
+    await pipelineRunner.startBatch(queue, uid, (idx, update) => updateBatchItem(idx, update));
     setBatchRunning(false);
     reloadTopics();
-  };
-
-  const toggleBatchItem = (topicId: string) => {
-    setBatchSelected((prev) => {
-      const next = new Set(prev);
-      if (next.has(topicId)) next.delete(topicId); else next.add(topicId);
-      return next;
-    });
   };
 
   // ── 파생 상태 ─────────────────────────────────────────────────
@@ -215,7 +208,7 @@ export default function PipelinePage() {
 
   const canStart = !running && !!userId.trim() &&
     (topicMode === "list" ? !!selectedTopicId : !!directTitle.trim());
-  const canStartBatch = !!userId.trim() && batchSelected.size > 0 && !batchRunning && !running;
+  const canStartBatch = !!userId.trim() && batchSelectedIds.length > 0 && !batchRunning && !running;
 
   const batchDone = batchQueue.filter((q) => q.status === "done" || q.status === "failed").length;
   const batchTotal = batchQueue.length;
@@ -228,15 +221,25 @@ export default function PipelinePage() {
 
   // ─────────────────────────────────────────────────────────────
   return (
-    // 2컬럼 레이아웃: 좌(설정/컨트롤) + 우(본문)
     <div className="flex min-h-full">
 
       {/* ══ 왼쪽 패널 — 설정 및 실행 제어 ══════════════════════ */}
       <div className={`shrink-0 overflow-y-auto p-6 space-y-4 border-r border-zinc-100 ${hasRightContent ? "w-[420px]" : "w-full max-w-2xl"}`}>
 
-        <div>
-          <h1 className="text-xl font-bold text-zinc-900">글쓰기 실행</h1>
-          <p className="text-zinc-500 mt-0.5 text-sm">승인 후 본문 작성 시작</p>
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="text-xl font-bold text-zinc-900">글쓰기 실행</h1>
+            <p className="text-zinc-500 mt-0.5 text-sm">승인 후 본문 작성 시작</p>
+          </div>
+          {/* 결과 있을 때 초기화 버튼 */}
+          {(result || streamingBody) && !running && (
+            <button
+              onClick={() => resetRun()}
+              className="px-3 py-1.5 text-xs text-zinc-500 hover:text-zinc-800 border border-zinc-200 rounded-lg hover:bg-zinc-50 transition-colors"
+            >
+              초기화
+            </button>
+          )}
         </div>
 
         {/* stuck 복구 */}
@@ -344,13 +347,13 @@ export default function PipelinePage() {
               <div>
                 <div className="flex items-center justify-between mb-2">
                   <label className="text-xs font-semibold text-zinc-600">
-                    주제 선택 {batchSelected.size > 0 && <span className="text-blue-600 ml-1">{batchSelected.size}개</span>}
+                    주제 선택 {batchSelectedIds.length > 0 && <span className="text-blue-600 ml-1">{batchSelectedIds.length}개</span>}
                   </label>
                   <div className="flex gap-2 text-xs text-zinc-500">
-                    <button onClick={() => setBatchSelected(new Set(availableTopics.map((t) => t.topicId)))}
+                    <button onClick={() => setBatchSelectedIds(availableTopics.map((t) => t.topicId))}
                       disabled={batchRunning} className="hover:text-zinc-800 disabled:opacity-40">전체</button>
                     <span className="text-zinc-300">|</span>
-                    <button onClick={() => setBatchSelected(new Set())}
+                    <button onClick={() => setBatchSelectedIds([])}
                       disabled={batchRunning} className="hover:text-zinc-800 disabled:opacity-40">해제</button>
                   </div>
                 </div>
@@ -359,8 +362,8 @@ export default function PipelinePage() {
                     ? <p className="text-xs text-zinc-400 px-3 py-2">배정된 주제가 없습니다.</p>
                     : availableTopics.map((t) => (
                       <label key={t.topicId}
-                        className={`flex items-center gap-3 px-3 py-2 cursor-pointer select-none transition-colors ${batchSelected.has(t.topicId) ? "bg-blue-50" : "hover:bg-zinc-50"} ${batchRunning ? "opacity-50 pointer-events-none" : ""}`}>
-                        <input type="checkbox" checked={batchSelected.has(t.topicId)}
+                        className={`flex items-center gap-3 px-3 py-2 cursor-pointer select-none transition-colors ${batchSelectedIds.includes(t.topicId) ? "bg-blue-50" : "hover:bg-zinc-50"} ${batchRunning ? "opacity-50 pointer-events-none" : ""}`}>
+                        <input type="checkbox" checked={batchSelectedIds.includes(t.topicId)}
                           onChange={() => toggleBatchItem(t.topicId)} disabled={batchRunning} className="rounded shrink-0" />
                         <span className="text-xs text-zinc-800 truncate">{t.title}</span>
                       </label>
@@ -371,7 +374,7 @@ export default function PipelinePage() {
               <div className="flex gap-2">
                 <button onClick={startBatch} disabled={!canStartBatch}
                   className="flex-1 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed transition-colors">
-                  {batchRunning ? `배치 실행 중... (${batchDone}/${batchTotal})` : `배치 실행 (${batchSelected.size}개)`}
+                  {batchRunning ? `배치 실행 중... (${batchDone}/${batchTotal})` : `배치 실행 (${batchSelectedIds.length}개)`}
                 </button>
                 {batchRunning && (
                   <button onClick={() => pipelineRunner.stopBatch()}
@@ -489,8 +492,8 @@ export default function PipelinePage() {
           {result && (
             <>
               <span className={`w-2 h-2 rounded-full shrink-0 ${result.pass ? "bg-emerald-500" : "bg-amber-500"}`} />
-              <span className="text-sm font-medium text-zinc-700">{result.title}</span>
-              <span className="text-xs text-zinc-500 ml-auto font-mono">
+              <span className="text-sm font-medium text-zinc-700 truncate flex-1">{result.title}</span>
+              <span className="text-xs text-zinc-500 shrink-0 font-mono">
                 {result.wordCount.toLocaleString()}자 · {result.evalScore}점
                 {result.pass ? " ✓" : " ⚠"}
               </span>
@@ -509,7 +512,6 @@ export default function PipelinePage() {
             </pre>
           ) : result ? (
             <div className="p-6 space-y-4">
-              {/* 결과 상태 카드 */}
               <div className={`border rounded-xl p-4 ${result.pass ? "bg-emerald-50 border-emerald-200" : "bg-amber-50 border-amber-200"}`}>
                 <p className={`font-semibold text-sm ${result.pass ? "text-emerald-700" : "text-amber-700"}`}>
                   {result.pass ? "✓ 글쓰기 완료" : "⚠ 완료 — 평가 점수 미달"}

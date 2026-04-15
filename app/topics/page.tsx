@@ -55,12 +55,11 @@ export default function TopicsPage() {
 
   const fileRef = useRef<HTMLInputElement>(null);
 
-  // ── Zustand store — 페이지 이탈 후에도 유지 ─────────────────
-  // AI 생성 결과, 불러오기 프리뷰 등 작업 진행 중 이탈해도 복원됨
+  // ── Zustand store — 페이지 이탈 후에도 유지 (sessionStorage persist) ─
   const generateUserId = useTopicsStore((s) => s.generateUserId);
   const generating = useTopicsStore((s) => s.generating);
   const generateResult = useTopicsStore((s) => s.generateResult);
-  const selectedGenerated = useTopicsStore((s) => s.selectedGenerated);
+  const selectedGeneratedIndices = useTopicsStore((s) => s.selectedGeneratedIndices);
   const savingGenerated = useTopicsStore((s) => s.savingGenerated);
   const importTab = useTopicsStore((s) => s.importTab);
   const pasteText = useTopicsStore((s) => s.pasteText);
@@ -71,7 +70,7 @@ export default function TopicsPage() {
   const notice = useTopicsStore((s) => s.notice);
 
   const setGenerateUserId = useTopicsStore((s) => s.setGenerateUserId);
-  const setSelectedGenerated = useTopicsStore((s) => s.setSelectedGenerated);
+  const toggleSelectedGenerated = useTopicsStore((s) => s.toggleSelectedGenerated);
   const setSavingGenerated = useTopicsStore((s) => s.setSavingGenerated);
   const setImportTab = useTopicsStore((s) => s.setImportTab);
   const setPreview = useTopicsStore((s) => s.setPreview);
@@ -81,8 +80,6 @@ export default function TopicsPage() {
   const setNotice = useTopicsStore((s) => s.setNotice);
   const clearImport = useTopicsStore((s) => s.clearImport);
   const clearGenerate = useTopicsStore((s) => s.clearGenerate);
-
-  // pasteText setter — store에 반영 (textarea onChange에서 호출)
   const setPasteTextStore = useTopicsStore((s) => s.setPasteText);
 
   const loadTopics = () => {
@@ -197,16 +194,13 @@ export default function TopicsPage() {
   };
 
   // ── AI 글목록 생성 ────────────────────────────────────────────
-  // 컴포넌트 언마운트 후에도 fetch가 완료되면 Zustand store가 업데이트됨
-  // 돌아왔을 때 generating 상태 또는 generateResult를 그대로 복원
   const handleGenerate = async () => {
     if (!generateUserId.trim()) return;
 
-    // store 직접 업데이트 — 컴포넌트 언마운트 후에도 Zustand 액션은 동작함
     const store = useTopicsStore.getState();
     store.setGenerating(true);
     store.setGenerateResult(null);
-    store.setSelectedGenerated(new Set());
+    store.setSelectedGeneratedIndices([]);
     store.setNotice(null);
 
     try {
@@ -223,9 +217,8 @@ export default function TopicsPage() {
       }
       if (!res.ok) throw new Error(json.error ?? "생성 실패");
 
-      // 컴포넌트가 언마운트되어 있어도 Zustand 액션은 정상 동작
       useTopicsStore.getState().setGenerateResult(json);
-      useTopicsStore.getState().setSelectedGenerated(new Set(json.generatedTopics.map((_, i) => i)));
+      useTopicsStore.getState().setSelectedGeneratedIndices(json.generatedTopics.map((_, i) => i));
     } catch (e) {
       useTopicsStore.getState().setNotice({ type: "err", msg: e instanceof Error ? e.message : "생성 실패" });
     } finally {
@@ -234,11 +227,11 @@ export default function TopicsPage() {
   };
 
   const handleSaveGenerated = async () => {
-    if (!generateResult || selectedGenerated.size === 0) return;
+    if (!generateResult || selectedGeneratedIndices.length === 0) return;
     setSavingGenerated(true);
     setNotice(null);
     try {
-      const selected = generateResult.generatedTopics.filter((_, i) => selectedGenerated.has(i));
+      const selected = generateResult.generatedTopics.filter((_, i) => selectedGeneratedIndices.includes(i));
       for (const topic of selected) {
         await fetch("/api/github/topics", {
           method: "POST",
@@ -383,7 +376,6 @@ export default function TopicsPage() {
           기존 발행 글을 분석해 연관된 신규 토픽 5개를 생성합니다. 생성 후 원하는 항목만 선택해 추가할 수 있습니다.
         </p>
 
-        {/* 생성 중 배너 — 다른 메뉴 갔다 돌아와도 표시 */}
         {generating && (
           <div className="mb-4 flex items-center gap-2 bg-blue-50 border border-blue-200 rounded-lg px-4 py-3">
             <span className="animate-spin text-blue-500">⟳</span>
@@ -418,22 +410,18 @@ export default function TopicsPage() {
               {generateResult.generatedTopics.map((topic: GeneratedTopic, i: number) => (
                 <div
                   key={i}
-                  onClick={() => {
-                    const next = new Set(selectedGenerated);
-                    if (next.has(i)) next.delete(i); else next.add(i);
-                    setSelectedGenerated(next);
-                  }}
+                  onClick={() => toggleSelectedGenerated(i)}
                   className={`border rounded-lg px-4 py-3 cursor-pointer transition-colors ${
-                    selectedGenerated.has(i)
+                    selectedGeneratedIndices.includes(i)
                       ? "border-blue-400 bg-blue-50/50"
                       : "border-zinc-200 hover:border-zinc-300"
                   }`}
                 >
                   <div className="flex items-start gap-2">
                     <div className={`mt-0.5 w-4 h-4 rounded border shrink-0 flex items-center justify-center ${
-                      selectedGenerated.has(i) ? "border-blue-500 bg-blue-500" : "border-zinc-300"
+                      selectedGeneratedIndices.includes(i) ? "border-blue-500 bg-blue-500" : "border-zinc-300"
                     }`}>
-                      {selectedGenerated.has(i) && (
+                      {selectedGeneratedIndices.includes(i) && (
                         <svg className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                         </svg>
@@ -456,7 +444,7 @@ export default function TopicsPage() {
               ))}
             </div>
             <div className="flex justify-between items-center pt-1">
-              <p className="text-xs text-zinc-400">{selectedGenerated.size}개 선택됨</p>
+              <p className="text-xs text-zinc-400">{selectedGeneratedIndices.length}개 선택됨</p>
               <div className="flex gap-2">
                 <button
                   onClick={() => clearGenerate()}
@@ -466,10 +454,10 @@ export default function TopicsPage() {
                 </button>
                 <button
                   onClick={handleSaveGenerated}
-                  disabled={savingGenerated || selectedGenerated.size === 0}
+                  disabled={savingGenerated || selectedGeneratedIndices.length === 0}
                   className="px-4 py-1.5 bg-blue-600 text-white text-xs font-medium rounded-lg hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed"
                 >
-                  {savingGenerated ? "저장 중..." : `선택한 ${selectedGenerated.size}개 추가`}
+                  {savingGenerated ? "저장 중..." : `선택한 ${selectedGeneratedIndices.length}개 추가`}
                 </button>
               </div>
             </div>

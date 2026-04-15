@@ -10,21 +10,13 @@
  */
 
 import { usePipelineStore } from "@/lib/store/pipeline-store";
-import type { PipelineApprovalData, PipelineResultData } from "@/lib/store/pipeline-store";
+import type { PipelineApprovalData, PipelineResultData, BatchItemStatus } from "@/lib/store/pipeline-store";
 import type { SSEEvent } from "@/lib/agents/types";
 import { applyEventToInspector } from "@/components/pipeline/state-inspector";
 import type { PipelineStage } from "@/lib/types/agent";
 
-// ── 배치 상태 타입 ──────────────────────────────────────────────
-
-export interface BatchItemStatus {
-  topicId: string;
-  title: string;
-  status: "pending" | "running" | "done" | "failed";
-  evalScore?: number;
-  wordCount?: number;
-  pass?: boolean;
-}
+// BatchItemStatus는 pipeline-store에서 정의 후 re-export
+export type { BatchItemStatus };
 
 // ── SSE 스트림 읽기 유틸 ────────────────────────────────────────
 
