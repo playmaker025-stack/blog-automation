@@ -1919,7 +1919,22 @@
       "createdAt": "2026-04-16T09:07:26.087Z",
       "publishedAt": null,
       "updatedAt": "2026-04-16T09:07:26.087Z"
+    },
+    {
+      "postId": "post-14fd7c2e",
+      "topicId": "topic-6ca55bd1",
+      "userId": "C",
+      "title": "말론 vs 아스트로 MK3, 전담 입문자라면 어떤 기기를 골라야 할까?",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-75fba497",
+      "pendingApproval": null,
+      "createdAt": "2026-04-16T09:15:36.342Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-16T09:15:36.342Z"
     }
   ],
-  "lastUpdated": "2026-04-16T09:07:26.087Z"
+  "lastUpdated": "2026-04-16T09:15:36.342Z"
 }
