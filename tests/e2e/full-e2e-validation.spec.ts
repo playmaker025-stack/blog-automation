@@ -300,7 +300,7 @@ test.describe("4. 사용자 ID 대소문자 (/pipeline)", () => {
     await page.waitForLoadState("networkidle");
     await shot(page, "4a-pipeline-initial");
 
-    const userInput = page.locator("input[placeholder='사용자 ID 입력']");
+    const userInput = page.locator("input[placeholder='사용자 ID']");
     await expect(userInput).toBeVisible();
 
     // 대문자 "A" 입력
@@ -357,7 +357,7 @@ test.describe("4. 사용자 ID 대소문자 (/pipeline)", () => {
     await page.goto(`${BASE_URL}/pipeline`);
     await page.waitForLoadState("networkidle");
 
-    const userInput = page.locator("input[placeholder='사용자 ID 입력']");
+    const userInput = page.locator("input[placeholder='사용자 ID']");
     const topicSelect = page.locator("select").first();
 
     // 초기 옵션 수
@@ -470,8 +470,8 @@ test.describe("6. 승인 다이얼로그 amber UI 정적 검증", () => {
     await page.goto(`${BASE_URL}/pipeline`);
     await page.waitForLoadState("networkidle");
 
-    // 글쓰기 시작 버튼 (disabled 상태여야 함)
-    const startBtn = page.locator("button", { hasText: /글쓰기 시작|실행/ }).first();
+    // 글쓰기 시작 버튼 (disabled 상태여야 함) — 정확히 "글쓰기 시작" 텍스트만 매칭
+    const startBtn = page.locator("button:has-text('글쓰기 시작')").last();
     if (await startBtn.count() > 0) {
       const isDisabled = await startBtn.isDisabled();
       console.log(`[INFO] 글쓰기 시작 버튼 비활성화 상태: ${isDisabled}`);
