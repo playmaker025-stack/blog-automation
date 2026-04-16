@@ -1923,7 +1923,21 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-b19396a2",
       "at": "2026-04-16T09:06:47.665Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "말론 vs 아스트로 MK3 입문 추천",
+      "proposedTitle": "말론 vs 아스트로 MK3, 입문자에게 맞는 전자담배는?",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "searchIntentChanged",
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.52,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-64566d4c",
+      "at": "2026-04-16T09:07:20.818Z"
     }
   ],
-  "lastUpdated": "2026-04-16T09:06:47.665Z"
+  "lastUpdated": "2026-04-16T09:07:20.818Z"
 }
