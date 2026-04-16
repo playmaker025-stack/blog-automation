@@ -34,7 +34,7 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-04-02T07:01:19.418Z",
       "updatedAt": "2026-04-16T09:07:14.695Z"
@@ -164,7 +164,7 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-04-02T07:01:19.418Z",
       "updatedAt": "2026-04-16T09:07:28.173Z"
@@ -417,5 +417,5 @@
       "updatedAt": "2026-04-10T05:54:01.572Z"
     }
   ],
-  "lastUpdated": "2026-04-16T09:07:28.173Z"
+  "lastUpdated": "2026-04-16T09:12:28.570Z"
 }
