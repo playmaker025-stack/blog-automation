@@ -1636,21 +1636,6 @@
       "updatedAt": "2026-04-14T05:25:22.344Z"
     },
     {
-      "postId": "post-cbc28baf",
-      "topicId": "topic-157a1185",
-      "userId": "a",
-      "title": "구월동 전자담배 기기 추천 입문자도 쉽게 고르는 완벽 가이드",
-      "status": "draft",
-      "naverPostUrl": null,
-      "evalScore": null,
-      "wordCount": 0,
-      "compositionSessionId": "pipe-ae1b5697",
-      "pendingApproval": null,
-      "createdAt": "2026-04-14T08:57:39.481Z",
-      "publishedAt": null,
-      "updatedAt": "2026-04-14T08:57:39.481Z"
-    },
-    {
       "postId": "post-81218051",
       "topicId": "topic-6ca55bd1",
       "userId": "c",
@@ -1694,21 +1679,6 @@
       "createdAt": "2026-04-15T03:08:17.758Z",
       "publishedAt": null,
       "updatedAt": "2026-04-15T03:09:34.774Z"
-    },
-    {
-      "postId": "post-9c2f81e6",
-      "topicId": "topic-157a1185",
-      "userId": "a",
-      "title": "구월동 전자담배 기기 추천 | 입문자도 바로 고르는 타입별 가이드",
-      "status": "draft",
-      "naverPostUrl": null,
-      "evalScore": null,
-      "wordCount": 0,
-      "compositionSessionId": "pipe-a4f94a45",
-      "pendingApproval": null,
-      "createdAt": "2026-04-15T03:24:48.043Z",
-      "publishedAt": null,
-      "updatedAt": "2026-04-15T03:24:48.043Z"
     },
     {
       "postId": "post-5ac3bb06",
@@ -1784,21 +1754,6 @@
       "createdAt": "2026-04-15T09:04:23.975Z",
       "publishedAt": null,
       "updatedAt": "2026-04-15T09:05:57.251Z"
-    },
-    {
-      "postId": "post-08f7bad5",
-      "topicId": "topic-6ca55bd1",
-      "userId": "c",
-      "title": "말론 vs 아스트로 MK3, 전자담배 입문자라면 어떤 게 더 맞을까?",
-      "status": "draft",
-      "naverPostUrl": null,
-      "evalScore": null,
-      "wordCount": 0,
-      "compositionSessionId": "pipe-3032d970",
-      "pendingApproval": null,
-      "createdAt": "2026-04-15T09:06:41.005Z",
-      "publishedAt": null,
-      "updatedAt": "2026-04-15T09:06:41.005Z"
     },
     {
       "postId": "post-deb4d021",
@@ -1906,21 +1861,6 @@
       "updatedAt": "2026-04-16T09:07:12.996Z"
     },
     {
-      "postId": "post-b6db9a52",
-      "topicId": "topic-6ca55bd1",
-      "userId": "C",
-      "title": "말론 vs 아스트로 MK3, 입문자에게 맞는 전자담배는?",
-      "status": "draft",
-      "naverPostUrl": null,
-      "evalScore": null,
-      "wordCount": 0,
-      "compositionSessionId": "pipe-64566d4c",
-      "pendingApproval": null,
-      "createdAt": "2026-04-16T09:07:26.087Z",
-      "publishedAt": null,
-      "updatedAt": "2026-04-16T09:07:26.087Z"
-    },
-    {
       "postId": "post-14fd7c2e",
       "topicId": "topic-6ca55bd1",
       "userId": "C",
@@ -1934,22 +1874,7 @@
       "createdAt": "2026-04-16T09:15:36.342Z",
       "publishedAt": null,
       "updatedAt": "2026-04-16T09:16:52.123Z"
-    },
-    {
-      "postId": "post-8384f308",
-      "topicId": "topic-157a1185",
-      "userId": "a",
-      "title": "구월동 전자담배 기기 추천 | 입문자도 바로 고르는 완벽 가이드",
-      "status": "draft",
-      "naverPostUrl": null,
-      "evalScore": null,
-      "wordCount": 0,
-      "compositionSessionId": "pipe-1d6c5df9",
-      "pendingApproval": null,
-      "createdAt": "2026-04-16T09:16:53.095Z",
-      "publishedAt": null,
-      "updatedAt": "2026-04-16T09:16:53.095Z"
     }
   ],
-  "lastUpdated": "2026-04-16T09:16:53.095Z"
+  "lastUpdated": "2026-04-16T09:19:22.846Z"
 }
