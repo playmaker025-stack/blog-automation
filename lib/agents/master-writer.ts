@@ -202,7 +202,8 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
   ];
 
   let iterCount = 0;
-  const maxIter = 8;
+  const maxIter = 12;
+  const FORCE_WRITE_ITER = 6; // 이 반복 수 이후엔 도구 없이 강제 본문 작성
 
   while (iterCount < maxIter) {
     iterCount++;
@@ -211,6 +212,19 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
     console.log(`[master-writer] iteration ${iterCount} start — messages=${messages.length}, topicId=${topicId}`);
     if (iterCount > 1) {
       onProgress?.(`본문 생성 중... (단계 ${iterCount})`);
+    }
+
+    // 일정 반복 이후 도구 호출 없이 본문만 출력하도록 강제
+    const forceWrite = iterCount >= FORCE_WRITE_ITER;
+
+    // forceWrite: 반복 한계 근접 시 도구 없이 즉시 본문 작성 강제
+    if (forceWrite) {
+      console.log(`[master-writer] forceWrite mode (iter=${iterCount}) — 도구 없이 본문 작성 강제`);
+      messages.push({
+        role: "user",
+        content:
+          "지금까지의 정보를 바탕으로 도구를 더 이상 호출하지 말고, 바로 마크다운 본문 전체를 출력해주세요.",
+      });
     }
 
     // 스트리밍 모드로 API 호출 — 토큰 단위 수신으로 타임아웃 감지 신뢰성 향상
@@ -253,13 +267,21 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
     try {
       await Promise.race([
         anthropicSemaphore.run(async () => {
-          const stream = client.messages.stream({
-            model: MODELS.sonnet,
-            system: buildSystemPrompt(userId, corpusSummary ?? null),
-            messages,
-            tools: TOOLS,
-            max_tokens: 4096,
-          }, { signal: callSignal });
+          const streamParams = forceWrite
+            ? {
+                model: MODELS.sonnet,
+                system: buildSystemPrompt(userId, corpusSummary ?? null),
+                messages,
+                max_tokens: 4096,
+              }
+            : {
+                model: MODELS.sonnet,
+                system: buildSystemPrompt(userId, corpusSummary ?? null),
+                messages,
+                tools: TOOLS,
+                max_tokens: 4096,
+              };
+          const stream = client.messages.stream(streamParams, { signal: callSignal });
 
           for await (const event of stream) {
             if (!firstEventReceived) { firstEventReceived = true; }
