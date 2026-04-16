@@ -1904,7 +1904,22 @@
       "createdAt": "2026-04-16T09:07:12.996Z",
       "publishedAt": null,
       "updatedAt": "2026-04-16T09:07:12.996Z"
+    },
+    {
+      "postId": "post-b6db9a52",
+      "topicId": "topic-6ca55bd1",
+      "userId": "C",
+      "title": "말론 vs 아스트로 MK3, 입문자에게 맞는 전자담배는?",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-64566d4c",
+      "pendingApproval": null,
+      "createdAt": "2026-04-16T09:07:26.087Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-16T09:07:26.087Z"
     }
   ],
-  "lastUpdated": "2026-04-16T09:07:12.996Z"
+  "lastUpdated": "2026-04-16T09:07:26.087Z"
 }
