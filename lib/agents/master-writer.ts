@@ -227,97 +227,101 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
       });
     }
 
-    // 스트리밍 모드로 API 호출 — 토큰 단위 수신으로 타임아웃 감지 신뢰성 향상
-    // INITIAL: 첫 이벤트까지 150초 (블로그 본문 생성 시작이 느릴 수 있음)
-    // STALL: 이후 연속 무응답 90초
+    // 스트리밍 모드로 API 호출
+    // 핵심: 스탈 타이머는 세마포어 획득 후에 시작해야 한다.
+    // 세마포어 대기 시간을 타임아웃에 포함하면 동시 접속 시 오탐이 발생함.
+    // INITIAL: 첫 이벤트까지 150초, STALL: 이후 연속 무응답 90초
     const INITIAL_TIMEOUT_MS = 150_000;
     const STALL_TIMEOUT_MS = 90_000;
-    let stallTimer: ReturnType<typeof setTimeout> | null = null;
-    let stallReject: ((err: Error) => void) | null = null;
-    let firstEventReceived = false;
-
-    const resetStallTimer = () => {
-      if (stallTimer) clearTimeout(stallTimer);
-      if (!stallReject) return;
-      const ms = firstEventReceived ? STALL_TIMEOUT_MS : INITIAL_TIMEOUT_MS;
-      stallTimer = setTimeout(
-        () => stallReject!(new Error(firstEventReceived
-          ? `Master Writer 스트림 타임아웃 — ${ms / 1000}초 이상 응답 없음 (iter=${iterCount})`
-          : `Master Writer 초기 응답 타임아웃 — ${ms / 1000}초 이내 응답 없음 (iter=${iterCount})`)),
-        ms
-      );
-    };
-
-    const stallPromise = new Promise<never>((_, reject) => {
-      stallReject = reject;
-      resetStallTimer();
-    });
-
-    // AbortSignal: 외부 signal + 하드 데드라인(160초) 조합
-    // stall timer(120/90초)의 백업 — HTTP 연결 수준에서도 강제 취소
-    const hardDeadline = AbortSignal.timeout(160_000);
-    const callSignal = signal
-      ? AbortSignal.any([signal, hardDeadline])
-      : hardDeadline;
 
     let rawText = "";
     let finalStopReason: string | null = null;
     const toolUseBlocks: Array<{ id: string; name: string; input: Record<string, unknown> }> = [];
 
-    try {
-      await Promise.race([
-        anthropicSemaphore.run(async () => {
-          const streamParams = forceWrite
-            ? {
-                model: MODELS.sonnet,
-                system: buildSystemPrompt(userId, corpusSummary ?? null),
-                messages,
-                max_tokens: 4096,
-              }
-            : {
-                model: MODELS.sonnet,
-                system: buildSystemPrompt(userId, corpusSummary ?? null),
-                messages,
-                tools: TOOLS,
-                max_tokens: 4096,
-              };
-          const stream = client.messages.stream(streamParams, { signal: callSignal });
+    await anthropicSemaphore.run(async () => {
+      // ↑ 세마포어 획득 후 아래 타이머가 시작됨 — 동시 접속 대기 시간 제외
+      let stallTimer: ReturnType<typeof setTimeout> | null = null;
+      let stallReject: ((err: Error) => void) | null = null;
+      let firstEventReceived = false;
 
-          for await (const event of stream) {
-            if (!firstEventReceived) { firstEventReceived = true; }
-            resetStallTimer();
-            if (event.type === "content_block_delta") {
-              if (event.delta.type === "text_delta") {
-                rawText += event.delta.text;
-                onToken?.(event.delta.text);
-              }
-            } else if (event.type === "message_stop") {
-              finalStopReason = "end_turn"; // stream 완료
-            }
-          }
+      const resetStallTimer = () => {
+        if (stallTimer) clearTimeout(stallTimer);
+        if (!stallReject) return;
+        const ms = firstEventReceived ? STALL_TIMEOUT_MS : INITIAL_TIMEOUT_MS;
+        stallTimer = setTimeout(
+          () => stallReject!(new Error(firstEventReceived
+            ? `Master Writer 스트림 타임아웃 — ${ms / 1000}초 이상 응답 없음 (iter=${iterCount})`
+            : `Master Writer 초기 응답 타임아웃 — ${ms / 1000}초 이내 응답 없음 (iter=${iterCount})`)),
+          ms
+        );
+      };
 
-          // 최종 메시지에서 tool_use 블록 추출
-          const finalMsg = await stream.finalMessage();
-          finalStopReason = finalMsg.stop_reason ?? "end_turn";
-          for (const block of finalMsg.content) {
-            if (block.type === "tool_use") {
-              toolUseBlocks.push({
-                id: block.id,
-                name: block.name,
-                input: block.input as Record<string, unknown>,
-              });
+      const stallPromise = new Promise<never>((_, reject) => {
+        stallReject = reject;
+        resetStallTimer(); // 세마포어 획득 후 시작
+      });
+
+      // 하드 데드라인: stall timer의 HTTP 연결 수준 백업 (160초)
+      const hardDeadline = AbortSignal.timeout(160_000);
+      const callSignal = signal
+        ? AbortSignal.any([signal, hardDeadline])
+        : hardDeadline;
+
+      try {
+        await Promise.race([
+          (async () => {
+            const streamParams = forceWrite
+              ? {
+                  model: MODELS.sonnet,
+                  system: buildSystemPrompt(userId, corpusSummary ?? null),
+                  messages,
+                  max_tokens: 4096,
+                }
+              : {
+                  model: MODELS.sonnet,
+                  system: buildSystemPrompt(userId, corpusSummary ?? null),
+                  messages,
+                  tools: TOOLS,
+                  max_tokens: 4096,
+                };
+            const stream = client.messages.stream(streamParams, { signal: callSignal });
+
+            for await (const event of stream) {
+              if (!firstEventReceived) { firstEventReceived = true; }
+              resetStallTimer();
+              if (event.type === "content_block_delta") {
+                if (event.delta.type === "text_delta") {
+                  rawText += event.delta.text;
+                  onToken?.(event.delta.text);
+                }
+              } else if (event.type === "message_stop") {
+                finalStopReason = "end_turn";
+              }
             }
-            if (block.type === "text" && !rawText) {
-              rawText = block.text;
+
+            // 최종 메시지에서 tool_use 블록 추출
+            const finalMsg = await stream.finalMessage();
+            finalStopReason = finalMsg.stop_reason ?? "end_turn";
+            for (const block of finalMsg.content) {
+              if (block.type === "tool_use") {
+                toolUseBlocks.push({
+                  id: block.id,
+                  name: block.name,
+                  input: block.input as Record<string, unknown>,
+                });
+              }
+              if (block.type === "text" && !rawText) {
+                rawText = block.text;
+              }
             }
-          }
-          messages.push({ role: "assistant", content: finalMsg.content });
-        }),
-        stallPromise,
-      ]);
-    } finally {
-      if (stallTimer) clearTimeout(stallTimer);
-    }
+            messages.push({ role: "assistant", content: finalMsg.content });
+          })(),
+          stallPromise,
+        ]);
+      } finally {
+        if (stallTimer) clearTimeout(stallTimer);
+      }
+    });
 
     console.log(`[master-writer] iteration ${iterCount} done — stopReason=${finalStopReason}, tools=${toolUseBlocks.map((b) => b.name).join(",") || "none"}, textLen=${rawText.length}`);
 
