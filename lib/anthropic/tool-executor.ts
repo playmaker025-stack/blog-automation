@@ -47,14 +47,19 @@ export async function runToolUseLoop(
       const sem = anthropicSemaphore.stats;
       onProgress?.(`AI 분석 중... (${iterations}/${maxIterations})`);
       console.log(`[tool-executor] iteration ${iterations} API call start — semaphore: running=${sem.running}/${sem.max}, queued=${sem.queued}`);
-      response = await anthropicSemaphore.run(() =>
-        client.messages.create({
-          model,
-          system,
-          messages,
-          tools,
-          max_tokens: 4096,
-        }, { signal: callSignal })
+      response = await anthropicSemaphore.run(
+        () =>
+          client.messages.create({
+            model,
+            system,
+            messages,
+            tools,
+            max_tokens: 4096,
+          }, { signal: callSignal }),
+        (queuePos) => {
+          // 큐 대기 시 사용자에게 진행 상황 알림 — "응답 없음" 체감 방지
+          onProgress?.(`동시 사용자가 많아 ${queuePos}번째로 대기 중... (잠시만 기다려주세요)`);
+        }
       );
       console.log(`[tool-executor] iteration ${iterations} API call done — stop_reason=${response.stop_reason}`);
     } catch (err) {

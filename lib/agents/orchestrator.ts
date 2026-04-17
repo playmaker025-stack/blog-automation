@@ -699,23 +699,24 @@ export async function runPipeline(params: {
       console.error(`[orchestrator] ledger failed-write error (ignored):`, e instanceof Error ? e.message : e);
     });
     emit(controller, makeEvent("error", "failed", { pipelineId, message }));
+  } finally {
+    pendingApprovals.delete(pipelineId);
 
-    // 파이프라인 실패 시 topic이 in-progress 상태로 stuck되는 것 방지 — draft로 복구
+    // 파이프라인 종료 시 topic stuck 방지 — 항상 finally에서 복구 보장
     // thisSetTopicInProgress 플래그로 이 파이프라인이 직접 설정한 경우만 복구
-    // (다른 파이프라인이 in-progress로 설정한 경우 덮어쓰지 않음)
-    if (thisSetTopicInProgress) {
+    // 정상 완료 경로(state.stage === "complete")에선 in-progress가 아닐 것이므로 noop
+    if (thisSetTopicInProgress && state.stage !== "complete") {
       try {
         const currentStatus = await loadTopicStatus(request.topicId);
         if (currentStatus === "in-progress") {
           await updateTopicStatus(request.topicId, "draft");
-          emit(controller, makeEvent("progress", "failed", { message: "토픽 상태를 draft로 복구했습니다." }));
+          emit(controller, makeEvent("progress", state.stage, { message: "토픽 상태를 draft로 복구했습니다." }));
         }
       } catch (recoveryErr) {
-        console.error(`[orchestrator] topic recovery failed (ignored):`, recoveryErr instanceof Error ? recoveryErr.message : recoveryErr);
+        console.error(`[orchestrator] topic recovery failed (finally):`, recoveryErr instanceof Error ? recoveryErr.message : recoveryErr);
       }
     }
-  } finally {
-    pendingApprovals.delete(pipelineId);
+
     controller.close();
   }
 }
@@ -902,6 +903,7 @@ async function createPostingRecord(params: {
 // ── SHA 충돌 재시도 래퍼 ────────────────────────────────────────
 // GitHub API는 SHA 불일치 시 409/422를 반환한다.
 // 500/503은 서버 일시 오류, 429는 rate limit — 모두 재시도한다.
+// 네트워크 오류 (AbortError, ECONNRESET, FetchError, ETIMEDOUT)도 일시적이므로 재시도.
 // fn() 내부에서 최신 SHA를 매번 새로 읽으므로 단순히 재호출하면 된다.
 async function withConflictRetry<T>(
   fn: () => Promise<T>,
@@ -912,10 +914,27 @@ async function withConflictRetry<T>(
       return await fn();
     } catch (err) {
       const status = (err as { status?: number }).status;
-      const retryable = status === 409 || status === 422 || status === 429 || status === 500 || status === 503;
+      const code = (err as { code?: string }).code;
+      const name = err instanceof Error ? err.name : "";
+      const message = err instanceof Error ? err.message : "";
+      const isHttpRetryable = status === 409 || status === 422 || status === 429 || status === 500 || status === 502 || status === 503 || status === 504;
+      const isNetworkRetryable =
+        name === "AbortError" ||
+        name === "TimeoutError" ||
+        name === "FetchError" ||
+        code === "ECONNRESET" ||
+        code === "ETIMEDOUT" ||
+        code === "ECONNREFUSED" ||
+        code === "EAI_AGAIN" ||
+        code === "ENOTFOUND" ||
+        code === "UND_ERR_SOCKET" ||
+        message.includes("fetch failed") ||
+        message.includes("socket hang up") ||
+        message.includes("network");
+      const retryable = isHttpRetryable || isNetworkRetryable;
       if (retryable && attempt < maxAttempts - 1) {
-        // jitter로 thundering herd 방지 (429의 경우 더 긴 대기)
-        const base = status === 429 ? 500 : 50;
+        // jitter로 thundering herd 방지 (429/네트워크는 더 긴 대기)
+        const base = status === 429 || isNetworkRetryable ? 500 : 50;
         const jitter = Math.floor(Math.random() * base) + base;
         await new Promise((r) => setTimeout(r, jitter * (attempt + 1)));
         continue;
@@ -1380,16 +1399,19 @@ export async function runWritePhase(params: {
     activePipelines.set(pipelineId, state);
     console.error(`[orchestrator] write phase ${pipelineId} FAILED:`, message);
     emit(controller, makeEvent("error", "failed", { pipelineId, message }));
-
+  } finally {
+    // write phase 종료 시 topic stuck 방지 — 항상 finally에서 복구 보장
+    // 완료 경로에선 이미 draft로 복구되어 있으므로 noop
     if (thisSetTopicInProgress) {
       try {
         const currentStatus = await loadTopicStatus(topicId);
         if (currentStatus === "in-progress") {
           await updateTopicStatus(topicId, "draft");
         }
-      } catch { /* ignore */ }
+      } catch (recoveryErr) {
+        console.error(`[orchestrator] write phase topic recovery failed (finally):`, recoveryErr instanceof Error ? recoveryErr.message : recoveryErr);
+      }
     }
-  } finally {
     controller.close();
   }
 }

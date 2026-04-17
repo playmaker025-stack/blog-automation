@@ -321,6 +321,9 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
       } finally {
         if (stallTimer) clearTimeout(stallTimer);
       }
+    }, (queuePos) => {
+      // 큐 대기 시 사용자에게 진행 상황 알림 — "응답 없음" 체감 방지
+      onProgress?.(`동시 사용자가 많아 ${queuePos}번째로 대기 중... (잠시만 기다려주세요)`);
     });
 
     console.log(`[master-writer] iteration ${iterCount} done — stopReason=${finalStopReason}, tools=${toolUseBlocks.map((b) => b.name).join(",") || "none"}, textLen=${rawText.length}`);

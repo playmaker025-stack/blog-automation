@@ -1,28 +1,31 @@
 /**
  * Anthropic API 동시 호출 제한 세마포어
  *
- * Railway 단일 인스턴스에서 8명이 동시 파이프라인 실행 시
+ * Railway 단일 인스턴스에서 다중 사용자가 동시 파이프라인 실행 시
  * Anthropic API 동시 연결 수를 제한해 부하 분산.
  *
- * MAX_CONCURRENT = 5: 최대 5개 API 호출 동시 진행
- * - 6번째 이후 호출은 대기열에서 순서 대기
- * - 각 호출 평균 20~40s → 8명 기준 큐 대기 최대 ~80s (허용 범위)
+ * MAX_CONCURRENT = 8: 최대 8개 API 호출 동시 진행 (Tier 4 RPM 안전 한계)
+ * - 9번째 이후 호출은 대기열에서 순서 대기
+ * - 각 호출 평균 20~40s → 동시 사용자 12명 기준 큐 대기 최대 ~80s
  * - QUEUE_TIMEOUT_MS: 큐 대기 한계 초과 시 에러 반환 (Railway 300s 제한 방어)
+ * - onWait 콜백: 큐 대기 발생 시 호출자에게 알림 (사용자 progress 표시용)
  */
 
-const MAX_CONCURRENT = 5;
+const MAX_CONCURRENT = 8;
 const QUEUE_TIMEOUT_MS = 120_000; // 2분 — 이 이상 대기하면 에러
 
 class AnthropicSemaphore {
   private running = 0;
   private readonly queue: Array<{ resolve: () => void; reject: (err: Error) => void }> = [];
 
-  private acquire(): Promise<void> {
+  private acquire(onWait?: (queuePosition: number) => void): Promise<void> {
     if (this.running < MAX_CONCURRENT) {
       this.running++;
       return Promise.resolve();
     }
     // 큐 대기 — QUEUE_TIMEOUT_MS 초과 시 에러
+    const queuePosition = this.queue.length + 1;
+    onWait?.(queuePosition);
     return new Promise<void>((resolve, reject) => {
       const timer = setTimeout(() => {
         // 큐에서 자신을 제거
@@ -55,9 +58,9 @@ class AnthropicSemaphore {
     }
   }
 
-  /** 세마포어로 감싼 비동기 함수 실행 */
-  async run<T>(fn: () => Promise<T>): Promise<T> {
-    await this.acquire();
+  /** 세마포어로 감싼 비동기 함수 실행. onWait는 큐 대기 발생 시 큐 순서와 함께 호출됨. */
+  async run<T>(fn: () => Promise<T>, onWait?: (queuePosition: number) => void): Promise<T> {
+    await this.acquire(onWait);
     try {
       return await fn();
     } finally {
