@@ -202,9 +202,18 @@ node scripts/verify.mjs --skip-build --skip-test  # 빠른 검증 (typecheck + l
 
 **원인**: 기존에 임포트된 posts는 `topicId: ""`이므로 `topicId` 기반 매칭 불가. `resolveRemainingTopics`는 3-key 매칭(userId + blogCode + title normalize) 방식 사용. 제목이 정확히 일치하지 않으면 매칭 실패.
 
-**해결 방향**: 임포트된 posts와 topics 간 제목 유사도 매칭 개선 필요 (현재 exact normalize 매칭만 지원).
+**수정 [2026-04-17]**: `lib/skills/remaining-topic-resolver.ts` — 2-pass 매칭으로 개선.
+1. exact 3-key (기존)
+2. 동일 uid+blog 파티션 내 **token-prefix fallback** — topic 토큰열이 post 토큰열의 단어 경계 prefix이면 매칭. 구분자(`|`, `–`, `—`, `-`, `,`, `:`, `(`, `)` 등)는 공백 처리.
 
-**현재 상태**: `matched_count: 7 / 30` (30개 중 23개 미매칭).
+**false positive 방지**:
+- 한 post는 최대 1개 topic과만 매칭 (postId 소비 추적)
+- 동일 uid+blog 파티션 내에서만 비교
+- topic 토큰 <3개면 prefix 매칭 비활성
+
+**개선 효과**: 32개 중 `matched 7 → 21` (미매칭 25 → 11). 남은 11개는 실제 미작성 항목.
+
+**회귀 테스트**: `tests/harness/regression.test.mjs` RULE-006 (7 케이스).
 
 ## 개발 스택
 

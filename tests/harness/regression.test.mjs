@@ -9,6 +9,7 @@
  * RULE-003  atomicSetTopicInProgress 동시성 보장
  * RULE-004  withConflictRetry SHA 충돌 재시도
  * RULE-005  SSE 누락 대비 폴링 fallback
+ * RULE-006  교차체크 매칭 — token-prefix fallback 로 임포트 posts 포함
  */
 
 import { test, describe } from "node:test";
@@ -374,5 +375,185 @@ describe("RULE-005 — SSE 누락 대비 폴링 fallback", () => {
   test("pipelineState가 null이면 안전하게 null 반환", () => {
     const result = pollForApproval({ pipelineState: null, currentApproval: null });
     assert.equal(result, null);
+  });
+});
+
+// ============================================================
+// RULE-006
+// [2026-04-07] 임포트된 posts(topicId="")는 exact normalize 매칭으로는
+// topics와 연결되지 않아 교차체크가 "미작성"으로 오표시됨
+// 개선: 동일 uid+blog 파티션에서 topic 토큰열이 post 토큰열의
+//       단어 경계 prefix이면 매칭. 구분자(|/–/—/-/,/:/(/))는 공백 처리
+// ============================================================
+
+describe("RULE-006 — 교차체크 token-prefix fallback", () => {
+  // lib/skills/remaining-topic-resolver.ts 로직 인라인 재현
+  const SEPARATORS_REGEX = /[|()\[\]{}·•,:;~?!"'–—\-]/g;
+
+  function normalizeBase(s) {
+    return s
+      .trim()
+      .toLowerCase()
+      .replace(/[\r\n]+/g, " ")
+      .replace(/\s+/g, " ")
+      .replace(/[–—]/g, "-")
+      .replace(/['"]/g, "")
+      .replace(/\s*\(\s*/g, "(")
+      .replace(/\s*\)\s*/g, ")")
+      .trim();
+  }
+
+  function normalizeForMatch(s) {
+    return s
+      .trim()
+      .toLowerCase()
+      .replace(/[\r\n]+/g, " ")
+      .replace(SEPARATORS_REGEX, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function tokenize(s) {
+    const n = normalizeForMatch(s);
+    return n === "" ? [] : n.split(" ");
+  }
+
+  function isTokenPrefix(topicTokens, postTokens) {
+    if (topicTokens.length === 0 || topicTokens.length > postTokens.length) return false;
+    for (let i = 0; i < topicTokens.length; i++) {
+      if (topicTokens[i] !== postTokens[i]) return false;
+    }
+    return true;
+  }
+
+  function uid2blog(u) {
+    return u.trim().toUpperCase().slice(0, 1) || "";
+  }
+
+  function blogCode(c) {
+    const m = /^([A-Ea-e])\s*(블로그|blog)\s*$/i.exec(c.trim());
+    return m ? m[1].toUpperCase() : null;
+  }
+
+  function resolve(topics, posts) {
+    const byExact = new Map();
+    for (const p of posts) {
+      const k =
+        normalizeBase(p.userId) + "||" + normalizeBase(uid2blog(p.userId)) + "||" + normalizeBase(p.title);
+      (byExact.get(k) ?? byExact.set(k, []).get(k)).push(p);
+    }
+    const byPartition = new Map();
+    for (const p of posts) {
+      const k = normalizeBase(p.userId) + "||" + normalizeBase(uid2blog(p.userId));
+      (byPartition.get(k) ?? byPartition.set(k, []).get(k)).push(p);
+    }
+
+    const used = new Set();
+    const matched = [];
+    const firstPassUnmatched = [];
+
+    for (const t of topics) {
+      const uid = t.assignedUserId ?? "";
+      const blog = blogCode(t.category) ?? uid2blog(uid);
+      const k = normalizeBase(uid) + "||" + normalizeBase(blog) + "||" + normalizeBase(t.title);
+      const free = (byExact.get(k) ?? []).find((p) => !used.has(p.postId));
+      if (free) {
+        used.add(free.postId);
+        matched.push(t);
+      } else {
+        firstPassUnmatched.push(t);
+      }
+    }
+
+    const remaining = [];
+    for (const t of firstPassUnmatched) {
+      const uid = t.assignedUserId ?? "";
+      const blog = blogCode(t.category) ?? uid2blog(uid);
+      const cands = byPartition.get(normalizeBase(uid) + "||" + normalizeBase(blog)) ?? [];
+      const tt = tokenize(t.title);
+      if (tt.length < 3) {
+        remaining.push(t);
+        continue;
+      }
+      let found;
+      for (const p of cands) {
+        if (used.has(p.postId)) continue;
+        if (isTokenPrefix(tt, tokenize(p.title))) {
+          found = p;
+          break;
+        }
+      }
+      if (found) {
+        used.add(found.postId);
+        matched.push(t);
+      } else {
+        remaining.push(t);
+      }
+    }
+
+    return { matched, remaining };
+  }
+
+  test("exact 일치는 1차에서 매칭", () => {
+    const topics = [{ topicId: "t1", assignedUserId: "a", category: "A블로그", title: "제목 예시" }];
+    const posts = [{ postId: "p1", userId: "A", title: "제목 예시" }];
+    const r = resolve(topics, posts);
+    assert.equal(r.matched.length, 1);
+    assert.equal(r.remaining.length, 0);
+  });
+
+  test("token-prefix 매칭 — post 제목이 topic 뒤에 확장", () => {
+    const topics = [{ topicId: "t1", assignedUserId: "a", category: "A블로그", title: "인천 전자담배 추천 매장 고르는 기준 5가지" }];
+    const posts = [{ postId: "p1", userId: "A", title: "인천 전자담배 추천 매장 고르는 기준 5가지 처음 가는 분들은 꼭 보세요" }];
+    const r = resolve(topics, posts);
+    assert.equal(r.matched.length, 1, "token-prefix로 매칭되어야 함");
+  });
+
+  test("구분자(|/–/,)는 공백 처리되어 prefix 성립", () => {
+    const topics = [
+      { topicId: "t1", assignedUserId: "c", category: "C블로그", title: "말론 vs 아스트로 MK3 입문 추천" },
+      { topicId: "t2", assignedUserId: "a", category: "A블로그", title: "구월동 전자담배 추천 기기 가이드" },
+      { topicId: "t3", assignedUserId: "a", category: "A블로그", title: "부평 전자담배 처음 방문하면 받는 상담" },
+    ];
+    const posts = [
+      { postId: "p1", userId: "C", title: "말론 vs 아스트로 MK3 입문 추천 – 입호흡 전자담배 차이 정리" },
+      { postId: "p2", userId: "A", title: "구월동 전자담배 추천 기기 가이드 | 입문자도 바로 선택 가능" },
+      { postId: "p3", userId: "A", title: "부평 전자담배 처음 방문하면 받는 상담, 이런 내용이에요" },
+    ];
+    const r = resolve(topics, posts);
+    assert.equal(r.matched.length, 3, "구분자 뒤 확장형은 모두 매칭되어야 함");
+  });
+
+  test("한 post는 한 topic만 매칭 — postId 소비 추적", () => {
+    const topics = [
+      { topicId: "t1", assignedUserId: "a", category: "A블로그", title: "인천 전자담배 매장 고르는 기준" },
+      { topicId: "t2", assignedUserId: "a", category: "A블로그", title: "인천 전자담배 매장 고르는 기준" },
+    ];
+    const posts = [{ postId: "p1", userId: "A", title: "인천 전자담배 매장 고르는 기준 완벽 정리" }];
+    const r = resolve(topics, posts);
+    assert.equal(r.matched.length, 1, "같은 제목 2개 중 하나만 매칭");
+    assert.equal(r.remaining.length, 1);
+  });
+
+  test("다른 uid의 post와는 매칭되지 않음", () => {
+    const topics = [{ topicId: "t1", assignedUserId: "a", category: "A블로그", title: "인천 전자담배 매장 가이드" }];
+    const posts = [{ postId: "p1", userId: "B", title: "인천 전자담배 매장 가이드 정리" }];
+    const r = resolve(topics, posts);
+    assert.equal(r.matched.length, 0, "uid 파티션 밖은 매칭 금지");
+  });
+
+  test("짧은 topic(토큰 <3)은 prefix 매칭 비활성 — false positive 방지", () => {
+    const topics = [{ topicId: "t1", assignedUserId: "a", category: "A블로그", title: "전자담배 추천" }];
+    const posts = [{ postId: "p1", userId: "A", title: "전자담배 추천 완벽 가이드 2025 최신판" }];
+    const r = resolve(topics, posts);
+    assert.equal(r.matched.length, 0, "2토큰 topic은 prefix 매칭 금지");
+  });
+
+  test("단어 경계 위반 — prefix가 토큰 중간에서 끊기면 매칭 금지", () => {
+    const topics = [{ topicId: "t1", assignedUserId: "a", category: "A블로그", title: "전자담배 매장" }];
+    // post 첫 토큰이 "전자담배매장"이면 topic 토큰열과 길이부터 어긋나 매칭 불가
+    const posts = [{ postId: "p1", userId: "A", title: "전자담배매장 고르는 기준" }];
+    const r = resolve(topics, posts);
+    assert.equal(r.matched.length, 0);
   });
 });
