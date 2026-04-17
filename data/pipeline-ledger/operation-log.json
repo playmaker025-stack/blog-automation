@@ -1990,7 +1990,20 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-58769607",
       "at": "2026-04-17T02:23:58.064Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 전자담배 입문 가이드 테스트",
+      "proposedTitle": "인천 전자담배 입문, 처음이라면 이것만 알면 됩니다",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.40909090909090906,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-ec111ca0",
+      "at": "2026-04-17T06:56:42.794Z"
     }
   ],
-  "lastUpdated": "2026-04-17T02:23:58.064Z"
+  "lastUpdated": "2026-04-17T06:56:42.794Z"
 }
