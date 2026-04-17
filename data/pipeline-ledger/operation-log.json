@@ -2003,7 +2003,20 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-ec111ca0",
       "at": "2026-04-17T06:56:42.794Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 처음 시작할 때 필요한것",
+      "proposedTitle": "전자담배 처음 시작할 때 필요한 것 총정리 | 입문자 완벽 가이드",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.5384615384615384,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-ef8e6476",
+      "at": "2026-04-17T07:14:12.840Z"
     }
   ],
-  "lastUpdated": "2026-04-17T06:56:42.794Z"
+  "lastUpdated": "2026-04-17T07:14:12.840Z"
 }
