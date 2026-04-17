@@ -1977,7 +1977,20 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-7865b0dc",
       "at": "2026-04-17T02:23:15.791Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "말론 vs 아스트로 MK3 입문 추천",
+      "proposedTitle": "말론 vs 아스트로 MK3 입문 추천 — 내 흡연 스타일엔 뭐가 맞을까?",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.5172413793103448,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-58769607",
+      "at": "2026-04-17T02:23:58.064Z"
     }
   ],
-  "lastUpdated": "2026-04-17T02:23:15.791Z"
+  "lastUpdated": "2026-04-17T02:23:58.064Z"
 }
