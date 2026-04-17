@@ -1919,7 +1919,22 @@
       "createdAt": "2026-04-17T06:56:58.178Z",
       "publishedAt": null,
       "updatedAt": "2026-04-17T06:56:58.178Z"
+    },
+    {
+      "postId": "post-0f724024",
+      "topicId": "topic-073d1ad2",
+      "userId": "D",
+      "title": "전자담배 처음 시작할 때 필요한 것 총정리 | 입문자 완벽 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-ef8e6476",
+      "pendingApproval": null,
+      "createdAt": "2026-04-17T07:14:25.578Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-17T07:14:25.578Z"
     }
   ],
-  "lastUpdated": "2026-04-17T06:56:58.178Z"
+  "lastUpdated": "2026-04-17T07:14:25.578Z"
 }
