@@ -1889,7 +1889,22 @@
       "createdAt": "2026-04-17T02:23:59.005Z",
       "publishedAt": null,
       "updatedAt": "2026-04-17T02:23:59.005Z"
+    },
+    {
+      "postId": "post-7dd386a8",
+      "topicId": "topic-6ca55bd1",
+      "userId": "C",
+      "title": "말론 vs 아스트로 MK3 입문 추천 — 내 흡연 스타일엔 뭐가 맞을까?",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-58769607",
+      "pendingApproval": null,
+      "createdAt": "2026-04-17T02:24:04.876Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-17T02:24:04.876Z"
     }
   ],
-  "lastUpdated": "2026-04-17T02:23:59.005Z"
+  "lastUpdated": "2026-04-17T02:24:04.876Z"
 }
