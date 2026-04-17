@@ -123,11 +123,21 @@ class PipelineRunner {
       if (!res.body) { this.store().setRunning(false); return; }
       await readSSEStream(res, (ev) => this.applyEvent(ev));
       // 스트림 정상 종료 — result 이벤트가 없었다면 running 해제
-      const { running } = this.store();
-      if (running) this.store().setRunning(false);
-    } catch {
+      const s = this.store();
+      if (s.running) {
+        s.setRunning(false);
+        if (!s.pipelineError) {
+          s.setPipelineError(
+            "본문 작성 스트림이 결과 이벤트 없이 종료되었습니다. 글목록에서 완료 여부를 확인해 주세요."
+          );
+        }
+      }
+    } catch (err) {
+      const detail = err instanceof Error ? err.message : String(err);
       this.store().setRunning(false);
-      this.store().setPipelineError("본문 작성 중 오류가 발생했습니다.");
+      this.store().setPipelineError(
+        `본문 작성 중 연결이 끊어졌습니다: ${detail}`
+      );
     }
   }
 
@@ -187,11 +197,20 @@ class PipelineRunner {
 
       // 스트림 종료 — approval 없이 끝났으면 에러로 처리
       if (!approvalHandled && this.store().running) {
-        this.store().setRunning(false);
+        const s = this.store();
+        s.setRunning(false);
+        if (!s.pipelineError) {
+          s.setPipelineError(
+            "전략 수립 스트림이 승인 요청 없이 종료되었습니다. 다시 시도해 주세요."
+          );
+        }
       }
-    } catch {
+    } catch (err) {
+      const detail = err instanceof Error ? err.message : String(err);
       this.store().setRunning(false);
-      this.store().setPipelineError("전략 수립 중 오류가 발생했습니다.");
+      this.store().setPipelineError(
+        `전략 수립 중 연결이 끊어졌습니다: ${detail}`
+      );
     }
   }
 

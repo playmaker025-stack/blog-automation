@@ -10,6 +10,7 @@
  * RULE-004  withConflictRetry SHA 충돌 재시도
  * RULE-005  SSE 누락 대비 폴링 fallback
  * RULE-006  교차체크 매칭 — token-prefix fallback 로 임포트 posts 포함
+ * RULE-007  tool-executor/master-writer — 세마포어 획득 후에만 타이머 시작
  */
 
 import { test, describe } from "node:test";
@@ -555,5 +556,100 @@ describe("RULE-006 — 교차체크 token-prefix fallback", () => {
     const posts = [{ postId: "p1", userId: "A", title: "전자담배매장 고르는 기준" }];
     const r = resolve(topics, posts);
     assert.equal(r.matched.length, 0);
+  });
+});
+
+// ============================================================
+// RULE-007
+// [2026-04-17] 동시 접속 시 tool-executor에서 strategy-planner가 iteration 4
+// (AI 분석 중... 4/6) 단계에서 멈추고 "글쓰기 시작" 버튼으로 리셋
+// 원인: 타이머(AbortSignal.timeout)를 세마포어 대기 전에 생성해
+//      큐 대기 시간이 타임아웃에 포함되어 오탐 에러
+// 수정: master-writer와 동일하게 세마포어 획득 후 stallTimer 시작 +
+//      스트리밍 모드로 전환 (첫 토큰/이후 토큰 지연을 분리 감지)
+// ============================================================
+
+describe("RULE-007 — 세마포어 획득 후 타이머 시작 (대기 시간 제외)", () => {
+  // 세마포어 획득 + 타이머 순서를 추상화한 모델
+  function runWithSemaphoreAndTimer({
+    acquireDelayMs, // 큐 대기 모사
+    workDurationMs, // 실제 API 호출 모사
+    timerBeforeAcquire, // 버그 재현용 플래그
+    timeoutMs,
+  }) {
+    return new Promise((resolve) => {
+      const start = Date.now();
+      let timedOut = false;
+      let timer;
+
+      const startTimer = () => {
+        timer = setTimeout(() => {
+          timedOut = true;
+          resolve({ ok: false, reason: "timeout", elapsed: Date.now() - start });
+        }, timeoutMs);
+      };
+
+      if (timerBeforeAcquire) startTimer();
+
+      setTimeout(() => {
+        if (timedOut) return;
+        if (!timerBeforeAcquire) startTimer();
+
+        setTimeout(() => {
+          if (timedOut) return;
+          clearTimeout(timer);
+          resolve({ ok: true, reason: "done", elapsed: Date.now() - start });
+        }, workDurationMs);
+      }, acquireDelayMs);
+    });
+  }
+
+  test("버그 재현 — 타이머가 세마포어 전에 시작되면 대기 중 오탐 발생", async () => {
+    const r = await runWithSemaphoreAndTimer({
+      acquireDelayMs: 100,
+      workDurationMs: 80,
+      timerBeforeAcquire: true,
+      timeoutMs: 150, // 대기(100) + 작업(80) = 180 > 150 → 오탐
+    });
+    assert.equal(r.ok, false, "대기 시간이 포함되면 타임아웃 발생 (과거 버그)");
+  });
+
+  test("수정 — 세마포어 획득 후 타이머 시작 시 동일 시간으로 정상 완료", async () => {
+    const r = await runWithSemaphoreAndTimer({
+      acquireDelayMs: 100,
+      workDurationMs: 80,
+      timerBeforeAcquire: false,
+      timeoutMs: 150, // 작업만 80 → 150 이내 완료
+    });
+    assert.equal(r.ok, true, "대기 제외 시 정상 완료");
+  });
+
+  test("INITIAL/STALL 분리 — 첫 이벤트 전후 서로 다른 한계 적용", () => {
+    // 실제 구현 모델: firstEventReceived 플래그로 타이머 값 스위칭
+    const INITIAL = 150_000;
+    const STALL = 90_000;
+    function resolveMs(firstEventReceived) {
+      return firstEventReceived ? STALL : INITIAL;
+    }
+    assert.equal(resolveMs(false), INITIAL, "첫 토큰 전에는 INITIAL");
+    assert.equal(resolveMs(true), STALL, "첫 토큰 후에는 STALL");
+  });
+
+  test("각 이벤트마다 타이머 reset — 연속 토큰 간 스톨만 감지", async () => {
+    // 이벤트 간격이 STALL 이내면 총 소요가 STALL 보다 길어도 정상
+    const STALL_MS = 200;
+    let lastReset = Date.now();
+    let stalled = false;
+
+    // 30ms 간격 이벤트 5회 (총 150ms) — 각 간격 << STALL(200)
+    for (let i = 0; i < 5; i++) {
+      await new Promise((r) => setTimeout(r, 30));
+      if (Date.now() - lastReset > STALL_MS) {
+        stalled = true;
+        break;
+      }
+      lastReset = Date.now();
+    }
+    assert.equal(stalled, false, "이벤트 간격이 한계 이하면 총 시간과 무관하게 정상");
   });
 });

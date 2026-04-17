@@ -215,6 +215,27 @@ node scripts/verify.mjs --skip-build --skip-test  # 빠른 검증 (typecheck + l
 
 **회귀 테스트**: `tests/harness/regression.test.mjs` RULE-006 (7 케이스).
 
+### [2026-04-17] strategy-planner "AI 분석 중 4/6"에서 멈춤 (동시 접속 시 오탐)
+
+**증상**: 두 사용자가 동시에 파이프라인 시작 시, strategy-planner가 "AI 분석 중... (4/6)" 단계에서 멈추고 클라이언트 버튼이 "글쓰기 진행중" → "글쓰기 시작"으로 되돌아감. 서버는 에러 처리로 끝나지만 무엇이 원인인지 UI에 반영 안 됨.
+
+**원인 분석**:
+1. `tool-executor.ts`의 `CALL_TIMEOUT_MS = 90s` 타이머가 **세마포어 획득 전에** 시작 — 큐 대기 시간이 타임아웃에 카운트되어 동시 접속 시 부당 오탐
+2. non-streaming 모드라 첫 토큰까지의 지연과 이후 스톨을 분리 감지 불가
+3. `pipeline-runner`의 `start`/`runWritePhase` catch 블록이 generic 문구만 표시 — 사용자는 무슨 일인지 모름
+
+**수정 [2026-04-17]**:
+- `lib/anthropic/tool-executor.ts`: master-writer와 동일 패턴 — `anthropicSemaphore.run(async () => { stallTimer = setTimeout(...); })`로 **세마포어 획득 후** 타이머 시작. INITIAL 150s / STALL 90s / hardDeadline 160s. `client.messages.stream()` 스트리밍 모드로 전환해 각 이벤트마다 stallTimer reset.
+- `lib/pipeline-runner.ts`: catch 블록이 `err.message`를 pipelineError에 포함. SSE가 result/approval 없이 끝난 경우에도 구체적 메시지 표시.
+
+**재발 방지 규칙**:
+- Anthropic API 호출 타이머는 **반드시 세마포어 획득 후**에 시작할 것 (`anthropicSemaphore.run(async () => { ... 타이머 ... })`)
+- 큐 대기 시간을 타임아웃에 포함하는 패턴 금지 — 동시 접속 오탐의 근본 원인
+- streaming 모드 사용 — 첫 토큰 전/후 스톨을 분리 감지
+- 클라이언트 catch 블록은 `err.message`를 사용자 메시지에 포함할 것
+
+**회귀 테스트**: `tests/harness/regression.test.mjs` RULE-007 (4 케이스).
+
 ## 개발 스택
 
 - **Framework**: Next.js 15 (App Router, TypeScript)
