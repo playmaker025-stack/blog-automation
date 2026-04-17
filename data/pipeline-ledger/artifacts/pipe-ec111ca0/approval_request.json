@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-ec111ca0",
+  "type": "approval_request",
+  "savedAt": "2026-04-17T06:57:00.657Z",
+  "data": {
+    "pipelineId": "pipe-ec111ca0",
+    "previousTitle": "",
+    "proposedTitle": "인천 전자담배 입문, 처음이라면 이것만 알면 됩니다",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "키워드 경쟁도가 '낮음'(6,620건)으로 신규 블로그도 상위 노출이 충분히 가능한 시장입니다. 상위 노출 중인 기존 글 10건을 분석한 결과, 전부 특정 매장 방문 후기 또는 특정 액상 제품 소개 형태에 집중되어 있으며, 진정한 의미의 '입문자를 위한 종합 정보 가이드'는 전무한 상황입니다. 따라서 기초 개념 정리 → 매장 선택 기준 → 액상 유형 → 실전 팁 → FAQ로 이어지는 체계적 구성은 기존 글들과 명확하게 차별화되며, 검색 사용자의 정보 탐색 니즈를 가장 직접적으로 충족시킬 수 있습니다. 사용자 A의 프로필과 코퍼스가 확인되지 않아 기본 친근한 톤(friendly)과 1,800자 분량을 채택했으며, 금지 항목인 가격 정보 및 이벤트·프로모션 내용은 전략 전체에서 완전히 배제되었습니다.",
+    "requestedAt": "2026-04-17T06:56:58.178Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-17T06:56:58.178Z",
+      "modifications": null
+    }
+  }
+}
