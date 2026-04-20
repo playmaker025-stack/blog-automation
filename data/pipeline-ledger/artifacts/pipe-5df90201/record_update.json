@@ -1,0 +1,14 @@
+{
+  "pipelineId": "pipe-5df90201",
+  "type": "record_update",
+  "savedAt": "2026-04-20T08:11:40.544Z",
+  "data": {
+    "postingListUpdated": true,
+    "postingListUpdatedAt": "2026-04-20T08:11:37.283Z",
+    "indexUpdated": true,
+    "indexUpdatedAt": "2026-04-20T08:11:37.283Z",
+    "postId": "post-85f4c625",
+    "topicStatusBefore": "draft",
+    "topicStatusAfter": "in-progress"
+  }
+}
