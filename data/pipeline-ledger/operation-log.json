@@ -2016,7 +2016,20 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-ef8e6476",
       "at": "2026-04-17T07:14:12.840Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 전자담배 입문 가이드 테스트",
+      "proposedTitle": "인천 전자담배 입문 완전정복 | 처음 시작할 때 꼭 알아야 할 것들",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.3076923076923077,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-65378d0c",
+      "at": "2026-04-20T02:59:10.890Z"
     }
   ],
-  "lastUpdated": "2026-04-17T07:14:12.840Z"
+  "lastUpdated": "2026-04-20T02:59:10.890Z"
 }
