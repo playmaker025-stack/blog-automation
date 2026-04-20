@@ -13,8 +13,14 @@
 
 import { writeJsonFile, readJsonFile, fileExists } from "@/lib/github/repository";
 
-const LOG_PATH = "data/pipeline-ledger/operation-log.json";
+// 파이프라인별 독립 파일 사용 — 공유 파일 SHA 충돌 방지
+// 조회용으로만 단일 파일도 유지 (쓰기는 하지 않음)
+const LEGACY_LOG_PATH = "data/pipeline-ledger/operation-log.json";
 const MAX_ENTRIES = 500;
+
+function pipelineLogPath(pipelineId: string): string {
+  return `data/pipeline-ledger/logs/${pipelineId}.json`;
+}
 
 // ============================================================
 // 타입
@@ -96,26 +102,26 @@ interface LogFile {
 // 읽기 / 쓰기
 // ============================================================
 
-async function loadLog(): Promise<{ data: LogFile; sha: string | null }> {
-  if (!(await fileExists(LOG_PATH))) {
+async function loadPipelineLog(pipelineId: string): Promise<{ data: LogFile; sha: string | null }> {
+  const path = pipelineLogPath(pipelineId);
+  if (!(await fileExists(path))) {
     return { data: { entries: [], lastUpdated: new Date().toISOString() }, sha: null };
   }
-  return readJsonFile<LogFile>(LOG_PATH);
+  return readJsonFile<LogFile>(path);
 }
 
 export async function appendLog(
   pipelineId: string,
   entry: LogPayload
 ): Promise<void> {
+  // 파이프라인별 독립 파일에 append — SHA 충돌 없음
   try {
-    const { data: log, sha } = await loadLog();
+    const { data: log, sha } = await loadPipelineLog(pipelineId);
     const now = new Date().toISOString();
-
     const newEntry: LogEntry = { ...entry, pipelineId, at: now } as LogEntry;
-    const entries = [...log.entries, newEntry].slice(-MAX_ENTRIES); // rolling window
-
+    const entries = [...log.entries, newEntry].slice(-MAX_ENTRIES);
     await writeJsonFile<LogFile>(
-      LOG_PATH,
+      pipelineLogPath(pipelineId),
       { entries, lastUpdated: now },
       `log: ${entry.type} pipeline=${pipelineId}`,
       sha
@@ -134,14 +140,24 @@ export async function getLogEntries(params?: {
   pipelineId?: string;
   limit?: number;
 }): Promise<LogEntry[]> {
-  const { data: log } = await loadLog();
-  let entries = log.entries;
-
-  if (params?.type) entries = entries.filter((e) => e.type === params.type);
-  if (params?.pipelineId) entries = entries.filter((e) => e.pipelineId === params.pipelineId);
-  if (params?.limit) entries = entries.slice(-params.limit);
-
-  return entries;
+  if (params?.pipelineId) {
+    const { data: log } = await loadPipelineLog(params.pipelineId);
+    let entries = log.entries;
+    if (params.type) entries = entries.filter((e) => e.type === params.type);
+    if (params.limit) entries = entries.slice(-params.limit);
+    return entries;
+  }
+  // pipelineId 없이 전체 조회 — 레거시 단일 파일 fallback
+  try {
+    if (!(await fileExists(LEGACY_LOG_PATH))) return [];
+    const { data: log } = await readJsonFile<LogFile>(LEGACY_LOG_PATH);
+    let entries = log.entries;
+    if (params?.type) entries = entries.filter((e) => e.type === params.type);
+    if (params?.limit) entries = entries.slice(-params.limit);
+    return entries;
+  } catch {
+    return [];
+  }
 }
 
 export async function getQualityReport(): Promise<{
@@ -175,7 +191,18 @@ export async function getQualityReport(): Promise<{
     totalAttempts: number;
   };
 }> {
-  const { data: log } = await loadLog();
+  // getQualityReport는 레거시 단일 파일만 읽음 (신규 파이프라인별 파일은 별도 집계 필요)
+  if (!(await fileExists(LEGACY_LOG_PATH))) {
+    return {
+      totalEntries: 0,
+      corpusRetrieval: { totalRuns: 0, avgSelectedCount: 0, staleWarningRate: 0, fallbackRate: 0 },
+      materialChange: { totalJudgments: 0, materialRate: 0, overrideBySimRate: 0, avgSignalsTriggered: 0 },
+      gateResults: { preWritePassRate: 1, postAuditPassRate: 1, topBlockReasons: {} },
+      approvalUx: { totalRequests: 0, approvalRate: 0, avgElapsedMs: null, timeoutRate: 0, materialChangeApprovalRate: 0 },
+      baselineCandidates: { registrationRate: 0, totalAttempts: 0 },
+    };
+  }
+  const { data: log } = await readJsonFile<LogFile>(LEGACY_LOG_PATH);
 
   const corpus = log.entries.filter((e): e is CorpusRetrievalLog & { at: string; pipelineId: string } =>
     e.type === "corpus_retrieval"

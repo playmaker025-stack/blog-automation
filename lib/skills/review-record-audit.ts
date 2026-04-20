@@ -1,5 +1,6 @@
-import { loadAllPosts } from "@/lib/github/posts-store";
-import type { PostingRecord } from "@/lib/types/github-data";
+import { readJsonFile, fileExists } from "@/lib/github/repository";
+import { Paths } from "@/lib/github/paths";
+import type { PostingIndex, PostingRecord } from "@/lib/types/github-data";
 import type {
   ReviewRecordAuditInput,
   ReviewRecordAuditOutput,
@@ -10,10 +11,10 @@ export async function reviewRecordAudit(
 ): Promise<ReviewRecordAuditOutput> {
   const { userId, limit = 10 } = input;
 
-  let allPosts: PostingRecord[];
-  try {
-    allPosts = await loadAllPosts();
-  } catch {
+  // published 포스트는 모두 index.json에 있음 (파이프라인 생성 포스트는 approved까지만 도달)
+  // loadAllPosts()는 개별 meta.json을 수십 번 읽어 느리므로 여기서는 index.json만 사용
+  const indexExists = await fileExists(Paths.postingListIndex());
+  if (!indexExists) {
     return {
       summary: "포스팅 기록이 없습니다.",
       topPerformingCategories: [],
@@ -23,8 +24,12 @@ export async function reviewRecordAudit(
     };
   }
 
+  const { data: postingIndex } = await readJsonFile<PostingIndex>(
+    Paths.postingListIndex()
+  );
+
   // 해당 사용자 포스팅만 필터링
-  const userPosts = allPosts
+  const userPosts = postingIndex.posts
     .filter((p) => p.userId === userId && p.status === "published")
     .sort(
       (a, b) =>
