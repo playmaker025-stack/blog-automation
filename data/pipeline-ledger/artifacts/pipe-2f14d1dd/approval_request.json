@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-2f14d1dd",
+  "type": "approval_request",
+  "savedAt": "2026-04-20T08:55:26.577Z",
+  "data": {
+    "pipelineId": "pipe-2f14d1dd",
+    "previousTitle": "",
+    "proposedTitle": "말론 vs 아스트로 MK3, 입문용 전담 기기 어떤 게 나한테 맞을까?",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "① 키워드 경쟁도가 '낮음'(146건)으로 상위 노출 진입 장벽이 낮아 빠른 유입 확보에 유리하다. ② 기존 상위 글들은 공통적으로 액상 가격 목록과 매장 이벤트 위주의 단순 나열 구조로, 두 기기를 실질적으로 비교한 콘텐츠가 전무하다. 이 공백을 '특징 비교 + 유형별 추천 가이드' 구조로 채우는 것이 핵심 차별화 전략이다. ③ 사용자 과거 포스팅에서 '말론 사용법', '젤로맥스 vs 발라리안맥스 비교' 등 비교형·가이드형 글 패턴이 확인되어 본 전략이 블로그 기존 색깔과 자연스럽게 일치한다. ④ 타깃 독자(20~30대 beginner)에 맞게 casual 톤, 리스트형 구조, 1,500자 분량을 유지하며 금지 항목(가격·이벤트)은 전면 제외하고 기능·사용감·편의성 중심 각도로만 구성했다.",
+    "requestedAt": "2026-04-20T08:55:23.832Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-20T08:55:23.832Z",
+      "modifications": null
+    }
+  }
+}
