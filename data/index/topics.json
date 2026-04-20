@@ -34,10 +34,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "a",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-16T09:07:14.695Z"
+      "updatedAt": "2026-04-20T08:52:31.876Z"
     },
     {
       "topicId": "topic-b39ccdca",
@@ -417,5 +417,5 @@
       "updatedAt": "2026-04-10T05:54:01.572Z"
     }
   ],
-  "lastUpdated": "2026-04-20T08:50:37.538Z"
+  "lastUpdated": "2026-04-20T08:52:31.876Z"
 }
