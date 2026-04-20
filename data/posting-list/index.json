@@ -1955,15 +1955,15 @@
       "topicId": "topic-157a1185",
       "userId": "a",
       "title": "구월동 전자담배 기기 추천 | 유형별 완전 정리 가이드",
-      "status": "ready",
+      "status": "audit_failed",
       "naverPostUrl": null,
-      "evalScore": null,
+      "evalScore": 67,
       "wordCount": 2463,
       "compositionSessionId": "pipe-8ffb0a72",
       "pendingApproval": null,
       "createdAt": "2026-04-20T08:20:52.050Z",
       "publishedAt": null,
-      "updatedAt": "2026-04-20T08:22:10.566Z"
+      "updatedAt": "2026-04-20T08:23:03.173Z"
     },
     {
       "postId": "post-13180b83",
@@ -1981,5 +1981,5 @@
       "updatedAt": "2026-04-20T08:22:14.980Z"
     }
   ],
-  "lastUpdated": "2026-04-20T08:22:14.980Z"
+  "lastUpdated": "2026-04-20T08:23:03.173Z"
 }
