@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "type": "material_change",
+      "originalTitle": "구월동 전자담배 매장 방문 전 체크리스트",
+      "proposedTitle": "구월동 전자담배 매장 방문 전 꼭 체크해야 할 것들 총정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.6086956521739131,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-ba519e02",
+      "at": "2026-04-20T08:42:09.867Z"
+    }
+  ],
+  "lastUpdated": "2026-04-20T08:42:09.867Z"
+}
