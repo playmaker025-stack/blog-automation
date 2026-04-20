@@ -2029,7 +2029,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-65378d0c",
       "at": "2026-04-20T02:59:10.890Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "구월동 전자담배 매장 방문 전 체크리스트",
+      "proposedTitle": "구월동 전자담배 매장 방문 전 꼭 체크해야 할 것들 총정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.6086956521739131,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-5df90201",
+      "at": "2026-04-20T08:10:49.909Z"
     }
   ],
-  "lastUpdated": "2026-04-20T02:59:10.890Z"
+  "lastUpdated": "2026-04-20T08:10:49.909Z"
 }
