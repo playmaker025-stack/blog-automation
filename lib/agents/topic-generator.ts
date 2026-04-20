@@ -102,7 +102,7 @@ export async function runTopicGenerator(
     .join(", ");
 
   const client = getAnthropicClient();
-  const response = await anthropicSemaphore.run(() => client.messages.create(
+  const response = await anthropicSemaphore.runWithRetry(() => client.messages.create(
     {
       model: MODELS.sonnet,
       max_tokens: 2048,

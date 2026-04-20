@@ -63,7 +63,7 @@ export async function runToolUseLoop(
       [];
 
     try {
-      await anthropicSemaphore.run(
+      await anthropicSemaphore.runWithRetry(
         async () => {
           // ↓ 세마포어 획득 후에만 타이머 시작 (대기 시간 제외)
           let stallTimer: ReturnType<typeof setTimeout> | null = null;

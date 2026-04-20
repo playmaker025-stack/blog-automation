@@ -139,7 +139,7 @@ async function summarizeArticles(
     .join("\n\n---\n\n");
 
   const client = getAnthropicClient();
-  const response = await anthropicSemaphore.run(() => client.messages.create(
+  const response = await anthropicSemaphore.runWithRetry(() => client.messages.create(
     {
       model: MODELS.haiku,
       max_tokens: 1024,

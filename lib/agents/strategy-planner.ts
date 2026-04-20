@@ -302,7 +302,7 @@ export async function runStrategyPlannerSimple(params: {
     ? AbortSignal.any([AbortSignal.timeout(CALL_TIMEOUT_MS), params.signal])
     : AbortSignal.timeout(CALL_TIMEOUT_MS);
 
-  const response = await anthropicSemaphore.run(() => client.messages.create({
+  const response = await anthropicSemaphore.runWithRetry(() => client.messages.create({
     model: MODELS.sonnet,
     system: SYSTEM_PROMPT,
     max_tokens: 4096,

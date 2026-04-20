@@ -68,6 +68,36 @@ class AnthropicSemaphore {
     }
   }
 
+  /**
+   * 429 rate limit 자동 재시도 포함 실행
+   * - 429 응답 시 지수 백오프(2s → 4s → 8s) 후 재시도
+   * - maxRetries 초과 시 원본 에러 throw
+   * - run()의 onWait 시그니처를 그대로 위임
+   */
+  async runWithRetry<T>(
+    fn: () => Promise<T>,
+    onWait?: (queuePosition: number) => void,
+    maxRetries = 3
+  ): Promise<T> {
+    for (let attempt = 0; attempt <= maxRetries; attempt++) {
+      try {
+        return await this.run(fn, onWait);
+      } catch (err) {
+        const is429 = (err as { status?: number }).status === 429;
+        if (is429 && attempt < maxRetries) {
+          const waitMs = Math.min(2_000 * Math.pow(2, attempt), 30_000); // 2s, 4s, 8s, max 30s
+          console.warn(
+            `[semaphore] 429 rate limit — ${waitMs / 1000}s 후 재시도 (${attempt + 1}/${maxRetries})`
+          );
+          await new Promise<void>((res) => setTimeout(res, waitMs));
+          continue;
+        }
+        throw err;
+      }
+    }
+    throw new Error("unreachable");
+  }
+
   get stats() {
     return { running: this.running, queued: this.queue.length, max: MAX_CONCURRENT };
   }

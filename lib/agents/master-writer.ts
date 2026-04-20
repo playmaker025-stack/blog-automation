@@ -238,7 +238,7 @@ expansion_planner로 아웃라인을 확장하고, 본문을 마크다운으로 
     let finalStopReason: string | null = null;
     const toolUseBlocks: Array<{ id: string; name: string; input: Record<string, unknown> }> = [];
 
-    await anthropicSemaphore.run(async () => {
+    await anthropicSemaphore.runWithRetry(async () => {
       // ↑ 세마포어 획득 후 아래 타이머가 시작됨 — 동시 접속 대기 시간 제외
       let stallTimer: ReturnType<typeof setTimeout> | null = null;
       let stallReject: ((err: Error) => void) | null = null;
