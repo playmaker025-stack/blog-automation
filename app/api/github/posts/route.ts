@@ -1,18 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
-import { readJsonFile, writeJsonFile, fileExists } from "@/lib/github/repository";
+import { readJsonFile, writeJsonFile, fileExists, deleteFile } from "@/lib/github/repository";
 import { Paths } from "@/lib/github/paths";
+import { loadAllPosts, findPost } from "@/lib/github/posts-store";
 import type { PostingIndex, PostingRecord } from "@/lib/types/github-data";
-
-const EMPTY_INDEX: PostingIndex = { posts: [], lastUpdated: "" };
-
-async function loadIndex(): Promise<{ data: PostingIndex; sha: string | null }> {
-  const path = Paths.postingListIndex();
-  if (!(await fileExists(path))) {
-    return { data: { ...EMPTY_INDEX, lastUpdated: new Date().toISOString() }, sha: null };
-  }
-  const { data, sha } = await readJsonFile<PostingIndex>(path);
-  return { data, sha };
-}
 
 export async function GET(request: NextRequest) {
   const userId = request.nextUrl.searchParams.get("userId");
@@ -20,17 +10,12 @@ export async function GET(request: NextRequest) {
   const limit = Number(request.nextUrl.searchParams.get("limit") ?? "20");
 
   try {
-    const { data: index } = await loadIndex();
-    let posts = index.posts;
+    let posts = await loadAllPosts();
     if (userId) posts = posts.filter((p) => p.userId === userId);
     if (status) posts = posts.filter((p) => p.status === status);
 
-    // 최신 순 정렬
     posts = posts
-      .sort(
-        (a, b) =>
-          new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-      )
+      .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
       .slice(0, limit);
 
     return NextResponse.json({ posts });
@@ -48,27 +33,27 @@ export async function PATCH(request: NextRequest) {
       return NextResponse.json({ error: "postId가 필요합니다." }, { status: 400 });
     }
 
-    const { data: index, sha } = await loadIndex();
-    const exists = index.posts.find((p) => p.postId === body.postId);
-    if (!exists) {
+    const found = await findPost(body.postId);
+    if (!found) {
       return NextResponse.json({ error: "포스팅을 찾을 수 없습니다." }, { status: 404 });
     }
 
     const now = new Date().toISOString();
     const { postId, ...patch } = body;
-    const updated: PostingIndex = {
-      posts: index.posts.map((p) =>
-        p.postId === postId ? { ...p, ...patch, updatedAt: now } : p
-      ),
-      lastUpdated: now,
-    };
+    const updated = { ...found.record, ...patch, updatedAt: now };
 
-    await writeJsonFile(
-      Paths.postingListIndex(),
-      updated,
-      `chore: update post ${postId}`,
-      sha
-    );
+    if (found.source === "meta") {
+      await writeJsonFile(Paths.postMeta(postId), updated, `chore: update post ${postId}`, found.sha);
+    } else {
+      // index.json 기반 레거시 포스트
+      const indexPath = Paths.postingListIndex();
+      const { data: index, sha } = await readJsonFile<PostingIndex>(indexPath);
+      const updatedIndex: PostingIndex = {
+        posts: index.posts.map((p) => p.postId === postId ? updated : p),
+        lastUpdated: now,
+      };
+      await writeJsonFile(indexPath, updatedIndex, `chore: update post ${postId}`, sha);
+    }
 
     return NextResponse.json({ updated: true });
   } catch (err) {
@@ -85,23 +70,22 @@ export async function DELETE(request: NextRequest) {
   }
 
   try {
-    const { data: index, sha } = await loadIndex();
-    const before = index.posts.length;
-    const updated: PostingIndex = {
-      posts: index.posts.filter((p) => p.postId !== postId),
-      lastUpdated: new Date().toISOString(),
-    };
-
-    if (updated.posts.length === before) {
+    const found = await findPost(postId);
+    if (!found) {
       return NextResponse.json({ error: "포스팅을 찾을 수 없습니다." }, { status: 404 });
     }
 
-    await writeJsonFile(
-      Paths.postingListIndex(),
-      updated,
-      `chore: delete post ${postId}`,
-      sha
-    );
+    if (found.source === "meta") {
+      await deleteFile(Paths.postMeta(postId), `chore: delete post ${postId}`);
+    } else {
+      const indexPath = Paths.postingListIndex();
+      const { data: index, sha } = await readJsonFile<PostingIndex>(indexPath);
+      const updated: PostingIndex = {
+        posts: index.posts.filter((p) => p.postId !== postId),
+        lastUpdated: new Date().toISOString(),
+      };
+      await writeJsonFile(indexPath, updated, `chore: delete post ${postId}`, sha);
+    }
 
     return NextResponse.json({ deleted: true });
   } catch (err) {
@@ -112,23 +96,20 @@ export async function DELETE(request: NextRequest) {
 
 // blog URL에서 블로그 ID 추출 → userId 매핑
 async function resolveBlogUserId(blog: string | undefined, url: string | undefined): Promise<string> {
-  // blog 컬럼이 이미 userId 형식 (a~e)이면 그대로 사용
   if (blog && /^[a-e]$/i.test(blog.trim())) return blog.trim().toLowerCase();
 
-  // URL에서 블로그 ID 추출
   const blogId = url?.match(/blog\.naver\.com\/([^/?#]+)/)?.[1]?.toLowerCase()
     ?? blog?.toLowerCase().replace(/블로그$/, "").trim();
 
   if (!blogId) return "imported";
 
-  // 프로필 조회로 매핑
   try {
-    const { readJsonFile, fileExists } = await import("@/lib/github/repository");
-    const { Paths } = await import("@/lib/github/paths");
+    const { readJsonFile: rjf, fileExists: fe } = await import("@/lib/github/repository");
+    const { Paths: P } = await import("@/lib/github/paths");
     for (const uid of ["a", "b", "c", "d", "e"]) {
-      const path = Paths.userProfile(uid);
-      if (!(await fileExists(path))) continue;
-      const { data } = await readJsonFile<{ naverBlogUrl?: string }>(path);
+      const path = P.userProfile(uid);
+      if (!(await fe(path))) continue;
+      const { data } = await rjf<{ naverBlogUrl?: string }>(path);
       const profileBlogId = data.naverBlogUrl?.match(/blog\.naver\.com\/([^/?#]+)/)?.[1]?.toLowerCase();
       if (profileBlogId && profileBlogId === blogId) return uid;
     }
@@ -138,8 +119,7 @@ async function resolveBlogUserId(blog: string | undefined, url: string | undefin
   return "imported";
 }
 
-// 일괄 가져오기 — 한 번에 읽고 한 번에 쓰기 (SHA 충돌 방지)
-// body: { records: Array<{ title: string; url?: string; userId?: string; blog?: string }> }
+// 일괄 가져오기 — 한 번에 읽고 한 번에 쓰기 (레거시 index.json 사용)
 export async function PUT(request: NextRequest) {
   try {
     const body = await request.json() as {
@@ -149,13 +129,18 @@ export async function PUT(request: NextRequest) {
       return NextResponse.json({ error: "records 배열이 필요합니다." }, { status: 400 });
     }
 
-    const { data: index, sha } = await loadIndex();
-    const now = new Date().toISOString();
+    const indexPath = Paths.postingListIndex();
+    let index: PostingIndex = { posts: [], lastUpdated: "" };
+    let sha: string | null = null;
 
-    // 중복 감지: URL 또는 제목이 이미 존재하는 항목 제외
-    const existingUrls = new Set(
-      index.posts.map((p) => p.naverPostUrl?.toLowerCase()).filter(Boolean)
-    );
+    if (await fileExists(indexPath)) {
+      const result = await readJsonFile<PostingIndex>(indexPath);
+      index = result.data;
+      sha = result.sha;
+    }
+
+    const now = new Date().toISOString();
+    const existingUrls = new Set(index.posts.map((p) => p.naverPostUrl?.toLowerCase()).filter(Boolean));
     const existingTitles = new Set(index.posts.map((p) => p.title.toLowerCase()));
 
     const { randomUUID } = await import("crypto");
@@ -185,22 +170,13 @@ export async function PUT(request: NextRequest) {
         createdAt: now,
         updatedAt: now,
       });
-      // 이번 배치 내 중복도 방지
       if (urlKey) existingUrls.add(urlKey);
       existingTitles.add(titleKey);
     }
 
     if (newPosts.length > 0) {
-      const updated: PostingIndex = {
-        posts: [...index.posts, ...newPosts],
-        lastUpdated: now,
-      };
-      await writeJsonFile(
-        Paths.postingListIndex(),
-        updated,
-        `feat: bulk import ${newPosts.length} posts`,
-        sha
-      );
+      const updated: PostingIndex = { posts: [...index.posts, ...newPosts], lastUpdated: now };
+      await writeJsonFile(indexPath, updated, `feat: bulk import ${newPosts.length} posts`, sha);
     }
 
     return NextResponse.json({ added: newPosts.length, duplicates });
@@ -224,8 +200,6 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { data: index, sha } = await loadIndex();
-
     const now = new Date().toISOString();
     const newRecord: PostingRecord = {
       ...body,
@@ -240,17 +214,7 @@ export async function POST(request: NextRequest) {
       updatedAt: now,
     };
 
-    const updated: PostingIndex = {
-      posts: [...index.posts, newRecord],
-      lastUpdated: now,
-    };
-
-    await writeJsonFile(
-      Paths.postingListIndex(),
-      updated,
-      `feat: add post record "${newRecord.title}"`,
-      sha
-    );
+    await writeJsonFile(Paths.postMeta(body.postId), newRecord, `feat: add post record "${newRecord.title}"`);
 
     return NextResponse.json({ post: newRecord }, { status: 201 });
   } catch (err) {

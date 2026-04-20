@@ -113,6 +113,22 @@ export async function fileExists(filePath: string): Promise<boolean> {
 // 디렉토리 내 파일 목록
 // ============================================================
 
+export async function deleteFile(filePath: string, message: string): Promise<void> {
+  const { sha } = await readFile(filePath);
+  const octokit = getGitHubClient();
+  const { owner, repo, branch } = getRepoConfig();
+  const commitMessage = message.includes("[skip ci]") ? message : `${message} [skip ci]`;
+  await octokit.repos.deleteFile({
+    owner,
+    repo,
+    path: filePath,
+    message: commitMessage,
+    sha,
+    branch,
+    request: { signal: AbortSignal.timeout(GITHUB_TIMEOUT_MS) },
+  });
+}
+
 export async function listFiles(dirPath: string): Promise<FileEntry[]> {
   const octokit = getGitHubClient();
   const { owner, repo, branch } = getRepoConfig();

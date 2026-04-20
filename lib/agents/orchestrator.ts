@@ -23,7 +23,7 @@ import {
   readApprovalRecord,
   markApprovalConsumed,
 } from "@/lib/github/approval-store";
-import type { PostingIndex, TopicIndex } from "@/lib/types/github-data";
+import type { PostingRecord, TopicIndex } from "@/lib/types/github-data";
 import type {
   PipelineRunRequest,
   PipelineState,
@@ -858,44 +858,27 @@ async function createPostingRecord(params: {
   pipelineId: string;
 }): Promise<{ postId: string }> {
   const postId = `post-${randomUUID().slice(0, 8)}`;
+  const now = new Date().toISOString();
 
-  await withConflictRetry(async () => {
-    const now = new Date().toISOString();
-    const path = Paths.postingListIndex();
-    const exists = await fileExists(path);
-    let index: PostingIndex = { posts: [], lastUpdated: now };
-    let sha: string | null = null;
+  // 신규 파일(sha=null)이므로 SHA 충돌이 발생하지 않는다.
+  // 사용자별로 서로 다른 파일에 쓰기 때문에 동시 요청도 안전하다.
+  const record: PostingRecord = {
+    postId,
+    topicId: params.topicId,
+    userId: params.userId,
+    title: params.title,
+    status: "draft",
+    naverPostUrl: null,
+    evalScore: null,
+    wordCount: 0,
+    compositionSessionId: params.pipelineId,
+    pendingApproval: null,
+    createdAt: now,
+    publishedAt: null,
+    updatedAt: now,
+  };
 
-    if (exists) {
-      const result = await readJsonFile<PostingIndex>(path);
-      index = result.data;
-      sha = result.sha;
-    }
-
-    const updated: PostingIndex = {
-      posts: [
-        ...index.posts,
-        {
-          postId,
-          topicId: params.topicId,
-          userId: params.userId,
-          title: params.title,
-          status: "draft",
-          naverPostUrl: null,
-          evalScore: null,
-          wordCount: 0,
-          compositionSessionId: params.pipelineId,
-          pendingApproval: null,
-          createdAt: now,
-          publishedAt: null,
-          updatedAt: now,
-        },
-      ],
-      lastUpdated: now,
-    };
-
-    await writeJsonFile(path, updated, `feat: create post record ${postId}`, sha);
-  });
+  await writeJsonFile(Paths.postMeta(postId), record, `feat: create post record ${postId}`);
 
   return { postId };
 }
@@ -990,24 +973,17 @@ async function atomicSetTopicInProgress(
 
 async function updatePostRecord(
   postId: string,
-  patch: Partial<import("@/lib/types/github-data").PostingRecord>
+  patch: Partial<PostingRecord>
 ): Promise<void> {
+  // 이 포스트는 atomicSetTopicInProgress 이후 단일 파이프라인만 소유하므로
+  // 개별 파일에 쓰면 SHA 충돌이 발생하지 않는다.
   await withConflictRetry(async () => {
-    const path = Paths.postingListIndex();
+    const path = Paths.postMeta(postId);
     if (!(await fileExists(path))) return;
-
-    const { data: index, sha } = await readJsonFile<PostingIndex>(path);
+    const { data: record, sha } = await readJsonFile<PostingRecord>(path);
     const now = new Date().toISOString();
-
-    const updated: PostingIndex = {
-      posts: index.posts.map((p) =>
-        p.postId === postId ? { ...p, ...patch, updatedAt: now } : p
-      ),
-      lastUpdated: now,
-    };
-
-    await writeJsonFile(path, updated, `chore: update post ${postId}`, sha);
-  });
+    await writeJsonFile(path, { ...record, ...patch, updatedAt: now }, `chore: update post ${postId}`, sha);
+  }, 5);
 }
 
 async function updateTopicStatus(
