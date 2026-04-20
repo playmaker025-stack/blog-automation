@@ -2009,7 +2009,22 @@
       "createdAt": "2026-04-20T08:52:32.616Z",
       "publishedAt": null,
       "updatedAt": "2026-04-20T08:52:32.616Z"
+    },
+    {
+      "postId": "post-511f64cd",
+      "topicId": "topic-aa0eceea",
+      "userId": "b",
+      "title": "전자담배 매장 상담할 때 꼭 보는 기준 4가지",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-cf23bd06",
+      "pendingApproval": null,
+      "createdAt": "2026-04-20T08:53:01.277Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-20T08:53:01.277Z"
     }
   ],
-  "lastUpdated": "2026-04-20T08:52:32.616Z"
+  "lastUpdated": "2026-04-20T08:53:01.277Z"
 }
