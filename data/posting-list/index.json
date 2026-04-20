@@ -2024,7 +2024,22 @@
       "createdAt": "2026-04-20T08:53:01.277Z",
       "publishedAt": null,
       "updatedAt": "2026-04-20T08:55:02.793Z"
+    },
+    {
+      "postId": "post-c8db6390",
+      "topicId": "topic-6ca55bd1",
+      "userId": "c",
+      "title": "말론 vs 아스트로 MK3, 입문용 전담 기기 어떤 게 나한테 맞을까?",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-2f14d1dd",
+      "pendingApproval": null,
+      "createdAt": "2026-04-20T08:55:25.086Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-20T08:55:25.086Z"
     }
   ],
-  "lastUpdated": "2026-04-20T08:55:02.793Z"
+  "lastUpdated": "2026-04-20T08:55:25.086Z"
 }
