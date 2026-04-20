@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 기기 선택 가이드 – 입문자를 위한 기기 비교 총정리",
+      "proposedTitle": "전자담배 입문자 필독! 기기 종류별 특징과 나에게 맞는 선택법",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "searchIntentChanged"
+      ],
+      "stringSimilarity": 0.15384615384615385,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-047ee68c",
+      "at": "2026-04-20T09:44:27.380Z"
+    }
+  ],
+  "lastUpdated": "2026-04-20T09:44:27.380Z"
+}
