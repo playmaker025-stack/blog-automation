@@ -1985,16 +1985,16 @@
       "topicId": "topic-b74d01b0",
       "userId": "d",
       "title": "전자담배 액상 맛이 약해지는 이유 – 원인별 해결 방법 총정리",
-      "status": "ready",
+      "status": "audit_failed",
       "naverPostUrl": null,
-      "evalScore": null,
+      "evalScore": 66,
       "wordCount": 2167,
       "compositionSessionId": "pipe-793056c2",
       "pendingApproval": null,
       "createdAt": "2026-04-20T08:24:28.986Z",
       "publishedAt": null,
-      "updatedAt": "2026-04-20T08:25:48.882Z"
+      "updatedAt": "2026-04-20T08:26:45.419Z"
     }
   ],
-  "lastUpdated": "2026-04-20T08:25:48.882Z"
+  "lastUpdated": "2026-04-20T08:26:45.419Z"
 }
