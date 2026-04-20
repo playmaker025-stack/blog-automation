@@ -28,17 +28,30 @@ async function readSSEStream(
   const reader = response.body.getReader();
   const decoder = new TextDecoder();
   let buffer = "";
+
+  function flush() {
+    const lines = buffer.split("\n\n");
+    buffer = lines.pop() ?? "";
+    for (const line of lines) {
+      if (!line.startsWith("data: ")) continue;
+      try { onEvent(JSON.parse(line.slice(6)) as SSEEvent); } catch { /* ignore */ }
+    }
+  }
+
   try {
     while (true) {
       const { done, value } = await reader.read();
-      if (done) break;
-      buffer += decoder.decode(value, { stream: true });
-      const lines = buffer.split("\n\n");
-      buffer = lines.pop() ?? "";
-      for (const line of lines) {
-        if (!line.startsWith("data: ")) continue;
-        try { onEvent(JSON.parse(line.slice(6)) as SSEEvent); } catch { /* ignore */ }
+      // done: true 여도 value에 마지막 데이터가 함께 올 수 있으므로 먼저 처리
+      if (value) {
+        buffer += decoder.decode(value, { stream: !done });
+        flush();
       }
+      if (done) break;
+    }
+    // 스트림 종료 후 남은 버퍼 처리 (개행 없이 끝난 마지막 이벤트)
+    if (buffer.trim()) {
+      buffer += "\n\n";
+      flush();
     }
   } finally {
     reader.releaseLock();
