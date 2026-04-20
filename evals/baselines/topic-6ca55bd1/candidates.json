@@ -15,5 +15,22 @@
     "aggregateScore": 78,
     "notes": "pipeline pipe-fcd4a2f1 / post post-642fc6b4",
     "evalPassed": true
+  },
+  {
+    "runId": "eval-f957301d",
+    "scenarioId": "topic-6ca55bd1",
+    "postId": "post-c8db6390",
+    "pipelineId": "pipe-2f14d1dd",
+    "recordedAt": "2026-04-20T08:57:37.186Z",
+    "scores": {
+      "originality": 52,
+      "style_match": 74,
+      "structure": 70,
+      "engagement": 72,
+      "forbidden_check": 100
+    },
+    "aggregateScore": 70,
+    "notes": "pipeline pipe-2f14d1dd / post post-c8db6390",
+    "evalPassed": true
   }
 ]
