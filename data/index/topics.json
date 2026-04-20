@@ -21,10 +21,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-20T08:20:51.076Z"
+      "updatedAt": "2026-04-20T08:23:04.459Z"
     },
     {
       "topicId": "topic-b7b3deaf",
@@ -417,5 +417,5 @@
       "updatedAt": "2026-04-10T05:54:01.572Z"
     }
   ],
-  "lastUpdated": "2026-04-20T08:22:14.140Z"
+  "lastUpdated": "2026-04-20T08:23:04.459Z"
 }
