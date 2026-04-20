@@ -2077,7 +2077,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-0681bb99",
       "at": "2026-04-20T08:52:09.789Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 매장에서 상담할 때 보는 기준",
+      "proposedTitle": "전자담배 매장 상담할 때 꼭 보는 기준 4가지",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.6666666666666667,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-cf23bd06",
+      "at": "2026-04-20T08:52:26.091Z"
     }
   ],
-  "lastUpdated": "2026-04-20T08:52:09.789Z"
+  "lastUpdated": "2026-04-20T08:52:26.091Z"
 }
