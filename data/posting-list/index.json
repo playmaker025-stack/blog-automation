@@ -1970,15 +1970,15 @@
       "topicId": "topic-bbfcb4ec",
       "userId": "b",
       "title": "구월동 전자담배 매장 기준 입문자가 자주 찾는 액상 3종 비교",
-      "status": "ready",
+      "status": "audit_failed",
       "naverPostUrl": null,
-      "evalScore": null,
+      "evalScore": 58,
       "wordCount": 2759,
       "compositionSessionId": "pipe-4ba18818",
       "pendingApproval": null,
       "createdAt": "2026-04-20T08:22:14.980Z",
       "publishedAt": null,
-      "updatedAt": "2026-04-20T08:23:45.000Z"
+      "updatedAt": "2026-04-20T08:24:40.473Z"
     },
     {
       "postId": "post-9aa73e42",
@@ -1996,5 +1996,5 @@
       "updatedAt": "2026-04-20T08:24:28.986Z"
     }
   ],
-  "lastUpdated": "2026-04-20T08:24:28.986Z"
+  "lastUpdated": "2026-04-20T08:24:40.473Z"
 }
