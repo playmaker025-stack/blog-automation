@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 매장에서 상담할 때 보는 기준",
+      "proposedTitle": "전자담배 매장 상담할 때 꼭 확인해야 할 기준 정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.5,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-3526362d",
+      "at": "2026-04-20T08:43:58.580Z"
+    }
+  ],
+  "lastUpdated": "2026-04-20T08:43:58.580Z"
+}
