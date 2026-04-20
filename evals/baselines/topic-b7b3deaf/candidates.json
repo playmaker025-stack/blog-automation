@@ -1,0 +1,19 @@
+[
+  {
+    "runId": "eval-9db3ad38",
+    "scenarioId": "topic-b7b3deaf",
+    "postId": "post-1137dd1e",
+    "pipelineId": "pipe-0681bb99",
+    "recordedAt": "2026-04-20T08:54:39.125Z",
+    "scores": {
+      "originality": 62,
+      "style_match": 74,
+      "structure": 70,
+      "engagement": 72,
+      "forbidden_check": 100
+    },
+    "aggregateScore": 73,
+    "notes": "pipeline pipe-0681bb99 / post post-1137dd1e",
+    "evalPassed": true
+  }
+]
