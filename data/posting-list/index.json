@@ -491,9 +491,9 @@
       "wordCount": 0,
       "compositionSessionId": null,
       "pendingApproval": null,
-      "publishedAt": null,
+      "publishedAt": "2026-03-06T00:00:00+09:00",
       "createdAt": "2026-04-02T07:02:14.733Z",
-      "updatedAt": "2026-04-02T07:02:14.733Z"
+      "updatedAt": "2026-04-21T08:24:25.158Z"
     },
     {
       "postId": "post-import-3c16fe70",
@@ -2896,5 +2896,5 @@
       "updatedAt": "2026-04-21T08:21:50.610Z"
     }
   ],
-  "lastUpdated": "2026-04-21T08:24:23.124Z"
+  "lastUpdated": "2026-04-21T08:24:25.158Z"
 }
