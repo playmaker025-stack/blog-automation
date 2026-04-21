@@ -2084,7 +2084,22 @@
       "createdAt": "2026-04-21T03:27:09.182Z",
       "publishedAt": null,
       "updatedAt": "2026-04-21T03:29:50.204Z"
+    },
+    {
+      "postId": "post-91422893",
+      "topicId": "topic-b7b3deaf",
+      "userId": "a",
+      "title": "부평 전자담배 입문 기기, 내 흡연 스타일에 맞는 거 고르는 법",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-11c768a2",
+      "pendingApproval": null,
+      "createdAt": "2026-04-21T07:36:07.776Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-21T07:36:07.776Z"
     }
   ],
-  "lastUpdated": "2026-04-21T03:29:50.204Z"
+  "lastUpdated": "2026-04-21T07:36:07.776Z"
 }
