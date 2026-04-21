@@ -2054,7 +2054,22 @@
       "createdAt": "2026-04-20T09:14:50.148Z",
       "publishedAt": null,
       "updatedAt": "2026-04-20T09:17:07.433Z"
+    },
+    {
+      "postId": "post-9f98cce5",
+      "topicId": "topic-157a1185",
+      "userId": "a",
+      "title": "구월동 전자담배 기기 추천 | 입호흡·폐호흡 유형별 완전 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-a81f1dd2",
+      "pendingApproval": null,
+      "createdAt": "2026-04-21T02:50:38.448Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-21T02:50:38.448Z"
     }
   ],
-  "lastUpdated": "2026-04-20T09:17:07.433Z"
+  "lastUpdated": "2026-04-21T02:50:38.448Z"
 }
