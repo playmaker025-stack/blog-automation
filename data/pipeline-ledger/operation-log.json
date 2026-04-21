@@ -2167,7 +2167,20 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-d191c940",
       "at": "2026-04-21T07:50:10.730Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부평 전자담배 입문 기기 추천",
+      "proposedTitle": "부평 전자담배 입문 기기 고르는 법: 나한테 맞는 유형부터 찾자",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.3846153846153846,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-426f4b58",
+      "at": "2026-04-21T08:24:55.478Z"
     }
   ],
-  "lastUpdated": "2026-04-21T07:50:10.730Z"
+  "lastUpdated": "2026-04-21T08:24:55.478Z"
 }
