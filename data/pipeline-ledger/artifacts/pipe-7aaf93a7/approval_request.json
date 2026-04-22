@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-7aaf93a7",
+  "type": "approval_request",
+  "savedAt": "2026-04-22T03:24:38.509Z",
+  "data": {
+    "pipelineId": "pipe-7aaf93a7",
+    "previousTitle": "",
+    "proposedTitle": "인천에서 전자담배 처음 시작한다면? 입문자 필독 가이드",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "① 키워드 경쟁도 '낮음'(6,630건)으로 신규 블로그도 상위 노출 진입이 유리한 환경입니다. ② naver_content_fetcher 분석 결과, 상위 10개 글 대부분이 특정 매장 홍보 목적의 단순 소개글로 '입문자용 실용 가이드' 형태의 콘텐츠가 전무하여 명확한 차별화 포인트가 존재합니다. ③ 이에 따라 본 전략은 매장 소개가 아닌 '기기 유형 비교 → 액상 선택 기준 → 방문 체크리스트 → 실수 예방' 순서의 교육적 가이드 구조로 설계해 검색 의도(입문 정보 탐색)에 최적화했습니다. ④ 금지 항목(가격 정보, 프로모션)은 전 섹션에서 완전히 제외하고, 기능·사용 편의성·취향 기준으로만 서술하도록 설계했습니다. ⑤ 사용자 A의 프로필과 코퍼스를 확인할 수 없어 기본 'friendly' 톤과 1,800자 분량을 적용했으며, 실제 작성 시 사용자 스타일에 맞게 톤 조정을 권장합니다.",
+    "requestedAt": "2026-04-22T03:24:35.720Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-22T03:24:35.720Z",
+      "modifications": null
+    }
+  }
+}
