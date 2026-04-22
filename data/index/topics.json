@@ -441,7 +441,107 @@
       "assignedUserId": "a",
       "createdAt": "2026-04-22T04:50:02.765Z",
       "updatedAt": "2026-04-22T09:26:58.604Z"
+    },
+    {
+      "topicId": "topic-6d128831",
+      "title": "전자담배 액상 종류와 맛 선택법 총정리",
+      "description": "다양한 전자담배 액상 종류와 맛을 비교하고, 나에게 맞는 액상 선택법을 안내합니다.",
+      "category": "일반",
+      "tags": [
+        "전자담배",
+        "액상",
+        "맛선택",
+        "입문"
+      ],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-04-22T09:47:15.736Z",
+      "updatedAt": "2026-04-22T09:47:15.736Z"
+    },
+    {
+      "topicId": "topic-ebe8db78",
+      "title": "포항 지역에서 인기 있는 전자담배 매장과 구매 팁",
+      "description": "포항 지역 내 전자담배 구매처와 매장별 특징, 구매 시 주의사항을 소개합니다.",
+      "category": "일반",
+      "tags": [
+        "전자담배",
+        "포항",
+        "구매팁",
+        "매장"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-04-22T09:47:15.736Z",
+      "updatedAt": "2026-04-22T09:47:15.736Z"
+    },
+    {
+      "topicId": "topic-5f4ea297",
+      "title": "전자담배 위베이프 브랜드 특징과 인기 제품 리뷰",
+      "description": "위베이프 브랜드의 전자담배 제품 특징과 인기 모델을 상세히 리뷰합니다.",
+      "category": "일반",
+      "tags": [
+        "전자담배",
+        "위베이프",
+        "제품리뷰",
+        "브랜드"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-04-22T09:47:15.736Z",
+      "updatedAt": "2026-04-22T09:47:15.736Z"
+    },
+    {
+      "topicId": "topic-41f0ccef",
+      "title": "전자담배 일회용 제품 비교와 장단점 분석",
+      "description": "다양한 일회용 전자담배 제품을 비교하고, 각각의 장단점을 분석합니다.",
+      "category": "일반",
+      "tags": [
+        "전자담배",
+        "일회용",
+        "비교",
+        "장단점"
+      ],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-04-22T09:47:15.736Z",
+      "updatedAt": "2026-04-22T09:47:15.736Z"
+    },
+    {
+      "topicId": "topic-bed00029",
+      "title": "전자담배 버니 액상 추천과 사용자 후기 정리",
+      "description": "버니 브랜드 액상 추천 제품과 실제 사용자 후기를 모아 소개합니다.",
+      "category": "일반",
+      "tags": [
+        "전자담배",
+        "버니",
+        "액상추천",
+        "사용자후기"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-04-22T09:47:15.736Z",
+      "updatedAt": "2026-04-22T09:47:15.736Z"
     }
   ],
-  "lastUpdated": "2026-04-22T09:47:05.915Z"
+  "lastUpdated": "2026-04-22T09:47:15.736Z"
 }
