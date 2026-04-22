@@ -2340,7 +2340,18 @@
       "errorName": "ae",
       "pipelineId": "pipe-28fd2589",
       "at": "2026-04-22T08:51:41.412Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-21fc35df",
+      "userId": "d",
+      "message": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaJXPHTeHPkp9E5ZaZp7M\"}",
+      "recoveredTopicToDraft": true,
+      "errorName": "ae",
+      "pipelineId": "pipe-28fd2589",
+      "at": "2026-04-22T08:51:44.644Z"
     }
   ],
-  "lastUpdated": "2026-04-22T08:51:41.412Z"
+  "lastUpdated": "2026-04-22T08:51:44.644Z"
 }
