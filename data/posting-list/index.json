@@ -2474,7 +2474,22 @@
       "createdAt": "2026-04-22T09:02:54.578Z",
       "publishedAt": "2026-04-22T09:26:55.451Z",
       "updatedAt": "2026-04-22T09:26:55.953Z"
+    },
+    {
+      "postId": "post-54a904ee",
+      "topicId": "topic-6d128831",
+      "userId": "d",
+      "title": "전자담배 액상 종류와 맛 선택법 총정리 – 입문자도 바로 이해하는 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-9f14f584",
+      "pendingApproval": null,
+      "createdAt": "2026-04-22T10:19:05.971Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-22T10:19:05.971Z"
     }
   ],
-  "lastUpdated": "2026-04-22T09:53:18.862Z"
+  "lastUpdated": "2026-04-22T10:19:05.971Z"
 }
