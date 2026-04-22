@@ -2362,7 +2362,21 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-38628d01",
       "at": "2026-04-22T09:02:48.210Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 기기 선택 가이드 – 입문자를 위한 기기 비교 총정리",
+      "proposedTitle": "전자담배 기기 종류와 차이점 – 입문자가 꼭 알아야 할 선택 기준",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "searchIntentChanged",
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.42307692307692313,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-8f8bc672",
+      "at": "2026-04-22T09:05:19.453Z"
     }
   ],
-  "lastUpdated": "2026-04-22T09:02:48.210Z"
+  "lastUpdated": "2026-04-22T09:05:19.453Z"
 }
