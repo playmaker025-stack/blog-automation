@@ -2444,7 +2444,22 @@
       "createdAt": "2026-04-22T08:49:43.097Z",
       "publishedAt": null,
       "updatedAt": "2026-04-22T08:49:43.097Z"
+    },
+    {
+      "postId": "post-6504f0d0",
+      "topicId": "topic-21fc35df",
+      "userId": "d",
+      "title": "전자담배 기기 선택 가이드 – 입문자를 위한 기기 비교 총정리",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-28fd2589",
+      "pendingApproval": null,
+      "createdAt": "2026-04-22T08:49:48.792Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-22T08:49:48.792Z"
     }
   ],
-  "lastUpdated": "2026-04-22T08:49:43.097Z"
+  "lastUpdated": "2026-04-22T08:49:48.792Z"
 }
