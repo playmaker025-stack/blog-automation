@@ -428,7 +428,20 @@
       "assignedUserId": "d",
       "createdAt": "2026-04-20T09:41:34.746Z",
       "updatedAt": "2026-04-20T09:41:34.746Z"
+    },
+    {
+      "topicId": "topic-03bea05d",
+      "title": "인천 전자담배 만수르 도조 오팔 일회용 기기 리뷰",
+      "description": "",
+      "category": "?쇰컲",
+      "tags": [],
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-04-22T04:50:02.765Z",
+      "updatedAt": "2026-04-22T04:50:02.765Z"
     }
   ],
-  "lastUpdated": "2026-04-22T03:34:54.775Z"
+  "lastUpdated": "2026-04-22T04:50:02.765Z"
 }
