@@ -1,0 +1,68 @@
+{
+  "pipelineId": "pipe-28fd2589",
+  "type": "strategy_plan",
+  "savedAt": "2026-04-22T08:49:40.407Z",
+  "data": {
+    "title": "전자담배 기기 선택 가이드 – 입문자를 위한 기기 비교 총정리",
+    "outline": [
+      {
+        "heading": "전자담배를 찾는 이유",
+        "subPoints": [
+          "검색자가 궁금해하는 상황 정리",
+          "처음 확인해야 할 기준"
+        ],
+        "contentDirection": "도입부에서 독자의 검색 의도와 현재 상황을 자연스럽게 연결합니다.",
+        "estimatedParagraphs": 2
+      },
+      {
+        "heading": "선택 전에 볼 핵심 기준",
+        "subPoints": [
+          "사용 목적",
+          "관리 편의성",
+          "비교할 때 놓치기 쉬운 부분"
+        ],
+        "contentDirection": "가격이나 과장 표현 없이 실제 판단 기준을 목록형으로 풀어냅니다.",
+        "estimatedParagraphs": 3
+      },
+      {
+        "heading": "실제로 비교해볼 포인트",
+        "subPoints": [
+          "방문 전 확인 사항",
+          "상담 시 물어볼 질문",
+          "초보자가 헷갈리는 차이"
+        ],
+        "contentDirection": "구체적인 예시와 체크리스트로 체류 시간을 늘리는 구조를 만듭니다.",
+        "estimatedParagraphs": 3
+      },
+      {
+        "heading": "정리와 다음 확인 사항",
+        "subPoints": [
+          "핵심 요약",
+          "다음에 보면 좋은 관련 주제",
+          "방문 전 준비할 내용"
+        ],
+        "contentDirection": "허브/리프 구조에 맞춰 관련 주제로 이어지는 마무리를 작성합니다.",
+        "estimatedParagraphs": 2
+      }
+    ],
+    "keyPoints": [
+      "검색 의도에 바로 답한다",
+      "과장 없이 실제 선택 기준을 제시한다",
+      "허브/리프 구조에 맞춰 다음 글 흐름을 만든다"
+    ],
+    "estimatedLength": 1800,
+    "tone": "friendly",
+    "keywords": [
+      "전자담배",
+      "기기",
+      "선택",
+      "가이드",
+      "입문자를",
+      "위한",
+      "비교",
+      "총정리"
+    ],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
+    "corpusSummary": null
+  }
+}
