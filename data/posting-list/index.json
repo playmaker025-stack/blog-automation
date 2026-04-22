@@ -2324,7 +2324,22 @@
       "createdAt": "2026-04-14T09:10:48.939Z",
       "publishedAt": null,
       "updatedAt": "2026-04-14T09:10:48.939Z"
+    },
+    {
+      "postId": "post-902081af",
+      "topicId": "topic-32ad4b9e",
+      "userId": "A",
+      "title": "인천에서 전자담배 처음 시작한다면? 입문자 필독 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-7aaf93a7",
+      "pendingApproval": null,
+      "createdAt": "2026-04-22T03:24:36.967Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-22T03:24:36.967Z"
     }
   ],
-  "lastUpdated": "2026-04-22T02:52:17.854Z"
+  "lastUpdated": "2026-04-22T03:24:36.967Z"
 }
