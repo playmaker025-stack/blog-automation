@@ -2468,12 +2468,12 @@
       "status": "ready",
       "naverPostUrl": null,
       "evalScore": null,
-      "wordCount": 2848,
+      "wordCount": 2530,
       "compositionSessionId": "pipe-38628d01",
       "pendingApproval": null,
       "createdAt": "2026-04-22T09:02:54.578Z",
       "publishedAt": null,
-      "updatedAt": "2026-04-22T09:04:38.409Z"
+      "updatedAt": "2026-04-22T09:07:07.529Z"
     },
     {
       "postId": "post-71302e21",
@@ -2491,5 +2491,5 @@
       "updatedAt": "2026-04-22T09:06:57.932Z"
     }
   ],
-  "lastUpdated": "2026-04-22T09:06:57.932Z"
+  "lastUpdated": "2026-04-22T09:07:07.529Z"
 }
