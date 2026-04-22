@@ -398,10 +398,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "a",
       "createdAt": "2026-04-09T10:12:13.980Z",
-      "updatedAt": "2026-04-22T03:26:49.214Z"
+      "updatedAt": "2026-04-22T03:32:38.467Z"
     },
     {
       "topicId": "topic-d9416a48",
@@ -430,5 +430,5 @@
       "updatedAt": "2026-04-20T09:41:34.746Z"
     }
   ],
-  "lastUpdated": "2026-04-22T03:26:49.214Z"
+  "lastUpdated": "2026-04-22T03:32:38.467Z"
 }
