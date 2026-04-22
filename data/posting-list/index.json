@@ -2369,7 +2369,22 @@
       "createdAt": "2026-04-22T04:52:38.605Z",
       "publishedAt": null,
       "updatedAt": "2026-04-22T05:13:53.481Z"
+    },
+    {
+      "postId": "post-69e9da36",
+      "topicId": "topic-578b800a",
+      "userId": "a",
+      "title": "인천 만수르가 직접 써본 도조 오팔 일회용 전자담배 솔직 리뷰",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-bf3d538d",
+      "pendingApproval": null,
+      "createdAt": "2026-04-22T06:27:58.142Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-22T06:27:58.142Z"
     }
   ],
-  "lastUpdated": "2026-04-22T05:13:53.481Z"
+  "lastUpdated": "2026-04-22T06:27:58.142Z"
 }
