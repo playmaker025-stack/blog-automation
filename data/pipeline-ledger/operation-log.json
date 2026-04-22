@@ -2180,7 +2180,20 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-426f4b58",
       "at": "2026-04-21T08:24:55.478Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 전자담배 입문 가이드 테스트",
+      "proposedTitle": "인천에서 전자담배 처음 시작한다면? 입문자 필독 가이드",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.33333333333333337,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-7aaf93a7",
+      "at": "2026-04-22T03:23:56.512Z"
     }
   ],
-  "lastUpdated": "2026-04-21T08:24:55.478Z"
+  "lastUpdated": "2026-04-22T03:23:56.512Z"
 }
