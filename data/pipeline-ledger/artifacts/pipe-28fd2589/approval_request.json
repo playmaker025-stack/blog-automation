@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-28fd2589",
+  "type": "approval_request",
+  "savedAt": "2026-04-22T08:49:50.568Z",
+  "data": {
+    "pipelineId": "pipe-28fd2589",
+    "previousTitle": "",
+    "proposedTitle": "전자담배 기기 선택 가이드 – 입문자를 위한 기기 비교 총정리",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-04-22T08:49:47.614Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-22T08:49:47.614Z",
+      "modifications": null
+    }
+  }
+}
