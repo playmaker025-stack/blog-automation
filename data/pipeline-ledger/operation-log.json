@@ -2376,7 +2376,21 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-8f8bc672",
       "at": "2026-04-22T09:05:19.453Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 액상 종류와 맛 선택법 총정리",
+      "proposedTitle": "전자담배 액상 종류와 맛 선택법 총정리 – 입문자도 바로 이해하는 가이드",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "searchIntentChanged",
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.5333333333333333,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-9f14f584",
+      "at": "2026-04-22T10:19:03.312Z"
     }
   ],
-  "lastUpdated": "2026-04-22T09:05:19.453Z"
+  "lastUpdated": "2026-04-22T10:19:03.312Z"
 }
