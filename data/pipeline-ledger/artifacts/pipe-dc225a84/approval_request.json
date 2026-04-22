@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-dc225a84",
+  "type": "approval_request",
+  "savedAt": "2026-04-22T07:01:50.186Z",
+  "data": {
+    "pipelineId": "pipe-dc225a84",
+    "previousTitle": "",
+    "proposedTitle": "인천 전자담배 만수르 도조 오팔 20000 일회용 기기 솔직 리뷰",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "① 키워드 경쟁도 '낮음'(총 87건)으로 신규 포스팅의 상위 노출 가능성이 높습니다. ② 기존 상위 5개 글을 분석한 결과, 대부분 매장 위치 소개 + 맛 단순 나열 수준에 그치며 배터리·퍼프수·무화량 등 실사용 스펙을 구체적으로 검증한 글이 거의 없습니다. 이 공백을 '스펙 검증 + 맛 비교표' 구조로 파고드는 것이 핵심 차별화 전략입니다. ③ 과거 발행 이력에서 '인천 전자담배 만수르 일회용 베스트 5종', '엘프바 아이스킹 25k 후기' 등 유사 포맷 글이 있어 블로그 토픽 일관성도 유지됩니다. ④ 사용자 프로필의 listicle 선호 구조와 casual 톤을 전면 반영했으며, 20~30대 beginner 독자를 위해 기술적 설명을 최대한 쉽게 풀어쓰는 방향으로 설계했습니다. ⑤ 금지 표현(가격·이벤트·프로모션)은 전략 전체에 포함되지 않았습니다.",
+    "requestedAt": "2026-04-22T07:01:46.745Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-22T07:01:46.745Z",
+      "modifications": null
+    }
+  }
+}
