@@ -2384,7 +2384,22 @@
       "createdAt": "2026-04-22T06:27:58.142Z",
       "publishedAt": null,
       "updatedAt": "2026-04-22T06:32:06.606Z"
+    },
+    {
+      "postId": "post-5ffc6a54",
+      "topicId": "topic-bfdca343",
+      "userId": "a",
+      "title": "인천 전자담배 만수르 도조 오팔 20000 일회용 기기 솔직 리뷰",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-dc225a84",
+      "pendingApproval": null,
+      "createdAt": "2026-04-22T07:01:48.183Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-22T07:01:48.183Z"
     }
   ],
-  "lastUpdated": "2026-04-22T06:32:06.606Z"
+  "lastUpdated": "2026-04-22T07:01:48.183Z"
 }
