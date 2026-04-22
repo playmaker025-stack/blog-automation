@@ -2206,7 +2206,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-615d2283",
       "at": "2026-04-22T03:30:09.822Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 전자담배 만수르 도조 오팔 일회용 기기 리뷰",
+      "proposedTitle": "인천 전자담배 만수르 도조 오팔 일회용 기기 솔직 리뷰 (20000퍼프)",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.6451612903225806,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-7542f705",
+      "at": "2026-04-22T04:51:16.415Z"
     }
   ],
-  "lastUpdated": "2026-04-22T03:30:09.822Z"
+  "lastUpdated": "2026-04-22T04:51:16.415Z"
 }
