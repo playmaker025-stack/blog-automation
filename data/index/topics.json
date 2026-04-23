@@ -541,7 +541,27 @@
       "assignedUserId": "d",
       "createdAt": "2026-04-22T09:47:15.736Z",
       "updatedAt": "2026-04-22T09:47:15.736Z"
+    },
+    {
+      "topicId": "topic-77e11968",
+      "title": "전자담배 액상 맛 표현 제대로 이해하기 가이드",
+      "description": "전자담배 액상에서 맛 표현이 왜 중요한지, 좋은 맛 표현의 기준과 선택법을 자세히 설명합니다.",
+      "category": "전자담배",
+      "tags": [
+        "전자담배",
+        "액상",
+        "맛 표현",
+        "가이드"
+      ],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-04-23T04:24:53.429Z",
+      "updatedAt": "2026-04-23T04:24:53.429Z"
     }
   ],
-  "lastUpdated": "2026-04-22T12:34:06.718Z"
+  "lastUpdated": "2026-04-23T04:24:53.429Z"
 }
