@@ -2504,7 +2504,22 @@
       "createdAt": "2026-04-22T10:41:49.614Z",
       "publishedAt": "2026-04-22T12:34:03.755Z",
       "updatedAt": "2026-04-22T12:34:04.108Z"
+    },
+    {
+      "postId": "post-5beaf101",
+      "topicId": "topic-94a96f60",
+      "userId": "c",
+      "title": "전자담배 액상 보관법 완전 정리 – 유통기한부터 변질 판별까지",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-89e20722",
+      "pendingApproval": null,
+      "createdAt": "2026-04-23T04:28:36.459Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-23T04:28:36.459Z"
     }
   ],
-  "lastUpdated": "2026-04-22T12:34:04.108Z"
+  "lastUpdated": "2026-04-23T04:28:36.459Z"
 }
