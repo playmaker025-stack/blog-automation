@@ -2417,7 +2417,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-89e20722",
       "at": "2026-04-23T04:27:43.622Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 액상 보관법 총정리: 유통기한과 변질 체크법",
+      "proposedTitle": "전자담배 액상 보관법 총정리: 유통기한과 변질 체크법",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-e7c29b32",
+      "at": "2026-04-23T07:34:50.571Z"
     }
   ],
-  "lastUpdated": "2026-04-23T04:27:43.622Z"
+  "lastUpdated": "2026-04-23T07:34:50.571Z"
 }
