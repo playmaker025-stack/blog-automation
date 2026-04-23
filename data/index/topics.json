@@ -582,7 +582,21 @@
       "assignedUserId": "c",
       "createdAt": "2026-04-23T04:24:55.190Z",
       "updatedAt": "2026-04-23T07:31:04.870Z"
+    },
+    {
+      "topicId": "topic-214a8e7d",
+      "title": "전자담배 액상 보관법 총정리: 유통기한과 변질 체크법",
+      "description": "",
+      "category": "direct-run",
+      "tags": [],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-04-23T07:33:13.986Z",
+      "updatedAt": "2026-04-23T07:33:13.986Z"
     }
   ],
-  "lastUpdated": "2026-04-23T07:31:04.870Z"
+  "lastUpdated": "2026-04-23T07:33:13.986Z"
 }
