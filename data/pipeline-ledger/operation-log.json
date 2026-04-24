@@ -2498,7 +2498,20 @@
       "errorName": "Error",
       "pipelineId": "pipe-2e8bc98f",
       "at": "2026-04-24T05:26:14.305Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 전자담배 입문 가이드 테스트",
+      "proposedTitle": "인천 전자담배 입문 가이드 — 기기·액상·매장 선택까지 한 번에",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.40740740740740744,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-527c7409",
+      "at": "2026-04-24T05:29:10.515Z"
     }
   ],
-  "lastUpdated": "2026-04-24T05:26:14.305Z"
+  "lastUpdated": "2026-04-24T05:29:10.515Z"
 }
