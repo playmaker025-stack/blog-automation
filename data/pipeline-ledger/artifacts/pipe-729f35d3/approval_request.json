@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-729f35d3",
+  "type": "approval_request",
+  "savedAt": "2026-04-24T08:23:57.829Z",
+  "data": {
+    "pipelineId": "pipe-729f35d3",
+    "previousTitle": "",
+    "proposedTitle": "인천 전자담배 입문 완전 가이드 — 부평·만수 초보자를 위한 기기·액상 선택법",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "① 키워드 경쟁도 낮음(6,631건) + 최근 30일 업로드 비율 100% → 지금 진입하면 상위 노출 가능성 높음. ② 상위 블로그 5건을 분석한 결과 모두 특정 매장의 신상 입고 홍보 단편글 — 입문자가 실제로 필요한 '기기 유형 선택 → 액상 조합 → 매장 방문 준비' 흐름을 종합적으로 다룬 글이 전무하여 차별화 포지션 확보 가능. ③ 사용자 기존 포스팅(입호흡/폐호흡, 부평 전자담배, 일회용 리뷰)과 연계한 내부 링크 구조로 블로그 체류 시간 및 SEO 신뢰도 제고. ④ 사용자 문체(casual, listicle)와 타깃(20-30대 입문자)에 맞게 번호 리스트·체크리스트 중심 구성. ⑤ Problem-solving 섹션 포함으로 단순 추천글이 아닌 지속 참조형 가이드로 설계 → 재방문 및 저장 유도. ⑥ 부평·만수 로컬 키워드로 사용자 운영 지역 SEO 집중. 예상 Naver SEO 점수: 90+.",
+    "requestedAt": "2026-04-24T08:23:53.934Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-24T08:23:53.934Z",
+      "modifications": null
+    }
+  }
+}
