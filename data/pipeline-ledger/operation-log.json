@@ -2584,7 +2584,20 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-40c42e43",
       "at": "2026-04-24T09:06:36.021Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 버니 액상 추천과 사용자 후기 정리",
+      "proposedTitle": "전자담배 버니 액상 추천 – 맛 계열별 인기 제품과 실사용 후기 정리",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.5925925925925926,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-a45a4453",
+      "at": "2026-04-24T10:41:54.000Z"
     }
   ],
-  "lastUpdated": "2026-04-24T09:06:36.021Z"
+  "lastUpdated": "2026-04-24T10:41:54.000Z"
 }
