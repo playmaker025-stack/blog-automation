@@ -2560,7 +2560,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-729f35d3",
       "at": "2026-04-24T08:23:25.391Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-32ad4b9e",
+      "userId": "a",
+      "message": "Preflight check blocked writing: Same topicId already has approved:post-9fa1f12d, ready:post-902081af, ready:post-2aaa37e8, ready:post-21034d88, ready:post-5c67262c, ready:post-1ebd36a9, ready:post-19d8112a",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-93278fd0",
+      "at": "2026-04-24T09:03:44.943Z"
     }
   ],
-  "lastUpdated": "2026-04-24T08:23:25.391Z"
+  "lastUpdated": "2026-04-24T09:03:44.943Z"
 }
