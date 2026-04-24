@@ -2555,15 +2555,15 @@
       "topicId": "topic-a72b9da1",
       "userId": "c",
       "title": "인천 부평 전자담배 액상 선택법과 인기 브랜드 추천",
-      "status": "ready",
-      "naverPostUrl": null,
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224263778901",
       "evalScore": 17,
       "wordCount": 1485,
       "compositionSessionId": "pipe-11e87164",
       "pendingApproval": null,
       "createdAt": "2026-04-24T05:02:25.232Z",
-      "publishedAt": null,
-      "updatedAt": "2026-04-24T06:16:21.168Z"
+      "publishedAt": "2026-04-24T06:44:04.233Z",
+      "updatedAt": "2026-04-24T06:44:05.241Z"
     },
     {
       "postId": "post-1ebd36a9",
@@ -2581,5 +2581,5 @@
       "updatedAt": "2026-04-24T05:31:25.658Z"
     }
   ],
-  "lastUpdated": "2026-04-24T06:16:21.168Z"
+  "lastUpdated": "2026-04-24T06:44:05.241Z"
 }
