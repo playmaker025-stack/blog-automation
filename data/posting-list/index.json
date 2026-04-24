@@ -2549,7 +2549,22 @@
       "createdAt": "2026-04-24T04:06:41.154Z",
       "publishedAt": null,
       "updatedAt": "2026-04-24T04:08:19.914Z"
+    },
+    {
+      "postId": "post-31e8a138",
+      "topicId": "topic-a72b9da1",
+      "userId": "c",
+      "title": "인천 부평 전자담배 액상 추천과 인기 브랜드 분석",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-11e87164",
+      "pendingApproval": null,
+      "createdAt": "2026-04-24T05:02:25.232Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-24T05:02:25.232Z"
     }
   ],
-  "lastUpdated": "2026-04-24T04:08:19.914Z"
+  "lastUpdated": "2026-04-24T05:02:25.232Z"
 }
