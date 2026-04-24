@@ -2476,7 +2476,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-8040f664",
       "at": "2026-04-24T04:05:08.960Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 부평 전자담배 액상 추천과 인기 브랜드 분석",
+      "proposedTitle": "인천 부평 전자담배 액상 추천과 인기 브랜드 분석",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-11e87164",
+      "at": "2026-04-24T05:01:10.433Z"
     }
   ],
-  "lastUpdated": "2026-04-24T04:05:08.960Z"
+  "lastUpdated": "2026-04-24T05:01:10.433Z"
 }
