@@ -543,26 +543,6 @@
       "updatedAt": "2026-04-22T09:47:15.736Z"
     },
     {
-      "topicId": "topic-77e11968",
-      "title": "전자담배 액상 맛 표현 제대로 이해하기 가이드",
-      "description": "전자담배 액상에서 맛 표현이 왜 중요한지, 좋은 맛 표현의 기준과 선택법을 자세히 설명합니다.",
-      "category": "전자담배",
-      "tags": [
-        "전자담배",
-        "액상",
-        "맛 표현",
-        "가이드"
-      ],
-      "source": "generated",
-      "contentKind": "hub",
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "c",
-      "createdAt": "2026-04-23T04:24:53.429Z",
-      "updatedAt": "2026-04-23T04:24:53.429Z"
-    },
-    {
       "topicId": "topic-94a96f60",
       "title": "전자담배 액상 보관법과 유통기한 제대로 알기",
       "description": "전자담배 액상을 오래 신선하게 보관하는 방법과 유통기한 확인법, 버려야 할 상태를 구분하는 팁을 제공합니다.",
@@ -598,5 +578,5 @@
       "updatedAt": "2026-04-23T07:33:13.986Z"
     }
   ],
-  "lastUpdated": "2026-04-24T04:08:21.241Z"
+  "lastUpdated": "2026-04-24T04:58:17.228Z"
 }
