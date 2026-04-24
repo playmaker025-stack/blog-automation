@@ -2,6 +2,42 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "계산",
+      "phrase": "어, 계산이나 작전동처럼 출퇴근길에 하나 챙기",
+      "title": "인천 전자담배 입문 가이드 — 기기·액상·매장 선택까지 한 번에",
+      "postId": "post-1ebd36a9",
+      "topicId": "topic-32ad4b9e",
+      "userId": "a",
+      "usedAt": "2026-04-24T05:31:23.544Z"
+    },
+    {
+      "keyword": "백운",
+      "phrase": "개동이나 백운 등 인천 시내 매장에서도 입문자",
+      "title": "인천 전자담배 입문 가이드 — 기기·액상·매장 선택까지 한 번에",
+      "postId": "post-1ebd36a9",
+      "topicId": "topic-32ad4b9e",
+      "userId": "a",
+      "usedAt": "2026-04-24T05:31:23.544Z"
+    },
+    {
+      "keyword": "부개동",
+      "phrase": "인천(부평역, 계산, 백운, 부개동, 작전동",
+      "title": "인천 전자담배 입문 가이드 — 기기·액상·매장 선택까지 한 번에",
+      "postId": "post-1ebd36a9",
+      "topicId": "topic-32ad4b9e",
+      "userId": "a",
+      "usedAt": "2026-04-24T05:31:23.544Z"
+    },
+    {
+      "keyword": "작전동",
+      "phrase": "어, 계산이나 작전동처럼 출퇴근길에 하나 챙기",
+      "title": "인천 전자담배 입문 가이드 — 기기·액상·매장 선택까지 한 번에",
+      "postId": "post-1ebd36a9",
+      "topicId": "topic-32ad4b9e",
+      "userId": "a",
+      "usedAt": "2026-04-24T05:31:23.544Z"
+    },
+    {
       "keyword": "주안",
       "phrase": "주안이나 간석",
       "title": "인천 전자담배 입문 완벽 가이드 – 기기·액상·매장까지 한 번에",
@@ -56,5 +92,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-04-24T04:08:17.217Z"
+  "updatedAt": "2026-04-24T05:31:23.544Z"
 }
