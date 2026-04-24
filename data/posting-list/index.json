@@ -2594,7 +2594,22 @@
       "createdAt": "2026-04-24T08:23:56.130Z",
       "publishedAt": null,
       "updatedAt": "2026-04-24T09:09:21.245Z"
+    },
+    {
+      "postId": "post-a7fba80b",
+      "topicId": "topic-32ad4b9e",
+      "userId": "a",
+      "title": "인천 전자담배 입문 완전 정리 – 기기 선택부터 액상까지 초보 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-40c42e43",
+      "pendingApproval": null,
+      "createdAt": "2026-04-24T09:20:34.331Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-24T09:20:34.331Z"
     }
   ],
-  "lastUpdated": "2026-04-24T09:09:21.245Z"
+  "lastUpdated": "2026-04-24T09:20:34.331Z"
 }
