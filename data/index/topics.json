@@ -576,7 +576,28 @@
       "assignedUserId": "c",
       "createdAt": "2026-04-23T07:33:13.986Z",
       "updatedAt": "2026-04-23T07:33:13.986Z"
+    },
+    {
+      "topicId": "topic-a72b9da1",
+      "title": "인천 부평 전자담배 액상 추천과 인기 브랜드 분석",
+      "description": "부평 지역에서 인기 있는 전자담배 액상 브랜드와 추천 제품을 상세히 소개합니다.",
+      "category": "전자담배",
+      "tags": [
+        "전자담배",
+        "액상",
+        "부평",
+        "추천",
+        "브랜드"
+      ],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-04-24T04:59:33.838Z",
+      "updatedAt": "2026-04-24T04:59:33.838Z"
     }
   ],
-  "lastUpdated": "2026-04-24T04:58:17.228Z"
+  "lastUpdated": "2026-04-24T04:59:33.838Z"
 }
