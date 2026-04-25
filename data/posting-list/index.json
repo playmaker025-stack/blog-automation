@@ -2639,7 +2639,22 @@
       "createdAt": "2026-04-25T06:13:22.847Z",
       "publishedAt": null,
       "updatedAt": "2026-04-25T06:15:07.014Z"
+    },
+    {
+      "postId": "post-7e4e7ced",
+      "topicId": "topic-06cb9571",
+      "userId": "b",
+      "title": "부평 전자담배 입문자가 실제로 많이 고르는 기기 기준 5가지 정리",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-191ff9d1",
+      "pendingApproval": null,
+      "createdAt": "2026-04-25T07:07:30.261Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-25T07:07:30.261Z"
     }
   ],
-  "lastUpdated": "2026-04-25T06:15:07.014Z"
+  "lastUpdated": "2026-04-25T07:07:30.261Z"
 }
