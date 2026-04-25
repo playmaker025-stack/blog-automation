@@ -618,7 +618,21 @@
       "assignedUserId": "c",
       "createdAt": "2026-04-24T04:59:35.320Z",
       "updatedAt": "2026-04-25T06:15:08.339Z"
+    },
+    {
+      "topicId": "topic-06cb9571",
+      "title": "부평 전자담배 입문자가 실제로 많이 고르는 기기 기준 정리",
+      "description": "",
+      "category": "direct-run",
+      "tags": [],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-04-25T07:04:38.382Z",
+      "updatedAt": "2026-04-25T07:04:38.382Z"
     }
   ],
-  "lastUpdated": "2026-04-25T06:15:08.339Z"
+  "lastUpdated": "2026-04-25T07:04:38.382Z"
 }
