@@ -2608,7 +2608,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-c79f4d67",
       "at": "2026-04-25T06:05:23.111Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부평 전자담배 입문자가 실제로 많이 고르는 기기 기준 정리",
+      "proposedTitle": "부평 전자담배 입문자가 실제로 많이 고르는 기기 기준 5가지 정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.8888888888888888,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-191ff9d1",
+      "at": "2026-04-25T07:06:23.684Z"
     }
   ],
-  "lastUpdated": "2026-04-25T06:05:23.111Z"
+  "lastUpdated": "2026-04-25T07:06:23.684Z"
 }
