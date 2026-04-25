@@ -2630,15 +2630,15 @@
       "topicId": "topic-7de2c006",
       "userId": "c",
       "title": "만수역 전자담배 기기별 사용법과 유지관리 핵심 가이드",
-      "status": "ready",
-      "naverPostUrl": null,
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224264998918",
       "evalScore": 70,
       "wordCount": 2484,
       "compositionSessionId": "pipe-c79f4d67",
       "pendingApproval": null,
       "createdAt": "2026-04-25T06:13:22.847Z",
-      "publishedAt": null,
-      "updatedAt": "2026-04-25T09:22:28.050Z"
+      "publishedAt": "2026-04-25T11:28:24.046Z",
+      "updatedAt": "2026-04-25T11:28:23.908Z"
     },
     {
       "postId": "post-7e4e7ced",
@@ -2656,5 +2656,5 @@
       "updatedAt": "2026-04-25T10:02:34.794Z"
     }
   ],
-  "lastUpdated": "2026-04-25T10:02:34.794Z"
+  "lastUpdated": "2026-04-25T11:28:23.908Z"
 }
