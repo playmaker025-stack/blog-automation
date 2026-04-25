@@ -632,7 +632,108 @@
       "assignedUserId": "b",
       "createdAt": "2026-04-25T07:04:38.382Z",
       "updatedAt": "2026-04-25T10:02:37.092Z"
+    },
+    {
+      "topicId": "topic-1adbe82e",
+      "title": "인천 부평 전자담배 일회용 제품 인기 순위와 사용 후기",
+      "description": "부평 지역에서 인기 있는 전자담배 일회용 제품을 소개하고 실제 사용 후기를 통해 장단점을 분석합니다.",
+      "category": "전자담배",
+      "tags": [
+        "전자담배",
+        "일회용",
+        "부평",
+        "리뷰"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-04-25T11:28:46.383Z",
+      "updatedAt": "2026-04-25T11:28:46.383Z"
+    },
+    {
+      "topicId": "topic-c1152234",
+      "title": "만수역 주변 전자담배 입호흡 액상 추천과 특징 분석",
+      "description": "만수역 인근에서 인기 있는 입호흡 전자담배 액상을 추천하며 각 액상의 특징과 장점을 상세히 설명합니다.",
+      "category": "전자담배",
+      "tags": [
+        "전자담배",
+        "입호흡",
+        "액상",
+        "만수역"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-04-25T11:28:46.383Z",
+      "updatedAt": "2026-04-25T11:28:46.383Z"
+    },
+    {
+      "topicId": "topic-712a5c70",
+      "title": "인천 전자담배 고농도 액상 선택 가이드와 안전 사용법",
+      "description": "인천 지역 사용자들을 위한 고농도 전자담배 액상 선택 방법과 안전하게 사용하는 팁을 제공합니다.",
+      "category": "전자담배",
+      "tags": [
+        "전자담배",
+        "고농도",
+        "액상",
+        "인천"
+      ],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-04-25T11:28:46.383Z",
+      "updatedAt": "2026-04-25T11:28:46.383Z"
+    },
+    {
+      "topicId": "topic-b732e1fe",
+      "title": "부천 상동 전자담배 네스티 액상 리뷰와 추천 포인트",
+      "description": "부천 상동 지역에서 인기 있는 네스티 브랜드 전자담배 액상을 리뷰하고 추천하는 이유를 자세히 다룹니다.",
+      "category": "전자담배",
+      "tags": [
+        "전자담배",
+        "네스티",
+        "액상",
+        "부천",
+        "상동"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-04-25T11:28:46.383Z",
+      "updatedAt": "2026-04-25T11:28:46.383Z"
+    },
+    {
+      "topicId": "topic-e72854e5",
+      "title": "인천 부평 전자담배 액상과 기기 연동 최적화 방법",
+      "description": "부평 지역 전자담배 사용자들이 액상과 기기를 최적으로 연동하여 사용하는 방법과 팁을 소개합니다.",
+      "category": "전자담배",
+      "tags": [
+        "전자담배",
+        "액상",
+        "기기",
+        "부평"
+      ],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-04-25T11:28:46.383Z",
+      "updatedAt": "2026-04-25T11:28:46.383Z"
     }
   ],
-  "lastUpdated": "2026-04-25T11:28:26.244Z"
+  "lastUpdated": "2026-04-25T11:28:46.383Z"
 }
