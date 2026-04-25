@@ -614,10 +614,10 @@
       "contentKind": "leaf",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "published",
       "assignedUserId": "c",
       "createdAt": "2026-04-24T04:59:35.320Z",
-      "updatedAt": "2026-04-25T06:15:08.339Z"
+      "updatedAt": "2026-04-25T11:28:26.244Z"
     },
     {
       "topicId": "topic-06cb9571",
@@ -634,5 +634,5 @@
       "updatedAt": "2026-04-25T10:02:37.092Z"
     }
   ],
-  "lastUpdated": "2026-04-25T10:02:37.092Z"
+  "lastUpdated": "2026-04-25T11:28:26.244Z"
 }
