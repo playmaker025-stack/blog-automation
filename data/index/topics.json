@@ -628,11 +628,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "b",
       "createdAt": "2026-04-25T07:04:38.382Z",
-      "updatedAt": "2026-04-25T07:04:38.382Z"
+      "updatedAt": "2026-04-25T07:07:29.611Z"
     }
   ],
-  "lastUpdated": "2026-04-25T07:04:38.382Z"
+  "lastUpdated": "2026-04-25T07:07:29.611Z"
 }
