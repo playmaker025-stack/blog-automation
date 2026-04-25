@@ -2597,7 +2597,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-a45a4453",
       "at": "2026-04-24T10:41:54.000Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "만수역 인근 전자담배 기기별 사용법과 유지관리 팁",
+      "proposedTitle": "만수역 전자담배 기기별 사용법과 유지관리 팁 완벽 정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.7391304347826086,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-c79f4d67",
+      "at": "2026-04-25T06:05:23.111Z"
     }
   ],
-  "lastUpdated": "2026-04-24T10:41:54.000Z"
+  "lastUpdated": "2026-04-25T06:05:23.111Z"
 }
