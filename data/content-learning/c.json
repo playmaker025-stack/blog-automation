@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-3a07f3a9",
+      "topicId": "topic-7de2c006",
+      "userId": "c",
+      "title": "만수역 전자담배 기기별 사용법과 유지관리 핵심 가이드",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224264998918",
+      "evalScore": 70,
+      "wordCount": 2484,
+      "publishedAt": "2026-04-25T11:28:24.046Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-04-25T11:28:27.320Z"
+    },
+    {
       "postId": "post-31e8a138",
       "topicId": "topic-a72b9da1",
       "userId": "c",
@@ -28,5 +41,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-04-24T06:44:08.831Z"
+  "updatedAt": "2026-04-25T11:28:27.320Z"
 }
