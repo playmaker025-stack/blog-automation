@@ -66,19 +66,6 @@
       "updatedAt": "2026-04-20T08:42:40.604Z"
     },
     {
-      "topicId": "topic-c52a44ec",
-      "title": "부평 전자담배 처음 방문하면 받는 상담",
-      "description": "",
-      "category": "A블로그",
-      "tags": [],
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "a",
-      "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-14T05:02:16.064Z"
-    },
-    {
       "topicId": "topic-afccca09",
       "title": "전자담배 처음 사러 온 손님들이 가장 많이 하는 질문 정리",
       "description": "",
@@ -722,5 +709,5 @@
       "updatedAt": "2026-04-25T11:28:46.383Z"
     }
   ],
-  "lastUpdated": "2026-04-25T13:27:27.493Z"
+  "lastUpdated": "2026-04-25T13:27:38.692Z"
 }
