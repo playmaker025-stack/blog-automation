@@ -437,26 +437,6 @@
       "updatedAt": "2026-04-22T12:34:06.718Z"
     },
     {
-      "topicId": "topic-ebe8db78",
-      "title": "포항 지역에서 인기 있는 전자담배 매장과 구매 팁",
-      "description": "포항 지역 내 전자담배 구매처와 매장별 특징, 구매 시 주의사항을 소개합니다.",
-      "category": "일반",
-      "tags": [
-        "전자담배",
-        "포항",
-        "구매팁",
-        "매장"
-      ],
-      "source": "generated",
-      "contentKind": "leaf",
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "d",
-      "createdAt": "2026-04-22T09:47:15.736Z",
-      "updatedAt": "2026-04-22T09:47:15.736Z"
-    },
-    {
       "topicId": "topic-5f4ea297",
       "title": "전자담배 위베이프 브랜드 특징과 인기 제품 리뷰",
       "description": "위베이프 브랜드의 전자담배 제품 특징과 인기 모델을 상세히 리뷰합니다.",
@@ -723,5 +703,5 @@
       "updatedAt": "2026-04-26T04:31:07.893Z"
     }
   ],
-  "lastUpdated": "2026-04-26T04:31:07.893Z"
+  "lastUpdated": "2026-04-26T04:32:03.334Z"
 }
