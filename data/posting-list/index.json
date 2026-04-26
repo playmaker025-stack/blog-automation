@@ -2660,16 +2660,16 @@
       "topicId": "topic-c36648b6",
       "userId": "d",
       "title": "전자담배 액상, 과일멘솔과 연초류 비교 및 추천 가이드",
-      "status": "ready",
-      "naverPostUrl": null,
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224265552127",
       "evalScore": 67,
       "wordCount": 2209,
       "compositionSessionId": "pipe-d50814e9",
       "pendingApproval": null,
       "createdAt": "2026-04-26T00:55:35.629Z",
-      "publishedAt": null,
-      "updatedAt": "2026-04-26T03:40:32.615Z"
+      "publishedAt": "2026-04-26T04:31:03.938Z",
+      "updatedAt": "2026-04-26T04:31:05.408Z"
     }
   ],
-  "lastUpdated": "2026-04-26T03:40:32.615Z"
+  "lastUpdated": "2026-04-26T04:31:05.408Z"
 }
