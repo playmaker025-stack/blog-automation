@@ -2619,7 +2619,20 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-191ff9d1",
       "at": "2026-04-25T07:06:23.684Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 액상 과일멘솔을 쓸지 연초류를 쓸지 고민이 된다면?",
+      "proposedTitle": "전자담배 액상 과일멘솔 vs 연초류, 나한테 맞는 건 뭘까?",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.5384615384615384,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-d50814e9",
+      "at": "2026-04-26T00:55:31.494Z"
     }
   ],
-  "lastUpdated": "2026-04-25T07:06:23.684Z"
+  "lastUpdated": "2026-04-26T00:55:31.494Z"
 }
