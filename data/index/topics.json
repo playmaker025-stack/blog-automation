@@ -717,11 +717,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "d",
       "createdAt": "2026-04-26T00:53:43.617Z",
-      "updatedAt": "2026-04-26T00:55:34.947Z"
+      "updatedAt": "2026-04-26T00:57:12.579Z"
     }
   ],
-  "lastUpdated": "2026-04-26T00:55:34.947Z"
+  "lastUpdated": "2026-04-26T00:57:12.579Z"
 }
