@@ -707,7 +707,21 @@
       "assignedUserId": "c",
       "createdAt": "2026-04-25T11:28:46.383Z",
       "updatedAt": "2026-04-25T11:28:46.383Z"
+    },
+    {
+      "topicId": "topic-c36648b6",
+      "title": "전자담배 액상 과일멘솔을 쓸지 연초류를 쓸지 고민이 된다면?",
+      "description": "",
+      "category": "direct-run",
+      "tags": [],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-04-26T00:53:43.617Z",
+      "updatedAt": "2026-04-26T00:53:43.617Z"
     }
   ],
-  "lastUpdated": "2026-04-25T13:27:38.692Z"
+  "lastUpdated": "2026-04-26T00:53:43.617Z"
 }
