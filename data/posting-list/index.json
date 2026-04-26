@@ -2654,7 +2654,22 @@
       "createdAt": "2026-04-25T07:07:30.261Z",
       "publishedAt": "2026-04-25T10:02:31.871Z",
       "updatedAt": "2026-04-25T10:02:34.794Z"
+    },
+    {
+      "postId": "post-63f0c6d4",
+      "topicId": "topic-c36648b6",
+      "userId": "d",
+      "title": "전자담배 액상 과일멘솔 vs 연초류, 나한테 맞는 건 뭘까?",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-d50814e9",
+      "pendingApproval": null,
+      "createdAt": "2026-04-26T00:55:35.629Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-26T00:55:35.629Z"
     }
   ],
-  "lastUpdated": "2026-04-25T11:28:23.908Z"
+  "lastUpdated": "2026-04-26T00:55:35.629Z"
 }
