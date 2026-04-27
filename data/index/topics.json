@@ -739,11 +739,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "d",
       "createdAt": "2026-04-27T10:25:01.662Z",
-      "updatedAt": "2026-04-27T10:26:28.408Z"
+      "updatedAt": "2026-04-27T10:28:59.061Z"
     }
   ],
-  "lastUpdated": "2026-04-27T10:26:28.408Z"
+  "lastUpdated": "2026-04-27T10:28:59.061Z"
 }
