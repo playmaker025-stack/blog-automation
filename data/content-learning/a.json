@@ -2,6 +2,19 @@
   "userId": "a",
   "entries": [
     {
+      "postId": "post-8158a83d",
+      "topicId": "topic-ffb76896",
+      "userId": "a",
+      "title": "서브몽키 BF60 바텀피더 모드기기, 무화량 좋은 하이엔드 전자담배",
+      "naverPostUrl": "https://blog.naver.com/iibodii00/224266939944",
+      "evalScore": 66,
+      "wordCount": 2347,
+      "publishedAt": "2026-04-27T08:19:57.809Z",
+      "topicSource": "direct",
+      "contentKind": null,
+      "learnedAt": "2026-04-27T08:20:02.258Z"
+    },
+    {
       "postId": "post-aace5597",
       "topicId": "topic-03bea05d",
       "userId": "a",
@@ -15,5 +28,5 @@
       "learnedAt": "2026-04-22T09:26:59.763Z"
     }
   ],
-  "updatedAt": "2026-04-22T09:26:59.763Z"
+  "updatedAt": "2026-04-27T08:20:02.258Z"
 }
