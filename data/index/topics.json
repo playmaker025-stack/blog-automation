@@ -729,7 +729,21 @@
       "assignedUserId": "a",
       "createdAt": "2026-04-27T08:54:44.708Z",
       "updatedAt": "2026-04-27T08:54:44.708Z"
+    },
+    {
+      "topicId": "topic-4e57a5d3",
+      "title": "일회용 전자담배와 팟디바이스 전자담배 비교 및 장단점",
+      "description": "",
+      "category": "direct-run",
+      "tags": [],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-04-27T10:25:01.662Z",
+      "updatedAt": "2026-04-27T10:25:01.662Z"
     }
   ],
-  "lastUpdated": "2026-04-27T08:54:44.708Z"
+  "lastUpdated": "2026-04-27T10:25:01.662Z"
 }
