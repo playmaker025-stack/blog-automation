@@ -2684,7 +2684,22 @@
       "createdAt": "2026-04-27T01:56:23.176Z",
       "publishedAt": null,
       "updatedAt": "2026-04-27T01:57:57.222Z"
+    },
+    {
+      "postId": "post-manual-mogw0g66",
+      "topicId": "",
+      "userId": "c",
+      "title": "같은 액상인데 기기 바꾸면 맛이 달라지는 이유",
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224266885566",
+      "wordCount": 0,
+      "evalScore": null,
+      "compositionSessionId": null,
+      "pendingApproval": null,
+      "publishedAt": "2026-04-27T07:40:14.641Z",
+      "createdAt": "2026-04-27T07:40:14.641Z",
+      "updatedAt": "2026-04-27T07:40:14.641Z"
     }
   ],
-  "lastUpdated": "2026-04-27T01:57:57.222Z"
+  "lastUpdated": "2026-04-27T07:40:14.641Z"
 }
