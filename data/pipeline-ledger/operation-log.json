@@ -2720,7 +2720,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-95282e71",
       "at": "2026-04-27T08:56:01.597Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "무화량 많은 하이엔드 전자담배 모드기기 서브몽키 바텀피더 BF 60",
+      "proposedTitle": "무화량 많은 하이엔드 전자담배 모드기기 서브몽키 바텀피더 BF 60",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-40fa5d4a",
+      "at": "2026-04-27T09:09:18.965Z"
     }
   ],
-  "lastUpdated": "2026-04-27T08:56:01.597Z"
+  "lastUpdated": "2026-04-27T09:09:18.965Z"
 }
