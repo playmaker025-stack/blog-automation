@@ -701,7 +701,21 @@
       "assignedUserId": "d",
       "createdAt": "2026-04-26T00:53:43.617Z",
       "updatedAt": "2026-04-26T04:31:07.893Z"
+    },
+    {
+      "topicId": "topic-ffb76896",
+      "title": "무화량 많은 하이엔드 전자담배 모드기기 서브몽키 바텀피더 BF 60",
+      "description": "",
+      "category": "direct-run",
+      "tags": [],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-04-27T01:35:31.762Z",
+      "updatedAt": "2026-04-27T01:35:31.762Z"
     }
   ],
-  "lastUpdated": "2026-04-26T04:32:03.334Z"
+  "lastUpdated": "2026-04-27T01:35:31.762Z"
 }
