@@ -2676,7 +2676,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-ea5bc852",
       "at": "2026-04-27T08:32:54.867Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-ffb76896",
+      "userId": "a",
+      "message": "?좏뵿 ?좏깮 ?ㅽ뙣: 이미 발행된 토픽입니다.",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-7f88e9a1",
+      "at": "2026-04-27T08:33:59.806Z"
     }
   ],
-  "lastUpdated": "2026-04-27T08:32:54.867Z"
+  "lastUpdated": "2026-04-27T08:33:59.806Z"
 }
