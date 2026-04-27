@@ -2699,7 +2699,22 @@
       "publishedAt": "2026-04-27T07:40:14.641Z",
       "createdAt": "2026-04-27T07:40:14.641Z",
       "updatedAt": "2026-04-27T07:40:14.641Z"
+    },
+    {
+      "postId": "post-e67d1655",
+      "topicId": "topic-4e57a5d3",
+      "userId": "d",
+      "title": "일회용 전자담배 vs 팟디바이스 전자담배 – 내 스타일에 맞는 선택은?",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-71826f0a",
+      "pendingApproval": null,
+      "createdAt": "2026-04-27T10:26:29.294Z",
+      "publishedAt": null,
+      "updatedAt": "2026-04-27T10:26:29.294Z"
     }
   ],
-  "lastUpdated": "2026-04-27T08:19:58.026Z"
+  "lastUpdated": "2026-04-27T10:26:29.294Z"
 }
