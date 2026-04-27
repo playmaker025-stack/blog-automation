@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-e93e6d40",
+  "type": "approval_request",
+  "savedAt": "2026-04-27T01:56:24.841Z",
+  "data": {
+    "pipelineId": "pipe-e93e6d40",
+    "previousTitle": "",
+    "proposedTitle": "무화량 많은 하이엔드 전자담배 모드기기 서브몽키 바텀피더 BF 60",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "① 키워드 블루오션: '서브몽키 BF 60' 네이버 검색 결과 0건, '바텀피더 BF MOD' 경쟁도 낮음(106건) — 선점 시 상위 노출 가능성 매우 높음. ② 차별화 각도: 기존 상위 글들은 감성 마케팅·입고 공지 위주로 BF 원리 설명이나 실사용 세팅 데이터가 없음. 본 글은 '바텀피더 원리 → 스펙 → 실사용 수치 → 추천 유저 분류' 흐름으로 정보 밀도를 높여 검색 의도를 완전 충족. ③ 사용자 스타일 반영: 과거 포스팅(하이엔드 싱글 드리퍼 elcigart 러스트 RDA, 무화량 종결 글 등)과 동일한 하이엔드 무화량 라인업 — 허브 글(무화량 종결 글)과 리프 글(elcigart 러스트 RDA)을 내부 링크로 연결 가능. ④ 로컬 SEO: 인천·만수동·남동구 키워드를 마무리 섹션에 자연 배치해 지역 검색 유입 확보. ⑤ 평균 1,500자 스타일에 맞춰 1,600자 목표, 캐주얼 1인칭 톤 유지.",
+    "requestedAt": "2026-04-27T01:56:20.933Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-04-27T01:56:20.933Z",
+      "modifications": null
+    }
+  }
+}
