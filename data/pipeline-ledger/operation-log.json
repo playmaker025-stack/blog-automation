@@ -2731,7 +2731,20 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-40fa5d4a",
       "at": "2026-04-27T09:09:18.965Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "일회용 전자담배와 팟디바이스 전자담배 비교 및 장단점",
+      "proposedTitle": "일회용 전자담배 vs 팟디바이스 전자담배 – 내 스타일에 맞는 선택은?",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.5333333333333333,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-71826f0a",
+      "at": "2026-04-27T10:26:25.020Z"
     }
   ],
-  "lastUpdated": "2026-04-27T09:09:18.965Z"
+  "lastUpdated": "2026-04-27T10:26:25.020Z"
 }
