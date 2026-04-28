@@ -2744,7 +2744,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-71826f0a",
       "at": "2026-04-27T10:26:25.020Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부평 전자담배 액상이 입으로 튈 때 – 매장에서 해결하는 방법",
+      "proposedTitle": "부평 전자담배 액상이 입으로 튈 때 – 매장에서 바로 해결하는 방법",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.9259259259259259,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-1d5126cf",
+      "at": "2026-04-28T10:55:31.652Z"
     }
   ],
-  "lastUpdated": "2026-04-27T10:26:25.020Z"
+  "lastUpdated": "2026-04-28T10:55:31.652Z"
 }
