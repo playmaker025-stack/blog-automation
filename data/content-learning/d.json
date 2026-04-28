@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-bb8481dc",
+      "topicId": "topic-3337fd94",
+      "userId": "d",
+      "title": "부평 전자담배 액상 입 튐 문제, 매장에서 빠르게 해결하는 법",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224268481543",
+      "evalScore": 68,
+      "wordCount": 2515,
+      "publishedAt": "2026-04-28T13:22:19.214Z",
+      "topicSource": "direct",
+      "contentKind": null,
+      "learnedAt": "2026-04-28T13:22:24.466Z"
+    },
+    {
       "postId": "post-63f0c6d4",
       "topicId": "topic-c36648b6",
       "userId": "d",
@@ -41,5 +54,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-04-26T04:31:09.156Z"
+  "updatedAt": "2026-04-28T13:22:24.466Z"
 }
