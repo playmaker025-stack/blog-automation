@@ -588,26 +588,6 @@
       "updatedAt": "2026-04-25T10:02:37.092Z"
     },
     {
-      "topicId": "topic-1adbe82e",
-      "title": "인천 부평 전자담배 일회용 제품 인기 순위와 사용 후기",
-      "description": "부평 지역에서 인기 있는 전자담배 일회용 제품을 소개하고 실제 사용 후기를 통해 장단점을 분석합니다.",
-      "category": "전자담배",
-      "tags": [
-        "전자담배",
-        "일회용",
-        "부평",
-        "리뷰"
-      ],
-      "source": "generated",
-      "contentKind": "leaf",
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "c",
-      "createdAt": "2026-04-25T11:28:46.383Z",
-      "updatedAt": "2026-04-29T07:47:52.423Z"
-    },
-    {
       "topicId": "topic-c1152234",
       "title": "만수역 주변 전자담배 입호흡 액상 추천과 특징 분석",
       "description": "만수역 인근에서 인기 있는 입호흡 전자담배 액상을 추천하며 각 액상의 특징과 장점을 상세히 설명합니다.",
@@ -718,5 +698,5 @@
       "updatedAt": "2026-04-28T13:22:22.930Z"
     }
   ],
-  "lastUpdated": "2026-04-29T07:47:52.423Z"
+  "lastUpdated": "2026-04-29T08:09:50.783Z"
 }
