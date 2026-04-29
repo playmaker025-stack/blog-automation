@@ -648,26 +648,6 @@
       "updatedAt": "2026-04-25T11:28:46.383Z"
     },
     {
-      "topicId": "topic-e72854e5",
-      "title": "인천 부평 전자담배 액상과 기기 연동 최적화 방법",
-      "description": "부평 지역 전자담배 사용자들이 액상과 기기를 최적으로 연동하여 사용하는 방법과 팁을 소개합니다.",
-      "category": "전자담배",
-      "tags": [
-        "전자담배",
-        "액상",
-        "기기",
-        "부평"
-      ],
-      "source": "generated",
-      "contentKind": "hub",
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "c",
-      "createdAt": "2026-04-25T11:28:46.383Z",
-      "updatedAt": "2026-04-25T11:28:46.383Z"
-    },
-    {
       "topicId": "topic-c36648b6",
       "title": "전자담배 액상 과일멘솔을 쓸지 연초류를 쓸지 고민이 된다면?",
       "description": "",
@@ -738,5 +718,5 @@
       "updatedAt": "2026-04-28T13:22:22.930Z"
     }
   ],
-  "lastUpdated": "2026-04-29T07:22:16.686Z"
+  "lastUpdated": "2026-04-29T07:24:21.938Z"
 }
