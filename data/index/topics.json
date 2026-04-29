@@ -602,10 +602,10 @@
       "contentKind": "leaf",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-04-25T11:28:46.383Z",
-      "updatedAt": "2026-04-29T07:46:09.735Z"
+      "updatedAt": "2026-04-29T07:47:52.423Z"
     },
     {
       "topicId": "topic-c1152234",
@@ -718,5 +718,5 @@
       "updatedAt": "2026-04-28T13:22:22.930Z"
     }
   ],
-  "lastUpdated": "2026-04-29T07:46:09.735Z"
+  "lastUpdated": "2026-04-29T07:47:52.423Z"
 }
