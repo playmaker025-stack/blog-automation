@@ -2755,7 +2755,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-1d5126cf",
       "at": "2026-04-28T10:55:31.652Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 부평 전자담배 일회용 제품 인기 순위와 사용 후기",
+      "proposedTitle": "인천 부평 전자담배 일회용 인기 제품 순위와 실사용 후기",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.782608695652174,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-a9adfd1b",
+      "at": "2026-04-29T07:42:19.147Z"
     }
   ],
-  "lastUpdated": "2026-04-28T10:55:31.652Z"
+  "lastUpdated": "2026-04-29T07:42:19.147Z"
 }
