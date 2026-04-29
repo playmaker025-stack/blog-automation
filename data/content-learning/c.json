@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-0c7f0253",
+      "topicId": "topic-712a5c70",
+      "userId": "c",
+      "title": "인천 전자담배 고농도 액상 선택과 안전 사용법 총정리",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224269530819",
+      "evalScore": 59,
+      "wordCount": 2594,
+      "publishedAt": "2026-04-29T09:48:38.476Z",
+      "topicSource": "generated",
+      "contentKind": "hub",
+      "learnedAt": "2026-04-29T09:48:42.868Z"
+    },
+    {
       "postId": "post-3a07f3a9",
       "topicId": "topic-7de2c006",
       "userId": "c",
@@ -41,5 +54,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-04-25T11:28:27.320Z"
+  "updatedAt": "2026-04-29T09:48:42.868Z"
 }
