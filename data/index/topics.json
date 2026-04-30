@@ -588,26 +588,6 @@
       "updatedAt": "2026-04-25T10:02:37.092Z"
     },
     {
-      "topicId": "topic-c1152234",
-      "title": "만수역 주변 전자담배 입호흡 액상 추천과 특징 분석",
-      "description": "만수역 인근에서 인기 있는 입호흡 전자담배 액상을 추천하며 각 액상의 특징과 장점을 상세히 설명합니다.",
-      "category": "전자담배",
-      "tags": [
-        "전자담배",
-        "입호흡",
-        "액상",
-        "만수역"
-      ],
-      "source": "generated",
-      "contentKind": "leaf",
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "c",
-      "createdAt": "2026-04-25T11:28:46.383Z",
-      "updatedAt": "2026-04-25T11:28:46.383Z"
-    },
-    {
       "topicId": "topic-712a5c70",
       "title": "인천 전자담배 고농도 액상 선택 가이드와 안전 사용법",
       "description": "인천 지역 사용자들을 위한 고농도 전자담배 액상 선택 방법과 안전하게 사용하는 팁을 제공합니다.",
@@ -698,5 +678,5 @@
       "updatedAt": "2026-04-28T13:22:22.930Z"
     }
   ],
-  "lastUpdated": "2026-04-29T09:48:41.447Z"
+  "lastUpdated": "2026-04-30T02:53:31.235Z"
 }
