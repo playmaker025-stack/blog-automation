@@ -756,7 +756,27 @@
       "assignedUserId": "b",
       "createdAt": "2026-05-02T08:24:01.399Z",
       "updatedAt": "2026-05-02T08:24:01.399Z"
+    },
+    {
+      "topicId": "topic-8a689463",
+      "title": "만수동 전자담배 액상 보관법과 신선도 유지 팁",
+      "description": "만수동 전자담배 사용자들이 액상의 맛과 향을 오래 유지할 수 있는 보관 방법과 주의사항을 상세히 설명합니다.",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "액상보관",
+        "신선도"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-05-02T08:24:02.791Z",
+      "updatedAt": "2026-05-02T08:24:02.791Z"
     }
   ],
-  "lastUpdated": "2026-05-02T08:24:01.399Z"
+  "lastUpdated": "2026-05-02T08:24:02.791Z"
 }
