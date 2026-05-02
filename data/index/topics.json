@@ -716,7 +716,27 @@
       "assignedUserId": "b",
       "createdAt": "2026-05-02T08:23:58.103Z",
       "updatedAt": "2026-05-02T08:23:58.103Z"
+    },
+    {
+      "topicId": "topic-93930ab7",
+      "title": "만수동 전자담배 고농도 액상 인기 제품과 사용 후기",
+      "description": "만수동 지역에서 인기 있는 고농도 입호흡 액상 제품들을 실제 사용자 후기를 통해 상세히 소개합니다.",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "고농도액상",
+        "사용후기"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-05-02T08:23:59.915Z",
+      "updatedAt": "2026-05-02T08:23:59.915Z"
     }
   ],
-  "lastUpdated": "2026-05-02T08:23:58.103Z"
+  "lastUpdated": "2026-05-02T08:23:59.915Z"
 }
