@@ -2,6 +2,19 @@
   "userId": "b",
   "entries": [
     {
+      "postId": "post-3c412c7b",
+      "topicId": "topic-bbfcb4ec",
+      "userId": "b",
+      "title": "구월동 전자담배 액상 추천: 입문자 인기 3종 비교",
+      "naverPostUrl": "https://blog.naver.com/youferst/224272638838",
+      "evalScore": 66,
+      "wordCount": 2498,
+      "publishedAt": "2026-05-02T10:01:23.755Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-05-02T10:01:35.471Z"
+    },
+    {
       "postId": "post-7e4e7ced",
       "topicId": "topic-06cb9571",
       "userId": "b",
@@ -15,5 +28,5 @@
       "learnedAt": "2026-04-25T10:02:38.491Z"
     }
   ],
-  "updatedAt": "2026-04-25T10:02:38.491Z"
+  "updatedAt": "2026-05-02T10:01:35.471Z"
 }
