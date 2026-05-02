@@ -2777,7 +2777,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-c32e355e",
       "at": "2026-04-29T08:11:26.100Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "구월동 전자담배 매장 기준 입문자가 자주 찾는 액상 3종 비교",
+      "proposedTitle": "구월동 전자담배 매장 기준 입문자가 자주 찾는 액상 3종 비교",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-b36ff004",
+      "at": "2026-05-02T08:25:52.259Z"
     }
   ],
-  "lastUpdated": "2026-04-29T08:11:26.100Z"
+  "lastUpdated": "2026-05-02T08:25:52.259Z"
 }
