@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-b36ff004",
+  "type": "approval_request",
+  "savedAt": "2026-05-02T08:28:41.650Z",
+  "data": {
+    "pipelineId": "pipe-b36ff004",
+    "previousTitle": "",
+    "proposedTitle": "구월동 전자담배 매장 기준 입문자가 자주 찾는 액상 3종 비교",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "topic_feasibility_judge 결과 점수 100, 허용 주제 확정. review_record_audit 기준 구월동 관련 기존 발행 글은 '하루 사용량 기준 정리'(2026-04-06)와 '고농도 입호흡 액상 알아야 할 5가지'(2026-03-03)로, 본 토픽의 '입문자 자주 찾는 액상 3종 비교' 각도는 topicId 및 제목 구조 모두 중복 없음. naver_keyword_research 결과 '구월동 전자담배 액상' 경쟁도 낮음(블로그 11,987건), '입호흡 액상 비교 추천' 경쟁도 낮음(22,413건)으로 신규 노출 가능성 높음. 상위 노출 경쟁 글들은 단일 제품 리뷰나 기기 중심 소개가 대부분으로 '유형별 비교 + 유저 타입 매칭' 구조의 공백이 확인됨. B블로그 특성(캐주얼 톤, 리스트형, 20~30대 입문자 타겟)에 최적화된 구성이며, 검색의도(어떤 액상이 나한테 맞나?)를 도입부부터 마무리까지 직접 충족하는 전개로 Naver SEO 90+ 달성 가능 구조로 설계.",
+    "requestedAt": "2026-05-02T08:28:38.159Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-02T08:28:38.159Z",
+      "modifications": null
+    }
+  }
+}
