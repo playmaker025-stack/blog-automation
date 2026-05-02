@@ -676,7 +676,27 @@
       "assignedUserId": "d",
       "createdAt": "2026-04-28T10:54:11.313Z",
       "updatedAt": "2026-04-28T13:22:22.930Z"
+    },
+    {
+      "topicId": "topic-b9cb49ed",
+      "title": "만수동 전자담배 기기별 장단점 비교와 추천",
+      "description": "만수동 지역에서 인기 있는 전자담배 기기들의 특징과 실제 사용자 리뷰를 바탕으로 장단점을 비교 분석합니다.",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "기기추천",
+        "사용후기"
+      ],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-05-02T08:23:56.495Z",
+      "updatedAt": "2026-05-02T08:23:56.495Z"
     }
   ],
-  "lastUpdated": "2026-04-30T02:53:31.235Z"
+  "lastUpdated": "2026-05-02T08:23:56.495Z"
 }
