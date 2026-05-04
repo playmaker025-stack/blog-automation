@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-fc6bfed7",
+  "type": "approval_request",
+  "savedAt": "2026-05-04T05:28:28.262Z",
+  "data": {
+    "pipelineId": "pipe-fc6bfed7",
+    "previousTitle": "",
+    "proposedTitle": "인천 부평 전자담배 금연구역 과태료 & 법적 기준 총정리 – 2026 최신 개정 반영",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "1) 실현가능성: topic_feasibility_judge 점수 100/feasible, 금지 주제(금연 방법·라에딜·구매비교) 해당 없음. 2) 중복 리스크 없음: review_record_audit 48건 발행 이력 중 금연구역·과태료·법적 기준 각도의 글 없음. 가장 근접한 '인천 부평 전자담배 액상 선택법'(evalScore 17)과 주제 완전 상이. 3) 검색 수요: naver_keyword_research 기준 블로그 결과 221건·경쟁도 LOW·최근 30일 비율 100%로 신규 수요 집중 확인. 상위 노출 글 대부분이 뉴스 스크랩·일반 정보 나열 수준으로 부평 지역 특화 + 흡연자·운영자 양방향 + 신고 절차까지 다룬 글이 없어 차별화 공간 충분. 4) 구조 전략: 상위 글 공통 누락 포인트(구체적 금액·지역 단속 주체·신고 채널·이의신청 절차)를 모두 포함해 검색의도 직접 충족. 정상/비정상 구분·원인·체크포인트·해결 순서를 지켜 문제해결 구조 완비. 5) 허브/리프 연결: 허브 토픽 '인천 부평 전자담배 액상 선택법 및 인기 브랜드 추천'(post-31e8a138)을 본문 내 앵커로 연결, 리프 토픽으로 '부평역전자담배 DJ쥬스 입호흡 액상 후기'(post-import-329fafd48c) 연결 예정. 6) 스타일 적합성: 사용자 tone=casual, preferredStructure=listicle, averagePostLength=1500에 맞춰 표·번호목록 중심 1750자 구성.\n\n[사용자 승인 후 추가 수정 요청]\n키워드 단어 횟수를 너가 알아서 적정 횟수로 맞춰서 작성해줘",
+    "requestedAt": "2026-05-04T05:28:23.544Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-04T05:28:23.544Z",
+      "modifications": "키워드 단어 횟수를 너가 알아서 적정 횟수로 맞춰서 작성해줘"
+    }
+  }
+}
