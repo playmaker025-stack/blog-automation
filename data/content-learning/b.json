@@ -2,6 +2,19 @@
   "userId": "b",
   "entries": [
     {
+      "postId": "post-a22caaa6",
+      "topicId": "topic-b9cb49ed",
+      "userId": "b",
+      "title": "만수동 전자담배 기기별 장단점과 추천 가이드",
+      "naverPostUrl": "https://blog.naver.com/youferst/224274819132",
+      "evalScore": 69,
+      "wordCount": 2628,
+      "publishedAt": "2026-05-04T12:55:27.543Z",
+      "topicSource": "generated",
+      "contentKind": "hub",
+      "learnedAt": "2026-05-04T12:55:35.440Z"
+    },
+    {
       "postId": "post-3c412c7b",
       "topicId": "topic-bbfcb4ec",
       "userId": "b",
@@ -28,5 +41,5 @@
       "learnedAt": "2026-04-25T10:02:38.491Z"
     }
   ],
-  "updatedAt": "2026-05-02T10:01:35.471Z"
+  "updatedAt": "2026-05-04T12:55:35.440Z"
 }
