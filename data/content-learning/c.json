@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-9b7617b2",
+      "topicId": "topic-1b87c1d6",
+      "userId": "c",
+      "title": "인천 부평 전자담배 금연구역과 과태료 최신 안내",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224274642760",
+      "evalScore": 62,
+      "wordCount": 2201,
+      "publishedAt": "2026-05-04T09:31:51.382Z",
+      "topicSource": "generated",
+      "contentKind": "hub",
+      "learnedAt": "2026-05-04T09:31:56.445Z"
+    },
+    {
       "postId": "post-0c7f0253",
       "topicId": "topic-712a5c70",
       "userId": "c",
@@ -54,5 +67,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-04-29T09:48:42.868Z"
+  "updatedAt": "2026-05-04T09:31:56.445Z"
 }
