@@ -926,7 +926,24 @@
       "assignedUserId": "a",
       "createdAt": "2026-05-04T09:52:59.812Z",
       "updatedAt": "2026-05-04T09:52:59.812Z"
+    },
+    {
+      "topicId": "topic-03dc93eb",
+      "title": "전자담배 추천 입호흡,인천 전자담배 , 만수동만수르,",
+      "description": "메인키워드: 전자담배 추천 / 서브 키워드: 입호흡,인천 전자담배 , 만수동만수르,",
+      "category": "direct-run",
+      "tags": [
+        "전자담배 추천",
+        "입호흡,인천 전자담배 , 만수동만수르,"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-05-04T10:02:49.964Z",
+      "updatedAt": "2026-05-04T10:02:49.964Z"
     }
   ],
-  "lastUpdated": "2026-05-04T09:52:59.812Z"
+  "lastUpdated": "2026-05-04T10:02:49.964Z"
 }
