@@ -840,7 +840,27 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-04T05:24:03.737Z",
       "updatedAt": "2026-05-04T05:24:03.737Z"
+    },
+    {
+      "topicId": "topic-e1aa6103",
+      "title": "만수역 전자담배 액상 종류별 특징과 안전 사용법 비교",
+      "description": "만수역 인근에서 인기 있는 전자담배 액상 종류별 특징과 안전하게 사용하는 방법을 비교 분석합니다.",
+      "category": "전자담배",
+      "tags": [
+        "만수역",
+        "액상비교",
+        "안전사용",
+        "전자담배"
+      ],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-05-04T05:24:05.479Z",
+      "updatedAt": "2026-05-04T05:24:05.479Z"
     }
   ],
-  "lastUpdated": "2026-05-04T05:24:03.737Z"
+  "lastUpdated": "2026-05-04T05:24:05.479Z"
 }
