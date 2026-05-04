@@ -2882,7 +2882,21 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-db95791c",
       "at": "2026-05-04T09:54:15.544Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 추천 입호흡,인천 전자담배 , 만수동만수르,",
+      "proposedTitle": "인천 만수동 전자담배 추천 입호흡 기기 총정리 – 만수르가 직접 고른 픽",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "searchIntentChanged",
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.31034482758620685,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-b210df72",
+      "at": "2026-05-04T10:04:19.805Z"
     }
   ],
-  "lastUpdated": "2026-05-04T09:54:15.544Z"
+  "lastUpdated": "2026-05-04T10:04:19.805Z"
 }
