@@ -798,7 +798,29 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-04T05:22:19.939Z",
       "updatedAt": "2026-05-04T05:22:19.939Z"
+    },
+    {
+      "topicId": "topic-6223cd66",
+      "title": "만수역 전자담배 기기별 고장 원인과 간단 수리법 안내",
+      "description": "만수역 인근에서 많이 사용하는 전자담배 기기별 고장 유형과 사용자가 직접 할 수 있는 간단한 수리 방법을 정리합니다.",
+      "category": "전자담배",
+      "tags": [
+        "만수역",
+        "전자담배",
+        "기기",
+        "고장",
+        "수리",
+        "팁"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-05-04T05:23:14.674Z",
+      "updatedAt": "2026-05-04T05:23:14.674Z"
     }
   ],
-  "lastUpdated": "2026-05-04T05:22:19.939Z"
+  "lastUpdated": "2026-05-04T05:23:14.674Z"
 }
