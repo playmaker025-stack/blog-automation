@@ -895,7 +895,21 @@
       "assignedUserId": "a",
       "createdAt": "2026-05-04T08:22:48.321Z",
       "updatedAt": "2026-05-04T08:22:48.321Z"
+    },
+    {
+      "topicId": "topic-0e47a91a",
+      "title": "전자담배 추천 인천 만수동만수르",
+      "description": "",
+      "category": "direct-run",
+      "tags": [],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-05-04T08:23:04.187Z",
+      "updatedAt": "2026-05-04T08:23:04.187Z"
     }
   ],
-  "lastUpdated": "2026-05-04T08:22:48.321Z"
+  "lastUpdated": "2026-05-04T08:23:04.187Z"
 }
