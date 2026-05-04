@@ -692,10 +692,10 @@
       "contentKind": "hub",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "b",
       "createdAt": "2026-05-02T08:23:56.495Z",
-      "updatedAt": "2026-05-02T08:23:56.495Z"
+      "updatedAt": "2026-05-04T06:27:12.484Z"
     },
     {
       "topicId": "topic-f5069fc3",
@@ -883,5 +883,5 @@
       "updatedAt": "2026-05-04T05:24:07.241Z"
     }
   ],
-  "lastUpdated": "2026-05-04T05:29:56.451Z"
+  "lastUpdated": "2026-05-04T06:27:12.484Z"
 }
