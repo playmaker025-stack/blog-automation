@@ -776,7 +776,29 @@
       "assignedUserId": "b",
       "createdAt": "2026-05-02T08:24:02.791Z",
       "updatedAt": "2026-05-02T08:24:02.791Z"
+    },
+    {
+      "topicId": "topic-1b87c1d6",
+      "title": "인천 부평 전자담배 금연구역 과태료 및 법적 기준 정리",
+      "description": "인천 부평 지역 전자담배 사용 시 적용되는 금연구역 규정과 과태료 부과 기준, 법적 쟁점에 대해 알기 쉽게 정리합니다.",
+      "category": "전자담배",
+      "tags": [
+        "인천",
+        "부평",
+        "전자담배",
+        "금연구역",
+        "과태료",
+        "법적기준"
+      ],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-05-04T05:22:19.939Z",
+      "updatedAt": "2026-05-04T05:22:19.939Z"
     }
   ],
-  "lastUpdated": "2026-05-02T10:01:34.208Z"
+  "lastUpdated": "2026-05-04T05:22:19.939Z"
 }
