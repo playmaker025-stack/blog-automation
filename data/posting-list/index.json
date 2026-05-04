@@ -2945,15 +2945,15 @@
       "topicId": "topic-b9cb49ed",
       "userId": "b",
       "title": "만수동 전자담배 기기별 장단점과 추천 가이드",
-      "status": "ready",
-      "naverPostUrl": null,
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/youferst/224274819132",
       "evalScore": 69,
       "wordCount": 2628,
       "compositionSessionId": "pipe-920a5489",
       "pendingApproval": null,
       "createdAt": "2026-05-04T06:27:13.338Z",
-      "publishedAt": null,
-      "updatedAt": "2026-05-04T12:55:25.401Z"
+      "publishedAt": "2026-05-04T12:55:27.543Z",
+      "updatedAt": "2026-05-04T12:55:31.119Z"
     },
     {
       "postId": "post-a58671ee",
@@ -2971,5 +2971,5 @@
       "updatedAt": "2026-05-04T10:07:43.673Z"
     }
   ],
-  "lastUpdated": "2026-05-04T12:55:25.401Z"
+  "lastUpdated": "2026-05-04T12:55:31.119Z"
 }
