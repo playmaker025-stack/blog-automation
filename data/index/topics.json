@@ -881,7 +881,21 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-04T05:24:07.241Z",
       "updatedAt": "2026-05-04T05:24:07.241Z"
+    },
+    {
+      "topicId": "topic-bfe4c3ed",
+      "title": "인천 전자담배 추천",
+      "description": "",
+      "category": "direct-run",
+      "tags": [],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-05-04T08:22:48.321Z",
+      "updatedAt": "2026-05-04T08:22:48.321Z"
     }
   ],
-  "lastUpdated": "2026-05-04T06:29:02.870Z"
+  "lastUpdated": "2026-05-04T08:22:48.321Z"
 }
