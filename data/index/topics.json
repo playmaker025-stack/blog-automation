@@ -860,7 +860,28 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-04T05:24:05.479Z",
       "updatedAt": "2026-05-04T05:24:05.479Z"
+    },
+    {
+      "topicId": "topic-5acf5c1b",
+      "title": "부천 상동 전자담배 담배연기 알레르기 증상과 대처법",
+      "description": "부천 상동 지역에서 전자담배 담배연기만 맡아도 비강과 기도가 붓는 증상에 대한 원인과 대처법을 설명합니다.",
+      "category": "전자담배",
+      "tags": [
+        "부천",
+        "상동",
+        "담배연기",
+        "알레르기",
+        "대처법"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-05-04T05:24:07.241Z",
+      "updatedAt": "2026-05-04T05:24:07.241Z"
     }
   ],
-  "lastUpdated": "2026-05-04T05:24:05.479Z"
+  "lastUpdated": "2026-05-04T05:24:07.241Z"
 }
