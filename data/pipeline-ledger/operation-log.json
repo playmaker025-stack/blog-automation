@@ -2828,7 +2828,20 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-920a5489",
       "at": "2026-05-04T06:27:09.022Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 추천 인천 만수동만수르",
+      "proposedTitle": "전자담배 추천 인천 만수동만수르 – 기기 유형별로 딱 맞는 선택 기준 정리",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.4666666666666667,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-12fd3e30",
+      "at": "2026-05-04T08:24:12.626Z"
     }
   ],
-  "lastUpdated": "2026-05-04T06:27:09.022Z"
+  "lastUpdated": "2026-05-04T08:24:12.626Z"
 }
