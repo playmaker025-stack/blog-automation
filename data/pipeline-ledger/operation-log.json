@@ -2841,7 +2841,20 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-12fd3e30",
       "at": "2026-05-04T08:24:12.626Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 전자담배 추천",
+      "proposedTitle": "인천 전자담배 추천, 유형별로 딱 맞는 기기 고르는 법",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.36363636363636365,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-7718a428",
+      "at": "2026-05-04T08:24:18.203Z"
     }
   ],
-  "lastUpdated": "2026-05-04T08:24:12.626Z"
+  "lastUpdated": "2026-05-04T08:24:18.203Z"
 }
