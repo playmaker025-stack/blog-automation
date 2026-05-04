@@ -2813,7 +2813,22 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-c260da63",
       "at": "2026-05-04T06:22:09.537Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "만수동 전자담배 기기별 장단점 비교와 추천",
+      "proposedTitle": "만수동 전자담배 기기별 장단점 비교와 추천 (입문자·경험자 유형별 정리)",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "searchIntentChanged",
+        "coreKeywordChanged",
+        "articleAngleChanged"
+      ],
+      "stringSimilarity": 0.5625,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-920a5489",
+      "at": "2026-05-04T06:27:09.022Z"
     }
   ],
-  "lastUpdated": "2026-05-04T06:22:09.537Z"
+  "lastUpdated": "2026-05-04T06:27:09.022Z"
 }
