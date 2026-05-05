@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-392fb1ed",
+  "type": "approval_request",
+  "savedAt": "2026-05-05T02:44:12.607Z",
+  "data": {
+    "pipelineId": "pipe-392fb1ed",
+    "previousTitle": "",
+    "proposedTitle": "부천 상동 전자담배 연기 맡으면 코·기도가 붓는 이유와 대처법",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "【타당성】 topic_feasibility_judge 점수 100점, 블로킹 이슈 없음. 지역명 부천·상동 모두 허용 로컬리티 내 포함 확인.\n\n【중복 리스크】 review_record_audit 49건 발행 이력 중 '담배연기 알레르기 증상 대처법' 제목이나 유사 topicId 없음. 중복 없이 신규 발행 가능.\n\n【검색 수요】 naver_keyword_research 블로그 총 36,982건(경쟁도 medium), 최근 30일 비율 100%로 현재 활성 수요 확인. 롱테일 제안 '담배연기 알레르기 증상 비염', '기침', '병원' 방향 반영.\n\n【커뮤니티 니즈】 naver_cafe_search(285건): '비염과 담배연기' 반복 언급, 혈관성비염·비강 붓기 관련 실수요 확인. naver_kin_search: '기침이 자주 나는 이유(부천 기도과민증)', '코막힘이 계속됩니다(부천 비후성비염)', '담배연기 맡으면 가슴 아프고 기침 – 천식인가요?' 등 부천 로컬 기반 반복 질문 확인.\n\n【상위 글 차별화】 naver_content_fetcher 분석 결과 기존 상위 글 공통 약점 세 가지 파악: ① 비강→기도 단계별 메커니즘 미흡, ② 현장 즉각 대처법 부재, ③ 전자담배 연기 특이성 설명 없음. 이 세 파트를 핵심 차별화 포인트로 배치.\n\n【블로그 적합성】 사용자 문체 casual + listicle 구조, 평균 1,500자 기준으로 1,750자 타깃 설정. 전자담배 카테고리 내 문제해결형 글로, 기존 허브 글('인천 부평 전자담배 금연구역 안내', evalScore 62)의 리프 글로 내부 링크 연결 가능.\n\n[사용자 승인 후 추가 수정 요청]\n제목에 \"알레르기\" 라는 단어를 넣어서 자연스럽게 만들어줘",
+    "requestedAt": "2026-05-05T02:44:07.618Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-05T02:44:07.618Z",
+      "modifications": "제목에 \"알레르기\" 라는 단어를 넣어서 자연스럽게 만들어줘"
+    }
+  }
+}
