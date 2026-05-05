@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-6a9ebb23",
+      "topicId": "topic-5acf5c1b",
+      "userId": "c",
+      "title": "부천 상동 전자담배 연기 알레르기? 코·기도 붓는 이유와 대처법",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224275412143",
+      "evalScore": 64,
+      "wordCount": 2872,
+      "publishedAt": "2026-05-05T05:37:21.874Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-05-05T05:37:26.825Z"
+    },
+    {
       "postId": "post-9b7617b2",
       "topicId": "topic-1b87c1d6",
       "userId": "c",
@@ -67,5 +80,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-05-04T09:31:56.445Z"
+  "updatedAt": "2026-05-05T05:37:26.825Z"
 }
