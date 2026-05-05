@@ -877,10 +877,10 @@
       "contentKind": "leaf",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "published",
       "assignedUserId": "c",
       "createdAt": "2026-05-04T05:24:07.241Z",
-      "updatedAt": "2026-05-05T02:46:16.271Z"
+      "updatedAt": "2026-05-05T05:37:25.511Z"
     },
     {
       "topicId": "topic-bfe4c3ed",
@@ -945,5 +945,5 @@
       "updatedAt": "2026-05-04T10:07:45.281Z"
     }
   ],
-  "lastUpdated": "2026-05-05T02:46:16.271Z"
+  "lastUpdated": "2026-05-05T05:37:25.511Z"
 }
