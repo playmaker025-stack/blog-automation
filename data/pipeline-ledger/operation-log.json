@@ -2997,7 +2997,20 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-8b9921bf",
       "at": "2026-05-06T06:37:21.040Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "포켓코리아 아머미니 인천,입호흡,만수동만수르",
+      "proposedTitle": "포켓코리아 아머미니, 인천 만수동만수르에서 직접 써봤습니다 – 입호흡 전자담배 솔직 리뷰",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.3589743589743589,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-911060e8",
+      "at": "2026-05-06T09:47:56.198Z"
     }
   ],
-  "lastUpdated": "2026-05-06T06:37:21.040Z"
+  "lastUpdated": "2026-05-06T09:47:56.198Z"
 }
