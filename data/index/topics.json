@@ -994,7 +994,24 @@
       "assignedUserId": "a",
       "createdAt": "2026-05-06T06:35:46.277Z",
       "updatedAt": "2026-05-06T09:00:23.564Z"
+    },
+    {
+      "topicId": "topic-537375c4",
+      "title": "포켓코리아 아머미니 인천,입호흡,만수동만수르",
+      "description": "메인키워드: 포켓코리아 아머미니 / 서브 키워드: 인천,입호흡,만수동만수르",
+      "category": "direct-run",
+      "tags": [
+        "포켓코리아 아머미니",
+        "인천,입호흡,만수동만수르"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-05-06T09:46:12.132Z",
+      "updatedAt": "2026-05-06T09:46:12.132Z"
     }
   ],
-  "lastUpdated": "2026-05-06T09:00:23.564Z"
+  "lastUpdated": "2026-05-06T09:46:12.132Z"
 }
