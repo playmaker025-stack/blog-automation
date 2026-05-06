@@ -956,11 +956,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "a",
       "createdAt": "2026-05-06T02:01:09.197Z",
-      "updatedAt": "2026-05-06T02:01:09.197Z"
+      "updatedAt": "2026-05-06T02:11:56.945Z"
     }
   ],
-  "lastUpdated": "2026-05-06T02:01:09.197Z"
+  "lastUpdated": "2026-05-06T02:11:56.945Z"
 }
