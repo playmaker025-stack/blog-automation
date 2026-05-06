@@ -973,11 +973,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "a",
       "createdAt": "2026-05-06T03:07:39.950Z",
-      "updatedAt": "2026-05-06T03:20:56.869Z"
+      "updatedAt": "2026-05-06T05:30:02.280Z"
     }
   ],
-  "lastUpdated": "2026-05-06T03:20:56.869Z"
+  "lastUpdated": "2026-05-06T05:30:02.280Z"
 }
