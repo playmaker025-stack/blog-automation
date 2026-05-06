@@ -2983,7 +2983,21 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-5c5f4bc3",
       "at": "2026-05-06T06:28:27.124Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "포켓코리아 아머미니 전자담배추천,입호흡 ,인천",
+      "proposedTitle": "포켓코리아 아머미니, 인천에서 입호흡 전자담배 처음 고르는 분들께 딱 맞는 이유",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "searchIntentChanged",
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.38235294117647056,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-8b9921bf",
+      "at": "2026-05-06T06:37:21.040Z"
     }
   ],
-  "lastUpdated": "2026-05-06T06:28:27.124Z"
+  "lastUpdated": "2026-05-06T06:37:21.040Z"
 }
