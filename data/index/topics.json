@@ -40,19 +40,6 @@
       "updatedAt": "2026-04-21T07:52:50.757Z"
     },
     {
-      "topicId": "topic-b39ccdca",
-      "title": "인천 전자담배 액상 고르는 방법",
-      "description": "",
-      "category": "A블로그",
-      "tags": [],
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "a",
-      "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-04-21T03:29:52.187Z"
-    },
-    {
       "topicId": "topic-3526161f",
       "title": "구월동 전자담배 매장 방문 전 체크리스트",
       "description": "",
@@ -1013,5 +1000,5 @@
       "updatedAt": "2026-05-06T09:52:28.076Z"
     }
   ],
-  "lastUpdated": "2026-05-06T09:52:28.076Z"
+  "lastUpdated": "2026-05-06T10:03:44.733Z"
 }
