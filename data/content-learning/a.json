@@ -2,6 +2,19 @@
   "userId": "a",
   "entries": [
     {
+      "postId": "post-8f5f919c",
+      "topicId": "topic-537375c4",
+      "userId": "a",
+      "title": "포켓코리아 아머미니 입문자 추천 휴대용 전자담배",
+      "naverPostUrl": "https://blog.naver.com/iibodii00/224276771070",
+      "evalScore": 58,
+      "wordCount": 2089,
+      "publishedAt": "2026-05-06T09:52:25.513Z",
+      "topicSource": "direct",
+      "contentKind": null,
+      "learnedAt": "2026-05-06T09:52:29.463Z"
+    },
+    {
       "postId": "post-ccad16ff",
       "topicId": "topic-455717b4",
       "userId": "a",
@@ -41,5 +54,5 @@
       "learnedAt": "2026-04-22T09:26:59.763Z"
     }
   ],
-  "updatedAt": "2026-05-06T09:00:25.125Z"
+  "updatedAt": "2026-05-06T09:52:29.463Z"
 }
