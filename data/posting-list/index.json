@@ -2999,7 +2999,22 @@
       "createdAt": "2026-05-05T02:44:10.679Z",
       "publishedAt": "2026-05-05T05:37:21.874Z",
       "updatedAt": "2026-05-05T05:37:23.066Z"
+    },
+    {
+      "postId": "post-927ab458",
+      "topicId": "topic-a515d20d",
+      "userId": "a",
+      "title": "인천 만수동 만수르가 직접 추천하는 입호흡 전자담배 기기 & 액상 고르는 법",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-067acbe1",
+      "pendingApproval": null,
+      "createdAt": "2026-05-06T02:11:57.731Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-06T02:11:57.731Z"
     }
   ],
-  "lastUpdated": "2026-05-05T05:37:23.066Z"
+  "lastUpdated": "2026-05-06T02:11:57.731Z"
 }
