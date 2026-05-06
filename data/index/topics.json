@@ -990,11 +990,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "a",
       "createdAt": "2026-05-06T06:35:46.277Z",
-      "updatedAt": "2026-05-06T06:35:46.277Z"
+      "updatedAt": "2026-05-06T06:37:53.479Z"
     }
   ],
-  "lastUpdated": "2026-05-06T06:35:46.277Z"
+  "lastUpdated": "2026-05-06T06:37:53.479Z"
 }
