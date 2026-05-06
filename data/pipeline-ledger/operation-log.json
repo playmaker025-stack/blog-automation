@@ -2969,7 +2969,21 @@
       "errorName": "Error",
       "pipelineId": "pipe-4595daff",
       "at": "2026-05-06T06:26:54.623Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 추천 인천,입호흡,만수동만수르",
+      "proposedTitle": "전자담배 추천 인천 입호흡 기기, 만수동만수르가 직접 고른 2026 현역 픽",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "searchIntentChanged",
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.53125,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-5c5f4bc3",
+      "at": "2026-05-06T06:28:27.124Z"
     }
   ],
-  "lastUpdated": "2026-05-06T06:26:54.623Z"
+  "lastUpdated": "2026-05-06T06:28:27.124Z"
 }
