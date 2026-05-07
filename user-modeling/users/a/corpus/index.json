@@ -1,0 +1,54 @@
+{
+  "userId": "a",
+  "samples": [
+    {
+      "sampleId": "published-post-ccad16ff",
+      "title": "포켓코리아 아머미니 입문자 분들께 딱 맞는 이유",
+      "category": "direct-run",
+      "tags": [
+        "포켓코리아 아머미니",
+        "전자담배추천,입호흡 ,인천"
+      ],
+      "wordCount": 2341,
+      "publishedAt": "2026-05-06T09:00:20.203Z",
+      "filePath": "user-modeling/users/a/corpus/samples/published-post-ccad16ff.md"
+    },
+    {
+      "sampleId": "published-post-8158a83d",
+      "title": "서브몽키 BF60 바텀피더 모드기기, 무화량 좋은 하이엔드 전자담배",
+      "category": "direct-run",
+      "tags": [],
+      "wordCount": 2347,
+      "publishedAt": "2026-04-27T08:19:57.809Z",
+      "filePath": "user-modeling/users/a/corpus/samples/published-post-8158a83d.md"
+    },
+    {
+      "sampleId": "published-post-aace5597",
+      "title": "인천 만수동 만수르 도조 오팔 20000 일회용 전자담배 리뷰",
+      "category": "?쇰컲",
+      "tags": [],
+      "wordCount": 2530,
+      "publishedAt": "2026-04-22T09:26:55.451Z",
+      "filePath": "user-modeling/users/a/corpus/samples/published-post-aace5597.md"
+    },
+    {
+      "sampleId": "published-post-import-431b0d64",
+      "title": "구월동 전자담배 추천 기기 가이드 만수동만수르",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 7049,
+      "publishedAt": "2026-03-10T00:00:00.000Z",
+      "filePath": "user-modeling/users/a/corpus/samples/published-post-import-431b0d64.md"
+    },
+    {
+      "sampleId": "published-post-import-3c16fe70",
+      "title": "인천 전자담배 추천 매장 고르는 기준 5가지 처음 가는 분들은 꼭 보세요",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 7267,
+      "publishedAt": "2026-03-06T00:00:00.000Z",
+      "filePath": "user-modeling/users/a/corpus/samples/published-post-import-3c16fe70.md"
+    }
+  ],
+  "lastUpdated": "2026-05-07T11:24:22.435Z"
+}
