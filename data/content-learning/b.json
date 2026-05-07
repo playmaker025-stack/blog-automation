@@ -2,6 +2,19 @@
   "userId": "b",
   "entries": [
     {
+      "postId": "post-manual-move9qrq",
+      "topicId": "",
+      "userId": "b",
+      "title": "부평전자담배 입문용 기기 추천 – 포켓코리아 아머미니 직접 써본 후기",
+      "naverPostUrl": "https://blog.naver.com/youferst/224278096804",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-05-07T11:20:07.678Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-05-07T11:20:09.253Z"
+    },
+    {
       "postId": "post-a22caaa6",
       "topicId": "topic-b9cb49ed",
       "userId": "b",
@@ -41,5 +54,5 @@
       "learnedAt": "2026-04-25T10:02:38.491Z"
     }
   ],
-  "updatedAt": "2026-05-04T12:55:35.440Z"
+  "updatedAt": "2026-05-07T11:20:09.253Z"
 }
