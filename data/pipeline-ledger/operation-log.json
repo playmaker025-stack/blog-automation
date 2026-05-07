@@ -3057,7 +3057,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-84d4386a",
       "at": "2026-05-07T11:32:52.173Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 전자담배 입문 가이드 테스트",
+      "proposedTitle": "인천 전자담배 입문 가이드 테스트",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-cb80056c",
+      "at": "2026-05-07T11:34:33.573Z"
     }
   ],
-  "lastUpdated": "2026-05-07T11:32:52.173Z"
+  "lastUpdated": "2026-05-07T11:34:33.573Z"
 }
