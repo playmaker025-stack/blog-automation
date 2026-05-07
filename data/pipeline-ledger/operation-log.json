@@ -3010,7 +3010,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-911060e8",
       "at": "2026-05-06T09:47:56.198Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "만수역 전자담배 기기별 고장 원인과 간단 수리법 안내",
+      "proposedTitle": "만수역 전자담배 기기별 고장 원인과 간단 수리법 안내",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-16157aa6",
+      "at": "2026-05-07T05:50:31.695Z"
     }
   ],
-  "lastUpdated": "2026-05-06T09:47:56.198Z"
+  "lastUpdated": "2026-05-07T05:50:31.695Z"
 }
