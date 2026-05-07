@@ -1045,7 +1045,32 @@
       "assignedUserId": "a",
       "createdAt": "2026-05-07T10:01:14.592Z",
       "updatedAt": "2026-05-07T10:01:14.592Z"
+    },
+    {
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "title": "초보자가 시작 전에 자주 놓치는 체크포인트",
+      "description": "메인 키워드 \"입호흡 전자담배 추천\"를 바로 정면으로 쓰기 전에 검색자가 먼저 궁금해하는 하위 의도를 다룹니다. 본문에서는 메인 키워드를 억지 반복하지 않고 1~3회 자연스럽게 노출합니다.",
+      "category": "a",
+      "tags": [
+        "입호흡 전자담배 추천",
+        "선행포스팅",
+        "키워드빌드업",
+        "초보자가이드"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "seriesId": "series-a-입호흡-전자담배-추천-movbetq2-c79t",
+      "seriesRole": "prelude",
+      "targetMainKeyword": "입호흡 전자담배 추천",
+      "sequenceOrder": 3,
+      "prerequisiteTopicIds": [],
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-05-07T10:01:16.831Z",
+      "updatedAt": "2026-05-07T10:01:16.831Z"
     }
   ],
-  "lastUpdated": "2026-05-07T10:01:14.592Z"
+  "lastUpdated": "2026-05-07T10:01:16.831Z"
 }
