@@ -809,26 +809,6 @@
       "updatedAt": "2026-05-04T05:23:14.674Z"
     },
     {
-      "topicId": "topic-faa13944",
-      "title": "부평역 전자담배 기기별 문제 해결과 유지관리 방법",
-      "description": "부평역 인근에서 자주 발생하는 전자담배 기기 문제와 그 해결법, 유지관리 팁을 상세히 안내합니다.",
-      "category": "전자담배",
-      "tags": [
-        "부평역",
-        "전자담배",
-        "기기관리",
-        "문제해결"
-      ],
-      "source": "generated",
-      "contentKind": "leaf",
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "c",
-      "createdAt": "2026-05-04T05:24:03.737Z",
-      "updatedAt": "2026-05-04T05:24:03.737Z"
-    },
-    {
       "topicId": "topic-e1aa6103",
       "title": "만수역 전자담배 액상 종류별 특징과 안전 사용법 비교",
       "description": "만수역 인근에서 인기 있는 전자담배 액상 종류별 특징과 안전하게 사용하는 방법을 비교 분석합니다.",
@@ -1000,5 +980,5 @@
       "updatedAt": "2026-05-06T09:52:28.076Z"
     }
   ],
-  "lastUpdated": "2026-05-06T10:03:44.733Z"
+  "lastUpdated": "2026-05-07T05:48:43.468Z"
 }
