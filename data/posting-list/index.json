@@ -3104,7 +3104,22 @@
       "publishedAt": "2026-05-06T12:38:43.649Z",
       "createdAt": "2026-05-06T12:38:43.649Z",
       "updatedAt": "2026-05-06T12:38:43.649Z"
+    },
+    {
+      "postId": "post-e60008d9",
+      "topicId": "topic-6223cd66",
+      "userId": "c",
+      "title": "만수역 전자담배 기기별 고장 원인과 간단 수리법 안내",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-16157aa6",
+      "pendingApproval": null,
+      "createdAt": "2026-05-07T05:51:44.471Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-07T05:51:44.471Z"
     }
   ],
-  "lastUpdated": "2026-05-06T12:38:43.649Z"
+  "lastUpdated": "2026-05-07T05:51:44.471Z"
 }
