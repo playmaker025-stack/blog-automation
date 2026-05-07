@@ -1,12 +1,12 @@
 {
   "pipelineId": "pipe-cb80056c",
   "type": "draft_output",
-  "savedAt": "2026-05-07T11:42:12.993Z",
+  "savedAt": "2026-05-07T11:42:59.404Z",
   "data": {
     "postId": "post-39a88429",
     "title": "인천 전자담배 입문 가이드 테스트",
-    "wordCount": 1490,
-    "generatedAt": "2026-05-07T11:42:11.914Z",
+    "wordCount": 1767,
+    "generatedAt": "2026-05-07T11:42:58.233Z",
     "contentPath": "data/posting-list/posts/post-39a88429/content.md",
     "corpusSummaryUsed": true
   }
