@@ -1070,7 +1070,36 @@
       "assignedUserId": "a",
       "createdAt": "2026-05-07T10:01:16.831Z",
       "updatedAt": "2026-05-07T10:01:16.831Z"
+    },
+    {
+      "topicId": "topic-series-movbetq2-c79t-4",
+      "title": "입호흡 전자담배 추천",
+      "description": "선행 포스팅에서 쌓은 개념, 선택 기준, 초보자 질문을 묶어 메인 키워드를 정면으로 다루는 추천/정리 글입니다. 메인 글 발행 전 같은 시리즈의 선행 포스팅이 먼저 발행되어야 합니다.",
+      "category": "a",
+      "tags": [
+        "입호흡 전자담배 추천",
+        "추천",
+        "메인포스팅",
+        "키워드시리즈"
+      ],
+      "source": "generated",
+      "contentKind": "hub",
+      "seriesId": "series-a-입호흡-전자담배-추천-movbetq2-c79t",
+      "seriesRole": "main",
+      "targetMainKeyword": "입호흡 전자담배 추천",
+      "sequenceOrder": 4,
+      "prerequisiteTopicIds": [
+        "topic-series-movbetq2-c79t-1",
+        "topic-series-movbetq2-c79t-2",
+        "topic-series-movbetq2-c79t-3"
+      ],
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-05-07T10:01:18.868Z",
+      "updatedAt": "2026-05-07T10:01:18.868Z"
     }
   ],
-  "lastUpdated": "2026-05-07T10:01:16.831Z"
+  "lastUpdated": "2026-05-07T10:01:18.868Z"
 }
