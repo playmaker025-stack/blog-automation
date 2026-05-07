@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-e60008d9",
+      "topicId": "topic-6223cd66",
+      "userId": "c",
+      "title": "간석동전자담배 기기별 고장 원인과 해결 방법",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224277953493",
+      "evalScore": 52,
+      "wordCount": 3023,
+      "publishedAt": "2026-05-07T08:32:46.178Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-05-07T08:32:50.265Z"
+    },
+    {
       "postId": "post-6a9ebb23",
       "topicId": "topic-5acf5c1b",
       "userId": "c",
@@ -80,5 +93,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-05-05T05:37:26.825Z"
+  "updatedAt": "2026-05-07T08:32:50.265Z"
 }
