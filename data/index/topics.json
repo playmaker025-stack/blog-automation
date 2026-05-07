@@ -372,10 +372,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "a",
       "createdAt": "2026-04-09T10:29:05.993Z",
-      "updatedAt": "2026-04-10T05:54:01.572Z"
+      "updatedAt": "2026-05-07T11:41:35.493Z"
     },
     {
       "topicId": "topic-21fc35df",
@@ -1223,5 +1223,5 @@
       "seriesDetailReadyAt": "2026-05-07T11:20:39.163Z"
     }
   ],
-  "lastUpdated": "2026-05-07T11:25:33.497Z"
+  "lastUpdated": "2026-05-07T11:41:35.493Z"
 }
