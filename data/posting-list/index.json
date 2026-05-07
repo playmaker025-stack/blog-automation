@@ -3170,16 +3170,16 @@
       "topicId": "topic-d9416a48",
       "userId": "a",
       "title": "인천 전자담배 입문 가이드 테스트",
-      "status": "draft",
+      "status": "ready",
       "naverPostUrl": null,
       "evalScore": null,
-      "wordCount": 0,
+      "wordCount": 1490,
       "compositionSessionId": "pipe-cb80056c",
       "pendingApproval": null,
       "createdAt": "2026-05-07T11:41:36.427Z",
       "publishedAt": null,
-      "updatedAt": "2026-05-07T11:41:36.427Z"
+      "updatedAt": "2026-05-07T11:42:14.664Z"
     }
   ],
-  "lastUpdated": "2026-05-07T11:41:36.427Z"
+  "lastUpdated": "2026-05-07T11:42:14.664Z"
 }
