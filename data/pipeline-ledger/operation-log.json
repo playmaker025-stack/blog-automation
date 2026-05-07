@@ -3021,7 +3021,21 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-16157aa6",
       "at": "2026-05-07T05:50:31.695Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부평전자담배 입문용기기 추천 포켓코리아 아머미니",
+      "proposedTitle": "부평전자담배 입문용 기기 추천 – 포켓코리아 아머미니 직접 써본 후기",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "searchIntentChanged",
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.7586206896551724,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-41d55da3",
+      "at": "2026-05-07T08:56:41.524Z"
     }
   ],
-  "lastUpdated": "2026-05-07T05:50:31.695Z"
+  "lastUpdated": "2026-05-07T08:56:41.524Z"
 }
