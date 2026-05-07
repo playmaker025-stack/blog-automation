@@ -2,6 +2,17 @@
   "userId": "b",
   "exemplars": [
     {
+      "sampleId": "published-post-manual-move9qrq",
+      "title": "부평전자담배 입문용 기기 추천 – 포켓코리아 아머미니 직접 써본 후기",
+      "category": "published-post",
+      "tags": [],
+      "relevanceScore": 0.7,
+      "styleNotes": "tone=casual",
+      "excerpt": "부평전자담배 입문용 기기 추천 – 포켓코리아 아머미니 직접 써본 후기 부평전자담배 입문용 기기 추천 – 포켓코리아 아머미니 직접 써본 후기 : 네이버 블로그 NAVER 블로그 만수동만수르동생 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요",
+      "wordCount": 6864,
+      "publishedAt": "2026-05-07T11:20:07.678Z"
+    },
+    {
       "sampleId": "published-post-7e4e7ced",
       "title": "부평 전자담배 입문자 기기 선택 5가지 핵심 기준",
       "category": "direct-run",
@@ -62,5 +73,5 @@
       "publishedAt": "2026-05-02T10:01:23.755Z"
     }
   ],
-  "lastCurated": "2026-05-07T08:56:52.549Z"
+  "lastCurated": "2026-05-07T11:20:13.895Z"
 }
