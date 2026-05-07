@@ -1,0 +1,81 @@
+{
+  "userId": "c",
+  "samples": [
+    {
+      "sampleId": "published-post-6a9ebb23",
+      "title": "부천 상동 전자담배 연기 알레르기? 코·기도 붓는 이유와 대처법",
+      "category": "전자담배",
+      "tags": [
+        "부천",
+        "상동",
+        "담배연기",
+        "알레르기",
+        "대처법"
+      ],
+      "wordCount": 2872,
+      "publishedAt": "2026-05-05T05:37:21.874Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-6a9ebb23.md"
+    },
+    {
+      "sampleId": "published-post-9b7617b2",
+      "title": "인천 부평 전자담배 금연구역과 과태료 최신 안내",
+      "category": "전자담배",
+      "tags": [
+        "인천",
+        "부평",
+        "전자담배",
+        "금연구역",
+        "과태료",
+        "법적기준"
+      ],
+      "wordCount": 2201,
+      "publishedAt": "2026-05-04T09:31:51.382Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-9b7617b2.md"
+    },
+    {
+      "sampleId": "published-post-0c7f0253",
+      "title": "인천 전자담배 고농도 액상 선택과 안전 사용법 총정리",
+      "category": "전자담배",
+      "tags": [
+        "전자담배",
+        "고농도",
+        "액상",
+        "인천"
+      ],
+      "wordCount": 2594,
+      "publishedAt": "2026-04-29T09:48:38.476Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-0c7f0253.md"
+    },
+    {
+      "sampleId": "published-post-3a07f3a9",
+      "title": "만수역 전자담배 기기별 사용법과 유지관리 핵심 가이드",
+      "category": "전자담배",
+      "tags": [
+        "전자담배",
+        "기기",
+        "사용법",
+        "만수역",
+        "유지관리"
+      ],
+      "wordCount": 2484,
+      "publishedAt": "2026-04-25T11:28:24.046Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-3a07f3a9.md"
+    },
+    {
+      "sampleId": "published-post-5beaf101",
+      "title": "전자담배 액상 보관법과 유통기한, 변질 쉽게 확인하는 법",
+      "category": "전자담배",
+      "tags": [
+        "전자담배",
+        "액상",
+        "보관법",
+        "유통기한",
+        "팁"
+      ],
+      "wordCount": 2359,
+      "publishedAt": "2026-04-23T07:31:02.058Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-5beaf101.md"
+    }
+  ],
+  "lastUpdated": "2026-05-07T05:55:29.620Z"
+}
