@@ -2,6 +2,15 @@
   "userId": "b",
   "samples": [
     {
+      "sampleId": "published-post-manual-move9qrq",
+      "title": "부평전자담배 입문용 기기 추천 – 포켓코리아 아머미니 직접 써본 후기",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 6864,
+      "publishedAt": "2026-05-07T11:20:07.678Z",
+      "filePath": "user-modeling/users/b/corpus/samples/published-post-manual-move9qrq.md"
+    },
+    {
       "sampleId": "published-post-a22caaa6",
       "title": "만수동 전자담배 기기별 장단점과 추천 가이드",
       "category": "b",
@@ -52,5 +61,5 @@
       "filePath": "user-modeling/users/b/corpus/samples/published-post-import-08c915d5f3.md"
     }
   ],
-  "lastUpdated": "2026-05-07T08:56:52.549Z"
+  "lastUpdated": "2026-05-07T11:20:13.895Z"
 }
