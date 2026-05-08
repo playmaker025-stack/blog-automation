@@ -3093,7 +3093,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-4817ea3c",
       "at": "2026-05-08T06:11:46.130Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-f5069fc3",
+      "userId": "b",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-c6c587d6 / Similar existing title found: 만수동 전자담배 입문자를 위한 액상 선택 가이드 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-1ecad3ff",
+      "at": "2026-05-08T06:46:51.354Z"
     }
   ],
-  "lastUpdated": "2026-05-08T06:11:46.130Z"
+  "lastUpdated": "2026-05-08T06:46:51.354Z"
 }
