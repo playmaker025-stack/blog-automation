@@ -3209,7 +3209,22 @@
       "createdAt": "2026-05-08T06:11:50.967Z",
       "publishedAt": null,
       "updatedAt": "2026-05-08T06:14:11.780Z"
+    },
+    {
+      "postId": "post-358803fa",
+      "topicId": "topic-f5069fc3",
+      "userId": "b",
+      "title": "만수동 전자담배 입문자를 위한 액상 선택 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-32668af7",
+      "pendingApproval": null,
+      "createdAt": "2026-05-08T06:53:49.717Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-08T06:53:49.717Z"
     }
   ],
-  "lastUpdated": "2026-05-08T06:14:11.780Z"
+  "lastUpdated": "2026-05-08T06:53:49.717Z"
 }
