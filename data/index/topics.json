@@ -1276,7 +1276,36 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-08T02:26:11.322Z",
       "updatedAt": "2026-05-08T02:26:11.322Z"
+    },
+    {
+      "topicId": "topic-series-mowamksr-yi4d-4",
+      "title": "전담 누수",
+      "description": "선행 포스팅에서 쌓은 개념, 선택 기준, 초보자 질문을 묶어 메인 키워드를 정면으로 다루는 추천/정리 글입니다. 메인 글 발행 전 같은 시리즈의 선행 포스팅이 먼저 발행되어야 합니다.",
+      "category": "c",
+      "tags": [
+        "전담 누수",
+        "추천",
+        "메인포스팅",
+        "키워드시리즈"
+      ],
+      "source": "generated",
+      "contentKind": "hub",
+      "seriesId": "series-c-전담-누수-mowamksr-yi4d",
+      "seriesRole": "main",
+      "targetMainKeyword": "전담 누수",
+      "sequenceOrder": 4,
+      "prerequisiteTopicIds": [
+        "topic-series-mowamksr-yi4d-1",
+        "topic-series-mowamksr-yi4d-2",
+        "topic-series-mowamksr-yi4d-3"
+      ],
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-05-08T02:26:12.996Z",
+      "updatedAt": "2026-05-08T02:26:12.996Z"
     }
   ],
-  "lastUpdated": "2026-05-08T02:26:11.322Z"
+  "lastUpdated": "2026-05-08T02:26:12.996Z"
 }
