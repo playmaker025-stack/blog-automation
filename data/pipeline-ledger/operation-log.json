@@ -3068,7 +3068,21 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-cb80056c",
       "at": "2026-05-07T11:34:33.573Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전담 누수 보기 전에 핵심 개념부터 정리",
+      "proposedTitle": "전담 기기 고를 때 먼저 알아야 할 개념 정리 — 입호흡·폐호흡·누수 구조까지",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "coreKeywordChanged",
+        "decisionLogicChanged"
+      ],
+      "stringSimilarity": 0.125,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-a67d145b",
+      "at": "2026-05-08T02:28:17.886Z"
     }
   ],
-  "lastUpdated": "2026-05-07T11:34:33.573Z"
+  "lastUpdated": "2026-05-08T02:28:17.886Z"
 }
