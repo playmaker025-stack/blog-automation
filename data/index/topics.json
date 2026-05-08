@@ -809,26 +809,6 @@
       "updatedAt": "2026-05-07T08:32:48.946Z"
     },
     {
-      "topicId": "topic-e1aa6103",
-      "title": "만수역 전자담배 액상 종류별 특징과 안전 사용법 비교",
-      "description": "만수역 인근에서 인기 있는 전자담배 액상 종류별 특징과 안전하게 사용하는 방법을 비교 분석합니다.",
-      "category": "전자담배",
-      "tags": [
-        "만수역",
-        "액상비교",
-        "안전사용",
-        "전자담배"
-      ],
-      "source": "generated",
-      "contentKind": "hub",
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "c",
-      "createdAt": "2026-05-04T05:24:05.479Z",
-      "updatedAt": "2026-05-04T05:24:05.479Z"
-    },
-    {
       "topicId": "topic-5acf5c1b",
       "title": "부천 상동 전자담배 담배연기 알레르기 증상과 대처법",
       "description": "부천 상동 지역에서 전자담배 담배연기만 맡아도 비강과 기도가 붓는 증상에 대한 원인과 대처법을 설명합니다.",
@@ -1223,5 +1203,5 @@
       "seriesDetailReadyAt": "2026-05-07T11:20:39.163Z"
     }
   ],
-  "lastUpdated": "2026-05-07T11:44:05.925Z"
+  "lastUpdated": "2026-05-08T02:24:50.145Z"
 }
