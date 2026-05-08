@@ -1251,7 +1251,32 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-08T02:26:09.681Z",
       "updatedAt": "2026-05-08T02:26:09.681Z"
+    },
+    {
+      "topicId": "topic-series-mowamksr-yi4d-3",
+      "title": "초보자가 시작 전에 자주 놓치는 체크포인트",
+      "description": "메인 키워드 \"전담 누수\"를 바로 정면으로 쓰기 전에 검색자가 먼저 궁금해하는 하위 의도를 다룹니다. 본문에서는 메인 키워드를 억지 반복하지 않고 1~3회 자연스럽게 노출합니다.",
+      "category": "c",
+      "tags": [
+        "전담 누수",
+        "선행포스팅",
+        "키워드빌드업",
+        "초보자가이드"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "seriesId": "series-c-전담-누수-mowamksr-yi4d",
+      "seriesRole": "prelude",
+      "targetMainKeyword": "전담 누수",
+      "sequenceOrder": 3,
+      "prerequisiteTopicIds": [],
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-05-08T02:26:11.322Z",
+      "updatedAt": "2026-05-08T02:26:11.322Z"
     }
   ],
-  "lastUpdated": "2026-05-08T02:26:09.681Z"
+  "lastUpdated": "2026-05-08T02:26:11.322Z"
 }
