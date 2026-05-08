@@ -3194,7 +3194,22 @@
       "createdAt": "2026-05-08T02:29:29.725Z",
       "publishedAt": null,
       "updatedAt": "2026-05-08T02:32:44.977Z"
+    },
+    {
+      "postId": "post-c6c587d6",
+      "topicId": "topic-f5069fc3",
+      "userId": "b",
+      "title": "만수동 전자담배 입문자를 위한 액상 선택 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-4817ea3c",
+      "pendingApproval": null,
+      "createdAt": "2026-05-08T06:11:50.967Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-08T06:11:50.967Z"
     }
   ],
-  "lastUpdated": "2026-05-08T02:32:44.977Z"
+  "lastUpdated": "2026-05-08T06:11:50.967Z"
 }
