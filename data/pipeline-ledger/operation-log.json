@@ -3104,7 +3104,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-1ecad3ff",
       "at": "2026-05-08T06:46:51.354Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "만수동 전자담배 입문자를 위한 액상 선택 가이드",
+      "proposedTitle": "만수동 전자담배 입문자를 위한 액상 선택 가이드",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-32668af7",
+      "at": "2026-05-08T06:53:05.317Z"
     }
   ],
-  "lastUpdated": "2026-05-08T06:46:51.354Z"
+  "lastUpdated": "2026-05-08T06:53:05.317Z"
 }
