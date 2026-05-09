@@ -2,6 +2,20 @@
   "userId": "b",
   "samples": [
     {
+      "sampleId": "published-post-358803fa",
+      "title": "남동구 전자담배 초보 입문자 위한 액상 선택법",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "액상선택",
+        "입문자"
+      ],
+      "wordCount": 1494,
+      "publishedAt": "2026-05-09T04:03:22.469Z",
+      "filePath": "user-modeling/users/b/corpus/samples/published-post-358803fa.md"
+    },
+    {
       "sampleId": "published-post-manual-move9qrq",
       "title": "부평전자담배 입문용 기기 추천 – 포켓코리아 아머미니 직접 써본 후기",
       "category": "published-post",
@@ -61,5 +75,5 @@
       "filePath": "user-modeling/users/b/corpus/samples/published-post-import-08c915d5f3.md"
     }
   ],
-  "lastUpdated": "2026-05-07T11:20:13.895Z"
+  "lastUpdated": "2026-05-09T04:03:30.305Z"
 }
