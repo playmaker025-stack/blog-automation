@@ -2,6 +2,20 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-03dabba4",
+      "title": "전담 누수 보기 전에 핵심 개념부터 정리",
+      "category": "c",
+      "tags": [
+        "전담 누수",
+        "선행포스팅",
+        "키워드빌드업",
+        "개념정리"
+      ],
+      "wordCount": 1582,
+      "publishedAt": "2026-05-09T05:58:20.745Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-03dabba4.md"
+    },
+    {
       "sampleId": "published-post-e60008d9",
       "title": "간석동전자담배 기기별 고장 원인과 해결 방법",
       "category": "전자담배",
@@ -93,5 +107,5 @@
       "filePath": "user-modeling/users/c/corpus/samples/published-post-5beaf101.md"
     }
   ],
-  "lastUpdated": "2026-05-07T08:32:53.044Z"
+  "lastUpdated": "2026-05-09T05:58:28.568Z"
 }
