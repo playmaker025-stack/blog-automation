@@ -2,6 +2,20 @@
   "userId": "a",
   "samples": [
     {
+      "sampleId": "published-post-f5b93892",
+      "title": "입호흡 전자담배 핵심 개념과 선택 가이드",
+      "category": "a",
+      "tags": [
+        "입호흡 전자담배 추천",
+        "선행포스팅",
+        "키워드빌드업",
+        "개념정리"
+      ],
+      "wordCount": 2583,
+      "publishedAt": "2026-05-09T09:15:51.294Z",
+      "filePath": "user-modeling/users/a/corpus/samples/published-post-f5b93892.md"
+    },
+    {
       "sampleId": "published-post-ccad16ff",
       "title": "포켓코리아 아머미니 입문자 분들께 딱 맞는 이유",
       "category": "direct-run",
@@ -50,5 +64,5 @@
       "filePath": "user-modeling/users/a/corpus/samples/published-post-import-3c16fe70.md"
     }
   ],
-  "lastUpdated": "2026-05-07T11:24:22.435Z"
+  "lastUpdated": "2026-05-09T09:15:59.906Z"
 }
