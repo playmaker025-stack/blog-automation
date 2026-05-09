@@ -3214,7 +3214,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-7aeaa088",
       "at": "2026-05-09T05:59:09.614Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-series-movbetq2-c79t-1",
+      "userId": "a",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-d3a920a6, ready:post-72984060, ready:post-3bf97f9c / Similar existing title found: 입호흡 전자담배 보기 전에 핵심 개념부터 정리 (ready, 1); 입호흡 전자담배 보기 전에 핵심 개념부터 정리 (ready, 1); 입호흡 전자담배 보기 전에 핵심 개념부터 정리 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-5eb401ef",
+      "at": "2026-05-09T07:25:11.660Z"
     }
   ],
-  "lastUpdated": "2026-05-09T05:59:09.614Z"
+  "lastUpdated": "2026-05-09T07:25:11.660Z"
 }
