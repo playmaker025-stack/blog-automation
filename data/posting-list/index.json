@@ -3230,15 +3230,15 @@
       "topicId": "topic-series-mowamksr-yi4d-1",
       "userId": "c",
       "title": "전담 누수 보기 전에 핵심 개념부터 정리",
-      "status": "ready",
-      "naverPostUrl": null,
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224279916933",
       "evalScore": 57,
       "wordCount": 1582,
       "compositionSessionId": "pipe-b24ad668",
       "pendingApproval": null,
       "createdAt": "2026-05-09T03:51:54.402Z",
-      "publishedAt": null,
-      "updatedAt": "2026-05-09T04:42:04.038Z"
+      "publishedAt": "2026-05-09T05:58:20.745Z",
+      "updatedAt": "2026-05-09T05:58:22.131Z"
     },
     {
       "postId": "post-72984060",
@@ -3256,5 +3256,5 @@
       "updatedAt": "2026-05-09T05:43:07.860Z"
     }
   ],
-  "lastUpdated": "2026-05-09T05:43:07.860Z"
+  "lastUpdated": "2026-05-09T05:58:22.131Z"
 }
