@@ -2,6 +2,19 @@
   "userId": "a",
   "entries": [
     {
+      "postId": "post-f5b93892",
+      "topicId": "topic-series-movbetq2-c79t-1",
+      "userId": "a",
+      "title": "입호흡 전자담배 핵심 개념과 선택 가이드",
+      "naverPostUrl": "https://blog.naver.com/iibodii00/224280060867",
+      "evalScore": 58,
+      "wordCount": 2583,
+      "publishedAt": "2026-05-09T09:15:51.294Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-05-09T09:15:57.294Z"
+    },
+    {
       "postId": "post-8f5f919c",
       "topicId": "topic-537375c4",
       "userId": "a",
@@ -54,5 +67,5 @@
       "learnedAt": "2026-04-22T09:26:59.763Z"
     }
   ],
-  "updatedAt": "2026-05-06T09:52:29.463Z"
+  "updatedAt": "2026-05-09T09:15:57.294Z"
 }
