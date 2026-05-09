@@ -1,12 +1,12 @@
 {
   "pipelineId": "pipe-b24ad668",
   "type": "draft_output",
-  "savedAt": "2026-05-09T03:53:24.661Z",
+  "savedAt": "2026-05-09T03:54:06.212Z",
   "data": {
     "postId": "post-03dabba4",
     "title": "전담 누수 보기 전에 핵심 개념부터 정리",
-    "wordCount": 1792,
-    "generatedAt": "2026-05-09T03:53:23.693Z",
+    "wordCount": 1582,
+    "generatedAt": "2026-05-09T03:54:05.193Z",
     "contentPath": "data/posting-list/posts/post-03dabba4/content.md",
     "corpusSummaryUsed": true
   }
