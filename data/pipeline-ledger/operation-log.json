@@ -3137,7 +3137,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-19821f21",
       "at": "2026-05-09T02:52:30.914Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전담 누수 보기 전에 핵심 개념부터 정리",
+      "proposedTitle": "전담 누수 보기 전에 핵심 개념부터 정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-b24ad668",
+      "at": "2026-05-09T03:32:19.446Z"
     }
   ],
-  "lastUpdated": "2026-05-09T02:52:30.914Z"
+  "lastUpdated": "2026-05-09T03:32:19.446Z"
 }
