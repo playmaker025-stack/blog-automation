@@ -3224,7 +3224,22 @@
       "createdAt": "2026-05-08T06:53:49.717Z",
       "publishedAt": null,
       "updatedAt": "2026-05-08T06:56:08.329Z"
+    },
+    {
+      "postId": "post-03dabba4",
+      "topicId": "topic-series-mowamksr-yi4d-1",
+      "userId": "c",
+      "title": "전담 누수 보기 전에 핵심 개념부터 정리",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-b24ad668",
+      "pendingApproval": null,
+      "createdAt": "2026-05-09T03:51:54.402Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-09T03:51:54.402Z"
     }
   ],
-  "lastUpdated": "2026-05-08T06:56:08.329Z"
+  "lastUpdated": "2026-05-09T03:51:54.402Z"
 }
