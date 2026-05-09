@@ -3148,7 +3148,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-b24ad668",
       "at": "2026-05-09T03:32:19.446Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-series-movbetq2-c79t-1",
+      "userId": "a",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-d3a920a6 / Similar existing title found: 입호흡 전자담배 보기 전에 핵심 개념부터 정리 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-60b3ff59",
+      "at": "2026-05-09T05:39:49.765Z"
     }
   ],
-  "lastUpdated": "2026-05-09T03:32:19.446Z"
+  "lastUpdated": "2026-05-09T05:39:49.765Z"
 }
