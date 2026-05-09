@@ -3254,7 +3254,22 @@
       "createdAt": "2026-05-09T05:42:27.709Z",
       "publishedAt": null,
       "updatedAt": "2026-05-09T05:43:07.860Z"
+    },
+    {
+      "postId": "post-3bf97f9c",
+      "topicId": "topic-series-movbetq2-c79t-1",
+      "userId": "a",
+      "title": "입호흡 전자담배 보기 전에 핵심 개념부터 정리",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-7aeaa088",
+      "pendingApproval": null,
+      "createdAt": "2026-05-09T05:59:21.210Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-09T05:59:21.210Z"
     }
   ],
-  "lastUpdated": "2026-05-09T05:58:22.131Z"
+  "lastUpdated": "2026-05-09T05:59:21.210Z"
 }
