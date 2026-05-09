@@ -3203,7 +3203,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-0640ef56",
       "at": "2026-05-09T05:57:00.269Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "입호흡 전자담배 보기 전에 핵심 개념부터 정리",
+      "proposedTitle": "입호흡 전자담배 보기 전에 핵심 개념부터 정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-7aeaa088",
+      "at": "2026-05-09T05:59:09.614Z"
     }
   ],
-  "lastUpdated": "2026-05-09T05:57:00.269Z"
+  "lastUpdated": "2026-05-09T05:59:09.614Z"
 }
