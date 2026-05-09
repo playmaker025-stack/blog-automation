@@ -996,10 +996,10 @@
       "prerequisiteTopicIds": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "a",
       "createdAt": "2026-05-07T10:01:12.555Z",
-      "updatedAt": "2026-05-07T11:25:33.497Z",
+      "updatedAt": "2026-05-09T05:42:26.860Z",
       "seriesDetailPlan": {
         "articleGoal": "입호흡 전자담배 추천를 바로 추천하기 전에 기본 개념과 차이를 먼저 잡아주는 글",
         "searchIntent": "비교형/기초이해형",
@@ -1429,5 +1429,5 @@
       "seriesDetailReadyAt": "2026-05-08T02:26:21.975Z"
     }
   ],
-  "lastUpdated": "2026-05-09T04:03:26.375Z"
+  "lastUpdated": "2026-05-09T05:42:26.860Z"
 }
