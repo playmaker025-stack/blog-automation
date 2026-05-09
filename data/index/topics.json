@@ -1222,10 +1222,10 @@
       "prerequisiteTopicIds": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "c",
       "createdAt": "2026-05-08T02:26:08.052Z",
-      "updatedAt": "2026-05-08T02:32:46.789Z",
+      "updatedAt": "2026-05-09T03:51:53.586Z",
       "seriesDetailPlan": {
         "articleGoal": "전담 누수를 바로 추천하기 전에 기본 개념과 차이를 먼저 잡아주는 글",
         "searchIntent": "비교형/기초이해형",
@@ -1429,5 +1429,5 @@
       "seriesDetailReadyAt": "2026-05-08T02:26:21.975Z"
     }
   ],
-  "lastUpdated": "2026-05-08T06:56:10.128Z"
+  "lastUpdated": "2026-05-09T03:51:53.586Z"
 }
