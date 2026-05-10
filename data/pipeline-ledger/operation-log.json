@@ -3236,7 +3236,21 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-2bf44620",
       "at": "2026-05-09T07:27:37.713Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "연초보다 액상형 전자담배가 좋은점 보기 전에 핵심 개념부터 정리",
+      "proposedTitle": "전자담배 처음 알아볼 때 헷갈리는 개념 3가지 – 입호흡·니코틴·냄새 차이부터 정리",
+      "isMaterial": true,
+      "triggeredSignals": [
+        "coreKeywordChanged",
+        "decisionLogicChanged"
+      ],
+      "stringSimilarity": 0.13888888888888884,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-88eeb227",
+      "at": "2026-05-10T02:02:16.411Z"
     }
   ],
-  "lastUpdated": "2026-05-09T07:27:37.713Z"
+  "lastUpdated": "2026-05-10T02:02:16.411Z"
 }
