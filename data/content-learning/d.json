@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-240eafbc",
+      "topicId": "topic-series-moz4kdjp-fov8-1",
+      "userId": "d",
+      "title": "전자담배 입문자 필독! 입호흡·니코틴·냄새 이해하기",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224280728317",
+      "evalScore": 61,
+      "wordCount": 1940,
+      "publishedAt": "2026-05-10T05:53:51.546Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-05-10T05:53:56.669Z"
+    },
+    {
       "postId": "post-bb8481dc",
       "topicId": "topic-3337fd94",
       "userId": "d",
@@ -54,5 +67,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-04-28T13:22:24.466Z"
+  "updatedAt": "2026-05-10T05:53:56.669Z"
 }
