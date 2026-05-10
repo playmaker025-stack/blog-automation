@@ -1502,7 +1502,36 @@
       "assignedUserId": "d",
       "createdAt": "2026-05-10T01:56:13.195Z",
       "updatedAt": "2026-05-10T01:56:13.195Z"
+    },
+    {
+      "topicId": "topic-series-moz4flh0-mc3w-4",
+      "title": "연초 담배에 비해 액상형 전자담배가 얼마나 덜 해로운가",
+      "description": "선행 포스팅에서 쌓은 개념, 선택 기준, 초보자 질문을 묶어 메인 키워드를 정면으로 다루는 추천/정리 글입니다. 메인 글 발행 전 같은 시리즈의 선행 포스팅이 먼저 발행되어야 합니다.",
+      "category": "d",
+      "tags": [
+        "연초 담배에 비해 액상형 전자담배가 얼마나 덜 해로운가",
+        "추천",
+        "메인포스팅",
+        "키워드시리즈"
+      ],
+      "source": "generated",
+      "contentKind": "hub",
+      "seriesId": "series-d-연초-담배에-비해-액상형-전자담배가-얼마나-덜-해로운가-moz4flh0-mc3w",
+      "seriesRole": "main",
+      "targetMainKeyword": "연초 담배에 비해 액상형 전자담배가 얼마나 덜 해로운가",
+      "sequenceOrder": 4,
+      "prerequisiteTopicIds": [
+        "topic-series-moz4flh0-mc3w-1",
+        "topic-series-moz4flh0-mc3w-2",
+        "topic-series-moz4flh0-mc3w-3"
+      ],
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-05-10T01:56:14.932Z",
+      "updatedAt": "2026-05-10T01:56:14.932Z"
     }
   ],
-  "lastUpdated": "2026-05-10T01:56:13.195Z"
+  "lastUpdated": "2026-05-10T01:56:14.932Z"
 }
