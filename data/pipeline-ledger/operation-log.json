@@ -3250,7 +3250,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-88eeb227",
       "at": "2026-05-10T02:02:16.411Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "입문자·연초형·멘솔형 사용자별 추천 기기 정리",
+      "proposedTitle": "입문자·연초형·멘솔형 사용자별 전자담배 추천 기기 정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.84,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-8783335d",
+      "at": "2026-05-10T06:07:35.124Z"
     }
   ],
-  "lastUpdated": "2026-05-10T02:02:16.411Z"
+  "lastUpdated": "2026-05-10T06:07:35.124Z"
 }
