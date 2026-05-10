@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-8783335d",
   "type": "strategy_plan",
-  "savedAt": "2026-05-10T06:07:33.352Z",
+  "savedAt": "2026-05-10T06:09:44.932Z",
   "data": {
     "title": "입문자·연초형·멘솔형 사용자별 전자담배 추천 기기 정리",
     "outline": [
@@ -93,7 +93,21 @@
       "전자담배 유지비 비교"
     ],
     "rationale": "토픽 ID topic-4c9afc3a는 E블로그 카테고리 소속으로, 입문자·연초형·멘솔형 세 사용자 유형별 추천 기기를 정리하는 구체적 가이드 포스트다. 금지 주제(라에딜, 매장 vs 온라인 비교, 금연 액상)에 해당하지 않으며, 허용된 기기 추천·입문 가이드 범주에 속한다. 기존 발행 7건에서 반복된 제목 키워드(5가지, 알아보자)를 이번 글에서는 '정리' 구조로 분산시켜 중복 리스크를 낮췄다. KnowledgeIn 분석에서 '입문자 기기 추천', '연초형 기기 따로 있나', '일회용 vs 다회용 차이' 질문이 반복 확인됐고, 카페 시그널에서 입문자·쿨링 불만·유지비 관심이 실수요로 검증됐다. 상위 블로그 글들이 구체적 기기 비교 없이 모호한 설명에 그친 점을 보완해, 세 유형별 선택 기준·체감 차이·유지비 수치·쿨링 강도 체크 포인트를 구체적으로 담는다. 비교표와 실전 팁을 포함한 리스트형 구조는 E블로그 casual 문체 및 Naver 검색의도 90+ 기준에 부합한다. 허브 링크는 '전자담배 사용자 유형 4가지와 선택 기준을 알아보자(post-import-1fb2787a)', 리프 링크는 '입호흡 전자담배 신제품 닷모드 닷팟 맥스 리플(post-import-a0c245ae)'로 내부 링크 구조를 구성한다.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "e",
+      "selectedCount": 0,
+      "styleProfile": {
+        "dominantTone": "casual",
+        "avgWordCount": 0,
+        "signatureExpressions": [],
+        "structurePattern": "서술형 (자연스러운 단락)",
+        "openingPattern": "알 수 없음"
+      },
+      "exemplarExcerpts": [],
+      "retrievalStrategy": "fallback_recent",
+      "staleWarnings": [],
+      "scoringBreakdown": []
+    },
     "publicationLearning": {
       "source": "published-posts-fallback",
       "totalEntries": 7,
