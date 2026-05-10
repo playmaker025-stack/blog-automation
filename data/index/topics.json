@@ -1477,7 +1477,32 @@
       "assignedUserId": "d",
       "createdAt": "2026-05-10T01:56:11.293Z",
       "updatedAt": "2026-05-10T01:56:11.293Z"
+    },
+    {
+      "topicId": "topic-series-moz4flh0-mc3w-3",
+      "title": "초보자가 해로운가 시작 전에 자주 놓치는 체크포인트",
+      "description": "메인 키워드 \"연초 담배에 비해 액상형 전자담배가 얼마나 덜 해로운가\"를 바로 정면으로 쓰기 전에 검색자가 먼저 궁금해하는 하위 의도를 다룹니다. 본문에서는 메인 키워드를 억지 반복하지 않고 1~3회 자연스럽게 노출합니다.",
+      "category": "d",
+      "tags": [
+        "연초 담배에 비해 액상형 전자담배가 얼마나 덜 해로운가",
+        "선행포스팅",
+        "키워드빌드업",
+        "초보자가이드"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "seriesId": "series-d-연초-담배에-비해-액상형-전자담배가-얼마나-덜-해로운가-moz4flh0-mc3w",
+      "seriesRole": "prelude",
+      "targetMainKeyword": "연초 담배에 비해 액상형 전자담배가 얼마나 덜 해로운가",
+      "sequenceOrder": 3,
+      "prerequisiteTopicIds": [],
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-05-10T01:56:13.195Z",
+      "updatedAt": "2026-05-10T01:56:13.195Z"
     }
   ],
-  "lastUpdated": "2026-05-10T01:56:11.293Z"
+  "lastUpdated": "2026-05-10T01:56:13.195Z"
 }
