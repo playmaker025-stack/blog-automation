@@ -2,6 +2,15 @@
   "userId": "e",
   "samples": [
     {
+      "sampleId": "published-post-b4adcf4d",
+      "title": "입문자부터 연초와 멘솔액상 사용자 전자담배 추천 가이드",
+      "category": "E블로그",
+      "tags": [],
+      "wordCount": 2185,
+      "publishedAt": "2026-05-10T12:01:58.462Z",
+      "filePath": "user-modeling/users/e/corpus/samples/published-post-b4adcf4d.md"
+    },
+    {
       "sampleId": "published-post-import-a1988ff1",
       "title": "전자담배를 계속 쓰게 되는 장점 5가지",
       "category": "published-post",
@@ -47,5 +56,5 @@
       "filePath": "user-modeling/users/e/corpus/samples/published-post-import-1b99338a.md"
     }
   ],
-  "lastUpdated": "2026-05-10T06:11:37.681Z"
+  "lastUpdated": "2026-05-10T12:02:06.794Z"
 }
