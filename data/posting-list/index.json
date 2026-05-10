@@ -3305,16 +3305,16 @@
       "topicId": "topic-4c9afc3a",
       "userId": "e",
       "title": "입문자부터 연초와 멘솔액상 사용자 전자담배 추천 가이드",
-      "status": "ready",
-      "naverPostUrl": null,
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/godmaker0/224280995700",
       "evalScore": 69,
       "wordCount": 2185,
       "compositionSessionId": "pipe-8783335d",
       "pendingApproval": null,
       "createdAt": "2026-05-10T06:09:38.181Z",
-      "publishedAt": null,
-      "updatedAt": "2026-05-10T11:58:51.791Z"
+      "publishedAt": "2026-05-10T12:01:58.462Z",
+      "updatedAt": "2026-05-10T12:01:59.851Z"
     }
   ],
-  "lastUpdated": "2026-05-10T11:58:51.791Z"
+  "lastUpdated": "2026-05-10T12:01:59.851Z"
 }
