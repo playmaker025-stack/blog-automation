@@ -3299,7 +3299,22 @@
       "createdAt": "2026-05-10T02:02:21.371Z",
       "publishedAt": "2026-05-10T05:53:51.546Z",
       "updatedAt": "2026-05-10T05:53:53.093Z"
+    },
+    {
+      "postId": "post-b4adcf4d",
+      "topicId": "topic-4c9afc3a",
+      "userId": "e",
+      "title": "입문자·연초형·멘솔형 사용자별 전자담배 추천 기기 정리",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-8783335d",
+      "pendingApproval": null,
+      "createdAt": "2026-05-10T06:09:38.181Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-10T06:09:38.181Z"
     }
   ],
-  "lastUpdated": "2026-05-10T05:53:53.093Z"
+  "lastUpdated": "2026-05-10T06:09:38.181Z"
 }
