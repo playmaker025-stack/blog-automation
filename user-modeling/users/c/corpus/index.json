@@ -2,6 +2,20 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-536609fc",
+      "title": "누수 걱정 없이 전자담배 고르는 핵심 기준",
+      "category": "c",
+      "tags": [
+        "전담 누수",
+        "선행포스팅",
+        "키워드빌드업",
+        "선택기준"
+      ],
+      "wordCount": 2503,
+      "publishedAt": "2026-05-11T08:49:41.905Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-536609fc.md"
+    },
+    {
       "sampleId": "published-post-03dabba4",
       "title": "전담 누수 보기 전에 핵심 개념부터 정리",
       "category": "c",
@@ -107,5 +121,5 @@
       "filePath": "user-modeling/users/c/corpus/samples/published-post-5beaf101.md"
     }
   ],
-  "lastUpdated": "2026-05-09T05:58:28.568Z"
+  "lastUpdated": "2026-05-11T08:49:50.948Z"
 }
