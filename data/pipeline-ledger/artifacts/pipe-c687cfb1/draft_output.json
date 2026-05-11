@@ -1,12 +1,12 @@
 {
   "pipelineId": "pipe-c687cfb1",
   "type": "draft_output",
-  "savedAt": "2026-05-11T06:04:12.719Z",
+  "savedAt": "2026-05-11T06:05:03.330Z",
   "data": {
     "postId": "post-536609fc",
     "title": "누수 고르기 전에 많이 보는 선택 기준",
-    "wordCount": 2391,
-    "generatedAt": "2026-05-11T06:04:11.747Z",
+    "wordCount": 2301,
+    "generatedAt": "2026-05-11T06:05:02.002Z",
     "contentPath": "data/posting-list/posts/post-536609fc/content.md",
     "corpusSummaryUsed": true
   }
