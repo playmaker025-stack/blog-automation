@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-manual-mp0yr91r",
+      "topicId": "",
+      "userId": "c",
+      "title": "누수 걱정 없이 전자담배 고르는 핵심 기준",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224282009935",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-05-11T08:52:27.847Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-05-11T08:52:30.036Z"
+    },
+    {
       "postId": "post-manual-mp0yr62z",
       "topicId": "",
       "userId": "c",
@@ -132,5 +145,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-05-11T08:52:26.418Z"
+  "updatedAt": "2026-05-11T08:52:30.036Z"
 }
