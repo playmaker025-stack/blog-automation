@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-670ee7ed",
   "type": "strategy_plan",
-  "savedAt": "2026-05-11T05:13:27.434Z",
+  "savedAt": "2026-05-11T05:13:39.432Z",
   "data": {
     "title": "만수동 전자담배 고농도 액상 인기 제품과 사용 후기",
     "outline": [
@@ -97,7 +97,105 @@
       "전자담배 니코틴 농도"
     ],
     "rationale": "topic_feasibility_judge 결과 실현가능성 100점·허용 판정 확인. 중복 리스크 없음(기존 발행 글은 기기별 장단점, 입문자 선택법 위주이며 '고농도 액상 후기' 각도는 미발행). 네이버 키워드 리서치 기준 '고농도 액상' 블로그 경쟁도 medium, 30일 트렌드 데이터 존재. 커뮤니티 수요 조사 결과 KnowledgeIn에서 2,252건의 질문 중 고농도 어지러움·농도 표기 혼란·타격감 부족이 반복 등장 → 이를 섹션 2·4에서 직접 해소하는 구조 채택. 카페에서는 솔트 니코틴 30mg, 코팝 고농도 3종, 크오크 30mg, 블랙유니콘 50mg이 반복 언급 → 특정 제품 광고 없이 맛 계열·목적 매핑으로 흡수. 코퍼스 분석 결과 사용자 문체는 '친근하지만 정보가 먼저 보이는 설명형', 도입 초반 핵심 키워드 자연 반복, 문제→기준→선택지 순 전개 방식 확인 → 전체 outline에 반영. 발행 기록 평균 66점 탈피를 위해 체크리스트·표 구조·정상/비정상 구분선 추가로 구체성과 helpfulness를 보강했으며, 허브-리프 내부 링크 2개를 자연스럽게 배치해 블로그 구조 점수를 높인다.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "b",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 3806,
+        "signatureExpressions": [
+          "안녕하세요"
+        ],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "주제 직접 서술로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-manual-move9qrq",
+          "title": "부평전자담배 입문용 기기 추천 – 포켓코리아 아머미니 직접 써본 후기",
+          "excerpt": "부평전자담배 입문용 기기 추천 – 포켓코리아 아머미니 직접 써본 후기 부평전자담배 입문용 기기 추천 – 포켓코리아 아머미니 직접 써본 후기 : 네이버 블로그 NAVER 블로그 만수동만수르동생 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-a22caaa6",
+          "title": "만수동 전자담배 기기별 장단점과 추천 가이드",
+          "excerpt": "만수동 전자담배 기기별 장단점과 추천 가이드 만수동에서 인기 있는 전자담배 기기 유형은? 만수동 전자담배 매장에 처음 방문하면 직원들이 가장 먼저 묻는 질문이 있습니다. “처음 사용하시나요, 아니면 경험이 있으신가요?” 실제로 만수동에서는 초보자와 경험자 모두 각자 선호하는 전자담배 기기 유형이 뚜렷하게 나뉩니다. 대표적으로 일회용 전자담배 , 폐쇄형 팟 시스템 , 개방형(오픈팟/박스 모드) 세 가지 유형이 많이 언급되고 있습",
+          "styleNotes": "tone=casual, contentKind=hub, category=b"
+        },
+        {
+          "sampleId": "published-post-358803fa",
+          "title": "남동구 전자담배 초보 입문자 위한 액상 선택법",
+          "excerpt": "안녕하세요! 남동구 전자담배 입문자 분들을 위해 액상 선택 방법을 쉽고 자세히 안내해드리겠습니다. 전자담배를 처음 시작할 때 가장 고민하는 부분 중 하나가 \"어떤 액상을 골라야 할까?\"입니다. 남동구 내 매장마다 추천하는 제품과 상담 방식이 다소 차이가 있어, 기본적인 기준을 알고 가면 만족스러운 제품을 선택하는 데 도움이 됩니다. 이번 글에서는 남동구에서 전자담배를 처음 접하는 분들이 액상을 고를 때 꼭 확인해야 할 핵심 포",
+          "styleNotes": "tone=casual, contentKind=leaf, category=b"
+        },
+        {
+          "sampleId": "published-post-import-08c915d5f3",
+          "title": "간석오거리 전자담배 기기 오래 쓰는 사람 특징",
+          "excerpt": "간석오거리 전자담배 기기 오래 쓰는 사람 특징 간석오거리 전자담배 기기 오래 쓰는 사람 특징 : 네이버 블로그 NAVER 블로그 만수동만수르동생 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내 블로그 ",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-7e4e7ced",
+          "title": "부평 전자담배 입문자 기기 선택 5가지 핵심 기준",
+          "excerpt": "안녕하십니까! 부평전자담배 만수르 동생입니다. ​ 매장에 방문하면 다양한 기기들 앞에서 어떤 제품을 선택해야 할지 고민하게 됩니다. ​ \"내게 맞는 전자담배는 무엇일까?\" ​ 하는 질문은 누구나 하는 자연스러운 과정인데요. ​ 이 글에서는 부평역과 부평시장 근처에서 전자담배 입문자가 실제로 고려하는 5가지 중요한 기준을 정리해드립니다. ​ 이 내용을 미리 숙지하면 매장 방문 전 본인의 선호에 맞는 기기를 조금 더 쉽게 고를 수",
+          "styleNotes": "tone=casual, category=direct-run"
+        }
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-manual-move9qrq",
+          "finalScore": 0.673,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.97,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-a22caaa6",
+          "finalScore": 0.633,
+          "components": {
+            "relevance": 0.69,
+            "recency": 0.95,
+            "roleMatch": 0.6,
+            "intentMatch": 0
+          }
+        },
+        {
+          "sampleId": "published-post-358803fa",
+          "finalScore": 0.598,
+          "components": {
+            "relevance": 0.58,
+            "recency": 0.98,
+            "roleMatch": 0.6,
+            "intentMatch": 0
+          }
+        },
+        {
+          "sampleId": "published-post-import-08c915d5f3",
+          "finalScore": 0.564,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.84,
+            "roleMatch": 0,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-7e4e7ced",
+          "finalScore": 0.501,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.89,
+            "roleMatch": 0,
+            "intentMatch": 0
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 36,
