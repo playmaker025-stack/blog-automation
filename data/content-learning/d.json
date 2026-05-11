@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-c9a6c5fc",
+      "topicId": "topic-series-moz4kdjp-fov8-2",
+      "userId": "d",
+      "title": "액상형 전자담배 선택법 3가지: 입문 전 꼭 확인하세요",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224282236121",
+      "evalScore": 60,
+      "wordCount": 2254,
+      "publishedAt": "2026-05-11T12:50:13.757Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-05-11T12:50:19.586Z"
+    },
+    {
       "postId": "post-240eafbc",
       "topicId": "topic-series-moz4kdjp-fov8-1",
       "userId": "d",
@@ -67,5 +80,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-05-10T05:53:56.669Z"
+  "updatedAt": "2026-05-11T12:50:19.586Z"
 }
