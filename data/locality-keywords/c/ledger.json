@@ -2,6 +2,24 @@
   "userId": "c",
   "entries": [
     {
+      "keyword": "만수역",
+      "phrase": "부평시장이나 만수역처럼 이동이 잦은",
+      "title": "누수 고르기 전에 많이 보는 선택 기준",
+      "postId": "post-536609fc",
+      "topicId": "topic-series-mowamksr-yi4d-2",
+      "userId": "c",
+      "usedAt": "2026-05-11T06:06:12.212Z"
+    },
+    {
+      "keyword": "부평시장",
+      "phrase": "부평시장이나 만수역처럼 이동이 잦은",
+      "title": "누수 고르기 전에 많이 보는 선택 기준",
+      "postId": "post-536609fc",
+      "topicId": "topic-series-mowamksr-yi4d-2",
+      "userId": "c",
+      "usedAt": "2026-05-11T06:06:12.212Z"
+    },
+    {
       "keyword": "부평",
       "phrase": "부평이나 구월 등에서 전자담배를 사용하다 보",
       "title": "전담 누수 보기 전에 핵심 개념부터 정리",
@@ -191,5 +209,5 @@
       "usedAt": "2026-04-24T05:03:57.440Z"
     }
   ],
-  "updatedAt": "2026-05-09T03:54:19.750Z"
+  "updatedAt": "2026-05-11T06:06:12.212Z"
 }
