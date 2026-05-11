@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-68365eaf",
   "type": "strategy_plan",
-  "savedAt": "2026-05-11T10:20:29.765Z",
+  "savedAt": "2026-05-11T10:20:44.471Z",
   "data": {
     "title": "액상형 전자담배로 넘어가기 전에 먼저 확인하는 선택 기준 3가지",
     "outline": [
@@ -98,7 +98,103 @@
       "액상형 전자담배 입문자"
     ],
     "rationale": "사용자 D의 코퍼스 문체(친근하지만 정보 우선, 문제→기준→선택지 순서 전개)와 카테고리 d의 선행 포스팅 역할에 맞춰 전략을 설계했습니다. 키워드 조사에서 레딜 관련 글이 상위를 다수 점유하고 있어 해당 키워드는 정책 규정에 따라 전면 배제했습니다. 카페 커뮤니티 시그널(담배냄새·잔향·환풍기 청소 불편 3건 반복)과 KIN 반복 질문(입호흡 방식 혼란, 하루 한 갑 대비 유지비 불안, 기기 선택 기준 부재)을 각 섹션의 실수·체감 포인트에 직접 반영해 실수요 기반 콘텐츠로 구성했습니다. 상위 노출 글들이 특정 제품 리뷰 중심인 점을 감안해, 이 글은 제품 추천 없이 '내 상황에 맞는 판단 기준 체계화'에 집중함으로써 차별성을 확보합니다. 메인 키워드는 도입부·냄새 섹션·결론에서 총 3회 이내 맥락 노출하며, 결론에서 허브 글과 기발행 리프 글로의 자연스러운 내부링크 연결로 시리즈 흐름을 완성합니다. 중복 리스크: 기발행 topic-series-moz4kdjp-fov8-1(입호흡·니코틴·냄새 개념 정리)과 소재가 일부 겹치나, 해당 글이 '개념 이해' 역할인 반면 이 글은 '실선택 기준 판단' 역할로 각도를 명확히 분리해 중복을 회피합니다.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "d",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 3792,
+        "signatureExpressions": [],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "주제 직접 서술로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-240eafbc",
+          "title": "전자담배 입문자 필독! 입호흡·니코틴·냄새 이해하기",
+          "excerpt": "전자담배를 처음 접할 때 가장 많이 헷갈리는 세 가지 개념, '입호흡과 폐호흡 차이', '니코틴 농도 비교', 그리고 '전자담배 냄새와 타르 차이'에 대해 쉽게 정리해드립니다. 연초에서 액상형 전자담배로 전환하려는 분들은 용어부터 막혀 당황하는 경우가 많습니다. \"입호흡과 폐호흡은 어떻게 다른가요?\" \"니코틴 농도는 연초와 어떻게 맞춰야 할까요?\" 같은 질문이 인천, 부평 전자담배 매장에서도 자주 들립니다. 1. 입호흡(MTL",
+          "styleNotes": "tone=casual, contentKind=leaf, category=d"
+        },
+        {
+          "sampleId": "published-post-manual-mou1myzp",
+          "title": "포켓코리아 아머미니 전자담배 – 입문자용으로 쓰기 편한 이유 정리",
+          "excerpt": "포켓코리아 아머미니 전자담배 – 입문자용으로 쓰기 편한 이유 정리 포켓코리아 아머미니 전자담배 – 입문자용으로 쓰기 편한 이유 정리 : 네이버 블로그 NAVER 블로그 인천 전자담배 부평 만수르 조카 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 댓글 1 공",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-bb8481dc",
+          "title": "부평 전자담배 액상 입 튐 문제, 매장에서 빠르게 해결하는 법",
+          "excerpt": "전자담배를 사용하다 보면 액상이 입으로 튀어 당황한 경험이 있으시죠? 부평 전자담배 매장에도 이런 문의가 매우 자주 들어옵니다. 기기가 고장 난 건지, 아니면 원래 그런 현상인지 혼란스러울 때가 많습니다. 이번 글에서는 전자담배 액상이 입으로 튀는 현상이 정상인지, 비정상인지 먼저 구분하고, 집에서 쉽게 할 수 있는 자가 점검 방법부터 매장 방문 시 준비사항까지 함께 정리해드리겠습니다. 전자담배에서 입으로 액상이 튀는 ‘스팃(",
+          "styleNotes": "tone=casual, category=direct-run"
+        },
+        {
+          "sampleId": "published-post-manual-mor88gnv",
+          "title": "전자담배 액상 vs 일회용 뭐가 더 나을까 – 결국 이 차이입니다",
+          "excerpt": "전자담배 액상 vs 일회용 뭐가 더 나을까 – 결국 이 차이입니다 전자담배 액상 vs 일회용 뭐가 더 나을까 – 결국 이 차이입니다 : 네이버 블로그 NAVER 블로그 인천 전자담배 부평 만수르 조카 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 ",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-63f0c6d4",
+          "title": "전자담배 액상, 과일멘솔과 연초류 비교 및 추천 가이드",
+          "excerpt": "전자담배 액상을 고를 때 과일멘솔과 연초류 중 어떤 선택이 나에게 맞을지 고민하는 분들이 많습니다. 단순히 맛뿐 아니라 흡연 경험, 쿨링감 선호도, 사용 상황을 꼼꼼히 따져보는 것이 중요하죠. 이 글에서는 과일멘솔과 연초류 액상의 차이점과 선택 기준, 입문자 추천까지 한눈에 정리해 알려드리겠습니다. 먼저, 두 액상의 차이를 살펴볼까요? 과일멘솔 액상은 상큼한 과일향과 청량한 쿨링감이 특징이며, 가볍고 산뜻한 흡입감을 제공합니다",
+          "styleNotes": "tone=casual, category=direct-run"
+        }
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-240eafbc",
+          "finalScore": 0.762,
+          "components": {
+            "relevance": 0.61,
+            "recency": 0.99,
+            "roleMatch": 0.6,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-manual-mou1myzp",
+          "finalScore": 0.671,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.96,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-bb8481dc",
+          "finalScore": 0.573,
+          "components": {
+            "relevance": 0.68,
+            "recency": 0.91,
+            "roleMatch": 0,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-manual-mor88gnv",
+          "finalScore": 0.517,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.95,
+            "roleMatch": 0,
+            "intentMatch": 0
+          }
+        },
+        {
+          "sampleId": "published-post-63f0c6d4",
+          "finalScore": 0.49,
+          "components": {
+            "relevance": 0.67,
+            "recency": 0.89,
+            "roleMatch": 0,
+            "intentMatch": 0
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 52,
