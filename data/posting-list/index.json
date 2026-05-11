@@ -3314,7 +3314,22 @@
       "createdAt": "2026-05-10T06:09:38.181Z",
       "publishedAt": "2026-05-10T12:01:58.462Z",
       "updatedAt": "2026-05-10T12:01:59.851Z"
+    },
+    {
+      "postId": "post-62cf984e",
+      "topicId": "topic-93930ab7",
+      "userId": "b",
+      "title": "만수동 전자담배 고농도 액상 인기 제품과 사용 후기",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-670ee7ed",
+      "pendingApproval": null,
+      "createdAt": "2026-05-11T05:13:34.236Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-11T05:13:34.236Z"
     }
   ],
-  "lastUpdated": "2026-05-10T12:01:59.851Z"
+  "lastUpdated": "2026-05-11T05:13:34.236Z"
 }
