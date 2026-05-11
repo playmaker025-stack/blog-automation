@@ -3272,7 +3272,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-670ee7ed",
       "at": "2026-05-11T05:13:29.475Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-93930ab7",
+      "userId": "b",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-62cf984e / Similar existing title found: 만수동 전자담배 고농도 액상 인기 제품과 사용 후기 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-09389b20",
+      "at": "2026-05-11T05:36:18.490Z"
     }
   ],
-  "lastUpdated": "2026-05-11T05:13:29.475Z"
+  "lastUpdated": "2026-05-11T05:36:18.490Z"
 }
