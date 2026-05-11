@@ -3374,7 +3374,22 @@
       "publishedAt": "2026-05-11T08:52:24.117Z",
       "createdAt": "2026-05-11T08:52:24.117Z",
       "updatedAt": "2026-05-11T08:52:24.117Z"
+    },
+    {
+      "postId": "post-c9a6c5fc",
+      "topicId": "topic-series-moz4kdjp-fov8-2",
+      "userId": "d",
+      "title": "액상형 전자담배로 넘어가기 전에 먼저 확인하는 선택 기준 3가지",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-68365eaf",
+      "pendingApproval": null,
+      "createdAt": "2026-05-11T10:20:38.469Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-11T10:20:38.469Z"
     }
   ],
-  "lastUpdated": "2026-05-11T08:52:39.859Z"
+  "lastUpdated": "2026-05-11T10:20:38.469Z"
 }
