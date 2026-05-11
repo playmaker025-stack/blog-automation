@@ -3294,7 +3294,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-689a72c2",
       "at": "2026-05-11T05:41:50.087Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "누수 고르기 전에 많이 보는 선택 기준",
+      "proposedTitle": "누수 고르기 전에 많이 보는 선택 기준",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-c687cfb1",
+      "at": "2026-05-11T05:59:53.169Z"
     }
   ],
-  "lastUpdated": "2026-05-11T05:41:50.087Z"
+  "lastUpdated": "2026-05-11T05:59:53.169Z"
 }
