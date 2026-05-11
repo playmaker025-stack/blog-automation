@@ -3283,7 +3283,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-09389b20",
       "at": "2026-05-11T05:36:18.490Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "만수동 전자담배 고농도 액상 인기 제품과 사용 후기",
+      "proposedTitle": "만수동 전자담배 고농도 입호흡 액상 인기 제품과 실사용 후기",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.84,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-689a72c2",
+      "at": "2026-05-11T05:41:50.087Z"
     }
   ],
-  "lastUpdated": "2026-05-11T05:36:18.490Z"
+  "lastUpdated": "2026-05-11T05:41:50.087Z"
 }
