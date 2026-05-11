@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-670ee7ed",
+  "type": "approval_request",
+  "savedAt": "2026-05-11T05:13:36.072Z",
+  "data": {
+    "pipelineId": "pipe-670ee7ed",
+    "previousTitle": "",
+    "proposedTitle": "만수동 전자담배 고농도 액상 인기 제품과 사용 후기",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "topic_feasibility_judge 결과 실현가능성 100점·허용 판정 확인. 중복 리스크 없음(기존 발행 글은 기기별 장단점, 입문자 선택법 위주이며 '고농도 액상 후기' 각도는 미발행). 네이버 키워드 리서치 기준 '고농도 액상' 블로그 경쟁도 medium, 30일 트렌드 데이터 존재. 커뮤니티 수요 조사 결과 KnowledgeIn에서 2,252건의 질문 중 고농도 어지러움·농도 표기 혼란·타격감 부족이 반복 등장 → 이를 섹션 2·4에서 직접 해소하는 구조 채택. 카페에서는 솔트 니코틴 30mg, 코팝 고농도 3종, 크오크 30mg, 블랙유니콘 50mg이 반복 언급 → 특정 제품 광고 없이 맛 계열·목적 매핑으로 흡수. 코퍼스 분석 결과 사용자 문체는 '친근하지만 정보가 먼저 보이는 설명형', 도입 초반 핵심 키워드 자연 반복, 문제→기준→선택지 순 전개 방식 확인 → 전체 outline에 반영. 발행 기록 평균 66점 탈피를 위해 체크리스트·표 구조·정상/비정상 구분선 추가로 구체성과 helpfulness를 보강했으며, 허브-리프 내부 링크 2개를 자연스럽게 배치해 블로그 구조 점수를 높인다.",
+    "requestedAt": "2026-05-11T05:13:31.238Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-11T05:13:31.238Z",
+      "modifications": null
+    }
+  }
+}
