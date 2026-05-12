@@ -3375,7 +3375,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-35c3bb09",
       "at": "2026-05-12T07:31:51.037Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-4e32f628 / Similar existing title found: 전자담배 고르기 전에 많이 보는 선택 기준 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-2af72bc6",
+      "at": "2026-05-12T07:47:26.532Z"
     }
   ],
-  "lastUpdated": "2026-05-12T07:31:51.037Z"
+  "lastUpdated": "2026-05-12T07:47:26.532Z"
 }
