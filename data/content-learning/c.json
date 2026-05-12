@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-131c1c35",
+      "topicId": "topic-series-mowamksr-yi4d-3",
+      "userId": "c",
+      "title": "전자담배 초보자 필수 체크포인트: 입문 전 꼭 확인할 기준",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224282899295",
+      "evalScore": 64,
+      "wordCount": 2328,
+      "publishedAt": "2026-05-12T04:44:21.806Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-05-12T04:44:26.480Z"
+    },
+    {
       "postId": "post-manual-mp0yr91r",
       "topicId": "",
       "userId": "c",
@@ -145,5 +158,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-05-11T08:52:30.036Z"
+  "updatedAt": "2026-05-12T04:44:26.480Z"
 }
