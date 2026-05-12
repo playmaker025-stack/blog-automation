@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-ca10bdcd",
+  "type": "approval_request",
+  "savedAt": "2026-05-12T07:14:22.786Z",
+  "data": {
+    "pipelineId": "pipe-ca10bdcd",
+    "previousTitle": "",
+    "proposedTitle": "전자담배 고르기 전에 많이 보는 선택 기준",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.\n\n[사용자 승인 후 추가 수정 요청]\n입호흡 전자담배 추천를 찾는 이유 자체가 (추천를)이 어법에 안맞잖아 어법에 맞게 아웃라인 다시 설계",
+    "requestedAt": "2026-05-12T07:14:17.547Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-12T07:14:17.547Z",
+      "modifications": "입호흡 전자담배 추천를 찾는 이유 자체가 (추천를)이 어법에 안맞잖아 어법에 맞게 아웃라인 다시 설계"
+    }
+  }
+}
