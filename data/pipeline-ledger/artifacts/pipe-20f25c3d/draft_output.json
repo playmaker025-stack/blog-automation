@@ -1,12 +1,12 @@
 {
   "pipelineId": "pipe-20f25c3d",
   "type": "draft_output",
-  "savedAt": "2026-05-12T11:12:10.684Z",
+  "savedAt": "2026-05-12T11:13:56.344Z",
   "data": {
     "postId": "post-87d8de6d",
     "title": "초보자가 좋은점 시작 전에 자주 놓치는 체크포인트",
-    "wordCount": 1685,
-    "generatedAt": "2026-05-12T11:12:09.439Z",
+    "wordCount": 1821,
+    "generatedAt": "2026-05-12T11:13:54.771Z",
     "contentPath": "data/posting-list/posts/post-87d8de6d/content.md",
     "corpusSummaryUsed": true
   }
