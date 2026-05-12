@@ -2,6 +2,20 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-131c1c35",
+      "title": "전자담배 초보자 필수 체크포인트: 입문 전 꼭 확인할 기준",
+      "category": "c",
+      "tags": [
+        "전담 누수",
+        "선행포스팅",
+        "키워드빌드업",
+        "초보자가이드"
+      ],
+      "wordCount": 2328,
+      "publishedAt": "2026-05-12T04:44:21.806Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-131c1c35.md"
+    },
+    {
       "sampleId": "published-post-manual-mp0yr91r",
       "title": "누수 걱정 없이 전자담배 고르는 핵심 기준",
       "category": "published-post",
@@ -130,5 +144,5 @@
       "filePath": "user-modeling/users/c/corpus/samples/published-post-5beaf101.md"
     }
   ],
-  "lastUpdated": "2026-05-11T08:52:34.682Z"
+  "lastUpdated": "2026-05-12T04:44:29.006Z"
 }
