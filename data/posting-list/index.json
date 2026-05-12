@@ -3464,7 +3464,22 @@
       "createdAt": "2026-05-12T08:36:49.080Z",
       "publishedAt": null,
       "updatedAt": "2026-05-12T08:39:00.937Z"
+    },
+    {
+      "postId": "post-87d8de6d",
+      "topicId": "topic-series-moz4kdjp-fov8-3",
+      "userId": "d",
+      "title": "초보자가 좋은점 시작 전에 자주 놓치는 체크포인트",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-20f25c3d",
+      "pendingApproval": null,
+      "createdAt": "2026-05-12T11:11:21.022Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-12T11:11:21.022Z"
     }
   ],
-  "lastUpdated": "2026-05-12T11:03:53.871Z"
+  "lastUpdated": "2026-05-12T11:11:21.022Z"
 }
