@@ -3331,7 +3331,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-d50ec5b0",
       "at": "2026-05-12T02:00:07.150Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "초보자가 시작 전에 자주 놓치는 체크포인트",
+      "proposedTitle": "전담 처음 시작할 때 초보자가 자주 놓치는 체크포인트 정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.5,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-4f99874d",
+      "at": "2026-05-12T02:10:44.798Z"
     }
   ],
-  "lastUpdated": "2026-05-12T02:00:07.150Z"
+  "lastUpdated": "2026-05-12T02:10:44.798Z"
 }
