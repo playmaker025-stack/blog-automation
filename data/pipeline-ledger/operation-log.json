@@ -3419,7 +3419,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-a652ab82",
       "at": "2026-05-12T09:19:16.709Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "초보자가 좋은점 시작 전에 자주 놓치는 체크포인트",
+      "proposedTitle": "초보자가 좋은점 시작 전에 자주 놓치는 체크포인트",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-20f25c3d",
+      "at": "2026-05-12T11:11:15.764Z"
     }
   ],
-  "lastUpdated": "2026-05-12T09:19:16.709Z"
+  "lastUpdated": "2026-05-12T11:11:15.764Z"
 }
