@@ -2,6 +2,42 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "만수역",
+      "phrase": "만수역이나 주안처럼 이동이 많은 지역에서는 충",
+      "title": "전자담배 고르기 전에 많이 보는 선택 기준",
+      "postId": "post-94151aee",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "usedAt": "2026-05-12T08:05:07.873Z"
+    },
+    {
+      "keyword": "중동",
+      "phrase": "중동이나 간석처럼 가까운 지역 매장에 전화로",
+      "title": "전자담배 고르기 전에 많이 보는 선택 기준",
+      "postId": "post-94151aee",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "usedAt": "2026-05-12T08:05:07.873Z"
+    },
+    {
+      "keyword": "주안",
+      "phrase": "만수역이나 주안처럼 이동이 많은 지역에서는 충",
+      "title": "전자담배 고르기 전에 많이 보는 선택 기준",
+      "postId": "post-94151aee",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "usedAt": "2026-05-12T08:05:07.873Z"
+    },
+    {
+      "keyword": "간석",
+      "phrase": "중동이나 간석처럼 가까운 지역 매장에 전화로",
+      "title": "전자담배 고르기 전에 많이 보는 선택 기준",
+      "postId": "post-94151aee",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "usedAt": "2026-05-12T08:05:07.873Z"
+    },
+    {
       "keyword": "인천",
       "phrase": "들어 인천이나 부평, 구월, 부평역 등 오프라",
       "title": "전자담배 고르기 전에 많이 보는 선택 기준",
@@ -452,5 +488,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-05-12T07:17:48.317Z"
+  "updatedAt": "2026-05-12T08:05:07.873Z"
 }
