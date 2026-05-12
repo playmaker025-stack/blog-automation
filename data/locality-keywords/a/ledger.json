@@ -2,6 +2,42 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "계산",
+      "phrase": "시간이 긴 삼산동이나 계산 등 지역에 계신",
+      "title": "전자담배 고르기 전에 많이 보는 선택 기준",
+      "postId": "post-4ff498c6",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "usedAt": "2026-05-12T08:33:21.711Z"
+    },
+    {
+      "keyword": "삼산동",
+      "phrase": "시간이 긴 삼산동이나 계산 등 지역에 계신",
+      "title": "전자담배 고르기 전에 많이 보는 선택 기준",
+      "postId": "post-4ff498c6",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "usedAt": "2026-05-12T08:33:21.711Z"
+    },
+    {
+      "keyword": "백운",
+      "phrase": "부개동이나 백운 등",
+      "title": "전자담배 고르기 전에 많이 보는 선택 기준",
+      "postId": "post-4ff498c6",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "usedAt": "2026-05-12T08:33:21.711Z"
+    },
+    {
+      "keyword": "부개동",
+      "phrase": "부개동이나 백운 등",
+      "title": "전자담배 고르기 전에 많이 보는 선택 기준",
+      "postId": "post-4ff498c6",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "usedAt": "2026-05-12T08:33:21.711Z"
+    },
+    {
       "keyword": "만수역",
       "phrase": "만수역이나 주안처럼 이동이 많은 지역에서는 충",
       "title": "전자담배 고르기 전에 많이 보는 선택 기준",
@@ -488,5 +524,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-05-12T08:05:07.873Z"
+  "updatedAt": "2026-05-12T08:33:21.711Z"
 }
