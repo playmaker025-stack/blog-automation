@@ -3476,7 +3476,20 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-a108d99e",
       "at": "2026-05-13T12:09:24.959Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "무화량 많은 전자담배 스컹크 모드기기",
+      "proposedTitle": "무화량 많은 전자담배 원한다면, 스컹크 모드기기가 맞는 이유",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.6153846153846154,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-44720f30",
+      "at": "2026-05-13T12:11:59.784Z"
     }
   ],
-  "lastUpdated": "2026-05-13T12:09:24.959Z"
+  "lastUpdated": "2026-05-13T12:11:59.784Z"
 }
