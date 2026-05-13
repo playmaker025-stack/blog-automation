@@ -3500,15 +3500,15 @@
       "topicId": "topic-series-moz4kdjp-fov8-4",
       "userId": "d",
       "title": "액상형 전자담배 선택법과 연초 대비 장점 총정리",
-      "status": "ready",
-      "naverPostUrl": null,
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224284661872",
       "evalScore": 61,
       "wordCount": 1624,
       "compositionSessionId": "pipe-468ebeca",
       "pendingApproval": null,
       "createdAt": "2026-05-13T10:27:49.347Z",
-      "publishedAt": null,
-      "updatedAt": "2026-05-13T14:03:29.081Z"
+      "publishedAt": "2026-05-13T14:03:41.317Z",
+      "updatedAt": "2026-05-13T14:03:41.601Z"
     },
     {
       "postId": "post-5c8d0b2a",
@@ -3586,5 +3586,5 @@
       "updatedAt": "2026-05-13T13:07:50.102Z"
     }
   ],
-  "lastUpdated": "2026-05-13T14:03:29.081Z"
+  "lastUpdated": "2026-05-13T14:03:41.601Z"
 }
