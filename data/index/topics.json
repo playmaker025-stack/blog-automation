@@ -1617,10 +1617,10 @@
       ],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "d",
       "createdAt": "2026-05-10T02:00:07.226Z",
-      "updatedAt": "2026-05-13T10:27:48.368Z",
+      "updatedAt": "2026-05-13T10:30:36.054Z",
       "seriesDetailPlan": {
         "articleGoal": "연초보다 액상형 전자담배가 좋은점를 정면으로 다루면서 선행 포스팅에서 쌓은 개념과 기준을 하나로 묶는다.",
         "searchIntent": "추천형/전환형",
@@ -1655,5 +1655,5 @@
       "seriesDetailReadyAt": "2026-05-10T02:00:14.705Z"
     }
   ],
-  "lastUpdated": "2026-05-13T10:27:48.368Z"
+  "lastUpdated": "2026-05-13T10:30:36.054Z"
 }
