@@ -1683,11 +1683,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "e",
       "createdAt": "2026-05-13T12:10:32.561Z",
-      "updatedAt": "2026-05-13T12:10:32.561Z"
+      "updatedAt": "2026-05-13T12:12:03.646Z"
     }
   ],
-  "lastUpdated": "2026-05-13T12:10:32.561Z"
+  "lastUpdated": "2026-05-13T12:12:03.646Z"
 }
