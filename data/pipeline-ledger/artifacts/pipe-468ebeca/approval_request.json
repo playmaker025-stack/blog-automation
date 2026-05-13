@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-468ebeca",
+  "type": "approval_request",
+  "savedAt": "2026-05-13T10:27:51.333Z",
+  "data": {
+    "pipelineId": "pipe-468ebeca",
+    "previousTitle": "",
+    "proposedTitle": "연초보다 액상형 전자담배가 좋은점",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-05-13T10:27:45.716Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-13T10:27:45.716Z",
+      "modifications": null
+    }
+  }
+}
