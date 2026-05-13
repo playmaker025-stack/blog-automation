@@ -2,6 +2,15 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-manual-mp3pvxg2",
+      "title": "무화량 많은 전자담배 폐호흡 모드기기 베이퍼즈 클라우드 리퍼블릭 스컹크 바텀피더 추천",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 6491,
+      "publishedAt": "2026-05-13T07:07:28.224Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-manual-mp3pvxg2.md"
+    },
+    {
       "sampleId": "published-post-131c1c35",
       "title": "전자담배 초보자 필수 체크포인트: 입문 전 꼭 확인할 기준",
       "category": "c",
@@ -144,5 +153,5 @@
       "filePath": "user-modeling/users/c/corpus/samples/published-post-5beaf101.md"
     }
   ],
-  "lastUpdated": "2026-05-12T04:44:29.006Z"
+  "lastUpdated": "2026-05-13T07:07:34.927Z"
 }
