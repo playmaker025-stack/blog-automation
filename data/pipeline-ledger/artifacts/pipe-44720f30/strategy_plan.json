@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-44720f30",
   "type": "strategy_plan",
-  "savedAt": "2026-05-13T12:11:57.516Z",
+  "savedAt": "2026-05-13T12:12:10.722Z",
   "data": {
     "title": "무화량 많은 전자담배 원한다면, 스컹크 모드기기가 맞는 이유",
     "outline": [
@@ -101,7 +101,103 @@
       "부평 전자담배"
     ],
     "rationale": "직접 입력 토픽이므로 메인 키워드 '무화량 많은 전자담배'를 중심축으로 두고, 서브 키워드 '스컹크 모드기기'는 보조 맥락으로 반영했습니다. 검색 데이터(블로그 34,084건, KnowledgeIn 6,387건, 카페 6,827건)에서 '무화량 많은 전자담배'는 폐호흡 모드기기 수요와 강하게 연결돼 있으며, KnowledgeIn에서 반복 질문된 '와트 설정', '무화량 좋은 폐호흡기기', '폐호흡 어지러움' 등은 실사용자의 구체적 페인포인트를 드러낸다. 카페 커뮤니티에서는 '스컹크(스퀑크) 바텀피더 + 드리퍼 조합'이 무화량 극대화 방법으로 실제 언급되며, 상위 노출 글 제목에도 '스컹크 바텀피더 추천' 구조가 확인된다. 기존 발행 글(평균 69점)의 약점인 추상적 나열을 탈피해 '무화량이 많아지는 원리 → 스컹크 방식 구조 설명 → 세팅 체크리스트 → 사용자 적합 판단'의 문제 해결형 흐름으로 구성해 검색의도 90점+ 달성을 목표로 한다. 반복 제목 키워드(알아보자, 5가지, 입문자부터)를 배제하고 신규 제목 구조를 적용해 중복 리스크를 차단했다. 허용 지역(인천, 부평, 만수)을 마지막 섹션에 자연 배치해 로컬 SEO를 확보하며, 금지 주제(금연·액상 끊기 각도)에 해당하지 않음을 topic_feasibility_judge로 확인(100점 feasible)했다.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "e",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly-informative",
+        "avgWordCount": 5573,
+        "signatureExpressions": [],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "주제 직접 서술로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-b4adcf4d",
+          "title": "입문자부터 연초와 멘솔액상 사용자 전자담배 추천 가이드",
+          "excerpt": "전자담배의 첫 시작, 뭘 선택할지 고민이시죠. 연초향을 써야할지 멘솔을 써야할지. 뭐가 맞는지 고민중이라면 보세요! ❓입무자에게 적합한 전자담배는?? ❓연초맛이 진짜 담배와 비슷한가? ❓멘솔을 쓰고 싶은데 어느정도에 쿨링감을?? 요런 궁금증을 들고 인천 부평,구월동 매장에서 자주 물어보시는 질문이죠. 이번글에서는 이걸 정리해봤습니다. 입문자부터 사용하는 액상에 맞는 기기를 선택하는 방법!! AI 활용 설정 사진 설명을 입력하세",
+          "styleNotes": "tone=casual, category=E블로그"
+        },
+        {
+          "sampleId": "published-post-import-a0c245ae",
+          "title": "입호흡 전자담배 신제품 닷모드 닷팟 맥스 리플",
+          "excerpt": "입호흡 전자담배 신제품 닷모드 닷팟 맥스 리플 입호흡 전자담배 신제품 닷모드 닷팟 맥스 리플 : 네이버 블로그 NAVER 블로그 인천전자담배 만수동만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 댓글 1 공유하기 블로그 주소 변경 불가 안내 블로그 마켓",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-import-1b99338a",
+          "title": "말론, 아스트로 입호흡기기에 폐호흡액상 써도 될까?",
+          "excerpt": "말론, 아스트로 입호흡기기에 폐호흡액상 써도 될까? 말론, 아스트로 입호흡기기에 폐호흡액상 써도 될까? : 네이버 블로그 NAVER 블로그 인천전자담배 만수동만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 댓글 3 공유하기 블로그 주소 변경 불가 안내 ",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-import-a1988ff1",
+          "title": "전자담배를 계속 쓰게 되는 장점 5가지",
+          "excerpt": "전자담배를 계속 쓰게 되는 장점 5가지 전자담배를 계속 쓰게 되는 장점 5가지 : 네이버 블로그 NAVER 블로그 인천전자담배 만수동만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 ",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-import-c583a301",
+          "title": "연초에서 전자담배로 바꾸면 달라지는 점 5가지",
+          "excerpt": "연초에서 전자담배로 바꾸면 달라지는 점 5가지 연초에서 전자담배로 바꾸면 달라지는 점 5가지 : 네이버 블로그 NAVER 블로그 인천전자담배 만수동만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내",
+          "styleNotes": "tone=casual"
+        }
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-b4adcf4d",
+          "finalScore": 0.52,
+          "components": {
+            "relevance": 0.69,
+            "recency": 0.98,
+            "roleMatch": 0,
+            "intentMatch": 0
+          }
+        },
+        {
+          "sampleId": "published-post-import-a0c245ae",
+          "finalScore": 0.505,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.6,
+            "roleMatch": 0,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-import-1b99338a",
+          "finalScore": 0.5,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.58,
+            "roleMatch": 0,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-import-a1988ff1",
+          "finalScore": 0.451,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.68,
+            "roleMatch": 0,
+            "intentMatch": 0
+          }
+        },
+        {
+          "sampleId": "published-post-import-c583a301",
+          "finalScore": 0.438,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.63,
+            "roleMatch": 0,
+            "intentMatch": 0
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 8,
