@@ -2,6 +2,20 @@
   "userId": "d",
   "samples": [
     {
+      "sampleId": "published-post-dab30de6",
+      "title": "액상형 전자담배 선택법과 연초 대비 장점 총정리",
+      "category": "d",
+      "tags": [
+        "연초보다 액상형 전자담배가 좋은점",
+        "추천",
+        "메인포스팅",
+        "키워드시리즈"
+      ],
+      "wordCount": 1624,
+      "publishedAt": "2026-05-13T14:03:41.317Z",
+      "filePath": "user-modeling/users/d/corpus/samples/published-post-dab30de6.md"
+    },
+    {
       "sampleId": "published-post-87d8de6d",
       "title": "액상형 전자담배 장점과 초보자 체크포인트 완벽 가이드",
       "category": "d",
@@ -94,5 +108,5 @@
       "filePath": "user-modeling/users/d/corpus/samples/published-post-21e6d9ae.md"
     }
   ],
-  "lastUpdated": "2026-05-12T13:42:28.409Z"
+  "lastUpdated": "2026-05-13T14:03:49.184Z"
 }
