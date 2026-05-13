@@ -3509,7 +3509,22 @@
       "createdAt": "2026-05-13T10:27:49.347Z",
       "publishedAt": null,
       "updatedAt": "2026-05-13T10:30:34.388Z"
+    },
+    {
+      "postId": "post-5c8d0b2a",
+      "topicId": "topic-561f459b",
+      "userId": "e",
+      "title": "무화량 많은 전자담배 원한다면 폐호흡 모드기기가 정답인 이유",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-a108d99e",
+      "pendingApproval": null,
+      "createdAt": "2026-05-13T12:09:29.585Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-13T12:09:29.585Z"
     }
   ],
-  "lastUpdated": "2026-05-13T10:30:34.388Z"
+  "lastUpdated": "2026-05-13T12:09:29.585Z"
 }
