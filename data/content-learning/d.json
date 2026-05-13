@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-dab30de6",
+      "topicId": "topic-series-moz4kdjp-fov8-4",
+      "userId": "d",
+      "title": "액상형 전자담배 선택법과 연초 대비 장점 총정리",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224284661872",
+      "evalScore": 61,
+      "wordCount": 1624,
+      "publishedAt": "2026-05-13T14:03:41.317Z",
+      "topicSource": "generated",
+      "contentKind": "hub",
+      "learnedAt": "2026-05-13T14:03:45.964Z"
+    },
+    {
       "postId": "post-87d8de6d",
       "topicId": "topic-series-moz4kdjp-fov8-3",
       "userId": "d",
@@ -93,5 +106,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-05-12T13:42:25.112Z"
+  "updatedAt": "2026-05-13T14:03:45.964Z"
 }
