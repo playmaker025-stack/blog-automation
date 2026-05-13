@@ -3489,7 +3489,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-44720f30",
       "at": "2026-05-13T12:11:59.784Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-f028773c",
+      "userId": "e",
+      "message": "Topic lock failed: 이미 다른 파이프라인이 이 주제를 작성 중입니다.",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-45da2109",
+      "at": "2026-05-13T12:14:39.569Z"
     }
   ],
-  "lastUpdated": "2026-05-13T12:11:59.784Z"
+  "lastUpdated": "2026-05-13T12:14:39.569Z"
 }
