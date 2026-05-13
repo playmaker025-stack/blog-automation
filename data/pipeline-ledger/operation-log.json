@@ -3452,7 +3452,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-5345f4d9",
       "at": "2026-05-13T10:26:34.749Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "연초보다 액상형 전자담배가 좋은점",
+      "proposedTitle": "연초보다 액상형 전자담배가 좋은점",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-468ebeca",
+      "at": "2026-05-13T10:27:43.906Z"
     }
   ],
-  "lastUpdated": "2026-05-13T10:26:34.749Z"
+  "lastUpdated": "2026-05-13T10:27:43.906Z"
 }
