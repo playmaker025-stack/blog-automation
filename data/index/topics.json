@@ -1670,7 +1670,24 @@
       "assignedUserId": "e",
       "createdAt": "2026-05-13T12:07:40.040Z",
       "updatedAt": "2026-05-13T12:09:28.506Z"
+    },
+    {
+      "topicId": "topic-f028773c",
+      "title": "무화량 많은 전자담배 스컹크 모드기기",
+      "description": "메인키워드: 무화량 많은 전자담배 / 서브 키워드: 스컹크 모드기기",
+      "category": "direct-run",
+      "tags": [
+        "무화량 많은 전자담배",
+        "스컹크 모드기기"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "e",
+      "createdAt": "2026-05-13T12:10:32.561Z",
+      "updatedAt": "2026-05-13T12:10:32.561Z"
     }
   ],
-  "lastUpdated": "2026-05-13T12:09:28.506Z"
+  "lastUpdated": "2026-05-13T12:10:32.561Z"
 }
