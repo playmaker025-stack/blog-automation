@@ -3494,7 +3494,22 @@
       "publishedAt": "2026-05-13T07:07:28.224Z",
       "createdAt": "2026-05-13T07:07:28.224Z",
       "updatedAt": "2026-05-13T07:07:28.224Z"
+    },
+    {
+      "postId": "post-dab30de6",
+      "topicId": "topic-series-moz4kdjp-fov8-4",
+      "userId": "d",
+      "title": "연초보다 액상형 전자담배가 좋은점",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-468ebeca",
+      "pendingApproval": null,
+      "createdAt": "2026-05-13T10:27:49.347Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-13T10:27:49.347Z"
     }
   ],
-  "lastUpdated": "2026-05-13T07:07:56.224Z"
+  "lastUpdated": "2026-05-13T10:27:49.347Z"
 }
