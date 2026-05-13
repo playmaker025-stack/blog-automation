@@ -3518,12 +3518,12 @@
       "status": "ready",
       "naverPostUrl": null,
       "evalScore": null,
-      "wordCount": 2326,
+      "wordCount": 2560,
       "compositionSessionId": "pipe-a108d99e",
       "pendingApproval": null,
       "createdAt": "2026-05-13T12:09:29.585Z",
       "publishedAt": null,
-      "updatedAt": "2026-05-13T12:12:13.902Z"
+      "updatedAt": "2026-05-13T12:13:30.723Z"
     },
     {
       "postId": "post-fb502520",
@@ -3541,5 +3541,5 @@
       "updatedAt": "2026-05-13T12:12:04.623Z"
     }
   ],
-  "lastUpdated": "2026-05-13T12:12:13.902Z"
+  "lastUpdated": "2026-05-13T12:13:30.723Z"
 }
