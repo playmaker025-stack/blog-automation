@@ -3511,7 +3511,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-44720f30",
       "at": "2026-05-13T12:21:32.425Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-f028773c",
+      "userId": "e",
+      "message": "글쓰기 타임아웃 (570초)",
+      "recoveredTopicToDraft": true,
+      "errorName": "Error",
+      "pipelineId": "pipe-44720f30",
+      "at": "2026-05-13T12:21:36.994Z"
     }
   ],
-  "lastUpdated": "2026-05-13T12:21:32.425Z"
+  "lastUpdated": "2026-05-13T12:21:36.994Z"
 }
