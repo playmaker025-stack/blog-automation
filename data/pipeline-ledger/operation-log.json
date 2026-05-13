@@ -3463,7 +3463,20 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-468ebeca",
       "at": "2026-05-13T10:27:43.906Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "무화량 많은 전자담배 폐호흡 모드기기",
+      "proposedTitle": "무화량 많은 전자담배 원한다면 폐호흡 모드기기가 정답인 이유",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.6153846153846154,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-a108d99e",
+      "at": "2026-05-13T12:09:24.959Z"
     }
   ],
-  "lastUpdated": "2026-05-13T10:27:43.906Z"
+  "lastUpdated": "2026-05-13T12:09:24.959Z"
 }
