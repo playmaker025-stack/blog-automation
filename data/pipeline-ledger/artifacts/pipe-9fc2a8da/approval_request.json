@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-9fc2a8da",
+  "type": "approval_request",
+  "savedAt": "2026-05-14T06:57:23.939Z",
+  "data": {
+    "pipelineId": "pipe-9fc2a8da",
+    "previousTitle": "",
+    "proposedTitle": "전담 누수",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.\n\n[사용자 승인 후 추가 수정 요청]\n제목이 너무 짧아 조금만 더 길게 해줘\n\n추가 초안 보완 요청:\n메인키워드나 서브키워드\n과다는 낮춰서 적절하게 맞춰주고\n부족한 키워드는 채워줘",
+    "requestedAt": "2026-05-14T06:57:18.827Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-14T06:57:18.827Z",
+      "modifications": "제목이 너무 짧아 조금만 더 길게 해줘\n\n추가 초안 보완 요청:\n메인키워드나 서브키워드\n과다는 낮춰서 적절하게 맞춰주고\n부족한 키워드는 채워줘"
+    }
+  }
+}
