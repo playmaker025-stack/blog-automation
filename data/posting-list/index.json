@@ -3599,7 +3599,22 @@
       "createdAt": "2026-05-14T05:54:36.005Z",
       "publishedAt": null,
       "updatedAt": "2026-05-14T05:57:16.861Z"
+    },
+    {
+      "postId": "post-09b2c04c",
+      "topicId": "topic-series-mowamksr-yi4d-4",
+      "userId": "c",
+      "title": "전담 누수",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-dea5a1fd",
+      "pendingApproval": null,
+      "createdAt": "2026-05-14T06:45:56.116Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-14T06:45:56.116Z"
     }
   ],
-  "lastUpdated": "2026-05-14T05:57:16.861Z"
+  "lastUpdated": "2026-05-14T06:45:56.116Z"
 }
