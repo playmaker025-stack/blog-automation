@@ -3522,7 +3522,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-44720f30",
       "at": "2026-05-13T12:21:36.994Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전담 누수",
+      "proposedTitle": "전담 누수",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-5508dfa5",
+      "at": "2026-05-14T05:53:59.469Z"
     }
   ],
-  "lastUpdated": "2026-05-13T12:21:36.994Z"
+  "lastUpdated": "2026-05-14T05:53:59.469Z"
 }
