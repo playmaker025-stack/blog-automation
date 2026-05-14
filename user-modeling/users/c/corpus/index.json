@@ -2,6 +2,20 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-2d6f6813",
+      "title": "전담 누수, 기기 선택 전 꼭 알아야 할 기준과 실전 체크리스트",
+      "category": "c",
+      "tags": [
+        "전담 누수",
+        "추천",
+        "메인포스팅",
+        "키워드시리즈"
+      ],
+      "wordCount": 1757,
+      "publishedAt": "2026-05-14T08:26:29.949Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-2d6f6813.md"
+    },
+    {
       "sampleId": "published-post-manual-mp3pw3pu",
       "title": "무화량 많은 전자담배 폐호흡 모드기기 베이퍼즈 클라우드 리퍼블릭 스컹크 바텀피더 추천",
       "category": "published-post",
@@ -162,5 +176,5 @@
       "filePath": "user-modeling/users/c/corpus/samples/published-post-5beaf101.md"
     }
   ],
-  "lastUpdated": "2026-05-13T07:07:42.453Z"
+  "lastUpdated": "2026-05-14T08:26:38.123Z"
 }
