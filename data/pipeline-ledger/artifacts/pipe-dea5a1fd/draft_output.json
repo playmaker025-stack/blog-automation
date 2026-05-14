@@ -1,0 +1,13 @@
+{
+  "pipelineId": "pipe-dea5a1fd",
+  "type": "draft_output",
+  "savedAt": "2026-05-14T06:46:38.057Z",
+  "data": {
+    "postId": "post-09b2c04c",
+    "title": "전담 누수",
+    "wordCount": 1782,
+    "generatedAt": "2026-05-14T06:46:36.939Z",
+    "contentPath": "data/posting-list/posts/post-09b2c04c/content.md",
+    "corpusSummaryUsed": true
+  }
+}
