@@ -3533,7 +3533,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-5508dfa5",
       "at": "2026-05-14T05:53:59.469Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-series-mowamksr-yi4d-4",
+      "userId": "c",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-3cb11959 / Similar existing title found: 전담 누수 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-6014e4a2",
+      "at": "2026-05-14T06:42:23.488Z"
     }
   ],
-  "lastUpdated": "2026-05-14T05:53:59.469Z"
+  "lastUpdated": "2026-05-14T06:42:23.488Z"
 }
