@@ -2,6 +2,42 @@
   "userId": "c",
   "entries": [
     {
+      "keyword": "부평역",
+      "phrase": "특히 부평역이나 남동구, 계산동, 부",
+      "title": "전담 누수",
+      "postId": "post-09b2c04c",
+      "topicId": "topic-series-mowamksr-yi4d-4",
+      "userId": "c",
+      "usedAt": "2026-05-14T06:48:35.958Z"
+    },
+    {
+      "keyword": "계산동",
+      "phrase": "특히 부평역이나 남동구, 계산동, 부",
+      "title": "전담 누수",
+      "postId": "post-09b2c04c",
+      "topicId": "topic-series-mowamksr-yi4d-4",
+      "userId": "c",
+      "usedAt": "2026-05-14T06:48:35.958Z"
+    },
+    {
+      "keyword": "남동구",
+      "phrase": "특히 부평역이나 남동구, 계산동, 부",
+      "title": "전담 누수",
+      "postId": "post-09b2c04c",
+      "topicId": "topic-series-mowamksr-yi4d-4",
+      "userId": "c",
+      "usedAt": "2026-05-14T06:48:35.958Z"
+    },
+    {
+      "keyword": "부평구",
+      "phrase": "- 부평구나 계산동 등 주변 매장에서 실제로",
+      "title": "전담 누수",
+      "postId": "post-09b2c04c",
+      "topicId": "topic-series-mowamksr-yi4d-4",
+      "userId": "c",
+      "usedAt": "2026-05-14T06:48:35.958Z"
+    },
+    {
       "keyword": "인천",
       "phrase": "특히 인천이나 부평, 구월 등",
       "title": "전담 누수",
@@ -281,5 +317,5 @@
       "usedAt": "2026-04-24T05:03:57.440Z"
     }
   ],
-  "updatedAt": "2026-05-14T05:57:14.407Z"
+  "updatedAt": "2026-05-14T06:48:35.958Z"
 }
