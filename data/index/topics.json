@@ -1391,10 +1391,10 @@
       ],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "c",
       "createdAt": "2026-05-08T02:26:12.996Z",
-      "updatedAt": "2026-05-14T06:48:40.134Z",
+      "updatedAt": "2026-05-14T06:57:21.399Z",
       "seriesDetailPlan": {
         "articleGoal": "전담 누수를 정면으로 다루면서 선행 포스팅에서 쌓은 개념과 기준을 하나로 묶는다.",
         "searchIntent": "추천형/전환형",
@@ -1689,5 +1689,5 @@
       "updatedAt": "2026-05-13T12:21:34.818Z"
     }
   ],
-  "lastUpdated": "2026-05-14T06:48:40.134Z"
+  "lastUpdated": "2026-05-14T06:57:21.399Z"
 }
