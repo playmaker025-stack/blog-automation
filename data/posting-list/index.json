@@ -3620,16 +3620,16 @@
       "topicId": "topic-series-mowamksr-yi4d-4",
       "userId": "c",
       "title": "전담 누수",
-      "status": "draft",
+      "status": "ready",
       "naverPostUrl": null,
       "evalScore": null,
-      "wordCount": 0,
+      "wordCount": 2081,
       "compositionSessionId": "pipe-9fc2a8da",
       "pendingApproval": null,
       "createdAt": "2026-05-14T06:57:22.290Z",
       "publishedAt": null,
-      "updatedAt": "2026-05-14T06:57:22.290Z"
+      "updatedAt": "2026-05-14T06:58:08.436Z"
     }
   ],
-  "lastUpdated": "2026-05-14T06:57:22.290Z"
+  "lastUpdated": "2026-05-14T06:58:08.436Z"
 }
