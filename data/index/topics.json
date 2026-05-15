@@ -1051,10 +1051,10 @@
       "prerequisiteTopicIds": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-05-07T10:01:14.592Z",
-      "updatedAt": "2026-05-15T06:24:33.273Z",
+      "updatedAt": "2026-05-15T06:25:38.641Z",
       "seriesDetailPlan": {
         "articleGoal": "입호흡 전자담배 추천를 바로 추천하기 전에 선택 기준과 실사용 판단 포인트를 잡아주는 글",
         "searchIntent": "선택기준형",
@@ -1723,5 +1723,5 @@
       "updatedAt": "2026-05-15T06:23:47.286Z"
     }
   ],
-  "lastUpdated": "2026-05-15T06:24:33.273Z"
+  "lastUpdated": "2026-05-15T06:25:38.641Z"
 }
