@@ -1700,10 +1700,10 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "published",
       "assignedUserId": "c",
       "createdAt": "2026-05-15T06:02:13.632Z",
-      "updatedAt": "2026-05-15T06:07:50.623Z"
+      "updatedAt": "2026-05-15T07:24:54.552Z"
     },
     {
       "topicId": "topic-21fcf4a1",
@@ -1723,5 +1723,5 @@
       "updatedAt": "2026-05-15T06:26:57.900Z"
     }
   ],
-  "lastUpdated": "2026-05-15T06:26:57.900Z"
+  "lastUpdated": "2026-05-15T07:24:54.552Z"
 }
