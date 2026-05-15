@@ -3566,7 +3566,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-d8dd5753",
       "at": "2026-05-15T06:03:31.582Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "무화량 많은 전자담배 베이퍼즈 클라우드 바텀피더 퍼블릭 스컹크 모드기기",
+      "proposedTitle": "무화량 많은 전자담배 원하면 폐호흡 모드기기가 답인 이유 – 베이퍼즈 클라우드 바텀피더·퍼블릭·스컹크 실사용 포인트",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.5294117647058824,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-30ff0c69",
+      "at": "2026-05-15T06:23:43.053Z"
     }
   ],
-  "lastUpdated": "2026-05-15T06:03:31.582Z"
+  "lastUpdated": "2026-05-15T06:23:43.053Z"
 }
