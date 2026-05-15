@@ -2,6 +2,18 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-3c8c973c",
+      "title": "전자담배 액상 세금 인상과 가격 변동 완벽 정리",
+      "category": "direct-run",
+      "tags": [
+        "전자담배 액상 세금",
+        "전담 가격 인상"
+      ],
+      "wordCount": 2375,
+      "publishedAt": "2026-05-15T07:24:51.337Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-3c8c973c.md"
+    },
+    {
       "sampleId": "published-post-2d6f6813",
       "title": "전담 누수, 기기 선택 전 꼭 알아야 할 기준과 실전 체크리스트",
       "category": "c",
@@ -176,5 +188,5 @@
       "filePath": "user-modeling/users/c/corpus/samples/published-post-5beaf101.md"
     }
   ],
-  "lastUpdated": "2026-05-14T08:26:38.123Z"
+  "lastUpdated": "2026-05-15T07:24:59.421Z"
 }
