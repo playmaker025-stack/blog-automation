@@ -2,6 +2,18 @@
   "userId": "b",
   "samples": [
     {
+      "sampleId": "published-post-114ac1da",
+      "title": "무화량 많은 폐호흡 전자담배 추천: 베이퍼즈 클라우드 바텀피더 리퍼블릭 스컹크",
+      "category": "direct-run",
+      "tags": [
+        "무화량 많은 전자담배",
+        "베이퍼즈 클라우드 바텀피더 퍼블릭 스컹크 모드기기"
+      ],
+      "wordCount": 2980,
+      "publishedAt": "2026-05-15T11:36:38.371Z",
+      "filePath": "user-modeling/users/b/corpus/samples/published-post-114ac1da.md"
+    },
+    {
       "sampleId": "published-post-068efc06",
       "title": "간석동 고농도 입호흡 전자담배 액상 인기 제품과 후기",
       "category": "b",
@@ -89,5 +101,5 @@
       "filePath": "user-modeling/users/b/corpus/samples/published-post-import-08c915d5f3.md"
     }
   ],
-  "lastUpdated": "2026-05-12T11:03:55.931Z"
+  "lastUpdated": "2026-05-15T11:36:46.573Z"
 }
