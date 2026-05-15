@@ -3614,7 +3614,22 @@
       "publishedAt": "2026-05-14T12:37:56.927Z",
       "createdAt": "2026-05-14T12:37:56.927Z",
       "updatedAt": "2026-05-14T12:37:56.927Z"
+    },
+    {
+      "postId": "post-3c8c973c",
+      "topicId": "topic-a1002556",
+      "userId": "c",
+      "title": "전자담배 액상 세금, 전담 가격 얼마나 오른 건지 정확히 정리해드립니다",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-d8dd5753",
+      "pendingApproval": null,
+      "createdAt": "2026-05-15T06:03:59.970Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-15T06:03:59.970Z"
     }
   ],
-  "lastUpdated": "2026-05-15T05:53:32.280Z"
+  "lastUpdated": "2026-05-15T06:03:59.970Z"
 }
