@@ -1704,7 +1704,24 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-15T06:02:13.632Z",
       "updatedAt": "2026-05-15T06:07:50.623Z"
+    },
+    {
+      "topicId": "topic-21fcf4a1",
+      "title": "무화량 많은 전자담배 베이퍼즈 클라우드 바텀피더 퍼블릭 스컹크 모드기기",
+      "description": "메인키워드: 무화량 많은 전자담배 / 서브 키워드: 베이퍼즈 클라우드 바텀피더 퍼블릭 스컹크 모드기기",
+      "category": "direct-run",
+      "tags": [
+        "무화량 많은 전자담배",
+        "베이퍼즈 클라우드 바텀피더 퍼블릭 스컹크 모드기기"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-05-15T06:22:01.942Z",
+      "updatedAt": "2026-05-15T06:22:01.942Z"
     }
   ],
-  "lastUpdated": "2026-05-15T06:07:50.623Z"
+  "lastUpdated": "2026-05-15T06:22:01.942Z"
 }
