@@ -3620,15 +3620,15 @@
       "topicId": "topic-a1002556",
       "userId": "c",
       "title": "전자담배 액상 세금 인상과 가격 변동 완벽 정리",
-      "status": "ready",
-      "naverPostUrl": null,
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224286543558",
       "evalScore": 63,
       "wordCount": 2375,
       "compositionSessionId": "pipe-d8dd5753",
       "pendingApproval": null,
       "createdAt": "2026-05-15T06:03:59.970Z",
-      "publishedAt": null,
-      "updatedAt": "2026-05-15T06:54:04.104Z"
+      "publishedAt": "2026-05-15T07:24:51.337Z",
+      "updatedAt": "2026-05-15T07:24:51.725Z"
     },
     {
       "postId": "post-114ac1da",
@@ -3661,5 +3661,5 @@
       "updatedAt": "2026-05-15T06:25:11.092Z"
     }
   ],
-  "lastUpdated": "2026-05-15T06:54:04.104Z"
+  "lastUpdated": "2026-05-15T07:24:51.725Z"
 }
