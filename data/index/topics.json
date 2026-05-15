@@ -1717,11 +1717,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "b",
       "createdAt": "2026-05-15T06:22:01.942Z",
-      "updatedAt": "2026-05-15T06:23:47.286Z"
+      "updatedAt": "2026-05-15T06:26:57.900Z"
     }
   ],
-  "lastUpdated": "2026-05-15T06:25:38.641Z"
+  "lastUpdated": "2026-05-15T06:26:57.900Z"
 }
