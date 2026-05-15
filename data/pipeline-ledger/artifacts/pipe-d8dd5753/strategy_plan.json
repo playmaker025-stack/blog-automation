@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-d8dd5753",
   "type": "strategy_plan",
-  "savedAt": "2026-05-15T06:03:29.370Z",
+  "savedAt": "2026-05-15T06:04:05.214Z",
   "data": {
     "title": "전자담배 액상 세금, 전담 가격 얼마나 오른 건지 정확히 정리해드립니다",
     "outline": [
@@ -86,7 +86,103 @@
       "온라인 전담 구매"
     ],
     "rationale": "직접 입력 토픽이므로 메인 키워드 '전자담배 액상 세금'를 중심축으로 두고, 서브 키워드 '전담 가격 인상'는 보조 맥락으로 반영했습니다. 메인 키워드 '전자담배 액상 세금'은 최근 30일 블로그 검색 비중 100%, 경쟁도 낮음(low). 지식인 1,841건·카페 1,801건의 실수요가 집중된 시기. 핵심 혼란 포인트는 세 가지: ① 생산일 기준 적용 여부 불명확, ② 기존 재고와 신규 제품 혼재, ③ 온라인 구매 가능 여부. 상위 노출 글 공통점은 세금 구조 설명 + 가격 예시 + 적용 기준 안내이나, 대부분 지역 매장 홍보 목적으로 작성됨. 이 블로그는 정보형 허브 글로 차별화 가능. 서브 키워드 '전담 가격 인상'은 KinD 질문에서 구체 금액 혼란('30ml 7만원 맞냐')과 제품 유형별(일회용/무니코틴) 궁금증으로 나타남. 과거 발행 중 '인천 전자담배 고농도 액상 선택법'과 리프 연결 가능. 중복 발행 리스크 없음(동일 topicId 없음). 평균 평가 52점 개선을 위해 구체적 수치(1ml 당 세금액, 30ml 기준 가격 전후 비교), 실생활 체감 시나리오, 소비자 자가 확인 방법 등 실용성을 보강해 90점 이상 구조로 설계.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "c",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 3937,
+        "signatureExpressions": [],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "주제 직접 서술로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-manual-mp3pw3pu",
+          "title": "무화량 많은 전자담배 폐호흡 모드기기 베이퍼즈 클라우드 리퍼블릭 스컹크 바텀피더 추천",
+          "excerpt": "무화량 많은 전자담배 폐호흡 모드기기 베이퍼즈 클라우드 리퍼블릭 스컹크 바텀피더 추천 무화량 많은 전자담배 폐호흡 모드기기 베이퍼즈 클라우드 리퍼블릭 스컹크 바텀피더 추천 : 네이버 블로그 NAVER 블로그 부평 전자담배 만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 ",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-2d6f6813",
+          "title": "전담 누수, 기기 선택 전 꼭 알아야 할 기준과 실전 체크리스트",
+          "excerpt": "전자담배를 사용하는 분들이라면 한 번쯤 ‘전담 누수’ 문제로 고민해보셨을 거예요. 팟 하단 이나 본체 연결부에 액체가 맺히거나, 예상보다 액상이 빨리 줄어드는 경험을 한 번쯤 겪으셨을 거라고 생각합니다 실제로 주안이나 간석 등 오프라인 매장에서도 “이게 정상인가요?”라는 질문을 자주 듣습니다. 이번 키워드시리즈에서는 전담 누수의 원인부터, 추천 기준, 방문 전 체크포인트까지 실제로 도움이 되는 내용을 한 번에 정리해드리겠습니다",
+          "styleNotes": "tone=casual, contentKind=hub, category=c"
+        },
+        {
+          "sampleId": "published-post-03dabba4",
+          "title": "전담 누수 보기 전에 핵심 개념부터 정리",
+          "excerpt": "부평이나 구월동 등에서 전자담배를 사용하다 보면 액상이 예상보다 빨리 줄거나 기기 바닥에 액체가 맺혀 당황하는 경우가 많습니다. 실제로 단순한 불편을 넘어서 기기 고장이나 안전 문제로 이어질 수 있어서 보기 전에 개념정리가 꼭 필요합니다. 특히 전자담배를 처음 쓰거나 기기를 바꿀 때 액상이 새는 현상이 정상인지 비정상인지 헷갈리는 분들이 많습니다. 선행포스팅이나 키워드빌드업을 참고하는 것도 좋지만 우선 핵심 개념부터 정확히 알",
+          "styleNotes": "tone=casual, contentKind=leaf, category=c"
+        },
+        {
+          "sampleId": "published-post-0c7f0253",
+          "title": "인천 전자담배 고농도 액상 선택과 안전 사용법 총정리",
+          "excerpt": "고농도, 써볼까 말까 고민 중이신가요? 요즘 인천전자담배 에서 판매하는 제품들 입문자부터 기존 사용자까지 관심이 정말 많아졌어요. 하지만 단순히 니코틴 농도가 높다고 다 좋은건 아니죠. 내 몸에 맞는지, 안전하게 쓸 수 있는지 제대로 알고 고르는 게 중요합니다. 이 글에서 인천전자담배 제품 선택 방법과 안전 사용법, 그리고 구월·주안 등 인천에서 직접 구매할 때 챙겨야 할 팁까지 한 번에 정리해드릴게요. 특히, 인천전자담배 액",
+          "styleNotes": "tone=casual, contentKind=hub, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-manual-mp0yr91r",
+          "title": "누수 걱정 없이 전자담배 고르는 핵심 기준",
+          "excerpt": "누수 걱정 없이 전자담배 고르는 핵심 기준 누수 걱정 없이 전자담배 고르는 핵심 기준 : 네이버 블로그 NAVER 블로그 부평 전자담배 만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내 블로그 마",
+          "styleNotes": "tone=casual"
+        }
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-manual-mp3pw3pu",
+          "finalScore": 0.676,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.99,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-2d6f6813",
+          "finalScore": 0.626,
+          "components": {
+            "relevance": 0.57,
+            "recency": 0.99,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-03dabba4",
+          "finalScore": 0.617,
+          "components": {
+            "relevance": 0.57,
+            "recency": 0.95,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-0c7f0253",
+          "finalScore": 0.607,
+          "components": {
+            "relevance": 0.59,
+            "recency": 0.89,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-manual-mp0yr91r",
+          "finalScore": 0.598,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.97,
+            "roleMatch": 0,
+            "intentMatch": 0.5
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 59,
