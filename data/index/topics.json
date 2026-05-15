@@ -1700,11 +1700,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-05-15T06:02:13.632Z",
-      "updatedAt": "2026-05-15T06:03:59.003Z"
+      "updatedAt": "2026-05-15T06:07:50.623Z"
     }
   ],
-  "lastUpdated": "2026-05-15T06:03:59.003Z"
+  "lastUpdated": "2026-05-15T06:07:50.623Z"
 }
