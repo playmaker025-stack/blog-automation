@@ -2,6 +2,19 @@
   "userId": "b",
   "entries": [
     {
+      "postId": "post-114ac1da",
+      "topicId": "topic-21fcf4a1",
+      "userId": "b",
+      "title": "무화량 많은 폐호흡 전자담배 추천: 베이퍼즈 클라우드 바텀피더 리퍼블릭 스컹크",
+      "naverPostUrl": "https://blog.naver.com/youferst/224286760466",
+      "evalScore": 57,
+      "wordCount": 2980,
+      "publishedAt": "2026-05-15T11:36:38.371Z",
+      "topicSource": "direct",
+      "contentKind": null,
+      "learnedAt": "2026-05-15T11:36:43.807Z"
+    },
+    {
       "postId": "post-068efc06",
       "topicId": "topic-93930ab7",
       "userId": "b",
@@ -80,5 +93,5 @@
       "learnedAt": "2026-04-25T10:02:38.491Z"
     }
   ],
-  "updatedAt": "2026-05-12T11:03:52.773Z"
+  "updatedAt": "2026-05-15T11:36:43.807Z"
 }
