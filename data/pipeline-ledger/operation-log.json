@@ -3643,7 +3643,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-06893aee",
       "at": "2026-05-16T08:32:58.931Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 고르기 전에 많이 보는 선택 기준",
+      "proposedTitle": "전자담배 고르기 전에 많이 보는 선택 기준",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-3d877e34",
+      "at": "2026-05-16T08:55:48.822Z"
     }
   ],
-  "lastUpdated": "2026-05-16T08:32:58.931Z"
+  "lastUpdated": "2026-05-16T08:55:48.822Z"
 }
