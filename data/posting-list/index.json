@@ -3674,7 +3674,22 @@
       "createdAt": "2026-05-15T08:06:41.152Z",
       "publishedAt": null,
       "updatedAt": "2026-05-15T08:07:51.083Z"
+    },
+    {
+      "postId": "post-c04882da",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "title": "전자담배 고르기 전에 많이 보는 선택 기준",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-e29043d4",
+      "pendingApproval": null,
+      "createdAt": "2026-05-16T11:55:09.213Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-16T11:55:09.213Z"
     }
   ],
-  "lastUpdated": "2026-05-15T11:36:39.508Z"
+  "lastUpdated": "2026-05-16T11:55:09.213Z"
 }
