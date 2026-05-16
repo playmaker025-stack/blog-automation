@@ -3654,7 +3654,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-3d877e34",
       "at": "2026-05-16T08:55:48.822Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-4e32f628, ready:post-94151aee, ready:post-4ff498c6, ready:post-8a32b353, ready:post-9af0c17d, ready:post-1025f41a / Similar existing title found: 전자담배 고르기 전에 많이 보는 선택 기준 (ready, 1); 전자담배 고르기 전에 많이 보는 선택 기준 (ready, 1); 전자담배 고르기 전에 많이 보는 선택 기준 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-e1f2c36b",
+      "at": "2026-05-16T11:51:33.337Z"
     }
   ],
-  "lastUpdated": "2026-05-16T08:55:48.822Z"
+  "lastUpdated": "2026-05-16T11:51:33.337Z"
 }
