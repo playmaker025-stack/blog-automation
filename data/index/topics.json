@@ -307,10 +307,10 @@
       "tags": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "e",
       "createdAt": "2026-04-02T07:01:19.418Z",
-      "updatedAt": "2026-05-17T08:20:27.508Z"
+      "updatedAt": "2026-05-17T08:22:23.851Z"
     },
     {
       "topicId": "topic-10718c8b",
@@ -1983,5 +1983,5 @@
       "seriesDetailReadyAt": "2026-05-17T03:09:17.835Z"
     }
   ],
-  "lastUpdated": "2026-05-17T08:20:27.508Z"
+  "lastUpdated": "2026-05-17T08:22:23.851Z"
 }
