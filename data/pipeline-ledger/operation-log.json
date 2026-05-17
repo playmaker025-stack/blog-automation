@@ -3722,7 +3722,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-bc299d89",
       "at": "2026-05-17T07:44:08.930Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-d1b671d3",
+      "userId": "e",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-537f1933 / Similar existing title found: 담배에서 전자담배로 넘어오려는 사람이 실제로 많이 묻는 이유 5가지 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-fb1f33ab",
+      "at": "2026-05-17T07:50:31.719Z"
     }
   ],
-  "lastUpdated": "2026-05-17T07:44:08.930Z"
+  "lastUpdated": "2026-05-17T07:50:31.719Z"
 }
