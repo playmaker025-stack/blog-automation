@@ -1755,7 +1755,32 @@
       "assignedUserId": "d",
       "createdAt": "2026-05-17T03:01:54.809Z",
       "updatedAt": "2026-05-17T03:06:32.720Z"
+    },
+    {
+      "topicId": "topic-series-mp974enc-sp9s-1",
+      "title": "부평전자담배 폐호흡액상 보유 보기 전에 핵심 개념부터 정리",
+      "description": "메인 키워드 \"부평전자담배 폐호흡액상 보유\"를 바로 정면으로 쓰기 전에 검색자가 먼저 궁금해하는 하위 의도를 다룹니다. 본문에서는 메인 키워드를 억지 반복하지 않고 1~3회 자연스럽게 노출합니다.",
+      "category": "d",
+      "tags": [
+        "부평전자담배 폐호흡액상 보유",
+        "선행포스팅",
+        "키워드빌드업",
+        "개념정리"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "seriesId": "series-d-부평전자담배-폐호흡액상-보유-mp974enc-sp9s",
+      "seriesRole": "prelude",
+      "targetMainKeyword": "부평전자담배 폐호흡액상 보유",
+      "sequenceOrder": 1,
+      "prerequisiteTopicIds": [],
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-05-17T03:09:04.466Z",
+      "updatedAt": "2026-05-17T03:09:04.466Z"
     }
   ],
-  "lastUpdated": "2026-05-17T03:06:32.720Z"
+  "lastUpdated": "2026-05-17T03:09:04.466Z"
 }
