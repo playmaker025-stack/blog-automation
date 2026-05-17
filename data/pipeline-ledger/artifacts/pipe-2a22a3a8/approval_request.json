@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-2a22a3a8",
+  "type": "approval_request",
+  "savedAt": "2026-05-17T08:06:03.007Z",
+  "data": {
+    "pipelineId": "pipe-2a22a3a8",
+    "previousTitle": "",
+    "proposedTitle": "담배에서 전자담배로 넘어오려는 사람이 실제로 많이 묻는 이유 5가지",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.\n\n[사용자 승인 후 추가 수정 요청]\n과하게 반복되는 키워드들을 줄여.",
+    "requestedAt": "2026-05-17T08:05:57.772Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-17T08:05:57.772Z",
+      "modifications": "과하게 반복되는 키워드들을 줄여."
+    }
+  }
+}
