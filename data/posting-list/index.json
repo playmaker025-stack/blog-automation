@@ -3749,7 +3749,22 @@
       "createdAt": "2026-05-17T07:45:18.481Z",
       "publishedAt": null,
       "updatedAt": "2026-05-17T07:47:31.627Z"
+    },
+    {
+      "postId": "post-572a87d1",
+      "topicId": "topic-d1b671d3",
+      "userId": "e",
+      "title": "담배에서 전자담배로 넘어오려는 사람이 실제로 많이 묻는 이유 5가지",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-316e0fb9",
+      "pendingApproval": null,
+      "createdAt": "2026-05-17T08:01:35.877Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-17T08:01:35.877Z"
     }
   ],
-  "lastUpdated": "2026-05-17T07:47:31.627Z"
+  "lastUpdated": "2026-05-17T08:01:35.877Z"
 }
