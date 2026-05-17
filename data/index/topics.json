@@ -1738,7 +1738,24 @@
       "assignedUserId": "d",
       "createdAt": "2026-05-17T02:59:58.028Z",
       "updatedAt": "2026-05-17T03:01:53.154Z"
+    },
+    {
+      "topicId": "topic-6384e7b2",
+      "title": "부평 전자담배,맛있는 폐호흡액상 모드기기",
+      "description": "메인키워드: 부평 전자담배,맛있는 폐호흡액상 / 서브 키워드: 모드기기",
+      "category": "direct-run",
+      "tags": [
+        "부평 전자담배,맛있는 폐호흡액상",
+        "모드기기"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-05-17T03:01:54.809Z",
+      "updatedAt": "2026-05-17T03:01:54.809Z"
     }
   ],
-  "lastUpdated": "2026-05-17T03:01:53.154Z"
+  "lastUpdated": "2026-05-17T03:01:54.809Z"
 }
