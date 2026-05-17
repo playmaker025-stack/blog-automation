@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-316e0fb9",
   "type": "strategy_plan",
-  "savedAt": "2026-05-17T07:53:16.162Z",
+  "savedAt": "2026-05-17T08:01:40.777Z",
   "data": {
     "title": "담배에서 전자담배로 넘어오려는 사람이 실제로 많이 묻는 이유 5가지",
     "outline": [
@@ -63,7 +63,103 @@
       "이유"
     ],
     "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "e",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 5646,
+        "signatureExpressions": [],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "주제 직접 서술로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-b4adcf4d",
+          "title": "입문자부터 연초와 멘솔액상 사용자 전자담배 추천 가이드",
+          "excerpt": "전자담배의 첫 시작, 뭘 선택할지 고민이시죠. 연초향을 써야할지 멘솔을 써야할지. 뭐가 맞는지 고민중이라면 보세요! ❓입무자에게 적합한 전자담배는?? ❓연초맛이 진짜 담배와 비슷한가? ❓멘솔을 쓰고 싶은데 어느정도에 쿨링감을?? 요런 궁금증을 들고 인천 부평,구월동 매장에서 자주 물어보시는 질문이죠. 이번글에서는 이걸 정리해봤습니다. 입문자부터 사용하는 액상에 맞는 기기를 선택하는 방법!! AI 활용 설정 사진 설명을 입력하세",
+          "styleNotes": "tone=casual, category=E블로그"
+        },
+        {
+          "sampleId": "published-post-manual-mp42rd0f",
+          "title": "무화량 많은 전자담배 베이퍼즈 클라우드 리퍼블릭 스컹크 모드기기",
+          "excerpt": "무화량 많은 전자담배 베이퍼즈 클라우드 리퍼블릭 스컹크 모드기기 무화량 많은 전자담배 베이퍼즈 클라우드 리퍼블릭 스컹크 모드기기 : 네이버 블로그 NAVER 블로그 인천전자담배 만수동만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 ",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-import-a1988ff1",
+          "title": "전자담배를 계속 쓰게 되는 장점 5가지",
+          "excerpt": "전자담배를 계속 쓰게 되는 장점 5가지 전자담배를 계속 쓰게 되는 장점 5가지 : 네이버 블로그 NAVER 블로그 인천전자담배 만수동만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 ",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-import-c583a301",
+          "title": "연초에서 전자담배로 바꾸면 달라지는 점 5가지",
+          "excerpt": "연초에서 전자담배로 바꾸면 달라지는 점 5가지 연초에서 전자담배로 바꾸면 달라지는 점 5가지 : 네이버 블로그 NAVER 블로그 인천전자담배 만수동만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-import-1fb2787a",
+          "title": "전자담배 사용자 유형 4가지와 선택 기준을 알아보자",
+          "excerpt": "전자담배 사용자 유형 4가지와 선택 기준을 알아보자 전자담배 사용자 유형 4가지와 선택 기준을 알아보자 : 네이버 블로그 NAVER 블로그 인천전자담배 만수동만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 댓글 1 공유하기 블로그 주소 변경 불가 안내 ",
+          "styleNotes": "tone=casual"
+        }
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-b4adcf4d",
+          "finalScore": 0.633,
+          "components": {
+            "relevance": 0.69,
+            "recency": 0.95,
+            "roleMatch": 0.6,
+            "intentMatch": 0
+          }
+        },
+        {
+          "sampleId": "published-post-manual-mp42rd0f",
+          "finalScore": 0.598,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.97,
+            "roleMatch": 0,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-import-a1988ff1",
+          "finalScore": 0.596,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.66,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-import-c583a301",
+          "finalScore": 0.583,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.61,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-import-1fb2787a",
+          "finalScore": 0.583,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.61,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 10,
