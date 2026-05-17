@@ -1776,10 +1776,10 @@
       "prerequisiteTopicIds": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "published",
       "assignedUserId": "d",
       "createdAt": "2026-05-17T03:09:04.466Z",
-      "updatedAt": "2026-05-17T03:13:27.308Z",
+      "updatedAt": "2026-05-17T05:17:49.211Z",
       "seriesDetailPlan": {
         "articleGoal": "부평전자담배 폐호흡액상 보유를 바로 추천하기 전에 기본 개념과 차이를 먼저 잡아주는 글",
         "searchIntent": "비교형/기초이해형",
@@ -1983,5 +1983,5 @@
       "seriesDetailReadyAt": "2026-05-17T03:09:17.835Z"
     }
   ],
-  "lastUpdated": "2026-05-17T03:13:27.308Z"
+  "lastUpdated": "2026-05-17T05:17:49.211Z"
 }
