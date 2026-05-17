@@ -3676,7 +3676,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-e29043d4",
       "at": "2026-05-16T11:54:52.330Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부평 전자담배 폐호흡액상 다량 보유 매장은 바로 여기! 폐호흡 액상",
+      "proposedTitle": "부평 전자담배 폐호흡액상 다량 보유 매장은 바로 여기! 폐호흡 액상 고르는 법까지",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.8235294117647058,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-7e779971",
+      "at": "2026-05-17T03:01:49.185Z"
     }
   ],
-  "lastUpdated": "2026-05-16T11:54:52.330Z"
+  "lastUpdated": "2026-05-17T03:01:49.185Z"
 }
