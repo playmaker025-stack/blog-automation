@@ -1734,10 +1734,10 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "d",
       "createdAt": "2026-05-17T02:59:58.028Z",
-      "updatedAt": "2026-05-17T03:01:53.154Z"
+      "updatedAt": "2026-05-17T03:04:45.807Z"
     },
     {
       "topicId": "topic-6384e7b2",
@@ -1757,5 +1757,5 @@
       "updatedAt": "2026-05-17T03:03:50.241Z"
     }
   ],
-  "lastUpdated": "2026-05-17T03:03:50.241Z"
+  "lastUpdated": "2026-05-17T03:04:45.807Z"
 }
