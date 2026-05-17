@@ -2,6 +2,19 @@
   "userId": "e",
   "entries": [
     {
+      "postId": "post-86a98e29",
+      "topicId": "topic-d1b671d3",
+      "userId": "e",
+      "title": "연초에서 전자담배로 넘어오는 사람이 실제로 많이 묻는 질문 5가지",
+      "naverPostUrl": "https://blog.naver.com/godmaker0/224288381256",
+      "evalScore": 53,
+      "wordCount": 1664,
+      "publishedAt": "2026-05-17T12:17:40.859Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-05-17T12:17:46.552Z"
+    },
+    {
       "postId": "post-manual-mp42rd0f",
       "topicId": "",
       "userId": "e",
@@ -41,5 +54,5 @@
       "learnedAt": "2026-05-10T12:02:04.252Z"
     }
   ],
-  "updatedAt": "2026-05-13T13:07:52.073Z"
+  "updatedAt": "2026-05-17T12:17:46.552Z"
 }
