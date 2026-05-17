@@ -1805,7 +1805,32 @@
       "assignedUserId": "d",
       "createdAt": "2026-05-17T03:09:06.213Z",
       "updatedAt": "2026-05-17T03:09:06.213Z"
+    },
+    {
+      "topicId": "topic-series-mp974enc-sp9s-3",
+      "title": "초보자가 보유 시작 전에 자주 놓치는 체크포인트",
+      "description": "메인 키워드 \"부평전자담배 폐호흡액상 보유\"를 바로 정면으로 쓰기 전에 검색자가 먼저 궁금해하는 하위 의도를 다룹니다. 본문에서는 메인 키워드를 억지 반복하지 않고 1~3회 자연스럽게 노출합니다.",
+      "category": "d",
+      "tags": [
+        "부평전자담배 폐호흡액상 보유",
+        "선행포스팅",
+        "키워드빌드업",
+        "초보자가이드"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "seriesId": "series-d-부평전자담배-폐호흡액상-보유-mp974enc-sp9s",
+      "seriesRole": "prelude",
+      "targetMainKeyword": "부평전자담배 폐호흡액상 보유",
+      "sequenceOrder": 3,
+      "prerequisiteTopicIds": [],
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-05-17T03:09:07.980Z",
+      "updatedAt": "2026-05-17T03:09:07.980Z"
     }
   ],
-  "lastUpdated": "2026-05-17T03:09:06.213Z"
+  "lastUpdated": "2026-05-17T03:09:07.980Z"
 }
