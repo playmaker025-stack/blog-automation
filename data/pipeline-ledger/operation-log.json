@@ -3700,7 +3700,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-aef2dd62",
       "at": "2026-05-17T03:03:46.076Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부평전자담배 폐호흡액상 보유 보기 전에 핵심 개념부터 정리",
+      "proposedTitle": "부평전자담배 폐호흡액상 보유 보기 전에 핵심 개념부터 정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-70eed1ee",
+      "at": "2026-05-17T03:11:16.058Z"
     }
   ],
-  "lastUpdated": "2026-05-17T03:03:46.076Z"
+  "lastUpdated": "2026-05-17T03:11:16.058Z"
 }
