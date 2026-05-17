@@ -1721,7 +1721,24 @@
       "assignedUserId": "b",
       "createdAt": "2026-05-15T06:22:01.942Z",
       "updatedAt": "2026-05-15T11:36:42.144Z"
+    },
+    {
+      "topicId": "topic-a1a332c0",
+      "title": "부평 전자담배 폐호흡액상 다량 보유 매장은 바로 여기! 폐호흡 액상",
+      "description": "메인키워드: 부평 전자담배 폐호흡액상 다량 보유 매장은 바로 여기! / 서브 키워드: 폐호흡 액상",
+      "category": "direct-run",
+      "tags": [
+        "부평 전자담배 폐호흡액상 다량 보유 매장은 바로 여기!",
+        "폐호흡 액상"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-05-17T02:59:58.028Z",
+      "updatedAt": "2026-05-17T02:59:58.028Z"
     }
   ],
-  "lastUpdated": "2026-05-16T11:58:07.486Z"
+  "lastUpdated": "2026-05-17T02:59:58.028Z"
 }
