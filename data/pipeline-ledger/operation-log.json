@@ -3687,7 +3687,20 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-7e779971",
       "at": "2026-05-17T03:01:49.185Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부평 전자담배,맛있는 폐호흡액상 모드기기",
+      "proposedTitle": "부평 전자담배에서 맛있는 폐호흡 액상 고르는 법 – 모드기기와 궁합까지",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.6,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-aef2dd62",
+      "at": "2026-05-17T03:03:46.076Z"
     }
   ],
-  "lastUpdated": "2026-05-17T03:01:49.185Z"
+  "lastUpdated": "2026-05-17T03:03:46.076Z"
 }
