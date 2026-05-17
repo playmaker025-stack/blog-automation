@@ -3733,7 +3733,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-fb1f33ab",
       "at": "2026-05-17T07:50:31.719Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "담배에서 전자담배로 넘어오려는 사람이 실제로 많이 묻는 이유 5가지",
+      "proposedTitle": "담배에서 전자담배로 넘어오려는 사람이 실제로 많이 묻는 이유 5가지",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-316e0fb9",
+      "at": "2026-05-17T07:53:18.102Z"
     }
   ],
-  "lastUpdated": "2026-05-17T07:50:31.719Z"
+  "lastUpdated": "2026-05-17T07:53:18.102Z"
 }
