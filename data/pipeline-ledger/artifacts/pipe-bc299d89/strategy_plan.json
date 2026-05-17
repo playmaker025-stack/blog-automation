@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-bc299d89",
   "type": "strategy_plan",
-  "savedAt": "2026-05-17T07:44:06.763Z",
+  "savedAt": "2026-05-17T07:45:23.368Z",
   "data": {
     "title": "담배에서 전자담배로 넘어오려는 사람이 실제로 많이 묻는 이유 5가지",
     "outline": [
@@ -102,7 +102,103 @@
       "부평 전자담배"
     ],
     "rationale": "토픽 판정: 연초→전자담배 전환 입문 가이드 각도로 허용 범주 내 정상 진행. 금연/끊기 각도 없음. 중복 점검 결과 기존 발행 '연초에서 전자담배로 바꾸면 달라지는 점 5가지'(post-import-c583a301)와 표면적 유사성이 있으나, 본 글은 '전환 전 사람이 실제로 묻는 질문' 5가지를 Q&A 형식으로 해소하는 각도로 차별화 가능. 네이버 블로그 키워드 조사에서 '담배에서 전자담배로 넘어오기' 키워드는 블로그 355건, 최근 30일 게시 비중 100%로 현재 활성 수요 확인. 경쟁도 낮음. KnowledgeIn에서 '10년 연초 사용 후 전담 전환 시 궁금한 것들' 류 질문 다수 확인(코일 교체, 입호흡 구조, 니코틴 농도, 타격감). 네이버 카페에서 '전담 액상 니코틴 높은 거', '연초 병행 어색함' 실제 수요 확인. 상위 글 분석에서 개인 경험 중심, 전환 실패 패턴 부재, 의사결정 기준 단순화 약점 발견 – 본 글은 조건별 기준 제시와 현실적 전환 실패 패턴 포함으로 차별화. 사용자 최고 성과 글('입문자부터 연초와 멘솔액상 사용자 전자담배 추천 가이드', 2185자, 69점)의 구조(성향 분류→기기 매칭→Q&A)를 참조해 유사한 흐름을 유지하되, 제목·목차·결론 구조는 재편. 허브 글로 해당 최고 성과 글을 내부링크로 연결해 군집 구조 형성. 분량은 기존 평균 2185자에 맞춰 2100자 목표 설정.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "e",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 5646,
+        "signatureExpressions": [],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "주제 직접 서술로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-b4adcf4d",
+          "title": "입문자부터 연초와 멘솔액상 사용자 전자담배 추천 가이드",
+          "excerpt": "전자담배의 첫 시작, 뭘 선택할지 고민이시죠. 연초향을 써야할지 멘솔을 써야할지. 뭐가 맞는지 고민중이라면 보세요! ❓입무자에게 적합한 전자담배는?? ❓연초맛이 진짜 담배와 비슷한가? ❓멘솔을 쓰고 싶은데 어느정도에 쿨링감을?? 요런 궁금증을 들고 인천 부평,구월동 매장에서 자주 물어보시는 질문이죠. 이번글에서는 이걸 정리해봤습니다. 입문자부터 사용하는 액상에 맞는 기기를 선택하는 방법!! AI 활용 설정 사진 설명을 입력하세",
+          "styleNotes": "tone=casual, category=E블로그"
+        },
+        {
+          "sampleId": "published-post-manual-mp42rd0f",
+          "title": "무화량 많은 전자담배 베이퍼즈 클라우드 리퍼블릭 스컹크 모드기기",
+          "excerpt": "무화량 많은 전자담배 베이퍼즈 클라우드 리퍼블릭 스컹크 모드기기 무화량 많은 전자담배 베이퍼즈 클라우드 리퍼블릭 스컹크 모드기기 : 네이버 블로그 NAVER 블로그 인천전자담배 만수동만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 ",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-import-a1988ff1",
+          "title": "전자담배를 계속 쓰게 되는 장점 5가지",
+          "excerpt": "전자담배를 계속 쓰게 되는 장점 5가지 전자담배를 계속 쓰게 되는 장점 5가지 : 네이버 블로그 NAVER 블로그 인천전자담배 만수동만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 ",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-import-c583a301",
+          "title": "연초에서 전자담배로 바꾸면 달라지는 점 5가지",
+          "excerpt": "연초에서 전자담배로 바꾸면 달라지는 점 5가지 연초에서 전자담배로 바꾸면 달라지는 점 5가지 : 네이버 블로그 NAVER 블로그 인천전자담배 만수동만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-import-1fb2787a",
+          "title": "전자담배 사용자 유형 4가지와 선택 기준을 알아보자",
+          "excerpt": "전자담배 사용자 유형 4가지와 선택 기준을 알아보자 전자담배 사용자 유형 4가지와 선택 기준을 알아보자 : 네이버 블로그 NAVER 블로그 인천전자담배 만수동만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 댓글 1 공유하기 블로그 주소 변경 불가 안내 ",
+          "styleNotes": "tone=casual"
+        }
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-b4adcf4d",
+          "finalScore": 0.633,
+          "components": {
+            "relevance": 0.69,
+            "recency": 0.95,
+            "roleMatch": 0.6,
+            "intentMatch": 0
+          }
+        },
+        {
+          "sampleId": "published-post-manual-mp42rd0f",
+          "finalScore": 0.598,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.97,
+            "roleMatch": 0,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-import-a1988ff1",
+          "finalScore": 0.596,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.66,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-import-c583a301",
+          "finalScore": 0.584,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.61,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-import-1fb2787a",
+          "finalScore": 0.584,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.61,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 10,
