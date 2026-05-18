@@ -2,6 +2,20 @@
   "userId": "d",
   "samples": [
     {
+      "sampleId": "published-post-9279ecd0",
+      "title": "부평전자담배 폐호흡액상 보유, 선택 전 꼭 보는 기준",
+      "category": "d",
+      "tags": [
+        "부평전자담배 폐호흡액상 보유",
+        "선행포스팅",
+        "키워드빌드업",
+        "선택기준"
+      ],
+      "wordCount": 1690,
+      "publishedAt": "2026-05-18T12:24:06.567Z",
+      "filePath": "user-modeling/users/d/corpus/samples/published-post-9279ecd0.md"
+    },
+    {
       "sampleId": "published-post-324f1390",
       "title": "부평전자담배 폐호흡액상 구매 전 꼭 알아야 할 핵심 정보",
       "category": "d",
@@ -131,5 +145,5 @@
       "filePath": "user-modeling/users/d/corpus/samples/published-post-21e6d9ae.md"
     }
   ],
-  "lastUpdated": "2026-05-17T05:17:53.421Z"
+  "lastUpdated": "2026-05-18T12:24:15.728Z"
 }
