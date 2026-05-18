@@ -2003,7 +2003,29 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-18T08:39:00.016Z",
       "updatedAt": "2026-05-18T08:39:00.016Z"
+    },
+    {
+      "topicId": "topic-40c93428",
+      "title": "부천 상동 전자담배 담배향 액상 종류별 추천과 후기 비교",
+      "description": "부천 상동 지역에서 인기 있는 전자담배 담배향 액상 종류별 특징과 사용자 후기를 비교하여 추천합니다.",
+      "category": "전자담배",
+      "tags": [
+        "부천",
+        "상동",
+        "담배향",
+        "액상",
+        "전자담배",
+        "추천"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-05-18T08:39:02.013Z",
+      "updatedAt": "2026-05-18T08:39:02.013Z"
     }
   ],
-  "lastUpdated": "2026-05-18T08:39:00.016Z"
+  "lastUpdated": "2026-05-18T08:39:02.013Z"
 }
