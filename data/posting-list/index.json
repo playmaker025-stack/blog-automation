@@ -3794,7 +3794,22 @@
       "createdAt": "2026-05-17T08:20:28.529Z",
       "publishedAt": "2026-05-17T12:17:40.859Z",
       "updatedAt": "2026-05-17T12:17:42.138Z"
+    },
+    {
+      "postId": "post-05e935ec",
+      "topicId": "topic-f862c954",
+      "userId": "c",
+      "title": "전담 수명",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-e87f91e6",
+      "pendingApproval": null,
+      "createdAt": "2026-05-18T09:01:57.330Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-18T09:01:57.330Z"
     }
   ],
-  "lastUpdated": "2026-05-17T12:17:42.138Z"
+  "lastUpdated": "2026-05-18T09:01:57.330Z"
 }
