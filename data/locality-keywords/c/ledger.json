@@ -2,6 +2,42 @@
   "userId": "c",
   "entries": [
     {
+      "keyword": "부평역",
+      "phrase": "실제로 부평역, 만수역,",
+      "title": "전담 수명",
+      "postId": "post-ff1a8ffc",
+      "topicId": "topic-f862c954",
+      "userId": "c",
+      "usedAt": "2026-05-18T09:28:41.281Z"
+    },
+    {
+      "keyword": "만수역",
+      "phrase": "실제로 부평역, 만수역,",
+      "title": "전담 수명",
+      "postId": "post-ff1a8ffc",
+      "topicId": "topic-f862c954",
+      "userId": "c",
+      "usedAt": "2026-05-18T09:28:41.281Z"
+    },
+    {
+      "keyword": "계산동",
+      "phrase": "계산동, 남동구 등 전자담배 매장이 많은 지역",
+      "title": "전담 수명",
+      "postId": "post-ff1a8ffc",
+      "topicId": "topic-f862c954",
+      "userId": "c",
+      "usedAt": "2026-05-18T09:28:41.281Z"
+    },
+    {
+      "keyword": "남동구",
+      "phrase": "계산동, 남동구 등 전자담배 매장이 많은 지역",
+      "title": "전담 수명",
+      "postId": "post-ff1a8ffc",
+      "topicId": "topic-f862c954",
+      "userId": "c",
+      "usedAt": "2026-05-18T09:28:41.281Z"
+    },
+    {
       "keyword": "인천",
       "phrase": "실제로 인천이",
       "title": "전담 수명",
@@ -407,5 +443,5 @@
       "usedAt": "2026-04-24T05:03:57.440Z"
     }
   ],
-  "updatedAt": "2026-05-18T09:04:28.491Z"
+  "updatedAt": "2026-05-18T09:28:41.281Z"
 }
