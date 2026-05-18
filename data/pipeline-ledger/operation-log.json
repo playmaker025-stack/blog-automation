@@ -3755,7 +3755,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-e87f91e6",
       "at": "2026-05-18T08:50:10.073Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-f862c954",
+      "userId": "c",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-05e935ec / Similar existing title found: 전담 수명 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-bd79f9db",
+      "at": "2026-05-18T09:22:14.788Z"
     }
   ],
-  "lastUpdated": "2026-05-18T08:50:10.073Z"
+  "lastUpdated": "2026-05-18T09:22:14.788Z"
 }
