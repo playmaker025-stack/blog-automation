@@ -3744,7 +3744,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-316e0fb9",
       "at": "2026-05-17T07:53:18.102Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전담 수명",
+      "proposedTitle": "전담 수명",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-e87f91e6",
+      "at": "2026-05-18T08:50:10.073Z"
     }
   ],
-  "lastUpdated": "2026-05-17T07:53:18.102Z"
+  "lastUpdated": "2026-05-18T08:50:10.073Z"
 }
