@@ -2046,7 +2046,23 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-18T08:41:23.447Z",
       "updatedAt": "2026-05-18T08:41:23.447Z"
+    },
+    {
+      "topicId": "topic-f862c954",
+      "title": "전담 수명",
+      "description": "메인키워드: 전담 수명",
+      "category": "direct-run",
+      "tags": [
+        "전담 수명"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-05-18T08:49:59.347Z",
+      "updatedAt": "2026-05-18T08:49:59.347Z"
     }
   ],
-  "lastUpdated": "2026-05-18T08:41:23.447Z"
+  "lastUpdated": "2026-05-18T08:49:59.347Z"
 }
