@@ -3777,7 +3777,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-077ac0a7",
       "at": "2026-05-18T09:25:11.141Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "보유 고르기 전에 많이 보는 선택 기준",
+      "proposedTitle": "보유 고르기 전에 많이 보는 선택 기준",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-7798fde3",
+      "at": "2026-05-18T10:51:26.494Z"
     }
   ],
-  "lastUpdated": "2026-05-18T09:25:11.141Z"
+  "lastUpdated": "2026-05-18T10:51:26.494Z"
 }
