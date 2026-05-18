@@ -1,12 +1,12 @@
 {
   "pipelineId": "pipe-e87f91e6",
   "type": "draft_output",
-  "savedAt": "2026-05-18T09:03:25.246Z",
+  "savedAt": "2026-05-18T09:04:09.822Z",
   "data": {
     "postId": "post-05e935ec",
     "title": "전담 수명",
-    "wordCount": 1477,
-    "generatedAt": "2026-05-18T09:03:23.773Z",
+    "wordCount": 1875,
+    "generatedAt": "2026-05-18T09:04:08.641Z",
     "contentPath": "data/posting-list/posts/post-05e935ec/content.md",
     "corpusSummaryUsed": true
   }
