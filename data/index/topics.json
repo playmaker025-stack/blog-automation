@@ -1831,10 +1831,10 @@
       "prerequisiteTopicIds": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "d",
       "createdAt": "2026-05-17T03:09:06.213Z",
-      "updatedAt": "2026-05-17T03:09:15.196Z",
+      "updatedAt": "2026-05-18T10:51:30.751Z",
       "seriesDetailPlan": {
         "articleGoal": "부평전자담배 폐호흡액상 보유를 바로 추천하기 전에 선택 기준과 실사용 판단 포인트를 잡아주는 글",
         "searchIntent": "선택기준형",
@@ -2064,5 +2064,5 @@
       "updatedAt": "2026-05-18T09:28:46.000Z"
     }
   ],
-  "lastUpdated": "2026-05-18T09:28:46.000Z"
+  "lastUpdated": "2026-05-18T10:51:30.751Z"
 }
