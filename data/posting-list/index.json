@@ -3800,16 +3800,16 @@
       "topicId": "topic-f862c954",
       "userId": "c",
       "title": "전담 수명",
-      "status": "draft",
+      "status": "ready",
       "naverPostUrl": null,
       "evalScore": null,
-      "wordCount": 0,
+      "wordCount": 1654,
       "compositionSessionId": "pipe-e87f91e6",
       "pendingApproval": null,
       "createdAt": "2026-05-18T09:01:57.330Z",
       "publishedAt": null,
-      "updatedAt": "2026-05-18T09:01:57.330Z"
+      "updatedAt": "2026-05-18T09:02:34.508Z"
     }
   ],
-  "lastUpdated": "2026-05-18T09:01:57.330Z"
+  "lastUpdated": "2026-05-18T09:02:34.508Z"
 }
