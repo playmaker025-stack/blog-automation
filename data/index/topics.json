@@ -2058,11 +2058,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "c",
       "createdAt": "2026-05-18T08:49:59.347Z",
-      "updatedAt": "2026-05-18T09:25:00.347Z"
+      "updatedAt": "2026-05-18T09:26:20.799Z"
     }
   ],
-  "lastUpdated": "2026-05-18T09:25:00.347Z"
+  "lastUpdated": "2026-05-18T09:26:20.799Z"
 }
