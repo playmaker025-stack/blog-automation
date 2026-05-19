@@ -2,6 +2,18 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-b3e0b792",
+      "title": "입문자를 위한 전자담배 종류별 추천과 선택가이드",
+      "category": "direct-run",
+      "tags": [
+        "전자담배 종류",
+        "입문자 추천"
+      ],
+      "wordCount": 1705,
+      "publishedAt": "2026-05-19T09:28:22.979Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-b3e0b792.md"
+    },
+    {
       "sampleId": "published-post-3c8c973c",
       "title": "전자담배 액상 세금 인상과 가격 변동 완벽 정리",
       "category": "direct-run",
@@ -188,5 +200,5 @@
       "filePath": "user-modeling/users/c/corpus/samples/published-post-5beaf101.md"
     }
   ],
-  "lastUpdated": "2026-05-15T07:24:59.421Z"
+  "lastUpdated": "2026-05-19T09:28:33.076Z"
 }
