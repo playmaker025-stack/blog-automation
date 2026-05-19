@@ -3839,7 +3839,22 @@
       "createdAt": "2026-05-18T10:51:31.758Z",
       "publishedAt": "2026-05-18T12:24:06.567Z",
       "updatedAt": "2026-05-18T12:24:07.496Z"
+    },
+    {
+      "postId": "post-b3e0b792",
+      "topicId": "topic-29fe0dd8",
+      "userId": "c",
+      "title": "전자담배 종류 입문자 추천",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-3cebb121",
+      "pendingApproval": null,
+      "createdAt": "2026-05-19T05:23:37.290Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-19T05:23:37.290Z"
     }
   ],
-  "lastUpdated": "2026-05-18T12:24:07.496Z"
+  "lastUpdated": "2026-05-19T05:23:37.290Z"
 }
