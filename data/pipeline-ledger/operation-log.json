@@ -3788,7 +3788,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-7798fde3",
       "at": "2026-05-18T10:51:26.494Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 종류 입문자 추천",
+      "proposedTitle": "전자담배 종류 입문자 추천",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-3cebb121",
+      "at": "2026-05-19T05:22:47.675Z"
     }
   ],
-  "lastUpdated": "2026-05-18T10:51:26.494Z"
+  "lastUpdated": "2026-05-19T05:22:47.675Z"
 }
