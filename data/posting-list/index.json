@@ -3854,7 +3854,22 @@
       "createdAt": "2026-05-19T05:23:37.290Z",
       "publishedAt": null,
       "updatedAt": "2026-05-19T07:11:16.629Z"
+    },
+    {
+      "postId": "post-85aa7d40",
+      "topicId": "topic-8a689463",
+      "userId": "b",
+      "title": "만수동 전자담배 액상 보관법과 신선도 유지 팁",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-e6baa1af",
+      "pendingApproval": null,
+      "createdAt": "2026-05-19T07:51:48.244Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-19T07:51:48.244Z"
     }
   ],
-  "lastUpdated": "2026-05-19T07:11:16.629Z"
+  "lastUpdated": "2026-05-19T07:51:48.244Z"
 }
