@@ -3845,15 +3845,15 @@
       "topicId": "topic-29fe0dd8",
       "userId": "c",
       "title": "입문자를 위한 전자담배 종류별 추천과 선택가이드",
-      "status": "ready",
-      "naverPostUrl": null,
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224290478741",
       "evalScore": 46,
       "wordCount": 1705,
       "compositionSessionId": "pipe-3cebb121",
       "pendingApproval": null,
       "createdAt": "2026-05-19T05:23:37.290Z",
-      "publishedAt": null,
-      "updatedAt": "2026-05-19T07:11:16.629Z"
+      "publishedAt": "2026-05-19T09:28:22.979Z",
+      "updatedAt": "2026-05-19T09:28:24.483Z"
     },
     {
       "postId": "post-85aa7d40",
@@ -3871,5 +3871,5 @@
       "updatedAt": "2026-05-19T07:55:06.675Z"
     }
   ],
-  "lastUpdated": "2026-05-19T07:55:06.675Z"
+  "lastUpdated": "2026-05-19T09:28:24.483Z"
 }
