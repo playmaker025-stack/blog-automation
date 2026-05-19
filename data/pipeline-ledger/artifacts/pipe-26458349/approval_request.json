@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-26458349",
+  "type": "approval_request",
+  "savedAt": "2026-05-19T11:07:50.663Z",
+  "data": {
+    "pipelineId": "pipe-26458349",
+    "previousTitle": "",
+    "proposedTitle": "초보자가 보유 시작 전에 자주 놓치는 체크포인트",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-05-19T11:07:44.460Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-19T11:07:44.460Z",
+      "modifications": null
+    }
+  }
+}
