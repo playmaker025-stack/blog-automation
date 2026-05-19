@@ -3799,7 +3799,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-3cebb121",
       "at": "2026-05-19T05:22:47.675Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "만수동 전자담배 액상 보관법과 신선도 유지 팁",
+      "proposedTitle": "만수동 전자담배 액상 보관법과 신선도 유지 팁",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-e6baa1af",
+      "at": "2026-05-19T07:51:43.151Z"
     }
   ],
-  "lastUpdated": "2026-05-19T05:22:47.675Z"
+  "lastUpdated": "2026-05-19T07:51:43.151Z"
 }
