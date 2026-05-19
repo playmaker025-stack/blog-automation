@@ -3869,7 +3869,22 @@
       "createdAt": "2026-05-19T07:51:48.244Z",
       "publishedAt": null,
       "updatedAt": "2026-05-19T07:55:06.675Z"
+    },
+    {
+      "postId": "post-766788fc",
+      "topicId": "topic-series-mp974enc-sp9s-3",
+      "userId": "d",
+      "title": "초보자가 보유 시작 전에 자주 놓치는 체크포인트",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-26458349",
+      "pendingApproval": null,
+      "createdAt": "2026-05-19T11:07:48.177Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-19T11:07:48.177Z"
     }
   ],
-  "lastUpdated": "2026-05-19T09:28:24.483Z"
+  "lastUpdated": "2026-05-19T11:07:48.177Z"
 }
