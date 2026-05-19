@@ -3860,15 +3860,15 @@
       "topicId": "topic-8a689463",
       "userId": "b",
       "title": "주안 전자담배 액상 보관법과 신선도 유지 꿀팁",
-      "status": "ready",
-      "naverPostUrl": null,
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/youferst/224290632172",
       "evalScore": 51,
       "wordCount": 1720,
       "compositionSessionId": "pipe-e6baa1af",
       "pendingApproval": null,
       "createdAt": "2026-05-19T07:51:48.244Z",
-      "publishedAt": null,
-      "updatedAt": "2026-05-19T12:45:46.129Z"
+      "publishedAt": "2026-05-19T12:45:54.276Z",
+      "updatedAt": "2026-05-19T12:45:55.331Z"
     },
     {
       "postId": "post-766788fc",
@@ -3886,5 +3886,5 @@
       "updatedAt": "2026-05-19T11:11:41.880Z"
     }
   ],
-  "lastUpdated": "2026-05-19T12:45:46.129Z"
+  "lastUpdated": "2026-05-19T12:45:55.331Z"
 }
