@@ -2,6 +2,20 @@
   "userId": "b",
   "samples": [
     {
+      "sampleId": "published-post-85aa7d40",
+      "title": "주안 전자담배 액상 보관법과 신선도 유지 꿀팁",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "액상보관",
+        "신선도"
+      ],
+      "wordCount": 1720,
+      "publishedAt": "2026-05-19T12:45:54.276Z",
+      "filePath": "user-modeling/users/b/corpus/samples/published-post-85aa7d40.md"
+    },
+    {
       "sampleId": "published-post-114ac1da",
       "title": "무화량 많은 폐호흡 전자담배 추천: 베이퍼즈 클라우드 바텀피더 리퍼블릭 스컹크",
       "category": "direct-run",
@@ -101,5 +115,5 @@
       "filePath": "user-modeling/users/b/corpus/samples/published-post-import-08c915d5f3.md"
     }
   ],
-  "lastUpdated": "2026-05-15T11:36:46.573Z"
+  "lastUpdated": "2026-05-19T12:46:03.776Z"
 }
