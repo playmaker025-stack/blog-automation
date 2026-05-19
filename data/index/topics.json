@@ -1886,10 +1886,10 @@
       "prerequisiteTopicIds": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "d",
       "createdAt": "2026-05-17T03:09:07.980Z",
-      "updatedAt": "2026-05-19T11:07:46.909Z",
+      "updatedAt": "2026-05-19T11:11:57.555Z",
       "seriesDetailPlan": {
         "articleGoal": "부평전자담배 폐호흡액상 보유를 바로 추천하기 전에 초보자가 실제로 헷갈리는 상황을 정리해 주는 글",
         "searchIntent": "문제해결형/초보자가이드형",
@@ -2081,5 +2081,5 @@
       "updatedAt": "2026-05-19T09:28:27.975Z"
     }
   ],
-  "lastUpdated": "2026-05-19T11:07:46.909Z"
+  "lastUpdated": "2026-05-19T11:11:57.555Z"
 }
