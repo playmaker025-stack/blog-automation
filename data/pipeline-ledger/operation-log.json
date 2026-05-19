@@ -3810,7 +3810,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-e6baa1af",
       "at": "2026-05-19T07:51:43.151Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "초보자가 보유 시작 전에 자주 놓치는 체크포인트",
+      "proposedTitle": "초보자가 보유 시작 전에 자주 놓치는 체크포인트",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-26458349",
+      "at": "2026-05-19T11:07:42.610Z"
     }
   ],
-  "lastUpdated": "2026-05-19T07:51:43.151Z"
+  "lastUpdated": "2026-05-19T11:07:42.610Z"
 }
