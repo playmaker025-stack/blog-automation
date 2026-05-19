@@ -2,6 +2,42 @@
   "userId": "d",
   "entries": [
     {
+      "keyword": "부개동",
+      "phrase": "고 부평이나 부개동, 송도 등 인근 매장에서 실",
+      "title": "초보자가 보유 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-766788fc",
+      "topicId": "topic-series-mp974enc-sp9s-3",
+      "userId": "d",
+      "usedAt": "2026-05-19T11:11:38.198Z"
+    },
+    {
+      "keyword": "작전동",
+      "phrase": "실제로 부개동이나 작전동, 청라 등 인근",
+      "title": "초보자가 보유 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-766788fc",
+      "topicId": "topic-series-mp974enc-sp9s-3",
+      "userId": "d",
+      "usedAt": "2026-05-19T11:11:38.198Z"
+    },
+    {
+      "keyword": "송도",
+      "phrase": "고 부평이나 부개동, 송도 등 인근 매장에서 실",
+      "title": "초보자가 보유 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-766788fc",
+      "topicId": "topic-series-mp974enc-sp9s-3",
+      "userId": "d",
+      "usedAt": "2026-05-19T11:11:38.198Z"
+    },
+    {
+      "keyword": "청라",
+      "phrase": "실제로 부개동이나 작전동, 청라 등 인근",
+      "title": "초보자가 보유 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-766788fc",
+      "topicId": "topic-series-mp974enc-sp9s-3",
+      "userId": "d",
+      "usedAt": "2026-05-19T11:11:38.198Z"
+    },
+    {
       "keyword": "부평시장",
       "phrase": "부평시장이나 부평구청 근처 매장",
       "title": "보유 고르기 전에 많이 보는 선택 기준",
@@ -380,5 +416,5 @@
       "usedAt": "2026-04-24T10:43:34.616Z"
     }
   ],
-  "updatedAt": "2026-05-18T10:54:36.491Z"
+  "updatedAt": "2026-05-19T11:11:38.198Z"
 }
