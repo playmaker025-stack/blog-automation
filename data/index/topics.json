@@ -2062,7 +2062,24 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-18T08:49:59.347Z",
       "updatedAt": "2026-05-18T09:28:46.000Z"
+    },
+    {
+      "topicId": "topic-29fe0dd8",
+      "title": "전자담배 종류 입문자 추천",
+      "description": "메인키워드: 전자담배 종류 / 서브 키워드: 입문자 추천",
+      "category": "direct-run",
+      "tags": [
+        "전자담배 종류",
+        "입문자 추천"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-05-19T05:22:36.247Z",
+      "updatedAt": "2026-05-19T05:22:36.247Z"
     }
   ],
-  "lastUpdated": "2026-05-18T12:24:10.513Z"
+  "lastUpdated": "2026-05-19T05:22:36.247Z"
 }
