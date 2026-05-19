@@ -2,6 +2,33 @@
   "userId": "c",
   "entries": [
     {
+      "keyword": "부평구",
+      "phrase": "모드기기 등 용어부터 헷갈리고, 실제로 부평구나",
+      "title": "전자담배 종류 입문자 추천",
+      "postId": "post-b3e0b792",
+      "topicId": "topic-29fe0dd8",
+      "userId": "c",
+      "usedAt": "2026-05-19T05:26:07.882Z"
+    },
+    {
+      "keyword": "부평구청",
+      "phrase": "시장이나 부평구청 근처 매장에서 바로 구입할 수",
+      "title": "전자담배 종류 입문자 추천",
+      "postId": "post-b3e0b792",
+      "topicId": "topic-29fe0dd8",
+      "userId": "c",
+      "usedAt": "2026-05-19T05:26:07.882Z"
+    },
+    {
+      "keyword": "부천",
+      "phrase": "부천 등 오프라인 매장에서 “입문자 추천 전자",
+      "title": "전자담배 종류 입문자 추천",
+      "postId": "post-b3e0b792",
+      "topicId": "topic-29fe0dd8",
+      "userId": "c",
+      "usedAt": "2026-05-19T05:26:07.882Z"
+    },
+    {
       "keyword": "부평역",
       "phrase": "실제로 부평역, 만수역,",
       "title": "전담 수명",
@@ -443,5 +470,5 @@
       "usedAt": "2026-04-24T05:03:57.440Z"
     }
   ],
-  "updatedAt": "2026-05-18T09:28:41.281Z"
+  "updatedAt": "2026-05-19T05:26:07.882Z"
 }
