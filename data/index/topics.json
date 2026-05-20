@@ -1983,28 +1983,6 @@
       "seriesDetailReadyAt": "2026-05-17T03:09:17.835Z"
     },
     {
-      "topicId": "topic-40c93428",
-      "title": "부천 상동 전자담배 담배향 액상 종류별 추천과 후기 비교",
-      "description": "부천 상동 지역에서 인기 있는 전자담배 담배향 액상 종류별 특징과 사용자 후기를 비교하여 추천합니다.",
-      "category": "전자담배",
-      "tags": [
-        "부천",
-        "상동",
-        "담배향",
-        "액상",
-        "전자담배",
-        "추천"
-      ],
-      "source": "generated",
-      "contentKind": "leaf",
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "c",
-      "createdAt": "2026-05-18T08:39:02.013Z",
-      "updatedAt": "2026-05-18T08:39:02.013Z"
-    },
-    {
       "topicId": "topic-f862c954",
       "title": "전담 수명",
       "description": "메인키워드: 전담 수명",
@@ -2038,5 +2016,5 @@
       "updatedAt": "2026-05-19T09:28:27.975Z"
     }
   ],
-  "lastUpdated": "2026-05-20T04:21:40.049Z"
+  "lastUpdated": "2026-05-20T04:21:50.862Z"
 }
