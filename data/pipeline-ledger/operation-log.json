@@ -3821,7 +3821,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-26458349",
       "at": "2026-05-19T11:07:42.610Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "베트남 전자담배 반입,벌금,입국,출국,불법,공항",
+      "proposedTitle": "베트남 전자담배 반입,벌금,입국,출국,불법,공항",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-024490f6",
+      "at": "2026-05-20T05:02:05.176Z"
     }
   ],
-  "lastUpdated": "2026-05-19T11:07:42.610Z"
+  "lastUpdated": "2026-05-20T05:02:05.176Z"
 }
