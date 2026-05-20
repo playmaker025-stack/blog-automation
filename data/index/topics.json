@@ -2005,27 +2005,6 @@
       "updatedAt": "2026-05-18T08:39:02.013Z"
     },
     {
-      "topicId": "topic-70156f5b",
-      "title": "만수역 인근 폐호흡 전자담배 액상 추천과 사용자 후기",
-      "description": "만수역 주변에서 구할 수 있는 폐호흡용 전자담배 액상 추천과 실제 사용자들의 생생한 후기 및 사용 팁을 소개합니다.",
-      "category": "전자담배",
-      "tags": [
-        "전자담배",
-        "폐호흡",
-        "액상추천",
-        "만수역",
-        "사용후기"
-      ],
-      "source": "generated",
-      "contentKind": "leaf",
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "c",
-      "createdAt": "2026-05-18T08:41:23.447Z",
-      "updatedAt": "2026-05-18T08:41:23.447Z"
-    },
-    {
       "topicId": "topic-f862c954",
       "title": "전담 수명",
       "description": "메인키워드: 전담 수명",
@@ -2059,5 +2038,5 @@
       "updatedAt": "2026-05-19T09:28:27.975Z"
     }
   ],
-  "lastUpdated": "2026-05-20T04:21:37.602Z"
+  "lastUpdated": "2026-05-20T04:21:40.049Z"
 }
