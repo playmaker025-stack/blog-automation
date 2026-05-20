@@ -2027,11 +2027,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "c",
       "createdAt": "2026-05-20T05:01:53.615Z",
-      "updatedAt": "2026-05-20T05:01:53.615Z"
+      "updatedAt": "2026-05-20T05:04:09.734Z"
     }
   ],
-  "lastUpdated": "2026-05-20T05:01:53.615Z"
+  "lastUpdated": "2026-05-20T05:04:09.734Z"
 }
