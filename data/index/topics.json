@@ -1945,10 +1945,10 @@
       ],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "published",
       "assignedUserId": "d",
       "createdAt": "2026-05-17T03:09:09.743Z",
-      "updatedAt": "2026-05-20T11:02:01.012Z",
+      "updatedAt": "2026-05-20T13:01:05.402Z",
       "seriesDetailPlan": {
         "articleGoal": "부평전자담배 폐호흡액상 보유를 정면으로 다루면서 선행 포스팅에서 쌓은 개념과 기준을 하나로 묶는다.",
         "searchIntent": "추천형/전환형",
@@ -2033,5 +2033,5 @@
       "updatedAt": "2026-05-20T08:17:41.845Z"
     }
   ],
-  "lastUpdated": "2026-05-20T11:02:01.012Z"
+  "lastUpdated": "2026-05-20T13:01:05.402Z"
 }
