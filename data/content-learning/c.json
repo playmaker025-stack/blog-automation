@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-f57f40f6",
+      "topicId": "topic-27a267ff",
+      "userId": "c",
+      "title": "베트남 전자담배 반입 가능할까? 벌금·불법·입국·출국 한 번에 정리",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224291480456",
+      "evalScore": 46,
+      "wordCount": 1845,
+      "publishedAt": "2026-05-20T08:17:30.517Z",
+      "topicSource": "direct",
+      "contentKind": null,
+      "learnedAt": "2026-05-20T08:17:43.491Z"
+    },
+    {
       "postId": "post-b3e0b792",
       "topicId": "topic-29fe0dd8",
       "userId": "c",
@@ -223,5 +236,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-05-19T09:28:29.867Z"
+  "updatedAt": "2026-05-20T08:17:43.491Z"
 }
