@@ -2014,7 +2014,24 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-19T05:22:36.247Z",
       "updatedAt": "2026-05-19T09:28:27.975Z"
+    },
+    {
+      "topicId": "topic-27a267ff",
+      "title": "베트남 전자담배 반입,벌금,입국,출국,불법,공항",
+      "description": "메인키워드: 베트남 전자담배 / 서브 키워드: 반입,벌금,입국,출국,불법,공항",
+      "category": "direct-run",
+      "tags": [
+        "베트남 전자담배",
+        "반입,벌금,입국,출국,불법,공항"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-05-20T05:01:53.615Z",
+      "updatedAt": "2026-05-20T05:01:53.615Z"
     }
   ],
-  "lastUpdated": "2026-05-20T04:21:50.862Z"
+  "lastUpdated": "2026-05-20T05:01:53.615Z"
 }
