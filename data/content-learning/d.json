@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-279173da",
+      "topicId": "topic-series-mp974enc-sp9s-4",
+      "userId": "d",
+      "title": "부평 전자담배 폐호흡액상 구매와 선택 팁",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224291747473",
+      "evalScore": 51,
+      "wordCount": 1736,
+      "publishedAt": "2026-05-20T13:01:01.828Z",
+      "topicSource": "generated",
+      "contentKind": "hub",
+      "learnedAt": "2026-05-20T13:01:07.013Z"
+    },
+    {
       "postId": "post-766788fc",
       "topicId": "topic-series-mp974enc-sp9s-3",
       "userId": "d",
@@ -158,5 +171,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-05-19T13:44:08.897Z"
+  "updatedAt": "2026-05-20T13:01:07.013Z"
 }
