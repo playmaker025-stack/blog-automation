@@ -1983,28 +1983,6 @@
       "seriesDetailReadyAt": "2026-05-17T03:09:17.835Z"
     },
     {
-      "topicId": "topic-d7c09441",
-      "title": "인천 부평 액상형 전자담배 젤로·버터 액상 추천과 사용 후기",
-      "description": "인천 부평 지역에서 인기 있는 젤로와 버터 액상형 전자담배 액상 추천과 실제 사용자 후기 및 사용 팁을 상세히 소개합니다.",
-      "category": "전자담배",
-      "tags": [
-        "인천",
-        "부평",
-        "액상형",
-        "젤로",
-        "버터",
-        "전자담배"
-      ],
-      "source": "generated",
-      "contentKind": "leaf",
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "c",
-      "createdAt": "2026-05-18T08:39:00.016Z",
-      "updatedAt": "2026-05-18T08:39:00.016Z"
-    },
-    {
       "topicId": "topic-40c93428",
       "title": "부천 상동 전자담배 담배향 액상 종류별 추천과 후기 비교",
       "description": "부천 상동 지역에서 인기 있는 전자담배 담배향 액상 종류별 특징과 사용자 후기를 비교하여 추천합니다.",
@@ -2081,5 +2059,5 @@
       "updatedAt": "2026-05-19T09:28:27.975Z"
     }
   ],
-  "lastUpdated": "2026-05-19T13:44:06.884Z"
+  "lastUpdated": "2026-05-20T04:21:37.602Z"
 }
