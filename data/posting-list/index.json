@@ -3899,7 +3899,22 @@
       "createdAt": "2026-05-20T05:04:10.878Z",
       "publishedAt": "2026-05-20T08:17:30.517Z",
       "updatedAt": "2026-05-20T08:17:38.187Z"
+    },
+    {
+      "postId": "post-279173da",
+      "topicId": "topic-series-mp974enc-sp9s-4",
+      "userId": "d",
+      "title": "부평전자담배 폐호흡액상 보유",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-a60f64eb",
+      "pendingApproval": null,
+      "createdAt": "2026-05-20T10:58:03.615Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-20T10:58:03.615Z"
     }
   ],
-  "lastUpdated": "2026-05-20T08:17:38.187Z"
+  "lastUpdated": "2026-05-20T10:58:03.615Z"
 }
