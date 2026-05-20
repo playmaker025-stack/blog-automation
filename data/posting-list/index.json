@@ -3884,7 +3884,22 @@
       "createdAt": "2026-05-19T11:07:48.177Z",
       "publishedAt": "2026-05-19T13:44:02.180Z",
       "updatedAt": "2026-05-19T13:44:03.048Z"
+    },
+    {
+      "postId": "post-f57f40f6",
+      "topicId": "topic-27a267ff",
+      "userId": "c",
+      "title": "베트남 전자담배 반입,벌금,입국,출국,불법,공항",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-024490f6",
+      "pendingApproval": null,
+      "createdAt": "2026-05-20T05:04:10.878Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-20T05:04:10.878Z"
     }
   ],
-  "lastUpdated": "2026-05-19T13:44:03.048Z"
+  "lastUpdated": "2026-05-20T05:04:10.878Z"
 }
