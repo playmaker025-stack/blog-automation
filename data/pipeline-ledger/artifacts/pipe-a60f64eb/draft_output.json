@@ -1,12 +1,12 @@
 {
   "pipelineId": "pipe-a60f64eb",
   "type": "draft_output",
-  "savedAt": "2026-05-20T11:00:14.527Z",
+  "savedAt": "2026-05-20T11:01:28.054Z",
   "data": {
     "postId": "post-279173da",
     "title": "부평전자담배 폐호흡액상 보유",
-    "wordCount": 2077,
-    "generatedAt": "2026-05-20T11:00:13.200Z",
+    "wordCount": 1736,
+    "generatedAt": "2026-05-20T11:01:26.417Z",
     "contentPath": "data/posting-list/posts/post-279173da/content.md",
     "corpusSummaryUsed": true
   }
