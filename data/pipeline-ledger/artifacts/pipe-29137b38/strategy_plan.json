@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-29137b38",
   "type": "strategy_plan",
-  "savedAt": "2026-05-21T11:18:25.634Z",
+  "savedAt": "2026-05-21T11:18:40.152Z",
   "data": {
     "title": "전자담배 위베이프 브랜드 특징과 인기 제품 리뷰",
     "outline": [
@@ -63,7 +63,103 @@
       "리뷰"
     ],
     "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "d",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 4669,
+        "signatureExpressions": [],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "주제 직접 서술로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-manual-mp5h4sky",
+          "title": "무화량 많은 하이엔드 전자담배 베이퍼즈 클라우드 리퍼블릭 스퀑크 폐호흡 모드기기",
+          "excerpt": "무화량 많은 하이엔드 전자담배 베이퍼즈 클라우드 리퍼블릭 스퀑크 폐호흡 모드기기 무화량 많은 하이엔드 전자담배 베이퍼즈 클라우드 리퍼블릭 스퀑크 폐호흡 모드기기 : 네이버 블로그 NAVER 블로그 인천 전자담배 부평 만수르 조카 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 ",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-bb8481dc",
+          "title": "부평 전자담배 액상 입 튐 문제, 매장에서 빠르게 해결하는 법",
+          "excerpt": "전자담배를 사용하다 보면 액상이 입으로 튀어 당황한 경험이 있으시죠? 부평 전자담배 매장에도 이런 문의가 매우 자주 들어옵니다. 기기가 고장 난 건지, 아니면 원래 그런 현상인지 혼란스러울 때가 많습니다. 이번 글에서는 전자담배 액상이 입으로 튀는 현상이 정상인지, 비정상인지 먼저 구분하고, 집에서 쉽게 할 수 있는 자가 점검 방법부터 매장 방문 시 준비사항까지 함께 정리해드리겠습니다. 전자담배에서 입으로 액상이 튀는 ‘스팃(",
+          "styleNotes": "tone=casual, category=direct-run"
+        },
+        {
+          "sampleId": "published-post-manual-mou1myzp",
+          "title": "포켓코리아 아머미니 전자담배 – 입문자용으로 쓰기 편한 이유 정리",
+          "excerpt": "포켓코리아 아머미니 전자담배 – 입문자용으로 쓰기 편한 이유 정리 포켓코리아 아머미니 전자담배 – 입문자용으로 쓰기 편한 이유 정리 : 네이버 블로그 NAVER 블로그 인천 전자담배 부평 만수르 조카 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 댓글 1 공",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-manual-mor88gnv",
+          "title": "전자담배 액상 vs 일회용 뭐가 더 나을까 – 결국 이 차이입니다",
+          "excerpt": "전자담배 액상 vs 일회용 뭐가 더 나을까 – 결국 이 차이입니다 전자담배 액상 vs 일회용 뭐가 더 나을까 – 결국 이 차이입니다 : 네이버 블로그 NAVER 블로그 인천 전자담배 부평 만수르 조카 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 ",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-dab30de6",
+          "title": "액상형 전자담배 선택법과 연초 대비 장점 총정리",
+          "excerpt": "최근 부평시장과 부천, 상동 일대 전자담배 매장에서는 연초 대신 액상형 전자담배를 고민하는 분들이 점점 늘고 있습니다. 많은 분들이 '연초보다 액상형 전자담배가 어떤 점에서 더 나은가요?'라는 질문을 자주 하십니다. 냄새, 가격뿐 아니라 자신에게 맞는 선택 기준도 알고 싶어 하시는데요. 이번 글에서는 연초와 액상형 전자담배를 비교할 때 주요 고려사항과 추천 상황, 그리고 매장 방문 전 체크리스트까지 상세히 정리해 소개합니다. ",
+          "styleNotes": "tone=casual, contentKind=hub, category=d"
+        }
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-manual-mp5h4sky",
+          "finalScore": 0.592,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.95,
+            "roleMatch": 0,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-bb8481dc",
+          "finalScore": 0.557,
+          "components": {
+            "relevance": 0.68,
+            "recency": 0.84,
+            "roleMatch": 0,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-manual-mou1myzp",
+          "finalScore": 0.503,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.89,
+            "roleMatch": 0,
+            "intentMatch": 0
+          }
+        },
+        {
+          "sampleId": "published-post-manual-mor88gnv",
+          "finalScore": 0.499,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.88,
+            "roleMatch": 0,
+            "intentMatch": 0
+          }
+        },
+        {
+          "sampleId": "published-post-dab30de6",
+          "finalScore": 0.479,
+          "components": {
+            "relevance": 0.61,
+            "recency": 0.94,
+            "roleMatch": 0,
+            "intentMatch": 0
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 60,
