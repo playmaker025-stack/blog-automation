@@ -2335,7 +2335,24 @@
         "draftAngle": "메인 키워드를 중심으로 실제 선택을 도와주는 추천 글답게 판단 기준과 상황별 분기를 분명히 한다."
       },
       "seriesDetailReadyAt": "2026-05-21T11:11:17.054Z"
+    },
+    {
+      "topicId": "topic-1e754013",
+      "title": "인천 전자담배 모드기기 전문점",
+      "description": "메인키워드: 인천 전자담배 / 서브 키워드: 모드기기 전문점",
+      "category": "direct-run",
+      "tags": [
+        "인천 전자담배",
+        "모드기기 전문점"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-05-21T11:16:26.669Z",
+      "updatedAt": "2026-05-21T11:16:26.669Z"
     }
   ],
-  "lastUpdated": "2026-05-21T11:13:28.957Z"
+  "lastUpdated": "2026-05-21T11:16:26.669Z"
 }
