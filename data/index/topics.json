@@ -2134,7 +2134,32 @@
       "assignedUserId": "d",
       "createdAt": "2026-05-21T11:11:01.284Z",
       "updatedAt": "2026-05-21T11:11:01.284Z"
+    },
+    {
+      "topicId": "topic-series-mpfe3l8p-ug7r-2",
+      "title": "매장 고르기 전에 많이 보는 선택 기준",
+      "description": "메인 키워드 \"인천전자담배 모드기기 전문 매장\"를 바로 정면으로 쓰기 전에 검색자가 먼저 궁금해하는 하위 의도를 다룹니다. 본문에서는 메인 키워드를 억지 반복하지 않고 1~3회 자연스럽게 노출합니다.",
+      "category": "d",
+      "tags": [
+        "인천전자담배 모드기기 전문 매장",
+        "선행포스팅",
+        "키워드빌드업",
+        "선택기준"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "seriesId": "series-d-인천전자담배-모드기기-전문-매장-mpfe3l8p-ug7r",
+      "seriesRole": "prelude",
+      "targetMainKeyword": "인천전자담배 모드기기 전문 매장",
+      "sequenceOrder": 2,
+      "prerequisiteTopicIds": [],
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-05-21T11:11:03.122Z",
+      "updatedAt": "2026-05-21T11:11:03.122Z"
     }
   ],
-  "lastUpdated": "2026-05-21T11:11:01.284Z"
+  "lastUpdated": "2026-05-21T11:11:03.122Z"
 }
