@@ -3920,7 +3920,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-0fd92803",
       "at": "2026-05-21T08:26:00.767Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 입호흡 폐호흡 차이 보기 전에 핵심 개념부터 정리",
+      "proposedTitle": "전자담배 입호흡 폐호흡 차이 보기 전에 핵심 개념부터 정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-1852eb5c",
+      "at": "2026-05-21T10:42:40.403Z"
     }
   ],
-  "lastUpdated": "2026-05-21T08:26:00.767Z"
+  "lastUpdated": "2026-05-21T10:42:40.403Z"
 }
