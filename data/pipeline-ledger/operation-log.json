@@ -3898,7 +3898,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-0fd92803",
       "at": "2026-05-21T08:24:30.580Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "message": "\"data/posting-list/index.json\"???뚯씪???꾨떃?덈떎.",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-0fd92803",
+      "at": "2026-05-21T08:25:57.218Z"
     }
   ],
-  "lastUpdated": "2026-05-21T08:24:30.580Z"
+  "lastUpdated": "2026-05-21T08:25:57.218Z"
 }
