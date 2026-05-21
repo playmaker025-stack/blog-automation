@@ -3931,7 +3931,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-1852eb5c",
       "at": "2026-05-21T10:42:40.403Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-series-mpfd1ka5-geaq-1",
+      "userId": "d",
+      "message": "Preflight check blocked writing: \"data/index/topics.json\"???뚯씪???꾨떃?덈떎. / topicId not found in topics.json: topic-series-mpfd1ka5-geaq-1",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-33830660",
+      "at": "2026-05-21T11:07:34.965Z"
     }
   ],
-  "lastUpdated": "2026-05-21T10:42:40.403Z"
+  "lastUpdated": "2026-05-21T11:07:34.965Z"
 }
