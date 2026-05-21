@@ -3986,7 +3986,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-17181dc5",
       "at": "2026-05-21T11:15:35.118Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 전자담배 모드기기 전문점",
+      "proposedTitle": "인천 전자담배 모드기기 전문점",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-ba077274",
+      "at": "2026-05-21T11:17:03.354Z"
     }
   ],
-  "lastUpdated": "2026-05-21T11:15:35.118Z"
+  "lastUpdated": "2026-05-21T11:17:03.354Z"
 }
