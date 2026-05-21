@@ -3959,7 +3959,22 @@
       "createdAt": "2026-05-21T08:25:03.407Z",
       "publishedAt": null,
       "updatedAt": "2026-05-21T08:25:40.435Z"
+    },
+    {
+      "postId": "post-46bd6a18",
+      "topicId": "topic-series-mpfd1ka5-geaq-1",
+      "userId": "d",
+      "title": "전자담배 입호흡 폐호흡 차이 보기 전에 핵심 개념부터 정리",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-1852eb5c",
+      "pendingApproval": null,
+      "createdAt": "2026-05-21T10:42:46.458Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-21T10:42:46.458Z"
     }
   ],
-  "lastUpdated": "2026-05-21T08:25:40.435Z"
+  "lastUpdated": "2026-05-21T10:42:46.458Z"
 }
