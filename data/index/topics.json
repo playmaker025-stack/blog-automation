@@ -2073,7 +2073,32 @@
       "assignedUserId": "d",
       "createdAt": "2026-05-21T10:41:22.154Z",
       "updatedAt": "2026-05-21T10:41:22.154Z"
+    },
+    {
+      "topicId": "topic-series-mpfd1ka5-geaq-2",
+      "title": "차이 고르기 전에 많이 보는 선택 기준",
+      "description": "메인 키워드 \"전자담배 입호흡 폐호흡 차이\"를 바로 정면으로 쓰기 전에 검색자가 먼저 궁금해하는 하위 의도를 다룹니다. 본문에서는 메인 키워드를 억지 반복하지 않고 1~3회 자연스럽게 노출합니다.",
+      "category": "d",
+      "tags": [
+        "전자담배 입호흡 폐호흡 차이",
+        "선행포스팅",
+        "키워드빌드업",
+        "선택기준"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "seriesId": "series-d-전자담배-입호흡-폐호흡-차이-mpfd1ka5-geaq",
+      "seriesRole": "prelude",
+      "targetMainKeyword": "전자담배 입호흡 폐호흡 차이",
+      "sequenceOrder": 2,
+      "prerequisiteTopicIds": [],
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-05-21T10:41:24.539Z",
+      "updatedAt": "2026-05-21T10:41:24.539Z"
     }
   ],
-  "lastUpdated": "2026-05-21T10:41:22.154Z"
+  "lastUpdated": "2026-05-21T10:41:24.539Z"
 }
