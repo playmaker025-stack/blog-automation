@@ -3843,7 +3843,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-a60f64eb",
       "at": "2026-05-20T10:57:53.745Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "일본 전자담배 기내 반입 규정,불법,벌금,입국,출국",
+      "proposedTitle": "일본 전자담배 기내 반입 규정,불법,벌금,입국,출국",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-ea992f89",
+      "at": "2026-05-21T04:17:46.432Z"
     }
   ],
-  "lastUpdated": "2026-05-20T10:57:53.745Z"
+  "lastUpdated": "2026-05-21T04:17:46.432Z"
 }
