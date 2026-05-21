@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-1852eb5c",
   "type": "strategy_plan",
-  "savedAt": "2026-05-21T10:42:24.127Z",
+  "savedAt": "2026-05-21T10:42:52.275Z",
   "data": {
     "title": "전자담배 입호흡 폐호흡 차이 보기 전에 핵심 개념부터 정리",
     "outline": [
@@ -63,7 +63,103 @@
       "차이"
     ],
     "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "d",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 1956,
+        "signatureExpressions": [],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "주제 직접 서술로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-dab30de6",
+          "title": "액상형 전자담배 선택법과 연초 대비 장점 총정리",
+          "excerpt": "최근 부평시장과 부천, 상동 일대 전자담배 매장에서는 연초 대신 액상형 전자담배를 고민하는 분들이 점점 늘고 있습니다. 많은 분들이 '연초보다 액상형 전자담배가 어떤 점에서 더 나은가요?'라는 질문을 자주 하십니다. 냄새, 가격뿐 아니라 자신에게 맞는 선택 기준도 알고 싶어 하시는데요. 이번 글에서는 연초와 액상형 전자담배를 비교할 때 주요 고려사항과 추천 상황, 그리고 매장 방문 전 체크리스트까지 상세히 정리해 소개합니다. ",
+          "styleNotes": "tone=casual, contentKind=hub, category=d"
+        },
+        {
+          "sampleId": "published-post-240eafbc",
+          "title": "전자담배 입문자 필독! 입호흡·니코틴·냄새 이해하기",
+          "excerpt": "전자담배를 처음 접할 때 가장 많이 헷갈리는 세 가지 개념, '입호흡과 폐호흡 차이', '니코틴 농도 비교', 그리고 '전자담배 냄새와 타르 차이'에 대해 쉽게 정리해드립니다. 연초에서 액상형 전자담배로 전환하려는 분들은 용어부터 막혀 당황하는 경우가 많습니다. \"입호흡과 폐호흡은 어떻게 다른가요?\" \"니코틴 농도는 연초와 어떻게 맞춰야 할까요?\" 같은 질문이 인천, 부평 전자담배 매장에서도 자주 들립니다. 1. 입호흡(MTL",
+          "styleNotes": "tone=casual, contentKind=leaf, category=d"
+        },
+        {
+          "sampleId": "published-post-c9a6c5fc",
+          "title": "액상형 전자담배 선택법 3가지: 입문 전 꼭 확인하세요",
+          "excerpt": "연초에서 액상형 전자담배로 넘어가려 할 때, 어떤 기준으로 제품을 골라야 할지 고민하는 분들이 많습니다. 특히 인천, 만수, 구월, 부평역 인근 전자담배 매장을 방문해도 종류가 너무 다양해 선택이 쉽지 않죠. 많은 분들이 “액상형 전자담배가 연초보다 좋은 점은 무엇일까?”, “실제로 냄새가 덜 나는가?”, “어떤 기기가 나에게 맞을까?” 같은 궁금증을 갖고 정보를 찾습니다. 하지만 입문자가 정확한 선택 기준을 모르면 금세 포기",
+          "styleNotes": "tone=casual, contentKind=leaf, category=d"
+        },
+        {
+          "sampleId": "published-post-324f1390",
+          "title": "부평전자담배 폐호흡액상 구매 전 꼭 알아야 할 핵심 정보",
+          "excerpt": "부평에서 전자담배 폐호흡액상 구매를 고민하고 계신가요? 많은 입문자분들이 매장에서 “입호흡이세요, 폐호흡이세요?”라는 질문에 당황하는 경우가 많습니다. 단순히 액상만 고르면 된다고 생각하지만, 호흡 방식에 따른 액상 선택이 기기 사용에 큰 영향을 미치기 때문입니다. 이 글에서는 부평전자담배 폐호흡액상 보유 매장을 방문하기 전에 꼭 알아야 할 입호흡과 폐호흡의 차이, 그리고 폐호흡용 액상 선택 기준을 쉽고 간결하게 정리해 드립니",
+          "styleNotes": "tone=casual, contentKind=leaf, category=d"
+        },
+        {
+          "sampleId": "published-post-279173da",
+          "title": "부평 전자담배 폐호흡액상 구매와 선택 팁",
+          "excerpt": "부평 지역에서 전자담배 폐호흡액상을 구매하려고 한다면 어떤 점을 먼저 고려해야 할까요? 부평과 인근 지역인 연수, 검단, 서창동 등에서도 전자담배 사용자들이 늘어나면서 액상 종류 선택과 교체를 고민하는 분들이 많아졌습니다. 이번 글에서는 부평 전자담배 폐호흡액상 보유 매장을 중심으로, 실제 구매 시 꼭 확인해야 할 기준과 활용 팁을 정리해봅니다. 부평 전자담배 폐호흡액상 구매가 늘어나는 이유 전자담배 초보자들이나 기존 액상에 ",
+          "styleNotes": "tone=casual, contentKind=hub, category=d"
+        }
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-dab30de6",
+          "finalScore": 0.749,
+          "components": {
+            "relevance": 0.61,
+            "recency": 0.94,
+            "roleMatch": 0.6,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-240eafbc",
+          "finalScore": 0.743,
+          "components": {
+            "relevance": 0.61,
+            "recency": 0.92,
+            "roleMatch": 0.6,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-c9a6c5fc",
+          "finalScore": 0.742,
+          "components": {
+            "relevance": 0.6,
+            "recency": 0.93,
+            "roleMatch": 0.6,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-324f1390",
+          "finalScore": 0.74,
+          "components": {
+            "relevance": 0.57,
+            "recency": 0.97,
+            "roleMatch": 0.6,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-279173da",
+          "finalScore": 0.722,
+          "components": {
+            "relevance": 0.51,
+            "recency": 0.99,
+            "roleMatch": 0.6,
+            "intentMatch": 1
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 60,
