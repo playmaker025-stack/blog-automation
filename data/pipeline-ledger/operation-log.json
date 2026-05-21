@@ -3964,7 +3964,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-d57a97dd",
       "at": "2026-05-21T11:11:30.501Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-series-mpfe3l8p-ug7r-1",
+      "userId": "d",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-ee4cbbe5 / Similar existing title found: 인천전자담배 모드기기 전문 매장 보기 전에 핵심 개념부터 정리 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-1f034441",
+      "at": "2026-05-21T11:14:25.598Z"
     }
   ],
-  "lastUpdated": "2026-05-21T11:11:30.501Z"
+  "lastUpdated": "2026-05-21T11:14:25.598Z"
 }
