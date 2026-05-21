@@ -3920,15 +3920,15 @@
       "topicId": "topic-622c8f9f",
       "userId": "c",
       "title": "일본 전자담배 기내 반입 규정과 벌금, 입국 주의사항 정리",
-      "status": "ready",
-      "naverPostUrl": null,
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224292466041",
       "evalScore": 40,
       "wordCount": 1946,
       "compositionSessionId": "pipe-ea992f89",
       "pendingApproval": null,
       "createdAt": "2026-05-21T04:18:26.718Z",
-      "publishedAt": null,
-      "updatedAt": "2026-05-21T06:39:02.911Z"
+      "publishedAt": "2026-05-21T06:39:21.734Z",
+      "updatedAt": "2026-05-21T06:39:22.381Z"
     },
     {
       "postId": "post-81851e7b",
@@ -3946,5 +3946,5 @@
       "updatedAt": "2026-05-21T05:53:29.373Z"
     }
   ],
-  "lastUpdated": "2026-05-21T06:39:02.911Z"
+  "lastUpdated": "2026-05-21T06:39:22.381Z"
 }
