@@ -2109,7 +2109,32 @@
         "draftAngle": "메인 키워드를 중심으로 실제 선택을 도와주는 추천 글답게 판단 기준과 상황별 분기를 분명히 한다."
       },
       "seriesDetailReadyAt": "2026-05-21T10:41:41.160Z"
+    },
+    {
+      "topicId": "topic-series-mpfe3l8p-ug7r-1",
+      "title": "인천전자담배 모드기기 전문 매장 보기 전에 핵심 개념부터 정리",
+      "description": "메인 키워드 \"인천전자담배 모드기기 전문 매장\"를 바로 정면으로 쓰기 전에 검색자가 먼저 궁금해하는 하위 의도를 다룹니다. 본문에서는 메인 키워드를 억지 반복하지 않고 1~3회 자연스럽게 노출합니다.",
+      "category": "d",
+      "tags": [
+        "인천전자담배 모드기기 전문 매장",
+        "선행포스팅",
+        "키워드빌드업",
+        "개념정리"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "seriesId": "series-d-인천전자담배-모드기기-전문-매장-mpfe3l8p-ug7r",
+      "seriesRole": "prelude",
+      "targetMainKeyword": "인천전자담배 모드기기 전문 매장",
+      "sequenceOrder": 1,
+      "prerequisiteTopicIds": [],
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-05-21T11:11:01.284Z",
+      "updatedAt": "2026-05-21T11:11:01.284Z"
     }
   ],
-  "lastUpdated": "2026-05-21T11:10:04.192Z"
+  "lastUpdated": "2026-05-21T11:11:01.284Z"
 }
