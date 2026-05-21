@@ -2130,10 +2130,10 @@
       "prerequisiteTopicIds": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "d",
       "createdAt": "2026-05-21T11:11:01.284Z",
-      "updatedAt": "2026-05-21T11:11:10.284Z",
+      "updatedAt": "2026-05-21T11:11:33.950Z",
       "seriesDetailPlan": {
         "articleGoal": "인천전자담배 모드기기 전문 매장를 바로 추천하기 전에 기본 개념과 차이를 먼저 잡아주는 글",
         "searchIntent": "비교형/기초이해형",
@@ -2337,5 +2337,5 @@
       "seriesDetailReadyAt": "2026-05-21T11:11:17.054Z"
     }
   ],
-  "lastUpdated": "2026-05-21T11:11:16.830Z"
+  "lastUpdated": "2026-05-21T11:11:33.950Z"
 }
