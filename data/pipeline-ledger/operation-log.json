@@ -3953,7 +3953,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-34357ff9",
       "at": "2026-05-21T11:08:11.519Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천전자담배 모드기기 전문 매장 보기 전에 핵심 개념부터 정리",
+      "proposedTitle": "인천전자담배 모드기기 전문 매장 보기 전에 핵심 개념부터 정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-d57a97dd",
+      "at": "2026-05-21T11:11:30.501Z"
     }
   ],
-  "lastUpdated": "2026-05-21T11:08:11.519Z"
+  "lastUpdated": "2026-05-21T11:11:30.501Z"
 }
