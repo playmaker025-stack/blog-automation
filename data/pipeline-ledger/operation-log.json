@@ -4063,7 +4063,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-95943445",
       "at": "2026-05-22T03:38:07.989Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "만수동 전자담배 기기 문제 해결법과 매장 방문 시점 안내",
+      "proposedTitle": "만수동 전자담배 기기 문제 해결법과 매장 방문 시점 안내",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-fbbb710c",
+      "at": "2026-05-22T06:40:13.191Z"
     }
   ],
-  "lastUpdated": "2026-05-22T03:38:07.989Z"
+  "lastUpdated": "2026-05-22T06:40:13.191Z"
 }
