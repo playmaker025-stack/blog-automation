@@ -2,6 +2,24 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "구월동",
+      "phrase": "만수동뿐만 아니라 구월동, 서창동, 남동",
+      "title": "고유가 피해지원금 사용처 전자담배 매장 만수동만수르",
+      "postId": "post-8e30ca66",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "usedAt": "2026-05-22T09:36:12.768Z"
+    },
+    {
+      "keyword": "서창동",
+      "phrase": "만수동뿐만 아니라 구월동, 서창동, 남동",
+      "title": "고유가 피해지원금 사용처 전자담배 매장 만수동만수르",
+      "postId": "post-8e30ca66",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "usedAt": "2026-05-22T09:36:12.768Z"
+    },
+    {
       "keyword": "부평역",
       "phrase": "부평역이나 부평시장 등 매장 방문을 앞둔 분",
       "title": "전자담배 고르기 전에 많이 보는 선택 기준",
@@ -695,5 +713,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-05-22T07:34:20.440Z"
+  "updatedAt": "2026-05-22T09:36:12.768Z"
 }
