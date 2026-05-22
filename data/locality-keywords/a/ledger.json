@@ -2,6 +2,33 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "만수역",
+      "phrase": "역이나 만수역, 계산동, 남동구 등에서 매장 방",
+      "title": "전자담배 고르기 전에 많이 보는 선택 기준",
+      "postId": "post-5b106b45",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "usedAt": "2026-05-22T03:48:32.205Z"
+    },
+    {
+      "keyword": "계산동",
+      "phrase": "역이나 만수역, 계산동, 남동구 등에서 매장 방",
+      "title": "전자담배 고르기 전에 많이 보는 선택 기준",
+      "postId": "post-5b106b45",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "usedAt": "2026-05-22T03:48:32.205Z"
+    },
+    {
+      "keyword": "남동구",
+      "phrase": "역이나 만수역, 계산동, 남동구 등에서 매장 방",
+      "title": "전자담배 고르기 전에 많이 보는 선택 기준",
+      "postId": "post-5b106b45",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "usedAt": "2026-05-22T03:48:32.205Z"
+    },
+    {
       "keyword": "인천",
       "phrase": "요즘 인천",
       "title": "전자담배 고르기 전에 많이 보는 선택 기준",
@@ -632,5 +659,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-05-21T05:53:26.893Z"
+  "updatedAt": "2026-05-22T03:48:32.205Z"
 }
