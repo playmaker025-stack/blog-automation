@@ -1,0 +1,14 @@
+{
+  "pipelineId": "pipe-cebc3459",
+  "type": "record_update",
+  "savedAt": "2026-05-22T09:33:29.062Z",
+  "data": {
+    "postingListUpdated": true,
+    "postingListUpdatedAt": "2026-05-22T09:33:22.377Z",
+    "indexUpdated": true,
+    "indexUpdatedAt": "2026-05-22T09:33:22.377Z",
+    "postId": "post-8e30ca66",
+    "topicStatusBefore": "draft",
+    "topicStatusAfter": "in-progress"
+  }
+}
