@@ -4096,7 +4096,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-649a86c8",
       "at": "2026-05-22T07:30:36.916Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-4e32f628, ready:post-94151aee, ready:post-4ff498c6, ready:post-8a32b353, ready:post-9af0c17d, ready:post-1025f41a, ready:post-c04882da, ready:post-81851e7b, ready:post-18ab2614, ready:post-5b106b45, ready:post-bd7a73f3",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-c1228bcb",
+      "at": "2026-05-22T08:11:34.509Z"
     }
   ],
-  "lastUpdated": "2026-05-22T07:30:36.916Z"
+  "lastUpdated": "2026-05-22T08:11:34.509Z"
 }
