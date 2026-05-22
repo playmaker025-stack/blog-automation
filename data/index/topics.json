@@ -1051,10 +1051,10 @@
       "prerequisiteTopicIds": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "a",
       "createdAt": "2026-05-07T10:01:14.592Z",
-      "updatedAt": "2026-05-22T09:01:11.092Z",
+      "updatedAt": "2026-05-22T09:33:24.777Z",
       "seriesDetailPlan": {
         "articleGoal": "고유가 피해 지원금를 바로 추천하기 전에 선택 기준과 실사용 판단 포인트를 잡아주는 글",
         "searchIntent": "선택기준형",
@@ -2373,5 +2373,5 @@
       "updatedAt": "2026-05-22T02:27:53.986Z"
     }
   ],
-  "lastUpdated": "2026-05-22T09:01:11.092Z"
+  "lastUpdated": "2026-05-22T09:33:24.777Z"
 }
