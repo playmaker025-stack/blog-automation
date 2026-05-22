@@ -4094,7 +4094,22 @@
       "createdAt": "2026-05-22T09:33:26.398Z",
       "publishedAt": "2026-05-22T09:47:10.322Z",
       "updatedAt": "2026-05-22T09:47:09.421Z"
+    },
+    {
+      "postId": "post-2b77ebd1",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-5c36a1bc",
+      "pendingApproval": null,
+      "createdAt": "2026-05-22T09:49:04.186Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-22T09:49:04.186Z"
     }
   ],
-  "lastUpdated": "2026-05-22T09:47:09.421Z"
+  "lastUpdated": "2026-05-22T09:49:04.186Z"
 }
