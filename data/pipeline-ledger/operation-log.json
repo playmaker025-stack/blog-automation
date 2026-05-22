@@ -4140,7 +4140,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-b670dcd4",
       "at": "2026-05-22T08:26:33.501Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "message": "\"data/posting-list/index.json\" 경로가 파일이 아닙니다. GitHub 데이터 저장소에서 같은 이름의 폴더가 있는지 확인해 주세요.",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-9a762e8a",
+      "at": "2026-05-22T08:35:19.033Z"
     }
   ],
-  "lastUpdated": "2026-05-22T08:26:33.501Z"
+  "lastUpdated": "2026-05-22T08:35:19.033Z"
 }
