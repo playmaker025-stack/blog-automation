@@ -2352,7 +2352,24 @@
       "assignedUserId": "d",
       "createdAt": "2026-05-21T11:16:26.669Z",
       "updatedAt": "2026-05-21T11:17:26.990Z"
+    },
+    {
+      "topicId": "topic-6dcfb8a0",
+      "title": "중국 전자담배 기내,반입,규정,벌금,입국,출국,불법,공항",
+      "description": "메인키워드: 중국 전자담배 / 서브 키워드: 기내,반입,규정,벌금,입국,출국,불법,공항",
+      "category": "direct-run",
+      "tags": [
+        "중국 전자담배",
+        "기내,반입,규정,벌금,입국,출국,불법,공항"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-05-22T02:25:40.585Z",
+      "updatedAt": "2026-05-22T02:25:40.585Z"
     }
   ],
-  "lastUpdated": "2026-05-21T11:21:09.583Z"
+  "lastUpdated": "2026-05-22T02:25:40.585Z"
 }
