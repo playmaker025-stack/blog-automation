@@ -4030,7 +4030,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-29137b38",
       "at": "2026-05-21T11:18:28.509Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "중국 전자담배 기내,반입,규정,벌금,입국,출국,불법,공항",
+      "proposedTitle": "중국 전자담배 기내,반입,규정,벌금,입국,출국,불법,공항",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-1dccb6fc",
+      "at": "2026-05-22T02:25:57.004Z"
     }
   ],
-  "lastUpdated": "2026-05-21T11:18:28.509Z"
+  "lastUpdated": "2026-05-22T02:25:57.004Z"
 }
