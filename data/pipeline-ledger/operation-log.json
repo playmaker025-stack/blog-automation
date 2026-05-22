@@ -4217,7 +4217,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-cebc3459",
       "at": "2026-05-22T09:33:10.718Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "proposedTitle": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-5c36a1bc",
+      "at": "2026-05-22T09:48:56.982Z"
     }
   ],
-  "lastUpdated": "2026-05-22T09:33:10.718Z"
+  "lastUpdated": "2026-05-22T09:48:56.982Z"
 }
