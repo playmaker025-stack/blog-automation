@@ -2,6 +2,19 @@
   "userId": "a",
   "entries": [
     {
+      "postId": "post-8e30ca66",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "title": "인천 만수동만수르에서 고유가 피해 지원금 전자담배 사용 안내",
+      "naverPostUrl": "https://blog.naver.com/iibodii00/224293727182",
+      "evalScore": 52,
+      "wordCount": 1752,
+      "publishedAt": "2026-05-22T09:47:10.322Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-05-22T09:47:13.591Z"
+    },
+    {
       "postId": "post-f5b93892",
       "topicId": "topic-series-movbetq2-c79t-1",
       "userId": "a",
@@ -67,5 +80,5 @@
       "learnedAt": "2026-04-22T09:26:59.763Z"
     }
   ],
-  "updatedAt": "2026-05-09T09:15:57.294Z"
+  "updatedAt": "2026-05-22T09:47:13.591Z"
 }
