@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-3c9809ca",
+      "topicId": "topic-6dcfb8a0",
+      "userId": "c",
+      "title": "중국 전자담배 기내 반입 불법일까? 규정·벌금·입국·출국·공항 총정리",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224293756099",
+      "evalScore": 45,
+      "wordCount": 1847,
+      "publishedAt": "2026-05-22T10:33:13.275Z",
+      "topicSource": "direct",
+      "contentKind": null,
+      "learnedAt": "2026-05-22T10:33:17.050Z"
+    },
+    {
       "postId": "post-93cc7322",
       "topicId": "topic-622c8f9f",
       "userId": "c",
@@ -249,5 +262,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-05-21T06:39:27.481Z"
+  "updatedAt": "2026-05-22T10:33:17.050Z"
 }
