@@ -4107,7 +4107,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-c1228bcb",
       "at": "2026-05-22T08:11:34.509Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "고유가 피해지원금 사용처 전자담배 매장 만수동만수르",
+      "proposedTitle": "고유가 피해지원금 사용처 전자담배 매장 만수동만수르",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-cd97d7f6",
+      "at": "2026-05-22T08:12:51.122Z"
     }
   ],
-  "lastUpdated": "2026-05-22T08:11:34.509Z"
+  "lastUpdated": "2026-05-22T08:12:51.122Z"
 }
