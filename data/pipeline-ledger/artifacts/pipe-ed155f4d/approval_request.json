@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-ed155f4d",
+  "type": "approval_request",
+  "savedAt": "2026-05-22T08:59:51.101Z",
+  "data": {
+    "pipelineId": "pipe-ed155f4d",
+    "previousTitle": "",
+    "proposedTitle": "고유가 피해지원금 사용처 전자담배 매장 만수동만수르",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 시리즈 상세 설계 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-05-22T08:59:45.912Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-22T08:59:45.912Z",
+      "modifications": null
+    }
+  }
+}
