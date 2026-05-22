@@ -2365,11 +2365,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "c",
       "createdAt": "2026-05-22T02:25:40.585Z",
-      "updatedAt": "2026-05-22T02:25:40.585Z"
+      "updatedAt": "2026-05-22T02:26:20.178Z"
     }
   ],
-  "lastUpdated": "2026-05-22T02:25:40.585Z"
+  "lastUpdated": "2026-05-22T02:26:20.178Z"
 }
