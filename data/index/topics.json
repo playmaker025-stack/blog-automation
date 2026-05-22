@@ -1033,7 +1033,7 @@
     },
     {
       "topicId": "topic-series-movbetq2-c79t-2",
-      "title": "전자담배 고르기 전에 많이 보는 선택 기준",
+      "title": "고유가 피해지원금 사용처 전자담배 매장 만수동만수르",
       "description": "메인 키워드 \"입호흡 전자담배 추천\"를 바로 정면으로 쓰기 전에 검색자가 먼저 궁금해하는 하위 의도를 다룹니다. 본문에서는 메인 키워드를 억지 반복하지 않고 1~3회 자연스럽게 노출합니다.",
       "category": "a",
       "tags": [
@@ -1054,13 +1054,15 @@
       "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-05-07T10:01:14.592Z",
-      "updatedAt": "2026-05-22T07:34:25.044Z",
+      "updatedAt": "2026-05-22T08:11:00.708Z",
       "seriesDetailPlan": {
         "articleGoal": "입호흡 전자담배 추천를 바로 추천하기 전에 선택 기준과 실사용 판단 포인트를 잡아주는 글",
         "searchIntent": "선택기준형",
         "readerQuestion": "입호흡 전자담배 추천를 보기 전에 어떤 기준으로 기기와 액상을 골라야 하나?",
-        "primaryKeyword": "전자담배 고르기 전에 많이 보는 선택 기준",
+        "primaryKeyword": "고유가 피해 지원금",
         "secondaryKeywords": [
+          "고유가 지원금",
+          "고유가지원금사용처",
           "입호흡 전자담배 추천",
           "입문",
           "선택 기준"
@@ -1084,7 +1086,7 @@
         "callToAction": "비교 기준을 정리한 뒤 다음 글에서 실제 추천 모델을 확인하도록 연결한다.",
         "draftAngle": "선행 포스팅 역할에 맞게 과장 없이 이해와 판단 기준을 먼저 제공한다."
       },
-      "seriesDetailReadyAt": "2026-05-07T11:20:35.198Z"
+      "seriesDetailReadyAt": "2026-05-22T08:11:01.295Z"
     },
     {
       "topicId": "topic-series-movbetq2-c79t-3",
@@ -2371,5 +2373,5 @@
       "updatedAt": "2026-05-22T02:27:53.986Z"
     }
   ],
-  "lastUpdated": "2026-05-22T07:45:01.302Z"
+  "lastUpdated": "2026-05-22T08:11:00.708Z"
 }
