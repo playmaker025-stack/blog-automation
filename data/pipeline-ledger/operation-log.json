@@ -4195,7 +4195,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-ed155f4d",
       "at": "2026-05-22T09:01:13.314Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-4e32f628, ready:post-94151aee, ready:post-4ff498c6, ready:post-8a32b353, ready:post-9af0c17d, ready:post-1025f41a, ready:post-c04882da, ready:post-81851e7b, ready:post-18ab2614, ready:post-5b106b45, ready:post-bd7a73f3",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-b4206575",
+      "at": "2026-05-22T09:29:28.152Z"
     }
   ],
-  "lastUpdated": "2026-05-22T09:01:13.314Z"
+  "lastUpdated": "2026-05-22T09:29:28.152Z"
 }
