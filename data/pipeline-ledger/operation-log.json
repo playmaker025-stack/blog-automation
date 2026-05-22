@@ -4184,7 +4184,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-ed155f4d",
       "at": "2026-05-22T09:01:08.323Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-series-movbetq2-c79t-2",
+      "userId": "a",
+      "message": "\"data/posting-list/index.json\" 경로가 파일이 아닙니다. GitHub 데이터 저장소에서 같은 이름의 폴더가 있는지 확인해 주세요.",
+      "recoveredTopicToDraft": true,
+      "errorName": "Error",
+      "pipelineId": "pipe-ed155f4d",
+      "at": "2026-05-22T09:01:13.314Z"
     }
   ],
-  "lastUpdated": "2026-05-22T09:01:08.323Z"
+  "lastUpdated": "2026-05-22T09:01:13.314Z"
 }
