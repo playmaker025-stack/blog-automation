@@ -1,0 +1,14 @@
+{
+  "pipelineId": "pipe-fbbb710c",
+  "type": "record_update",
+  "savedAt": "2026-05-22T06:40:21.638Z",
+  "data": {
+    "postingListUpdated": true,
+    "postingListUpdatedAt": "2026-05-22T06:40:14.989Z",
+    "indexUpdated": true,
+    "indexUpdatedAt": "2026-05-22T06:40:14.989Z",
+    "postId": "post-73729478",
+    "topicStatusBefore": "draft",
+    "topicStatusAfter": "in-progress"
+  }
+}
