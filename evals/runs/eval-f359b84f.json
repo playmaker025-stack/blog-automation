@@ -1,0 +1,503 @@
+{
+  "runId": "eval-f359b84f",
+  "scores": {
+    "originality": 65,
+    "style_match": 70,
+    "structure": 68,
+    "engagement": 66,
+    "forbidden_check": 100
+  },
+  "aggregateScore": 55,
+  "reasoning": {
+    "originality": "전자담배 선택 기준에 대해 이미 많이 다뤄진 주제이나, 실제 매장 상담 사례와 선행포스팅 연계로 구체적이고 현실적인 정보를 제공하여 차별성을 어느 정도 확보함.",
+    "style_match": "친근하고 이해하기 쉬운 문체로 작성되어 있으며, 키워드와 톤이 요청사항에 부합함. 다만 일부 문장 연결이 다소 평범하여 스타일 면에서 더 개성 있는 표현이 가능함.",
+    "structure": "도입부, 핵심 기준, 비교 포인트, 마무리 및 내부링크 연결까지 요구된 토폴로지에 맞게 잘 구성되어 있으나, 각 섹션 간 연결이 조금 더 자연스러워질 필요가 있음.",
+    "engagement": "실제 매장 방문 전 준비사항과 상담 질문 예시 등 독자가 직접 활용할 수 있는 구체적 팁을 제공하여 흥미를 유발함. 다만, 더 생생한 사례나 사용자 경험 추가 시 몰입감 상승 가능.",
+    "forbidden_check": "키워드 과다 반복이나 과장, 허위 정보 없이 적절히 키워드를 배치하고, 검색 의도에 충실한 내용으로 작성되어 있음.",
+    "seo": "SEO 점수 72점. 선행 포스팅은 메인 키워드를 제목 정면에 반복하지 않는 규칙을 따릅니다.",
+    "naver_logic": "네이버 로직 점수 25점. 문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다."
+  },
+  "recommendations": [
+    "제목 길이를 28~45자 안쪽으로 맞추는 편이 좋습니다.",
+    "'입호흡 전자담배 추천'가 과도하게 반복됩니다. 일부 문장은 동의어, 선택 기준, 실제 예시로 바꿔 주세요.",
+    "서브 키워드 '전자담배'가 과도하게 반복됩니다. 직접 반복을 줄이고 의미만 남겨 주세요.",
+    "'키워드빌드업 입호흡 전자담배 추천' 조합을 제목이나 제목 가까운 소제목에 더 직접적으로 드러내는 편이 좋습니다.",
+    "허브 참조 링크는 '2025년 기준 입호흡 전자담배 추천 TOP5 인천 만수동만수르 픽' 제목과 https://blog.naver.com/iibodii00/224090385537 URL을 정확히 같은 쌍으로 써야 합니다.",
+    "리프 참조 링크는 '전자담배 입호흡 폐호흡 차이 뭐가 다를지 완전 구분해드립니다 만수동만수르' 제목과 https://blog.naver.com/iibodii00/224085329155 URL을 정확히 같은 쌍으로 써야 합니다."
+  ],
+  "pass": false,
+  "seoEvaluation": {
+    "score": 72,
+    "evidence": [
+      "선행 포스팅은 메인 키워드를 제목 정면에 반복하지 않는 규칙을 따릅니다.",
+      "도입부에 메인 키워드가 보여 검색 의도 연결이 자연스럽습니다.",
+      "선행 포스팅은 메인 키워드를 본문 맥락에서 자연스럽게 노출하는 모드로 평가합니다.",
+      "'선행포스팅' 본문 2회는 현재 권장 범위입니다.",
+      "'키워드빌드업' 본문 1회는 현재 권장 범위입니다.",
+      "'선택기준' 본문 3회는 현재 권장 범위입니다."
+    ],
+    "improvements": [
+      "제목 길이를 28~45자 안쪽으로 맞추는 편이 좋습니다.",
+      "'입호흡 전자담배 추천'가 과도하게 반복됩니다. 일부 문장은 동의어, 선택 기준, 실제 예시로 바꿔 주세요.",
+      "서브 키워드 '전자담배'가 과도하게 반복됩니다. 직접 반복을 줄이고 의미만 남겨 주세요.",
+      "'키워드빌드업 입호흡 전자담배 추천' 조합을 제목이나 제목 가까운 소제목에 더 직접적으로 드러내는 편이 좋습니다."
+    ],
+    "keywordReport": {
+      "items": [
+        {
+          "keyword": "입호흡 전자담배 추천",
+          "count": 6,
+          "status": "danger",
+          "targetMin": 1,
+          "targetMax": 3,
+          "recommendation": "'입호흡 전자담배 추천'가 과도하게 반복됩니다. 일부 문장은 동의어, 선택 기준, 실제 예시로 바꿔 주세요."
+        },
+        {
+          "keyword": "선행포스팅",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "recommendation": "서브 키워드 '선행포스팅' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "recommendation": "서브 키워드 '키워드빌드업' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "선택기준",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "recommendation": "서브 키워드 '선택기준' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "전자담배",
+          "count": 9,
+          "status": "danger",
+          "targetMin": 1,
+          "targetMax": 3,
+          "recommendation": "서브 키워드 '전자담배'가 과도하게 반복됩니다. 직접 반복을 줄이고 의미만 남겨 주세요."
+        },
+        {
+          "keyword": "고르기",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "recommendation": "서브 키워드 '고르기' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "전에",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "recommendation": "서브 키워드 '전에' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "많이",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "recommendation": "서브 키워드 '많이' 반복은 현재 적정합니다."
+        }
+      ],
+      "mainKeyword": {
+        "keyword": "입호흡 전자담배 추천",
+        "count": 6,
+        "status": "danger",
+        "targetMin": 1,
+        "targetMax": 3,
+        "recommendation": "'입호흡 전자담배 추천'가 과도하게 반복됩니다. 일부 문장은 동의어, 선택 기준, 실제 예시로 바꿔 주세요."
+      },
+      "subKeywords": [
+        {
+          "keyword": "선행포스팅",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "recommendation": "서브 키워드 '선행포스팅' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "recommendation": "서브 키워드 '키워드빌드업' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "선택기준",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "recommendation": "서브 키워드 '선택기준' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "전자담배",
+          "count": 9,
+          "status": "danger",
+          "targetMin": 1,
+          "targetMax": 3,
+          "recommendation": "서브 키워드 '전자담배'가 과도하게 반복됩니다. 직접 반복을 줄이고 의미만 남겨 주세요."
+        },
+        {
+          "keyword": "고르기",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "recommendation": "서브 키워드 '고르기' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "전에",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "recommendation": "서브 키워드 '전에' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "많이",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "recommendation": "서브 키워드 '많이' 반복은 현재 적정합니다."
+        }
+      ],
+      "overallRisk": "high",
+      "overallRiskSummary": "과반복 위험이 높습니다. 반복 경고가 있는 키워드를 먼저 줄여 주세요.",
+      "paragraphWarnings": [
+        {
+          "keyword": "전자담배",
+          "paragraphIndex": 0,
+          "count": 2,
+          "message": "1번 문단에서 '전자담배'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+        },
+        {
+          "keyword": "입호흡 전자담배 추천",
+          "paragraphIndex": 18,
+          "count": 2,
+          "message": "19번 문단에서 '입호흡 전자담배 추천'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+        },
+        {
+          "keyword": "전자담배",
+          "paragraphIndex": 18,
+          "count": 2,
+          "message": "19번 문단에서 '전자담배'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+        }
+      ],
+      "tokenItems": [
+        {
+          "token": "입호흡",
+          "count": 11,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "전자담배",
+          "count": 9,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천",
+            "전자담배"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "추천",
+          "count": 8,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "입호흡 전자담배",
+          "count": 7,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "입호흡 전자담배 추천",
+          "count": 6,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "전자담배 추천",
+          "count": 6,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "선택기준",
+          "count": 3,
+          "sourceKeywords": [
+            "선택기준"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "totalMentions": 27,
+      "introCoverage": true,
+      "titleFrontLoaded": false,
+      "bodyLength": 1647,
+      "summary": [
+        "메인 키워드 '입호흡 전자담배 추천' 본문 6회",
+        "전체 반복 위험도 high"
+      ],
+      "recommendations": [
+        "'입호흡 전자담배 추천'가 과도하게 반복됩니다. 일부 문장은 동의어, 선택 기준, 실제 예시로 바꿔 주세요.",
+        "서브 키워드 '전자담배'가 과도하게 반복됩니다. 직접 반복을 줄이고 의미만 남겨 주세요.",
+        "1번 문단에서 '전자담배'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요.",
+        "19번 문단에서 '입호흡 전자담배 추천'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요.",
+        "19번 문단에서 '전자담배'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+      ]
+    },
+    "keywordMetrics": [
+      {
+        "keyword": "입호흡 전자담배 추천",
+        "role": "main",
+        "label": "메인 키워드",
+        "completenessScore": 75,
+        "exposurePotentialScore": 72,
+        "count": 6,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 미포함 / 도입부 포함 / 본문 6회",
+        "action": "'입호흡 전자담배 추천'가 과도하게 반복됩니다. 일부 문장은 동의어, 선택 기준, 실제 예시로 바꿔 주세요."
+      },
+      {
+        "keyword": "선행포스팅",
+        "role": "sub",
+        "label": "서브 키워드 1",
+        "completenessScore": 64,
+        "exposurePotentialScore": 80,
+        "count": 2,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 미포함 / 도입부 포함 / 본문 2회",
+        "action": "'선행포스팅'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "키워드빌드업",
+        "role": "sub",
+        "label": "서브 키워드 2",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 1회",
+        "action": "'키워드빌드업'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "선택기준",
+        "role": "sub",
+        "label": "서브 키워드 3",
+        "completenessScore": 70,
+        "exposurePotentialScore": 80,
+        "count": 3,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 미포함 / 도입부 포함 / 본문 3회",
+        "action": "'선택기준'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "전자담배",
+        "role": "sub",
+        "label": "서브 키워드 4",
+        "completenessScore": 76,
+        "exposurePotentialScore": 78,
+        "count": 9,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 9회",
+        "action": "서브 키워드 '전자담배'가 과도하게 반복됩니다. 직접 반복을 줄이고 의미만 남겨 주세요."
+      },
+      {
+        "keyword": "고르기",
+        "role": "sub",
+        "label": "서브 키워드 5",
+        "completenessScore": 78,
+        "exposurePotentialScore": 94,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 1회",
+        "action": "도입부에서 '고르기' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "전에",
+        "role": "sub",
+        "label": "서브 키워드 6",
+        "completenessScore": 87,
+        "exposurePotentialScore": 97,
+        "count": 3,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 3회",
+        "action": "도입부에서 '전에' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "많이",
+        "role": "sub",
+        "label": "서브 키워드 7",
+        "completenessScore": 69,
+        "exposurePotentialScore": 79,
+        "count": 2,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 포함 / 도입부 부족 / 본문 2회",
+        "action": "도입부에서 '많이' 검색 의도를 더 직접적으로 받아 주세요."
+      }
+    ],
+    "combinationCoverageScore": 80,
+    "combinationMetrics": [
+      {
+        "phrase": "입호흡 전자담배 추천",
+        "role": "main",
+        "priority": "core",
+        "exactMatches": 6,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 90,
+        "exposurePotentialScore": 83,
+        "summary": "제목 약함 · 도입부 연결 · 소제목 연결 · 6회 직접 표현",
+        "action": "'입호흡 전자담배 추천' 조합을 제목이나 제목 가까운 소제목에 더 직접적으로 드러내는 편이 좋습니다."
+      },
+      {
+        "phrase": "선행포스팅 입호흡 전자담배 추천",
+        "role": "mixed",
+        "priority": "core",
+        "exactMatches": 0,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 82,
+        "exposurePotentialScore": 76,
+        "summary": "제목 약함 · 도입부 연결 · 소제목 보강 가능 · 0회 직접 표현",
+        "action": "'선행포스팅 입호흡 전자담배 추천' 조합을 제목이나 제목 가까운 소제목에 더 직접적으로 드러내는 편이 좋습니다."
+      },
+      {
+        "phrase": "키워드빌드업 입호흡 전자담배 추천",
+        "role": "mixed",
+        "priority": "core",
+        "exactMatches": 0,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 54,
+        "exposurePotentialScore": 45,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 0회 직접 표현",
+        "action": "'키워드빌드업 입호흡 전자담배 추천' 조합을 제목이나 제목 가까운 소제목에 더 직접적으로 드러내는 편이 좋습니다."
+      },
+      {
+        "phrase": "선택기준 입호흡 전자담배 추천",
+        "role": "mixed",
+        "priority": "core",
+        "exactMatches": 0,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 82,
+        "exposurePotentialScore": 76,
+        "summary": "제목 약함 · 도입부 연결 · 소제목 보강 가능 · 0회 직접 표현",
+        "action": "'선택기준 입호흡 전자담배 추천' 조합을 제목이나 제목 가까운 소제목에 더 직접적으로 드러내는 편이 좋습니다."
+      },
+      {
+        "phrase": "전자담배 입호흡 전자담배 추천",
+        "role": "mixed",
+        "priority": "core",
+        "exactMatches": 0,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 90,
+        "exposurePotentialScore": 84,
+        "summary": "제목 약함 · 도입부 연결 · 소제목 연결 · 0회 직접 표현",
+        "action": "'전자담배 입호흡 전자담배 추천' 조합을 제목이나 제목 가까운 소제목에 더 직접적으로 드러내는 편이 좋습니다."
+      }
+    ]
+  },
+  "naverLogicEvaluation": {
+    "primary": "hybrid",
+    "label": "D.I.A. + C-Rank 혼합",
+    "completenessScore": 25,
+    "reason": "이 주제는 문제 해결 흐름과 주제권 연결이 모두 중요해서 D.I.A.와 C-Rank를 함께 맞추는 편이 좋습니다.",
+    "evidence": [
+      "문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다.",
+      "비교와 선택 기준 요소가 살아 있어 실전 검색 의도에 잘 맞습니다.",
+      "내부링크 설계 대상이 있어 주제권 확장 관점이 살아 있습니다.",
+      "지역성과 실사용 맥락이 보여 C-Rank 관점의 주제권 연결이 자연스럽습니다.",
+      "실사용 맥락과 검색자 질문이 보여 D.I.A. 관점의 설득력이 있습니다."
+    ],
+    "improvements": [
+      "허브 참조 링크는 '2025년 기준 입호흡 전자담배 추천 TOP5 인천 만수동만수르 픽' 제목과 https://blog.naver.com/iibodii00/224090385537 URL을 정확히 같은 쌍으로 써야 합니다.",
+      "리프 참조 링크는 '전자담배 입호흡 폐호흡 차이 뭐가 다를지 완전 구분해드립니다 만수동만수르' 제목과 https://blog.naver.com/iibodii00/224085329155 URL을 정확히 같은 쌍으로 써야 합니다."
+    ]
+  },
+  "postId": "post-5b106b45",
+  "savedAt": "2026-05-22T03:47:41.667Z"
+}
