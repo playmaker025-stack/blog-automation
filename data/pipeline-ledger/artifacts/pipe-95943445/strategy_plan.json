@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-95943445",
   "type": "strategy_plan",
-  "savedAt": "2026-05-22T03:38:06.104Z",
+  "savedAt": "2026-05-22T03:45:57.105Z",
   "data": {
     "title": "전자담배 고르기 전에 많이 보는 선택 기준",
     "outline": [
@@ -63,7 +63,105 @@
       "많이"
     ],
     "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "a",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 3370,
+        "signatureExpressions": [
+          "안녕하세요"
+        ],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "인사로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-f5b93892",
+          "title": "입호흡 전자담배 핵심 개념과 선택 가이드",
+          "excerpt": "안녕하세요, 만수동만수르입니다. 입호흡 전자담배를 처음 접하실 때 MTL, CSV, 팟, 모드기기 같은 용어들이 한꺼번에 쏟아져 혼란스러웠던 경험 있으실 겁니다. 특히 입호흡, 폐호흡 구분 없이 기기를 사용하면 만족스럽지 못하거나 잘못된 선택을 하는 경우가 많습니다. 이번 글에서는 전자담배 입문자분들을 위해 입호흡(MTL)과 폐호흡(DTL)의 차이, CSV 팟 디바이스와 모드기기의 특징 그리고 실제 사용과 추천 기준까지 핵심 ",
+          "styleNotes": "tone=casual, contentKind=leaf, category=a"
+        },
+        {
+          "sampleId": "published-post-8158a83d",
+          "title": "서브몽키 BF60 바텀피더 모드기기, 무화량 좋은 하이엔드 전자담배",
+          "excerpt": "안녕하세요 만수동만수르 입니다. 오늘 포스팅 해드리는 기기는 아마 아예 이런 종류를 처음 경험하시는 분들도 계실거에요 오늘의 포스팅 주인공은 바로 서브몽키 BF60 SUBMONKEY m'key #60 입니다. 수제작 하이엔드 모드기기 브랜드 중에서 마니아층이 두터운 곳으로 실제로 써본 사람들은 극찬을 하는 실사용 만족도가 높은 브랜드 입니다. AI 활용 설정 사진 설명을 입력하세요. BF MOD(Bottom Feeder) 이번",
+          "styleNotes": "tone=casual, category=direct-run"
+        },
+        {
+          "sampleId": "published-post-ccad16ff",
+          "title": "포켓코리아 아머미니 입문자 분들께 딱 맞는 이유",
+          "excerpt": "안녕하세요, 만수동 만수르입니다. 처음 입호흡 전자담배를 선택하려고 할 때 어떤 기기를 골라야 할지 막막한 분들이 많으실 텐데요. 종류도 다양하고 유튜브, 카페마다 추천하는 기기가 달라 더욱 고민이 깊어지기 쉽습니다. 최근 전자담배 커뮤니티에서 크게 주목받고 있는 포켓코리아의 아머미니를 직접 사용해보고, 인기 제품들과 비교하며 왜 많은 분께 추천되는지 자세히 소개해드리겠습니다. 포켓코리아 아머미니란? 출시 전부터 여러 커뮤니티",
+          "styleNotes": "tone=casual, category=direct-run"
+        },
+        {
+          "sampleId": "published-post-aace5597",
+          "title": "인천 만수동 만수르 도조 오팔 20000 일회용 전자담배 리뷰",
+          "excerpt": "안녕하세요 만수동만수르 입니다. ​ 요즘 도조 오팔이 저희 인천 전자담배 만수동만수르네 문의가 많아서 한번 정리해봤습니다. ​ 솔직히 처음엔 그냥 지나쳤어요. 근데 문의가 점점 많아져서 아 이거 뭔가 있구나 싶어 ​ 제가 직접 써보고 느낀 점 그대로 적어볼게요. ​ 다른 일회용들도 궁금하신 분들은 아래 글을 참고하시면 좋을거 같습니다. 일회용 베스트5종 정리 ​ 도조 오팔 20000 일단 이게 뭔지 알고 가자 ​ 도조 오팔은 ",
+          "styleNotes": "tone=casual, category=?쇰컲"
+        },
+        {
+          "sampleId": "published-post-import-431b0d64",
+          "title": "구월동 전자담배 추천 기기 가이드 만수동만수르",
+          "excerpt": "구월동 전자담배 추천 기기 가이드 만수동만수르 구월동 전자담배 추천 기기 가이드 만수동만수르 : 네이버 블로그 NAVER 블로그 만수동만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 댓글 2 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 판매자의 이",
+          "styleNotes": "tone=casual"
+        }
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-f5b93892",
+          "finalScore": 0.579,
+          "components": {
+            "relevance": 0.58,
+            "recency": 0.91,
+            "roleMatch": 0.6,
+            "intentMatch": 0
+          }
+        },
+        {
+          "sampleId": "published-post-8158a83d",
+          "finalScore": 0.546,
+          "components": {
+            "relevance": 0.66,
+            "recency": 0.83,
+            "roleMatch": 0,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-ccad16ff",
+          "finalScore": 0.493,
+          "components": {
+            "relevance": 0.68,
+            "recency": 0.89,
+            "roleMatch": 0,
+            "intentMatch": 0
+          }
+        },
+        {
+          "sampleId": "published-post-aace5597",
+          "finalScore": 0.459,
+          "components": {
+            "relevance": 0.65,
+            "recency": 0.8,
+            "roleMatch": 0,
+            "intentMatch": 0
+          }
+        },
+        {
+          "sampleId": "published-post-import-431b0d64",
+          "finalScore": 0.422,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.57,
+            "roleMatch": 0,
+            "intentMatch": 0
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 20,
