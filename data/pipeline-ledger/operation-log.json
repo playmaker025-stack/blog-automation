@@ -4228,7 +4228,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-5c36a1bc",
       "at": "2026-05-22T09:48:56.982Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-e8fbca7e",
+      "userId": "b",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-73729478 / Similar existing title found: 만수동 전자담배 기기 문제 해결법과 매장 방문 시점 안내 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-257d19cb",
+      "at": "2026-05-23T03:33:08.623Z"
     }
   ],
-  "lastUpdated": "2026-05-22T09:48:56.982Z"
+  "lastUpdated": "2026-05-23T03:33:08.623Z"
 }
