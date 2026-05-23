@@ -2388,7 +2388,112 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-23T03:54:20.037Z",
       "updatedAt": "2026-05-23T03:57:08.568Z"
+    },
+    {
+      "topicId": "topic-47f566cd",
+      "title": "만수동 전자담배 기기별 고장 유형과 자가 점검법 [hub]",
+      "description": "만수동 지역 전자담배 사용자들이 자주 겪는 기기 고장 유형을 정리하고, 스스로 점검할 수 있는 방법을 안내합니다.",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "기기고장",
+        "자가점검",
+        "문제해결"
+      ],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-05-23T10:19:40.514Z",
+      "updatedAt": "2026-05-23T10:19:40.514Z"
+    },
+    {
+      "topicId": "topic-085f4181",
+      "title": "만수동 외국인도 가능한 전자담배 액상 구매 및 사용법 [leaf]",
+      "description": "만수동에서 외국인도 전자담배 액상을 구매하고 사용할 때 주의할 점과 관련 법규, 매장 이용 팁을 상세히 소개합니다.",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "외국인",
+        "액상구매",
+        "사용법"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-05-23T10:19:40.514Z",
+      "updatedAt": "2026-05-23T10:19:40.514Z"
+    },
+    {
+      "topicId": "topic-e5ce1320",
+      "title": "만수동 자동차담보대출 이용 시 전자담배 사용자 주의사항 [leaf]",
+      "description": "만수동 자동차담보대출을 고려하는 전자담배 사용자들이 알아야 할 대출 절차와 주의할 점을 구체적으로 설명합니다.",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "자동차담보대출",
+        "전자담배사용자",
+        "대출팁",
+        "금융"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-05-23T10:19:40.514Z",
+      "updatedAt": "2026-05-23T10:19:40.514Z"
+    },
+    {
+      "topicId": "topic-84bb96d1",
+      "title": "만수동 전자담배 액상 신선도 유지법과 보관 꿀팁 총정리 [hub]",
+      "description": "만수동 지역 전자담배 액상 보관법과 신선도 유지 팁을 종합적으로 정리해 액상 선택부터 보관까지 한눈에 확인할 수 있습니다.",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "액상보관",
+        "신선도유지",
+        "꿀팁"
+      ],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-05-23T10:19:40.514Z",
+      "updatedAt": "2026-05-23T10:19:40.514Z"
+    },
+    {
+      "topicId": "topic-fda90984",
+      "title": "만수동 전자담배 입문자를 위한 추천 액상 5종 비교 후기 [leaf]",
+      "description": "만수동 지역 입문자들이 많이 찾는 전자담배 액상 5종을 직접 사용해보고 비교한 후기를 상세히 소개합니다.",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "입문자",
+        "액상추천",
+        "사용후기"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-05-23T10:19:40.514Z",
+      "updatedAt": "2026-05-23T10:19:40.514Z"
     }
   ],
-  "lastUpdated": "2026-05-23T10:19:19.950Z"
+  "lastUpdated": "2026-05-23T10:19:40.514Z"
 }
