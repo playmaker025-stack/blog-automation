@@ -2384,10 +2384,10 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "published",
       "assignedUserId": "c",
       "createdAt": "2026-05-23T03:54:20.037Z",
-      "updatedAt": "2026-05-23T03:57:08.568Z"
+      "updatedAt": "2026-05-23T11:36:04.662Z"
     },
     {
       "topicId": "topic-47f566cd",
@@ -2495,5 +2495,5 @@
       "updatedAt": "2026-05-23T10:19:40.514Z"
     }
   ],
-  "lastUpdated": "2026-05-23T10:19:40.514Z"
+  "lastUpdated": "2026-05-23T11:36:04.662Z"
 }
