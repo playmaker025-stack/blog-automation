@@ -739,10 +739,10 @@
       "contentKind": "leaf",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "b",
       "createdAt": "2026-05-02T08:24:01.399Z",
-      "updatedAt": "2026-05-23T03:58:39.327Z"
+      "updatedAt": "2026-05-23T04:00:26.588Z"
     },
     {
       "topicId": "topic-8a689463",
@@ -2390,5 +2390,5 @@
       "updatedAt": "2026-05-23T03:57:08.568Z"
     }
   ],
-  "lastUpdated": "2026-05-23T03:58:39.327Z"
+  "lastUpdated": "2026-05-23T04:00:26.588Z"
 }
