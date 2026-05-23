@@ -2384,11 +2384,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-05-23T03:54:20.037Z",
-      "updatedAt": "2026-05-23T03:55:16.027Z"
+      "updatedAt": "2026-05-23T03:57:08.568Z"
     }
   ],
-  "lastUpdated": "2026-05-23T03:55:16.027Z"
+  "lastUpdated": "2026-05-23T03:57:08.568Z"
 }
