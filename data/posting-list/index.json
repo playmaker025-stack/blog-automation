@@ -4115,15 +4115,15 @@
       "topicId": "topic-8afb8581",
       "userId": "c",
       "title": "태국 전자담배 공항 입국·출국 기내 반입이 불법? 벌금?",
-      "status": "ready",
-      "naverPostUrl": null,
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224294566316",
       "evalScore": 54,
       "wordCount": 1688,
       "compositionSessionId": "pipe-dc7be6b7",
       "pendingApproval": null,
       "createdAt": "2026-05-23T03:55:17.311Z",
-      "publishedAt": null,
-      "updatedAt": "2026-05-23T11:35:06.878Z"
+      "publishedAt": "2026-05-23T11:36:00.672Z",
+      "updatedAt": "2026-05-23T11:36:01.690Z"
     },
     {
       "postId": "post-86029ead",
@@ -4141,5 +4141,5 @@
       "updatedAt": "2026-05-23T10:19:17.074Z"
     }
   ],
-  "lastUpdated": "2026-05-23T11:35:06.878Z"
+  "lastUpdated": "2026-05-23T11:36:01.690Z"
 }
