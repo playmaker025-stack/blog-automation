@@ -4124,7 +4124,22 @@
       "createdAt": "2026-05-23T03:55:17.311Z",
       "publishedAt": null,
       "updatedAt": "2026-05-23T03:57:06.867Z"
+    },
+    {
+      "postId": "post-86029ead",
+      "topicId": "topic-e8fbca7e",
+      "userId": "b",
+      "title": "만수동 전자담배 기기 문제 해결법과 매장 방문 시점 안내",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-1f4dcd6b",
+      "pendingApproval": null,
+      "createdAt": "2026-05-23T03:58:40.634Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-23T03:58:40.634Z"
     }
   ],
-  "lastUpdated": "2026-05-23T03:57:06.867Z"
+  "lastUpdated": "2026-05-23T03:58:40.634Z"
 }
