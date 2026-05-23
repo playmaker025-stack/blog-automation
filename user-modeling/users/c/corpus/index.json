@@ -2,6 +2,18 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-00e74251",
+      "title": "태국 전자담배 공항 입국·출국 기내 반입이 불법? 벌금?",
+      "category": "direct-run",
+      "tags": [
+        "태국여행 전자담배 가이드",
+        "기내,반입,규정,벌금,입국,출국,불법,공항"
+      ],
+      "wordCount": 1688,
+      "publishedAt": "2026-05-23T11:36:00.672Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-00e74251.md"
+    },
+    {
       "sampleId": "published-post-3c9809ca",
       "title": "중국 전자담배 기내 반입 불법일까? 규정·벌금·입국·출국·공항 총정리",
       "category": "direct-run",
@@ -236,5 +248,5 @@
       "filePath": "user-modeling/users/c/corpus/samples/published-post-5beaf101.md"
     }
   ],
-  "lastUpdated": "2026-05-22T10:33:20.492Z"
+  "lastUpdated": "2026-05-23T11:36:10.148Z"
 }
