@@ -1,0 +1,734 @@
+{
+  "runId": "eval-d6365bdc",
+  "scores": {
+    "originality": 65,
+    "style_match": 70,
+    "structure": 68,
+    "engagement": 60,
+    "forbidden_check": 100
+  },
+  "aggregateScore": 56,
+  "reasoning": {
+    "originality": "주제에 대해 구체적이고 실용적인 정보를 제공하여 독자에게 직접적인 도움을 주려는 점에서 독창성이 있으나, 전자담배 문제 해결법이라는 주제가 다소 일반적이고 흔한 내용이므로 최고 점수는 아님.",
+    "style_match": "친근하고 이해하기 쉬운 문체로 작성되어 있으며, 만수동 지역 특성을 반영해 지역 독자에게 적합한 톤을 유지함.",
+    "structure": "도입, 문제점 설명, 점검 기준, 매장 방문 시점, 관련 링크 안내 등 요구된 토폴로지에 맞게 잘 구성되어 있으나, 일부 문단 간 연결이 다소 부드럽지 않고 마무리 부분이 조금 더 명확하면 좋겠음.",
+    "engagement": "실제 사용자가 겪는 문제와 해결법을 구체적으로 다루고 있으나, 예시나 사례가 부족하고 독자의 적극적 참여를 유도하는 요소가 적어 다소 평범함.",
+    "forbidden_check": "내부 SEO 용어, 워크플로우 용어, 평가자 관련 단어 등 금지어가 전혀 포함되어 있지 않아 매우 우수함.",
+    "seo": "SEO 점수 75점. 제목 길이가 모바일 검색 노출 구간에 비교적 안정적입니다.",
+    "naver_logic": "네이버 로직 점수 25점. 문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다."
+  },
+  "recommendations": [
+    "첫 문장에 '만수동'를 한 번 직접 배치해 검색 의도를 더 또렷하게 보여주세요.",
+    "서브 키워드 '매장방문'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+    "서브 키워드 '기기'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+    "서브 키워드 '문제'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+    "서브 키워드 '매장'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+    "서브 키워드 '전자담배 만수동'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+  ],
+  "pass": false,
+  "seoEvaluation": {
+    "score": 75,
+    "evidence": [
+      "제목 길이가 모바일 검색 노출 구간에 비교적 안정적입니다.",
+      "메인 키워드가 제목 앞부분에 배치되어 있습니다.",
+      "도입부에 메인 키워드가 보여 검색 의도 연결이 자연스럽습니다.",
+      "소제목에도 메인 키워드가 반영되어 문서 구조와 주제가 잘 맞물립니다.",
+      "결론부에도 메인 키워드가 다시 등장해 문서 마무리가 일관됩니다.",
+      "'만수동' 본문 7회는 현재 권장 범위입니다."
+    ],
+    "improvements": [
+      "첫 문장에 '만수동'를 한 번 직접 배치해 검색 의도를 더 또렷하게 보여주세요.",
+      "서브 키워드 '매장방문'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+      "서브 키워드 '기기'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+      "서브 키워드 '문제'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+      "서브 키워드 '매장'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+      "서브 키워드 '전자담배 만수동'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+    ],
+    "keywordReport": {
+      "items": [
+        {
+          "keyword": "만수동",
+          "count": 7,
+          "status": "ok",
+          "targetMin": 4,
+          "targetMax": 7,
+          "role": "main",
+          "recommendation": "메인 키워드 '만수동' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "문제해결",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '문제해결' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "매장방문",
+          "count": 4,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '매장방문'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "기기",
+          "count": 17,
+          "status": "danger",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '기기'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+        },
+        {
+          "keyword": "문제",
+          "count": 11,
+          "status": "danger",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '문제'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+        },
+        {
+          "keyword": "해결법과",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '해결법과' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "매장",
+          "count": 8,
+          "status": "danger",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '매장'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+        },
+        {
+          "keyword": "전자담배 만수동",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '전자담배 만수동'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "mainKeyword": {
+        "keyword": "만수동",
+        "count": 7,
+        "status": "ok",
+        "targetMin": 4,
+        "targetMax": 7,
+        "role": "main",
+        "recommendation": "메인 키워드 '만수동' 반복은 현재 적정합니다."
+      },
+      "subKeywords": [
+        {
+          "keyword": "문제해결",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '문제해결' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "매장방문",
+          "count": 4,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '매장방문'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "기기",
+          "count": 17,
+          "status": "danger",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '기기'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+        },
+        {
+          "keyword": "문제",
+          "count": 11,
+          "status": "danger",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '문제'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+        },
+        {
+          "keyword": "해결법과",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '해결법과' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "매장",
+          "count": 8,
+          "status": "danger",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '매장'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+        },
+        {
+          "keyword": "전자담배 만수동",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '전자담배 만수동'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        }
+      ],
+      "bridgeKeywords": [],
+      "internalLinkAnchors": [],
+      "forbiddenItems": [
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "contractApplied": true,
+      "overallRisk": "high",
+      "overallRiskSummary": "과반복 위험이 높습니다. 반복 경고가 있는 키워드를 먼저 줄여 주세요.",
+      "paragraphWarnings": [
+        {
+          "keyword": "기기",
+          "paragraphIndex": 0,
+          "count": 2,
+          "message": "1번 문단에서 '기기'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+        },
+        {
+          "keyword": "기기",
+          "paragraphIndex": 3,
+          "count": 2,
+          "message": "4번 문단에서 '기기'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+        },
+        {
+          "keyword": "기기",
+          "paragraphIndex": 8,
+          "count": 3,
+          "message": "9번 문단에서 '기기'가 3회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+        },
+        {
+          "keyword": "기기",
+          "paragraphIndex": 20,
+          "count": 2,
+          "message": "21번 문단에서 '기기'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+        },
+        {
+          "keyword": "문제",
+          "paragraphIndex": 20,
+          "count": 2,
+          "message": "21번 문단에서 '문제'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+        },
+        {
+          "keyword": "문제",
+          "paragraphIndex": 26,
+          "count": 2,
+          "message": "27번 문단에서 '문제'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+        }
+      ],
+      "tokenItems": [],
+      "totalMentions": 53,
+      "introCoverage": true,
+      "titleFrontLoaded": true,
+      "bodyLength": 1826,
+      "summary": [
+        "메인 키워드 '만수동' 본문 7회",
+        "전체 반복 위험도 high"
+      ],
+      "recommendations": [
+        "서브 키워드 '매장방문'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+        "서브 키워드 '기기'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+        "서브 키워드 '문제'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+        "서브 키워드 '매장'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+        "서브 키워드 '전자담배 만수동'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+        "1번 문단에서 '기기'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요.",
+        "4번 문단에서 '기기'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요.",
+        "9번 문단에서 '기기'가 3회 반복됩니다. 같은 문단 안 반복을 줄여 주세요.",
+        "21번 문단에서 '기기'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요.",
+        "21번 문단에서 '문제'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+      ]
+    },
+    "keywordMetrics": [
+      {
+        "keyword": "만수동",
+        "role": "main",
+        "label": "메인 키워드",
+        "completenessScore": 99,
+        "exposurePotentialScore": 100,
+        "count": 7,
+        "targetMin": 4,
+        "targetMax": 7,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 앞배치 / 도입부 포함 / 본문 7회",
+        "action": "도입부에서 '만수동' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "문제해결",
+        "role": "sub",
+        "label": "서브 키워드 1",
+        "completenessScore": 55,
+        "exposurePotentialScore": 65,
+        "count": 3,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 3회",
+        "action": "'문제해결'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "매장방문",
+        "role": "sub",
+        "label": "서브 키워드 2",
+        "completenessScore": 42,
+        "exposurePotentialScore": 51,
+        "count": 4,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": true,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 4회",
+        "action": "'매장방문'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "기기",
+        "role": "sub",
+        "label": "서브 키워드 3",
+        "completenessScore": 76,
+        "exposurePotentialScore": 78,
+        "count": 17,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 17회",
+        "action": "서브 키워드 '기기'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+      },
+      {
+        "keyword": "문제",
+        "role": "sub",
+        "label": "서브 키워드 4",
+        "completenessScore": 76,
+        "exposurePotentialScore": 78,
+        "count": 11,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 11회",
+        "action": "서브 키워드 '문제'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+      },
+      {
+        "keyword": "해결법과",
+        "role": "sub",
+        "label": "서브 키워드 5",
+        "completenessScore": 69,
+        "exposurePotentialScore": 79,
+        "count": 3,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 포함 / 도입부 부족 / 본문 3회",
+        "action": "도입부에서 '해결법과' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "매장",
+        "role": "sub",
+        "label": "서브 키워드 6",
+        "completenessScore": 70,
+        "exposurePotentialScore": 78,
+        "count": 8,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 8회",
+        "action": "서브 키워드 '매장'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+      },
+      {
+        "keyword": "전자담배 만수동",
+        "role": "sub",
+        "label": "서브 키워드 7",
+        "completenessScore": 32,
+        "exposurePotentialScore": 47,
+        "count": 0,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 0회",
+        "action": "'전자담배 만수동'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      }
+    ],
+    "combinationCoverageScore": 88,
+    "combinationMetrics": [
+      {
+        "phrase": "만수동",
+        "role": "main",
+        "priority": "core",
+        "exactMatches": 7,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 100,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 연결 · 7회 직접 표현",
+        "action": "'만수동' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "문제해결",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 3,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 3회 직접 표현",
+        "action": "첫 두 문단 안에서 '문제해결' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "매장방문",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 4,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": true,
+        "introIncluded": false,
+        "earlyCoverage": true,
+        "coverageScore": 70,
+        "exposurePotentialScore": 63,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 연결 · 4회 직접 표현",
+        "action": "첫 두 문단 안에서 '매장방문' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "기기",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 17,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 98,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 연결 · 17회 직접 표현",
+        "action": "'기기' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "문제",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 11,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 98,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 연결 · 11회 직접 표현",
+        "action": "'문제' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "해결법과",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 3,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 74,
+        "exposurePotentialScore": 71,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 보강 가능 · 3회 직접 표현",
+        "action": "첫 두 문단 안에서 '해결법과' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "매장",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 8,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 98,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 연결 · 8회 직접 표현",
+        "action": "'매장' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "전자담배 만수동",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 0,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 100,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 연결 · 0회 직접 표현",
+        "action": "토큰은 모두 들어가 있으니 '전자담배 만수동' 조합을 한 문장 안에서 한 번 더 자연스럽게 묶어 주세요."
+      }
+    ]
+  },
+  "naverLogicEvaluation": {
+    "primary": "hybrid",
+    "label": "D.I.A. + C-Rank 혼합",
+    "completenessScore": 25,
+    "reason": "이 주제는 문제 해결 흐름과 주제권 연결이 모두 중요해서 D.I.A.와 C-Rank를 함께 맞추는 편이 좋습니다.",
+    "evidence": [
+      "문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다.",
+      "비교와 선택 기준 요소가 살아 있어 실전 검색 의도에 잘 맞습니다.",
+      "내부링크 설계 대상이 있어 주제권 확장 관점이 살아 있습니다.",
+      "지역성과 실사용 맥락이 보여 C-Rank 관점의 주제권 연결이 자연스럽습니다.",
+      "실사용 맥락과 검색자 질문이 보여 D.I.A. 관점의 설득력이 있습니다."
+    ],
+    "improvements": [
+      "허브 참조 링크는 '만수동 전자담배 기기별 장단점과 추천 가이드' 제목과 https://blog.naver.com/youferst/224274819132 URL을 정확히 같은 쌍으로 써야 합니다.",
+      "리프 참조 링크는 '간석동 전자담배 액상 맛이 갑자기 이상해졌을 때 확인해야 할 것 (매장 기준 해결 방법)' 제목과 https://blog.naver.com/youferst/224240765494 URL을 정확히 같은 쌍으로 써야 합니다."
+    ]
+  },
+  "postId": "post-86029ead",
+  "savedAt": "2026-05-23T04:00:19.698Z"
+}
