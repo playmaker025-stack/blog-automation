@@ -4250,7 +4250,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-49651a54",
       "at": "2026-05-23T03:34:20.310Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "태국여행 전자담배 가이드 기내,반입,규정,벌금,입국,출국,불법,공항",
+      "proposedTitle": "태국여행 전자담배 가이드 기내,반입,규정,벌금,입국,출국,불법,공항",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-dc7be6b7",
+      "at": "2026-05-23T03:54:49.448Z"
     }
   ],
-  "lastUpdated": "2026-05-23T03:34:20.310Z"
+  "lastUpdated": "2026-05-23T03:54:49.448Z"
 }
