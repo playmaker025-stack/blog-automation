@@ -4316,7 +4316,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-e4c8d17c",
       "at": "2026-05-24T06:02:42.206Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-edbce37f",
+      "userId": "e",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-46bed1cc / Similar existing title found: 담배에서 나는 냄새 줄이는 전자담배 액상 선택 가이드 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-2bd6a078",
+      "at": "2026-05-24T06:28:55.224Z"
     }
   ],
-  "lastUpdated": "2026-05-24T06:02:42.206Z"
+  "lastUpdated": "2026-05-24T06:28:55.224Z"
 }
