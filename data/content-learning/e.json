@@ -2,6 +2,19 @@
   "userId": "e",
   "entries": [
     {
+      "postId": "post-5734db7d",
+      "topicId": "topic-edbce37f",
+      "userId": "e",
+      "title": "악취 걱정 없이 고르는 전자담배 리퀴드 가이드",
+      "naverPostUrl": "https://blog.naver.com/godmaker0/224295302695",
+      "evalScore": 61,
+      "wordCount": 1464,
+      "publishedAt": "2026-05-24T11:52:46.706Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-05-24T11:52:55.085Z"
+    },
+    {
       "postId": "post-86a98e29",
       "topicId": "topic-d1b671d3",
       "userId": "e",
@@ -54,5 +67,5 @@
       "learnedAt": "2026-05-10T12:02:04.252Z"
     }
   ],
-  "updatedAt": "2026-05-17T12:17:46.552Z"
+  "updatedAt": "2026-05-24T11:52:55.085Z"
 }
