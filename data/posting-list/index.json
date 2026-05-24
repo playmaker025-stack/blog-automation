@@ -4169,7 +4169,22 @@
       "createdAt": "2026-05-24T06:02:47.445Z",
       "publishedAt": null,
       "updatedAt": "2026-05-24T06:04:50.838Z"
+    },
+    {
+      "postId": "post-5734db7d",
+      "topicId": "topic-edbce37f",
+      "userId": "e",
+      "title": "담배에서 나는 냄새 줄이는 전자담배 액상 선택 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-4349a7d6",
+      "pendingApproval": null,
+      "createdAt": "2026-05-24T06:30:49.366Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-24T06:30:49.366Z"
     }
   ],
-  "lastUpdated": "2026-05-24T06:04:50.838Z"
+  "lastUpdated": "2026-05-24T06:30:49.366Z"
 }
