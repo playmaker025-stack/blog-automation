@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-e4c8d17c",
+  "type": "approval_request",
+  "savedAt": "2026-05-24T06:02:49.355Z",
+  "data": {
+    "pipelineId": "pipe-e4c8d17c",
+    "previousTitle": "",
+    "proposedTitle": "담배에서 나는 냄새 줄이는 전자담배 액상 선택 가이드",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-05-24T06:02:43.709Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-24T06:02:43.709Z",
+      "modifications": null
+    }
+  }
+}
