@@ -2493,7 +2493,27 @@
       "assignedUserId": "b",
       "createdAt": "2026-05-23T10:19:40.514Z",
       "updatedAt": "2026-05-23T10:19:40.514Z"
+    },
+    {
+      "topicId": "topic-27ecb506",
+      "title": "담배에서 전자담배로 전환 시 흔히 겪는 문제와 해결법",
+      "description": "담배에서 전자담배로 넘어갈 때 사용자가 자주 마주치는 문제 상황과 그에 따른 구체적인 해결책을 제시합니다.",
+      "category": "E블로그",
+      "tags": [
+        "전자담배",
+        "담배전환",
+        "문제해결",
+        "사용팁"
+      ],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "e",
+      "createdAt": "2026-05-24T04:53:16.755Z",
+      "updatedAt": "2026-05-24T04:53:16.755Z"
     }
   ],
-  "lastUpdated": "2026-05-24T02:49:08.246Z"
+  "lastUpdated": "2026-05-24T04:53:16.755Z"
 }
