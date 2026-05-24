@@ -2533,7 +2533,27 @@
       "assignedUserId": "e",
       "createdAt": "2026-05-24T04:53:18.701Z",
       "updatedAt": "2026-05-24T04:53:18.701Z"
+    },
+    {
+      "topicId": "topic-edbce37f",
+      "title": "담배에서 나는 냄새 줄이는 전자담배 액상 선택 가이드",
+      "description": "담배 냄새 때문에 고민하는 사용자를 위해 전자담배 액상 중 냄새가 적거나 좋은 제품을 추천하고 특징을 설명합니다.",
+      "category": "E블로그",
+      "tags": [
+        "전자담배",
+        "액상",
+        "냄새",
+        "추천"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "e",
+      "createdAt": "2026-05-24T04:53:20.638Z",
+      "updatedAt": "2026-05-24T04:53:20.638Z"
     }
   ],
-  "lastUpdated": "2026-05-24T04:53:18.701Z"
+  "lastUpdated": "2026-05-24T04:53:20.638Z"
 }
