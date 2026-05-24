@@ -4305,7 +4305,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-3ea1e830",
       "at": "2026-05-24T02:46:59.361Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "담배에서 나는 냄새 줄이는 전자담배 액상 선택 가이드",
+      "proposedTitle": "담배에서 나는 냄새 줄이는 전자담배 액상 선택 가이드",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-e4c8d17c",
+      "at": "2026-05-24T06:02:42.206Z"
     }
   ],
-  "lastUpdated": "2026-05-24T02:46:59.361Z"
+  "lastUpdated": "2026-05-24T06:02:42.206Z"
 }
