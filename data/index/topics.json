@@ -2553,7 +2553,27 @@
       "assignedUserId": "e",
       "createdAt": "2026-05-24T04:53:20.638Z",
       "updatedAt": "2026-05-24T04:53:20.638Z"
+    },
+    {
+      "topicId": "topic-7b118543",
+      "title": "담배에서 전자담배로 전환 후 가족 간 갈등 해결 사례와 조언",
+      "description": "전자담배 전환 과정에서 발생하는 가족 간 갈등 사례를 소개하고, 이를 극복한 실제 경험과 전문가 조언을 공유합니다.",
+      "category": "E블로그",
+      "tags": [
+        "전자담배",
+        "가족갈등",
+        "전환사례",
+        "조언"
+      ],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "e",
+      "createdAt": "2026-05-24T04:53:22.515Z",
+      "updatedAt": "2026-05-24T04:53:22.515Z"
     }
   ],
-  "lastUpdated": "2026-05-24T04:53:20.638Z"
+  "lastUpdated": "2026-05-24T04:53:22.515Z"
 }
