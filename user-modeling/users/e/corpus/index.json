@@ -2,6 +2,20 @@
   "userId": "e",
   "samples": [
     {
+      "sampleId": "published-post-5734db7d",
+      "title": "악취 걱정 없이 고르는 전자담배 리퀴드 가이드",
+      "category": "E블로그",
+      "tags": [
+        "전자담배",
+        "액상",
+        "냄새",
+        "추천"
+      ],
+      "wordCount": 1464,
+      "publishedAt": "2026-05-24T11:52:46.706Z",
+      "filePath": "user-modeling/users/e/corpus/samples/published-post-5734db7d.md"
+    },
+    {
       "sampleId": "published-post-86a98e29",
       "title": "연초에서 전자담배로 넘어오는 사람이 실제로 많이 묻는 질문 5가지",
       "category": "E블로그",
@@ -74,5 +88,5 @@
       "filePath": "user-modeling/users/e/corpus/samples/published-post-import-1b99338a.md"
     }
   ],
-  "lastUpdated": "2026-05-17T12:17:49.244Z"
+  "lastUpdated": "2026-05-24T11:52:57.694Z"
 }
