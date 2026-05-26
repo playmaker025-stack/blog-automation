@@ -1108,10 +1108,10 @@
       "prerequisiteTopicIds": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "a",
       "createdAt": "2026-05-07T10:01:16.831Z",
-      "updatedAt": "2026-05-26T06:31:50.162Z",
+      "updatedAt": "2026-05-26T07:19:52.772Z",
       "seriesDetailPlan": {
         "articleGoal": "입호흡 전자담배 추천를 바로 추천하기 전에 초보자가 실제로 헷갈리는 상황을 정리해 주는 글",
         "searchIntent": "문제해결형/초보자가이드형",
@@ -2592,5 +2592,5 @@
       "updatedAt": "2026-05-26T04:28:59.869Z"
     }
   ],
-  "lastUpdated": "2026-05-26T06:31:50.162Z"
+  "lastUpdated": "2026-05-26T07:19:52.772Z"
 }
