@@ -1,0 +1,450 @@
+{
+  "runId": "eval-f7ce0089",
+  "scores": {
+    "originality": 65,
+    "style_match": 70,
+    "structure": 68,
+    "engagement": 60,
+    "forbidden_check": 100
+  },
+  "aggregateScore": 58,
+  "reasoning": {
+    "originality": "초보자가 시작 전에 놓치는 체크포인트를 중심으로 전자담배 입문자의 혼란을 해소하는 내용으로, 기존 유사 글들과 비교해 큰 차별점은 없으나, 초보자 입장에서 꼭 알아야 할 핵심 사항을 체계적으로 정리하여 기본적인 독자 니즈를 충족함.",
+    "style_match": "친근하고 이해하기 쉬운 문체로 작성되어 있으며, 초보자 대상 친절한 설명과 조언이 잘 어우러져 있어 요청한 톤에 부합함.",
+    "structure": "도입부에서 고민 상황을 먼저 제시하고, 본문에서 체크포인트별로 구분하여 설명하며, 마지막에 관련 상위 글로 자연스럽게 연결하는 구성으로 요구된 토폴로지 역할을 충실히 수행함.",
+    "engagement": "초보자들이 공감할 만한 고민과 실수 사례를 제시하였으나, 구체적 경험담이나 생생한 사례가 부족하고, 문장 반복과 다소 평이한 설명으로 인해 독자의 몰입도를 높이기에는 다소 아쉬움이 있음.",
+    "forbidden_check": "내부 SEO 용어, 평가자 용어, 키워드 빌드업 등 금지된 내부 용어가 전혀 포함되어 있지 않아 매우 적합함.",
+    "seo": "SEO 점수 80점. 제목 길이가 모바일 검색 노출 구간에 비교적 안정적입니다.",
+    "naver_logic": "네이버 로직 점수 23점. 문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다."
+  },
+  "recommendations": [
+    "메인 키워드 '입호흡 전자담배 추천'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+    "서브 키워드 '입문'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+    "서브 키워드 '선택 기준'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+    "허브 참조 링크는 '2025년 기준 입호흡 전자담배 추천 TOP5 인천 만수동만수르 픽' 제목과 https://blog.naver.com/iibodii00/224090385537 URL을 정확히 같은 쌍으로 써야 합니다.",
+    "리프 참조 링크는 '전자담배 입호흡 폐호흡 차이 뭐가 다를지 완전 구분해드립니다 만수동만수르' 제목과 https://blog.naver.com/iibodii00/224085329155 URL을 정확히 같은 쌍으로 써야 합니다.",
+    "초보자가 실제 겪는 구체적인 사례나 질문을 추가하여 공감대를 높이고 글의 생동감을 강화하세요."
+  ],
+  "pass": false,
+  "seoEvaluation": {
+    "score": 80,
+    "evidence": [
+      "제목 길이가 모바일 검색 노출 구간에 비교적 안정적입니다.",
+      "선행 포스팅은 메인 키워드를 제목 정면에 반복하지 않는 규칙을 따릅니다.",
+      "도입부에 메인 키워드가 보여 검색 의도 연결이 자연스럽습니다.",
+      "선행 포스팅은 메인 키워드를 본문 맥락에서 자연스럽게 노출하는 모드로 평가합니다.",
+      "본문 분량이 SEO용 설명 글로는 최소 기준을 넘깁니다.",
+      "목표 검색 조합 커버력이 87점으로 비교적 안정적입니다."
+    ],
+    "improvements": [
+      "메인 키워드 '입호흡 전자담배 추천'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+      "서브 키워드 '입문'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+      "서브 키워드 '선택 기준'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+    ],
+    "keywordReport": {
+      "items": [
+        {
+          "keyword": "입호흡 전자담배 추천",
+          "count": 8,
+          "status": "danger",
+          "targetMin": 2,
+          "targetMax": 4,
+          "role": "main",
+          "recommendation": "메인 키워드 '입호흡 전자담배 추천'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+        },
+        {
+          "keyword": "입문",
+          "count": 7,
+          "status": "danger",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '입문'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+        },
+        {
+          "keyword": "선택 기준",
+          "count": 4,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '선택 기준'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "mainKeyword": {
+        "keyword": "입호흡 전자담배 추천",
+        "count": 8,
+        "status": "danger",
+        "targetMin": 2,
+        "targetMax": 4,
+        "role": "main",
+        "recommendation": "메인 키워드 '입호흡 전자담배 추천'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+      },
+      "subKeywords": [
+        {
+          "keyword": "입문",
+          "count": 7,
+          "status": "danger",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '입문'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+        },
+        {
+          "keyword": "선택 기준",
+          "count": 4,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '선택 기준'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        }
+      ],
+      "bridgeKeywords": [],
+      "internalLinkAnchors": [],
+      "forbiddenItems": [
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "contractApplied": true,
+      "overallRisk": "high",
+      "overallRiskSummary": "과반복 위험이 높습니다. 반복 경고가 있는 키워드를 먼저 줄여 주세요.",
+      "paragraphWarnings": [
+        {
+          "keyword": "입문",
+          "paragraphIndex": 1,
+          "count": 2,
+          "message": "2번 문단에서 '입문'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+        }
+      ],
+      "tokenItems": [],
+      "totalMentions": 19,
+      "introCoverage": true,
+      "titleFrontLoaded": false,
+      "bodyLength": 1459,
+      "summary": [
+        "메인 키워드 '입호흡 전자담배 추천' 본문 8회",
+        "전체 반복 위험도 high"
+      ],
+      "recommendations": [
+        "메인 키워드 '입호흡 전자담배 추천'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+        "서브 키워드 '입문'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+        "서브 키워드 '선택 기준'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+        "2번 문단에서 '입문'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+      ]
+    },
+    "keywordMetrics": [
+      {
+        "keyword": "입호흡 전자담배 추천",
+        "role": "main",
+        "label": "메인 키워드",
+        "completenessScore": 75,
+        "exposurePotentialScore": 72,
+        "count": 8,
+        "targetMin": 2,
+        "targetMax": 4,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 미포함 / 도입부 포함 / 본문 8회",
+        "action": "메인 키워드 '입호흡 전자담배 추천'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+      },
+      {
+        "keyword": "입문",
+        "role": "sub",
+        "label": "서브 키워드 1",
+        "completenessScore": 62,
+        "exposurePotentialScore": 64,
+        "count": 7,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 미포함 / 도입부 포함 / 본문 7회",
+        "action": "'입문'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "선택 기준",
+        "role": "sub",
+        "label": "서브 키워드 2",
+        "completenessScore": 57,
+        "exposurePotentialScore": 66,
+        "count": 4,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 미포함 / 도입부 포함 / 본문 4회",
+        "action": "'선택 기준'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      }
+    ],
+    "combinationCoverageScore": 87,
+    "combinationMetrics": [
+      {
+        "phrase": "입호흡 전자담배 추천",
+        "role": "main",
+        "priority": "core",
+        "exactMatches": 8,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 90,
+        "exposurePotentialScore": 83,
+        "summary": "제목 약함 · 도입부 연결 · 소제목 연결 · 8회 직접 표현",
+        "action": "'입호흡 전자담배 추천' 조합을 제목이나 제목 가까운 소제목에 더 직접적으로 드러내는 편이 좋습니다."
+      },
+      {
+        "phrase": "입문",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 7,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 85,
+        "exposurePotentialScore": 79,
+        "summary": "제목 약함 · 도입부 연결 · 소제목 연결 · 7회 직접 표현",
+        "action": "'입문' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "선택 기준",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 4,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 85,
+        "exposurePotentialScore": 79,
+        "summary": "제목 약함 · 도입부 연결 · 소제목 연결 · 4회 직접 표현",
+        "action": "'선택 기준' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      }
+    ]
+  },
+  "naverLogicEvaluation": {
+    "primary": "dia",
+    "label": "D.I.A. 중심",
+    "completenessScore": 23,
+    "reason": "이 주제는 사용자의 문제 해결과 선택 기준 설명이 중심이라 D.I.A. 관점이 더 중요합니다.",
+    "evidence": [
+      "문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다.",
+      "비교와 선택 기준 요소가 살아 있어 실전 검색 의도에 잘 맞습니다.",
+      "내부링크 설계 대상이 있어 주제권 확장 관점이 살아 있습니다.",
+      "지역성과 실사용 맥락이 보여 C-Rank 관점의 주제권 연결이 자연스럽습니다.",
+      "실사용 맥락과 검색자 질문이 보여 D.I.A. 관점의 설득력이 있습니다."
+    ],
+    "improvements": [
+      "허브 참조 링크는 '2025년 기준 입호흡 전자담배 추천 TOP5 인천 만수동만수르 픽' 제목과 https://blog.naver.com/iibodii00/224090385537 URL을 정확히 같은 쌍으로 써야 합니다.",
+      "리프 참조 링크는 '전자담배 입호흡 폐호흡 차이 뭐가 다를지 완전 구분해드립니다 만수동만수르' 제목과 https://blog.naver.com/iibodii00/224085329155 URL을 정확히 같은 쌍으로 써야 합니다."
+    ]
+  },
+  "postId": "post-38860e16",
+  "savedAt": "2026-05-26T06:08:00.313Z"
+}
