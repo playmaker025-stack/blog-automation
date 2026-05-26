@@ -4360,7 +4360,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-4974050e",
       "at": "2026-05-26T04:12:59.191Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-2b77ebd1 / Similar existing title found: 전자담배 초보자가 시작 전에 자주 놓치는 체크포인트 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-abb233d7",
+      "at": "2026-05-26T05:26:37.585Z"
     }
   ],
-  "lastUpdated": "2026-05-26T04:12:59.191Z"
+  "lastUpdated": "2026-05-26T05:26:37.585Z"
 }
