@@ -2405,10 +2405,10 @@
       "contentKind": "hub",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "published",
       "assignedUserId": "b",
       "createdAt": "2026-05-23T10:19:40.514Z",
-      "updatedAt": "2026-05-26T04:15:24.361Z"
+      "updatedAt": "2026-05-26T08:13:37.969Z"
     },
     {
       "topicId": "topic-085f4181",
@@ -2592,5 +2592,5 @@
       "updatedAt": "2026-05-26T04:28:59.869Z"
     }
   ],
-  "lastUpdated": "2026-05-26T08:11:07.969Z"
+  "lastUpdated": "2026-05-26T08:13:37.969Z"
 }
