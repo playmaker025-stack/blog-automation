@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-44ed2d79",
+  "type": "approval_request",
+  "savedAt": "2026-05-26T09:51:05.061Z",
+  "data": {
+    "pipelineId": "pipe-44ed2d79",
+    "previousTitle": "",
+    "proposedTitle": "매장 고르기 전에 많이 보는 선택 기준",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 시리즈 상세 설계 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-05-26T09:50:50.354Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-26T09:50:50.354Z",
+      "modifications": null
+    }
+  }
+}
