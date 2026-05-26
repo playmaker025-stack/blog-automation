@@ -2573,7 +2573,24 @@
       "assignedUserId": "e",
       "createdAt": "2026-05-24T04:53:22.515Z",
       "updatedAt": "2026-05-24T04:53:22.515Z"
+    },
+    {
+      "topicId": "topic-34752419",
+      "title": "액상형 전자담배 온라인 판매금지?! 전담 인터넷 구매 막힘",
+      "description": "메인키워드: 액상형 전자담배 온라인 판매금지?! / 서브 키워드: 전담 인터넷 구매 막힘",
+      "category": "direct-run",
+      "tags": [
+        "액상형 전자담배 온라인 판매금지?!",
+        "전담 인터넷 구매 막힘"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-05-26T01:48:27.245Z",
+      "updatedAt": "2026-05-26T01:48:27.245Z"
     }
   ],
-  "lastUpdated": "2026-05-24T11:54:13.138Z"
+  "lastUpdated": "2026-05-26T01:48:27.245Z"
 }
