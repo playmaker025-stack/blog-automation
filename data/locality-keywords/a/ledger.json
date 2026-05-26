@@ -2,6 +2,42 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "부평역",
+      "phrase": "부평역이나 부평구 일대 매장에 방문하시는 초보자",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-f8d1e38e",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-26T08:11:02.446Z"
+    },
+    {
+      "keyword": "부평구",
+      "phrase": "부평역이나 부평구 일대 매장에 방문하시는 초보자",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-f8d1e38e",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-26T08:11:02.446Z"
+    },
+    {
+      "keyword": "부평시장",
+      "phrase": "부평시장",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-f8d1e38e",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-26T08:11:02.446Z"
+    },
+    {
+      "keyword": "부평구청",
+      "phrase": "이나 부평구청 주변에서 처음 구매하시는 분들도,",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-f8d1e38e",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-26T08:11:02.446Z"
+    },
+    {
       "keyword": "계산",
       "phrase": "실제로 계산, 부개동,",
       "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
@@ -875,5 +911,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-05-26T07:22:40.223Z"
+  "updatedAt": "2026-05-26T08:11:02.446Z"
 }
