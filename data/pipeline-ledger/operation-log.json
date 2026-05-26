@@ -4349,7 +4349,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-f19e745d",
       "at": "2026-05-26T01:48:38.681Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "만수동 전자담배 기기별 고장 유형과 자가 점검법 [hub]",
+      "proposedTitle": "만수동 전자담배 기기별 고장 유형과 자가 점검법 [hub]",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-4974050e",
+      "at": "2026-05-26T04:12:59.191Z"
     }
   ],
-  "lastUpdated": "2026-05-26T01:48:38.681Z"
+  "lastUpdated": "2026-05-26T04:12:59.191Z"
 }
