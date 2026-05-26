@@ -2590,7 +2590,24 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-26T01:48:27.245Z",
       "updatedAt": "2026-05-26T04:28:59.869Z"
+    },
+    {
+      "topicId": "topic-8bc1d79f",
+      "title": "부평 고유가 지원금 사용처 전자담배 만수르 고유가지원금,사용처,매장,전자담배,입호흡 전자담배",
+      "description": "메인키워드: 부평 고유가 지원금 사용처 전자담배 만수르 / 서브 키워드: 고유가지원금,사용처,매장,전자담배,입호흡 전자담배",
+      "category": "direct-run",
+      "tags": [
+        "부평 고유가 지원금 사용처 전자담배 만수르",
+        "고유가지원금,사용처,매장,전자담배,입호흡 전자담배"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-05-26T08:19:22.208Z",
+      "updatedAt": "2026-05-26T08:19:22.208Z"
     }
   ],
-  "lastUpdated": "2026-05-26T08:13:37.969Z"
+  "lastUpdated": "2026-05-26T08:19:22.208Z"
 }
