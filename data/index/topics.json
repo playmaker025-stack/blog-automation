@@ -2187,10 +2187,10 @@
       "prerequisiteTopicIds": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "d",
       "createdAt": "2026-05-21T11:11:03.122Z",
-      "updatedAt": "2026-05-26T09:50:52.097Z",
+      "updatedAt": "2026-05-26T09:53:41.752Z",
       "seriesDetailPlan": {
         "articleGoal": "인천전자담배 모드기기 전문 매장를 바로 추천하기 전에 선택 기준과 실사용 판단 포인트를 잡아주는 글",
         "searchIntent": "선택기준형",
@@ -2609,5 +2609,5 @@
       "updatedAt": "2026-05-26T08:23:05.595Z"
     }
   ],
-  "lastUpdated": "2026-05-26T09:50:52.097Z"
+  "lastUpdated": "2026-05-26T09:53:41.752Z"
 }
