@@ -4190,15 +4190,15 @@
       "topicId": "topic-34752419",
       "userId": "c",
       "title": "액상형 전자담배 온라인 판매금지? 전담 인터넷 구매 왜 막혔을까",
-      "status": "ready",
-      "naverPostUrl": null,
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224296756267",
       "evalScore": 56,
       "wordCount": 1561,
       "compositionSessionId": "pipe-f19e745d",
       "pendingApproval": null,
       "createdAt": "2026-05-26T01:49:10.475Z",
-      "publishedAt": null,
-      "updatedAt": "2026-05-26T02:25:06.162Z"
+      "publishedAt": "2026-05-26T04:28:55.840Z",
+      "updatedAt": "2026-05-26T04:28:57.043Z"
     },
     {
       "postId": "post-2e778402",
@@ -4216,5 +4216,5 @@
       "updatedAt": "2026-05-26T04:15:22.641Z"
     }
   ],
-  "lastUpdated": "2026-05-26T04:15:22.641Z"
+  "lastUpdated": "2026-05-26T04:28:57.043Z"
 }
