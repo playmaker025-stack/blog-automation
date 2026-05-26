@@ -4492,7 +4492,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-a695aa44",
       "at": "2026-05-26T07:41:56.772Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부평 고유가 지원금 사용처 전자담배 만수르 고유가지원금,사용처,매장,전자담배,입호흡 전자담배",
+      "proposedTitle": "부평 고유가 지원금 사용처 전자담배 만수르 고유가지원금,사용처,매장,전자담배,입호흡 전자담배",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-87cf29f8",
+      "at": "2026-05-26T08:19:38.328Z"
     }
   ],
-  "lastUpdated": "2026-05-26T07:41:56.772Z"
+  "lastUpdated": "2026-05-26T08:19:38.328Z"
 }
