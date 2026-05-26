@@ -2,6 +2,33 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "간석",
+      "phrase": "들어 간석이나 삼산동에서 방문하신 분들도 “유",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-e40d4c19",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-26T06:31:45.319Z"
+    },
+    {
+      "keyword": "삼산동",
+      "phrase": "들어 간석이나 삼산동에서 방문하신 분들도 “유",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-e40d4c19",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-26T06:31:45.319Z"
+    },
+    {
+      "keyword": "백운",
+      "phrase": "삼산동이나 백운 등지에서 오신 분들 중에",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-e40d4c19",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-26T06:31:45.319Z"
+    },
+    {
       "keyword": "부평",
       "phrase": "특히 부평이나 만수역 근처 매장에 방문하시는 분",
       "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
@@ -812,5 +839,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-05-26T06:09:29.328Z"
+  "updatedAt": "2026-05-26T06:31:45.319Z"
 }
