@@ -2,6 +2,42 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "부평",
+      "phrase": "특히 부평이나 만수역 근처 매장에 방문하시는 분",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-38860e16",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-26T06:09:29.328Z"
+    },
+    {
+      "keyword": "만수역",
+      "phrase": "특히 부평이나 만수역 근처 매장에 방문하시는 분",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-38860e16",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-26T06:09:29.328Z"
+    },
+    {
+      "keyword": "계산동",
+      "phrase": "특히 계산동이나 남동구처럼 오프",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-38860e16",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-26T06:09:29.328Z"
+    },
+    {
+      "keyword": "남동구",
+      "phrase": "특히 계산동이나 남동구처럼 오프",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-38860e16",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-26T06:09:29.328Z"
+    },
+    {
       "keyword": "인천",
       "phrase": "특히 인천, 만수, 구월 등 지역 매장에 방문하",
       "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
@@ -776,5 +812,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-05-26T05:29:22.017Z"
+  "updatedAt": "2026-05-26T06:09:29.328Z"
 }
