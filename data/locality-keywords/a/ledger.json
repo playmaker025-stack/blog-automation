@@ -2,6 +2,33 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "인천",
+      "phrase": "특히 인천, 만수, 구월 등 지역 매장에 방문하",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-ddb41049",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-26T05:29:22.017Z"
+    },
+    {
+      "keyword": "만수",
+      "phrase": "안녕하세요, 만수동만수르입니다.",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-ddb41049",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-26T05:29:22.017Z"
+    },
+    {
+      "keyword": "구월",
+      "phrase": "특히 인천, 만수, 구월 등 지역 매장에 방문하",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-ddb41049",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-26T05:29:22.017Z"
+    },
+    {
       "keyword": "부천",
       "phrase": "특히 부천, 상",
       "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
@@ -749,5 +776,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-05-22T09:51:46.902Z"
+  "updatedAt": "2026-05-26T05:29:22.017Z"
 }
