@@ -4204,7 +4204,7 @@
       "postId": "post-2e778402",
       "topicId": "topic-47f566cd",
       "userId": "b",
-      "title": "만수동 전자담배 기기별 고장 유형과 자가 점검법 [hub]",
+      "title": "만수동 전자담배 기기별 고장 유형과 자가점검 방법 안내",
       "status": "ready",
       "naverPostUrl": null,
       "evalScore": 66,
@@ -4213,7 +4213,7 @@
       "pendingApproval": null,
       "createdAt": "2026-05-26T04:13:14.551Z",
       "publishedAt": null,
-      "updatedAt": "2026-05-26T04:15:22.641Z"
+      "updatedAt": "2026-05-26T08:13:03.463Z"
     },
     {
       "postId": "post-ddb41049",
@@ -4291,5 +4291,5 @@
       "updatedAt": "2026-05-26T08:11:06.151Z"
     }
   ],
-  "lastUpdated": "2026-05-26T08:11:06.151Z"
+  "lastUpdated": "2026-05-26T08:13:03.463Z"
 }
