@@ -4503,7 +4503,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-87cf29f8",
       "at": "2026-05-26T08:19:38.328Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "매장 고르기 전에 많이 보는 선택 기준",
+      "proposedTitle": "매장 고르기 전에 많이 보는 선택 기준",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-44ed2d79",
+      "at": "2026-05-26T09:50:48.400Z"
     }
   ],
-  "lastUpdated": "2026-05-26T08:19:38.328Z"
+  "lastUpdated": "2026-05-26T09:50:48.400Z"
 }
