@@ -2586,11 +2586,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "c",
       "createdAt": "2026-05-26T01:48:27.245Z",
-      "updatedAt": "2026-05-26T01:48:27.245Z"
+      "updatedAt": "2026-05-26T01:49:09.297Z"
     }
   ],
-  "lastUpdated": "2026-05-26T01:48:27.245Z"
+  "lastUpdated": "2026-05-26T01:49:09.297Z"
 }
