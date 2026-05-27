@@ -2,6 +2,18 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-6945bfc7",
+      "title": "전자담배 탄맛 발생하는 이유(원인)그리고 대처법 - 건강을 위한 해결방법",
+      "category": "direct-run",
+      "tags": [
+        "전자담배 탄맛 발생 원인",
+        "이유 대처법 해결방법 건강"
+      ],
+      "wordCount": 1621,
+      "publishedAt": "2026-05-27T08:04:21.596Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-6945bfc7.md"
+    },
+    {
       "sampleId": "published-post-171ae221",
       "title": "액상형 전자담배 온라인 판매금지? 전담 인터넷 구매 왜 막혔을까",
       "category": "direct-run",
@@ -260,5 +272,5 @@
       "filePath": "user-modeling/users/c/corpus/samples/published-post-5beaf101.md"
     }
   ],
-  "lastUpdated": "2026-05-26T04:29:04.336Z"
+  "lastUpdated": "2026-05-27T08:04:31.411Z"
 }
