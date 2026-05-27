@@ -4547,7 +4547,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-7fdf366e",
       "at": "2026-05-27T09:36:42.277Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-series-mpfe3l8p-ug7r-2",
+      "userId": "d",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-366aabee / Similar existing title found: 매장 고르기 전에 많이 보는 선택 기준 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-0ff311de",
+      "at": "2026-05-27T10:53:14.544Z"
     }
   ],
-  "lastUpdated": "2026-05-27T09:36:42.277Z"
+  "lastUpdated": "2026-05-27T10:53:14.544Z"
 }
