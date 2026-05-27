@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-7fdf366e",
+  "type": "approval_request",
+  "savedAt": "2026-05-27T09:37:00.647Z",
+  "data": {
+    "pipelineId": "pipe-7fdf366e",
+    "previousTitle": "",
+    "proposedTitle": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 시리즈 상세 설계 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-05-27T09:36:49.877Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-27T09:36:49.877Z",
+      "modifications": null
+    }
+  }
+}
