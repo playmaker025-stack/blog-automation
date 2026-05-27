@@ -2620,11 +2620,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-05-27T06:37:37.010Z",
-      "updatedAt": "2026-05-27T06:37:59.909Z"
+      "updatedAt": "2026-05-27T06:40:14.127Z"
     }
   ],
-  "lastUpdated": "2026-05-27T06:37:59.909Z"
+  "lastUpdated": "2026-05-27T06:40:14.127Z"
 }
