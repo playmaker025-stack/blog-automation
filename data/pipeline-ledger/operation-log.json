@@ -4514,7 +4514,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-44ed2d79",
       "at": "2026-05-26T09:50:48.400Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 탄맛 발생 원인 이유 대처법 해결방법 건강",
+      "proposedTitle": "전자담배 탄맛 발생 원인 이유 대처법 해결방법 건강",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-9473556b",
+      "at": "2026-05-27T06:37:55.996Z"
     }
   ],
-  "lastUpdated": "2026-05-26T09:50:48.400Z"
+  "lastUpdated": "2026-05-27T06:37:55.996Z"
 }
