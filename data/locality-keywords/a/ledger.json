@@ -2,6 +2,33 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "부천",
+      "phrase": "부천이나 상동, 중동 쪽에서 처음 전자담배",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-6c3b7557",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-27T09:39:22.666Z"
+    },
+    {
+      "keyword": "상동",
+      "phrase": "부천이나 상동, 중동 쪽에서 처음 전자담배",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-6c3b7557",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-27T09:39:22.666Z"
+    },
+    {
+      "keyword": "중동",
+      "phrase": "부천이나 상동, 중동 쪽에서 처음 전자담배",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-6c3b7557",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-27T09:39:22.666Z"
+    },
+    {
       "keyword": "부평역",
       "phrase": "부평역이나 부평구 일대 매장에 방문하시는 초보자",
       "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
@@ -911,5 +938,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-05-26T08:11:02.446Z"
+  "updatedAt": "2026-05-27T09:39:22.666Z"
 }
