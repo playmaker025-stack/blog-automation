@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-6945bfc7",
+      "topicId": "topic-fb9d3a32",
+      "userId": "c",
+      "title": "전자담배 탄맛 발생하는 이유(원인)그리고 대처법 - 건강을 위한 해결방법",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224298102259",
+      "evalScore": 59,
+      "wordCount": 1621,
+      "publishedAt": "2026-05-27T08:04:21.596Z",
+      "topicSource": "direct",
+      "contentKind": null,
+      "learnedAt": "2026-05-27T08:04:28.224Z"
+    },
+    {
       "postId": "post-171ae221",
       "topicId": "topic-34752419",
       "userId": "c",
@@ -288,5 +301,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-05-26T04:29:01.521Z"
+  "updatedAt": "2026-05-27T08:04:28.224Z"
 }
