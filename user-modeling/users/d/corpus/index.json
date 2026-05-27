@@ -2,6 +2,15 @@
   "userId": "d",
   "samples": [
     {
+      "sampleId": "published-post-manual-mpo0wd28",
+      "title": "인천전자담배 모드기기 전문 매장 선택 기준 정리",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 6321,
+      "publishedAt": "2026-05-27T12:11:07.396Z",
+      "filePath": "user-modeling/users/d/corpus/samples/published-post-manual-mpo0wd28.md"
+    },
+    {
       "sampleId": "published-post-202bbcc0",
       "title": "인천전자담배 모드기기 전문 매장 방문 전 핵심 개념 정리",
       "category": "d",
@@ -187,5 +196,5 @@
       "filePath": "user-modeling/users/d/corpus/samples/published-post-21e6d9ae.md"
     }
   ],
-  "lastUpdated": "2026-05-24T05:56:43.631Z"
+  "lastUpdated": "2026-05-27T12:11:21.272Z"
 }
