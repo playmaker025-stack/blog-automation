@@ -4370,16 +4370,16 @@
       "topicId": "topic-1ee903db",
       "userId": "a",
       "title": "고유가 피해지원금 사용처 구월동 만수동",
-      "status": "draft",
+      "status": "ready",
       "naverPostUrl": null,
       "evalScore": null,
-      "wordCount": 0,
+      "wordCount": 1650,
       "compositionSessionId": "pipe-99fb716c",
       "pendingApproval": null,
       "createdAt": "2026-05-28T02:52:26.438Z",
       "publishedAt": null,
-      "updatedAt": "2026-05-28T02:52:26.438Z"
+      "updatedAt": "2026-05-28T02:53:04.629Z"
     }
   ],
-  "lastUpdated": "2026-05-28T02:52:26.438Z"
+  "lastUpdated": "2026-05-28T02:53:04.629Z"
 }
