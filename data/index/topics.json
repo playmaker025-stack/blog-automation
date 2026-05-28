@@ -2429,7 +2429,7 @@
       "status": "draft",
       "assignedUserId": "b",
       "createdAt": "2026-05-23T10:19:40.514Z",
-      "updatedAt": "2026-05-28T06:14:00.538Z"
+      "updatedAt": "2026-05-28T06:15:44.889Z"
     },
     {
       "topicId": "topic-e5ce1320",
@@ -2677,5 +2677,5 @@
       "updatedAt": "2026-05-28T04:02:00.417Z"
     }
   ],
-  "lastUpdated": "2026-05-28T06:14:00.538Z"
+  "lastUpdated": "2026-05-28T06:15:44.889Z"
 }
