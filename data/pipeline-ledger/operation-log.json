@@ -4668,7 +4668,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-ea4c6634",
       "at": "2026-05-28T06:30:45.243Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-2b77ebd1, ready:post-ddb41049, ready:post-38860e16, ready:post-e40d4c19, ready:post-8ab36a20, ready:post-f8d1e38e, ready:post-6c3b7557, ready:post-a9832006, ready:post-820ee5ca / Similar existing title found: 전자담배 초보자가 시작 전에 자주 놓치는 체크포인트 (ready, 1); 전자담배 초보자가 시작 전에 자주 놓치는 체크포인트 (ready, 1); 전자담배 초보자가 시작 전에 자주 놓치는 체크포인트 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-937e36a1",
+      "at": "2026-05-28T08:37:20.500Z"
     }
   ],
-  "lastUpdated": "2026-05-28T06:30:45.243Z"
+  "lastUpdated": "2026-05-28T08:37:20.500Z"
 }
