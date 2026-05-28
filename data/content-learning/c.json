@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-manual-mpp56782",
+      "topicId": "",
+      "userId": "c",
+      "title": "부평전자담배 버블몬 그래피티2 신규맛 고농도 팟 출시! 솔직 후기",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224299098923",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-05-28T06:58:31.945Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-05-28T06:58:33.736Z"
+    },
+    {
       "postId": "post-6945bfc7",
       "topicId": "topic-fb9d3a32",
       "userId": "c",
@@ -301,5 +314,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-05-27T08:04:28.224Z"
+  "updatedAt": "2026-05-28T06:58:33.736Z"
 }
