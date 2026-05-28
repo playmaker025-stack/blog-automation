@@ -4569,7 +4569,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-99fb716c",
       "at": "2026-05-28T02:52:08.071Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-356d0cbc",
+      "userId": "a",
+      "message": "Preflight check blocked writing: Similar existing title found: 고유가 피해지원금 사용처 구월동 만수동 (ready, 0.8)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-405f693c",
+      "at": "2026-05-28T02:55:14.607Z"
     }
   ],
-  "lastUpdated": "2026-05-28T02:52:08.071Z"
+  "lastUpdated": "2026-05-28T02:55:14.607Z"
 }
