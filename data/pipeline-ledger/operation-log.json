@@ -4580,7 +4580,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-405f693c",
       "at": "2026-05-28T02:55:14.607Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "고유가 피해지원금 사용처 구월동 만수동 전자담배",
+      "proposedTitle": "고유가 피해지원금 사용처 구월동 만수동 전자담배",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-17d2c424",
+      "at": "2026-05-28T02:55:33.357Z"
     }
   ],
-  "lastUpdated": "2026-05-28T02:55:14.607Z"
+  "lastUpdated": "2026-05-28T02:55:33.357Z"
 }
