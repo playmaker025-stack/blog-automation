@@ -2641,7 +2641,24 @@
       "assignedUserId": "a",
       "createdAt": "2026-05-28T02:51:45.093Z",
       "updatedAt": "2026-05-28T02:54:54.816Z"
+    },
+    {
+      "topicId": "topic-356d0cbc",
+      "title": "고유가 피해지원금 사용처 구월동 만수동 전자담배",
+      "description": "메인키워드: 고유가 피해지원금 사용처 / 서브 키워드: 구월동 만수동 전자담배",
+      "category": "direct-run",
+      "tags": [
+        "고유가 피해지원금 사용처",
+        "구월동 만수동 전자담배"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-05-28T02:54:55.217Z",
+      "updatedAt": "2026-05-28T02:54:55.217Z"
     }
   ],
-  "lastUpdated": "2026-05-28T02:54:54.816Z"
+  "lastUpdated": "2026-05-28T02:54:55.217Z"
 }
