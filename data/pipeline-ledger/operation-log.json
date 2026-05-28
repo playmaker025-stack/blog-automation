@@ -4624,7 +4624,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-11b5c282",
       "at": "2026-05-28T05:36:56.144Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "만수동 외국인도 가능한 전자담배 액상 구매 및 사용법 [leaf]",
+      "proposedTitle": "만수동 전자담배 액상, 외국인도 살 수 있을까? 구매 조건과 사용 주의사항 정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.21212121212121215,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-27b1c6a0",
+      "at": "2026-05-28T06:12:11.298Z"
     }
   ],
-  "lastUpdated": "2026-05-28T05:36:56.144Z"
+  "lastUpdated": "2026-05-28T06:12:11.298Z"
 }
