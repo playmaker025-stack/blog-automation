@@ -2,6 +2,24 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "주안",
+      "phrase": "만수동이나 인근 주안, 송도",
+      "title": "고유가 피해지원금 사용처 구월동 만수동 전자담배",
+      "postId": "post-20bf9db3",
+      "topicId": "topic-356d0cbc",
+      "userId": "a",
+      "usedAt": "2026-05-28T02:58:18.478Z"
+    },
+    {
+      "keyword": "송도",
+      "phrase": "만수동이나 인근 주안, 송도",
+      "title": "고유가 피해지원금 사용처 구월동 만수동 전자담배",
+      "postId": "post-20bf9db3",
+      "topicId": "topic-356d0cbc",
+      "userId": "a",
+      "usedAt": "2026-05-28T02:58:18.478Z"
+    },
+    {
       "keyword": "구월동",
       "phrase": "특히 구월동 만수동처럼 생활권이 겹치는",
       "title": "고유가 피해지원금 사용처 구월동 만수동",
@@ -947,5 +965,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-05-28T02:54:50.450Z"
+  "updatedAt": "2026-05-28T02:58:18.478Z"
 }
