@@ -4558,7 +4558,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-0ff311de",
       "at": "2026-05-27T10:53:14.544Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "고유가 피해지원금 사용처 구월동 만수동",
+      "proposedTitle": "고유가 피해지원금 사용처 구월동 만수동",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-99fb716c",
+      "at": "2026-05-28T02:52:08.071Z"
     }
   ],
-  "lastUpdated": "2026-05-27T10:53:14.544Z"
+  "lastUpdated": "2026-05-28T02:52:08.071Z"
 }
