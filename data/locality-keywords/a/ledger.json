@@ -2,6 +2,24 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "입문기기",
+      "phrase": "특히 입문기기를 고를 때는 액상 호환 범위,",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-8eb07eb4",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-28T09:00:42.064Z"
+    },
+    {
+      "keyword": "누수",
+      "phrase": "코일 교체 주기, 누수 발생 빈도 등 실제",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-8eb07eb4",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-28T09:00:42.064Z"
+    },
+    {
       "keyword": "팟",
       "phrase": "MTL, DTL, 팟, 모드기기,",
       "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
@@ -1037,5 +1055,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-05-28T06:33:44.829Z"
+  "updatedAt": "2026-05-28T09:00:42.064Z"
 }
