@@ -4379,7 +4379,22 @@
       "createdAt": "2026-05-28T02:52:26.438Z",
       "publishedAt": null,
       "updatedAt": "2026-05-28T02:54:53.102Z"
+    },
+    {
+      "postId": "post-20bf9db3",
+      "topicId": "topic-356d0cbc",
+      "userId": "a",
+      "title": "고유가 피해지원금 사용처 구월동 만수동 전자담배",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-17d2c424",
+      "pendingApproval": null,
+      "createdAt": "2026-05-28T02:55:43.957Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-28T02:55:43.957Z"
     }
   ],
-  "lastUpdated": "2026-05-28T02:54:53.102Z"
+  "lastUpdated": "2026-05-28T02:55:43.957Z"
 }
