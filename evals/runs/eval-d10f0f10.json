@@ -1,0 +1,610 @@
+{
+  "runId": "eval-d10f0f10",
+  "scores": {
+    "originality": 65,
+    "style_match": 70,
+    "structure": 68,
+    "engagement": 66,
+    "forbidden_check": 95
+  },
+  "aggregateScore": 46,
+  "reasoning": {
+    "originality": "초보자가 시작 전에 자주 놓치는 체크포인트를 중심으로 실제 상담에서 자주 나오는 질문과 실수를 정리한 점은 신선하며, 단순 제품 추천을 넘어 사용자의 고민을 먼저 다룬 점이 긍정적입니다. 다만, 내용 전개가 다소 기존 전자담배 입문 가이드와 유사한 부분이 있어 완전한 독창성은 부족합니다.",
+    "style_match": "친근하고 이해하기 쉬운 문체로 작성되어 있으며, 초보자 대상 친근한 톤을 잘 살렸습니다. 다만, 일부 문장 연결이 매끄럽지 않고 반복되는 표현이 있어 스타일 완성도는 중간 수준입니다.",
+    "structure": "도입부에서 고민 상황을 먼저 제시하고, 체크포인트별로 구분하여 설명하는 등 요구된 토폴로지에 부합합니다. 다만, 각 섹션 간 연결이 다소 단절된 느낌이 있고, 마무리 부분에서 다음 글로 자연스럽게 이어지는 흐름이 조금 더 강화될 필요가 있습니다.",
+    "engagement": "초보자가 흔히 하는 실수와 체크포인트를 구체적으로 제시하여 독자의 공감과 관심을 유도합니다. 다만, 구체적인 사례나 생생한 경험담이 부족해 몰입감이 다소 떨어지고, 키워드가 자연스럽게 녹아들었으나 반복 노출이 약간 부담스러울 수 있습니다.",
+    "forbidden_check": "내부 SEO 용어, 평가자, 전략 등 금지어는 포함되어 있지 않아 기준에 부합합니다. 키워드도 자연스럽게 본문에 녹아들어 있어 과도한 키워드 빌드업이나 반복은 없습니다.",
+    "seo": "SEO 점수 49점. 제목 길이가 모바일 검색 노출 구간에 비교적 안정적입니다.",
+    "naver_logic": "네이버 로직 점수 29점. 문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다."
+  },
+  "recommendations": [
+    "첫 두 문단 안에 '초보자가 시작 전에 자주 놓치는 체크포인트'를 자연스럽게 넣는 편이 좋습니다.",
+    "첫 문장에 '초보자가 시작 전에 자주 놓치는 체크포인트'를 한 번 직접 배치해 검색 의도를 더 또렷하게 보여주세요.",
+    "핵심 소제목 1개 이상에 '초보자가 시작 전에 자주 놓치는 체크포인트'를 포함해 주제 축을 더 선명하게 잡아주세요.",
+    "마무리 문단에서 '초보자가 시작 전에 자주 놓치는 체크포인트'를 한 번 더 정리해 글의 중심 키워드를 닫아주세요.",
+    "메인 키워드 '초보자가 시작 전에 자주 놓치는 체크포인트'는 본문 기준 2~4회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+    "브릿지 키워드 '입호흡 전자담배 추천'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+  ],
+  "pass": false,
+  "seoEvaluation": {
+    "score": 49,
+    "evidence": [
+      "제목 길이가 모바일 검색 노출 구간에 비교적 안정적입니다.",
+      "메인 키워드가 제목 앞부분에 배치되어 있습니다.",
+      "메인 키워드의 핵심 축 단어 반복이 과도하게 치우치지 않았습니다.",
+      "본문 분량이 SEO용 설명 글로는 최소 기준을 넘깁니다."
+    ],
+    "improvements": [
+      "첫 두 문단 안에 '초보자가 시작 전에 자주 놓치는 체크포인트'를 자연스럽게 넣는 편이 좋습니다.",
+      "첫 문장에 '초보자가 시작 전에 자주 놓치는 체크포인트'를 한 번 직접 배치해 검색 의도를 더 또렷하게 보여주세요.",
+      "핵심 소제목 1개 이상에 '초보자가 시작 전에 자주 놓치는 체크포인트'를 포함해 주제 축을 더 선명하게 잡아주세요.",
+      "마무리 문단에서 '초보자가 시작 전에 자주 놓치는 체크포인트'를 한 번 더 정리해 글의 중심 키워드를 닫아주세요.",
+      "메인 키워드 '초보자가 시작 전에 자주 놓치는 체크포인트'는 본문 기준 2~4회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+      "브릿지 키워드 '입호흡 전자담배 추천'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+    ],
+    "keywordReport": {
+      "items": [
+        {
+          "keyword": "초보자가 시작 전에 자주 놓치는 체크포인트",
+          "count": 0,
+          "status": "under",
+          "targetMin": 2,
+          "targetMax": 4,
+          "role": "main",
+          "recommendation": "메인 키워드 '초보자가 시작 전에 자주 놓치는 체크포인트'는 본문 기준 2~4회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "입호흡 전자담배 추천",
+          "count": 4,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 2,
+          "role": "bridge",
+          "recommendation": "브릿지 키워드 '입호흡 전자담배 추천'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "mainKeyword": {
+        "keyword": "초보자가 시작 전에 자주 놓치는 체크포인트",
+        "count": 0,
+        "status": "under",
+        "targetMin": 2,
+        "targetMax": 4,
+        "role": "main",
+        "recommendation": "메인 키워드 '초보자가 시작 전에 자주 놓치는 체크포인트'는 본문 기준 2~4회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+      },
+      "subKeywords": [],
+      "bridgeKeywords": [
+        {
+          "keyword": "입호흡 전자담배 추천",
+          "count": 4,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 2,
+          "role": "bridge",
+          "recommendation": "브릿지 키워드 '입호흡 전자담배 추천'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        }
+      ],
+      "internalLinkAnchors": [],
+      "forbiddenItems": [
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "contractApplied": true,
+      "overallRisk": "medium",
+      "overallRiskSummary": "일부 키워드 조정이 필요하지만, 문맥을 유지하며 보정할 수 있습니다.",
+      "paragraphWarnings": [],
+      "seoKeywordItems": [],
+      "bodyRepetitionItems": [
+        {
+          "token": "입니다",
+          "count": 5,
+          "category": "sentence_ending",
+          "severity": "notice",
+          "message": "'입니다' 문장 마무리가 반복됩니다.",
+          "suggestion": "문장 종결 표현을 섞어서 리듬을 바꿔 주세요.",
+          "isSeoRisk": false
+        },
+        {
+          "token": "확인하",
+          "count": 3,
+          "category": "verb_stem",
+          "severity": "notice",
+          "message": "'확인하' 반복이 눈에 띄기 시작합니다.",
+          "suggestion": "같은 동사 어간을 반복하지 말고 문장 구조를 바꿔 주세요.",
+          "isSeoRisk": false
+        }
+      ],
+      "legacyTokenItems": [
+        {
+          "token": "자주",
+          "count": 10,
+          "sourceKeywords": [
+            "초보자가 시작 전에 자주 놓치는 체크포인트"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "입호흡",
+          "count": 9,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "전자담배",
+          "count": 7,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "놓치는",
+          "count": 7,
+          "sourceKeywords": [
+            "초보자가 시작 전에 자주 놓치는 체크포인트"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "자주 놓치는",
+          "count": 6,
+          "sourceKeywords": [
+            "초보자가 시작 전에 자주 놓치는 체크포인트"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "초보자가",
+          "count": 6,
+          "sourceKeywords": [
+            "초보자가 시작 전에 자주 놓치는 체크포인트"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "입호흡 전자담배 추천",
+          "count": 4,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "입호흡 전자담배",
+          "count": 4,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "참고해보시면",
+          "count": 1,
+          "sourceKeywords": [
+            "참고해보시면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "방문하시면",
+          "count": 1,
+          "sourceKeywords": [
+            "방문하시면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "않으려면",
+          "count": 1,
+          "sourceKeywords": [
+            "않으려면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "챙기면",
+          "count": 1,
+          "sourceKeywords": [
+            "챙기면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "tokenItems": [
+        {
+          "token": "자주",
+          "count": 10,
+          "sourceKeywords": [
+            "초보자가 시작 전에 자주 놓치는 체크포인트"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "입호흡",
+          "count": 9,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "전자담배",
+          "count": 7,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "놓치는",
+          "count": 7,
+          "sourceKeywords": [
+            "초보자가 시작 전에 자주 놓치는 체크포인트"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "자주 놓치는",
+          "count": 6,
+          "sourceKeywords": [
+            "초보자가 시작 전에 자주 놓치는 체크포인트"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "초보자가",
+          "count": 6,
+          "sourceKeywords": [
+            "초보자가 시작 전에 자주 놓치는 체크포인트"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "입호흡 전자담배 추천",
+          "count": 4,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "입호흡 전자담배",
+          "count": 4,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "참고해보시면",
+          "count": 1,
+          "sourceKeywords": [
+            "참고해보시면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "방문하시면",
+          "count": 1,
+          "sourceKeywords": [
+            "방문하시면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "않으려면",
+          "count": 1,
+          "sourceKeywords": [
+            "않으려면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "챙기면",
+          "count": 1,
+          "sourceKeywords": [
+            "챙기면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "totalMentions": 4,
+      "introCoverage": false,
+      "titleFrontLoaded": true,
+      "bodyLength": 1593,
+      "summary": [
+        "메인 키워드 '초보자가 시작 전에 자주 놓치는 체크포인트' 본문 0회",
+        "제목 앞부분의 메인 키워드 배치가 약합니다.",
+        "전체 반복 위험도 medium"
+      ],
+      "recommendations": [
+        "메인 키워드 '초보자가 시작 전에 자주 놓치는 체크포인트'는 본문 기준 2~4회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+        "브릿지 키워드 '입호흡 전자담배 추천'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+      ]
+    },
+    "keywordMetrics": [
+      {
+        "keyword": "초보자가 시작 전에 자주 놓치는 체크포인트",
+        "role": "main",
+        "label": "메인 키워드",
+        "completenessScore": 49,
+        "exposurePotentialScore": 64,
+        "count": 0,
+        "targetMin": 2,
+        "targetMax": 4,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 앞배치 / 도입부 부족 / 본문 0회",
+        "action": "도입부에서 '초보자가 시작 전에 자주 놓치는 체크포인트' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "입호흡 전자담배 추천",
+        "role": "sub",
+        "label": "브릿지 키워드",
+        "completenessScore": 67,
+        "exposurePotentialScore": 65,
+        "count": 4,
+        "targetMin": 1,
+        "targetMax": 2,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": true,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 4회",
+        "action": "도입부에서 '입호흡 전자담배 추천' 검색 의도를 더 직접적으로 받아 주세요."
+      }
+    ],
+    "combinationCoverageScore": 67,
+    "combinationMetrics": [
+      {
+        "phrase": "초보자가 시작 전에 자주 놓치는 체크포인트",
+        "role": "main",
+        "priority": "core",
+        "exactMatches": 0,
+        "tokenCoverage": 0.83,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 70,
+        "exposurePotentialScore": 67,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 보강 가능 · 직접 표현 강제 없음",
+        "action": "첫 두 문단 안에서 초보자가 시작 전에 자주 관련 내용 확인를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "입호흡 전자담배 추천",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 4,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": true,
+        "coverageScore": 62,
+        "exposurePotentialScore": 55,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 4회 직접 표현",
+        "action": "첫 두 문단 안에서 '입호흡 전자담배 추천' 검색 의도를 더 직접적으로 받아 주세요."
+      }
+    ]
+  },
+  "naverLogicEvaluation": {
+    "primary": "dia",
+    "label": "D.I.A. 중심",
+    "completenessScore": 29,
+    "reason": "이 주제는 사용자의 문제 해결과 선택 기준 설명이 중심이라 D.I.A. 관점이 더 중요합니다.",
+    "evidence": [
+      "문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다.",
+      "비교와 선택 기준 요소가 살아 있어 실전 검색 의도에 잘 맞습니다.",
+      "내부링크 설계 대상이 있어 주제권 확장 관점이 살아 있습니다.",
+      "허브 참조 링크가 제목-URL 쌍 그대로 반영되었습니다.",
+      "지역성과 실사용 맥락이 보여 C-Rank 관점의 주제권 연결이 자연스럽습니다.",
+      "실사용 맥락과 검색자 질문이 보여 D.I.A. 관점의 설득력이 있습니다."
+    ],
+    "improvements": [
+      "리프 참조 링크는 '전자담배 입호흡 폐호흡 차이 뭐가 다를지 완전 구분해드립니다 만수동만수르' 제목과 https://blog.naver.com/iibodii00/224085329155 URL을 정확히 같은 쌍으로 써야 합니다."
+    ]
+  },
+  "postId": "post-b9f1c3d2",
+  "savedAt": "2026-05-28T09:48:27.670Z"
+}
