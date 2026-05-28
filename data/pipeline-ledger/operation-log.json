@@ -4591,7 +4591,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-17d2c424",
       "at": "2026-05-28T02:55:33.357Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "고유가 피해지원금 사용처 고유가지원금,사용처,매장,전자담배,입호흡 전자담배",
+      "proposedTitle": "고유가 피해지원금 사용처, 전자담배 매장에서 쓸 수 있을까요?",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.3783783783783784,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-249b0c48",
+      "at": "2026-05-28T03:59:07.854Z"
     }
   ],
-  "lastUpdated": "2026-05-28T02:55:33.357Z"
+  "lastUpdated": "2026-05-28T03:59:07.854Z"
 }
