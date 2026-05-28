@@ -2,6 +2,42 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "전자담배",
+      "phrase": "전자담배를 처음 알아보려는 분들이 매장 방문",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-a9832006",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-28T05:49:01.492Z"
+    },
+    {
+      "keyword": "기기",
+      "phrase": "이런 고민은 단순히 기기 종류나 가격 때문만이",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-a9832006",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-28T05:49:01.492Z"
+    },
+    {
+      "keyword": "추천",
+      "phrase": "추천 제품을 바로",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-a9832006",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-28T05:49:01.492Z"
+    },
+    {
+      "keyword": "액상",
+      "phrase": "특히 입문 단계에서는 기기, 액상, 사용 방법이",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-a9832006",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-28T05:49:01.492Z"
+    },
+    {
       "keyword": "주안",
       "phrase": "만수동이나 인근 주안, 송도",
       "title": "고유가 피해지원금 사용처 구월동 만수동 전자담배",
@@ -965,5 +1001,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-05-28T02:58:18.478Z"
+  "updatedAt": "2026-05-28T05:49:01.492Z"
 }
