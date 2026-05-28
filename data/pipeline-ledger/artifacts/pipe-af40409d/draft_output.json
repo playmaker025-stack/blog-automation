@@ -1,0 +1,103 @@
+{
+  "pipelineId": "pipe-af40409d",
+  "type": "draft_output",
+  "savedAt": "2026-05-28T08:58:49.080Z",
+  "data": {
+    "postId": "post-8eb07eb4",
+    "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+    "wordCount": 1516,
+    "generatedAt": "2026-05-28T08:58:47.933Z",
+    "contentPath": "data/posting-list/posts/post-8eb07eb4/content.md",
+    "corpusSummaryUsed": true,
+    "finalDraftCheck": {
+      "ok": false,
+      "blockingReasons": [
+        "bridge keyword \"입호흡 전자담배 추천\" 6회 사용, 상한 2회 초과"
+      ],
+      "warnings": [
+        "prelude가 handoffKeyword \"입호흡 전자담배 추천\"를 6회 사용했습니다. 본편 키워드 소비를 줄여야 합니다.",
+        "prelude 본문에서 main_recommendation 성격의 표현이 감지됐습니다: TOP\\s*5, 순위, 추천\\s*(제품|기기|리스트|모델)",
+        "medium overlap: 결론 패턴 반복 위험 handoff_next_article"
+      ],
+      "matchedForbiddenPhrases": [],
+      "keywordStuffingFindings": [
+        "bridge keyword \"입호흡 전자담배 추천\" 6회 사용, 상한 2회 초과",
+        "prelude가 handoffKeyword \"입호흡 전자담배 추천\"를 6회 사용했습니다. 본편 키워드 소비를 줄여야 합니다.",
+        "prelude 본문에서 main_recommendation 성격의 표현이 감지됐습니다: TOP\\s*5, 순위, 추천\\s*(제품|기기|리스트|모델)"
+      ],
+      "deferFindings": [],
+      "contractCoverageFindings": [],
+      "overlapFindings": [
+        "medium overlap: 결론 패턴 반복 위험 handoff_next_article"
+      ]
+    },
+    "finalDraftRewrite": {
+      "attempted": true,
+      "applied": true,
+      "instructions": [
+        "차단 사유 수정: 금지 표현 감지: 체크포인트",
+        "차단 사유 수정: 질문문/따옴표 안 exact keyword 사용: 입문 / \"입문자용\"",
+        "차단 사유 수정: main keyword \"초보자가 시작 전에 자주 놓치는 체크포인트\" 6회 사용, 상한 4회 초과",
+        "차단 사유 수정: bridge keyword \"입호흡 전자담배 추천\" 6회 사용, 상한 2회 초과",
+        "금지 표현 제거: 체크포인트",
+        "키워드/질문문 자연화: 질문문/따옴표 안 exact keyword 사용: 입문 / \"입문자용\"",
+        "키워드/질문문 자연화: main keyword \"초보자가 시작 전에 자주 놓치는 체크포인트\" 6회 사용, 상한 4회 초과",
+        "키워드/질문문 자연화: bridge keyword \"입호흡 전자담배 추천\" 6회 사용, 상한 2회 초과",
+        "키워드/질문문 자연화: prelude가 handoffKeyword \"입호흡 전자담배 추천\"를 6회 사용했습니다. 본편 키워드 소비를 줄여야 합니다.",
+        "키워드/질문문 자연화: prelude 본문에서 main_recommendation 성격의 표현이 감지됐습니다: TOP\\s*5, 순위, 추천\\s*(제품|기기|리스트|모델)"
+      ],
+      "beforeCheck": {
+        "ok": false,
+        "blockingReasons": [
+          "금지 표현 감지: 체크포인트",
+          "질문문/따옴표 안 exact keyword 사용: 입문 / \"입문자용\"",
+          "main keyword \"초보자가 시작 전에 자주 놓치는 체크포인트\" 6회 사용, 상한 4회 초과",
+          "bridge keyword \"입호흡 전자담배 추천\" 6회 사용, 상한 2회 초과"
+        ],
+        "warnings": [
+          "prelude가 handoffKeyword \"입호흡 전자담배 추천\"를 6회 사용했습니다. 본편 키워드 소비를 줄여야 합니다.",
+          "prelude 본문에서 main_recommendation 성격의 표현이 감지됐습니다: TOP\\s*5, 순위, 추천\\s*(제품|기기|리스트|모델)",
+          "medium overlap: 결론 패턴 반복 위험 handoff_next_article"
+        ],
+        "matchedForbiddenPhrases": [
+          "체크포인트"
+        ],
+        "keywordStuffingFindings": [
+          "질문문/따옴표 안 exact keyword 사용: 입문 / \"입문자용\"",
+          "main keyword \"초보자가 시작 전에 자주 놓치는 체크포인트\" 6회 사용, 상한 4회 초과",
+          "bridge keyword \"입호흡 전자담배 추천\" 6회 사용, 상한 2회 초과",
+          "prelude가 handoffKeyword \"입호흡 전자담배 추천\"를 6회 사용했습니다. 본편 키워드 소비를 줄여야 합니다.",
+          "prelude 본문에서 main_recommendation 성격의 표현이 감지됐습니다: TOP\\s*5, 순위, 추천\\s*(제품|기기|리스트|모델)"
+        ],
+        "deferFindings": [],
+        "contractCoverageFindings": [],
+        "overlapFindings": [
+          "medium overlap: 결론 패턴 반복 위험 handoff_next_article"
+        ]
+      },
+      "afterCheck": {
+        "ok": false,
+        "blockingReasons": [
+          "bridge keyword \"입호흡 전자담배 추천\" 6회 사용, 상한 2회 초과"
+        ],
+        "warnings": [
+          "prelude가 handoffKeyword \"입호흡 전자담배 추천\"를 6회 사용했습니다. 본편 키워드 소비를 줄여야 합니다.",
+          "prelude 본문에서 main_recommendation 성격의 표현이 감지됐습니다: TOP\\s*5, 순위, 추천\\s*(제품|기기|리스트|모델)",
+          "medium overlap: 결론 패턴 반복 위험 handoff_next_article"
+        ],
+        "matchedForbiddenPhrases": [],
+        "keywordStuffingFindings": [
+          "bridge keyword \"입호흡 전자담배 추천\" 6회 사용, 상한 2회 초과",
+          "prelude가 handoffKeyword \"입호흡 전자담배 추천\"를 6회 사용했습니다. 본편 키워드 소비를 줄여야 합니다.",
+          "prelude 본문에서 main_recommendation 성격의 표현이 감지됐습니다: TOP\\s*5, 순위, 추천\\s*(제품|기기|리스트|모델)"
+        ],
+        "deferFindings": [],
+        "contractCoverageFindings": [],
+        "overlapFindings": [
+          "medium overlap: 결론 패턴 반복 위험 handoff_next_article"
+        ]
+      },
+      "content": "안녕하세요, 만수동만수르입니다.\n전자담배를 처음 시작하려는 분들이 매장 방문 전\n가장 많이 묻는 질문이 있습니다. \"방문 전에\n어떤 걸 확인해야 하나요?\" \"결제 전에 꼭\n물어봐야 할 게 있나요?\" 이런 고민이 생기는\n이유는 선택지가 너무 많고, 인터넷 정보도\n제각각이라 초보자가 시작 전에 자주 놓치는\n가 있기 때문입니다. 실제로 현장에서\n보면, 막상 매장에 와서도 뭘 먼저 물어봐야\n할지 헷갈려 하시는 분들이 많아요.\n\n입호흡 전자담배 추천을 검색해도 기기 종류,\n액상, 호흡 방식 등 정보가 넘치지만, 정작\n본인에게 맞는 기준을 정리하지 않고 방문하면\n원하는 제품을 제대로 고르지 못하는 경우가\n많습니다. 특히 입호흡과 폐호흡의 차이나 액상\n호환 여부를 미리 파악하지 않아 헛걸음하는\n사례도 자주 보입니다. 그래서 오늘은 초보자가\n시작 전에 자주 놓치는 를 실제\n상담에서 자주 나오는 질문 중심으로 정리해보려\n합니다.\n\n---\n\n### 초보자가 시작 전에 자주 놓치는 , 현장에서 가장 많이 묻는 부분\n\n첫 번째로, 본인이 원하는 흡입\n방식(입호흡/폐호흡)을 정확히 파악하는 것이\n중요합니다. 입호흡 전자담배 추천을 찾아보면\n'이 기준자용', '누수 적은 기기', '가성비'\n등 다양한 기준이 나오지만, 흡입 방식이\n명확하지 않으면 기기 선택부터 시행착오가\n생깁니다.\n두 번째는 액상 호환성입니다. 내가 쓰고 싶은\n액상이 해당 기기에서 사용 가능한지, 니코틴\n함량이나 타입(솔트/프리베이스)이 맞는지 미리\n확인해야 합니다. 이 부분을 놓치면 원하는\n맛이나 타격감을 얻지 못해 만족도가 떨어질 수\n있습니다.\n\n---\n\n### 입문할 때 자주 하는 실수, 미리 알면 피할 수 있습니다\n\n입문 시 가장 흔한 실수는 인터넷 평만 보고\n기기를 고르거나, 매장에 방문해서 바로 결제부터\n하는 경우입니다. 입문기기마다 누수, 발열,\n액상 소모량 등 실제 사용감이 다르기 때문에,\n최소한 본인이 원하는 사용 패턴(외출용/실내용,\n충전 주기 등)을 한 번쯤 정리해보는 것이\n좋습니다.\n또 한 가지, 액상을 고를 때 단순히 인기\n순위만 참고하면 본인에게 맞지 않는 맛이나\n니코틴 강도로 첫 인상부터 실망할 수 있습니다.\n매장에 방문해 시연이 가능한지, 시연이 어렵다면\n어떤 기준으로 액상을 골라야 하는지 미리\n문의해보는 것도 좋은 방법입니다.\n\n---\n\n### 초보자가 시작 전에 자주 놓치는 , 이렇게 정리해보세요\n\n매장 방문 전 꼭 확인해야 할 기준은 다음과\n같습니다.\n1. 본인이 원하는 흡입 방식(입호흡/폐호흡)\n1.\n2. 기기와 액상 호환성\n3. 실사용 환경(휴대성, 충전 주기, 누수\n3. 발생 여부 등)\n4. 매장에서 시연 또는 상담이 가능한지\n이 네 가지를 미리 정리해두면, 헛걸음이나\n충동구매를 막을 수 있고 원하는 제품을 더\n빠르게 찾을 수 있습니다.\n\n입호흡과 폐호흡의 차이가 아직 헷갈린다면, 실제\n사용 사례와 차이점을 아래 글에서 자세히\n정리해두었으니 참고하셔도 좋겠습니다.\n[전자담배 입호흡 폐호흡 차이 뭐가 다를지 완전 구분해드립니다 만수동만수르](https://blog.naver.com/iibodii00/224085329155)\n\n---\n\n### 다음 단계, 입호흡 전자담배 추천으로 넘어가기 전에\n\n오늘 정리한 초보자가 시작 전에 자주 놓치는\n만 잘 챙기면, 이제 본격적으로 어떤\n제품이 내게 맞을지 고민해볼 차례입니다. 실제로\n입호흡 전자담배 추천 제품은 기기별 특성, 액상\n호환, 유지관리 난이도 등이 다르기 때문에, 이\n기준을 바탕으로 선택지를 좁혀가시면 훨씬\n수월합니다.\n\n더 구체적인 추천 제품과 실제 매장 상담에서\n많이 찾는 입호흡 전자담배 추천이 궁금하다면,\n아래 글에서 2025년 기준 인기 모델과 각\n제품별 특징을 비교해두었으니 참고해보세요.\n[2025년 기준 입호흡 전자담배 추천 TOP5 인천 만수동만수르 픽](https://blog.naver.com/iibodii00/224090385537)\n\n이상으로 초보자가 시작 전에 자주 놓치는\n를 정리해보았습니다. 다음 글에서는\n실제 추천 제품과 선택 가이드를 이어가겠습니다!"
+    }
+  }
+}
