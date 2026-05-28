@@ -2624,7 +2624,24 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-27T06:37:37.010Z",
       "updatedAt": "2026-05-27T08:04:26.359Z"
+    },
+    {
+      "topicId": "topic-1ee903db",
+      "title": "고유가 피해지원금 사용처 구월동 만수동",
+      "description": "메인키워드: 고유가 피해지원금 사용처 / 서브 키워드: 구월동 만수동",
+      "category": "direct-run",
+      "tags": [
+        "고유가 피해지원금 사용처",
+        "구월동 만수동"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-05-28T02:51:45.093Z",
+      "updatedAt": "2026-05-28T02:51:45.093Z"
     }
   ],
-  "lastUpdated": "2026-05-27T09:39:27.972Z"
+  "lastUpdated": "2026-05-28T02:51:45.093Z"
 }
