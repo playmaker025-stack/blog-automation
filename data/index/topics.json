@@ -2654,11 +2654,11 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "a",
       "createdAt": "2026-05-28T02:54:55.217Z",
-      "updatedAt": "2026-05-28T02:55:17.265Z"
+      "updatedAt": "2026-05-28T02:55:42.136Z"
     }
   ],
-  "lastUpdated": "2026-05-28T02:55:17.265Z"
+  "lastUpdated": "2026-05-28T02:55:42.136Z"
 }
