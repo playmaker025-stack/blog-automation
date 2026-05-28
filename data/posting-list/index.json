@@ -4394,7 +4394,22 @@
       "createdAt": "2026-05-28T02:55:43.957Z",
       "publishedAt": null,
       "updatedAt": "2026-05-28T02:58:21.267Z"
+    },
+    {
+      "postId": "post-466af490",
+      "topicId": "topic-c07ed04b",
+      "userId": "a",
+      "title": "고유가 피해지원금 사용처, 전자담배 매장에서 쓸 수 있을까요?",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-249b0c48",
+      "pendingApproval": null,
+      "createdAt": "2026-05-28T03:59:22.550Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-28T03:59:22.550Z"
     }
   ],
-  "lastUpdated": "2026-05-28T02:58:21.267Z"
+  "lastUpdated": "2026-05-28T03:59:22.550Z"
 }
