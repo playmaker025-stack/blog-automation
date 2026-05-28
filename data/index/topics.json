@@ -2658,7 +2658,24 @@
       "assignedUserId": "a",
       "createdAt": "2026-05-28T02:54:55.217Z",
       "updatedAt": "2026-05-28T02:58:28.470Z"
+    },
+    {
+      "topicId": "topic-c07ed04b",
+      "title": "고유가 피해지원금 사용처 고유가지원금,사용처,매장,전자담배,입호흡 전자담배",
+      "description": "메인키워드: 고유가 피해지원금 사용처 / 서브 키워드: 고유가지원금,사용처,매장,전자담배,입호흡 전자담배",
+      "category": "direct-run",
+      "tags": [
+        "고유가 피해지원금 사용처",
+        "고유가지원금,사용처,매장,전자담배,입호흡 전자담배"
+      ],
+      "source": "direct",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-05-28T03:56:56.383Z",
+      "updatedAt": "2026-05-28T03:56:56.383Z"
     }
   ],
-  "lastUpdated": "2026-05-28T02:58:28.470Z"
+  "lastUpdated": "2026-05-28T03:56:56.383Z"
 }
