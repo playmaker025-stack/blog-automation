@@ -2,6 +2,42 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "팟",
+      "phrase": "MTL, DTL, 팟, 모드기기,",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-820ee5ca",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-28T06:33:44.829Z"
+    },
+    {
+      "keyword": "입호흡",
+      "phrase": "가장 먼저, 내 호흡 방식이 입호흡인지",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-820ee5ca",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-28T06:33:44.829Z"
+    },
+    {
+      "keyword": "일회용",
+      "phrase": "일회용(CSV), 모드기기 세 가지가",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-820ee5ca",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-28T06:33:44.829Z"
+    },
+    {
+      "keyword": "폐호흡",
+      "phrase": "폐호흡인지부터 정확히 확인해야 합니다.",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "postId": "post-820ee5ca",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-05-28T06:33:44.829Z"
+    },
+    {
       "keyword": "전자담배",
       "phrase": "전자담배를 처음 알아보려는 분들이 매장 방문",
       "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
@@ -1001,5 +1037,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-05-28T05:49:01.492Z"
+  "updatedAt": "2026-05-28T06:33:44.829Z"
 }
