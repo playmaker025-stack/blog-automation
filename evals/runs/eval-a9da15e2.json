@@ -1,0 +1,1178 @@
+{
+  "runId": "eval-a9da15e2",
+  "scores": {
+    "originality": 65,
+    "style_match": 70,
+    "structure": 68,
+    "engagement": 66,
+    "forbidden_check": 100
+  },
+  "aggregateScore": 51,
+  "reasoning": {
+    "originality": "입호흡 전자담배 추천이라는 주제에 대해 비교적 흔한 내용이나, 제품별 특징과 실제 생활과 연결한 체크리스트를 제시하여 차별성을 어느 정도 확보함.",
+    "style_match": "친근하고 이해하기 쉬운 문체로 작성되어 있으며, 독자와 소통하는 톤이 잘 반영되어 있음.",
+    "structure": "허브형 도입, 비교 포인트, 체크리스트, 관련 글 안내 등 요구된 토폴로지에 맞게 구성되어 있으나, 각 섹션 간 연결이 다소 매끄럽지 않고 일부 문단이 길어 가독성이 떨어질 수 있음.",
+    "engagement": "독자의 궁금증을 반영한 질문과 답변 형식, 실제 매장 상담 경험을 녹여내어 친근감을 주나, 구체적 사례나 생생한 경험담이 부족해 몰입도는 중간 수준임.",
+    "forbidden_check": "내부 SEO 용어, 키워드 빌드업, 평가자, 전략 등 금지어가 전혀 포함되어 있지 않아 매우 우수함.",
+    "seo": "SEO 점수 63점. 메인 키워드가 제목 앞부분에 배치되어 있습니다.",
+    "naver_logic": "네이버 로직 점수 26점. 문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다."
+  },
+  "recommendations": [
+    "제목 길이를 28~45자 안쪽으로 맞추는 편이 좋습니다.",
+    "첫 문장에 '입호흡 전자담배 추천'를 한 번 직접 배치해 검색 의도를 더 또렷하게 보여주세요.",
+    "핵심 소제목 1개 이상에 '입호흡 전자담배 추천'를 포함해 주제 축을 더 선명하게 잡아주세요.",
+    "서브 키워드 '말론'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+    "서브 키워드 '입호흡'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+    "'전자담배' 반복이 11회로 많습니다. 같은 명사를 연달아 반복하지 말고 기준, 상황, 비교 포인트, 기기/액상 예시로 일부 치환해 주세요."
+  ],
+  "pass": false,
+  "seoEvaluation": {
+    "score": 63,
+    "evidence": [
+      "메인 키워드가 제목 앞부분에 배치되어 있습니다.",
+      "도입부에 메인 키워드가 보여 검색 의도 연결이 자연스럽습니다.",
+      "결론부에도 메인 키워드가 다시 등장해 문서 마무리가 일관됩니다.",
+      "'입호흡 전자담배 추천' 본문 6회는 현재 권장 범위입니다.",
+      "'베놈 아스트로mk3' 본문 3회는 현재 권장 범위입니다.",
+      "'포켓코리아 아머미니' 본문 3회는 현재 권장 범위입니다."
+    ],
+    "improvements": [
+      "제목 길이를 28~45자 안쪽으로 맞추는 편이 좋습니다.",
+      "첫 문장에 '입호흡 전자담배 추천'를 한 번 직접 배치해 검색 의도를 더 또렷하게 보여주세요.",
+      "핵심 소제목 1개 이상에 '입호흡 전자담배 추천'를 포함해 주제 축을 더 선명하게 잡아주세요.",
+      "서브 키워드 '말론'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+      "서브 키워드 '입호흡'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+      "'전자담배' 반복이 11회로 많습니다. 같은 명사를 연달아 반복하지 말고 기준, 상황, 비교 포인트, 기기/액상 예시로 일부 치환해 주세요."
+    ],
+    "keywordReport": {
+      "items": [
+        {
+          "keyword": "입호흡 전자담배 추천",
+          "count": 6,
+          "status": "ok",
+          "targetMin": 4,
+          "targetMax": 7,
+          "role": "main",
+          "recommendation": "메인 키워드 '입호흡 전자담배 추천' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "베놈 아스트로mk3",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '베놈 아스트로mk3' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "포켓코리아 아머미니",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '포켓코리아 아머미니' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "발라리안 맥스 프로",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '발라리안 맥스 프로' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "말론",
+          "count": 4,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '말론'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "수파x",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '수파x' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "입호흡",
+          "count": 10,
+          "status": "danger",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '입호흡'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+        },
+        {
+          "keyword": "베스트5",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '베스트5' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "mainKeyword": {
+        "keyword": "입호흡 전자담배 추천",
+        "count": 6,
+        "status": "ok",
+        "targetMin": 4,
+        "targetMax": 7,
+        "role": "main",
+        "recommendation": "메인 키워드 '입호흡 전자담배 추천' 반복은 현재 적정합니다."
+      },
+      "subKeywords": [
+        {
+          "keyword": "베놈 아스트로mk3",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '베놈 아스트로mk3' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "포켓코리아 아머미니",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '포켓코리아 아머미니' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "발라리안 맥스 프로",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '발라리안 맥스 프로' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "말론",
+          "count": 4,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '말론'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "수파x",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '수파x' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "입호흡",
+          "count": 10,
+          "status": "danger",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '입호흡'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+        },
+        {
+          "keyword": "베스트5",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '베스트5' 반복은 현재 적정합니다."
+        }
+      ],
+      "bridgeKeywords": [],
+      "internalLinkAnchors": [],
+      "forbiddenItems": [
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "contractApplied": true,
+      "overallRisk": "high",
+      "overallRiskSummary": "과반복 위험이 높습니다. 반복 경고가 있는 키워드를 먼저 줄여 주세요.",
+      "paragraphWarnings": [
+        {
+          "keyword": "입호흡",
+          "paragraphIndex": 1,
+          "count": 2,
+          "message": "2번 문단에서 '입호흡'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+        },
+        {
+          "keyword": "입호흡 전자담배 추천",
+          "paragraphIndex": 21,
+          "count": 2,
+          "message": "22번 문단에서 '입호흡 전자담배 추천'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+        },
+        {
+          "keyword": "입호흡",
+          "paragraphIndex": 21,
+          "count": 2,
+          "message": "22번 문단에서 '입호흡'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+        },
+        {
+          "keyword": "입호흡",
+          "paragraphIndex": 23,
+          "count": 2,
+          "message": "24번 문단에서 '입호흡'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+        }
+      ],
+      "seoKeywordItems": [
+        {
+          "keyword": "입호흡 전자담배 추천",
+          "role": "main",
+          "exactCount": 6,
+          "includedCount": 0,
+          "effectiveCount": 6,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "베놈 아스트로mk3",
+          "role": "sub",
+          "exactCount": 3,
+          "includedCount": 0,
+          "effectiveCount": 3,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "포켓코리아 아머미니",
+          "role": "sub",
+          "exactCount": 3,
+          "includedCount": 0,
+          "effectiveCount": 3,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "발라리안 맥스 프로",
+          "role": "sub",
+          "exactCount": 3,
+          "includedCount": 0,
+          "effectiveCount": 3,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "말론",
+          "role": "sub",
+          "exactCount": 4,
+          "includedCount": 0,
+          "effectiveCount": 4,
+          "risk": "caution",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "수파x",
+          "role": "sub",
+          "exactCount": 3,
+          "includedCount": 0,
+          "effectiveCount": 3,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "입호흡",
+          "role": "sub",
+          "exactCount": 4,
+          "includedCount": 6,
+          "effectiveCount": 10,
+          "risk": "danger",
+          "note": "긴 계획 키워드에 포함된 6회를 분리해 exact 4회 / included 6회로 계산했습니다.",
+          "exactPhraseExclusionApplied": true
+        },
+        {
+          "keyword": "베스트5",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        }
+      ],
+      "bodyRepetitionItems": [
+        {
+          "token": "선택하",
+          "count": 6,
+          "category": "verb_stem",
+          "severity": "caution",
+          "message": "'선택하' 반복이 많아 본문이 단조롭게 보일 수 있습니다.",
+          "suggestion": "같은 동사 어간을 반복하지 말고 문장 구조를 바꿔 주세요.",
+          "isSeoRisk": false
+        },
+        {
+          "token": "입니다",
+          "count": 6,
+          "category": "sentence_ending",
+          "severity": "notice",
+          "message": "'입니다' 문장 마무리가 반복됩니다.",
+          "suggestion": "문장 종결 표현을 섞어서 리듬을 바꿔 주세요.",
+          "isSeoRisk": false
+        }
+      ],
+      "legacyTokenItems": [
+        {
+          "token": "전자담배",
+          "count": 11,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "입호흡",
+          "count": 10,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천",
+            "입호흡"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "입호흡 전자담배",
+          "count": 8,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "입호흡 전자담배 추천",
+          "count": 6,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "말론",
+          "count": 4,
+          "sourceKeywords": [
+            "말론"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "발라리안 맥스 프로",
+          "count": 3,
+          "sourceKeywords": [
+            "발라리안 맥스 프로"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "베놈 아스트로mk3",
+          "count": 3,
+          "sourceKeywords": [
+            "베놈 아스트로mk3"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "포켓코리아 아머미니",
+          "count": 3,
+          "sourceKeywords": [
+            "포켓코리아 아머미니"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "발라리안 맥스",
+          "count": 3,
+          "sourceKeywords": [
+            "발라리안 맥스 프로"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "아스트로mk3",
+          "count": 3,
+          "sourceKeywords": [
+            "베놈 아스트로mk3"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "맥스 프로",
+          "count": 3,
+          "sourceKeywords": [
+            "발라리안 맥스 프로"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "포켓코리아",
+          "count": 3,
+          "sourceKeywords": [
+            "포켓코리아 아머미니"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "발라리안",
+          "count": 3,
+          "sourceKeywords": [
+            "발라리안 맥스 프로"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "아머미니",
+          "count": 3,
+          "sourceKeywords": [
+            "포켓코리아 아머미니"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "배터리",
+          "count": 3,
+          "sourceKeywords": [
+            "배터리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "수파x",
+          "count": 3,
+          "sourceKeywords": [
+            "수파x"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "맥스",
+          "count": 3,
+          "sourceKeywords": [
+            "발라리안 맥스 프로"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "베놈",
+          "count": 3,
+          "sourceKeywords": [
+            "베놈 아스트로mk3"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "프로",
+          "count": 3,
+          "sourceKeywords": [
+            "발라리안 맥스 프로"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "아니면",
+          "count": 2,
+          "sourceKeywords": [
+            "아니면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "만들어보면",
+          "count": 1,
+          "sourceKeywords": [
+            "만들어보면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "베스트5",
+          "count": 1,
+          "sourceKeywords": [
+            "베스트5"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "tokenItems": [
+        {
+          "token": "전자담배",
+          "count": 11,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "입호흡",
+          "count": 10,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천",
+            "입호흡"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "입호흡 전자담배",
+          "count": 8,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "입호흡 전자담배 추천",
+          "count": 6,
+          "sourceKeywords": [
+            "입호흡 전자담배 추천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "말론",
+          "count": 4,
+          "sourceKeywords": [
+            "말론"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "발라리안 맥스 프로",
+          "count": 3,
+          "sourceKeywords": [
+            "발라리안 맥스 프로"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "베놈 아스트로mk3",
+          "count": 3,
+          "sourceKeywords": [
+            "베놈 아스트로mk3"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "포켓코리아 아머미니",
+          "count": 3,
+          "sourceKeywords": [
+            "포켓코리아 아머미니"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "발라리안 맥스",
+          "count": 3,
+          "sourceKeywords": [
+            "발라리안 맥스 프로"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "아스트로mk3",
+          "count": 3,
+          "sourceKeywords": [
+            "베놈 아스트로mk3"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "맥스 프로",
+          "count": 3,
+          "sourceKeywords": [
+            "발라리안 맥스 프로"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "포켓코리아",
+          "count": 3,
+          "sourceKeywords": [
+            "포켓코리아 아머미니"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "발라리안",
+          "count": 3,
+          "sourceKeywords": [
+            "발라리안 맥스 프로"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "아머미니",
+          "count": 3,
+          "sourceKeywords": [
+            "포켓코리아 아머미니"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "배터리",
+          "count": 3,
+          "sourceKeywords": [
+            "배터리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "수파x",
+          "count": 3,
+          "sourceKeywords": [
+            "수파x"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "맥스",
+          "count": 3,
+          "sourceKeywords": [
+            "발라리안 맥스 프로"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "베놈",
+          "count": 3,
+          "sourceKeywords": [
+            "베놈 아스트로mk3"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "프로",
+          "count": 3,
+          "sourceKeywords": [
+            "발라리안 맥스 프로"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "아니면",
+          "count": 2,
+          "sourceKeywords": [
+            "아니면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "만들어보면",
+          "count": 1,
+          "sourceKeywords": [
+            "만들어보면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "베스트5",
+          "count": 1,
+          "sourceKeywords": [
+            "베스트5"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "totalMentions": 33,
+      "introCoverage": true,
+      "titleFrontLoaded": true,
+      "bodyLength": 1784,
+      "summary": [
+        "메인 키워드 '입호흡 전자담배 추천' 본문 6회",
+        "전체 반복 위험도 high"
+      ],
+      "recommendations": [
+        "서브 키워드 '말론'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+        "서브 키워드 '입호흡'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+        "2번 문단에서 '입호흡'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요.",
+        "22번 문단에서 '입호흡 전자담배 추천'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요.",
+        "22번 문단에서 '입호흡'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요.",
+        "24번 문단에서 '입호흡'가 2회 반복됩니다. 같은 문단 안 반복을 줄여 주세요."
+      ]
+    },
+    "keywordMetrics": [
+      {
+        "keyword": "입호흡 전자담배 추천",
+        "role": "main",
+        "label": "메인 키워드",
+        "completenessScore": 90,
+        "exposurePotentialScore": 100,
+        "count": 6,
+        "targetMin": 4,
+        "targetMax": 7,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 앞배치 / 도입부 포함 / 본문 6회",
+        "action": "도입부에서 '입호흡 전자담배 추천' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "베놈 아스트로mk3",
+        "role": "sub",
+        "label": "서브 키워드 1",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 3,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 3회",
+        "action": "'베놈 아스트로mk3'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "포켓코리아 아머미니",
+        "role": "sub",
+        "label": "서브 키워드 2",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 3,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 3회",
+        "action": "'포켓코리아 아머미니'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "발라리안 맥스 프로",
+        "role": "sub",
+        "label": "서브 키워드 3",
+        "completenessScore": 55,
+        "exposurePotentialScore": 65,
+        "count": 3,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 3회",
+        "action": "'발라리안 맥스 프로'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "말론",
+        "role": "sub",
+        "label": "서브 키워드 4",
+        "completenessScore": 48,
+        "exposurePotentialScore": 63,
+        "count": 4,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 미포함 / 도입부 포함 / 본문 4회",
+        "action": "'말론'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "수파x",
+        "role": "sub",
+        "label": "서브 키워드 5",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 3,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 3회",
+        "action": "'수파x'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "입호흡",
+        "role": "sub",
+        "label": "서브 키워드 6",
+        "completenessScore": 67,
+        "exposurePotentialScore": 75,
+        "count": 10,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 10회",
+        "action": "서브 키워드 '입호흡'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+      },
+      {
+        "keyword": "베스트5",
+        "role": "sub",
+        "label": "서브 키워드 7",
+        "completenessScore": 63,
+        "exposurePotentialScore": 79,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 포함 / 도입부 부족 / 본문 1회",
+        "action": "도입부에서 '베스트5' 검색 의도를 더 직접적으로 받아 주세요."
+      }
+    ],
+    "combinationCoverageScore": 73,
+    "combinationMetrics": [
+      {
+        "phrase": "입호흡 전자담배 추천",
+        "role": "main",
+        "priority": "core",
+        "exactMatches": 6,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 99,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 보강 가능 · 6회 직접 표현",
+        "action": "'입호흡 전자담배 추천' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "베놈 아스트로mk3",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 3,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 3회 직접 표현",
+        "action": "첫 두 문단 안에서 '베놈 아스트로mk3' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "포켓코리아 아머미니",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 3,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 3회 직접 표현",
+        "action": "첫 두 문단 안에서 '포켓코리아 아머미니' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "발라리안 맥스 프로",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 3,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 3회 직접 표현",
+        "action": "첫 두 문단 안에서 '발라리안 맥스 프로' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "말론",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 4,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 77,
+        "exposurePotentialScore": 71,
+        "summary": "제목 약함 · 도입부 연결 · 소제목 보강 가능 · 4회 직접 표현",
+        "action": "'말론' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "수파x",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 3,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 3회 직접 표현",
+        "action": "첫 두 문단 안에서 '수파x' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "입호흡",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 10,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 93,
+        "exposurePotentialScore": 90,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 보강 가능 · 10회 직접 표현",
+        "action": "'입호흡' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "베스트5",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 74,
+        "exposurePotentialScore": 71,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '베스트5' 검색 의도를 더 직접적으로 받아 주세요."
+      }
+    ]
+  },
+  "naverLogicEvaluation": {
+    "primary": "c-rank",
+    "label": "C-Rank 중심",
+    "completenessScore": 26,
+    "reason": "이 주제는 지역성, 실사용 맥락, 내부링크 연결이 중요해서 C-Rank 관점이 더 강합니다.",
+    "evidence": [
+      "문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다.",
+      "비교와 선택 기준 요소가 살아 있어 실전 검색 의도에 잘 맞습니다.",
+      "내부링크 설계 대상이 있어 주제권 확장 관점이 살아 있습니다.",
+      "지역성과 실사용 맥락이 보여 C-Rank 관점의 주제권 연결이 자연스럽습니다.",
+      "실사용 맥락과 검색자 질문이 보여 D.I.A. 관점의 설득력이 있습니다.",
+      "관련 글 연결 신호가 보여 C-Rank 흐름 보강에 도움이 됩니다."
+    ],
+    "improvements": [
+      "허브 참조 링크는 '2025년 기준 입호흡 전자담배 추천 TOP5 인천 만수동만수르 픽' 제목과 https://blog.naver.com/iibodii00/224090385537 URL을 정확히 같은 쌍으로 써야 합니다.",
+      "리프 참조 링크는 '부평 전자담배 만수르 적나란 말론 전담 사용 후기' 제목과 https://blog.naver.com/iibodii00/224001541622 URL을 정확히 같은 쌍으로 써야 합니다."
+    ]
+  },
+  "postId": "post-4ce63560",
+  "savedAt": "2026-05-29T04:04:24.546Z"
+}
