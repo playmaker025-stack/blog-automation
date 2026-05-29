@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-manual-mpqpw2k2",
+      "topicId": "",
+      "userId": "c",
+      "title": "액상형 전담 종류 - 만수르 전자담배에서 알려드릴게요!",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224300284999",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-05-29T09:26:17.103Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-05-29T09:26:19.123Z"
+    },
+    {
       "postId": "post-manual-mpp56782",
       "topicId": "",
       "userId": "c",
@@ -314,5 +327,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-05-28T06:58:33.736Z"
+  "updatedAt": "2026-05-29T09:26:19.123Z"
 }
