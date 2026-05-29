@@ -4826,7 +4826,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-9a9a827d",
       "at": "2026-05-29T07:45:26.538Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-51ae6725",
+      "userId": "a",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-e247f5f3, ready:post-22a3c3ac / Similar existing title found: 입호흡 액상 추천 베스트 6 만수동만수르 픽 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-9c72d689",
+      "at": "2026-05-29T08:34:57.338Z"
     }
   ],
-  "lastUpdated": "2026-05-29T07:45:26.538Z"
+  "lastUpdated": "2026-05-29T08:34:57.338Z"
 }
