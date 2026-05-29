@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-5cd08575",
+  "type": "approval_request",
+  "savedAt": "2026-05-29T09:10:50.928Z",
+  "data": {
+    "pipelineId": "pipe-5cd08575",
+    "previousTitle": "",
+    "proposedTitle": "인천 부평 전자담배 기기 구매 전 체크리스트와 추천 브랜드",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-05-29T09:10:35.439Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-29T09:10:35.439Z",
+      "modifications": null
+    }
+  }
+}
