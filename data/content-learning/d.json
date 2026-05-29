@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mpqwtomg",
+      "topicId": "",
+      "userId": "d",
+      "title": "전자담배 액상 오래 안 쓰면 상할까 – 보관 잘못하면 생기는 일",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224300422786",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-05-29T12:40:22.535Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-05-29T12:40:24.345Z"
+    },
+    {
       "postId": "post-manual-mpo0wd28",
       "topicId": "",
       "userId": "d",
@@ -197,5 +210,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-05-27T12:11:09.889Z"
+  "updatedAt": "2026-05-29T12:40:24.345Z"
 }
