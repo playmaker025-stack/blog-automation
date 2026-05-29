@@ -4918,7 +4918,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-58985617",
       "at": "2026-05-29T10:51:47.651Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "초보자가 매장 시작 전에 자주 놓치는 체크포인트",
+      "proposedTitle": "초보자가 매장 시작 전에 자주 놓치는 체크포인트",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-482f6fa3",
+      "at": "2026-05-29T11:10:03.646Z"
     }
   ],
-  "lastUpdated": "2026-05-29T10:51:47.651Z"
+  "lastUpdated": "2026-05-29T11:10:03.646Z"
 }
