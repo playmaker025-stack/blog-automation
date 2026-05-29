@@ -4634,7 +4634,22 @@
       "publishedAt": "2026-05-29T09:26:17.103Z",
       "createdAt": "2026-05-29T09:26:17.103Z",
       "updatedAt": "2026-05-29T09:26:17.103Z"
+    },
+    {
+      "postId": "post-f62dc6ab",
+      "topicId": "topic-series-mpfe3l8p-ug7r-3",
+      "userId": "d",
+      "title": "초보자가 매장 시작 전에 자주 놓치는 체크포인트",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-482f6fa3",
+      "pendingApproval": null,
+      "createdAt": "2026-05-29T11:10:09.193Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-29T11:10:09.193Z"
     }
   ],
-  "lastUpdated": "2026-05-29T09:26:17.103Z"
+  "lastUpdated": "2026-05-29T11:10:09.193Z"
 }
