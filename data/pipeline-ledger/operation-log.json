@@ -4756,7 +4756,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-8a2e2f4f",
       "at": "2026-05-29T05:34:10.645Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "액상형 전담 종류 - 만수르 전자담배에서 알려드릴게요! 일회용,팟교체형,팟디바이스,폐호흡,모드",
+      "proposedTitle": "액상형 전담 종류 - 만수르 전자담배에서 알려드릴게요! 일회용,팟교체형,팟디바이스,폐호흡,모드",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-1bd8bb64",
+      "at": "2026-05-29T05:36:06.361Z"
     }
   ],
-  "lastUpdated": "2026-05-29T05:34:10.645Z"
+  "lastUpdated": "2026-05-29T05:36:06.361Z"
 }
