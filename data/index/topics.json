@@ -2675,7 +2675,29 @@
       "assignedUserId": "a",
       "createdAt": "2026-05-28T03:56:56.383Z",
       "updatedAt": "2026-05-28T04:02:00.417Z"
+    },
+    {
+      "topicId": "topic-714cb338",
+      "title": "입호흡 전자담배 추천 베스트5",
+      "description": "메인키워드: 입호흡 전자담배 추천 / 서브 키워드: 베놈 아스트로mk3 , 포켓코리아 아머미니 , 발라리안 맥스 프로 , 말론 , 수파x",
+      "category": "direct-run",
+      "tags": [
+        "입호흡 전자담배 추천",
+        "베놈 아스트로mk3 , 포켓코리아 아머미니 , 발라리안 맥스 프로 , 말론 , 수파x"
+      ],
+      "targetKeyword": "입호흡 전자담배 추천",
+      "subKeywords": [
+        "베놈 아스트로mk3 , 포켓코리아 아머미니 , 발라리안 맥스 프로 , 말론 , 수파x"
+      ],
+      "source": "direct",
+      "targetMainKeyword": "입호흡 전자담배 추천",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-05-29T04:01:26.112Z",
+      "updatedAt": "2026-05-29T04:01:26.112Z"
     }
   ],
-  "lastUpdated": "2026-05-29T03:59:25.082Z"
+  "lastUpdated": "2026-05-29T04:01:26.112Z"
 }
