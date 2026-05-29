@@ -4929,7 +4929,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-482f6fa3",
       "at": "2026-05-29T11:10:03.646Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-series-mpfe3l8p-ug7r-3",
+      "userId": "d",
+      "message": "전략 계약서가 불완전해 writer 실행을 차단합니다: 기존 글과의 중복 위험이 높습니다.",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-482f6fa3",
+      "at": "2026-05-29T11:10:35.437Z"
     }
   ],
-  "lastUpdated": "2026-05-29T11:10:03.646Z"
+  "lastUpdated": "2026-05-29T11:10:35.437Z"
 }
