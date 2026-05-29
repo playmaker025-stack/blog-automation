@@ -4837,7 +4837,20 @@
       "errorName": "Error",
       "pipelineId": "pipe-9c72d689",
       "at": "2026-05-29T08:34:57.338Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "입호흡 액상 추천 베스트 6",
+      "proposedTitle": "입호흡 액상 추천 베스트 6 만수동만수르 픽",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.6111111111111112,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-8b3ea873",
+      "at": "2026-05-29T08:39:26.708Z"
     }
   ],
-  "lastUpdated": "2026-05-29T08:34:57.338Z"
+  "lastUpdated": "2026-05-29T08:39:26.708Z"
 }
