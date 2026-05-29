@@ -4767,7 +4767,20 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-1bd8bb64",
       "at": "2026-05-29T05:36:06.361Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "입호흡 액상 추천 베스트 6",
+      "proposedTitle": "입호흡 액상 추천 베스트 6 – 만수동만수르 인천 매장에서 실제로 반응 좋은 픽",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.34375,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-77714a31",
+      "at": "2026-05-29T05:38:47.840Z"
     }
   ],
-  "lastUpdated": "2026-05-29T05:36:06.361Z"
+  "lastUpdated": "2026-05-29T05:38:47.840Z"
 }
