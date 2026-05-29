@@ -2107,61 +2107,6 @@
       "seriesDetailReadyAt": "2026-05-21T11:11:10.717Z"
     },
     {
-      "topicId": "topic-series-mpfe3l8p-ug7r-2",
-      "title": "매장 고르기 전에 많이 보는 선택 기준",
-      "description": "메인 키워드 \"인천전자담배 모드기기 전문 매장\"를 바로 정면으로 쓰기 전에 검색자가 먼저 궁금해하는 하위 의도를 다룹니다. 본문에서는 메인 키워드를 억지 반복하지 않고 1~3회 자연스럽게 노출합니다.",
-      "category": "d",
-      "tags": [
-        "인천전자담배 모드기기 전문 매장",
-        "선행포스팅",
-        "키워드빌드업",
-        "선택기준"
-      ],
-      "source": "generated",
-      "contentKind": "leaf",
-      "seriesId": "series-d-인천전자담배-모드기기-전문-매장-mpfe3l8p-ug7r",
-      "seriesRole": "prelude",
-      "targetMainKeyword": "인천전자담배 모드기기 전문 매장",
-      "sequenceOrder": 2,
-      "prerequisiteTopicIds": [],
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "d",
-      "createdAt": "2026-05-21T11:11:03.122Z",
-      "updatedAt": "2026-05-26T09:53:41.752Z",
-      "seriesDetailPlan": {
-        "articleGoal": "인천전자담배 모드기기 전문 매장를 바로 추천하기 전에 선택 기준과 실사용 판단 포인트를 잡아주는 글",
-        "searchIntent": "선택기준형",
-        "readerQuestion": "인천전자담배 모드기기 전문 매장를 보기 전에 어떤 기준으로 기기와 액상을 골라야 하나?",
-        "primaryKeyword": "매장 고르기 전에 많이 보는 선택 기준",
-        "secondaryKeywords": [
-          "인천전자담배 모드기기 전문 매장",
-          "입문",
-          "선택 기준"
-        ],
-        "recommendedSections": [
-          "검색자가 먼저 헷갈리는 상황 정리",
-          "비교 또는 선택 기준 제시",
-          "실수하기 쉬운 포인트 정리",
-          "메인 글로 이어지는 마무리"
-        ],
-        "keywordPlacementRules": [
-          "인천전자담배 모드기기 전문 매장는 제목 반복용이 아니라 본문 맥락에서 1~3회 자연스럽게 노출한다.",
-          "첫 문단에는 현재 고민 상황을 먼저 쓰고, 메인 키워드는 그 다음에 연결한다.",
-          "결론에서는 메인 추천 글로 이어질 수 있게 다음 읽을 글을 제안한다."
-        ],
-        "internalLinkTitles": [
-          "인천전자담배 모드기기 전문 매장 보기 전에 핵심 개념부터 정리",
-          "초보자가 매장 시작 전에 자주 놓치는 체크포인트",
-          "인천전자담배 모드기기 전문 매장"
-        ],
-        "callToAction": "비교 기준을 정리한 뒤 다음 글에서 실제 추천 모델을 확인하도록 연결한다.",
-        "draftAngle": "선행 포스팅 역할에 맞게 과장 없이 이해와 판단 기준을 먼저 제공한다."
-      },
-      "seriesDetailReadyAt": "2026-05-21T11:11:12.505Z"
-    },
-    {
       "topicId": "topic-series-mpfe3l8p-ug7r-3",
       "title": "초보자가 매장 시작 전에 자주 놓치는 체크포인트",
       "description": "메인 키워드 \"인천전자담배 모드기기 전문 매장\"를 바로 정면으로 쓰기 전에 검색자가 먼저 궁금해하는 하위 의도를 다룹니다. 본문에서는 메인 키워드를 억지 반복하지 않고 1~3회 자연스럽게 노출합니다.",
@@ -2709,5 +2654,5 @@
       "updatedAt": "2026-05-29T09:15:47.537Z"
     }
   ],
-  "lastUpdated": "2026-05-29T10:51:23.899Z"
+  "lastUpdated": "2026-05-29T10:51:43.999Z"
 }
