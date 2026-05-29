@@ -4734,7 +4734,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-8e3b1e9e",
       "at": "2026-05-29T03:56:34.978Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "입호흡 전자담배 추천 베스트5",
+      "proposedTitle": "입호흡 전자담배 추천 베스트5",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-843961a1",
+      "at": "2026-05-29T04:03:18.752Z"
     }
   ],
-  "lastUpdated": "2026-05-29T03:56:34.978Z"
+  "lastUpdated": "2026-05-29T04:03:18.752Z"
 }
