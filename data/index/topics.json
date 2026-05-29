@@ -2711,10 +2711,10 @@
       "source": "direct",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-05-29T05:32:10.052Z",
-      "updatedAt": "2026-05-29T05:38:38.247Z"
+      "updatedAt": "2026-05-29T05:42:10.552Z"
     },
     {
       "topicId": "topic-51ae6725",
@@ -2747,5 +2747,5 @@
       "updatedAt": "2026-05-29T05:41:45.726Z"
     }
   ],
-  "lastUpdated": "2026-05-29T05:41:45.726Z"
+  "lastUpdated": "2026-05-29T05:42:10.552Z"
 }
