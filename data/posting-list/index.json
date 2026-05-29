@@ -4574,7 +4574,22 @@
       "createdAt": "2026-05-29T07:45:42.568Z",
       "publishedAt": null,
       "updatedAt": "2026-05-29T07:48:35.140Z"
+    },
+    {
+      "postId": "post-fe27b973",
+      "topicId": "topic-51ae6725",
+      "userId": "a",
+      "title": "입호흡 액상 추천 베스트 6 만수동만수르 픽",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-8b3ea873",
+      "pendingApproval": null,
+      "createdAt": "2026-05-29T08:41:42.743Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-29T08:41:42.743Z"
     }
   ],
-  "lastUpdated": "2026-05-29T07:48:35.140Z"
+  "lastUpdated": "2026-05-29T08:41:42.743Z"
 }
