@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-1bd8bb64",
+  "type": "approval_request",
+  "savedAt": "2026-05-29T05:38:40.877Z",
+  "data": {
+    "pipelineId": "pipe-1bd8bb64",
+    "previousTitle": "",
+    "proposedTitle": "액상형 전담 종류 - 만수르 전자담배에서 알려드릴게요! 일회용,팟교체형,팟디바이스,폐호흡,모드",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "직접 입력 토픽의 보조 검색어 '일회용, 팟교체형, 팟디바이스, 폐호흡, 모드'를 맥락 키워드로 반영했습니다. AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.\n\n[사용자 승인 후 추가 수정 요청]\n이 글이 먹을 키워드는 \"전담 종류\"",
+    "requestedAt": "2026-05-29T05:38:36.115Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-29T05:38:36.115Z",
+      "modifications": "이 글이 먹을 키워드는 \"전담 종류\""
+    }
+  }
+}
