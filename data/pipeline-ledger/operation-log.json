@@ -4861,7 +4861,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-8b3ea873",
       "at": "2026-05-29T08:41:51.823Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-51ae6725",
+      "userId": "a",
+      "message": "OpenAI request failed: 400 {\n  \"error\": {\n    \"message\": \"Unsupported parameter: 'temperature' is not supported with this model.\",\n    \"type\": \"invalid_request_error\",\n    \"param\": \"temperature\",\n    \"code\": null\n  }\n}",
+      "recoveredTopicToDraft": true,
+      "errorName": "Error",
+      "pipelineId": "pipe-8b3ea873",
+      "at": "2026-05-29T08:41:55.079Z"
     }
   ],
-  "lastUpdated": "2026-05-29T08:41:51.823Z"
+  "lastUpdated": "2026-05-29T08:41:55.079Z"
 }
