@@ -1,0 +1,924 @@
+{
+  "runId": "eval-311e8338",
+  "scores": {
+    "originality": 65,
+    "style_match": 70,
+    "structure": 68,
+    "engagement": 60,
+    "forbidden_check": 100
+  },
+  "aggregateScore": 38,
+  "reasoning": {
+    "originality": "전자담배 기기 구매 전 체크리스트와 추천 브랜드를 다루는 주제는 흔하지만, 사용자의 입문자와 기존 사용자 구분, 구체적인 선택 기준 제시 등에서 비교적 신선한 접근을 보임.",
+    "style_match": "친근하고 이해하기 쉬운 문체로 작성되어 있으며, 전문적이면서도 부담 없는 톤을 유지해 타겟 독자층에 적합함.",
+    "structure": "허브형 도입부와 세부 기준, 추천 브랜드 분류, 매장 방문 전 체크리스트 등 요구된 토폴로지에 부합하는 구성을 갖추었으나, 내부 링크나 리프 글 연결 안내가 부족해 완성도 면에서 아쉬움.",
+    "engagement": "실제 구매 전 고려사항을 구체적으로 제시해 독자의 관심을 끌 수 있으나, 사례나 경험담, 질문 유도 등 독자 참여를 높일 요소가 부족해 다소 정보 전달에 치중된 느낌.",
+    "forbidden_check": "내부 SEO 용어, 워크플로우 용어, 평가자 관련 표현 등 금지어가 전혀 포함되어 있지 않아 매우 우수함.",
+    "seo": "SEO 점수 35점. 제목 길이가 모바일 검색 노출 구간에 비교적 안정적입니다.",
+    "naver_logic": "네이버 로직 점수 23점. 문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다."
+  },
+  "recommendations": [
+    "첫 두 문단 안에 '인천'를 자연스럽게 넣는 편이 좋습니다.",
+    "첫 문장에 '인천'를 한 번 직접 배치해 검색 의도를 더 또렷하게 보여주세요.",
+    "핵심 소제목 1개 이상에 '인천'를 포함해 주제 축을 더 선명하게 잡아주세요.",
+    "마무리 문단에서 '인천'를 한 번 더 정리해 글의 중심 키워드를 닫아주세요.",
+    "메인 키워드 '인천'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+    "서브 키워드 '추천브랜드'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+  ],
+  "pass": false,
+  "seoEvaluation": {
+    "score": 35,
+    "evidence": [
+      "제목 길이가 모바일 검색 노출 구간에 비교적 안정적입니다.",
+      "메인 키워드가 제목 앞부분에 배치되어 있습니다.",
+      "'부평' 본문 3회는 현재 권장 범위입니다.",
+      "'기기구매' 본문 1회는 현재 권장 범위입니다.",
+      "메인 키워드의 핵심 축 단어 반복이 과도하게 치우치지 않았습니다.",
+      "본문 분량이 SEO용 설명 글로는 최소 기준을 넘깁니다."
+    ],
+    "improvements": [
+      "첫 두 문단 안에 '인천'를 자연스럽게 넣는 편이 좋습니다.",
+      "첫 문장에 '인천'를 한 번 직접 배치해 검색 의도를 더 또렷하게 보여주세요.",
+      "핵심 소제목 1개 이상에 '인천'를 포함해 주제 축을 더 선명하게 잡아주세요.",
+      "마무리 문단에서 '인천'를 한 번 더 정리해 글의 중심 키워드를 닫아주세요.",
+      "메인 키워드 '인천'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+      "서브 키워드 '추천브랜드'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+    ],
+    "keywordReport": {
+      "items": [
+        {
+          "keyword": "인천",
+          "count": 0,
+          "status": "under",
+          "targetMin": 4,
+          "targetMax": 7,
+          "role": "main",
+          "recommendation": "메인 키워드 '인천'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "부평",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '부평' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "기기구매",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '기기구매' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "추천브랜드",
+          "count": 4,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '추천브랜드'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "기기",
+          "count": 10,
+          "status": "danger",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '기기'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+        },
+        {
+          "keyword": "구매",
+          "count": 6,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '구매'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "부평 인천",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '부평 인천'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "기기구매 인천",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '기기구매 인천'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "mainKeyword": {
+        "keyword": "인천",
+        "count": 0,
+        "status": "under",
+        "targetMin": 4,
+        "targetMax": 7,
+        "role": "main",
+        "recommendation": "메인 키워드 '인천'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+      },
+      "subKeywords": [
+        {
+          "keyword": "부평",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '부평' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "기기구매",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '기기구매' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "추천브랜드",
+          "count": 4,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '추천브랜드'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "기기",
+          "count": 10,
+          "status": "danger",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '기기'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+        },
+        {
+          "keyword": "구매",
+          "count": 6,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '구매'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "부평 인천",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '부평 인천'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "기기구매 인천",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '기기구매 인천'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        }
+      ],
+      "bridgeKeywords": [],
+      "internalLinkAnchors": [],
+      "forbiddenItems": [
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "contractApplied": true,
+      "overallRisk": "high",
+      "overallRiskSummary": "과반복 위험이 높습니다. 반복 경고가 있는 키워드를 먼저 줄여 주세요.",
+      "paragraphWarnings": [],
+      "seoKeywordItems": [
+        {
+          "keyword": "인천",
+          "role": "main",
+          "exactCount": 0,
+          "includedCount": 0,
+          "effectiveCount": 0,
+          "risk": "under",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "부평",
+          "role": "sub",
+          "exactCount": 3,
+          "includedCount": 0,
+          "effectiveCount": 3,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "기기구매",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "추천브랜드",
+          "role": "sub",
+          "exactCount": 4,
+          "includedCount": 0,
+          "effectiveCount": 4,
+          "risk": "caution",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "기기",
+          "role": "sub",
+          "exactCount": 10,
+          "includedCount": 0,
+          "effectiveCount": 10,
+          "risk": "danger",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "구매",
+          "role": "sub",
+          "exactCount": 6,
+          "includedCount": 0,
+          "effectiveCount": 6,
+          "risk": "caution",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "부평 인천",
+          "role": "sub",
+          "exactCount": 0,
+          "includedCount": 0,
+          "effectiveCount": 0,
+          "risk": "under",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "기기구매 인천",
+          "role": "sub",
+          "exactCount": 0,
+          "includedCount": 0,
+          "effectiveCount": 0,
+          "risk": "under",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        }
+      ],
+      "bodyRepetitionItems": [
+        {
+          "token": "입니다",
+          "count": 9,
+          "category": "sentence_ending",
+          "severity": "caution",
+          "message": "'입니다' 문장 마무리가 반복됩니다.",
+          "suggestion": "문장 종결 표현을 섞어서 리듬을 바꿔 주세요.",
+          "isSeoRisk": false
+        },
+        {
+          "token": "합니다",
+          "count": 9,
+          "category": "sentence_ending",
+          "severity": "caution",
+          "message": "'합니다' 문장 마무리가 반복됩니다.",
+          "suggestion": "문장 종결 표현을 섞어서 리듬을 바꿔 주세요.",
+          "isSeoRisk": false
+        },
+        {
+          "token": "정리하",
+          "count": 3,
+          "category": "verb_stem",
+          "severity": "notice",
+          "message": "'정리하' 반복이 눈에 띄기 시작합니다.",
+          "suggestion": "같은 동사 어간을 반복하지 말고 문장 구조를 바꿔 주세요.",
+          "isSeoRisk": false
+        }
+      ],
+      "legacyTokenItems": [
+        {
+          "token": "기기",
+          "count": 10,
+          "sourceKeywords": [
+            "기기"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "배터리",
+          "count": 8,
+          "sourceKeywords": [
+            "배터리"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "구매",
+          "count": 6,
+          "sourceKeywords": [
+            "구매"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "추천브랜드",
+          "count": 4,
+          "sourceKeywords": [
+            "추천브랜드"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "부평",
+          "count": 3,
+          "sourceKeywords": [
+            "부평",
+            "부평 인천"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "익숙해지면",
+          "count": 1,
+          "sourceKeywords": [
+            "익숙해지면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "기기구매",
+          "count": 1,
+          "sourceKeywords": [
+            "기기구매",
+            "기기구매 인천"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "tokenItems": [
+        {
+          "token": "기기",
+          "count": 10,
+          "sourceKeywords": [
+            "기기"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "배터리",
+          "count": 8,
+          "sourceKeywords": [
+            "배터리"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "구매",
+          "count": 6,
+          "sourceKeywords": [
+            "구매"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "추천브랜드",
+          "count": 4,
+          "sourceKeywords": [
+            "추천브랜드"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "부평",
+          "count": 3,
+          "sourceKeywords": [
+            "부평",
+            "부평 인천"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "익숙해지면",
+          "count": 1,
+          "sourceKeywords": [
+            "익숙해지면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "기기구매",
+          "count": 1,
+          "sourceKeywords": [
+            "기기구매",
+            "기기구매 인천"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "totalMentions": 24,
+      "introCoverage": false,
+      "titleFrontLoaded": true,
+      "bodyLength": 2557,
+      "summary": [
+        "메인 키워드 '인천' 본문 0회",
+        "제목 앞부분의 메인 키워드 배치가 약합니다.",
+        "전체 반복 위험도 high"
+      ],
+      "recommendations": [
+        "메인 키워드 '인천'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+        "서브 키워드 '추천브랜드'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+        "서브 키워드 '기기'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요.",
+        "서브 키워드 '구매'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+        "서브 키워드 '부평 인천'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+        "서브 키워드 '기기구매 인천'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+      ]
+    },
+    "keywordMetrics": [
+      {
+        "keyword": "인천",
+        "role": "main",
+        "label": "메인 키워드",
+        "completenessScore": 49,
+        "exposurePotentialScore": 64,
+        "count": 0,
+        "targetMin": 4,
+        "targetMax": 7,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 앞배치 / 도입부 부족 / 본문 0회",
+        "action": "도입부에서 '인천' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "부평",
+        "role": "sub",
+        "label": "서브 키워드 1",
+        "completenessScore": 84,
+        "exposurePotentialScore": 94,
+        "count": 3,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 3회",
+        "action": "도입부에서 '부평' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "기기구매",
+        "role": "sub",
+        "label": "서브 키워드 2",
+        "completenessScore": 64,
+        "exposurePotentialScore": 80,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 미포함 / 도입부 포함 / 본문 1회",
+        "action": "'기기구매'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "추천브랜드",
+        "role": "sub",
+        "label": "서브 키워드 3",
+        "completenessScore": 42,
+        "exposurePotentialScore": 51,
+        "count": 4,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 4회",
+        "action": "'추천브랜드'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "기기",
+        "role": "sub",
+        "label": "서브 키워드 4",
+        "completenessScore": 86,
+        "exposurePotentialScore": 78,
+        "count": 10,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 10회",
+        "action": "서브 키워드 '기기'가 과도하게 반복됩니다. 직접 반복을 줄이고 이 글에서 다루지 않을 내용은 다음 글로 넘겨 주세요."
+      },
+      {
+        "keyword": "구매",
+        "role": "sub",
+        "label": "서브 키워드 5",
+        "completenessScore": 71,
+        "exposurePotentialScore": 80,
+        "count": 6,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 6회",
+        "action": "서브 키워드 '구매'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+      },
+      {
+        "keyword": "부평 인천",
+        "role": "sub",
+        "label": "서브 키워드 6",
+        "completenessScore": 32,
+        "exposurePotentialScore": 47,
+        "count": 0,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 0회",
+        "action": "'부평 인천'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "기기구매 인천",
+        "role": "sub",
+        "label": "서브 키워드 7",
+        "completenessScore": 32,
+        "exposurePotentialScore": 47,
+        "count": 0,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 0회",
+        "action": "'기기구매 인천'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      }
+    ],
+    "combinationCoverageScore": 74,
+    "combinationMetrics": [
+      {
+        "phrase": "인천",
+        "role": "main",
+        "priority": "core",
+        "exactMatches": 0,
+        "tokenCoverage": 0,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 55,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 보강 가능 · 0회 직접 표현",
+        "action": "첫 두 문단 안에서 '인천' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "부평",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 3,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 99,
+        "exposurePotentialScore": 98,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 보강 가능 · 3회 직접 표현",
+        "action": "현재 조합 흐름을 유지해도 괜찮습니다."
+      },
+      {
+        "phrase": "기기구매",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 83,
+        "exposurePotentialScore": 79,
+        "summary": "제목 약함 · 도입부 연결 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "현재 조합 흐름을 유지해도 괜찮습니다."
+      },
+      {
+        "phrase": "추천브랜드",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 4,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 60,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 연결 · 4회 직접 표현",
+        "action": "첫 두 문단 안에서 '추천브랜드' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "기기",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 10,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 98,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 연결 · 10회 직접 표현",
+        "action": "'기기' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "구매",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 6,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 98,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 연결 · 6회 직접 표현",
+        "action": "'구매' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "부평 인천",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 0,
+        "tokenCoverage": 0.5,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 59,
+        "exposurePotentialScore": 57,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 보강 가능 · 0회 직접 표현",
+        "action": "첫 두 문단 안에서 '부평 인천' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "기기구매 인천",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 0,
+        "tokenCoverage": 0.5,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 43,
+        "exposurePotentialScore": 38,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 0회 직접 표현",
+        "action": "첫 두 문단 안에서 '기기구매 인천' 검색 의도를 더 직접적으로 받아 주세요."
+      }
+    ]
+  },
+  "naverLogicEvaluation": {
+    "primary": "c-rank",
+    "label": "C-Rank 중심",
+    "completenessScore": 23,
+    "reason": "이 주제는 지역성, 실사용 맥락, 내부링크 연결이 중요해서 C-Rank 관점이 더 강합니다.",
+    "evidence": [
+      "문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다.",
+      "비교와 선택 기준 요소가 살아 있어 실전 검색 의도에 잘 맞습니다.",
+      "내부링크 설계 대상이 있어 주제권 확장 관점이 살아 있습니다.",
+      "지역성과 실사용 맥락이 보여 C-Rank 관점의 주제권 연결이 자연스럽습니다.",
+      "실사용 맥락과 검색자 질문이 보여 D.I.A. 관점의 설득력이 있습니다."
+    ],
+    "improvements": [
+      "허브 참조 링크는 '인천 부평 전자담배 액상 선택법과 인기 브랜드 추천' 제목과 https://blog.naver.com/mansur_vape/224263778901 URL을 정확히 같은 쌍으로 써야 합니다.",
+      "리프 참조 링크는 '액상형 전자담배 온라인 판매금지? 전담 인터넷 구매 왜 막혔을까' 제목과 https://blog.naver.com/mansur_vape/224296756267 URL을 정확히 같은 쌍으로 써야 합니다."
+    ]
+  },
+  "postId": "post-8e799301",
+  "savedAt": "2026-05-29T09:12:35.020Z"
+}
