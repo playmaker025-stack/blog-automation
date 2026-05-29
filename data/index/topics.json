@@ -2126,10 +2126,10 @@
       "prerequisiteTopicIds": [],
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "d",
       "createdAt": "2026-05-21T11:11:05.338Z",
-      "updatedAt": "2026-05-21T11:11:14.769Z",
+      "updatedAt": "2026-05-29T11:10:07.743Z",
       "seriesDetailPlan": {
         "articleGoal": "인천전자담배 모드기기 전문 매장를 바로 추천하기 전에 초보자가 실제로 헷갈리는 상황을 정리해 주는 글",
         "searchIntent": "문제해결형/초보자가이드형",
@@ -2654,5 +2654,5 @@
       "updatedAt": "2026-05-29T09:15:47.537Z"
     }
   ],
-  "lastUpdated": "2026-05-29T10:51:43.999Z"
+  "lastUpdated": "2026-05-29T11:10:07.743Z"
 }
