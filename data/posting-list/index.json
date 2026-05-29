@@ -4604,7 +4604,22 @@
       "createdAt": "2026-05-29T08:54:54.676Z",
       "publishedAt": null,
       "updatedAt": "2026-05-29T09:01:36.386Z"
+    },
+    {
+      "postId": "post-8e799301",
+      "topicId": "topic-f47ab9d8",
+      "userId": "c",
+      "title": "인천 부평 전자담배 기기 구매 전 체크리스트와 추천 브랜드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-5cd08575",
+      "pendingApproval": null,
+      "createdAt": "2026-05-29T09:10:48.966Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-29T09:10:48.966Z"
     }
   ],
-  "lastUpdated": "2026-05-29T09:01:36.386Z"
+  "lastUpdated": "2026-05-29T09:10:48.966Z"
 }
