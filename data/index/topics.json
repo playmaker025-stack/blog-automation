@@ -2715,7 +2715,37 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-29T05:32:10.052Z",
       "updatedAt": "2026-05-29T05:34:01.708Z"
+    },
+    {
+      "topicId": "topic-51ae6725",
+      "title": "입호흡 액상 추천 베스트 6",
+      "description": "메인키워드: 입호흡 액상 추천 / 서브 키워드: 인천, 만수동만수르, 구월동, 부평, 만수동",
+      "category": "direct-run",
+      "tags": [
+        "입호흡 액상 추천",
+        "인천",
+        "만수동만수르",
+        "구월동",
+        "부평",
+        "만수동"
+      ],
+      "targetKeyword": "입호흡 액상 추천",
+      "subKeywords": [
+        "인천",
+        "만수동만수르",
+        "구월동",
+        "부평",
+        "만수동"
+      ],
+      "source": "direct",
+      "targetMainKeyword": "입호흡 액상 추천",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-05-29T05:36:54.566Z",
+      "updatedAt": "2026-05-29T05:36:54.566Z"
     }
   ],
-  "lastUpdated": "2026-05-29T05:34:01.708Z"
+  "lastUpdated": "2026-05-29T05:36:54.566Z"
 }
