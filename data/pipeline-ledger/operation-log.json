@@ -4896,7 +4896,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-75683ee5",
       "at": "2026-05-29T08:54:37.081Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 부평 전자담배 기기 구매 전 체크리스트와 추천 브랜드",
+      "proposedTitle": "인천 부평 전자담배 기기 구매 전 체크리스트와 추천 브랜드",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-5cd08575",
+      "at": "2026-05-29T09:10:27.447Z"
     }
   ],
-  "lastUpdated": "2026-05-29T08:54:37.081Z"
+  "lastUpdated": "2026-05-29T09:10:27.447Z"
 }
