@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-f0e021e9",
+      "topicId": "topic-92af19bd",
+      "userId": "c",
+      "title": "인천 만수역 입호흡 전자담배 베이핑하는법과 추천 기기 비교",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224300979147",
+      "evalScore": 43,
+      "wordCount": 2356,
+      "publishedAt": "2026-05-30T07:06:20.361Z",
+      "topicSource": "generated",
+      "contentKind": "hub",
+      "learnedAt": "2026-05-30T07:06:26.237Z"
+    },
+    {
       "postId": "post-manual-mpqpw2k2",
       "topicId": "",
       "userId": "c",
@@ -327,5 +340,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-05-29T09:26:19.123Z"
+  "updatedAt": "2026-05-30T07:06:26.237Z"
 }
