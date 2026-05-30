@@ -2629,7 +2629,29 @@
       "assignedUserId": "a",
       "createdAt": "2026-05-29T05:36:54.566Z",
       "updatedAt": "2026-05-29T09:01:38.039Z"
+    },
+    {
+      "topicId": "topic-92af19bd",
+      "title": "인천 만수역 입호흡 전자담배 베이핑하는법과 추천 기기 비교",
+      "description": "입호흡 전자담배 초보자를 위한 만수역 인근 추천 기기와 올바른 베이핑 방법을 상세히 비교 분석하여 소개합니다.",
+      "category": "전자담배",
+      "tags": [
+        "입호흡전자담배",
+        "베이핑",
+        "만수역",
+        "추천기기",
+        "사용법"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-05-30T04:15:59.583Z",
+      "updatedAt": "2026-05-30T04:15:59.583Z"
     }
   ],
-  "lastUpdated": "2026-05-30T03:58:28.499Z"
+  "lastUpdated": "2026-05-30T04:15:59.583Z"
 }
