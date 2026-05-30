@@ -4951,7 +4951,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-482f6fa3",
       "at": "2026-05-29T11:10:39.823Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 부평 전자담배 고장 증상별 자가 진단과 간단 수리법 안내",
+      "proposedTitle": "인천 부평 전자담배 고장 증상별 자가 진단과 간단 수리법 안내",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-3142874d",
+      "at": "2026-05-30T04:18:28.770Z"
     }
   ],
-  "lastUpdated": "2026-05-29T11:10:39.823Z"
+  "lastUpdated": "2026-05-30T04:18:28.770Z"
 }
