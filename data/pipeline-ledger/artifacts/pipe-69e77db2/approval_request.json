@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-69e77db2",
+  "type": "approval_request",
+  "savedAt": "2026-05-30T04:29:22.556Z",
+  "data": {
+    "pipelineId": "pipe-69e77db2",
+    "previousTitle": "",
+    "proposedTitle": "인천 만수역 입호흡 전자담배 베이핑하는법과 추천 기기 비교",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-05-30T04:29:15.594Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-05-30T04:29:15.594Z",
+      "modifications": null
+    }
+  }
+}
