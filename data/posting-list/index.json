@@ -4664,7 +4664,22 @@
       "publishedAt": "2026-05-29T12:40:22.535Z",
       "createdAt": "2026-05-29T12:40:22.535Z",
       "updatedAt": "2026-05-29T12:40:22.535Z"
+    },
+    {
+      "postId": "post-9535e57f",
+      "topicId": "topic-db6a4780",
+      "userId": "c",
+      "title": "인천 부평 전자담배 고장 증상별 자가 진단과 간단 수리법 안내",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-3142874d",
+      "pendingApproval": null,
+      "createdAt": "2026-05-30T04:20:58.132Z",
+      "publishedAt": null,
+      "updatedAt": "2026-05-30T04:20:58.132Z"
     }
   ],
-  "lastUpdated": "2026-05-29T12:40:22.535Z"
+  "lastUpdated": "2026-05-30T04:20:58.132Z"
 }
