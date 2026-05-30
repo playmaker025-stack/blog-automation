@@ -2,6 +2,21 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-f0e021e9",
+      "title": "인천 만수역 입호흡 전자담배 베이핑하는법과 추천 기기 비교",
+      "category": "전자담배",
+      "tags": [
+        "입호흡전자담배",
+        "베이핑",
+        "만수역",
+        "추천기기",
+        "사용법"
+      ],
+      "wordCount": 2356,
+      "publishedAt": "2026-05-30T07:06:20.361Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-f0e021e9.md"
+    },
+    {
       "sampleId": "published-post-manual-mpqpw2k2",
       "title": "액상형 전담 종류 - 만수르 전자담배에서 알려드릴게요!",
       "category": "published-post",
@@ -290,5 +305,5 @@
       "filePath": "user-modeling/users/c/corpus/samples/published-post-5beaf101.md"
     }
   ],
-  "lastUpdated": "2026-05-29T09:26:24.157Z"
+  "lastUpdated": "2026-05-30T07:06:29.059Z"
 }
