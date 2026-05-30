@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-3142874d",
   "type": "strategy_plan",
-  "savedAt": "2026-05-30T04:18:27.094Z",
+  "savedAt": "2026-05-30T04:21:02.936Z",
   "data": {
     "title": "인천 부평 전자담배 고장 증상별 자가 진단과 간단 수리법 안내",
     "outline": [
@@ -63,7 +63,110 @@
       "증상별"
     ],
     "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "c",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 2635,
+        "signatureExpressions": [],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "질문으로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-3a07f3a9",
+          "title": "만수역 전자담배 기기별 사용법과 유지관리 핵심 가이드",
+          "excerpt": "전자담배를 사용하면 \"왜 갑자기 맛이 이상하지?\" \"이거 언제 교체해야 하지?\" 고민해본 적 있으신가요? 만수역이나 구월동에서 전자담배를 사용하는 분들, 실제로 기기마다 관리법이 완전히 다르다는 사실 알고 계셨나요? 오늘은 만수역 전자담배 사용자라면 꼭 알아야 할 기기별 사용법과 유지관리 그리고 실전 트러블 해결법 까지 한 번에 정리해드립니다. 감성 후기나 신제품 홍보가 아닌, 실제 문제 해결과 선택 기준에 집중한 정보만 담았",
+          "styleNotes": "tone=casual, contentKind=leaf, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-6a9ebb23",
+          "title": "부천 상동 전자담배 연기 알레르기? 코·기도 붓는 이유와 대처법",
+          "excerpt": "전담 증기 맡았을때 코막힘, 비강 붓는 증상 때문에 고민해본적 있으신가요? 실제로 담배연기 알레르기 일까, 단순 자극일까? 라는 질문이 카페나 지식인에서 자주 보입니다. 오늘은 전자담배 증기때문에 코와 기도가 붓는 이유 그리고 알러 반응과 일반 자극 반응을 어떻게 구분하고 대처해야 하는지 구체적으로 정리해드릴게요. 1️⃣ 이게 알러지 인지 아니면 다른 건지 먼저 확인해야 해요 정상 반응 vs 비정상 반응 어떻게 구분할까? 전담",
+          "styleNotes": "tone=casual, contentKind=leaf, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-9b7617b2",
+          "title": "인천 부평 전자담배 금연구역과 과태료 최신 안내",
+          "excerpt": "인천 부평 지역에서 전자담배도 금연구역 단속 대상인지 궁금하신가요? 과거에는 전자담배가 냄새가 적고 일반 담배와 다르다는 이유로 비교적 자유롭게 사용됐지만, 2026년부터는 상황이 달라졌습니다. 국민건강증진법과 담배사업법 개정으로 액상형과 권련형 전자담배 모두 일반 담배와 동일하게 법적 '담배'로 분류되어 금연구역에서 단속됩니다. 그 결과, 부평 지역 금연구역에서 전자담배를 피울 경우 일반 담배와 마찬가지로 과태료가 부과됩니다",
+          "styleNotes": "tone=casual, contentKind=hub, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-0c7f0253",
+          "title": "인천 전자담배 고농도 액상 선택과 안전 사용법 총정리",
+          "excerpt": "고농도, 써볼까 말까 고민 중이신가요? 요즘 인천전자담배 에서 판매하는 제품들 입문자부터 기존 사용자까지 관심이 정말 많아졌어요. 하지만 단순히 니코틴 농도가 높다고 다 좋은건 아니죠. 내 몸에 맞는지, 안전하게 쓸 수 있는지 제대로 알고 고르는 게 중요합니다. 이 글에서 인천전자담배 제품 선택 방법과 안전 사용법, 그리고 구월·주안 등 인천에서 직접 구매할 때 챙겨야 할 팁까지 한 번에 정리해드릴게요. 특히, 인천전자담배 액",
+          "styleNotes": "tone=casual, contentKind=hub, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-e60008d9",
+          "title": "간석동전자담배 기기별 고장 원인과 해결 방법",
+          "excerpt": "전자담배를 사용하다 보면 예상치 못한 고장으로 불편을 겪는 일이 많이 있습니다. 특히 간석동전자담배 사용자분들도 연기 부족, 액상 누수, 버튼 불량 등 다양한 문제로 문의를 자주 주시는데요. 이번 글에서는 간석동 지역을 기준으로 기기별 고장 원인과 간단히 해결할 수 있는 방법을 정리해 드리겠습니다. 전자담배 고장의 주요 유형 간석동 전자담배 사용자들이 흔히 겪는 고장은 크게 다섯 가지로 나뉩니다. 1️⃣ 연기 전혀 발생하지 않",
+          "styleNotes": "tone=casual, contentKind=leaf, category=전자담배"
+        }
+      ],
+      "representativeExcerpts": [
+        "액상형 전담 종류 만수르 전자담배에서 알려드릴게요! 액상형 전담 종류 만수르 전자담배에서 알려드릴게요! : 네이버 블로그 NAVER 블로그 부평 전자담배 만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불",
+        "부평전자담배 버블몬 그래피티2 신규맛 고농도 팟 출시! 솔직 후기 부평전자담배 버블몬 그래피티2 신규맛 고농도 팟 출시! 솔직 후기 : 네이버 블로그 NAVER 블로그 부평 전자담배 만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요",
+        "전자담배를 사용하다 보면 갑자기 입안에 탄맛이 확 느껴져 당황한 경험 한 번쯤 있으셨을 거예요 평소와 똑같이 사용했는데 왜 이런 현상이 생기는지 인천이나 남동구, 계산동 등 지역 매장에서도 전자담배 탄맛 발생 원인에 대한 문의가 꾸준히 들어옵니다. 오늘은 이런 상황에서 바로 점검할 수 있는 기준과 실제로 도움이 되는 대처법 그리고 건강까지 생각한 해결방법을 한 번에 정리해드릴게요! 전담 탄맛의 발생 원인을 정확히 이해하면 단순",
+        "평소처럼 인터넷에서 전자담배 액상을 구매하려다 갑자기 막혀버린 경험 한 번쯤 있으셨죠? 실제로 부평, 만수, 구월 등 지역 매장에도 \"왜 온라인에서 더 이상 액상이나 전담을 살 수 없나요?\" 라는 문의가 크게 늘었습니다. 이 글에서는 액상현 전담 온라인 판매금지 이슈가 생긴 지금 어떤 기준으로 제품을 골라야 하는지 전자담배 인터넷 구매가 막힌 상황에서 현명하게 대처하는 방법까지 구체적으로 안내해드릴게요! 처음 접하는 분들도 쉽",
+        "태국으로 여행을 준비하다 보면 전자담배를 챙겨가도 되는지 혹시 공항이나 입국 심사에서 문제가 생기진 않을지 걱정이 먼저 앞서게 됩니다. 실제로 인천공항이나 부평, 구월동 등에서 \"태국에 전담 가져가도 괜찮을까요?\" \"공항에서 걸리면 벌금이 있나요?\" 같은 질문이 자주 들립니다. 태국은 전담 관련 규제가 매우 엄격한 나라로 알려져 있어 출국 전부터 불안함을 느끼는 분들이 많죠 이 글에서는 태국여행에 전담을 챙겨가려는 분들을 위해"
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-3a07f3a9",
+          "finalScore": 0.666,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.77,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-6a9ebb23",
+          "finalScore": 0.657,
+          "components": {
+            "relevance": 0.64,
+            "recency": 0.83,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-9b7617b2",
+          "finalScore": 0.648,
+          "components": {
+            "relevance": 0.62,
+            "recency": 0.82,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-0c7f0253",
+          "finalScore": 0.628,
+          "components": {
+            "relevance": 0.59,
+            "recency": 0.79,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-e60008d9",
+          "finalScore": 0.613,
+          "components": {
+            "relevance": 0.52,
+            "recency": 0.84,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 69,
