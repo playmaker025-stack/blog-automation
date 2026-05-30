@@ -4962,7 +4962,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-3142874d",
       "at": "2026-05-30T04:18:28.770Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 만수역 입호흡 전자담배 베이핑하는법과 추천 기기 비교",
+      "proposedTitle": "인천 만수역 입호흡 전자담배 베이핑하는법과 추천 기기 비교",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-69e77db2",
+      "at": "2026-05-30T04:28:57.395Z"
     }
   ],
-  "lastUpdated": "2026-05-30T04:18:28.770Z"
+  "lastUpdated": "2026-05-30T04:28:57.395Z"
 }
