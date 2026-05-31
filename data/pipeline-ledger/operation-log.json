@@ -4984,7 +4984,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-87ace2f8",
       "at": "2026-05-31T01:06:09.756Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "초보자가 매장 시작 전에 자주 놓치는 체크포인트",
+      "proposedTitle": "전자담배 모드기기 매장 가기 전 초보자가 자주 놓치는 체크포인트",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.4814814814814815,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-d69c37db",
+      "at": "2026-05-31T01:08:16.048Z"
     }
   ],
-  "lastUpdated": "2026-05-31T01:06:09.756Z"
+  "lastUpdated": "2026-05-31T01:08:16.048Z"
 }
