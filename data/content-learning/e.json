@@ -2,6 +2,19 @@
   "userId": "e",
   "entries": [
     {
+      "postId": "post-0cf15a05",
+      "topicId": "topic-16059a55",
+      "userId": "e",
+      "title": "부평 전자담배 액상 구매 핵심 팁과 매장 선택 기준",
+      "naverPostUrl": "https://blog.naver.com/godmaker0/224301960336",
+      "evalScore": 57,
+      "wordCount": 2190,
+      "publishedAt": "2026-05-31T12:27:28.636Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-05-31T12:27:34.361Z"
+    },
+    {
       "postId": "post-5734db7d",
       "topicId": "topic-edbce37f",
       "userId": "e",
@@ -67,5 +80,5 @@
       "learnedAt": "2026-05-10T12:02:04.252Z"
     }
   ],
-  "updatedAt": "2026-05-24T11:54:14.659Z"
+  "updatedAt": "2026-05-31T12:27:34.361Z"
 }
