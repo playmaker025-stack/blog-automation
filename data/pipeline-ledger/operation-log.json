@@ -5017,7 +5017,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-d69c37db",
       "at": "2026-05-31T01:08:35.153Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 부평구에서 전자담배 액상 구매 시 주의할 점과 추천 매장",
+      "proposedTitle": "부평구 전자담배 액상 구매할 때 꼭 알아야 할 점과 매장 고르는 기준",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.37037037037037035,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-3bacf77a",
+      "at": "2026-05-31T05:55:04.679Z"
     }
   ],
-  "lastUpdated": "2026-05-31T01:08:35.153Z"
+  "lastUpdated": "2026-05-31T05:55:04.679Z"
 }
