@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mptju4aj",
+      "topicId": "",
+      "userId": "d",
+      "title": "전자담배 처음 쓰면 어지러운 이유 – 니코틴 때문일까",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224301809690",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-05-31T09:00:06.770Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-05-31T09:00:08.407Z"
+    },
+    {
       "postId": "post-manual-mpqwtomg",
       "topicId": "",
       "userId": "d",
@@ -210,5 +223,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-05-29T12:40:24.345Z"
+  "updatedAt": "2026-05-31T09:00:08.407Z"
 }
