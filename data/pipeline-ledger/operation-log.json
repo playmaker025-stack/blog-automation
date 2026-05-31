@@ -4973,7 +4973,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-69e77db2",
       "at": "2026-05-30T04:28:57.395Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-series-mpfe3l8p-ug7r-4",
+      "userId": "d",
+      "message": "선행 포스팅 미발행: 메인 글 \"인천전자담배 모드기기 전문 매장\" 작성 전 \"초보자가 매장 시작 전에 자주 놓치는 체크포인트\" 발행이 필요합니다.",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-87ace2f8",
+      "at": "2026-05-31T01:06:09.756Z"
     }
   ],
-  "lastUpdated": "2026-05-30T04:28:57.395Z"
+  "lastUpdated": "2026-05-31T01:06:09.756Z"
 }
