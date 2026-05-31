@@ -2,6 +2,20 @@
   "userId": "e",
   "samples": [
     {
+      "sampleId": "published-post-0cf15a05",
+      "title": "부평 전자담배 액상 구매 핵심 팁과 매장 선택 기준",
+      "category": "E블로그",
+      "tags": [
+        "전자담배",
+        "액상",
+        "부평구",
+        "구매팁"
+      ],
+      "wordCount": 2190,
+      "publishedAt": "2026-05-31T12:27:28.636Z",
+      "filePath": "user-modeling/users/e/corpus/samples/published-post-0cf15a05.md"
+    },
+    {
       "sampleId": "published-post-5734db7d",
       "title": "담배 냄새 없는 전자담배 액상 선택 가이드",
       "category": "E블로그",
@@ -88,5 +102,5 @@
       "filePath": "user-modeling/users/e/corpus/samples/published-post-import-1b99338a.md"
     }
   ],
-  "lastUpdated": "2026-05-24T11:54:16.673Z"
+  "lastUpdated": "2026-05-31T12:27:37.112Z"
 }
