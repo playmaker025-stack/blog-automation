@@ -5039,7 +5039,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-bb360ae4",
       "at": "2026-06-01T04:19:17.116Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 부평 전자담배 무인샵 vs 일반샵 구매 장단점 비교",
+      "proposedTitle": "인천 부평 전자담배 무인샵 vs 일반샵 구매 장단점 비교",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-18423537",
+      "at": "2026-06-01T06:40:56.892Z"
     }
   ],
-  "lastUpdated": "2026-06-01T04:19:17.116Z"
+  "lastUpdated": "2026-06-01T06:40:56.892Z"
 }
