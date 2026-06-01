@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-bb360ae4",
+  "type": "approval_request",
+  "savedAt": "2026-06-01T04:19:24.417Z",
+  "data": {
+    "pipelineId": "pipe-bb360ae4",
+    "previousTitle": "",
+    "proposedTitle": "만수동 전자담배 입문자 추천 액상 5종 직접 써본 비교 후기",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "topic_feasibility_judge 결과 100점 통과. 만수동은 허용 로컬리티(Primary). 기존 발행 이력에 구월동 액상 3종 비교(post-3c412c7b)와 남동구 액상 선택법(post-358803fa)이 있으나, 본 토픽은 만수동 특화 + 5종 직접 사용 후기 각도로 중복 리스크 낮음. 평균 평가 60점 개선을 위해 상위 성과 글(부평 입문자 기기 5가지 핵심 기준, 70점) 구조를 참고해 번호 listicle + 비교 요약표 + 실수 섹션 삽입. KIN 데이터에서 '어지러움·두통', '쿨링 없는 무니코틴', '순위 글 실패' 페인포인트를 섹션 4에 반영. 카페 커뮤니티에서 누수, 취향 불일치, 입문용 기기 수요가 반복되므로 각 액상 설명에 누수 리스크 및 기기 호환 언급 포함. 허브 연결: 만수동 전자담배 기기별 장단점과 추천 가이드 / 리프 연결: 만수동 전자담배 기기 문제해결법과 매장방문 적기 안내. 예상 분량 1,900자는 최근 평균(2,210자) 대비 약간 적으나 밀도 높은 비교 구조로 검색의도 충족도를 높이는 방향 채택.",
+    "requestedAt": "2026-06-01T04:19:18.932Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-06-01T04:19:18.932Z",
+      "modifications": null
+    }
+  }
+}
