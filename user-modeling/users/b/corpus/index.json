@@ -2,6 +2,21 @@
   "userId": "b",
   "samples": [
     {
+      "sampleId": "published-post-82b69f83",
+      "title": "삼산동 전자담배 액상 추천 5종 비교, 입문자 맞춤 선택법",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "입문자",
+        "액상추천",
+        "사용후기"
+      ],
+      "wordCount": 2550,
+      "publishedAt": "2026-06-01T06:13:29.294Z",
+      "filePath": "user-modeling/users/b/corpus/samples/published-post-82b69f83.md"
+    },
+    {
       "sampleId": "published-post-2e778402",
       "title": "만수동 전자담배 기기별 고장 유형과 자가점검 방법 안내",
       "category": "b",
@@ -144,5 +159,5 @@
       "filePath": "user-modeling/users/b/corpus/samples/published-post-import-08c915d5f3.md"
     }
   ],
-  "lastUpdated": "2026-05-26T08:13:43.380Z"
+  "lastUpdated": "2026-06-01T06:13:42.496Z"
 }
