@@ -2,6 +2,19 @@
   "userId": "b",
   "entries": [
     {
+      "postId": "post-82b69f83",
+      "topicId": "topic-fda90984",
+      "userId": "b",
+      "title": "삼산동 전자담배 액상 추천 5종 비교, 입문자 맞춤 선택법",
+      "naverPostUrl": "https://blog.naver.com/youferst/224302744906",
+      "evalScore": 55,
+      "wordCount": 2550,
+      "publishedAt": "2026-06-01T06:13:29.294Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-06-01T06:13:39.614Z"
+    },
+    {
       "postId": "post-2e778402",
       "topicId": "topic-47f566cd",
       "userId": "b",
@@ -132,5 +145,5 @@
       "learnedAt": "2026-04-25T10:02:38.491Z"
     }
   ],
-  "updatedAt": "2026-05-26T08:13:39.745Z"
+  "updatedAt": "2026-06-01T06:13:39.614Z"
 }
