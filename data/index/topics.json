@@ -2670,11 +2670,11 @@
       "contentKind": "hub",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-06-01T06:38:40.352Z",
-      "updatedAt": "2026-06-01T06:42:02.472Z"
+      "updatedAt": "2026-06-01T06:45:40.942Z"
     }
   ],
-  "lastUpdated": "2026-06-01T06:42:02.472Z"
+  "lastUpdated": "2026-06-01T06:45:40.942Z"
 }
