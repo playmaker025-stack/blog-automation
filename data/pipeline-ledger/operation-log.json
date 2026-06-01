@@ -5028,7 +5028,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-3bacf77a",
       "at": "2026-05-31T05:55:04.679Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "만수동 전자담배 입문자를 위한 추천 액상 5종 비교 후기 [leaf]",
+      "proposedTitle": "만수동 전자담배 입문자 추천 액상 5종 직접 써본 비교 후기",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.5517241379310345,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-bb360ae4",
+      "at": "2026-06-01T04:19:17.116Z"
     }
   ],
-  "lastUpdated": "2026-05-31T05:55:04.679Z"
+  "lastUpdated": "2026-06-01T04:19:17.116Z"
 }
