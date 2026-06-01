@@ -1,24 +1,29 @@
 {
   "pipelineId": "pipe-bb360ae4",
   "type": "draft_output",
-  "savedAt": "2026-06-01T04:22:03.479Z",
+  "savedAt": "2026-06-01T04:23:31.062Z",
   "data": {
     "postId": "post-82b69f83",
     "title": "만수동 전자담배 입문자 추천 액상 5종 직접 써본 비교 후기",
-    "wordCount": 2194,
-    "generatedAt": "2026-06-01T04:22:02.397Z",
+    "wordCount": 2550,
+    "generatedAt": "2026-06-01T04:23:30.063Z",
     "contentPath": "data/posting-list/posts/post-82b69f83/content.md",
     "corpusSummaryUsed": true,
     "finalDraftCheck": {
       "ok": true,
       "blockingReasons": [],
       "warnings": [
+        "mustResolve 단서 부족: 비교 대상별 차이",
+        "mustResolve 단서 부족: 어떤 상황에서 A/B가 맞는지",
         "medium overlap: 결론 패턴 반복 위험 criteria_summary"
       ],
       "matchedForbiddenPhrases": [],
       "keywordStuffingFindings": [],
       "deferFindings": [],
-      "contractCoverageFindings": [],
+      "contractCoverageFindings": [
+        "mustResolve 단서 부족: 비교 대상별 차이",
+        "mustResolve 단서 부족: 어떤 상황에서 A/B가 맞는지"
+      ],
       "overlapFindings": [
         "medium overlap: 결론 패턴 반복 위험 criteria_summary"
       ]
