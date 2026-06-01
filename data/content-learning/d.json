@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mpv83bqr",
+      "topicId": "",
+      "userId": "d",
+      "title": "전자담배 액상 여러 개 같이 쓰는 사람 많은 이유 – 하나만 쓰면 질리는 이유도 있습니다",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224303158343",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-01T13:06:52.535Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-01T13:06:54.862Z"
+    },
+    {
       "postId": "post-manual-mptju4aj",
       "topicId": "",
       "userId": "d",
@@ -223,5 +236,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-05-31T09:00:08.407Z"
+  "updatedAt": "2026-06-01T13:06:54.862Z"
 }
