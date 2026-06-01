@@ -2651,7 +2651,30 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-30T04:15:59.583Z",
       "updatedAt": "2026-05-30T07:06:24.716Z"
+    },
+    {
+      "topicId": "topic-e24ccc47",
+      "title": "인천 부평 전자담배 무인샵 vs 일반샵 구매 장단점 비교",
+      "description": "인천 부평 지역에서 전자담배를 구매할 때 무인샵과 일반 샵 중 어떤 선택이 더 좋은지 장단점과 사용자 경험을 중심으로 비교 분석합니다.",
+      "category": "전자담배",
+      "tags": [
+        "인천",
+        "부평",
+        "전자담배",
+        "무인샵",
+        "일반샵",
+        "구매"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-01T06:38:40.352Z",
+      "updatedAt": "2026-06-01T06:38:40.352Z"
     }
   ],
-  "lastUpdated": "2026-06-01T06:37:29.533Z"
+  "lastUpdated": "2026-06-01T06:38:40.352Z"
 }
