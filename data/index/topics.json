@@ -2651,29 +2651,7 @@
       "assignedUserId": "c",
       "createdAt": "2026-05-30T04:15:59.583Z",
       "updatedAt": "2026-05-30T07:06:24.716Z"
-    },
-    {
-      "topicId": "topic-db6a4780",
-      "title": "인천 부평 전자담배 고장 증상별 자가 진단과 간단 수리법 안내",
-      "description": "인천 부평 지역 사용자를 위한 전자담배 고장 증상별 자가 진단법과 집에서 시도할 수 있는 간단한 수리법을 단계별로 설명합니다.",
-      "category": "전자담배",
-      "tags": [
-        "전자담배",
-        "고장증상",
-        "자가진단",
-        "수리법",
-        "부평"
-      ],
-      "subKeywords": [],
-      "source": "generated",
-      "contentKind": "leaf",
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "c",
-      "createdAt": "2026-05-30T04:16:01.846Z",
-      "updatedAt": "2026-05-30T04:25:03.774Z"
     }
   ],
-  "lastUpdated": "2026-06-01T06:13:37.772Z"
+  "lastUpdated": "2026-06-01T06:37:29.533Z"
 }
