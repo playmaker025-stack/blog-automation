@@ -4739,7 +4739,22 @@
       "publishedAt": "2026-05-31T09:00:06.770Z",
       "createdAt": "2026-05-31T09:00:06.770Z",
       "updatedAt": "2026-05-31T09:00:06.770Z"
+    },
+    {
+      "postId": "post-82b69f83",
+      "topicId": "topic-fda90984",
+      "userId": "b",
+      "title": "만수동 전자담배 입문자 추천 액상 5종 직접 써본 비교 후기",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-bb360ae4",
+      "pendingApproval": null,
+      "createdAt": "2026-06-01T04:19:22.858Z",
+      "publishedAt": null,
+      "updatedAt": "2026-06-01T04:19:22.858Z"
     }
   ],
-  "lastUpdated": "2026-05-31T12:27:30.123Z"
+  "lastUpdated": "2026-06-01T04:19:22.858Z"
 }
