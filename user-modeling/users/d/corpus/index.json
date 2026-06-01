@@ -2,6 +2,15 @@
   "userId": "d",
   "samples": [
     {
+      "sampleId": "published-post-manual-mpv83bqr",
+      "title": "전자담배 액상 여러 개 같이 쓰는 사람 많은 이유 – 하나만 쓰면 질리는 이유도 있습니다",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 6369,
+      "publishedAt": "2026-06-01T13:06:52.535Z",
+      "filePath": "user-modeling/users/d/corpus/samples/published-post-manual-mpv83bqr.md"
+    },
+    {
       "sampleId": "published-post-manual-mptju4aj",
       "title": "전자담배 처음 쓰면 어지러운 이유 – 니코틴 때문일까",
       "category": "published-post",
@@ -214,5 +223,5 @@
       "filePath": "user-modeling/users/d/corpus/samples/published-post-21e6d9ae.md"
     }
   ],
-  "lastUpdated": "2026-05-31T09:00:13.145Z"
+  "lastUpdated": "2026-06-01T13:06:59.667Z"
 }
