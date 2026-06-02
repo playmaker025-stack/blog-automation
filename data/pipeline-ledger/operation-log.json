@@ -5085,7 +5085,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-b06f106f",
       "at": "2026-06-02T03:31:14.367Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "입호흡 전자담배 추천",
+      "proposedTitle": "입호흡 전자담배 추천",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-06d86544",
+      "at": "2026-06-02T06:26:29.434Z"
     }
   ],
-  "lastUpdated": "2026-06-02T03:31:14.367Z"
+  "lastUpdated": "2026-06-02T06:26:29.434Z"
 }
