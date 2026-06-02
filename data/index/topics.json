@@ -1170,7 +1170,7 @@
       "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-05-07T10:01:18.868Z",
-      "updatedAt": "2026-06-02T06:33:16.479Z",
+      "updatedAt": "2026-06-02T06:33:18.168Z",
       "seriesDetailPlan": {
         "articleGoal": "입호흡 전자담배 추천를 정면으로 다루면서 선행 포스팅에서 쌓은 개념과 기준을 하나로 묶는다.",
         "searchIntent": "추천형/전환형",
@@ -1208,7 +1208,7 @@
         "callToAction": "상황별로 무엇을 먼저 봐야 하는지 정리한 뒤 방문/상담/추가 비교로 자연스럽게 연결한다.",
         "draftAngle": "메인 키워드를 중심으로 실제 선택을 도와주는 추천 글답게 판단 기준과 상황별 분기를 분명히 한다."
       },
-      "seriesDetailReadyAt": "2026-06-02T06:33:15.577Z"
+      "seriesDetailReadyAt": "2026-06-02T06:33:17.121Z"
     },
     {
       "topicId": "topic-series-mowamksr-yi4d-1",
@@ -2682,5 +2682,5 @@
       "updatedAt": "2026-06-01T06:45:40.942Z"
     }
   ],
-  "lastUpdated": "2026-06-02T06:33:16.479Z"
+  "lastUpdated": "2026-06-02T06:33:18.168Z"
 }
