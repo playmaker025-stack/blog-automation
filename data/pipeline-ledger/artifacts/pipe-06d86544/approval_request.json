@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-06d86544",
+  "type": "approval_request",
+  "savedAt": "2026-06-02T06:28:44.090Z",
+  "data": {
+    "pipelineId": "pipe-06d86544",
+    "previousTitle": "",
+    "proposedTitle": "입호흡 전자담배 추천",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 시리즈 상세 설계 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-06-02T06:28:38.647Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-06-02T06:28:38.647Z",
+      "modifications": null
+    }
+  }
+}
