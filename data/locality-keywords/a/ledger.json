@@ -2,6 +2,24 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "구월",
+      "phrase": "구월이나 부평역 쪽에서 직접 보고 고르시는",
+      "title": "입호흡 전자담배 추천",
+      "postId": "post-66914c3d",
+      "topicId": "topic-series-movbetq2-c79t-4",
+      "userId": "a",
+      "usedAt": "2026-06-02T06:32:46.219Z"
+    },
+    {
+      "keyword": "부평역",
+      "phrase": "구월이나 부평역 쪽에서 직접 보고 고르시는",
+      "title": "입호흡 전자담배 추천",
+      "postId": "post-66914c3d",
+      "topicId": "topic-series-movbetq2-c79t-4",
+      "userId": "a",
+      "usedAt": "2026-06-02T06:32:46.219Z"
+    },
+    {
       "keyword": "인천",
       "phrase": "인천이나 부평 쪽에서 처음 방문하시는 분들도",
       "title": "전자담배 처음 시작할 때 놓치기 쉬운 것들, 이것만 먼저 확인하세요",
@@ -1100,5 +1118,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-06-02T03:36:03.094Z"
+  "updatedAt": "2026-06-02T06:32:46.219Z"
 }
