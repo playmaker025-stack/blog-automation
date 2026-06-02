@@ -2,6 +2,19 @@
   "userId": "a",
   "entries": [
     {
+      "postId": "post-98484058",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "naverPostUrl": "https://blog.naver.com/iibodii00/224299140074",
+      "evalScore": 39,
+      "wordCount": 2500,
+      "publishedAt": "2026-06-02T04:15:47.178Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-06-02T04:15:53.527Z"
+    },
+    {
       "postId": "post-8e30ca66",
       "topicId": "topic-series-movbetq2-c79t-2",
       "userId": "a",
@@ -80,5 +93,5 @@
       "learnedAt": "2026-04-22T09:26:59.763Z"
     }
   ],
-  "updatedAt": "2026-05-22T09:47:13.591Z"
+  "updatedAt": "2026-06-02T04:15:53.527Z"
 }
