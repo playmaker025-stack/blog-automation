@@ -1167,10 +1167,10 @@
       ],
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-05-07T10:01:18.868Z",
-      "updatedAt": "2026-06-02T06:28:40.688Z",
+      "updatedAt": "2026-06-02T06:30:31.743Z",
       "seriesDetailPlan": {
         "articleGoal": "입호흡 전자담배 추천를 정면으로 다루면서 선행 포스팅에서 쌓은 개념과 기준을 하나로 묶는다.",
         "searchIntent": "추천형/전환형",
@@ -2676,5 +2676,5 @@
       "updatedAt": "2026-06-01T06:45:40.942Z"
     }
   ],
-  "lastUpdated": "2026-06-02T06:28:40.688Z"
+  "lastUpdated": "2026-06-02T06:30:31.743Z"
 }
