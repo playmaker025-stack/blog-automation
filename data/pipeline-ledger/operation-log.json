@@ -5050,7 +5050,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-18423537",
       "at": "2026-06-01T06:40:56.892Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-series-movbetq2-c79t-4",
+      "userId": "a",
+      "message": "선행 포스팅 미발행: 메인 글 \"입호흡 전자담배 추천\" 작성 전 \"전자담배 초보자가 시작 전에 자주 놓치는 체크포인트\" 발행이 필요합니다.",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-d16406ff",
+      "at": "2026-06-02T03:27:21.535Z"
     }
   ],
-  "lastUpdated": "2026-06-01T06:40:56.892Z"
+  "lastUpdated": "2026-06-02T03:27:21.535Z"
 }
