@@ -2,6 +2,33 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "인천",
+      "phrase": "인천이나 부평 쪽에서 처음 방문하시는 분들도",
+      "title": "전자담배 처음 시작할 때 놓치기 쉬운 것들, 이것만 먼저 확인하세요",
+      "postId": "post-98484058",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-06-02T03:36:03.094Z"
+    },
+    {
+      "keyword": "부평",
+      "phrase": "인천이나 부평 쪽에서 처음 방문하시는 분들도",
+      "title": "전자담배 처음 시작할 때 놓치기 쉬운 것들, 이것만 먼저 확인하세요",
+      "postId": "post-98484058",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-06-02T03:36:03.094Z"
+    },
+    {
+      "keyword": "만수",
+      "phrase": "인천 만수동만수르",
+      "title": "전자담배 처음 시작할 때 놓치기 쉬운 것들, 이것만 먼저 확인하세요",
+      "postId": "post-98484058",
+      "topicId": "topic-series-movbetq2-c79t-3",
+      "userId": "a",
+      "usedAt": "2026-06-02T03:36:03.094Z"
+    },
+    {
       "keyword": "서창동",
       "phrase": "부평 전자담배, 서창동",
       "title": "입호흡 액상 추천 베스트 6 만수동만수르 픽",
@@ -1073,5 +1100,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-05-29T07:48:32.887Z"
+  "updatedAt": "2026-06-02T03:36:03.094Z"
 }
