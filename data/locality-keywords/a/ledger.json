@@ -2,6 +2,33 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "만수역",
+      "phrase": "만수역",
+      "title": "입호흡 전자담배 추천",
+      "postId": "post-3ebb4049",
+      "topicId": "topic-series-movbetq2-c79t-4",
+      "userId": "a",
+      "usedAt": "2026-06-02T06:48:00.614Z"
+    },
+    {
+      "keyword": "계산동",
+      "phrase": "남동구나 계산동 쪽에서 오시는 분들도 아래",
+      "title": "입호흡 전자담배 추천",
+      "postId": "post-3ebb4049",
+      "topicId": "topic-series-movbetq2-c79t-4",
+      "userId": "a",
+      "usedAt": "2026-06-02T06:48:00.614Z"
+    },
+    {
+      "keyword": "남동구",
+      "phrase": "남동구나 계산동 쪽에서 오시는 분들도 아래",
+      "title": "입호흡 전자담배 추천",
+      "postId": "post-3ebb4049",
+      "topicId": "topic-series-movbetq2-c79t-4",
+      "userId": "a",
+      "usedAt": "2026-06-02T06:48:00.614Z"
+    },
+    {
       "keyword": "구월",
       "phrase": "구월이나 부평역 쪽에서 직접 보고 고르시는",
       "title": "입호흡 전자담배 추천",
@@ -1118,5 +1145,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-06-02T06:32:46.219Z"
+  "updatedAt": "2026-06-02T06:48:00.614Z"
 }
