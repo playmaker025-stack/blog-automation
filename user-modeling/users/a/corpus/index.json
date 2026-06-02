@@ -2,6 +2,20 @@
   "userId": "a",
   "samples": [
     {
+      "sampleId": "published-post-98484058",
+      "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
+      "category": "a",
+      "tags": [
+        "입호흡 전자담배 추천",
+        "선행포스팅",
+        "키워드빌드업",
+        "초보자가이드"
+      ],
+      "wordCount": 2500,
+      "publishedAt": "2026-06-02T04:15:47.178Z",
+      "filePath": "user-modeling/users/a/corpus/samples/published-post-98484058.md"
+    },
+    {
       "sampleId": "published-post-8e30ca66",
       "title": "인천 만수동만수르에서 고유가 피해 지원금 전자담배 사용 안내",
       "category": "a",
@@ -78,5 +92,5 @@
       "filePath": "user-modeling/users/a/corpus/samples/published-post-import-3c16fe70.md"
     }
   ],
-  "lastUpdated": "2026-05-22T09:47:17.676Z"
+  "lastUpdated": "2026-06-02T04:15:56.322Z"
 }
