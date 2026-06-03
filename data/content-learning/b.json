@@ -2,6 +2,19 @@
   "userId": "b",
   "entries": [
     {
+      "postId": "post-4b8ab9fc",
+      "topicId": "topic-e702b14e",
+      "userId": "b",
+      "title": "말론S 인천전자담배 입문용 기기 추천과 팟 선택 가이드",
+      "naverPostUrl": "https://blog.naver.com/youferst/224304997348",
+      "evalScore": 56,
+      "wordCount": 2717,
+      "publishedAt": "2026-06-03T11:12:31.918Z",
+      "topicSource": "direct",
+      "contentKind": null,
+      "learnedAt": "2026-06-03T11:12:39.250Z"
+    },
+    {
       "postId": "post-82b69f83",
       "topicId": "topic-fda90984",
       "userId": "b",
@@ -145,5 +158,5 @@
       "learnedAt": "2026-04-25T10:02:38.491Z"
     }
   ],
-  "updatedAt": "2026-06-01T06:13:39.614Z"
+  "updatedAt": "2026-06-03T11:12:39.250Z"
 }
