@@ -2680,7 +2680,29 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-01T06:38:40.352Z",
       "updatedAt": "2026-06-01T06:45:40.942Z"
+    },
+    {
+      "topicId": "topic-e702b14e",
+      "title": "인천전자담배 입문용 기기 추천 말론S",
+      "description": "메인키워드: 말론S / 서브 키워드: 인천전자담배",
+      "category": "direct-run",
+      "tags": [
+        "말론S",
+        "인천전자담배"
+      ],
+      "targetKeyword": "말론S",
+      "subKeywords": [
+        "인천전자담배"
+      ],
+      "source": "direct",
+      "targetMainKeyword": "말론S",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-06-03T07:05:58.592Z",
+      "updatedAt": "2026-06-03T07:05:58.592Z"
     }
   ],
-  "lastUpdated": "2026-06-02T06:48:05.389Z"
+  "lastUpdated": "2026-06-03T07:05:58.592Z"
 }
