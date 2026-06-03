@@ -4829,7 +4829,22 @@
       "createdAt": "2026-06-02T06:43:31.870Z",
       "publishedAt": null,
       "updatedAt": "2026-06-02T06:48:03.842Z"
+    },
+    {
+      "postId": "post-4b8ab9fc",
+      "topicId": "topic-e702b14e",
+      "userId": "b",
+      "title": "인천전자담배 입문용 기기 추천 말론S – 스펙, 팟 선택, 실사용 체크포인트",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-e8155cae",
+      "pendingApproval": null,
+      "createdAt": "2026-06-03T07:08:01.522Z",
+      "publishedAt": null,
+      "updatedAt": "2026-06-03T07:08:01.522Z"
     }
   ],
-  "lastUpdated": "2026-06-02T06:48:03.842Z"
+  "lastUpdated": "2026-06-03T07:08:01.522Z"
 }
