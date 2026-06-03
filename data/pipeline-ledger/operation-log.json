@@ -5140,7 +5140,20 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-b1f8e6f7",
       "at": "2026-06-02T06:43:19.504Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천전자담배 입문용 기기 추천 말론S",
+      "proposedTitle": "인천전자담배 입문용 기기 추천 말론S – 스펙, 팟 선택, 실사용 체크포인트",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.5,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-e8155cae",
+      "at": "2026-06-03T07:07:55.568Z"
     }
   ],
-  "lastUpdated": "2026-06-02T06:43:19.504Z"
+  "lastUpdated": "2026-06-03T07:07:55.568Z"
 }
