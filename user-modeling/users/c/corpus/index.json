@@ -2,6 +2,15 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-manual-mpxsozc6",
+      "title": "만수동전자담배 말론S 전담 스펙 성능 & 사용법, 색상 종류,사용후기",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 6960,
+      "publishedAt": "2026-06-03T08:19:09.505Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-manual-mpxsozc6.md"
+    },
+    {
       "sampleId": "published-post-f0e021e9",
       "title": "인천 만수역 입호흡 전자담배 베이핑하는법과 추천 기기 비교",
       "category": "전자담배",
@@ -305,5 +314,5 @@
       "filePath": "user-modeling/users/c/corpus/samples/published-post-5beaf101.md"
     }
   ],
-  "lastUpdated": "2026-05-30T07:06:29.059Z"
+  "lastUpdated": "2026-06-03T08:19:17.717Z"
 }
