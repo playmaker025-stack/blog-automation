@@ -2,6 +2,18 @@
   "userId": "b",
   "samples": [
     {
+      "sampleId": "published-post-4b8ab9fc",
+      "title": "말론S 인천전자담배 입문용 기기 추천과 팟 선택 가이드",
+      "category": "direct-run",
+      "tags": [
+        "말론S",
+        "인천전자담배"
+      ],
+      "wordCount": 2717,
+      "publishedAt": "2026-06-03T11:12:31.918Z",
+      "filePath": "user-modeling/users/b/corpus/samples/published-post-4b8ab9fc.md"
+    },
+    {
       "sampleId": "published-post-82b69f83",
       "title": "삼산동 전자담배 액상 추천 5종 비교, 입문자 맞춤 선택법",
       "category": "b",
@@ -159,5 +171,5 @@
       "filePath": "user-modeling/users/b/corpus/samples/published-post-import-08c915d5f3.md"
     }
   ],
-  "lastUpdated": "2026-06-01T06:13:42.496Z"
+  "lastUpdated": "2026-06-03T11:12:42.232Z"
 }
