@@ -5197,7 +5197,20 @@
       "errorName": "Error",
       "pipelineId": "pipe-b59952a4",
       "at": "2026-06-04T04:48:14.555Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "입호흡 전자담배 추천",
+      "proposedTitle": "입호흡 전자담배 추천 – 상황별로 골라쓰는 5가지 기기",
+      "isMaterial": false,
+      "triggeredSignals": [
+        "coreKeywordChanged"
+      ],
+      "stringSimilarity": 0.3913043478260869,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-baeb0238",
+      "at": "2026-06-04T04:52:52.031Z"
     }
   ],
-  "lastUpdated": "2026-06-04T04:48:14.555Z"
+  "lastUpdated": "2026-06-04T04:52:52.031Z"
 }
