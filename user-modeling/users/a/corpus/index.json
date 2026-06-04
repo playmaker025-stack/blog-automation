@@ -2,6 +2,20 @@
   "userId": "a",
   "samples": [
     {
+      "sampleId": "published-post-00ff14a1",
+      "title": "2026 입호흡 전자담배 추천 베스트 5｜만수동만수르 엄선",
+      "category": "a",
+      "tags": [
+        "입호흡 전자담배 추천",
+        "추천",
+        "메인포스팅",
+        "키워드시리즈"
+      ],
+      "wordCount": 3782,
+      "publishedAt": "2026-06-04T08:50:09.647Z",
+      "filePath": "user-modeling/users/a/corpus/samples/published-post-00ff14a1.md"
+    },
+    {
       "sampleId": "published-post-98484058",
       "title": "전자담배 초보자가 시작 전에 자주 놓치는 체크포인트",
       "category": "a",
@@ -92,5 +106,5 @@
       "filePath": "user-modeling/users/a/corpus/samples/published-post-import-3c16fe70.md"
     }
   ],
-  "lastUpdated": "2026-06-02T04:15:56.322Z"
+  "lastUpdated": "2026-06-04T08:50:17.767Z"
 }
