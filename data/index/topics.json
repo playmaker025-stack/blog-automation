@@ -2702,7 +2702,39 @@
       "assignedUserId": "b",
       "createdAt": "2026-06-03T07:05:58.592Z",
       "updatedAt": "2026-06-03T11:12:37.668Z"
+    },
+    {
+      "topicId": "topic-3579421b",
+      "title": "전자담배 vs 연초 차이 비교 - 건강, 유지 비용 만수르전담 에서 알려드릴게요!",
+      "description": "메인키워드: 전담 vs 연초 / 서브 키워드: 니코틴, 타르, 가격, 유지 비용, 냄새, 타격감",
+      "category": "direct-run",
+      "tags": [
+        "전담 vs 연초",
+        "니코틴",
+        "타르",
+        "가격",
+        "유지 비용",
+        "냄새",
+        "타격감"
+      ],
+      "targetKeyword": "전담 vs 연초",
+      "subKeywords": [
+        "니코틴",
+        "타르",
+        "가격",
+        "유지 비용",
+        "냄새",
+        "타격감"
+      ],
+      "source": "direct",
+      "targetMainKeyword": "전담 vs 연초",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-04T05:15:16.034Z",
+      "updatedAt": "2026-06-04T05:15:16.034Z"
     }
   ],
-  "lastUpdated": "2026-06-04T04:59:10.590Z"
+  "lastUpdated": "2026-06-04T05:15:16.034Z"
 }
