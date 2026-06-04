@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mpzfqxex",
+      "topicId": "",
+      "userId": "d",
+      "title": "전자담배 액상 맛이 갑자기 안 느껴지는 이유 – 기기 문제가 아닐 수도 있습니다",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224306125232",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-04T11:52:16.530Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-04T11:52:18.212Z"
+    },
+    {
       "postId": "post-manual-mpv83bqr",
       "topicId": "",
       "userId": "d",
@@ -236,5 +249,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-06-01T13:06:54.862Z"
+  "updatedAt": "2026-06-04T11:52:18.212Z"
 }
