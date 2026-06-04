@@ -2,6 +2,24 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "부평구",
+      "phrase": "부평구 쪽이나 부천에서 직접 보고 고르는 분들도",
+      "title": "입호흡 전자담배 추천",
+      "postId": "post-d068e456",
+      "topicId": "topic-series-movbetq2-c79t-4",
+      "userId": "a",
+      "usedAt": "2026-06-04T03:49:42.599Z"
+    },
+    {
+      "keyword": "부천",
+      "phrase": "부평구 쪽이나 부천에서 직접 보고 고르는 분들도",
+      "title": "입호흡 전자담배 추천",
+      "postId": "post-d068e456",
+      "topicId": "topic-series-movbetq2-c79t-4",
+      "userId": "a",
+      "usedAt": "2026-06-04T03:49:42.599Z"
+    },
+    {
       "keyword": "만수역",
       "phrase": "만수역",
       "title": "입호흡 전자담배 추천",
@@ -1145,5 +1163,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-06-02T06:48:00.614Z"
+  "updatedAt": "2026-06-04T03:49:42.599Z"
 }
