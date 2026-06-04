@@ -2,6 +2,15 @@
   "userId": "d",
   "samples": [
     {
+      "sampleId": "published-post-manual-mpzfqxex",
+      "title": "전자담배 액상 맛이 갑자기 안 느껴지는 이유 – 기기 문제가 아닐 수도 있습니다",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 6040,
+      "publishedAt": "2026-06-04T11:52:16.530Z",
+      "filePath": "user-modeling/users/d/corpus/samples/published-post-manual-mpzfqxex.md"
+    },
+    {
       "sampleId": "published-post-manual-mpv83bqr",
       "title": "전자담배 액상 여러 개 같이 쓰는 사람 많은 이유 – 하나만 쓰면 질리는 이유도 있습니다",
       "category": "published-post",
@@ -223,5 +232,5 @@
       "filePath": "user-modeling/users/d/corpus/samples/published-post-21e6d9ae.md"
     }
   ],
-  "lastUpdated": "2026-06-01T13:06:59.667Z"
+  "lastUpdated": "2026-06-04T11:52:23.811Z"
 }
