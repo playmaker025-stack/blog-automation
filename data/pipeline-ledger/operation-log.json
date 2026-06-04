@@ -5153,7 +5153,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-e8155cae",
       "at": "2026-06-03T07:07:55.568Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-series-movbetq2-c79t-4",
+      "userId": "a",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-66914c3d, ready:post-3ebb4049 / Similar existing title found: 입호흡 전자담배 추천 (ready, 1); 입호흡 전자담배 추천 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-0adc4be8",
+      "at": "2026-06-04T03:32:01.061Z"
     }
   ],
-  "lastUpdated": "2026-06-03T07:07:55.568Z"
+  "lastUpdated": "2026-06-04T03:32:01.061Z"
 }
