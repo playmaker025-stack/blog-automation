@@ -2113,67 +2113,6 @@
       "seriesDetailReadyAt": "2026-05-21T11:11:10.717Z"
     },
     {
-      "topicId": "topic-series-mpfe3l8p-ug7r-4",
-      "title": "인천전자담배 모드기기 전문 매장",
-      "description": "선행 포스팅에서 쌓은 개념, 선택 기준, 초보자 질문을 묶어 메인 키워드를 정면으로 다루는 추천/정리 글입니다. 메인 글 발행 전 같은 시리즈의 선행 포스팅이 먼저 발행되어야 합니다.",
-      "category": "d",
-      "tags": [
-        "인천전자담배 모드기기 전문 매장",
-        "추천",
-        "메인포스팅",
-        "키워드시리즈"
-      ],
-      "source": "generated",
-      "contentKind": "hub",
-      "seriesId": "series-d-인천전자담배-모드기기-전문-매장-mpfe3l8p-ug7r",
-      "seriesRole": "main",
-      "targetMainKeyword": "인천전자담배 모드기기 전문 매장",
-      "sequenceOrder": 4,
-      "prerequisiteTopicIds": [
-        "topic-series-mpfe3l8p-ug7r-1",
-        "topic-series-mpfe3l8p-ug7r-2",
-        "topic-series-mpfe3l8p-ug7r-3"
-      ],
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "d",
-      "createdAt": "2026-05-21T11:11:07.055Z",
-      "updatedAt": "2026-05-21T11:11:16.830Z",
-      "seriesDetailPlan": {
-        "articleGoal": "인천전자담배 모드기기 전문 매장를 정면으로 다루면서 선행 포스팅에서 쌓은 개념과 기준을 하나로 묶는다.",
-        "searchIntent": "추천형/전환형",
-        "readerQuestion": "인천전자담배 모드기기 전문 매장를 지금 고른다면 어떤 기준으로 어떤 옵션을 먼저 봐야 하나?",
-        "primaryKeyword": "인천전자담배 모드기기 전문 매장",
-        "secondaryKeywords": [
-          "입문",
-          "추천",
-          "선택 기준",
-          "비교"
-        ],
-        "recommendedSections": [
-          "추천 글을 찾는 현재 상황과 전제 정리",
-          "선행 글에서 다룬 기준 요약",
-          "사용자 상황별 추천 구간 정리",
-          "내부링크로 선행 글과 연결되는 비교/보충 섹션",
-          "상담 또는 다음 행동으로 이어지는 마무리"
-        ],
-        "keywordPlacementRules": [
-          "인천전자담배 모드기기 전문 매장는 제목, 도입부, 핵심 비교 섹션, 결론에 일관되게 유지한다.",
-          "선행 글과 중복 설명은 요약으로 줄이고, 추천 판단과 전환 요소에 분량을 더 쓴다.",
-          "내부링크는 실제 선행 글 제목 기준으로 연결한다."
-        ],
-        "internalLinkTitles": [
-          "인천전자담배 모드기기 전문 매장 보기 전에 핵심 개념부터 정리",
-          "매장 고르기 전에 많이 보는 선택 기준",
-          "초보자가 매장 시작 전에 자주 놓치는 체크포인트"
-        ],
-        "callToAction": "상황별로 무엇을 먼저 봐야 하는지 정리한 뒤 방문/상담/추가 비교로 자연스럽게 연결한다.",
-        "draftAngle": "메인 키워드를 중심으로 실제 선택을 도와주는 추천 글답게 판단 기준과 상황별 분기를 분명히 한다."
-      },
-      "seriesDetailReadyAt": "2026-05-21T11:11:17.054Z"
-    },
-    {
       "topicId": "topic-1e754013",
       "title": "인천 전자담배 모드기기 전문점",
       "description": "메인키워드: 인천 전자담배 / 서브 키워드: 모드기기 전문점",
@@ -2681,5 +2620,5 @@
       "updatedAt": "2026-06-04T07:03:37.893Z"
     }
   ],
-  "lastUpdated": "2026-06-04T10:10:34.976Z"
+  "lastUpdated": "2026-06-04T10:12:08.513Z"
 }
