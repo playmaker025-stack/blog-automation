@@ -2,6 +2,15 @@
   "userId": "d",
   "samples": [
     {
+      "sampleId": "published-post-manual-mpzfs8lh",
+      "title": "전자담배 액상 오래 쓰는 방법(액상 빨리 줄어드는 사람들 꼭 보세요)",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 6335,
+      "publishedAt": "2026-06-04T11:53:17.030Z",
+      "filePath": "user-modeling/users/d/corpus/samples/published-post-manual-mpzfs8lh.md"
+    },
+    {
       "sampleId": "published-post-manual-mpzfqxex",
       "title": "전자담배 액상 맛이 갑자기 안 느껴지는 이유 – 기기 문제가 아닐 수도 있습니다",
       "category": "published-post",
@@ -232,5 +241,5 @@
       "filePath": "user-modeling/users/d/corpus/samples/published-post-21e6d9ae.md"
     }
   ],
-  "lastUpdated": "2026-06-04T11:52:23.811Z"
+  "lastUpdated": "2026-06-04T11:53:24.476Z"
 }
