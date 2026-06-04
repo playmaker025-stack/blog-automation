@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mpzfs8lh",
+      "topicId": "",
+      "userId": "d",
+      "title": "전자담배 액상 오래 쓰는 방법(액상 빨리 줄어드는 사람들 꼭 보세요)",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224306052395",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-04T11:53:17.030Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-04T11:53:18.888Z"
+    },
+    {
       "postId": "post-manual-mpzfqxex",
       "topicId": "",
       "userId": "d",
@@ -249,5 +262,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-06-04T11:52:18.212Z"
+  "updatedAt": "2026-06-04T11:53:18.888Z"
 }
