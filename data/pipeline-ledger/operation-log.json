@@ -5210,7 +5210,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-baeb0238",
       "at": "2026-06-04T04:52:52.031Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 vs 연초 차이 비교 - 건강, 유지 비용 만수르전담 에서 알려드릴게요!",
+      "proposedTitle": "전자담배 vs 연초 차이 비교 - 건강, 유지 비용 만수르전담 에서 알려드릴게요!",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-afcbce28",
+      "at": "2026-06-04T05:17:09.304Z"
     }
   ],
-  "lastUpdated": "2026-06-04T04:52:52.031Z"
+  "lastUpdated": "2026-06-04T05:17:09.304Z"
 }
