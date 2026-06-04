@@ -5164,7 +5164,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-0adc4be8",
       "at": "2026-06-04T03:32:01.061Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "입호흡 전자담배 추천",
+      "proposedTitle": "입호흡 전자담배 추천",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-f89e0c71",
+      "at": "2026-06-04T03:45:41.675Z"
     }
   ],
-  "lastUpdated": "2026-06-04T03:32:01.061Z"
+  "lastUpdated": "2026-06-04T03:45:41.675Z"
 }
