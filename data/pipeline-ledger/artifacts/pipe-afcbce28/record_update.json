@@ -1,0 +1,14 @@
+{
+  "pipelineId": "pipe-afcbce28",
+  "type": "record_update",
+  "savedAt": "2026-06-04T05:17:45.461Z",
+  "data": {
+    "postingListUpdated": true,
+    "postingListUpdatedAt": "2026-06-04T05:17:39.521Z",
+    "indexUpdated": true,
+    "indexUpdatedAt": "2026-06-04T05:17:39.521Z",
+    "postId": "post-22a2eeb5",
+    "topicStatusBefore": "draft",
+    "topicStatusAfter": "in-progress"
+  }
+}
