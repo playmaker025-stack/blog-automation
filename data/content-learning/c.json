@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-22a2eeb5",
+      "topicId": "topic-3579421b",
+      "userId": "c",
+      "title": "전자담배 vs 연초 차이 비교 - 건강, 유지 비용 만수르전담 에서 알려드릴게요!",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224305841401",
+      "evalScore": 47,
+      "wordCount": 2390,
+      "publishedAt": "2026-06-04T07:03:32.808Z",
+      "topicSource": "direct",
+      "contentKind": null,
+      "learnedAt": "2026-06-04T07:03:39.452Z"
+    },
+    {
       "postId": "post-manual-mpxsozc6",
       "topicId": "",
       "userId": "c",
@@ -353,5 +366,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-06-03T08:19:11.636Z"
+  "updatedAt": "2026-06-04T07:03:39.452Z"
 }
