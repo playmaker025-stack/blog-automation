@@ -2,6 +2,19 @@
   "userId": "e",
   "entries": [
     {
+      "postId": "post-manual-mpzhnog8",
+      "topicId": "",
+      "userId": "e",
+      "title": "입호흡 전자담배 신제품 말론S 출시",
+      "naverPostUrl": "https://blog.naver.com/godmaker0/224306173121",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-04T12:45:44.122Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-04T12:45:46.118Z"
+    },
+    {
       "postId": "post-0cf15a05",
       "topicId": "topic-16059a55",
       "userId": "e",
@@ -80,5 +93,5 @@
       "learnedAt": "2026-05-10T12:02:04.252Z"
     }
   ],
-  "updatedAt": "2026-05-31T12:27:34.361Z"
+  "updatedAt": "2026-06-04T12:45:46.118Z"
 }
