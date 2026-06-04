@@ -2,6 +2,23 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-22a2eeb5",
+      "title": "전자담배 vs 연초 차이 비교 - 건강, 유지 비용 만수르전담 에서 알려드릴게요!",
+      "category": "direct-run",
+      "tags": [
+        "전담 vs 연초",
+        "니코틴",
+        "타르",
+        "가격",
+        "유지 비용",
+        "냄새",
+        "타격감"
+      ],
+      "wordCount": 2390,
+      "publishedAt": "2026-06-04T07:03:32.808Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-22a2eeb5.md"
+    },
+    {
       "sampleId": "published-post-manual-mpxsozc6",
       "title": "만수동전자담배 말론S 전담 스펙 성능 & 사용법, 색상 종류,사용후기",
       "category": "published-post",
@@ -314,5 +331,5 @@
       "filePath": "user-modeling/users/c/corpus/samples/published-post-5beaf101.md"
     }
   ],
-  "lastUpdated": "2026-06-03T08:19:17.717Z"
+  "lastUpdated": "2026-06-04T07:03:42.734Z"
 }
