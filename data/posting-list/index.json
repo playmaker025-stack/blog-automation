@@ -4859,7 +4859,22 @@
       "publishedAt": "2026-06-03T08:19:09.505Z",
       "createdAt": "2026-06-03T08:19:09.505Z",
       "updatedAt": "2026-06-03T08:19:09.505Z"
+    },
+    {
+      "postId": "post-d068e456",
+      "topicId": "topic-series-movbetq2-c79t-4",
+      "userId": "a",
+      "title": "입호흡 전자담배 추천",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-f89e0c71",
+      "pendingApproval": null,
+      "createdAt": "2026-06-04T03:46:42.202Z",
+      "publishedAt": null,
+      "updatedAt": "2026-06-04T03:46:42.202Z"
     }
   ],
-  "lastUpdated": "2026-06-03T11:12:34.811Z"
+  "lastUpdated": "2026-06-04T03:46:42.202Z"
 }
