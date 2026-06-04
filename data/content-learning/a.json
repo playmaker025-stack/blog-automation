@@ -2,6 +2,19 @@
   "userId": "a",
   "entries": [
     {
+      "postId": "post-00ff14a1",
+      "topicId": "topic-series-movbetq2-c79t-4",
+      "userId": "a",
+      "title": "2026 입호흡 전자담배 추천 베스트 5｜만수동만수르 엄선",
+      "naverPostUrl": "https://blog.naver.com/iibodii00/224305965234",
+      "evalScore": 68,
+      "wordCount": 3782,
+      "publishedAt": "2026-06-04T08:50:09.647Z",
+      "topicSource": "generated",
+      "contentKind": "hub",
+      "learnedAt": "2026-06-04T08:50:14.480Z"
+    },
+    {
       "postId": "post-98484058",
       "topicId": "topic-series-movbetq2-c79t-3",
       "userId": "a",
@@ -93,5 +106,5 @@
       "learnedAt": "2026-04-22T09:26:59.763Z"
     }
   ],
-  "updatedAt": "2026-06-02T04:15:53.527Z"
+  "updatedAt": "2026-06-04T08:50:14.480Z"
 }
