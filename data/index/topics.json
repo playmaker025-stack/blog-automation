@@ -2750,7 +2750,29 @@
       "assignedUserId": "a",
       "createdAt": "2026-06-05T03:25:55.486Z",
       "updatedAt": "2026-06-05T03:25:55.486Z"
+    },
+    {
+      "topicId": "topic-29c22075",
+      "title": "입호흡 전자담배 추천 시원한 액상 베스트 5, 인천 구월동 기준",
+      "description": "인천 구월동 지역 기준으로 시원한 맛을 선호하는 입호흡 전자담배 사용자들을 위한 액상 베스트 5를 추천하고 상세 후기를 제공합니다.",
+      "category": "a",
+      "tags": [
+        "입호흡",
+        "전자담배",
+        "시원한액상",
+        "구월동",
+        "추천"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-06-05T03:25:57.405Z",
+      "updatedAt": "2026-06-05T03:25:57.405Z"
     }
   ],
-  "lastUpdated": "2026-06-05T03:25:55.486Z"
+  "lastUpdated": "2026-06-05T03:25:57.405Z"
 }
