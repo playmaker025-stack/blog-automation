@@ -2,6 +2,19 @@
   "userId": "a",
   "entries": [
     {
+      "postId": "post-be2405d7",
+      "topicId": "topic-29c22075",
+      "userId": "a",
+      "title": "입호흡 시원한 액상 추천 베스트5 인천 구월동 만수르 픽",
+      "naverPostUrl": "https://blog.naver.com/iibodii00/224306956030",
+      "evalScore": 51,
+      "wordCount": 3203,
+      "publishedAt": "2026-06-05T07:13:01.117Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-06-05T07:13:05.389Z"
+    },
+    {
       "postId": "post-00ff14a1",
       "topicId": "topic-series-movbetq2-c79t-4",
       "userId": "a",
@@ -106,5 +119,5 @@
       "learnedAt": "2026-04-22T09:26:59.763Z"
     }
   ],
-  "updatedAt": "2026-06-04T08:50:14.480Z"
+  "updatedAt": "2026-06-05T07:13:05.389Z"
 }
