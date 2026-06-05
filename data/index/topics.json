@@ -2684,7 +2684,29 @@
       "assignedUserId": "a",
       "createdAt": "2026-06-05T03:22:10.089Z",
       "updatedAt": "2026-06-05T03:22:10.089Z"
+    },
+    {
+      "topicId": "topic-fcf4dc4b",
+      "title": "인천 부평구 입호흡 전자담배 유목민 정착템 추천",
+      "description": "전자담배 유목민들이 부평구에서 정착한 입호흡 전자담배 추천 제품과 실제 사용 후기를 공유합니다.",
+      "category": "a",
+      "tags": [
+        "부평구",
+        "입호흡",
+        "전자담배",
+        "유목민",
+        "후기"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-06-05T03:22:12.054Z",
+      "updatedAt": "2026-06-05T03:22:12.054Z"
     }
   ],
-  "lastUpdated": "2026-06-05T03:22:10.089Z"
+  "lastUpdated": "2026-06-05T03:22:12.054Z"
 }
