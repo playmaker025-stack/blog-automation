@@ -2641,7 +2641,29 @@
       "assignedUserId": "a",
       "createdAt": "2026-06-05T03:21:10.442Z",
       "updatedAt": "2026-06-05T03:21:10.442Z"
+    },
+    {
+      "topicId": "topic-e9d035b8",
+      "title": "입호흡 전자담배 폐호흡과의 차이점 및 추천 사용자 유형 안내",
+      "description": "입호흡과 폐호흡 전자담배의 차이점을 자세히 설명하고, 각 방식에 적합한 사용자 유형과 추천 기기를 소개합니다. 선택에 고민하는 분들을 위한 가이드.",
+      "category": "a",
+      "tags": [
+        "입호흡",
+        "폐호흡",
+        "전자담배",
+        "추천",
+        "사용자유형"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-06-05T03:21:12.543Z",
+      "updatedAt": "2026-06-05T03:21:12.543Z"
     }
   ],
-  "lastUpdated": "2026-06-05T03:21:10.442Z"
+  "lastUpdated": "2026-06-05T03:21:12.543Z"
 }
