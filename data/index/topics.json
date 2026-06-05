@@ -2618,7 +2618,30 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-04T05:15:16.034Z",
       "updatedAt": "2026-06-04T07:03:37.893Z"
+    },
+    {
+      "topicId": "topic-a89ad3c4",
+      "title": "인천 부평 입호흡 전자담배 추천 기기 TOP5 및 사용 후기",
+      "description": "부평 지역에서 인기 있는 입호흡 전자담배 기기 5종을 선정하고, 직접 사용해본 내돈내산 후기를 공유합니다. 초보자도 쉽게 이해할 수 있는 기기별 특징과 선택 팁 포함.",
+      "category": "a",
+      "tags": [
+        "인천",
+        "부평",
+        "입호흡",
+        "전자담배",
+        "기기추천",
+        "후기"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-06-05T03:21:10.442Z",
+      "updatedAt": "2026-06-05T03:21:10.442Z"
     }
   ],
-  "lastUpdated": "2026-06-04T10:12:08.513Z"
+  "lastUpdated": "2026-06-05T03:21:10.442Z"
 }
