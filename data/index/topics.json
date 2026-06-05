@@ -2663,7 +2663,28 @@
       "assignedUserId": "a",
       "createdAt": "2026-06-05T03:21:12.543Z",
       "updatedAt": "2026-06-05T03:21:12.543Z"
+    },
+    {
+      "topicId": "topic-75f08d88",
+      "title": "부평역 인근 입호흡 전자담배 기기 추천과 사용 꿀팁",
+      "description": "부평역 주변에서 구매 가능한 입호흡 전자담배 기기 추천과 초보자도 쉽게 따라할 수 있는 사용 팁을 소개합니다.",
+      "category": "a",
+      "tags": [
+        "부평역",
+        "입호흡",
+        "전자담배기기",
+        "초보자"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-06-05T03:22:10.089Z",
+      "updatedAt": "2026-06-05T03:22:10.089Z"
     }
   ],
-  "lastUpdated": "2026-06-05T03:21:12.543Z"
+  "lastUpdated": "2026-06-05T03:22:10.089Z"
 }
