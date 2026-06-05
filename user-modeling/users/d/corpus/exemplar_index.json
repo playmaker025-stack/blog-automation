@@ -2,6 +2,17 @@
   "userId": "d",
   "exemplars": [
     {
+      "sampleId": "published-post-manual-mq0wo75j",
+      "title": "전자담배 액상 냄새 많이 날까 – 연초랑 실제 차이 정리",
+      "category": "published-post",
+      "tags": [],
+      "relevanceScore": 0.7,
+      "styleNotes": "tone=casual",
+      "excerpt": "전자담배 액상 냄새 많이 날까 – 연초랑 실제 차이 정리 전자담배 액상 냄새 많이 날까 – 연초랑 실제 차이 정리 : 네이버 블로그 NAVER 블로그 인천 전자담배 부평 만수르 조카 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기",
+      "wordCount": 6143,
+      "publishedAt": "2026-06-05T12:33:47.838Z"
+    },
+    {
       "sampleId": "published-post-manual-mpzfs8lh",
       "title": "전자담배 액상 오래 쓰는 방법(액상 빨리 줄어드는 사람들 꼭 보세요)",
       "category": "published-post",
@@ -283,5 +294,5 @@
       "publishedAt": "2026-04-22T12:34:03.755Z"
     }
   ],
-  "lastCurated": "2026-06-04T11:53:24.476Z"
+  "lastCurated": "2026-06-05T12:33:54.875Z"
 }
