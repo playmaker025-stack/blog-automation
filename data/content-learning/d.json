@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mq0wo75j",
+      "topicId": "",
+      "userId": "d",
+      "title": "전자담배 액상 냄새 많이 날까 – 연초랑 실제 차이 정리",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224307229465",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-05T12:33:47.838Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-05T12:33:49.733Z"
+    },
+    {
       "postId": "post-manual-mpzfs8lh",
       "topicId": "",
       "userId": "d",
@@ -262,5 +275,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-06-04T11:53:18.888Z"
+  "updatedAt": "2026-06-05T12:33:49.733Z"
 }
