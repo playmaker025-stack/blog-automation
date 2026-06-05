@@ -5232,7 +5232,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-bef56f30",
       "at": "2026-06-05T04:38:07.132Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "입호흡 전자담배 추천 시원한 액상 베스트 5, 인천 구월동 기준",
+      "proposedTitle": "입호흡 전자담배 시원한 액상 추천 베스트 5｜인천 구월동 만수동만수르 픽",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.6129032258064516,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-73eedec8",
+      "at": "2026-06-05T04:40:15.965Z"
     }
   ],
-  "lastUpdated": "2026-06-05T04:38:07.132Z"
+  "lastUpdated": "2026-06-05T04:40:15.965Z"
 }
