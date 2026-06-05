@@ -2,6 +2,21 @@
   "userId": "a",
   "samples": [
     {
+      "sampleId": "published-post-be2405d7",
+      "title": "입호흡 시원한 액상 추천 베스트5 인천 구월동 만수르 픽",
+      "category": "a",
+      "tags": [
+        "입호흡",
+        "전자담배",
+        "시원한액상",
+        "구월동",
+        "추천"
+      ],
+      "wordCount": 3203,
+      "publishedAt": "2026-06-05T07:13:01.117Z",
+      "filePath": "user-modeling/users/a/corpus/samples/published-post-be2405d7.md"
+    },
+    {
       "sampleId": "published-post-00ff14a1",
       "title": "2026 입호흡 전자담배 추천 베스트 5｜만수동만수르 엄선",
       "category": "a",
@@ -106,5 +121,5 @@
       "filePath": "user-modeling/users/a/corpus/samples/published-post-import-3c16fe70.md"
     }
   ],
-  "lastUpdated": "2026-06-04T08:50:17.767Z"
+  "lastUpdated": "2026-06-05T07:13:08.233Z"
 }
