@@ -5221,7 +5221,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-afcbce28",
       "at": "2026-06-04T05:17:09.304Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "만수역 주변 발라리안 맥스프로 전자담배 사용 후기와 팁",
+      "proposedTitle": "만수역 주변 발라리안 맥스프로 전자담배 사용 후기와 팁",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-bef56f30",
+      "at": "2026-06-05T04:38:07.132Z"
     }
   ],
-  "lastUpdated": "2026-06-04T05:17:09.304Z"
+  "lastUpdated": "2026-06-05T04:38:07.132Z"
 }
