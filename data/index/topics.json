@@ -2728,7 +2728,29 @@
       "assignedUserId": "a",
       "createdAt": "2026-06-05T03:22:14.244Z",
       "updatedAt": "2026-06-05T03:22:14.244Z"
+    },
+    {
+      "topicId": "topic-e6795d07",
+      "title": "입호흡 전자담배 추천 허브: 인천 부평구 내 최적 액상과 기기 가이드",
+      "description": "인천 부평구를 중심으로 입호흡 전자담배 추천 액상과 기기를 아우르는 종합 가이드로, 초보자부터 유목민까지 모두 참고할 수 있습니다.",
+      "category": "a",
+      "tags": [
+        "입호흡",
+        "전자담배",
+        "액상추천",
+        "기기추천",
+        "부평구"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-06-05T03:25:55.486Z",
+      "updatedAt": "2026-06-05T03:25:55.486Z"
     }
   ],
-  "lastUpdated": "2026-06-05T03:22:14.244Z"
+  "lastUpdated": "2026-06-05T03:25:55.486Z"
 }
