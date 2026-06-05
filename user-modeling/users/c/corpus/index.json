@@ -2,6 +2,21 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-ac122498",
+      "title": "발라리안 맥스프로 전자담배 사용 후기와 팁",
+      "category": "전자담배",
+      "tags": [
+        "만수역",
+        "발라리안",
+        "맥스프로",
+        "전자담배",
+        "후기"
+      ],
+      "wordCount": 1734,
+      "publishedAt": "2026-06-05T08:24:49.782Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-ac122498.md"
+    },
+    {
       "sampleId": "published-post-22a2eeb5",
       "title": "전자담배 vs 연초 차이 비교 - 건강, 유지 비용 만수르전담 에서 알려드릴게요!",
       "category": "direct-run",
@@ -331,5 +346,5 @@
       "filePath": "user-modeling/users/c/corpus/samples/published-post-5beaf101.md"
     }
   ],
-  "lastUpdated": "2026-06-04T07:03:42.734Z"
+  "lastUpdated": "2026-06-05T08:24:58.580Z"
 }
