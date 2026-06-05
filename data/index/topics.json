@@ -2749,7 +2749,29 @@
       "assignedUserId": "a",
       "createdAt": "2026-06-05T03:25:57.405Z",
       "updatedAt": "2026-06-05T03:25:57.405Z"
+    },
+    {
+      "topicId": "topic-2f0638d1",
+      "title": "만수역 주변 발라리안 맥스프로 전자담배 사용 후기와 팁",
+      "description": "만수역 인근에서 인기 있는 발라리안 맥스프로 전자담배의 실제 사용 후기와 유지관리 팁, 액상 추천을 포함한 실사용자 경험 공유.",
+      "category": "전자담배",
+      "tags": [
+        "만수역",
+        "발라리안",
+        "맥스프로",
+        "전자담배",
+        "후기"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-05T04:36:05.994Z",
+      "updatedAt": "2026-06-05T04:36:05.994Z"
     }
   ],
-  "lastUpdated": "2026-06-05T04:34:48.369Z"
+  "lastUpdated": "2026-06-05T04:36:05.994Z"
 }
