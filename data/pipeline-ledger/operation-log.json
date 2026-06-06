@@ -5254,7 +5254,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-1d779568",
       "at": "2026-06-06T03:20:42.829Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "잇몸치료 후 전자담배 사용 시 주의사항과 관리법 안내",
+      "proposedTitle": "잇몸치료 후 전자담배 사용해도 괜찮을까? 인천 만수르전담이 알려드리는 주의사항과 관리법",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.4358974358974359,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-8df9697e",
+      "at": "2026-06-06T03:21:17.241Z"
     }
   ],
-  "lastUpdated": "2026-06-06T03:20:42.829Z"
+  "lastUpdated": "2026-06-06T03:21:17.241Z"
 }
