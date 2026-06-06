@@ -2942,7 +2942,29 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-06T03:12:59.490Z",
       "updatedAt": "2026-06-06T03:12:59.490Z"
+    },
+    {
+      "topicId": "topic-bcb4e4dc",
+      "title": "인천 부평 전자담배 베이프갱스터 기기별 특징과 매장 구매 팁",
+      "description": "인천 부평 지역에서 인기 있는 베이프갱스터 전자담배 기기별 주요 특징과 현지 매장에서 구매 시 알아두면 좋은 팁을 정리합니다.",
+      "category": "전자담배",
+      "tags": [
+        "베이프갱스터",
+        "기기",
+        "부평",
+        "매장",
+        "구매팁"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-06T03:13:01.663Z",
+      "updatedAt": "2026-06-06T03:13:01.663Z"
     }
   ],
-  "lastUpdated": "2026-06-06T03:12:59.490Z"
+  "lastUpdated": "2026-06-06T03:13:01.663Z"
 }
