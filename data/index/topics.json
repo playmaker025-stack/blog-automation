@@ -2857,28 +2857,6 @@
       "updatedAt": "2026-06-06T03:12:18.278Z"
     },
     {
-      "topicId": "topic-31e411e2",
-      "title": "인천 부평 발라리안 맥스 프로 고장 원인과 해결법 총정리",
-      "description": "인천 부평 지역에서 많이 사용하는 발라리안 맥스 프로 전자담배의 고장 유형별 원인과 사용자가 직접 시도할 수 있는 간단한 수리법을 안내합니다.",
-      "category": "전자담배",
-      "tags": [
-        "발라리안",
-        "맥스프로",
-        "고장",
-        "수리",
-        "부평"
-      ],
-      "subKeywords": [],
-      "source": "generated",
-      "contentKind": "leaf",
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "c",
-      "createdAt": "2026-06-06T03:12:55.230Z",
-      "updatedAt": "2026-06-06T03:12:55.230Z"
-    },
-    {
       "topicId": "topic-538f5b73",
       "title": "부천 상동 전자담배 과일 맛 액상 추천과 실제 베이핑 후기",
       "description": "부천 상동 지역에서 인기 있는 과일 맛 전자담배 액상을 엄선하고, 사용자들이 직접 경험한 맛과 향, 만족도를 생생하게 전달합니다.",
@@ -3037,5 +3015,5 @@
       "updatedAt": "2026-06-06T03:13:39.538Z"
     }
   ],
-  "lastUpdated": "2026-06-06T03:14:44.207Z"
+  "lastUpdated": "2026-06-06T03:14:50.542Z"
 }
