@@ -1,0 +1,1386 @@
+{
+  "runId": "eval-42f6d1b2",
+  "scores": {
+    "originality": 65,
+    "style_match": 70,
+    "structure": 68,
+    "engagement": 60,
+    "forbidden_check": 70
+  },
+  "aggregateScore": 50,
+  "reasoning": {
+    "originality": "주제에 대해 구체적이고 전문적인 정보를 제공하며, 전자담배와 잇몸치료 후 관리법을 상세히 다루어 독창성이 높음. 다만, 이미 유사한 내용이 다수 존재하는 분야라 완전한 독창성은 아님.",
+    "style_match": "친근하고 이해하기 쉬운 문체로 작성되어 있으며, 지역성을 자연스럽게 녹여내어 타겟 독자층에 적합함. 다만 일부 문장 연결이 다소 딱딱한 부분이 있어 약간의 부드러움 보완 필요.",
+    "structure": "도입부에서 검색 의도를 명확히 수용하고, 시기별 사용 가능 여부, 정상/비정상 신호 구분, 0mg 액상 대체 여부, 관리법 등 요구된 섹션을 충실히 포함함. 다만 마무리 부분에서 내부 링크 안내가 명확히 드러나지 않아 완성도에서 약간 감점.",
+    "engagement": "실제 독자가 궁금해하는 질문을 도입부에 배치하고, 구체적이고 실용적인 정보를 제공하여 관심을 끌지만, 글이 다소 길고 정보가 많아 집중력이 떨어질 수 있음. 중간중간 소제목과 강조를 통해 가독성 향상 필요.",
+    "forbidden_check": "내부 SEO 용어, 평가자 용어, 워크플로우 용어 등 금지된 표현은 포함되어 있지 않아 기준에 부합함.",
+    "seo": "SEO 점수 62점. 메인 키워드가 제목 앞부분에 배치되어 있습니다.",
+    "naver_logic": "네이버 로직 점수 24점. 문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다."
+  },
+  "recommendations": [
+    "제목 길이를 28~45자 안쪽으로 맞추는 편이 좋습니다.",
+    "첫 문장에 '잇몸치료 후 전자담배'를 한 번 직접 배치해 검색 의도를 더 또렷하게 보여주세요.",
+    "핵심 소제목 1개 이상에 '잇몸치료 후 전자담배'를 포함해 주제 축을 더 선명하게 잡아주세요.",
+    "브릿지 키워드 '전자담배 구강 건조'는 본문 기준 1~2회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+    "브릿지 키워드 '잇몸치료 주의사항'는 본문 기준 1~2회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+    "브릿지 키워드 '전자담배 혈관 수축'는 본문 기준 1~2회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+  ],
+  "pass": false,
+  "seoEvaluation": {
+    "score": 62,
+    "evidence": [
+      "메인 키워드가 제목 앞부분에 배치되어 있습니다.",
+      "도입부에 메인 키워드가 보여 검색 의도 연결이 자연스럽습니다.",
+      "결론부에도 메인 키워드가 다시 등장해 문서 마무리가 일관됩니다.",
+      "'잇몸치료 후 전자담배' 본문 5회는 현재 권장 범위입니다.",
+      "'전자담배 잇몸 회복' 본문 2회는 현재 권장 범위입니다.",
+      "'잇몸치료 흡연 기간' 본문 1회는 현재 권장 범위입니다."
+    ],
+    "improvements": [
+      "제목 길이를 28~45자 안쪽으로 맞추는 편이 좋습니다.",
+      "첫 문장에 '잇몸치료 후 전자담배'를 한 번 직접 배치해 검색 의도를 더 또렷하게 보여주세요.",
+      "핵심 소제목 1개 이상에 '잇몸치료 후 전자담배'를 포함해 주제 축을 더 선명하게 잡아주세요.",
+      "브릿지 키워드 '전자담배 구강 건조'는 본문 기준 1~2회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+      "브릿지 키워드 '잇몸치료 주의사항'는 본문 기준 1~2회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+      "브릿지 키워드 '전자담배 혈관 수축'는 본문 기준 1~2회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+    ],
+    "keywordReport": {
+      "items": [
+        {
+          "keyword": "잇몸치료 후 전자담배",
+          "count": 5,
+          "status": "ok",
+          "targetMin": 4,
+          "targetMax": 7,
+          "role": "main",
+          "recommendation": "메인 키워드 '잇몸치료 후 전자담배' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "전자담배 잇몸 회복",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '전자담배 잇몸 회복' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "잇몸치료 흡연 기간",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '잇몸치료 흡연 기간' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "전자담배 니코틴 잇몸",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '전자담배 니코틴 잇몸' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "발치 후 전자담배",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '발치 후 전자담배' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "인천 전자담배 구강관리",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '인천 전자담배 구강관리' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "전자담배 구강 건조",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 2,
+          "role": "bridge",
+          "recommendation": "브릿지 키워드 '전자담배 구강 건조'는 본문 기준 1~2회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "잇몸치료 주의사항",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 2,
+          "role": "bridge",
+          "recommendation": "브릿지 키워드 '잇몸치료 주의사항'는 본문 기준 1~2회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "전자담배 혈관 수축",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 2,
+          "role": "bridge",
+          "recommendation": "브릿지 키워드 '전자담배 혈관 수축'는 본문 기준 1~2회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "mainKeyword": {
+        "keyword": "잇몸치료 후 전자담배",
+        "count": 5,
+        "status": "ok",
+        "targetMin": 4,
+        "targetMax": 7,
+        "role": "main",
+        "recommendation": "메인 키워드 '잇몸치료 후 전자담배' 반복은 현재 적정합니다."
+      },
+      "subKeywords": [
+        {
+          "keyword": "전자담배 잇몸 회복",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '전자담배 잇몸 회복' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "잇몸치료 흡연 기간",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '잇몸치료 흡연 기간' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "전자담배 니코틴 잇몸",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '전자담배 니코틴 잇몸' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "발치 후 전자담배",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '발치 후 전자담배' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "인천 전자담배 구강관리",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '인천 전자담배 구강관리' 반복은 현재 적정합니다."
+        }
+      ],
+      "bridgeKeywords": [
+        {
+          "keyword": "전자담배 구강 건조",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 2,
+          "role": "bridge",
+          "recommendation": "브릿지 키워드 '전자담배 구강 건조'는 본문 기준 1~2회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "잇몸치료 주의사항",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 2,
+          "role": "bridge",
+          "recommendation": "브릿지 키워드 '잇몸치료 주의사항'는 본문 기준 1~2회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "전자담배 혈관 수축",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 2,
+          "role": "bridge",
+          "recommendation": "브릿지 키워드 '전자담배 혈관 수축'는 본문 기준 1~2회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        }
+      ],
+      "internalLinkAnchors": [],
+      "forbiddenItems": [
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "contractApplied": true,
+      "overallRisk": "medium",
+      "overallRiskSummary": "일부 키워드 조정이 필요하지만, 문맥을 유지하며 보정할 수 있습니다.",
+      "paragraphWarnings": [],
+      "seoKeywordItems": [
+        {
+          "keyword": "잇몸치료 후 전자담배",
+          "role": "main",
+          "exactCount": 5,
+          "includedCount": 0,
+          "effectiveCount": 5,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "전자담배 잇몸 회복",
+          "role": "sub",
+          "exactCount": 2,
+          "includedCount": 0,
+          "effectiveCount": 2,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "잇몸치료 흡연 기간",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "전자담배 니코틴 잇몸",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "발치 후 전자담배",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "인천 전자담배 구강관리",
+          "role": "sub",
+          "exactCount": 2,
+          "includedCount": 0,
+          "effectiveCount": 2,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        }
+      ],
+      "requiredEntityChecks": [],
+      "bodyRepetitionItems": [
+        {
+          "token": "전자담배",
+          "count": 13,
+          "category": "category_word",
+          "severity": "notice",
+          "message": "'전자담배' 반복이 눈에 띄기 시작합니다.",
+          "suggestion": "같은 축 단어를 연속 반복하지 말고 기준, 사례, 비교 문장으로 분산해 주세요.",
+          "isSeoRisk": false
+        },
+        {
+          "token": "입니다",
+          "count": 12,
+          "category": "sentence_ending",
+          "severity": "caution",
+          "message": "'입니다' 문장 마무리가 반복됩니다.",
+          "suggestion": "문장 종결 표현을 섞어서 리듬을 바꿔 주세요.",
+          "isSeoRisk": false
+        },
+        {
+          "token": "합니다",
+          "count": 7,
+          "category": "sentence_ending",
+          "severity": "caution",
+          "message": "'합니다' 문장 마무리가 반복됩니다.",
+          "suggestion": "문장 종결 표현을 섞어서 리듬을 바꿔 주세요.",
+          "isSeoRisk": false
+        },
+        {
+          "token": "세요",
+          "count": 5,
+          "category": "sentence_ending",
+          "severity": "notice",
+          "message": "'세요' 문장 마무리가 반복됩니다.",
+          "suggestion": "문장 종결 표현을 섞어서 리듬을 바꿔 주세요.",
+          "isSeoRisk": false
+        }
+      ],
+      "legacyTokenItems": [
+        {
+          "token": "잇몸",
+          "count": 17,
+          "sourceKeywords": [
+            "전자담배 잇몸 회복",
+            "전자담배 니코틴 잇몸"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "전자담배",
+          "count": 14,
+          "sourceKeywords": [
+            "잇몸치료 후 전자담배",
+            "전자담배 잇몸 회복",
+            "전자담배 니코틴 잇몸",
+            "발치 후 전자담배"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "회복",
+          "count": 12,
+          "sourceKeywords": [
+            "전자담배 잇몸 회복"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "니코틴",
+          "count": 9,
+          "sourceKeywords": [
+            "전자담배 니코틴 잇몸"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "잇몸치료",
+          "count": 8,
+          "sourceKeywords": [
+            "잇몸치료 후 전자담배",
+            "잇몸치료 흡연 기간",
+            "잇몸치료 주의사항"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "잇몸치료 후 전자담배",
+          "count": 5,
+          "sourceKeywords": [
+            "잇몸치료 후 전자담배"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "인천 전자담배 구강관리",
+          "count": 2,
+          "sourceKeywords": [
+            "인천 전자담배 구강관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "전자담배 잇몸 회복",
+          "count": 2,
+          "sourceKeywords": [
+            "전자담배 잇몸 회복"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "전자담배 구강관리",
+          "count": 2,
+          "sourceKeywords": [
+            "인천 전자담배 구강관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "인천 전자담배",
+          "count": 2,
+          "sourceKeywords": [
+            "인천 전자담배 구강관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "전자담배 구강",
+          "count": 2,
+          "sourceKeywords": [
+            "전자담배 구강 건조"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "전자담배 잇몸",
+          "count": 2,
+          "sourceKeywords": [
+            "전자담배 잇몸 회복",
+            "전자담배 니코틴 잇몸"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "잇몸 회복",
+          "count": 2,
+          "sourceKeywords": [
+            "전자담배 잇몸 회복"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "구강관리",
+          "count": 2,
+          "sourceKeywords": [
+            "인천 전자담배 구강관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "만수역",
+          "count": 2,
+          "sourceKeywords": [
+            "만수역"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "구강",
+          "count": 2,
+          "sourceKeywords": [
+            "전자담배 구강 건조"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "발치",
+          "count": 2,
+          "sourceKeywords": [
+            "발치 후 전자담배"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "수축",
+          "count": 2,
+          "sourceKeywords": [
+            "전자담배 혈관 수축"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "인천",
+          "count": 2,
+          "sourceKeywords": [
+            "인천 전자담배 구강관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "혈관",
+          "count": 2,
+          "sourceKeywords": [
+            "전자담배 혈관 수축"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "전자담배 니코틴 잇몸",
+          "count": 1,
+          "sourceKeywords": [
+            "전자담배 니코틴 잇몸"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "잇몸치료 흡연 기간",
+          "count": 1,
+          "sourceKeywords": [
+            "잇몸치료 흡연 기간"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "발치 후 전자담배",
+          "count": 1,
+          "sourceKeywords": [
+            "발치 후 전자담배"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "전자담배 니코틴",
+          "count": 1,
+          "sourceKeywords": [
+            "전자담배 니코틴 잇몸"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "잇몸치료 흡연",
+          "count": 1,
+          "sourceKeywords": [
+            "잇몸치료 흡연 기간"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "니코틴 잇몸",
+          "count": 1,
+          "sourceKeywords": [
+            "전자담배 니코틴 잇몸"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "말씀드리면",
+          "count": 1,
+          "sourceKeywords": [
+            "말씀드리면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "혈관 수축",
+          "count": 1,
+          "sourceKeywords": [
+            "전자담배 혈관 수축"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "흡연 기간",
+          "count": 1,
+          "sourceKeywords": [
+            "잇몸치료 흡연 기간"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "그러면",
+          "count": 1,
+          "sourceKeywords": [
+            "그러면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "건조",
+          "count": 1,
+          "sourceKeywords": [
+            "전자담배 구강 건조"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "기간",
+          "count": 1,
+          "sourceKeywords": [
+            "잇몸치료 흡연 기간"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "흡연",
+          "count": 1,
+          "sourceKeywords": [
+            "잇몸치료 흡연 기간"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "tokenItems": [
+        {
+          "token": "잇몸",
+          "count": 17,
+          "sourceKeywords": [
+            "전자담배 잇몸 회복",
+            "전자담배 니코틴 잇몸"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "전자담배",
+          "count": 14,
+          "sourceKeywords": [
+            "잇몸치료 후 전자담배",
+            "전자담배 잇몸 회복",
+            "전자담배 니코틴 잇몸",
+            "발치 후 전자담배"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "회복",
+          "count": 12,
+          "sourceKeywords": [
+            "전자담배 잇몸 회복"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "니코틴",
+          "count": 9,
+          "sourceKeywords": [
+            "전자담배 니코틴 잇몸"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "잇몸치료",
+          "count": 8,
+          "sourceKeywords": [
+            "잇몸치료 후 전자담배",
+            "잇몸치료 흡연 기간",
+            "잇몸치료 주의사항"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "잇몸치료 후 전자담배",
+          "count": 5,
+          "sourceKeywords": [
+            "잇몸치료 후 전자담배"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "인천 전자담배 구강관리",
+          "count": 2,
+          "sourceKeywords": [
+            "인천 전자담배 구강관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "전자담배 잇몸 회복",
+          "count": 2,
+          "sourceKeywords": [
+            "전자담배 잇몸 회복"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "전자담배 구강관리",
+          "count": 2,
+          "sourceKeywords": [
+            "인천 전자담배 구강관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "인천 전자담배",
+          "count": 2,
+          "sourceKeywords": [
+            "인천 전자담배 구강관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "전자담배 구강",
+          "count": 2,
+          "sourceKeywords": [
+            "전자담배 구강 건조"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "전자담배 잇몸",
+          "count": 2,
+          "sourceKeywords": [
+            "전자담배 잇몸 회복",
+            "전자담배 니코틴 잇몸"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "잇몸 회복",
+          "count": 2,
+          "sourceKeywords": [
+            "전자담배 잇몸 회복"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "구강관리",
+          "count": 2,
+          "sourceKeywords": [
+            "인천 전자담배 구강관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "만수역",
+          "count": 2,
+          "sourceKeywords": [
+            "만수역"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "구강",
+          "count": 2,
+          "sourceKeywords": [
+            "전자담배 구강 건조"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "발치",
+          "count": 2,
+          "sourceKeywords": [
+            "발치 후 전자담배"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "수축",
+          "count": 2,
+          "sourceKeywords": [
+            "전자담배 혈관 수축"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "인천",
+          "count": 2,
+          "sourceKeywords": [
+            "인천 전자담배 구강관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "혈관",
+          "count": 2,
+          "sourceKeywords": [
+            "전자담배 혈관 수축"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "전자담배 니코틴 잇몸",
+          "count": 1,
+          "sourceKeywords": [
+            "전자담배 니코틴 잇몸"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "잇몸치료 흡연 기간",
+          "count": 1,
+          "sourceKeywords": [
+            "잇몸치료 흡연 기간"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "발치 후 전자담배",
+          "count": 1,
+          "sourceKeywords": [
+            "발치 후 전자담배"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "전자담배 니코틴",
+          "count": 1,
+          "sourceKeywords": [
+            "전자담배 니코틴 잇몸"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "잇몸치료 흡연",
+          "count": 1,
+          "sourceKeywords": [
+            "잇몸치료 흡연 기간"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "니코틴 잇몸",
+          "count": 1,
+          "sourceKeywords": [
+            "전자담배 니코틴 잇몸"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "말씀드리면",
+          "count": 1,
+          "sourceKeywords": [
+            "말씀드리면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "혈관 수축",
+          "count": 1,
+          "sourceKeywords": [
+            "전자담배 혈관 수축"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "흡연 기간",
+          "count": 1,
+          "sourceKeywords": [
+            "잇몸치료 흡연 기간"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "그러면",
+          "count": 1,
+          "sourceKeywords": [
+            "그러면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "건조",
+          "count": 1,
+          "sourceKeywords": [
+            "전자담배 구강 건조"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "기간",
+          "count": 1,
+          "sourceKeywords": [
+            "잇몸치료 흡연 기간"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "흡연",
+          "count": 1,
+          "sourceKeywords": [
+            "잇몸치료 흡연 기간"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "totalMentions": 12,
+      "introCoverage": true,
+      "titleFrontLoaded": true,
+      "bodyLength": 2287,
+      "summary": [
+        "메인 키워드 '잇몸치료 후 전자담배' 본문 5회",
+        "전체 반복 위험도 medium"
+      ],
+      "recommendations": [
+        "브릿지 키워드 '전자담배 구강 건조'는 본문 기준 1~2회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+        "브릿지 키워드 '잇몸치료 주의사항'는 본문 기준 1~2회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+        "브릿지 키워드 '전자담배 혈관 수축'는 본문 기준 1~2회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+      ]
+    },
+    "keywordMetrics": [
+      {
+        "keyword": "잇몸치료 후 전자담배",
+        "role": "main",
+        "label": "메인 키워드",
+        "completenessScore": 90,
+        "exposurePotentialScore": 100,
+        "count": 5,
+        "targetMin": 4,
+        "targetMax": 7,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 앞배치 / 도입부 포함 / 본문 5회",
+        "action": "도입부에서 '잇몸치료 후 전자담배' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "전자담배 잇몸 회복",
+        "role": "sub",
+        "label": "서브 키워드 1",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 2,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 2회",
+        "action": "'전자담배 잇몸 회복'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "잇몸치료 흡연 기간",
+        "role": "sub",
+        "label": "서브 키워드 2",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 1회",
+        "action": "'잇몸치료 흡연 기간'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "전자담배 니코틴 잇몸",
+        "role": "sub",
+        "label": "서브 키워드 3",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": true,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 1회",
+        "action": "'전자담배 니코틴 잇몸'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "발치 후 전자담배",
+        "role": "sub",
+        "label": "서브 키워드 4",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 1회",
+        "action": "'발치 후 전자담배'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "인천 전자담배 구강관리",
+        "role": "sub",
+        "label": "서브 키워드 5",
+        "completenessScore": 55,
+        "exposurePotentialScore": 65,
+        "count": 2,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 2회",
+        "action": "'인천 전자담배 구강관리'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "전자담배 구강 건조",
+        "role": "sub",
+        "label": "브릿지 키워드",
+        "completenessScore": 32,
+        "exposurePotentialScore": 47,
+        "count": 0,
+        "targetMin": 1,
+        "targetMax": 2,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 0회",
+        "action": "'전자담배 구강 건조'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "잇몸치료 주의사항",
+        "role": "sub",
+        "label": "브릿지 키워드",
+        "completenessScore": 32,
+        "exposurePotentialScore": 47,
+        "count": 0,
+        "targetMin": 1,
+        "targetMax": 2,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 0회",
+        "action": "'잇몸치료 주의사항'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "전자담배 혈관 수축",
+        "role": "sub",
+        "label": "브릿지 키워드",
+        "completenessScore": 32,
+        "exposurePotentialScore": 47,
+        "count": 0,
+        "targetMin": 1,
+        "targetMax": 2,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 0회",
+        "action": "'전자담배 혈관 수축'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      }
+    ],
+    "combinationCoverageScore": 70,
+    "combinationMetrics": [
+      {
+        "phrase": "잇몸치료 후 전자담배",
+        "role": "main",
+        "priority": "core",
+        "exactMatches": 5,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 99,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 보강 가능 · 5회 직접 표현",
+        "action": "'잇몸치료 후 전자담배' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "전자담배 잇몸 회복",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 2,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": true,
+        "coverageScore": 68,
+        "exposurePotentialScore": 63,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 2회 직접 표현",
+        "action": "첫 두 문단 안에서 '전자담배 잇몸 회복' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "잇몸치료 흡연 기간",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '잇몸치료 흡연 기간' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "전자담배 니코틴 잇몸",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": true,
+        "coverageScore": 68,
+        "exposurePotentialScore": 63,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '전자담배 니코틴 잇몸' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "발치 후 전자담배",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 83,
+        "exposurePotentialScore": 79,
+        "summary": "제목 약함 · 도입부 연결 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "현재 조합 흐름을 유지해도 괜찮습니다."
+      },
+      {
+        "phrase": "인천 전자담배 구강관리",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 2,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 2회 직접 표현",
+        "action": "첫 두 문단 안에서 '인천 전자담배 구강관리' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "전자담배 구강 건조",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 0,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 55,
+        "exposurePotentialScore": 48,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 0회 직접 표현",
+        "action": "첫 두 문단 안에서 '전자담배 구강 건조' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "잇몸치료 주의사항",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 0,
+        "tokenCoverage": 0.5,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 59,
+        "exposurePotentialScore": 57,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 보강 가능 · 0회 직접 표현",
+        "action": "첫 두 문단 안에서 '잇몸치료 주의사항' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "전자담배 혈관 수축",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 0,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": true,
+        "coverageScore": 65,
+        "exposurePotentialScore": 59,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 0회 직접 표현",
+        "action": "첫 두 문단 안에서 '전자담배 혈관 수축' 검색 의도를 더 직접적으로 받아 주세요."
+      }
+    ]
+  },
+  "naverLogicEvaluation": {
+    "primary": "hybrid",
+    "label": "D.I.A. + C-Rank 혼합",
+    "completenessScore": 24,
+    "reason": "이 주제는 문제 해결 흐름과 주제권 연결이 모두 중요해서 D.I.A.와 C-Rank를 함께 맞추는 편이 좋습니다.",
+    "evidence": [
+      "문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다.",
+      "비교와 선택 기준 요소가 살아 있어 실전 검색 의도에 잘 맞습니다.",
+      "내부링크 설계 대상이 있어 주제권 확장 관점이 살아 있습니다.",
+      "지역성과 실사용 맥락이 보여 C-Rank 관점의 주제권 연결이 자연스럽습니다.",
+      "실사용 맥락과 검색자 질문이 보여 D.I.A. 관점의 설득력이 있습니다."
+    ],
+    "improvements": [
+      "허브 참조 링크는 '인천 부평 전자담배 금연구역과 과태료 최신 안내' 제목과 https://blog.naver.com/mansur_vape/224274642760 URL을 정확히 같은 쌍으로 써야 합니다.",
+      "리프 참조 링크는 '발라리안 맥스프로 전자담배 사용 후기와 팁' 제목과 https://blog.naver.com/mansur_vape/224307036707 URL을 정확히 같은 쌍으로 써야 합니다."
+    ]
+  },
+  "postId": "post-ca24ea33",
+  "savedAt": "2026-06-06T03:25:48.209Z"
+}
