@@ -2855,7 +2855,28 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-06T03:12:16.114Z",
       "updatedAt": "2026-06-06T03:12:16.114Z"
+    },
+    {
+      "topicId": "topic-14af45ec",
+      "title": "인천 부천 상동 잇몸치료 후 전자담배 사용 시 주의사항과 관리법",
+      "description": "부천 상동 지역에서 잇몸치료를 받은 후 전자담배를 사용하는 사용자를 위한 안전한 사용법과 구강 관리법을 안내합니다.",
+      "category": "전자담배",
+      "tags": [
+        "잇몸치료",
+        "전자담배주의",
+        "부천상동",
+        "구강관리"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-06T03:12:18.278Z",
+      "updatedAt": "2026-06-06T03:12:18.278Z"
     }
   ],
-  "lastUpdated": "2026-06-06T03:12:16.114Z"
+  "lastUpdated": "2026-06-06T03:12:18.278Z"
 }
