@@ -4999,16 +4999,16 @@
       "postId": "post-ca24ea33",
       "topicId": "topic-5a937e19",
       "userId": "c",
-      "title": "잇몸치료 후 전자담배 사용해도 괜찮을까? 인천 만수르전담이 알려드리는 주의사항과 관리법",
-      "status": "ready",
-      "naverPostUrl": null,
+      "title": "잇몸치료 후 전자담배 사용 시 주의 사항과 관리법 안내",
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224307974337",
       "evalScore": 49,
       "wordCount": 2287,
       "compositionSessionId": "pipe-8df9697e",
       "pendingApproval": null,
       "createdAt": "2026-06-06T03:21:45.068Z",
-      "publishedAt": null,
-      "updatedAt": "2026-06-06T03:25:54.899Z"
+      "publishedAt": "2026-06-06T10:53:53.544Z",
+      "updatedAt": "2026-06-06T10:53:54.721Z"
     },
     {
       "postId": "post-e8ee9484",
@@ -5026,5 +5026,5 @@
       "updatedAt": "2026-06-06T08:37:41.975Z"
     }
   ],
-  "lastUpdated": "2026-06-06T08:37:41.975Z"
+  "lastUpdated": "2026-06-06T10:53:54.721Z"
 }
