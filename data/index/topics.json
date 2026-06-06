@@ -3054,7 +3054,30 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-06T03:13:35.019Z",
       "updatedAt": "2026-06-06T03:13:35.019Z"
+    },
+    {
+      "topicId": "topic-303fb95a",
+      "title": "인천 부평 전자담배 베이프갱스터 매장별 특징과 인기 제품 비교",
+      "description": "부평 지역 내 베이프갱스터 매장들의 서비스 특징과 취급하는 인기 전자담배 제품을 비교 분석하여 구매 전 참고할 수 있도록 안내합니다.",
+      "category": "전자담배",
+      "tags": [
+        "인천",
+        "부평",
+        "베이프갱스터",
+        "매장",
+        "전자담배",
+        "비교"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-06T03:13:37.392Z",
+      "updatedAt": "2026-06-06T03:13:37.392Z"
     }
   ],
-  "lastUpdated": "2026-06-06T03:13:35.019Z"
+  "lastUpdated": "2026-06-06T03:13:37.392Z"
 }
