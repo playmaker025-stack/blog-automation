@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-ca24ea33",
+      "topicId": "topic-5a937e19",
+      "userId": "c",
+      "title": "잇몸치료 후 전자담배 사용 시 주의 사항과 관리법 안내",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224307974337",
+      "evalScore": 49,
+      "wordCount": 2287,
+      "publishedAt": "2026-06-06T10:53:53.544Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-06-06T10:53:58.584Z"
+    },
+    {
       "postId": "post-ac122498",
       "topicId": "topic-2f0638d1",
       "userId": "c",
@@ -379,5 +392,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-06-05T08:24:55.539Z"
+  "updatedAt": "2026-06-06T10:53:58.584Z"
 }
