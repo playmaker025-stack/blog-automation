@@ -2920,7 +2920,29 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-06T03:12:57.448Z",
       "updatedAt": "2026-06-06T03:12:57.448Z"
+    },
+    {
+      "topicId": "topic-538f5b73",
+      "title": "부천 상동 전자담배 과일 맛 액상 추천과 실제 베이핑 후기",
+      "description": "부천 상동 지역에서 인기 있는 과일 맛 전자담배 액상을 엄선하고, 사용자들이 직접 경험한 맛과 향, 만족도를 생생하게 전달합니다.",
+      "category": "전자담배",
+      "tags": [
+        "과일맛",
+        "액상",
+        "부천",
+        "상동",
+        "후기"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-06T03:12:59.490Z",
+      "updatedAt": "2026-06-06T03:12:59.490Z"
     }
   ],
-  "lastUpdated": "2026-06-06T03:12:57.448Z"
+  "lastUpdated": "2026-06-06T03:12:59.490Z"
 }
