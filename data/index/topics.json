@@ -2794,27 +2794,6 @@
       "updatedAt": "2026-06-06T03:12:11.657Z"
     },
     {
-      "topicId": "topic-1a43273c",
-      "title": "인천 만수역 엑스맥스8셀 사용 후기와 체감 성능 비교",
-      "description": "만수역 인근에서 인기 있는 엑스맥스8셀 전자담배의 실사용 후기와 주요 체감 포인트를 상세히 비교 분석합니다.",
-      "category": "전자담배",
-      "tags": [
-        "엑스맥스8셀",
-        "사용후기",
-        "만수역",
-        "전자담배비교"
-      ],
-      "subKeywords": [],
-      "source": "generated",
-      "contentKind": "leaf",
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "c",
-      "createdAt": "2026-06-06T03:12:13.989Z",
-      "updatedAt": "2026-06-06T03:12:13.989Z"
-    },
-    {
       "topicId": "topic-538f5b73",
       "title": "부천 상동 전자담배 과일 맛 액상 추천과 실제 베이핑 후기",
       "description": "부천 상동 지역에서 인기 있는 과일 맛 전자담배 액상을 엄선하고, 사용자들이 직접 경험한 맛과 향, 만족도를 생생하게 전달합니다.",
@@ -2973,5 +2952,5 @@
       "updatedAt": "2026-06-06T03:13:39.538Z"
     }
   ],
-  "lastUpdated": "2026-06-06T03:15:14.938Z"
+  "lastUpdated": "2026-06-06T03:15:27.422Z"
 }
