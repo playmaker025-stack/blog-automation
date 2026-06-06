@@ -5243,7 +5243,18 @@
       "overrideByHighSim": false,
       "pipelineId": "pipe-73eedec8",
       "at": "2026-06-05T04:40:15.965Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "잇몸치료 후 전자담배 사용 시 주의사항과 관리법 안내",
+      "proposedTitle": "잇몸치료 후 인천 전자담배 사용 시 주의사항과 관리법 안내",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.9166666666666666,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-1d779568",
+      "at": "2026-06-06T03:20:42.829Z"
     }
   ],
-  "lastUpdated": "2026-06-05T04:40:15.965Z"
+  "lastUpdated": "2026-06-06T03:20:42.829Z"
 }
