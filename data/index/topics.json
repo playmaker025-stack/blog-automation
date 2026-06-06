@@ -3031,7 +3031,30 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-06T03:13:32.730Z",
       "updatedAt": "2026-06-06T03:13:32.730Z"
+    },
+    {
+      "topicId": "topic-e1695456",
+      "title": "부천 상동 전자담배 과일맛 액상 추천과 실제 사용 후기",
+      "description": "부천 상동 지역에서 인기 있는 과일맛 전자담배 액상 브랜드별 추천과 사용자들이 느낀 맛과 향, 장단점을 생생하게 전달합니다.",
+      "category": "전자담배",
+      "tags": [
+        "부천",
+        "상동",
+        "전자담배",
+        "과일맛",
+        "액상",
+        "후기"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-06T03:13:35.019Z",
+      "updatedAt": "2026-06-06T03:13:35.019Z"
     }
   ],
-  "lastUpdated": "2026-06-06T03:13:32.730Z"
+  "lastUpdated": "2026-06-06T03:13:35.019Z"
 }
