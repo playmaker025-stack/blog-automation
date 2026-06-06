@@ -2242,10 +2242,10 @@
       "contentKind": "hub",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "b",
       "createdAt": "2026-05-23T10:19:40.514Z",
-      "updatedAt": "2026-06-06T07:31:31.228Z"
+      "updatedAt": "2026-06-06T07:34:07.793Z"
     },
     {
       "topicId": "topic-fda90984",
@@ -2816,5 +2816,5 @@
       "updatedAt": "2026-06-06T03:25:56.658Z"
     }
   ],
-  "lastUpdated": "2026-06-06T07:31:31.228Z"
+  "lastUpdated": "2026-06-06T07:34:07.793Z"
 }
