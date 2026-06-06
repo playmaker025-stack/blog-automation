@@ -2876,7 +2876,29 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-06T03:12:18.278Z",
       "updatedAt": "2026-06-06T03:12:18.278Z"
+    },
+    {
+      "topicId": "topic-31e411e2",
+      "title": "인천 부평 발라리안 맥스 프로 고장 원인과 해결법 총정리",
+      "description": "인천 부평 지역에서 많이 사용하는 발라리안 맥스 프로 전자담배의 고장 유형별 원인과 사용자가 직접 시도할 수 있는 간단한 수리법을 안내합니다.",
+      "category": "전자담배",
+      "tags": [
+        "발라리안",
+        "맥스프로",
+        "고장",
+        "수리",
+        "부평"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-06T03:12:55.230Z",
+      "updatedAt": "2026-06-06T03:12:55.230Z"
     }
   ],
-  "lastUpdated": "2026-06-06T03:12:18.278Z"
+  "lastUpdated": "2026-06-06T03:12:55.230Z"
 }
