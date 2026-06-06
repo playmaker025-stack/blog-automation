@@ -2834,7 +2834,28 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-06T03:12:13.989Z",
       "updatedAt": "2026-06-06T03:12:13.989Z"
+    },
+    {
+      "topicId": "topic-b15e4cf1",
+      "title": "인천 부평역 전자담배 액상 바로 구매 가능한 인기 브랜드 소개",
+      "description": "부평역 인근에서 바로 구매 가능한 인기 전자담배 액상 브랜드를 소개하며, 각 브랜드별 특징과 추천 이유를 설명합니다.",
+      "category": "전자담배",
+      "tags": [
+        "전자담배액상",
+        "부평역",
+        "바로구매",
+        "인기브랜드"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-06T03:12:16.114Z",
+      "updatedAt": "2026-06-06T03:12:16.114Z"
     }
   ],
-  "lastUpdated": "2026-06-06T03:12:13.989Z"
+  "lastUpdated": "2026-06-06T03:12:16.114Z"
 }
