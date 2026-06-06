@@ -2879,28 +2879,6 @@
       "updatedAt": "2026-06-06T03:12:55.230Z"
     },
     {
-      "topicId": "topic-028e691e",
-      "title": "인천 만수역 전자담배 액상 반입 규정과 매장별 취급 현황 안내",
-      "description": "전자담배 액상 반입 관련 법적 기준과 인천 만수역 인근 매장별 액상 취급 현황을 상세히 소개하여 구매 전 필수 정보를 제공합니다.",
-      "category": "전자담배",
-      "tags": [
-        "액상",
-        "반입",
-        "만수역",
-        "매장",
-        "규정"
-      ],
-      "subKeywords": [],
-      "source": "generated",
-      "contentKind": "hub",
-      "feasibility": null,
-      "relatedSources": [],
-      "status": "draft",
-      "assignedUserId": "c",
-      "createdAt": "2026-06-06T03:12:57.448Z",
-      "updatedAt": "2026-06-06T03:12:57.448Z"
-    },
-    {
       "topicId": "topic-538f5b73",
       "title": "부천 상동 전자담배 과일 맛 액상 추천과 실제 베이핑 후기",
       "description": "부천 상동 지역에서 인기 있는 과일 맛 전자담배 액상을 엄선하고, 사용자들이 직접 경험한 맛과 향, 만족도를 생생하게 전달합니다.",
@@ -3059,5 +3037,5 @@
       "updatedAt": "2026-06-06T03:13:39.538Z"
     }
   ],
-  "lastUpdated": "2026-06-06T03:14:37.369Z"
+  "lastUpdated": "2026-06-06T03:14:44.207Z"
 }
