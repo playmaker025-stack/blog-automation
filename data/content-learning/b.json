@@ -2,6 +2,19 @@
   "userId": "b",
   "entries": [
     {
+      "postId": "post-e8ee9484",
+      "topicId": "topic-84bb96d1",
+      "userId": "b",
+      "title": "만수동 전자담배 액상 신선도 유지법과 꿀팁 총정리",
+      "naverPostUrl": "https://blog.naver.com/youferst/224307896782",
+      "evalScore": 63,
+      "wordCount": 2186,
+      "publishedAt": "2026-06-06T08:37:40.777Z",
+      "topicSource": "generated",
+      "contentKind": "hub",
+      "learnedAt": "2026-06-06T08:37:45.632Z"
+    },
+    {
       "postId": "post-4b8ab9fc",
       "topicId": "topic-e702b14e",
       "userId": "b",
@@ -158,5 +171,5 @@
       "learnedAt": "2026-04-25T10:02:38.491Z"
     }
   ],
-  "updatedAt": "2026-06-03T11:12:39.250Z"
+  "updatedAt": "2026-06-06T08:37:45.632Z"
 }
