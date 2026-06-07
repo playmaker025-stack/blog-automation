@@ -2,6 +2,15 @@
   "userId": "e",
   "samples": [
     {
+      "sampleId": "published-post-manual-mq3qb33b",
+      "title": "지나간 5월 입호흡 액상 순위 추천 해봅시다",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 6320,
+      "publishedAt": "2026-06-07T11:58:58.023Z",
+      "filePath": "user-modeling/users/e/corpus/samples/published-post-manual-mq3qb33b.md"
+    },
+    {
       "sampleId": "published-post-manual-mpzhnog8",
       "title": "입호흡 전자담배 신제품 말론S 출시",
       "category": "published-post",
@@ -111,5 +120,5 @@
       "filePath": "user-modeling/users/e/corpus/samples/published-post-import-1b99338a.md"
     }
   ],
-  "lastUpdated": "2026-06-04T12:45:51.760Z"
+  "lastUpdated": "2026-06-07T11:59:04.345Z"
 }
