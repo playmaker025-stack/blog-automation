@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mq3mm7s1",
+      "topicId": "",
+      "userId": "d",
+      "title": "전자담배 처음 시작할 때 가장 많이 하는 실수 5가지 – 초보분들이 진짜 많이 겪습니다 😅",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224308686675",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-07T10:15:38.819Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-07T10:15:40.965Z"
+    },
+    {
       "postId": "post-manual-mq0wo75j",
       "topicId": "",
       "userId": "d",
@@ -275,5 +288,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-06-05T12:33:49.733Z"
+  "updatedAt": "2026-06-07T10:15:40.965Z"
 }
