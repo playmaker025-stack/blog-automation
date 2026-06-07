@@ -2,6 +2,19 @@
   "userId": "e",
   "entries": [
     {
+      "postId": "post-manual-mq3qb33b",
+      "topicId": "",
+      "userId": "e",
+      "title": "지나간 5월 입호흡 액상 순위 추천 해봅시다",
+      "naverPostUrl": "https://blog.naver.com/godmaker0/224308758283",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-07T11:58:58.023Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-07T11:58:59.383Z"
+    },
+    {
       "postId": "post-manual-mpzhnog8",
       "topicId": "",
       "userId": "e",
@@ -93,5 +106,5 @@
       "learnedAt": "2026-05-10T12:02:04.252Z"
     }
   ],
-  "updatedAt": "2026-06-04T12:45:46.118Z"
+  "updatedAt": "2026-06-07T11:58:59.383Z"
 }
