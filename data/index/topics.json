@@ -2880,7 +2880,29 @@
       "assignedUserId": "b",
       "createdAt": "2026-06-08T06:34:59.336Z",
       "updatedAt": "2026-06-08T06:34:59.336Z"
+    },
+    {
+      "topicId": "topic-3142bce2",
+      "title": "만수동 전자담배 액상 선택 시 고려해야 할 농도별 특징과 추천",
+      "description": "만수동 사용자들이 자주 묻는 액상 농도별 특징과 그에 맞는 추천 제품을 구체적으로 설명합니다.",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "액상선택",
+        "농도별특징",
+        "추천"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-06-08T06:35:01.599Z",
+      "updatedAt": "2026-06-08T06:35:01.599Z"
     }
   ],
-  "lastUpdated": "2026-06-08T06:34:59.336Z"
+  "lastUpdated": "2026-06-08T06:35:01.599Z"
 }
