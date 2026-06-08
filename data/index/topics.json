@@ -2814,7 +2814,29 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-06T03:13:03.758Z",
       "updatedAt": "2026-06-06T10:53:57.301Z"
+    },
+    {
+      "topicId": "topic-c98fb9d1",
+      "title": "만수동 전자담배 기기별 고장 유형별 자가 점검법 총정리",
+      "description": "만수동 지역에서 자주 발생하는 전자담배 기기별 고장 유형을 분류하고, 사용자가 직접 점검할 수 있는 방법과 시기를 안내합니다.",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "고장점검",
+        "자가진단",
+        "기기관리"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-06-08T06:34:55.097Z",
+      "updatedAt": "2026-06-08T06:34:55.097Z"
     }
   ],
-  "lastUpdated": "2026-06-06T10:53:57.301Z"
+  "lastUpdated": "2026-06-08T06:34:55.097Z"
 }
