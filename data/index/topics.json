@@ -2858,7 +2858,29 @@
       "assignedUserId": "b",
       "createdAt": "2026-06-08T06:34:57.207Z",
       "updatedAt": "2026-06-08T06:34:57.207Z"
+    },
+    {
+      "topicId": "topic-2ac266e6",
+      "title": "만수동 전자담배 풀셋 구매 시 체크해야 할 필수 포인트",
+      "description": "만수동 지역에서 전자담배 풀셋 구매를 고려하는 사용자를 위해 필수 확인 사항과 실제 구매 후 체감 포인트를 상세히 안내합니다.",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "풀셋",
+        "구매가이드",
+        "체감후기"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-06-08T06:34:59.336Z",
+      "updatedAt": "2026-06-08T06:34:59.336Z"
     }
   ],
-  "lastUpdated": "2026-06-08T06:34:57.207Z"
+  "lastUpdated": "2026-06-08T06:34:59.336Z"
 }
