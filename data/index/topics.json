@@ -2836,7 +2836,29 @@
       "assignedUserId": "b",
       "createdAt": "2026-06-08T06:34:55.097Z",
       "updatedAt": "2026-06-08T06:34:55.097Z"
+    },
+    {
+      "topicId": "topic-a8b35510",
+      "title": "만수동 전자담배 액상 신선도 유지와 보관법 비교 후기",
+      "description": "만수동에서 인기 있는 전자담배 액상 보관법을 비교하고, 실제 사용 후 신선도 유지 효과를 자세히 소개합니다.",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "액상보관",
+        "신선도",
+        "후기"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-06-08T06:34:57.207Z",
+      "updatedAt": "2026-06-08T06:34:57.207Z"
     }
   ],
-  "lastUpdated": "2026-06-08T06:34:55.097Z"
+  "lastUpdated": "2026-06-08T06:34:57.207Z"
 }
