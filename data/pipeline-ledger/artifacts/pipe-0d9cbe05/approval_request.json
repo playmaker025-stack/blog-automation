@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-0d9cbe05",
+  "type": "approval_request",
+  "savedAt": "2026-06-09T05:25:39.273Z",
+  "data": {
+    "pipelineId": "pipe-0d9cbe05",
+    "previousTitle": "",
+    "proposedTitle": "인천 부평 입호흡 전자담배 추천 기기 TOP5 및 사용 후기",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-06-09T05:25:34.097Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-06-09T05:25:34.097Z",
+      "modifications": null
+    }
+  }
+}
