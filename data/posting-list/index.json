@@ -5059,16 +5059,16 @@
       "postId": "post-e17c7d6e",
       "topicId": "topic-c6e44a2b",
       "userId": "c",
-      "title": "전담 누수 & 고장 원인과 해결법",
-      "status": "ready",
-      "naverPostUrl": null,
+      "title": "발라리안맥스프로 누수·고장 생겼을 때 원인과 해결 순서",
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224310596321",
       "evalScore": 58,
       "wordCount": 2155,
       "compositionSessionId": "pipe-a44a5750",
       "pendingApproval": null,
       "createdAt": "2026-06-09T02:42:22.477Z",
-      "publishedAt": null,
-      "updatedAt": "2026-06-09T02:46:00.994Z"
+      "publishedAt": "2026-06-09T05:34:00.813Z",
+      "updatedAt": "2026-06-09T05:34:02.309Z"
     },
     {
       "postId": "post-48db9cb5",
@@ -5086,5 +5086,5 @@
       "updatedAt": "2026-06-09T05:25:37.267Z"
     }
   ],
-  "lastUpdated": "2026-06-09T05:25:37.267Z"
+  "lastUpdated": "2026-06-09T05:34:02.309Z"
 }
