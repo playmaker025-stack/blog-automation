@@ -2,6 +2,15 @@
   "userId": "d",
   "samples": [
     {
+      "sampleId": "published-post-manual-mq6lu13e",
+      "title": "전자담배 액상이 진해졌는데 계속 써도 될까 – 색 변화 원인 정리",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 5930,
+      "publishedAt": "2026-06-09T12:17:01.622Z",
+      "filePath": "user-modeling/users/d/corpus/samples/published-post-manual-mq6lu13e.md"
+    },
+    {
       "sampleId": "published-post-manual-mq3mm7s1",
       "title": "전자담배 처음 시작할 때 가장 많이 하는 실수 5가지 – 초보분들이 진짜 많이 겪습니다 😅",
       "category": "published-post",
@@ -259,5 +268,5 @@
       "filePath": "user-modeling/users/d/corpus/samples/published-post-21e6d9ae.md"
     }
   ],
-  "lastUpdated": "2026-06-07T10:15:46.224Z"
+  "lastUpdated": "2026-06-09T12:17:08.218Z"
 }
