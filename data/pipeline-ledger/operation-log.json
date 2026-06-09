@@ -5386,7 +5386,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-8260b138",
       "at": "2026-06-09T08:25:47.833Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 부평 입호흡 전자담배 추천 기기 TOP5 및 사용 후기",
+      "proposedTitle": "인천 부평 입호흡 전자담배 기기 추천 TOP5 직접 써본 후기",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.6799999999999999,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-efc019a2",
+      "at": "2026-06-09T08:32:25.107Z"
     }
   ],
-  "lastUpdated": "2026-06-09T08:25:47.833Z"
+  "lastUpdated": "2026-06-09T08:32:25.107Z"
 }
