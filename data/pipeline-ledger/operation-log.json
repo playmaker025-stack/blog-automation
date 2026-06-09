@@ -5276,7 +5276,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-8a1edf5c",
       "at": "2026-06-06T07:31:26.800Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전담 누수 & 고장 원인과 해결법",
+      "proposedTitle": "전담 누수 & 고장 원인과 해결법",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-a44a5750",
+      "at": "2026-06-09T02:41:05.560Z"
     }
   ],
-  "lastUpdated": "2026-06-06T07:31:26.800Z"
+  "lastUpdated": "2026-06-09T02:41:05.560Z"
 }
