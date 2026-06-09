@@ -5054,7 +5054,22 @@
       "publishedAt": "2026-06-07T11:58:58.023Z",
       "createdAt": "2026-06-07T11:58:58.023Z",
       "updatedAt": "2026-06-07T11:58:58.023Z"
+    },
+    {
+      "postId": "post-e17c7d6e",
+      "topicId": "topic-c6e44a2b",
+      "userId": "c",
+      "title": "전담 누수 & 고장 원인과 해결법",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-a44a5750",
+      "pendingApproval": null,
+      "createdAt": "2026-06-09T02:42:22.477Z",
+      "publishedAt": null,
+      "updatedAt": "2026-06-09T02:42:22.477Z"
     }
   ],
-  "lastUpdated": "2026-06-07T11:58:58.023Z"
+  "lastUpdated": "2026-06-09T02:42:22.477Z"
 }
