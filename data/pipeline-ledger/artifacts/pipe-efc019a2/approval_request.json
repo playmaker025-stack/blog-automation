@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-efc019a2",
+  "type": "approval_request",
+  "savedAt": "2026-06-09T08:33:19.581Z",
+  "data": {
+    "pipelineId": "pipe-efc019a2",
+    "previousTitle": "",
+    "proposedTitle": "인천 부평 입호흡 전자담배 기기 추천 TOP5 직접 써본 후기",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "topic_feasibility_judge 결과 100점 feasible. 금지 표현 없음, 로컬 지역(부평) 허용 범위 내, 금지 각도(금연/중단) 아님. 기존 발행 글 '2026 입호흡 전자담배 추천 베스트5'(evalScore 68, hub)와 라인업 일부 중복이나 force_duplicate 모드 적용. 차별화 축은 ① 부평 현장 시연·내돈내산 후기 시나리오, ② KIN/카페 반복 질문(누수·관리·흡입압)을 전용 섹션으로 해소, ③ 아머미니 hub 글·초보자 체크포인트 leaf 글과의 내부링크 클러스터 구성. 평균 eval 58점 개선을 위해 기존 글 공통 약점(도입 반복 패턴, 스펙 나열, 단일 CTA 문구)을 교체. 추정 분량 2600자는 최근 발행 평균(2570자)에 맞추되, 섹션 밀도를 높여 SEO 유효 정보량을 확보. keywordContract의 모든 키워드는 네이버 검색창 실입력형 단어·구 형태로 작성, 24자 이내 준수.\n\n[사용자 승인 후 추가 수정 요청]\n이전 글 '2026 입호흡 전자담배 추천 베스트5 개에 있는 제품 5개를 그대로 인용할것",
+    "requestedAt": "2026-06-09T08:33:13.382Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-06-09T08:33:13.382Z",
+      "modifications": "이전 글 '2026 입호흡 전자담배 추천 베스트5 개에 있는 제품 5개를 그대로 인용할것"
+    }
+  }
+}
