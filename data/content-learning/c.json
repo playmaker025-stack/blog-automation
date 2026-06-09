@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-e17c7d6e",
+      "topicId": "topic-c6e44a2b",
+      "userId": "c",
+      "title": "발라리안맥스프로 누수·고장 생겼을 때 원인과 해결 순서",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224310596321",
+      "evalScore": 58,
+      "wordCount": 2155,
+      "publishedAt": "2026-06-09T05:34:00.813Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-06-09T05:34:06.801Z"
+    },
+    {
       "postId": "post-ca24ea33",
       "topicId": "topic-5a937e19",
       "userId": "c",
@@ -392,5 +405,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-06-06T10:53:58.584Z"
+  "updatedAt": "2026-06-09T05:34:06.801Z"
 }
