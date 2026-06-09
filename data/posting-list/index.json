@@ -5060,16 +5060,16 @@
       "topicId": "topic-c6e44a2b",
       "userId": "c",
       "title": "전담 누수 & 고장 원인과 해결법",
-      "status": "draft",
+      "status": "ready",
       "naverPostUrl": null,
       "evalScore": null,
-      "wordCount": 0,
+      "wordCount": 2240,
       "compositionSessionId": "pipe-a44a5750",
       "pendingApproval": null,
       "createdAt": "2026-06-09T02:42:22.477Z",
       "publishedAt": null,
-      "updatedAt": "2026-06-09T02:42:22.477Z"
+      "updatedAt": "2026-06-09T02:43:28.683Z"
     }
   ],
-  "lastUpdated": "2026-06-09T02:42:22.477Z"
+  "lastUpdated": "2026-06-09T02:43:28.683Z"
 }
