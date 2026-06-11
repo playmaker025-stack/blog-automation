@@ -1,17 +1,19 @@
 {
   "pipelineId": "pipe-15f24372",
   "type": "draft_output",
-  "savedAt": "2026-06-11T05:41:46.967Z",
+  "savedAt": "2026-06-11T05:43:00.656Z",
   "data": {
     "postId": "post-af6fb7fc",
     "title": "만수동 전자담배 기기별 고장 유형별 자가 점검법 총정리",
-    "wordCount": 2078,
-    "generatedAt": "2026-06-11T05:41:45.731Z",
+    "wordCount": 2031,
+    "generatedAt": "2026-06-11T05:42:59.644Z",
     "contentPath": "data/posting-list/posts/post-af6fb7fc/content.md",
     "corpusSummaryUsed": true,
     "finalDraftCheck": {
-      "ok": true,
-      "blockingReasons": [],
+      "ok": false,
+      "blockingReasons": [
+        "sub keyword \"고장\" 4회 사용, 상한 3회 초과"
+      ],
       "warnings": [
         "medium overlap: 기존 제목 유사 위험 1건",
         "medium overlap: 도입 패턴 반복 위험 problem_symptom",
@@ -19,7 +21,9 @@
         "medium overlap: 역할 충돌 같은 problem_solution 허브 방향이 기존 글 \"만수동 전자담배 기기별 고장 유형과 자가점검 방법 안내\"와 겹칩니다."
       ],
       "matchedForbiddenPhrases": [],
-      "keywordStuffingFindings": [],
+      "keywordStuffingFindings": [
+        "sub keyword \"고장\" 4회 사용, 상한 3회 초과"
+      ],
       "deferFindings": [],
       "contractCoverageFindings": [],
       "overlapFindings": [
@@ -28,6 +32,68 @@
         "medium overlap: 결론 패턴 반복 위험 problem_checklist",
         "medium overlap: 역할 충돌 같은 problem_solution 허브 방향이 기존 글 \"만수동 전자담배 기기별 고장 유형과 자가점검 방법 안내\"와 겹칩니다."
       ]
+    },
+    "finalDraftRewrite": {
+      "attempted": true,
+      "applied": true,
+      "instructions": [
+        "차단 사유 수정: sub keyword \"고장\" 4회 사용, 상한 3회 초과",
+        "키워드/질문문 자연화: sub keyword \"고장\" 4회 사용, 상한 3회 초과",
+        "누락 기준 보강: mustResolve 단서 부족: 만수동의 원인 그룹"
+      ],
+      "beforeCheck": {
+        "ok": false,
+        "blockingReasons": [
+          "sub keyword \"고장\" 4회 사용, 상한 3회 초과"
+        ],
+        "warnings": [
+          "mustResolve 단서 부족: 만수동의 원인 그룹",
+          "필수 섹션 반영 부족: 만수동의 원인 그룹",
+          "medium overlap: 기존 제목 유사 위험 1건",
+          "medium overlap: 도입 패턴 반복 위험 problem_symptom",
+          "medium overlap: 결론 패턴 반복 위험 problem_checklist",
+          "medium overlap: 역할 충돌 같은 problem_solution 허브 방향이 기존 글 \"만수동 전자담배 기기별 고장 유형과 자가점검 방법 안내\"와 겹칩니다."
+        ],
+        "matchedForbiddenPhrases": [],
+        "keywordStuffingFindings": [
+          "sub keyword \"고장\" 4회 사용, 상한 3회 초과"
+        ],
+        "deferFindings": [],
+        "contractCoverageFindings": [
+          "mustResolve 단서 부족: 만수동의 원인 그룹"
+        ],
+        "overlapFindings": [
+          "medium overlap: 기존 제목 유사 위험 1건",
+          "medium overlap: 도입 패턴 반복 위험 problem_symptom",
+          "medium overlap: 결론 패턴 반복 위험 problem_checklist",
+          "medium overlap: 역할 충돌 같은 problem_solution 허브 방향이 기존 글 \"만수동 전자담배 기기별 고장 유형과 자가점검 방법 안내\"와 겹칩니다."
+        ]
+      },
+      "afterCheck": {
+        "ok": false,
+        "blockingReasons": [
+          "sub keyword \"고장\" 4회 사용, 상한 3회 초과"
+        ],
+        "warnings": [
+          "medium overlap: 기존 제목 유사 위험 1건",
+          "medium overlap: 도입 패턴 반복 위험 problem_symptom",
+          "medium overlap: 결론 패턴 반복 위험 problem_checklist",
+          "medium overlap: 역할 충돌 같은 problem_solution 허브 방향이 기존 글 \"만수동 전자담배 기기별 고장 유형과 자가점검 방법 안내\"와 겹칩니다."
+        ],
+        "matchedForbiddenPhrases": [],
+        "keywordStuffingFindings": [
+          "sub keyword \"고장\" 4회 사용, 상한 3회 초과"
+        ],
+        "deferFindings": [],
+        "contractCoverageFindings": [],
+        "overlapFindings": [
+          "medium overlap: 기존 제목 유사 위험 1건",
+          "medium overlap: 도입 패턴 반복 위험 problem_symptom",
+          "medium overlap: 결론 패턴 반복 위험 problem_checklist",
+          "medium overlap: 역할 충돌 같은 problem_solution 허브 방향이 기존 글 \"만수동 전자담배 기기별 고장 유형과 자가점검 방법 안내\"와 겹칩니다."
+        ]
+      },
+      "content": "만수동에서 전자담배가 갑자기 안 올라오거나 탄\n맛, 누수, 인식 불량이 생기면 제일 먼저 해야\n할 건 하나입니다.\n바로 **본체 고장인지, 소모품 문제인지, 사용\n습관 문제인지** 순서대로 나누는 거예요.\n\n막연하게 “기기 망가졌나?” 하고 팟이나\n코일부터 바꾸면 괜히 비용만 더 들 수\n있습니다.\n실제로 많이 묻는 증상도 비슷해요. 충전은 되는\n것 같은데 작동이 안 된다, 액상은 남았는데\n맛이 갑자기 텁텁하다, 흡입할 때 튀고 샌다.\n이럴 때는 증상보다 **점검 순서**가\n중요합니다.\n\n## 먼저 정상인지부터 구분해보세요\n\n고장점검은 이상 신호만 보는 것보다, 어디까지가\n정상 범위인지 아는 게 더 빠릅니다.\n\n정상으로 볼 수 있는 경우는 보통 이렇습니다.\n\n- 새 팟이나 새 코일 교체 직후 몇 번 정도\n- 맛이 약하게 느껴짐\n- 배터리가 많이 낮을 때 무화량이 조금 줄어듦\n- 더운 날 주머니 보관 후 팟 바깥에 아주\n- 소량 맺힘이 생김\n\n반대로 아래는 비정상 신호에 가깝습니다.\n\n- 충전 후에도 전원 반응이 전혀 없음\n- 2~3번 사용만 해도 바로 탄 맛이 남\n- 흡입하지 않았는데 액상이 계속 새어 나옴\n- 팟을 바꿔도 인식 불량이 반복됨\n- 본체가 유난히 뜨겁거나 타는 냄새가 남\n\n여기 해당하면 바로 자가진단 들어가면 됩니다.\n\n## 지금 바로 확인할 순서\n\n증상이 여러 개여도 순서는 거의 같습니다.\n\n**1. 배터리와 충전부터 확인**\n케이블, 어댑터, 충전단자 셋 중 어디 문제인지\n분리해서 봐야 합니다.\n다른 케이블로 20분 이상 충전해도 반응이\n없으면 본체 이상 가능성이 커집니다.\n\n**2. 접점 오염 확인**\n팟 하단과 기기 내부 접점에 액상 맺힘이 있으면\n인식이 자주 끊깁니다.\n마른 면봉이나 티슈로 가볍게 닦고 다시 체결해\n보세요.\n\n**3. 팟·코일 상태 확인**\n액상은 남았는데 탄 맛이 나면 코일 수명, 첫\n주입 후 대기 부족, 연속 흡입이 원인인 경우가\n많습니다.\n\n**4. 액상 주입량 확인**\n너무 가득 채우면 누수가 생기고, 너무 적으면\n코일이 빨리 탑니다.\n대체로 80~90% 선이 무난합니다.\n\n**5. 흡입 습관 확인**\n짧고 강하게 연속으로 빨면 정상 기기에서도 맛이\n깨지고 액상 튐이 생길 수 있어요.\n\n## 기기별로 자주 생기는 고장 유형\n\n### 팟형 기기\n가장 흔하게 쓰는 타입이라 자가진단도 비교적\n쉬운 편입니다.\n\n- **인식 불량**: 접점 오염, 팟 체결\n- 불량\n- **누수**: 과주입, 오래된 팟, 눕혀서\n- 보관\n- **탄 맛**: 액상 부족, 첫 주입 후\n- 바로 사용\n\n새 팟으로 바꿨는데도 같은 증상이면 팟 문제가\n아니라 본체 접점이나 센서 쪽일 가능성을 봐야\n합니다.\n\n### 코일 교체형 기기\n맛 표현은 좋지만 관리 차이에 따라 상태 차이가\n큽니다.\n\n- **무화량 저하**: 코일 수명, 출력 저하\n- **액상 튐**: 코일 체결 불량, 과한\n- 흡입\n- **탄 맛**: 코일 적심 부족, 액상 점도\n- 부적합\n\n이 타입은 코일만 교체해도 해결되는 경우가\n많지만, 반복되면 탱크 결합부나 실링 상태까지\n봐야 해요.\n\n### 일체형 디바이스\n편하지만 사용자가 손댈 수 있는 범위는\n적습니다.\n\n- 충전은 되는데 작동 안 함\n- 흡입 센서 반응 지연\n- 사용 중 과열\n\n이 경우는 무리해서 계속 쓰기보다 점검을 받는\n쪽이 안전합니다.\n\n## 원인은 보통 네 가지로 나뉩니다\n\n**1) 소모품 수명**\n팟과 코일은 계속 쓰는 부품이 아니라\n소모품입니다. 맛이 둔해지거나 탄 향이 올라오면\n교체 시기를 먼저 의심하세요.\n\n**2) 관리 문제**\n눕혀서 보관, 과주입, 접점 미청소, 장시간\n방치가 대표적입니다.\n기기관리만 바꿔도 누수나 인식 불량은 꽤\n줄어듭니다.\n\n**3) 사용 습관**\n연속 흡입, 공팟 직전까지 사용, 충전 중\n사용은 수명을 빠르게 줄입니다.\n\n**4) 본체 이상**\n떨어뜨린 뒤부터 반응이 달라졌거나, 만수역 근처\n이동 중 가방 안에서 눌림 충격을 받은 뒤\n문제가 생겼다면 내부 손상도 생각해야 합니다.\n\n## 만수동에서 자주 놓치는 예방 기준\n\n생활 동선상 주머니나 가방 보관이 많은 분들은\n누수와 접점 오염이 생각보다 흔합니다.\n특히 구월동이나 남동구청 쪽으로 오가며 하루\n종일 들고 다니는 경우라면 더 그래요.\n\n예방 기준은 간단합니다.\n\n- 새 팟·새 코일은 주입 후 5분 정도 두고\n- 사용\n- 액상은 가득 채우지 말고 여유 공간 남기기\n- 접점은 주 1회 정도 가볍게 청소\n- 검증된 충전 케이블 사용\n- 뜨거운 차 안, 직사광선, 장시간 눕힘 보관\n- 피하기\n\n## 이런 경우는 바로 점검 맡기세요\n\n아래 증상은 집에서 해결하려고 오래 끌지 않는\n게 좋습니다.\n\n- 새 팟으로 바꿔도 인식 불량이 반복됨\n- 충전 단자가 흔들리거나 헐거움\n- 본체 과열이 자주 생김\n- 탄 냄새와 함께 열감이 심함\n- 누수가 배터리 쪽까지 들어간 흔적이 보임\n\n이 단계는 단순 고장이 아니라 안전 문제로\n이어질 수 있습니다.\n\n정리하면, 만수동에서 전자담배 문제를 봐야 할\n때는\n**배터리 → 접점 → 팟·코일 → 액상량 →\n흡입 습관**\n이 순서로 보면 가장 빠릅니다.\n\n기본 원인을 더 자세히 보고 싶다면 **전자담배\n탄 맛 나는 이유와 코일 교체 기준** 글을\n같이 보면 도움이 되고,\n누수가 반복된다면 **팟 누수 생길 때 액상\n주입량과 보관 자세** 내용까지 이어서 보면\n원인 구분이 훨씬 쉬워집니다.\n\n결국 중요한 건 복잡한 수리가 아니라,\n정상 반응과 비정상 신호를 구분하고 내 기기를\n기기별로 보는 습관입니다.\n그 기준만 잡혀도 갑작스러운 문제 앞에서 훨씬\n덜 당황하게 됩니다.\n\n## 추가 확인 기준\n- 만수동의 원인 그룹: 이 글에서 바로 확인해야 할 기준입니다. 실제 선택 전에 이 부분을 먼저 점검하면 판단이 쉬워집니다."
     }
   }
 }
