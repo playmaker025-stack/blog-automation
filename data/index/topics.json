@@ -2832,10 +2832,10 @@
       "contentKind": "hub",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "b",
       "createdAt": "2026-06-08T06:34:55.097Z",
-      "updatedAt": "2026-06-08T06:34:55.097Z"
+      "updatedAt": "2026-06-11T05:39:12.850Z"
     },
     {
       "topicId": "topic-a8b35510",
@@ -2904,5 +2904,5 @@
       "updatedAt": "2026-06-08T06:35:01.599Z"
     }
   ],
-  "lastUpdated": "2026-06-09T08:38:45.767Z"
+  "lastUpdated": "2026-06-11T05:39:12.850Z"
 }
