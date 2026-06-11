@@ -2,6 +2,19 @@
   "userId": "b",
   "entries": [
     {
+      "postId": "post-af6fb7fc",
+      "topicId": "topic-c98fb9d1",
+      "userId": "b",
+      "title": "만수동 전자담배 기기별 고장 유형별 자가진단과 점검법",
+      "naverPostUrl": "https://blog.naver.com/youferst/224313145317",
+      "evalScore": 67,
+      "wordCount": 2031,
+      "publishedAt": "2026-06-11T11:01:07.359Z",
+      "topicSource": "generated",
+      "contentKind": "hub",
+      "learnedAt": "2026-06-11T11:01:14.928Z"
+    },
+    {
       "postId": "post-e8ee9484",
       "topicId": "topic-84bb96d1",
       "userId": "b",
@@ -171,5 +184,5 @@
       "learnedAt": "2026-04-25T10:02:38.491Z"
     }
   ],
-  "updatedAt": "2026-06-06T08:37:45.632Z"
+  "updatedAt": "2026-06-11T11:01:14.928Z"
 }
