@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-3fc356c6",
+      "topicId": "topic-d4ecb2a7",
+      "userId": "c",
+      "title": "부천 상동 전자담배 멀쩡한 기기 유지관리와 고장 예방 팁",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224313055083",
+      "evalScore": 36,
+      "wordCount": 2266,
+      "publishedAt": "2026-06-11T09:02:58.523Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-06-11T09:03:05.205Z"
+    },
+    {
       "postId": "post-e17c7d6e",
       "topicId": "topic-c6e44a2b",
       "userId": "c",
@@ -405,5 +418,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-06-09T05:34:06.801Z"
+  "updatedAt": "2026-06-11T09:03:05.205Z"
 }
