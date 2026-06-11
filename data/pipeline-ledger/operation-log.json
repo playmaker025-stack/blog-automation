@@ -5419,7 +5419,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-fda33548",
       "at": "2026-06-11T05:26:19.198Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-a89ad3c4",
+      "userId": "a",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-66e4d4cd",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-52684cf1",
+      "at": "2026-06-11T05:26:41.983Z"
     }
   ],
-  "lastUpdated": "2026-06-11T05:26:19.198Z"
+  "lastUpdated": "2026-06-11T05:26:41.983Z"
 }
