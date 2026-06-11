@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-c0dbd518",
+  "type": "approval_request",
+  "savedAt": "2026-06-11T06:01:21.798Z",
+  "data": {
+    "pipelineId": "pipe-c0dbd518",
+    "previousTitle": "",
+    "proposedTitle": "부천 상동 전자담배 멀쩡한 기기 유지관리와 고장 예방 팁",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-06-11T06:01:13.354Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-06-11T06:01:13.354Z",
+      "modifications": null
+    }
+  }
+}
