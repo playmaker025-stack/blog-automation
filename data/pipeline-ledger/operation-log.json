@@ -5496,7 +5496,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-e57d8fef",
       "at": "2026-06-11T06:02:51.683Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-a89ad3c4",
+      "userId": "a",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-66e4d4cd, ready:post-b19b1f84, ready:post-14710d77 / Similar existing title found: 인천 부평 입호흡 전자담배 기기 TOP5｜직접 써본 내돈내산 후기 (ready, 0.862)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-7572f127",
+      "at": "2026-06-11T06:17:18.928Z"
     }
   ],
-  "lastUpdated": "2026-06-11T06:02:51.683Z"
+  "lastUpdated": "2026-06-11T06:17:18.928Z"
 }
