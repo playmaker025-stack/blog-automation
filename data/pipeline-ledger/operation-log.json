@@ -5430,7 +5430,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-52684cf1",
       "at": "2026-06-11T05:26:41.983Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 부평 입호흡 전자담배 추천 기기 TOP5 및 사용 후기",
+      "proposedTitle": "인천 부평 입호흡 전자담배 추천 기기 TOP5｜부평 만수르 내돈내산 사용 후기",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.696969696969697,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-e6be9a4f",
+      "at": "2026-06-11T05:28:19.461Z"
     }
   ],
-  "lastUpdated": "2026-06-11T05:26:41.983Z"
+  "lastUpdated": "2026-06-11T05:28:19.461Z"
 }
