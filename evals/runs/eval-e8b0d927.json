@@ -1,0 +1,944 @@
+{
+  "runId": "eval-e8b0d927",
+  "scores": {
+    "originality": 65,
+    "style_match": 70,
+    "structure": 68,
+    "engagement": 60,
+    "forbidden_check": 100
+  },
+  "aggregateScore": 36,
+  "reasoning": {
+    "originality": "전자담배 기기관리와 고장예방에 대해 구체적이고 실용적인 팁을 제공하여 독자에게 유용한 정보를 전달하고 있으나, 주제 자체가 흔한 내용이라 완전히 새롭다고 보기는 어렵습니다.",
+    "style_match": "친근하고 이해하기 쉬운 문체로 작성되어 있으며, 부천 상동 지역 특성을 반영해 지역 독자에게 적합한 스타일을 잘 살렸습니다.",
+    "structure": "도입부에서 문제 제기 후 정상/비정상 증상 구분, 점검 순서, 원인 분류, 점검 필요 상황, 예방 팁, 관련 내부링크 안내까지 논리적이고 체계적으로 구성되어 있습니다.",
+    "engagement": "실제 경험에 기반한 구체적 사례와 점검 방법을 제시해 독자의 관심을 끌지만, 다소 정보 전달 위주로 흥미 요소가 부족해 체류시간을 높이기에는 아쉬움이 있습니다.",
+    "forbidden_check": "내부 SEO 용어, 평가자, 전략 등 금지어가 전혀 포함되어 있지 않아 네이버 블로그 정책에 부합합니다.",
+    "seo": "SEO 점수 37점. 제목 길이가 모바일 검색 노출 구간에 비교적 안정적입니다.",
+    "naver_logic": "네이버 로직 점수 17점. 문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다."
+  },
+  "recommendations": [
+    "제목 앞부분에 '기기관리'를 더 빠르게 노출하면 검색 의도가 선명해집니다.",
+    "첫 두 문단 안에 '기기관리'를 자연스럽게 넣는 편이 좋습니다.",
+    "첫 문장에 '기기관리'를 한 번 직접 배치해 검색 의도를 더 또렷하게 보여주세요.",
+    "핵심 소제목 1개 이상에 '기기관리'를 포함해 주제 축을 더 선명하게 잡아주세요.",
+    "마무리 문단에서 '기기관리'를 한 번 더 정리해 글의 중심 키워드를 닫아주세요.",
+    "메인 키워드 '기기관리'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+  ],
+  "pass": false,
+  "seoEvaluation": {
+    "score": 37,
+    "evidence": [
+      "제목 길이가 모바일 검색 노출 구간에 비교적 안정적입니다.",
+      "'고장예방' 본문 1회는 현재 권장 범위입니다.",
+      "'부천' 본문 2회는 현재 권장 범위입니다.",
+      "'상동' 본문 2회는 현재 권장 범위입니다.",
+      "'멀쩡한' 본문 3회는 현재 권장 범위입니다.",
+      "'유지관리와' 본문 1회는 현재 권장 범위입니다."
+    ],
+    "improvements": [
+      "제목 앞부분에 '기기관리'를 더 빠르게 노출하면 검색 의도가 선명해집니다.",
+      "첫 두 문단 안에 '기기관리'를 자연스럽게 넣는 편이 좋습니다.",
+      "첫 문장에 '기기관리'를 한 번 직접 배치해 검색 의도를 더 또렷하게 보여주세요.",
+      "핵심 소제목 1개 이상에 '기기관리'를 포함해 주제 축을 더 선명하게 잡아주세요.",
+      "마무리 문단에서 '기기관리'를 한 번 더 정리해 글의 중심 키워드를 닫아주세요.",
+      "메인 키워드 '기기관리'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+    ],
+    "keywordReport": {
+      "items": [
+        {
+          "keyword": "기기관리",
+          "count": 3,
+          "status": "under",
+          "targetMin": 4,
+          "targetMax": 7,
+          "role": "main",
+          "recommendation": "메인 키워드 '기기관리'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "고장예방",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '고장예방' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "부천",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '부천' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "상동",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '상동' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "멀쩡한",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '멀쩡한' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "유지관리와",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '유지관리와' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "고장예방 기기관리",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '고장예방 기기관리'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "부천 기기관리",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '부천 기기관리'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "mainKeyword": {
+        "keyword": "기기관리",
+        "count": 3,
+        "status": "under",
+        "targetMin": 4,
+        "targetMax": 7,
+        "role": "main",
+        "recommendation": "메인 키워드 '기기관리'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+      },
+      "subKeywords": [
+        {
+          "keyword": "고장예방",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '고장예방' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "부천",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '부천' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "상동",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '상동' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "멀쩡한",
+          "count": 3,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '멀쩡한' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "유지관리와",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '유지관리와' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "고장예방 기기관리",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '고장예방 기기관리'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "부천 기기관리",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '부천 기기관리'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        }
+      ],
+      "bridgeKeywords": [],
+      "internalLinkAnchors": [],
+      "forbiddenItems": [
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "contractApplied": true,
+      "overallRisk": "medium",
+      "overallRiskSummary": "일부 키워드 조정이 필요하지만, 문맥을 유지하며 보정할 수 있습니다.",
+      "paragraphWarnings": [],
+      "seoKeywordItems": [
+        {
+          "keyword": "기기관리",
+          "role": "main",
+          "exactCount": 3,
+          "includedCount": 0,
+          "effectiveCount": 3,
+          "risk": "under",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "고장예방",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "부천",
+          "role": "sub",
+          "exactCount": 2,
+          "includedCount": 0,
+          "effectiveCount": 2,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "상동",
+          "role": "sub",
+          "exactCount": 2,
+          "includedCount": 0,
+          "effectiveCount": 2,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "멀쩡한",
+          "role": "sub",
+          "exactCount": 3,
+          "includedCount": 0,
+          "effectiveCount": 3,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "유지관리와",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "고장예방 기기관리",
+          "role": "sub",
+          "exactCount": 0,
+          "includedCount": 0,
+          "effectiveCount": 0,
+          "risk": "under",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "부천 기기관리",
+          "role": "sub",
+          "exactCount": 0,
+          "includedCount": 0,
+          "effectiveCount": 0,
+          "risk": "under",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        }
+      ],
+      "requiredEntityChecks": [],
+      "bodyRepetitionItems": [
+        {
+          "token": "합니다",
+          "count": 6,
+          "category": "sentence_ending",
+          "severity": "notice",
+          "message": "'합니다' 문장 마무리가 반복됩니다.",
+          "suggestion": "문장 종결 표현을 섞어서 리듬을 바꿔 주세요.",
+          "isSeoRisk": false
+        },
+        {
+          "token": "입니다",
+          "count": 4,
+          "category": "sentence_ending",
+          "severity": "notice",
+          "message": "'입니다' 문장 마무리가 반복됩니다.",
+          "suggestion": "문장 종결 표현을 섞어서 리듬을 바꿔 주세요.",
+          "isSeoRisk": false
+        },
+        {
+          "token": "확인하",
+          "count": 4,
+          "category": "verb_stem",
+          "severity": "notice",
+          "message": "'확인하' 반복이 눈에 띄기 시작합니다.",
+          "suggestion": "같은 동사 어간을 반복하지 말고 문장 구조를 바꿔 주세요.",
+          "isSeoRisk": false
+        }
+      ],
+      "legacyTokenItems": [
+        {
+          "token": "기기관리",
+          "count": 3,
+          "sourceKeywords": [
+            "기기관리",
+            "고장예방 기기관리",
+            "부천 기기관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "멀쩡한",
+          "count": 3,
+          "sourceKeywords": [
+            "멀쩡한"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "배터리",
+          "count": 2,
+          "sourceKeywords": [
+            "배터리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "부천",
+          "count": 2,
+          "sourceKeywords": [
+            "부천",
+            "부천 기기관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "상동",
+          "count": 2,
+          "sourceKeywords": [
+            "상동"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "구분해보면",
+          "count": 1,
+          "sourceKeywords": [
+            "구분해보면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "유지관리와",
+          "count": 1,
+          "sourceKeywords": [
+            "유지관리와"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "고장예방",
+          "count": 1,
+          "sourceKeywords": [
+            "고장예방",
+            "고장예방 기기관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "tokenItems": [
+        {
+          "token": "기기관리",
+          "count": 3,
+          "sourceKeywords": [
+            "기기관리",
+            "고장예방 기기관리",
+            "부천 기기관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "멀쩡한",
+          "count": 3,
+          "sourceKeywords": [
+            "멀쩡한"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "배터리",
+          "count": 2,
+          "sourceKeywords": [
+            "배터리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "부천",
+          "count": 2,
+          "sourceKeywords": [
+            "부천",
+            "부천 기기관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "상동",
+          "count": 2,
+          "sourceKeywords": [
+            "상동"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "구분해보면",
+          "count": 1,
+          "sourceKeywords": [
+            "구분해보면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "유지관리와",
+          "count": 1,
+          "sourceKeywords": [
+            "유지관리와"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "고장예방",
+          "count": 1,
+          "sourceKeywords": [
+            "고장예방",
+            "고장예방 기기관리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "totalMentions": 12,
+      "introCoverage": false,
+      "titleFrontLoaded": false,
+      "bodyLength": 2266,
+      "summary": [
+        "메인 키워드 '기기관리' 본문 3회",
+        "제목 앞부분의 메인 키워드 배치가 약합니다.",
+        "제목 앞부분의 메인 키워드 배치가 약합니다.",
+        "전체 반복 위험도 medium"
+      ],
+      "recommendations": [
+        "메인 키워드 '기기관리'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+        "서브 키워드 '고장예방 기기관리'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+        "서브 키워드 '부천 기기관리'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+      ]
+    },
+    "keywordMetrics": [
+      {
+        "keyword": "기기관리",
+        "role": "main",
+        "label": "메인 키워드",
+        "completenessScore": 33,
+        "exposurePotentialScore": 47,
+        "count": 3,
+        "targetMin": 4,
+        "targetMax": 7,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": true,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 3회",
+        "action": "'기기관리'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "고장예방",
+        "role": "sub",
+        "label": "서브 키워드 1",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 1회",
+        "action": "'고장예방'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "부천",
+        "role": "sub",
+        "label": "서브 키워드 2",
+        "completenessScore": 63,
+        "exposurePotentialScore": 79,
+        "count": 2,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": false,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 부족 / 본문 2회",
+        "action": "도입부에서 '부천' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "상동",
+        "role": "sub",
+        "label": "서브 키워드 3",
+        "completenessScore": 63,
+        "exposurePotentialScore": 79,
+        "count": 2,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": false,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 부족 / 본문 2회",
+        "action": "도입부에서 '상동' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "멀쩡한",
+        "role": "sub",
+        "label": "서브 키워드 4",
+        "completenessScore": 84,
+        "exposurePotentialScore": 94,
+        "count": 3,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 3회",
+        "action": "도입부에서 '멀쩡한' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "유지관리와",
+        "role": "sub",
+        "label": "서브 키워드 5",
+        "completenessScore": 63,
+        "exposurePotentialScore": 79,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 포함 / 도입부 부족 / 본문 1회",
+        "action": "도입부에서 '유지관리와' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "고장예방 기기관리",
+        "role": "sub",
+        "label": "서브 키워드 6",
+        "completenessScore": 32,
+        "exposurePotentialScore": 47,
+        "count": 0,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 0회",
+        "action": "'고장예방 기기관리'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "부천 기기관리",
+        "role": "sub",
+        "label": "서브 키워드 7",
+        "completenessScore": 32,
+        "exposurePotentialScore": 47,
+        "count": 0,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 0회",
+        "action": "'부천 기기관리'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      }
+    ],
+    "combinationCoverageScore": 73,
+    "combinationMetrics": [
+      {
+        "phrase": "기기관리",
+        "role": "main",
+        "priority": "core",
+        "exactMatches": 3,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": true,
+        "coverageScore": 70,
+        "exposurePotentialScore": 63,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 3회 직접 표현",
+        "action": "'기기관리' 조합을 제목이나 제목 가까운 소제목에 더 직접적으로 드러내는 편이 좋습니다."
+      },
+      {
+        "phrase": "고장예방",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '고장예방' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "부천",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 2,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": true,
+        "coverageScore": 84,
+        "exposurePotentialScore": 82,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 보강 가능 · 2회 직접 표현",
+        "action": "첫 두 문단 안에서 '부천' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "상동",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 2,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": true,
+        "coverageScore": 84,
+        "exposurePotentialScore": 82,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 보강 가능 · 2회 직접 표현",
+        "action": "첫 두 문단 안에서 '상동' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "멀쩡한",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 3,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 99,
+        "exposurePotentialScore": 98,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 보강 가능 · 3회 직접 표현",
+        "action": "현재 조합 흐름을 유지해도 괜찮습니다."
+      },
+      {
+        "phrase": "유지관리와",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 74,
+        "exposurePotentialScore": 71,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '유지관리와' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "고장예방 기기관리",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 0,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 55,
+        "exposurePotentialScore": 48,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 0회 직접 표현",
+        "action": "첫 두 문단 안에서 '고장예방 기기관리' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "부천 기기관리",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 0,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": true,
+        "coverageScore": 65,
+        "exposurePotentialScore": 59,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 0회 직접 표현",
+        "action": "첫 두 문단 안에서 '부천 기기관리' 검색 의도를 더 직접적으로 받아 주세요."
+      }
+    ]
+  },
+  "naverLogicEvaluation": {
+    "primary": "c-rank",
+    "label": "C-Rank 중심",
+    "completenessScore": 17,
+    "reason": "이 주제는 지역성, 실사용 맥락, 내부링크 연결이 중요해서 C-Rank 관점이 더 강합니다.",
+    "evidence": [
+      "문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다.",
+      "비교와 선택 기준 요소가 살아 있어 실전 검색 의도에 잘 맞습니다.",
+      "내부링크 설계 대상이 있어 주제권 확장 관점이 살아 있습니다.",
+      "지역성과 실사용 맥락이 보여 C-Rank 관점의 주제권 연결이 자연스럽습니다.",
+      "실사용 맥락과 검색자 질문이 보여 D.I.A. 관점의 설득력이 있습니다."
+    ],
+    "improvements": [
+      "허브 참조 링크는 '부천 상동 전자담배 연기 알레르기? 코·기도 붓는 이유와 대처법' 제목과 https://blog.naver.com/mansur_vape/224275412143 URL을 정확히 같은 쌍으로 써야 합니다.",
+      "리프 참조 링크는 '입호흡 전자담배 수명 - 기기 오래 쓰려면 꼭 알아야 할 교체 기준' 제목과 https://blog.naver.com/mansur_vape/224238522947 URL을 정확히 같은 쌍으로 써야 합니다.",
+      "C-Rank 중심 글이라면 지역성, 실사용, 내부링크 흐름을 조금 더 분명히 보여주는 편이 좋습니다."
+    ]
+  },
+  "postId": "post-3fc356c6",
+  "savedAt": "2026-06-11T06:05:36.819Z"
+}
