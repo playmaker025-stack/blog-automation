@@ -2902,7 +2902,29 @@
       "assignedUserId": "b",
       "createdAt": "2026-06-08T06:35:01.599Z",
       "updatedAt": "2026-06-08T06:35:01.599Z"
+    },
+    {
+      "topicId": "topic-d4ecb2a7",
+      "title": "부천 상동 전자담배 멀쩡한 기기 유지관리와 고장 예방 팁",
+      "description": "부천 상동 지역 전자담배 사용자들을 위해 멀쩡한 상태로 기기를 오래 유지하는 관리법과 자주 발생하는 고장 예방 방법을 안내합니다.",
+      "category": "전자담배",
+      "tags": [
+        "기기관리",
+        "고장예방",
+        "부천",
+        "상동",
+        "전자담배"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-11T05:58:51.435Z",
+      "updatedAt": "2026-06-11T05:58:51.435Z"
     }
   ],
-  "lastUpdated": "2026-06-11T05:57:33.006Z"
+  "lastUpdated": "2026-06-11T05:58:51.435Z"
 }
