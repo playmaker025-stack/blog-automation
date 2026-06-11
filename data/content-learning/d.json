@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mq9dyyhm",
+      "topicId": "",
+      "userId": "d",
+      "title": "전자담배 액상 색이 진할수록 코일이 빨리 타는 이유 – 단맛 액상 좋아하면 꼭 알아야 합니다 😅",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224313146479",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-11T11:00:13.370Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-11T11:00:16.631Z"
+    },
+    {
       "postId": "post-manual-mq6lu13e",
       "topicId": "",
       "userId": "d",
@@ -301,5 +314,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-06-09T12:17:03.747Z"
+  "updatedAt": "2026-06-11T11:00:16.631Z"
 }
