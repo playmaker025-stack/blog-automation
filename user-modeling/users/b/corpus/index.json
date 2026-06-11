@@ -2,6 +2,21 @@
   "userId": "b",
   "samples": [
     {
+      "sampleId": "published-post-af6fb7fc",
+      "title": "만수동 전자담배 기기별 고장 유형별 자가진단과 점검법",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "고장점검",
+        "자가진단",
+        "기기관리"
+      ],
+      "wordCount": 2031,
+      "publishedAt": "2026-06-11T11:01:07.359Z",
+      "filePath": "user-modeling/users/b/corpus/samples/published-post-af6fb7fc.md"
+    },
+    {
       "sampleId": "published-post-e8ee9484",
       "title": "만수동 전자담배 액상 신선도 유지법과 꿀팁 총정리",
       "category": "b",
@@ -186,5 +201,5 @@
       "filePath": "user-modeling/users/b/corpus/samples/published-post-import-08c915d5f3.md"
     }
   ],
-  "lastUpdated": "2026-06-06T08:37:48.088Z"
+  "lastUpdated": "2026-06-11T11:01:18.656Z"
 }
