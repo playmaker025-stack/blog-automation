@@ -5474,7 +5474,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-119f231a",
       "at": "2026-06-11T05:59:39.225Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부천 상동 전자담배 멀쩡한 기기 유지관리와 고장 예방 팁",
+      "proposedTitle": "부천 상동 전자담배 멀쩡한 기기 유지관리와 고장 예방 팁",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-c0dbd518",
+      "at": "2026-06-11T06:00:59.234Z"
     }
   ],
-  "lastUpdated": "2026-06-11T05:59:39.225Z"
+  "lastUpdated": "2026-06-11T06:00:59.234Z"
 }
