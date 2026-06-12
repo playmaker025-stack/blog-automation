@@ -2614,10 +2614,10 @@
       "contentKind": "hub",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "in-progress",
       "assignedUserId": "a",
       "createdAt": "2026-06-05T03:21:10.442Z",
-      "updatedAt": "2026-06-12T06:11:45.317Z"
+      "updatedAt": "2026-06-12T06:36:35.755Z"
     },
     {
       "topicId": "topic-e9d035b8",
@@ -2949,5 +2949,5 @@
       "updatedAt": "2026-06-12T05:40:46.043Z"
     }
   ],
-  "lastUpdated": "2026-06-12T06:11:45.317Z"
+  "lastUpdated": "2026-06-12T06:36:35.755Z"
 }
