@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mqax7wsk",
+      "topicId": "",
+      "userId": "d",
+      "title": "전자담배 액상 냉장고에 넣어두면 오래 갈까 – 보관 방법 정리",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224314298504",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-12T12:46:48.504Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-12T12:46:50.286Z"
+    },
+    {
       "postId": "post-manual-mq9dyyhm",
       "topicId": "",
       "userId": "d",
@@ -314,5 +327,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-06-11T11:00:16.631Z"
+  "updatedAt": "2026-06-12T12:46:50.286Z"
 }
