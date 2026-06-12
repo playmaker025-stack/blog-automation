@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-99c636ac",
+      "topicId": "topic-3fdab8a1",
+      "userId": "c",
+      "title": "사랑니 뽑고 전자담배 사용 시 주의사항과 무니코틴 선택 팁",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224314065271",
+      "evalScore": 53,
+      "wordCount": 2390,
+      "publishedAt": "2026-06-12T07:43:14.065Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-06-12T07:43:18.874Z"
+    },
+    {
       "postId": "post-3fc356c6",
       "topicId": "topic-d4ecb2a7",
       "userId": "c",
@@ -418,5 +431,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-06-11T09:03:05.205Z"
+  "updatedAt": "2026-06-12T07:43:18.874Z"
 }
