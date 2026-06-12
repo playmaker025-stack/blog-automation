@@ -5540,7 +5540,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-8e8fe633",
       "at": "2026-06-12T05:25:53.971Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "사랑니 뽑고 전자담배 사용 시 주의사항과 무니코틴 선택 팁",
+      "proposedTitle": "사랑니 뽑고 전자담배 사용 시 주의사항과 무니코틴 선택 팁 – 부천 상동",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 0.8275862068965517,
+      "overrideByHighSim": false,
+      "pipelineId": "pipe-9bb7df49",
+      "at": "2026-06-12T05:34:06.030Z"
     }
   ],
-  "lastUpdated": "2026-06-12T05:25:53.971Z"
+  "lastUpdated": "2026-06-12T05:34:06.030Z"
 }
