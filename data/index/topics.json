@@ -2924,7 +2924,30 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-11T05:58:51.435Z",
       "updatedAt": "2026-06-11T09:03:03.661Z"
+    },
+    {
+      "topicId": "topic-3fdab8a1",
+      "title": "부천 상동 사랑니 뽑고 전자담배 사용 시 주의사항과 무니코틴 선택 팁",
+      "description": "부천 상동 지역에서 사랑니 발치 후 전자담배를 사용할 때 주의해야 할 점과 무니코틴 액상 선택 요령을 소개합니다.",
+      "category": "전자담배",
+      "tags": [
+        "부천",
+        "상동",
+        "사랑니",
+        "전자담배",
+        "무니코틴",
+        "주의사항"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-12T05:30:41.040Z",
+      "updatedAt": "2026-06-12T05:30:41.040Z"
     }
   ],
-  "lastUpdated": "2026-06-11T11:01:12.404Z"
+  "lastUpdated": "2026-06-12T05:30:41.040Z"
 }
