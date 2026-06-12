@@ -2947,7 +2947,29 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-12T05:30:41.040Z",
       "updatedAt": "2026-06-12T07:43:17.270Z"
+    },
+    {
+      "topicId": "topic-e37fc41c",
+      "title": "전자담배 액상 냉장고에 넣어두면 오래 갈까 – 보관 방법 정리",
+      "description": "메인키워드: 액상 보관방법 / 서브 키워드: 부평 전자담배",
+      "category": "direct-run",
+      "tags": [
+        "액상 보관방법",
+        "부평 전자담배"
+      ],
+      "targetKeyword": "액상 보관방법",
+      "subKeywords": [
+        "부평 전자담배"
+      ],
+      "source": "direct",
+      "targetMainKeyword": "액상 보관방법",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "d",
+      "createdAt": "2026-06-12T11:01:32.574Z",
+      "updatedAt": "2026-06-12T11:01:32.574Z"
     }
   ],
-  "lastUpdated": "2026-06-12T07:44:59.422Z"
+  "lastUpdated": "2026-06-12T11:01:32.574Z"
 }
