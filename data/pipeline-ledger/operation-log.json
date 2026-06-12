@@ -5617,7 +5617,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-12191979",
       "at": "2026-06-12T06:08:08.454Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-a89ad3c4",
+      "userId": "a",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-66e4d4cd, ready:post-b19b1f84, ready:post-14710d77, ready:post-b48822b3, ready:post-bdf61197, ready:post-84ec17b5 / Similar existing title found: 인천 부평 입호흡 전자담배 추천 기기 TOP5 및 사용 후기 (ready, 1); 인천 부평 입호흡 전자담배 추천 기기 TOP5 및 사용 후기 (ready, 1); 인천 부평 입호흡 전자담배 추천 기기 TOP5 및 사용 후기 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-802f8761",
+      "at": "2026-06-12T06:32:41.028Z"
     }
   ],
-  "lastUpdated": "2026-06-12T06:08:08.454Z"
+  "lastUpdated": "2026-06-12T06:32:41.028Z"
 }
