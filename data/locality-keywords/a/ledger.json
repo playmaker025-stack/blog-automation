@@ -2,6 +2,24 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "송도",
+      "phrase": "송도나 청라",
+      "title": "인천 부평 입호흡 전자담배 추천 기기 TOP5 및 사용 후기",
+      "postId": "post-bdf61197",
+      "topicId": "topic-a89ad3c4",
+      "userId": "a",
+      "usedAt": "2026-06-12T05:50:12.270Z"
+    },
+    {
+      "keyword": "청라",
+      "phrase": "송도나 청라",
+      "title": "인천 부평 입호흡 전자담배 추천 기기 TOP5 및 사용 후기",
+      "postId": "post-bdf61197",
+      "topicId": "topic-a89ad3c4",
+      "userId": "a",
+      "usedAt": "2026-06-12T05:50:12.270Z"
+    },
+    {
       "keyword": "삼산동",
       "phrase": "특히 삼산동이나",
       "title": "인천 부평 입호흡 전자담배 추천 기기 TOP5 및 사용 후기",
@@ -1307,5 +1325,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-06-11T06:24:52.295Z"
+  "updatedAt": "2026-06-12T05:50:12.270Z"
 }
