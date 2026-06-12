@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "type": "corpus_retrieval",
-      "userId": "a",
-      "selectedCount": 0,
-      "strategy": "fallback_recent",
-      "staleCount": 0,
-      "staleWarnings": [],
-      "topScores": [],
-      "targetCategory": "A블로그",
-      "pipelineId": "pipe-95a8b936",
-      "at": "2026-04-07T07:34:05.262Z"
-    },
-    {
       "type": "material_change",
       "originalTitle": "부평 전자담배 입문 기기 추천",
       "proposedTitle": "부평 전자담배 입문 기기 추천, 처음이라면 이것부터",
@@ -5716,7 +5704,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-a4554e65",
       "at": "2026-06-12T07:36:34.996Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "인천 부평 입호흡 전자담배 추천 기기 TOP5 및 사용 후기",
+      "proposedTitle": "인천 부평 입호흡 전자담배 추천 기기 TOP5 및 사용 후기",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-b8f4205c",
+      "at": "2026-06-12T07:40:51.531Z"
     }
   ],
-  "lastUpdated": "2026-06-12T07:36:34.996Z"
+  "lastUpdated": "2026-06-12T07:40:51.531Z"
 }
