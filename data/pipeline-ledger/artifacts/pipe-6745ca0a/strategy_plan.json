@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-6745ca0a",
   "type": "strategy_plan",
-  "savedAt": "2026-06-12T11:01:42.578Z",
+  "savedAt": "2026-06-12T11:01:56.158Z",
   "data": {
     "title": "전자담배 액상 냉장고에 넣어두면 오래 갈까 – 보관 방법 정리",
     "outline": [
@@ -65,7 +65,110 @@
       "갈까"
     ],
     "rationale": "직접 입력 토픽이므로 메인 키워드 '액상 보관방법'를 중심축으로 두고, 서브 키워드 '부평 전자담배'는 보조 맥락으로 반영했습니다. AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "d",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 3806,
+        "signatureExpressions": [],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "주제 직접 서술로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-63f0c6d4",
+          "title": "전자담배 액상, 과일멘솔과 연초류 비교 및 추천 가이드",
+          "excerpt": "전자담배 액상을 고를 때 과일멘솔과 연초류 중 어떤 선택이 나에게 맞을지 고민하는 분들이 많습니다. 단순히 맛뿐 아니라 흡연 경험, 쿨링감 선호도, 사용 상황을 꼼꼼히 따져보는 것이 중요하죠. 이 글에서는 과일멘솔과 연초류 액상의 차이점과 선택 기준, 입문자 추천까지 한눈에 정리해 알려드리겠습니다. 먼저, 두 액상의 차이를 살펴볼까요? 과일멘솔 액상은 상큼한 과일향과 청량한 쿨링감이 특징이며, 가볍고 산뜻한 흡입감을 제공합니다",
+          "styleNotes": "tone=casual, category=direct-run"
+        },
+        {
+          "sampleId": "published-post-manual-mpzfs8lh",
+          "title": "전자담배 액상 오래 쓰는 방법(액상 빨리 줄어드는 사람들 꼭 보세요)",
+          "excerpt": "전자담배 액상 오래 쓰는 방법(액상 빨리 줄어드는 사람들 꼭 보세요) 전자담배 액상 오래 쓰는 방법(액상 빨리 줄어드는 사람들 꼭 보세요) : 네이버 블로그 NAVER 블로그 인천 전자담배 부평 만수르 조카 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 ",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-bb8481dc",
+          "title": "부평 전자담배 액상 입 튐 문제, 매장에서 빠르게 해결하는 법",
+          "excerpt": "전자담배를 사용하다 보면 액상이 입으로 튀어 당황한 경험이 있으시죠? 부평 전자담배 매장에도 이런 문의가 매우 자주 들어옵니다. 기기가 고장 난 건지, 아니면 원래 그런 현상인지 혼란스러울 때가 많습니다. 이번 글에서는 전자담배 액상이 입으로 튀는 현상이 정상인지, 비정상인지 먼저 구분하고, 집에서 쉽게 할 수 있는 자가 점검 방법부터 매장 방문 시 준비사항까지 함께 정리해드리겠습니다. 전자담배에서 입으로 액상이 튀는 ‘스팃(",
+          "styleNotes": "tone=casual, category=direct-run"
+        },
+        {
+          "sampleId": "published-post-manual-mpqwtomg",
+          "title": "전자담배 액상 오래 안 쓰면 상할까 – 보관 잘못하면 생기는 일",
+          "excerpt": "전자담배 액상 오래 안 쓰면 상할까 – 보관 잘못하면 생기는 일 전자담배 액상 오래 안 쓰면 상할까 – 보관 잘못하면 생기는 일 : 네이버 블로그 NAVER 블로그 인천 전자담배 부평 만수르 조카 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-87d8de6d",
+          "title": "액상형 전자담배 장점과 초보자 체크포인트 완벽 가이드",
+          "excerpt": "연초에서 액상형 전자담배로 전환을 고민하는 분들이 많아지고 있습니다. 만수역, 계산동, 남동구, 부평구 등 여러 지역 매장에서도 “연초보다 액상형 전자담배가 왜 좋은가요?”, “처음 시작할 때 꼭 확인해야 할 점은 무엇인가요?”라는 질문이 자주 들려옵니다. 인터넷이나 선행 포스팅에서는 액상형 전자담배의 장점 위주로 설명하는 경우가 많지만, 직접 선택하려고 하면 막연하고 혼란스러운 경우도 많습니다. 특히 초보자에게는 연초와 액상",
+          "styleNotes": "tone=casual, contentKind=leaf, category=d"
+        }
+      ],
+      "representativeExcerpts": [
+        "전자담배 액상 색이 진할수록 코일이 빨리 타는 이유 – 단맛 액상 좋아하면 꼭 알아야 합니다 😅 전자담배 액상 색이 진할수록 코일이 빨리 타는 이유 – 단맛 액상 좋아하면 꼭 알아야 합니다 😅 : 네이버 블로그 NAVER 블로그 인천 전자담배 부평 만수르 조카 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0",
+        "전자담배 액상이 진해졌는데 계속 써도 될까 – 색 변화 원인 정리 전자담배 액상이 진해졌는데 계속 써도 될까 – 색 변화 원인 정리 : 네이버 블로그 NAVER 블로그 인천 전자담배 부평 만수르 조카 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을",
+        "전자담배 처음 시작할 때 가장 많이 하는 실수 5가지 – 초보분들이 진짜 많이 겪습니다 😅 전자담배 처음 시작할 때 가장 많이 하는 실수 5가지 – 초보분들이 진짜 많이 겪습니다 😅 : 네이버 블로그 NAVER 블로그 인천 전자담배 부평 만수르 조카 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭",
+        "전자담배 액상 냄새 많이 날까 – 연초랑 실제 차이 정리 전자담배 액상 냄새 많이 날까 – 연초랑 실제 차이 정리 : 네이버 블로그 NAVER 블로그 인천 전자담배 부평 만수르 조카 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기",
+        "전자담배 액상 오래 쓰는 방법(액상 빨리 줄어드는 사람들 꼭 보세요) 전자담배 액상 오래 쓰는 방법(액상 빨리 줄어드는 사람들 꼭 보세요) : 네이버 블로그 NAVER 블로그 인천 전자담배 부평 만수르 조카 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫"
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-63f0c6d4",
+          "finalScore": 0.712,
+          "components": {
+            "relevance": 0.67,
+            "recency": 0.69,
+            "roleMatch": 0.6,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-manual-mpzfs8lh",
+          "finalScore": 0.665,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.94,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-bb8481dc",
+          "finalScore": 0.644,
+          "components": {
+            "relevance": 0.68,
+            "recency": 0.71,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-manual-mpqwtomg",
+          "finalScore": 0.58,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.9,
+            "roleMatch": 0,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-87d8de6d",
+          "finalScore": 0.567,
+          "components": {
+            "relevance": 0.55,
+            "recency": 0.79,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 71,
