@@ -5672,7 +5672,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-9822b477",
       "at": "2026-06-12T06:39:31.266Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-a89ad3c4",
+      "userId": "a",
+      "message": "is at 648eda98bdd4735d784c426487c3f11366c300ed but expected 4d0a11843cad34585a9f9a0b409270cc295a75df - https://docs.github.com/rest/repos/contents#create-or-update-file-contents",
+      "recoveredTopicToDraft": false,
+      "errorName": "y",
+      "pipelineId": "pipe-9310fe10",
+      "at": "2026-06-12T06:39:33.482Z"
     }
   ],
-  "lastUpdated": "2026-06-12T06:39:31.266Z"
+  "lastUpdated": "2026-06-12T06:39:33.482Z"
 }
