@@ -5639,7 +5639,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-9310fe10",
       "at": "2026-06-12T06:32:55.142Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-a89ad3c4",
+      "userId": "a",
+      "message": "토픽 선택 실패: 현재 다른 작업에서 진행 중인 토픽입니다. 완료 후 다시 시도해 주세요.",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-9ef1b60f",
+      "at": "2026-06-12T06:38:28.369Z"
     }
   ],
-  "lastUpdated": "2026-06-12T06:32:55.142Z"
+  "lastUpdated": "2026-06-12T06:38:28.369Z"
 }
