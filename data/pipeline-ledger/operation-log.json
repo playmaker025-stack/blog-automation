@@ -2,17 +2,6 @@
   "entries": [
     {
       "type": "material_change",
-      "originalTitle": "부평 전자담배 입문 기기 추천",
-      "proposedTitle": "부평 전자담배 입문 기기 추천, 처음이라면 이것부터",
-      "isMaterial": false,
-      "triggeredSignals": [],
-      "stringSimilarity": 0.5454545454545454,
-      "overrideByHighSim": false,
-      "pipelineId": "pipe-b4568940",
-      "at": "2026-04-07T08:09:42.179Z"
-    },
-    {
-      "type": "material_change",
       "originalTitle": "인천 전자담배 추천 매장 고르는 기준 5가지",
       "proposedTitle": "인천 전자담배 매장 고르는 기준 5가지 | 처음이라면 꼭 읽어보세요",
       "isMaterial": false,
@@ -5715,7 +5704,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-b8f4205c",
       "at": "2026-06-12T07:40:51.531Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 액상 냉장고에 넣어두면 오래 갈까 – 보관 방법 정리",
+      "proposedTitle": "전자담배 액상 냉장고에 넣어두면 오래 갈까 – 보관 방법 정리",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-6745ca0a",
+      "at": "2026-06-12T11:01:44.735Z"
     }
   ],
-  "lastUpdated": "2026-06-12T07:40:51.531Z"
+  "lastUpdated": "2026-06-12T11:01:44.735Z"
 }
