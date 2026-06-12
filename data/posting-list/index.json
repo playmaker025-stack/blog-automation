@@ -5224,16 +5224,16 @@
       "postId": "post-99c636ac",
       "topicId": "topic-3fdab8a1",
       "userId": "c",
-      "title": "사랑니 뽑고 전자담배 사용 시 주의사항과 무니코틴 선택 팁 – 부천 상동",
-      "status": "ready",
-      "naverPostUrl": null,
+      "title": "사랑니 뽑고 전자담배 사용 시 주의사항과 무니코틴 선택 팁",
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224314065271",
       "evalScore": 53,
       "wordCount": 2390,
       "compositionSessionId": "pipe-9bb7df49",
       "pendingApproval": null,
       "createdAt": "2026-06-12T05:37:48.157Z",
-      "publishedAt": null,
-      "updatedAt": "2026-06-12T05:40:44.376Z"
+      "publishedAt": "2026-06-12T07:43:14.065Z",
+      "updatedAt": "2026-06-12T07:43:14.340Z"
     },
     {
       "postId": "post-bdf61197",
@@ -5341,5 +5341,5 @@
       "updatedAt": "2026-06-12T07:42:29.511Z"
     }
   ],
-  "lastUpdated": "2026-06-12T07:42:29.511Z"
+  "lastUpdated": "2026-06-12T07:43:14.340Z"
 }
