@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-9822b477",
   "type": "strategy_plan",
-  "savedAt": "2026-06-12T06:39:28.576Z",
+  "savedAt": "2026-06-12T06:40:46.255Z",
   "data": {
     "title": "인천 부평 입호흡 전자담배 추천 기기 TOP5 및 사용 후기",
     "outline": [
@@ -63,7 +63,112 @@
       "기기"
     ],
     "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "a",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 2770,
+        "signatureExpressions": [
+          "안녕하세요"
+        ],
+        "structurePattern": "서술형 (자연스러운 단락)",
+        "openingPattern": "인사로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-00ff14a1",
+          "title": "2026 입호흡 전자담배 추천 베스트 5｜만수동만수르 엄선",
+          "excerpt": "안녕하세요 만수동만수르 입니다. ​ 오늘은 이전부터 쭉 글을 써오면서 입문자 분들에게 선택 기준과 체크 포인트 https://blog.naver.com/iibodii00/224299140074 전자담배 초보자가 시작 전에 놓치는 체크 포인트 안녕하세요 만수동 만수르입니다. 전자담배 입문을 앞두고 초보자 분들이 시작 전에 자주 놓치는 체크포인... blog.naver.com https://blog.naver.com/iibodii",
+          "styleNotes": "tone=casual, contentKind=hub, category=a"
+        },
+        {
+          "sampleId": "published-post-aace5597",
+          "title": "인천 만수동 만수르 도조 오팔 20000 일회용 전자담배 리뷰",
+          "excerpt": "안녕하세요 만수동만수르 입니다. ​ 요즘 도조 오팔이 저희 인천 전자담배 만수동만수르네 문의가 많아서 한번 정리해봤습니다. ​ 솔직히 처음엔 그냥 지나쳤어요. 근데 문의가 점점 많아져서 아 이거 뭔가 있구나 싶어 ​ 제가 직접 써보고 느낀 점 그대로 적어볼게요. ​ 다른 일회용들도 궁금하신 분들은 아래 글을 참고하시면 좋을거 같습니다. 일회용 베스트5종 정리 ​ 도조 오팔 20000 일단 이게 뭔지 알고 가자 ​ 도조 오팔은 ",
+          "styleNotes": "tone=casual, category=?쇰컲"
+        },
+        {
+          "sampleId": "published-post-be2405d7",
+          "title": "입호흡 시원한 액상 추천 베스트5 인천 구월동 만수르 픽",
+          "excerpt": "안녕하세요 구월동 전자담배 만수르 입니다. ​ 매장에서 정말 자주 듣는 말이 있습니다. \"시원한 걸 찾는데요, 너무 쎄면 부담스럽고 단건 싫어요\" ​ 이 질문이 어려운 이유는 시원한 맛을 원하면서도 단맛이나 과도한 강도는 피하고 싶은 분들이 많죠 ​ 하지만 선별할 때 주의점이 있습니다 단맛을 완전히 빼면 시장에서 선택지가 너무 줄어들고 단순한 멘솔만 쓰면 아무 맛도 느껴지지 않는다고 하는 경우가 많습니다. ​ 따라서 본인의 취",
+          "styleNotes": "tone=casual, contentKind=leaf, category=a"
+        },
+        {
+          "sampleId": "published-post-f5b93892",
+          "title": "입호흡 전자담배 핵심 개념과 선택 가이드",
+          "excerpt": "안녕하세요, 만수동만수르입니다. 입호흡 전자담배를 처음 접하실 때 MTL, CSV, 팟, 모드기기 같은 용어들이 한꺼번에 쏟아져 혼란스러웠던 경험 있으실 겁니다. 특히 입호흡, 폐호흡 구분 없이 기기를 사용하면 만족스럽지 못하거나 잘못된 선택을 하는 경우가 많습니다. 이번 글에서는 전자담배 입문자분들을 위해 입호흡(MTL)과 폐호흡(DTL)의 차이, CSV 팟 디바이스와 모드기기의 특징 그리고 실제 사용과 추천 기준까지 핵심 ",
+          "styleNotes": "tone=casual, contentKind=leaf, category=a"
+        },
+        {
+          "sampleId": "published-post-8e30ca66",
+          "title": "인천 만수동만수르에서 고유가 피해 지원금 전자담배 사용 안내",
+          "excerpt": "안녕하세요 만수동만수르 입니다. 오늘 날짜로 끝자리 5번인 저도 고유가 피해 지원금을 신청했는데요! 신청 다음날 나온다고 하네요 매우 기대하는 마음을 갖고 이걸 어디다 써야할까 고민중인데 이번주 내내 저처럼 어디다 써야할까 고민하다가 전자담배 매장을 찾아 오시는 분들이 많이 계셨습니다. 근데 막상 와보니 입문하시는 분들은 기기와 액상이 너무 많아서 뭘 골라야 할지 모르겠다 그런 이야기들을 많이 하시기 때문에 기왕 지원금 쓰는 ",
+          "styleNotes": "tone=casual, contentKind=leaf, category=a"
+        }
+      ],
+      "representativeExcerpts": [
+        "안녕하세요 구월동 전자담배 만수르 입니다. ​ 매장에서 정말 자주 듣는 말이 있습니다. \"시원한 걸 찾는데요, 너무 쎄면 부담스럽고 단건 싫어요\" ​ 이 질문이 어려운 이유는 시원한 맛을 원하면서도 단맛이나 과도한 강도는 피하고 싶은 분들이 많죠 ​ 하지만 선별할 때 주의점이 있습니다 단맛을 완전히 빼면 시장에서 선택지가 너무 줄어들고 단순한 멘솔만 쓰면 아무 맛도 느껴지지 않는다고 하는 경우가 많습니다. ​ 따라서 본인의 취",
+        "안녕하세요 만수동만수르 입니다. ​ 오늘은 이전부터 쭉 글을 써오면서 입문자 분들에게 선택 기준과 체크 포인트 https://blog.naver.com/iibodii00/224299140074 전자담배 초보자가 시작 전에 놓치는 체크 포인트 안녕하세요 만수동 만수르입니다. 전자담배 입문을 앞두고 초보자 분들이 시작 전에 자주 놓치는 체크포인... blog.naver.com https://blog.naver.com/iibodii",
+        "안녕하세요 만수동 만수르입니다. ​ 전자담배 입문을 앞두고 초보자 분들이 시작 전에 자주 놓치는 체크포인트가 생각보다 많다는 걸 현장에서 자주 느끼게 됩니다. ​ 단순히 \"어떤게 좋은가요?\" 이런 질문만 반복될 만큼 실제로 준비 없이 오셨다가 혼란에 빠지시는 경우가 간혹 계시는 실정입니다. ​ 사실 뭐 이딴거 사면서 뭔 준비를 하냐? 그냥 편하게 사서 쓰고 연초대신 물고빨고하면 되지' ​ 이렇게 생각하신다면 다행이고 저 역시도",
+        "안녕하세요 만수동만수르 입니다. 오늘 날짜로 끝자리 5번인 저도 고유가 피해 지원금을 신청했는데요! 신청 다음날 나온다고 하네요 매우 기대하는 마음을 갖고 이걸 어디다 써야할까 고민중인데 이번주 내내 저처럼 어디다 써야할까 고민하다가 전자담배 매장을 찾아 오시는 분들이 많이 계셨습니다. 근데 막상 와보니 입문하시는 분들은 기기와 액상이 너무 많아서 뭘 골라야 할지 모르겠다 그런 이야기들을 많이 하시기 때문에 기왕 지원금 쓰는",
+        "안녕하세요, 만수동만수르입니다. 입호흡 전자담배를 처음 접하실 때 MTL, CSV, 팟, 모드기기 같은 용어들이 한꺼번에 쏟아져 혼란스러웠던 경험 있으실 겁니다. 특히 입호흡, 폐호흡 구분 없이 기기를 사용하면 만족스럽지 못하거나 잘못된 선택을 하는 경우가 많습니다. 이번 글에서는 전자담배 입문자분들을 위해 입호흡(MTL)과 폐호흡(DTL)의 차이, CSV 팟 디바이스와 모드기기의 특징 그리고 실제 사용과 추천 기준까지 핵심"
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-00ff14a1",
+          "finalScore": 0.627,
+          "components": {
+            "relevance": 0.68,
+            "recency": 0.94,
+            "roleMatch": 0.6,
+            "intentMatch": 0
+          }
+        },
+        {
+          "sampleId": "published-post-aace5597",
+          "finalScore": 0.579,
+          "components": {
+            "relevance": 0.65,
+            "recency": 0.68,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-be2405d7",
+          "finalScore": 0.561,
+          "components": {
+            "relevance": 0.51,
+            "recency": 0.95,
+            "roleMatch": 0.6,
+            "intentMatch": 0
+          }
+        },
+        {
+          "sampleId": "published-post-f5b93892",
+          "finalScore": 0.545,
+          "components": {
+            "relevance": 0.58,
+            "recency": 0.77,
+            "roleMatch": 0.6,
+            "intentMatch": 0
+          }
+        },
+        {
+          "sampleId": "published-post-8e30ca66",
+          "finalScore": 0.541,
+          "components": {
+            "relevance": 0.52,
+            "recency": 0.85,
+            "roleMatch": 0.6,
+            "intentMatch": 0
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 24,
