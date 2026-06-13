@@ -1,0 +1,23 @@
+{
+  "pipelineId": "pipe-32170c7b",
+  "type": "draft_output",
+  "savedAt": "2026-06-13T02:53:41.262Z",
+  "data": {
+    "postId": "post-dfb90308",
+    "title": "만수동 전자담배 액상 선택 시 고려해야 할 농도별 특징과 추천",
+    "wordCount": 2246,
+    "generatedAt": "2026-06-13T02:53:40.250Z",
+    "contentPath": "data/posting-list/posts/post-dfb90308/content.md",
+    "corpusSummaryUsed": true,
+    "finalDraftCheck": {
+      "ok": true,
+      "blockingReasons": [],
+      "warnings": [],
+      "matchedForbiddenPhrases": [],
+      "keywordStuffingFindings": [],
+      "deferFindings": [],
+      "contractCoverageFindings": [],
+      "overlapFindings": []
+    }
+  }
+}
