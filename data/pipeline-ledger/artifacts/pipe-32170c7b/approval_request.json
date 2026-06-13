@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-32170c7b",
+  "type": "approval_request",
+  "savedAt": "2026-06-13T02:53:04.862Z",
+  "data": {
+    "pipelineId": "pipe-32170c7b",
+    "previousTitle": "",
+    "proposedTitle": "만수동 전자담배 액상 선택 시 고려해야 할 농도별 특징과 추천",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-06-13T02:52:59.151Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-06-13T02:52:59.151Z",
+      "modifications": null
+    }
+  }
+}
