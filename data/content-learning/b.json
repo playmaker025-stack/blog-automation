@@ -2,6 +2,19 @@
   "userId": "b",
   "entries": [
     {
+      "postId": "post-dfb90308",
+      "topicId": "topic-3142bce2",
+      "userId": "b",
+      "title": "만수동전자담배 액상선택, 고농도별 특징과 맞춤 추천",
+      "naverPostUrl": "https://blog.naver.com/youferst/224314932027",
+      "evalScore": 67,
+      "wordCount": 2141,
+      "publishedAt": "2026-06-13T09:50:34.444Z",
+      "topicSource": "generated",
+      "contentKind": "hub",
+      "learnedAt": "2026-06-13T09:50:42.133Z"
+    },
+    {
       "postId": "post-af6fb7fc",
       "topicId": "topic-c98fb9d1",
       "userId": "b",
@@ -184,5 +197,5 @@
       "learnedAt": "2026-04-25T10:02:38.491Z"
     }
   ],
-  "updatedAt": "2026-06-11T11:01:14.928Z"
+  "updatedAt": "2026-06-13T09:50:42.133Z"
 }
