@@ -2898,10 +2898,10 @@
       "contentKind": "hub",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "published",
       "assignedUserId": "b",
       "createdAt": "2026-06-08T06:35:01.599Z",
-      "updatedAt": "2026-06-13T02:54:44.081Z"
+      "updatedAt": "2026-06-13T09:50:40.284Z"
     },
     {
       "topicId": "topic-d4ecb2a7",
@@ -2971,5 +2971,5 @@
       "updatedAt": "2026-06-12T11:04:56.384Z"
     }
   ],
-  "lastUpdated": "2026-06-13T02:54:44.081Z"
+  "lastUpdated": "2026-06-13T09:50:40.284Z"
 }
