@@ -2,6 +2,21 @@
   "userId": "b",
   "samples": [
     {
+      "sampleId": "published-post-dfb90308",
+      "title": "만수동전자담배 액상선택, 고농도별 특징과 맞춤 추천",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "액상선택",
+        "농도별특징",
+        "추천"
+      ],
+      "wordCount": 2141,
+      "publishedAt": "2026-06-13T09:50:34.444Z",
+      "filePath": "user-modeling/users/b/corpus/samples/published-post-dfb90308.md"
+    },
+    {
       "sampleId": "published-post-af6fb7fc",
       "title": "만수동 전자담배 기기별 고장 유형별 자가진단과 점검법",
       "category": "b",
@@ -201,5 +216,5 @@
       "filePath": "user-modeling/users/b/corpus/samples/published-post-import-08c915d5f3.md"
     }
   ],
-  "lastUpdated": "2026-06-11T11:01:18.656Z"
+  "lastUpdated": "2026-06-13T09:50:44.742Z"
 }
