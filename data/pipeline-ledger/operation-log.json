@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "type": "material_change",
-      "originalTitle": "인천 전자담배 추천 매장 고르는 기준 5가지",
-      "proposedTitle": "인천 전자담배 매장 고르는 기준 5가지 | 처음이라면 꼭 읽어보세요",
-      "isMaterial": false,
-      "triggeredSignals": [],
-      "stringSimilarity": 0.5,
-      "overrideByHighSim": false,
-      "pipelineId": "pipe-a22231b5",
-      "at": "2026-04-07T08:37:27.184Z"
-    },
-    {
       "type": "approval_ux",
       "materialChange": false,
       "requestedAt": "2026-04-07T08:37:28.526Z",
@@ -5715,7 +5704,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-6745ca0a",
       "at": "2026-06-12T11:01:44.735Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "만수동 전자담배 액상 선택 시 고려해야 할 농도별 특징과 추천",
+      "proposedTitle": "만수동 전자담배 액상 선택 시 고려해야 할 농도별 특징과 추천",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-32170c7b",
+      "at": "2026-06-13T02:52:57.732Z"
     }
   ],
-  "lastUpdated": "2026-06-12T11:01:44.735Z"
+  "lastUpdated": "2026-06-13T02:52:57.732Z"
 }
