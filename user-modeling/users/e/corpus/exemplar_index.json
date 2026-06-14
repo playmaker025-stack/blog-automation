@@ -2,6 +2,17 @@
   "userId": "e",
   "exemplars": [
     {
+      "sampleId": "published-post-manual-mqdqgcfx",
+      "title": "정말 작은 일회용 전자담배가 왔다. 솔로바 미니 큐브",
+      "category": "published-post",
+      "tags": [],
+      "relevanceScore": 0.7,
+      "styleNotes": "tone=casual",
+      "excerpt": "정말 작은 일회용 전자담배가 왔다. 솔로바 미니 큐브 정말 작은 일회용 전자담배가 왔다. 솔로바 미니 큐브 : 네이버 블로그 NAVER 블로그 인천전자담배 만수동만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 ",
+      "wordCount": 6056,
+      "publishedAt": "2026-06-14T12:00:47.097Z"
+    },
+    {
       "sampleId": "published-post-manual-mq3qb33b",
       "title": "지나간 5월 입호흡 액상 순위 추천 해봅시다",
       "category": "published-post",
@@ -144,5 +155,5 @@
       "publishedAt": "2026-05-17T12:17:40.859Z"
     }
   ],
-  "lastCurated": "2026-06-07T11:59:04.345Z"
+  "lastCurated": "2026-06-14T12:00:54.337Z"
 }
