@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mqdj8bgq",
+      "topicId": "",
+      "userId": "d",
+      "title": "전자담배 액상을 차에 두면 생기는 일 – 여름철 특히 위험한 이유",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224315609096",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-14T08:38:31.093Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-14T08:38:32.708Z"
+    },
+    {
       "postId": "post-manual-mqax7wsk",
       "topicId": "",
       "userId": "d",
@@ -327,5 +340,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-06-12T12:46:50.286Z"
+  "updatedAt": "2026-06-14T08:38:32.708Z"
 }
