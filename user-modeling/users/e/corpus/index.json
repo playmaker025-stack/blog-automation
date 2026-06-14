@@ -2,6 +2,15 @@
   "userId": "e",
   "samples": [
     {
+      "sampleId": "published-post-manual-mqdqgcfx",
+      "title": "정말 작은 일회용 전자담배가 왔다. 솔로바 미니 큐브",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 6056,
+      "publishedAt": "2026-06-14T12:00:47.097Z",
+      "filePath": "user-modeling/users/e/corpus/samples/published-post-manual-mqdqgcfx.md"
+    },
+    {
       "sampleId": "published-post-manual-mq3qb33b",
       "title": "지나간 5월 입호흡 액상 순위 추천 해봅시다",
       "category": "published-post",
@@ -120,5 +129,5 @@
       "filePath": "user-modeling/users/e/corpus/samples/published-post-import-1b99338a.md"
     }
   ],
-  "lastUpdated": "2026-06-07T11:59:04.345Z"
+  "lastUpdated": "2026-06-14T12:00:54.337Z"
 }
