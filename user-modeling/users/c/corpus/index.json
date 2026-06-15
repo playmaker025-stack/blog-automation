@@ -2,6 +2,22 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-f0ec044d",
+      "title": "전담 액상 탄 맛 문제 원인과 해결법",
+      "category": "전자담배",
+      "tags": [
+        "인천",
+        "부평",
+        "전자담배",
+        "액상",
+        "탄맛",
+        "문제해결"
+      ],
+      "wordCount": 2116,
+      "publishedAt": "2026-06-15T07:24:03.831Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-f0ec044d.md"
+    },
+    {
       "sampleId": "published-post-99c636ac",
       "title": "사랑니 뽑고 전자담배 사용 시 주의사항과 무니코틴 선택 팁",
       "category": "전자담배",
@@ -374,22 +390,7 @@
       "wordCount": 2594,
       "publishedAt": "2026-04-29T09:48:38.476Z",
       "filePath": "user-modeling/users/c/corpus/samples/published-post-0c7f0253.md"
-    },
-    {
-      "sampleId": "published-post-3a07f3a9",
-      "title": "만수역 전자담배 기기별 사용법과 유지관리 핵심 가이드",
-      "category": "전자담배",
-      "tags": [
-        "전자담배",
-        "기기",
-        "사용법",
-        "만수역",
-        "유지관리"
-      ],
-      "wordCount": 2484,
-      "publishedAt": "2026-04-25T11:28:24.046Z",
-      "filePath": "user-modeling/users/c/corpus/samples/published-post-3a07f3a9.md"
     }
   ],
-  "lastUpdated": "2026-06-12T07:43:22.060Z"
+  "lastUpdated": "2026-06-15T07:24:12.252Z"
 }
