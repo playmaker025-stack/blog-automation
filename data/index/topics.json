@@ -3012,7 +3012,30 @@
       "assignedUserId": "b",
       "createdAt": "2026-06-15T02:58:48.312Z",
       "updatedAt": "2026-06-15T03:03:32.066Z"
+    },
+    {
+      "topicId": "topic-45a27334",
+      "title": "인천 부평 전자담배 액상 탄 맛 문제 원인과 해결법",
+      "description": "인천 부평 지역에서 전자담배 액상 사용 시 발생하는 탄 맛 문제의 원인 분석과 효과적인 해결 방법을 상세히 안내합니다.",
+      "category": "전자담배",
+      "tags": [
+        "인천",
+        "부평",
+        "전자담배",
+        "액상",
+        "탄맛",
+        "문제해결"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-15T03:46:36.990Z",
+      "updatedAt": "2026-06-15T03:46:36.990Z"
     }
   ],
-  "lastUpdated": "2026-06-15T03:03:32.066Z"
+  "lastUpdated": "2026-06-15T03:46:36.990Z"
 }
