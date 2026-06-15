@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-daf10438",
+  "type": "approval_request",
+  "savedAt": "2026-06-15T03:47:55.815Z",
+  "data": {
+    "pipelineId": "pipe-daf10438",
+    "previousTitle": "",
+    "proposedTitle": "전담 액상 탄 맛 문제 원인과 해결법",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-06-15T03:47:49.567Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-06-15T03:47:49.567Z",
+      "modifications": null
+    }
+  }
+}
