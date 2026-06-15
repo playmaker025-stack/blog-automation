@@ -5429,7 +5429,22 @@
       "createdAt": "2026-06-15T03:00:54.521Z",
       "publishedAt": null,
       "updatedAt": "2026-06-15T03:03:30.276Z"
+    },
+    {
+      "postId": "post-f0ec044d",
+      "topicId": "topic-45a27334",
+      "userId": "c",
+      "title": "전담 액상 탄 맛 문제 원인과 해결법",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-daf10438",
+      "pendingApproval": null,
+      "createdAt": "2026-06-15T03:47:53.783Z",
+      "publishedAt": null,
+      "updatedAt": "2026-06-15T03:47:53.783Z"
     }
   ],
-  "lastUpdated": "2026-06-15T03:03:30.276Z"
+  "lastUpdated": "2026-06-15T03:47:53.783Z"
 }
