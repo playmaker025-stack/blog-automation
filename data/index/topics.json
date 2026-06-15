@@ -2969,7 +2969,28 @@
       "assignedUserId": "d",
       "createdAt": "2026-06-12T11:01:32.574Z",
       "updatedAt": "2026-06-12T11:04:56.384Z"
+    },
+    {
+      "topicId": "topic-8add5a84",
+      "title": "만수동 간석동 인근 전자담배 액상 인기 제품 비교와 후기",
+      "description": "만수동과 인접한 간석동 지역에서 인기 있는 전자담배 액상 제품을 비교하고, 실제 사용자 후기를 중심으로 소개합니다.",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "간석동",
+        "전자담배",
+        "액상후기"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-06-15T02:58:46.275Z",
+      "updatedAt": "2026-06-15T02:58:46.275Z"
     }
   ],
-  "lastUpdated": "2026-06-13T09:50:40.284Z"
+  "lastUpdated": "2026-06-15T02:58:46.275Z"
 }
