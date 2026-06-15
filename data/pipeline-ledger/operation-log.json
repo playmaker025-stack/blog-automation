@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "type": "material_change",
-      "originalTitle": "인천 전자담배 추천 매장 고르는 기준 5가지",
-      "proposedTitle": "인천 전자담배 매장 고르는 기준 5가지 | 처음이라면 꼭 보세요",
-      "isMaterial": false,
-      "triggeredSignals": [
-        "coreKeywordChanged"
-      ],
-      "stringSimilarity": 0.5384615384615384,
-      "overrideByHighSim": false,
-      "pipelineId": "pipe-c4de1c6e",
-      "at": "2026-04-07T08:56:51.553Z"
-    },
-    {
       "type": "approval_ux",
       "materialChange": false,
       "requestedAt": "2026-04-07T08:56:52.887Z",
@@ -5715,7 +5702,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-4cc9b427",
       "at": "2026-06-15T02:59:41.829Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전담 액상 탄 맛 문제 원인과 해결법",
+      "proposedTitle": "전담 액상 탄 맛 문제 원인과 해결법",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-daf10438",
+      "at": "2026-06-15T03:47:44.306Z"
     }
   ],
-  "lastUpdated": "2026-06-15T02:59:41.829Z"
+  "lastUpdated": "2026-06-15T03:47:44.306Z"
 }
