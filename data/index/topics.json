@@ -3035,7 +3035,30 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-15T03:46:36.990Z",
       "updatedAt": "2026-06-15T03:46:36.990Z"
+    },
+    {
+      "topicId": "topic-4efff9a5",
+      "title": "만수역 전자담배 출력조절과 온오프 기능 완벽 가이드",
+      "description": "만수역 인근 사용자들을 위한 전자담배 기기의 출력조절과 온오프 기능 사용법을 단계별로 설명하고 주의사항을 안내합니다.",
+      "category": "전자담배",
+      "tags": [
+        "만수역",
+        "전자담배",
+        "출력조절",
+        "온오프",
+        "사용법",
+        "기기"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-15T03:46:39.081Z",
+      "updatedAt": "2026-06-15T03:46:39.081Z"
     }
   ],
-  "lastUpdated": "2026-06-15T03:46:36.990Z"
+  "lastUpdated": "2026-06-15T03:46:39.081Z"
 }
