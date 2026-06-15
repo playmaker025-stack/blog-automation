@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mqf6gpsc",
+      "topicId": "",
+      "userId": "d",
+      "title": "전자담배 여름철 누수가 많아지는 이유 – 액상 문제가 아닐 수도 있습니다",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224316872246",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-15T12:16:42.173Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-15T12:16:44.322Z"
+    },
+    {
       "postId": "post-manual-mqdj8bgq",
       "topicId": "",
       "userId": "d",
@@ -340,5 +353,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-06-14T08:38:32.708Z"
+  "updatedAt": "2026-06-15T12:16:44.322Z"
 }
