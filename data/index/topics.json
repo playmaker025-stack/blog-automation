@@ -2990,7 +2990,29 @@
       "assignedUserId": "b",
       "createdAt": "2026-06-15T02:58:46.275Z",
       "updatedAt": "2026-06-15T02:58:46.275Z"
+    },
+    {
+      "topicId": "topic-f77e2891",
+      "title": "만수동 전자담배 입문자를 위한 기기 선택과 사용법 가이드",
+      "description": "만수동 지역 입문자들이 전자담배 기기를 올바르게 선택하고 사용하는 방법을 단계별로 안내합니다.",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "입문자",
+        "기기선택",
+        "사용법"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "b",
+      "createdAt": "2026-06-15T02:58:48.312Z",
+      "updatedAt": "2026-06-15T02:58:48.312Z"
     }
   ],
-  "lastUpdated": "2026-06-15T02:58:46.275Z"
+  "lastUpdated": "2026-06-15T02:58:48.312Z"
 }
