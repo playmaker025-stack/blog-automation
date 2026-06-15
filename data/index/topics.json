@@ -3058,7 +3058,30 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-15T03:46:39.081Z",
       "updatedAt": "2026-06-15T03:46:39.081Z"
+    },
+    {
+      "topicId": "topic-c093aa56",
+      "title": "인천 전자담배 캐나다 반입 경험과 주의사항 총정리",
+      "description": "인천 지역 이용자를 위해 캐나다 전자담배 제품 반입 시 실제 경험담과 함께 알아야 할 법적·실용적 주의사항을 정리합니다.",
+      "category": "전자담배",
+      "tags": [
+        "인천",
+        "전자담배",
+        "캐나다",
+        "반입",
+        "경험담",
+        "주의사항"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-15T03:46:41.056Z",
+      "updatedAt": "2026-06-15T03:46:41.056Z"
     }
   ],
-  "lastUpdated": "2026-06-15T03:46:39.081Z"
+  "lastUpdated": "2026-06-15T03:46:41.056Z"
 }
