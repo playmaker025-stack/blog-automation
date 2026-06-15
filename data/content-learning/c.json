@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-f0ec044d",
+      "topicId": "topic-45a27334",
+      "userId": "c",
+      "title": "전담 액상 탄 맛 문제 원인과 해결법",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224316610250",
+      "evalScore": 46,
+      "wordCount": 2116,
+      "publishedAt": "2026-06-15T07:24:03.831Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-06-15T07:24:09.077Z"
+    },
+    {
       "postId": "post-99c636ac",
       "topicId": "topic-3fdab8a1",
       "userId": "c",
@@ -431,5 +444,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-06-12T07:43:18.874Z"
+  "updatedAt": "2026-06-15T07:24:09.077Z"
 }
