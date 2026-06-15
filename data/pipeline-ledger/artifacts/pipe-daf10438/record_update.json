@@ -1,0 +1,14 @@
+{
+  "pipelineId": "pipe-daf10438",
+  "type": "record_update",
+  "savedAt": "2026-06-15T03:47:56.714Z",
+  "data": {
+    "postingListUpdated": true,
+    "postingListUpdatedAt": "2026-06-15T03:47:49.567Z",
+    "indexUpdated": true,
+    "indexUpdatedAt": "2026-06-15T03:47:49.567Z",
+    "postId": "post-f0ec044d",
+    "topicStatusBefore": "draft",
+    "topicStatusAfter": "in-progress"
+  }
+}
