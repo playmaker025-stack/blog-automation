@@ -3031,10 +3031,10 @@
       "contentKind": "leaf",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "published",
       "assignedUserId": "c",
       "createdAt": "2026-06-15T03:46:36.990Z",
-      "updatedAt": "2026-06-15T03:50:43.197Z"
+      "updatedAt": "2026-06-15T07:24:07.550Z"
     },
     {
       "topicId": "topic-4efff9a5",
@@ -3083,5 +3083,5 @@
       "updatedAt": "2026-06-15T03:46:41.056Z"
     }
   ],
-  "lastUpdated": "2026-06-15T03:50:43.197Z"
+  "lastUpdated": "2026-06-15T07:24:07.550Z"
 }
