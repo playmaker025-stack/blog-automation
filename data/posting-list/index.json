@@ -5414,7 +5414,22 @@
       "publishedAt": "2026-06-14T12:00:47.097Z",
       "createdAt": "2026-06-14T12:00:47.097Z",
       "updatedAt": "2026-06-14T12:00:47.097Z"
+    },
+    {
+      "postId": "post-f4daab63",
+      "topicId": "topic-f77e2891",
+      "userId": "b",
+      "title": "만수동 전자담배 입문자를 위한 기기 선택과 사용법 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-4cc9b427",
+      "pendingApproval": null,
+      "createdAt": "2026-06-15T03:00:54.521Z",
+      "publishedAt": null,
+      "updatedAt": "2026-06-15T03:00:54.521Z"
     }
   ],
-  "lastUpdated": "2026-06-14T12:00:47.097Z"
+  "lastUpdated": "2026-06-15T03:00:54.521Z"
 }
