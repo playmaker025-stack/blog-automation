@@ -2,6 +2,15 @@
   "userId": "d",
   "samples": [
     {
+      "sampleId": "published-post-manual-mqf6gpsc",
+      "title": "전자담배 여름철 누수가 많아지는 이유 – 액상 문제가 아닐 수도 있습니다",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 6072,
+      "publishedAt": "2026-06-15T12:16:42.173Z",
+      "filePath": "user-modeling/users/d/corpus/samples/published-post-manual-mqf6gpsc.md"
+    },
+    {
       "sampleId": "published-post-manual-mqdj8bgq",
       "title": "전자담배 액상을 차에 두면 생기는 일 – 여름철 특히 위험한 이유",
       "category": "published-post",
@@ -295,5 +304,5 @@
       "filePath": "user-modeling/users/d/corpus/samples/published-post-21e6d9ae.md"
     }
   ],
-  "lastUpdated": "2026-06-14T08:38:37.693Z"
+  "lastUpdated": "2026-06-15T12:16:49.700Z"
 }
