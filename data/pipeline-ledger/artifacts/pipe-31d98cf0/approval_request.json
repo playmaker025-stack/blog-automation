@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-31d98cf0",
+  "type": "approval_request",
+  "savedAt": "2026-06-16T04:33:40.025Z",
+  "data": {
+    "pipelineId": "pipe-31d98cf0",
+    "previousTitle": "",
+    "proposedTitle": "남동구전자담배 출력조절과 온오프 기능 완벽 가이드",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.\n\n[수정 반영] 이 글이 먹을 키워드는 만수역이 아니라 \"남동구전자담배\"로 해줘",
+    "requestedAt": "2026-06-16T04:33:33.723Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-06-16T04:33:33.723Z",
+      "modifications": null
+    }
+  }
+}
