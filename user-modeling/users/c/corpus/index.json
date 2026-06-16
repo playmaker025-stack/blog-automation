@@ -2,6 +2,22 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-32a4e215",
+      "title": "남동구전자담배 출력조절과 온오프 기능 완벽 가이드",
+      "category": "전자담배",
+      "tags": [
+        "만수역",
+        "전자담배",
+        "출력조절",
+        "온오프",
+        "사용법",
+        "기기"
+      ],
+      "wordCount": 1941,
+      "publishedAt": "2026-06-16T06:24:53.514Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-32a4e215.md"
+    },
+    {
       "sampleId": "published-post-f0ec044d",
       "title": "전담 액상 탄 맛 문제 원인과 해결법",
       "category": "전자담배",
@@ -376,21 +392,7 @@
       "wordCount": 2201,
       "publishedAt": "2026-05-04T09:31:51.382Z",
       "filePath": "user-modeling/users/c/corpus/samples/published-post-9b7617b2.md"
-    },
-    {
-      "sampleId": "published-post-0c7f0253",
-      "title": "인천 전자담배 고농도 액상 선택과 안전 사용법 총정리",
-      "category": "전자담배",
-      "tags": [
-        "전자담배",
-        "고농도",
-        "액상",
-        "인천"
-      ],
-      "wordCount": 2594,
-      "publishedAt": "2026-04-29T09:48:38.476Z",
-      "filePath": "user-modeling/users/c/corpus/samples/published-post-0c7f0253.md"
     }
   ],
-  "lastUpdated": "2026-06-15T07:24:12.252Z"
+  "lastUpdated": "2026-06-16T06:25:02.241Z"
 }
