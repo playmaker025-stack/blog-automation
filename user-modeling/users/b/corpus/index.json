@@ -2,6 +2,21 @@
   "userId": "b",
   "samples": [
     {
+      "sampleId": "published-post-f4daab63",
+      "title": "구월동 전자담배 입문자 위한 기기 선택과 사용법 안내",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "입문자",
+        "기기선택",
+        "사용법"
+      ],
+      "wordCount": 2181,
+      "publishedAt": "2026-06-16T11:50:03.104Z",
+      "filePath": "user-modeling/users/b/corpus/samples/published-post-f4daab63.md"
+    },
+    {
       "sampleId": "published-post-dfb90308",
       "title": "만수동전자담배 액상선택, 고농도별 특징과 맞춤 추천",
       "category": "b",
@@ -216,5 +231,5 @@
       "filePath": "user-modeling/users/b/corpus/samples/published-post-import-08c915d5f3.md"
     }
   ],
-  "lastUpdated": "2026-06-13T09:50:44.742Z"
+  "lastUpdated": "2026-06-16T11:50:14.952Z"
 }
