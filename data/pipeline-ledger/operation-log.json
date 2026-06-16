@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "type": "corpus_retrieval",
-      "userId": "a",
-      "selectedCount": 0,
-      "strategy": "fallback_recent",
-      "staleCount": 0,
-      "staleWarnings": [],
-      "topScores": [],
-      "targetCategory": "A블로그",
-      "pipelineId": "pipe-c4de1c6e",
-      "at": "2026-04-07T08:57:03.376Z"
-    },
-    {
       "type": "gate_result",
       "gate": "pre-write",
       "passed": true,
@@ -5713,7 +5701,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-fc3d3a8b",
       "at": "2026-06-16T04:31:23.035Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "남동구전자담배 출력조절과 온오프 기능 완벽 가이드",
+      "proposedTitle": "남동구전자담배 출력조절과 온오프 기능 완벽 가이드",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-31d98cf0",
+      "at": "2026-06-16T04:33:03.631Z"
     }
   ],
-  "lastUpdated": "2026-06-16T04:31:23.035Z"
+  "lastUpdated": "2026-06-16T04:33:03.631Z"
 }
