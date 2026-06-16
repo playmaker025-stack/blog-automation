@@ -5419,16 +5419,16 @@
       "postId": "post-f4daab63",
       "topicId": "topic-f77e2891",
       "userId": "b",
-      "title": "만수동 전자담배 입문자를 위한 기기 선택과 사용법 가이드",
-      "status": "ready",
-      "naverPostUrl": null,
+      "title": "구월동 전자담배 입문자 위한 기기 선택과 사용법 안내",
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/youferst/224318012483",
       "evalScore": 64,
       "wordCount": 2181,
       "compositionSessionId": "pipe-4cc9b427",
       "pendingApproval": null,
       "createdAt": "2026-06-15T03:00:54.521Z",
-      "publishedAt": null,
-      "updatedAt": "2026-06-15T03:03:30.276Z"
+      "publishedAt": "2026-06-16T11:50:03.104Z",
+      "updatedAt": "2026-06-16T11:50:05.757Z"
     },
     {
       "postId": "post-f0ec044d",
@@ -5476,5 +5476,5 @@
       "updatedAt": "2026-06-16T06:24:54.611Z"
     }
   ],
-  "lastUpdated": "2026-06-16T06:24:54.611Z"
+  "lastUpdated": "2026-06-16T11:50:05.757Z"
 }
