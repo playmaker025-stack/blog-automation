@@ -3054,10 +3054,10 @@
       "contentKind": "hub",
       "feasibility": null,
       "relatedSources": [],
-      "status": "draft",
+      "status": "published",
       "assignedUserId": "c",
       "createdAt": "2026-06-15T03:46:39.081Z",
-      "updatedAt": "2026-06-16T04:36:31.025Z"
+      "updatedAt": "2026-06-16T06:24:57.776Z"
     },
     {
       "topicId": "topic-c093aa56",
@@ -3083,5 +3083,5 @@
       "updatedAt": "2026-06-15T03:46:41.056Z"
     }
   ],
-  "lastUpdated": "2026-06-16T04:36:31.025Z"
+  "lastUpdated": "2026-06-16T06:24:57.776Z"
 }
