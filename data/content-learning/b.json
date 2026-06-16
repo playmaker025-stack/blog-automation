@@ -2,6 +2,19 @@
   "userId": "b",
   "entries": [
     {
+      "postId": "post-f4daab63",
+      "topicId": "topic-f77e2891",
+      "userId": "b",
+      "title": "구월동 전자담배 입문자 위한 기기 선택과 사용법 안내",
+      "naverPostUrl": "https://blog.naver.com/youferst/224318012483",
+      "evalScore": 64,
+      "wordCount": 2181,
+      "publishedAt": "2026-06-16T11:50:03.104Z",
+      "topicSource": "generated",
+      "contentKind": "hub",
+      "learnedAt": "2026-06-16T11:50:11.180Z"
+    },
+    {
       "postId": "post-dfb90308",
       "topicId": "topic-3142bce2",
       "userId": "b",
@@ -197,5 +210,5 @@
       "learnedAt": "2026-04-25T10:02:38.491Z"
     }
   ],
-  "updatedAt": "2026-06-13T09:50:42.133Z"
+  "updatedAt": "2026-06-16T11:50:11.180Z"
 }
