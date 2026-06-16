@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-32a4e215",
+      "topicId": "topic-4efff9a5",
+      "userId": "c",
+      "title": "남동구전자담배 출력조절과 온오프 기능 완벽 가이드",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224317693159",
+      "evalScore": 48,
+      "wordCount": 1941,
+      "publishedAt": "2026-06-16T06:24:53.514Z",
+      "topicSource": "generated",
+      "contentKind": "hub",
+      "learnedAt": "2026-06-16T06:24:59.386Z"
+    },
+    {
       "postId": "post-f0ec044d",
       "topicId": "topic-45a27334",
       "userId": "c",
@@ -444,5 +457,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-06-15T07:24:09.077Z"
+  "updatedAt": "2026-06-16T06:24:59.386Z"
 }
