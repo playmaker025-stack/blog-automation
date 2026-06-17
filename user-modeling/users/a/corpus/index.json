@@ -2,6 +2,19 @@
   "userId": "a",
   "samples": [
     {
+      "sampleId": "published-post-52cca721",
+      "title": "무니코틴 액상과 잘 어울리는 포켓코리아 아머니니 전자담배 기기",
+      "category": "direct-run",
+      "tags": [
+        "무니코틴 액상",
+        "전자담배",
+        "아머미니"
+      ],
+      "wordCount": 2153,
+      "publishedAt": "2026-06-17T07:58:07.890Z",
+      "filePath": "user-modeling/users/a/corpus/samples/published-post-52cca721.md"
+    },
+    {
       "sampleId": "published-post-be2405d7",
       "title": "입호흡 시원한 액상 추천 베스트5 인천 구월동 만수르 픽",
       "category": "a",
@@ -121,5 +134,5 @@
       "filePath": "user-modeling/users/a/corpus/samples/published-post-import-3c16fe70.md"
     }
   ],
-  "lastUpdated": "2026-06-05T07:13:08.233Z"
+  "lastUpdated": "2026-06-17T07:58:17.344Z"
 }
