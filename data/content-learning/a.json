@@ -2,6 +2,19 @@
   "userId": "a",
   "entries": [
     {
+      "postId": "post-52cca721",
+      "topicId": "topic-58521064",
+      "userId": "a",
+      "title": "무니코틴 액상과 잘 어울리는 포켓코리아 아머니니 전자담배 기기",
+      "naverPostUrl": "https://blog.naver.com/iibodii00/224318921314",
+      "evalScore": 40,
+      "wordCount": 2153,
+      "publishedAt": "2026-06-17T07:58:07.890Z",
+      "topicSource": "direct",
+      "contentKind": null,
+      "learnedAt": "2026-06-17T07:58:14.032Z"
+    },
+    {
       "postId": "post-be2405d7",
       "topicId": "topic-29c22075",
       "userId": "a",
@@ -119,5 +132,5 @@
       "learnedAt": "2026-04-22T09:26:59.763Z"
     }
   ],
-  "updatedAt": "2026-06-05T07:13:05.389Z"
+  "updatedAt": "2026-06-17T07:58:14.032Z"
 }
