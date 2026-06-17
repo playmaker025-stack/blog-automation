@@ -1,10 +1,10 @@
 {
   "userId": "a",
-  "topicMode": "list",
+  "topicMode": "direct",
   "selectedTopicId": "topic-a89ad3c4",
   "directTopicTitle": "",
   "directMainKeyword": "",
   "directSubKeyword": "",
   "autoApprove": false,
-  "updatedAt": "2026-06-12T06:39:08.008Z"
+  "updatedAt": "2026-06-17T06:39:32.278Z"
 }
