@@ -2,6 +2,15 @@
   "userId": "e",
   "samples": [
     {
+      "sampleId": "published-post-manual-mqi2v9v4",
+      "title": "무니코틴 액상 쓰기 좋은 입호흡 전자담배 아머미니",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 6778,
+      "publishedAt": "2026-06-17T12:59:23.960Z",
+      "filePath": "user-modeling/users/e/corpus/samples/published-post-manual-mqi2v9v4.md"
+    },
+    {
       "sampleId": "published-post-manual-mqdqgcfx",
       "title": "정말 작은 일회용 전자담배가 왔다. 솔로바 미니 큐브",
       "category": "published-post",
@@ -129,5 +138,5 @@
       "filePath": "user-modeling/users/e/corpus/samples/published-post-import-1b99338a.md"
     }
   ],
-  "lastUpdated": "2026-06-14T12:00:54.337Z"
+  "lastUpdated": "2026-06-17T12:59:29.990Z"
 }
