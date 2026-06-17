@@ -3081,7 +3081,31 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-15T03:46:41.056Z",
       "updatedAt": "2026-06-15T03:46:41.056Z"
+    },
+    {
+      "topicId": "topic-58521064",
+      "title": "무니코틴 액상과 잘 어울리는 전자담배 기기 포켓코리아 아머미니",
+      "description": "메인키워드: 무니코틴 액상 / 서브 키워드: 전자담배, 아머미니",
+      "category": "direct-run",
+      "tags": [
+        "무니코틴 액상",
+        "전자담배",
+        "아머미니"
+      ],
+      "targetKeyword": "무니코틴 액상",
+      "subKeywords": [
+        "전자담배",
+        "아머미니"
+      ],
+      "source": "direct",
+      "targetMainKeyword": "무니코틴 액상",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-06-17T06:40:09.867Z",
+      "updatedAt": "2026-06-17T06:40:09.867Z"
     }
   ],
-  "lastUpdated": "2026-06-16T11:50:09.400Z"
+  "lastUpdated": "2026-06-17T06:40:09.867Z"
 }
