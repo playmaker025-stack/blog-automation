@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "type": "corpus_retrieval",
-      "userId": "A",
-      "selectedCount": 0,
-      "strategy": "fallback_recent",
-      "staleCount": 0,
-      "staleWarnings": [],
-      "topScores": [],
-      "targetCategory": "A블로그",
-      "pipelineId": "pipe-b997445a",
-      "at": "2026-04-07T09:41:15.703Z"
-    },
-    {
       "type": "gate_result",
       "gate": "pre-write",
       "passed": true,
@@ -5711,7 +5699,18 @@
       "errorName": "y",
       "pipelineId": "pipe-649d2d86",
       "at": "2026-06-17T06:42:07.775Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "무니코틴 액상에도 조합이 좋은 아머미니 전담",
+      "proposedTitle": "무니코틴 액상에도 조합이 좋은 아머미니 전담",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-9184075c",
+      "at": "2026-06-17T06:46:47.819Z"
     }
   ],
-  "lastUpdated": "2026-06-17T06:42:07.775Z"
+  "lastUpdated": "2026-06-17T06:46:47.819Z"
 }
