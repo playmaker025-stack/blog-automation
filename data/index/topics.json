@@ -3101,10 +3101,10 @@
       "targetMainKeyword": "무니코틴 액상",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-06-17T06:40:09.867Z",
-      "updatedAt": "2026-06-17T07:01:35.019Z"
+      "updatedAt": "2026-06-17T07:04:43.210Z"
     },
     {
       "topicId": "topic-07010afd",
@@ -3129,5 +3129,5 @@
       "updatedAt": "2026-06-17T06:49:40.150Z"
     }
   ],
-  "lastUpdated": "2026-06-17T07:01:35.019Z"
+  "lastUpdated": "2026-06-17T07:04:43.210Z"
 }
