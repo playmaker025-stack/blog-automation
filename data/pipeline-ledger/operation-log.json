@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "type": "approval_ux",
-      "materialChange": true,
-      "requestedAt": "2026-04-07T09:41:04.429Z",
-      "respondedAt": "2026-04-07T09:41:04.849Z",
-      "approved": true,
-      "elapsedMs": 420,
-      "timedOut": false,
-      "pipelineId": "pipe-b997445a",
-      "at": "2026-04-07T09:41:05.242Z"
-    },
-    {
       "type": "corpus_retrieval",
       "userId": "A",
       "selectedCount": 0,
@@ -5711,7 +5700,18 @@
       "errorName": "y",
       "pipelineId": "pipe-649d2d86",
       "at": "2026-06-17T06:42:03.719Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-58521064",
+      "userId": "a",
+      "message": "is at 8e4f84ff98561397d86de45349a66fb955001ced but expected cbe589d98f33317e5f6deaf5df792ddb7d8c7b2a - https://docs.github.com/rest/repos/contents#create-or-update-file-contents",
+      "recoveredTopicToDraft": true,
+      "errorName": "y",
+      "pipelineId": "pipe-649d2d86",
+      "at": "2026-06-17T06:42:07.775Z"
     }
   ],
-  "lastUpdated": "2026-06-17T06:42:03.719Z"
+  "lastUpdated": "2026-06-17T06:42:07.775Z"
 }
