@@ -2,6 +2,15 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-manual-mqht4k2i",
+      "title": "무니코틴 액상 유저에게도 아머미니 전자담배가 잘 어울리는 이유",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 7166,
+      "publishedAt": "2026-06-17T08:26:38.618Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-manual-mqht4k2i.md"
+    },
+    {
       "sampleId": "published-post-manual-mqht49ks",
       "title": "무니코틴 액상 유저에게도 아머미니 전자담배가 잘 어울리는 이유",
       "category": "published-post",
@@ -370,22 +379,7 @@
       "wordCount": 3023,
       "publishedAt": "2026-05-07T08:32:46.178Z",
       "filePath": "user-modeling/users/c/corpus/samples/published-post-e60008d9.md"
-    },
-    {
-      "sampleId": "published-post-6a9ebb23",
-      "title": "부천 상동 전자담배 연기 알레르기? 코·기도 붓는 이유와 대처법",
-      "category": "전자담배",
-      "tags": [
-        "부천",
-        "상동",
-        "담배연기",
-        "알레르기",
-        "대처법"
-      ],
-      "wordCount": 2872,
-      "publishedAt": "2026-05-05T05:37:21.874Z",
-      "filePath": "user-modeling/users/c/corpus/samples/published-post-6a9ebb23.md"
     }
   ],
-  "lastUpdated": "2026-06-17T08:26:31.564Z"
+  "lastUpdated": "2026-06-17T08:26:45.221Z"
 }
