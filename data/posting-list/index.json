@@ -5489,7 +5489,22 @@
       "createdAt": "2026-06-17T06:40:59.546Z",
       "publishedAt": null,
       "updatedAt": "2026-06-17T06:41:51.949Z"
+    },
+    {
+      "postId": "post-20ac6072",
+      "topicId": "topic-07010afd",
+      "userId": "c",
+      "title": "무니코틴 액상에도 조합이 좋은 아머미니 전담",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-9184075c",
+      "pendingApproval": null,
+      "createdAt": "2026-06-17T06:47:04.927Z",
+      "publishedAt": null,
+      "updatedAt": "2026-06-17T06:47:04.927Z"
     }
   ],
-  "lastUpdated": "2026-06-17T06:41:51.949Z"
+  "lastUpdated": "2026-06-17T06:47:04.927Z"
 }
