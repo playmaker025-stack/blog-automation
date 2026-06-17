@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-manual-mqht4k2i",
+      "topicId": "",
+      "userId": "c",
+      "title": "무니코틴 액상 유저에게도 아머미니 전자담배가 잘 어울리는 이유",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224318950155",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-17T08:26:38.618Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-17T08:26:40.623Z"
+    },
+    {
       "postId": "post-manual-mqht49ks",
       "topicId": "",
       "userId": "c",
@@ -470,5 +483,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-06-17T08:26:26.796Z"
+  "updatedAt": "2026-06-17T08:26:40.623Z"
 }
