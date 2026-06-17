@@ -2,6 +2,15 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-manual-mqht49ks",
+      "title": "무니코틴 액상 유저에게도 아머미니 전자담배가 잘 어울리는 이유",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 7166,
+      "publishedAt": "2026-06-17T08:26:24.987Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-manual-mqht49ks.md"
+    },
+    {
       "sampleId": "published-post-32a4e215",
       "title": "남동구전자담배 출력조절과 온오프 기능 완벽 가이드",
       "category": "전자담배",
@@ -376,23 +385,7 @@
       "wordCount": 2872,
       "publishedAt": "2026-05-05T05:37:21.874Z",
       "filePath": "user-modeling/users/c/corpus/samples/published-post-6a9ebb23.md"
-    },
-    {
-      "sampleId": "published-post-9b7617b2",
-      "title": "인천 부평 전자담배 금연구역과 과태료 최신 안내",
-      "category": "전자담배",
-      "tags": [
-        "인천",
-        "부평",
-        "전자담배",
-        "금연구역",
-        "과태료",
-        "법적기준"
-      ],
-      "wordCount": 2201,
-      "publishedAt": "2026-05-04T09:31:51.382Z",
-      "filePath": "user-modeling/users/c/corpus/samples/published-post-9b7617b2.md"
     }
   ],
-  "lastUpdated": "2026-06-16T06:25:02.241Z"
+  "lastUpdated": "2026-06-17T08:26:31.564Z"
 }
