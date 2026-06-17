@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "type": "material_change",
-      "originalTitle": "부평 전자담배 처음 방문하면 받는 상담",
-      "proposedTitle": "부평 전자담배 처음 방문하면 받는 상담, 이런 내용이에요",
-      "isMaterial": false,
-      "triggeredSignals": [],
-      "stringSimilarity": 0.6666666666666667,
-      "overrideByHighSim": false,
-      "pipelineId": "pipe-d505a653",
-      "at": "2026-04-07T10:10:49.930Z"
-    },
-    {
       "type": "approval_ux",
       "materialChange": false,
       "requestedAt": "2026-04-07T10:10:51.397Z",
@@ -5712,7 +5701,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-a219a831",
       "at": "2026-06-17T06:54:46.045Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "무니코틴 액상과 잘 어울리는 전자담배 기기 포켓코리아 아머미니",
+      "proposedTitle": "무니코틴 액상과 잘 어울리는 전자담배 기기 포켓코리아 아머미니",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-0722b5f8",
+      "at": "2026-06-17T06:59:32.917Z"
     }
   ],
-  "lastUpdated": "2026-06-17T06:54:46.045Z"
+  "lastUpdated": "2026-06-17T06:59:32.917Z"
 }
