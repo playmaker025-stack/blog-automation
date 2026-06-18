@@ -2,6 +2,17 @@
   "userId": "b",
   "exemplars": [
     {
+      "sampleId": "published-post-manual-mqjfdbg8",
+      "title": "부평전자담배 베이포레소 크로스5미니 사용방법",
+      "category": "published-post",
+      "tags": [],
+      "relevanceScore": 0.7,
+      "styleNotes": "tone=casual",
+      "excerpt": "부평전자담배 베이포레소 크로스5미니 사용방법 부평전자담배 베이포레소 크로스5미니 사용방법 : 네이버 블로그 NAVER 블로그 만수동만수르동생 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내 블로그 마켓",
+      "wordCount": 6402,
+      "publishedAt": "2026-06-18T11:37:09.521Z"
+    },
+    {
       "sampleId": "published-post-manual-move9qrq",
       "title": "부평전자담배 입문용 기기 추천 – 포켓코리아 아머미니 직접 써본 후기",
       "category": "published-post",
@@ -267,5 +278,5 @@
       "publishedAt": "2026-05-11T13:11:16.429Z"
     }
   ],
-  "lastCurated": "2026-06-16T11:50:14.952Z"
+  "lastCurated": "2026-06-18T11:37:15.858Z"
 }
