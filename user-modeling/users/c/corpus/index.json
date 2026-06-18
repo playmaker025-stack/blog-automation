@@ -2,6 +2,15 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-manual-mqj2jitj",
+      "title": "스틱형 전자담배 XROS MINI 크로스미니 사용방법",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 5947,
+      "publishedAt": "2026-06-18T05:38:00.352Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-manual-mqj2jitj.md"
+    },
+    {
       "sampleId": "published-post-manual-mqht4k2i",
       "title": "무니코틴 액상 유저에게도 아머미니 전자담배가 잘 어울리는 이유",
       "category": "published-post",
@@ -363,23 +372,7 @@
       "wordCount": 1582,
       "publishedAt": "2026-05-09T05:58:20.745Z",
       "filePath": "user-modeling/users/c/corpus/samples/published-post-03dabba4.md"
-    },
-    {
-      "sampleId": "published-post-e60008d9",
-      "title": "간석동전자담배 기기별 고장 원인과 해결 방법",
-      "category": "전자담배",
-      "tags": [
-        "만수역",
-        "전자담배",
-        "기기",
-        "고장",
-        "수리",
-        "팁"
-      ],
-      "wordCount": 3023,
-      "publishedAt": "2026-05-07T08:32:46.178Z",
-      "filePath": "user-modeling/users/c/corpus/samples/published-post-e60008d9.md"
     }
   ],
-  "lastUpdated": "2026-06-17T08:26:45.221Z"
+  "lastUpdated": "2026-06-18T05:38:08.115Z"
 }
