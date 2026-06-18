@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mqjgrcfi",
+      "topicId": "",
+      "userId": "d",
+      "title": "무니코틴 액상 추천기기 조합 포켓코리아 아머미니",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224320202703",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-18T12:15:59.289Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-18T12:16:01.447Z"
+    },
+    {
       "postId": "post-manual-mqf6gpsc",
       "topicId": "",
       "userId": "d",
@@ -353,5 +366,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-06-15T12:16:44.322Z"
+  "updatedAt": "2026-06-18T12:16:01.447Z"
 }
