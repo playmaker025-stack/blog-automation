@@ -2,6 +2,15 @@
   "userId": "b",
   "samples": [
     {
+      "sampleId": "published-post-manual-mqjfdbg8",
+      "title": "부평전자담배 베이포레소 크로스5미니 사용방법",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 6402,
+      "publishedAt": "2026-06-18T11:37:09.521Z",
+      "filePath": "user-modeling/users/b/corpus/samples/published-post-manual-mqjfdbg8.md"
+    },
+    {
       "sampleId": "published-post-f4daab63",
       "title": "구월동 전자담배 입문자 위한 기기 선택과 사용법 안내",
       "category": "b",
@@ -231,5 +240,5 @@
       "filePath": "user-modeling/users/b/corpus/samples/published-post-import-08c915d5f3.md"
     }
   ],
-  "lastUpdated": "2026-06-16T11:50:14.952Z"
+  "lastUpdated": "2026-06-18T11:37:15.858Z"
 }
