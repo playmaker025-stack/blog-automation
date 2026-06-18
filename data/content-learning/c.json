@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-manual-mqj2jitj",
+      "topicId": "",
+      "userId": "c",
+      "title": "스틱형 전자담배 XROS MINI 크로스미니 사용방법",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224319845549",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-18T05:38:00.352Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-18T05:38:02.248Z"
+    },
+    {
       "postId": "post-manual-mqht4k2i",
       "topicId": "",
       "userId": "c",
@@ -483,5 +496,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-06-17T08:26:40.623Z"
+  "updatedAt": "2026-06-18T05:38:02.248Z"
 }
