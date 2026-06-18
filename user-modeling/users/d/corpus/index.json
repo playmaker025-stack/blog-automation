@@ -2,6 +2,15 @@
   "userId": "d",
   "samples": [
     {
+      "sampleId": "published-post-manual-mqjgrcfi",
+      "title": "무니코틴 액상 추천기기 조합 포켓코리아 아머미니",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 7289,
+      "publishedAt": "2026-06-18T12:15:59.289Z",
+      "filePath": "user-modeling/users/d/corpus/samples/published-post-manual-mqjgrcfi.md"
+    },
+    {
       "sampleId": "published-post-manual-mqf6gpsc",
       "title": "전자담배 여름철 누수가 많아지는 이유 – 액상 문제가 아닐 수도 있습니다",
       "category": "published-post",
@@ -304,5 +313,5 @@
       "filePath": "user-modeling/users/d/corpus/samples/published-post-21e6d9ae.md"
     }
   ],
-  "lastUpdated": "2026-06-15T12:16:49.700Z"
+  "lastUpdated": "2026-06-18T12:16:06.406Z"
 }
