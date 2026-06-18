@@ -2,6 +2,19 @@
   "userId": "b",
   "entries": [
     {
+      "postId": "post-manual-mqjfd7ho",
+      "topicId": "",
+      "userId": "b",
+      "title": "부평전자담배 베이포레소 크로스5미니 사용방법",
+      "naverPostUrl": "https://blog.naver.com/youferst/224320174317",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-18T11:37:04.455Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-18T11:37:06.248Z"
+    },
+    {
       "postId": "post-f4daab63",
       "topicId": "topic-f77e2891",
       "userId": "b",
@@ -210,5 +223,5 @@
       "learnedAt": "2026-04-25T10:02:38.491Z"
     }
   ],
-  "updatedAt": "2026-06-16T11:50:11.180Z"
+  "updatedAt": "2026-06-18T11:37:06.248Z"
 }
