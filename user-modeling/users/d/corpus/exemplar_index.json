@@ -2,6 +2,17 @@
   "userId": "d",
   "exemplars": [
     {
+      "sampleId": "published-post-manual-mqjgrcfi",
+      "title": "무니코틴 액상 추천기기 조합 포켓코리아 아머미니",
+      "category": "published-post",
+      "tags": [],
+      "relevanceScore": 0.7,
+      "styleNotes": "tone=casual",
+      "excerpt": "무니코틴 액상 추천기기 조합 포켓코리아 아머미니 무니코틴 액상 추천기기 조합 포켓코리아 아머미니 : 네이버 블로그 NAVER 블로그 인천 전자담배 부평 만수르 조카 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경",
+      "wordCount": 7289,
+      "publishedAt": "2026-06-18T12:15:59.289Z"
+    },
+    {
       "sampleId": "published-post-manual-mqf6gpsc",
       "title": "전자담배 여름철 누수가 많아지는 이유 – 액상 문제가 아닐 수도 있습니다",
       "category": "published-post",
@@ -360,5 +371,5 @@
       "publishedAt": "2026-04-22T12:34:03.755Z"
     }
   ],
-  "lastCurated": "2026-06-15T12:16:49.700Z"
+  "lastCurated": "2026-06-18T12:16:06.406Z"
 }
