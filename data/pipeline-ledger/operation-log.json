@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "type": "approval_ux",
-      "materialChange": false,
-      "requestedAt": "2026-04-07T10:31:56.076Z",
-      "respondedAt": "2026-04-07T10:31:56.500Z",
-      "approved": true,
-      "elapsedMs": 424,
-      "timedOut": false,
-      "pipelineId": "pipe-7845788b",
-      "at": "2026-04-07T10:31:56.843Z"
-    },
-    {
       "type": "material_change",
       "originalTitle": "구월동 전자담배 추천 기기 가이드",
       "proposedTitle": "구월동 전자담배 추천 기기 가이드 | 입문자도 바로 선택 가능",
@@ -5711,7 +5700,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-a33ea603",
       "at": "2026-06-19T06:27:51.559Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "말론바 일회용 전자담배",
+      "proposedTitle": "말론바 일회용 전자담배",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-fdabfd81",
+      "at": "2026-06-19T06:30:57.742Z"
     }
   ],
-  "lastUpdated": "2026-06-19T06:27:51.559Z"
+  "lastUpdated": "2026-06-19T06:30:57.742Z"
 }
