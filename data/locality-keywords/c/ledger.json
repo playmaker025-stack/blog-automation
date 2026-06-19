@@ -2,6 +2,24 @@
   "userId": "c",
   "entries": [
     {
+      "keyword": "서창동",
+      "phrase": "서창동에서 오신 분들처럼",
+      "title": "전자담배 액상 니코틴 함량별 안전 사용 가이드",
+      "postId": "post-b3ba7c8f",
+      "topicId": "topic-70ed1644",
+      "userId": "c",
+      "usedAt": "2026-06-19T08:18:08.270Z"
+    },
+    {
+      "keyword": "논현동",
+      "phrase": "논현동 쪽에서 문의하셨던 분도",
+      "title": "전자담배 액상 니코틴 함량별 안전 사용 가이드",
+      "postId": "post-b3ba7c8f",
+      "topicId": "topic-70ed1644",
+      "userId": "c",
+      "usedAt": "2026-06-19T08:18:08.270Z"
+    },
+    {
       "keyword": "만수",
       "phrase": "특히 만수나 구월 쪽에서 들르시는 분들은 급하게",
       "title": "전자담배 액상 니코틴 함량별 안전 사용 가이드",
@@ -938,5 +956,5 @@
       "usedAt": "2026-04-24T05:03:57.440Z"
     }
   ],
-  "updatedAt": "2026-06-19T05:41:18.180Z"
+  "updatedAt": "2026-06-19T08:18:08.270Z"
 }
