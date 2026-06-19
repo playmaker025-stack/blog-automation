@@ -2,6 +2,19 @@
   "userId": "a",
   "entries": [
     {
+      "postId": "post-4ca377f7",
+      "topicId": "topic-d7872a23",
+      "userId": "a",
+      "title": "말론바 일회용 전자담배 사용법과 인기 맛 리뷰",
+      "naverPostUrl": "https://blog.naver.com/iibodii00/224321052285",
+      "evalScore": 56,
+      "wordCount": 2321,
+      "publishedAt": "2026-06-19T08:16:02.685Z",
+      "topicSource": "direct",
+      "contentKind": null,
+      "learnedAt": "2026-06-19T08:16:07.036Z"
+    },
+    {
       "postId": "post-52cca721",
       "topicId": "topic-58521064",
       "userId": "a",
@@ -132,5 +145,5 @@
       "learnedAt": "2026-04-22T09:26:59.763Z"
     }
   ],
-  "updatedAt": "2026-06-17T07:58:14.032Z"
+  "updatedAt": "2026-06-19T08:16:07.036Z"
 }
