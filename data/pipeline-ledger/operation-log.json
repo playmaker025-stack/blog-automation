@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "type": "material_change",
-      "originalTitle": "구월동 전자담배 매장 방문 전 체크리스트",
-      "proposedTitle": "구월동 전자담배 매장 방문 전 꼭 확인해야 할 체크리스트",
-      "isMaterial": false,
-      "triggeredSignals": [],
-      "stringSimilarity": 0.7391304347826086,
-      "overrideByHighSim": false,
-      "pipelineId": "pipe-7acfd61b",
-      "at": "2026-04-09T09:49:21.002Z"
-    },
-    {
       "type": "approval_ux",
       "materialChange": false,
       "requestedAt": "2026-04-09T09:49:23.025Z",
@@ -5708,7 +5697,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-4328e503",
       "at": "2026-06-19T07:09:40.939Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-70ed1644",
+      "userId": "c",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-673ae6d2 / Similar existing title found: 전자담배 액상 니코틴 함량별 안전 사용 가이드 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-05159091",
+      "at": "2026-06-19T07:23:05.552Z"
     }
   ],
-  "lastUpdated": "2026-06-19T07:09:40.939Z"
+  "lastUpdated": "2026-06-19T07:23:05.552Z"
 }
