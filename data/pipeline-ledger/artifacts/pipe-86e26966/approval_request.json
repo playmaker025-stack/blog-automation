@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-86e26966",
+  "type": "approval_request",
+  "savedAt": "2026-06-19T05:38:41.954Z",
+  "data": {
+    "pipelineId": "pipe-86e26966",
+    "previousTitle": "",
+    "proposedTitle": "전자담배 액상 니코틴 함량별 안전 사용 가이드",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.\n\n[수정 반영] 이 글이 먹을 키워드는 \"\"니코틴\"이야\n\n[수정 반영] 이 글이 먹을 키워드는 \"남동구\"가 아니라 \"니코틴\" 으로 해줘",
+    "requestedAt": "2026-06-19T05:38:35.598Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-06-19T05:38:35.598Z",
+      "modifications": null
+    }
+  }
+}
