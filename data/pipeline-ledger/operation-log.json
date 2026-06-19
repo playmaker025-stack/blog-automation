@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "type": "corpus_retrieval",
-      "userId": "a",
-      "selectedCount": 0,
-      "strategy": "fallback_recent",
-      "staleCount": 0,
-      "staleWarnings": [],
-      "topScores": [],
-      "targetCategory": "A블로그",
-      "pipelineId": "pipe-e0b72d32",
-      "at": "2026-04-09T09:39:00.784Z"
-    },
-    {
       "type": "gate_result",
       "gate": "pre-write",
       "passed": true,
@@ -5709,7 +5697,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-6b4afd94",
       "at": "2026-06-19T06:32:21.230Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "말론바 일회용 전자담배",
+      "proposedTitle": "말론바 일회용 전자담배",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-1515a271",
+      "at": "2026-06-19T06:32:38.890Z"
     }
   ],
-  "lastUpdated": "2026-06-19T06:32:21.230Z"
+  "lastUpdated": "2026-06-19T06:32:38.890Z"
 }
