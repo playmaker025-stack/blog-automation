@@ -1,0 +1,740 @@
+{
+  "runId": "eval-31593805",
+  "scores": {
+    "originality": 65,
+    "style_match": 70,
+    "structure": 68,
+    "engagement": 60,
+    "forbidden_check": 100
+  },
+  "aggregateScore": 33,
+  "reasoning": {
+    "originality": "전자담배 입문자를 위한 팟, 공팟, 카트리지 사용법과 선택 기준을 명확히 설명하며, 크로스미니와 아머미니 비교를 통해 현실적인 조언을 제공하는 점에서 참신함이 있으나, 이미 유사한 내용이 다수 존재하여 완전한 독창성은 부족함.",
+    "style_match": "친근하고 이해하기 쉬운 문체로 작성되어 있으며, 전문적이면서도 부담 없는 톤을 유지해 타겟 독자층에 적합함.",
+    "structure": "허브형 도입부와 하위 주제별 구분이 명확하며, 체크리스트와 다음 글 안내까지 포함해 네이버 블로그의 요구사항에 부합하는 체계적인 구성임.",
+    "engagement": "실제 사용 경험과 자주 하는 실수, 점검법 등을 구체적으로 제시해 독자의 관심을 끌지만, 다소 정보 전달 위주로 흥미 유발 요소가 부족해 체류시간 증가에는 한계가 있음.",
+    "forbidden_check": "내부 SEO 용어(예: direct-run) 사용이 있으나, 'keyword buildup', 'prelude posting' 등 명백한 내부 용어는 없으며, 과도한 키워드 반복 없이 자연스러운 흐름을 유지함.",
+    "seo": "SEO 점수 30점. '아머미니' 본문 2회는 현재 권장 범위입니다.",
+    "naver_logic": "네이버 로직 점수 17점. 문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다."
+  },
+  "recommendations": [
+    "제목 길이를 28~45자 안쪽으로 맞추는 편이 좋습니다.",
+    "제목 앞부분에 '팟 , 공팟 , 카트리지 , 사용법'를 더 빠르게 노출하면 검색 의도가 선명해집니다.",
+    "첫 두 문단 안에 '팟 , 공팟 , 카트리지 , 사용법'를 자연스럽게 넣는 편이 좋습니다.",
+    "첫 문장에 '팟 , 공팟 , 카트리지 , 사용법'를 한 번 직접 배치해 검색 의도를 더 또렷하게 보여주세요.",
+    "핵심 소제목 1개 이상에 '팟 , 공팟 , 카트리지 , 사용법'를 포함해 주제 축을 더 선명하게 잡아주세요.",
+    "마무리 문단에서 '팟 , 공팟 , 카트리지 , 사용법'를 한 번 더 정리해 글의 중심 키워드를 닫아주세요."
+  ],
+  "pass": false,
+  "seoEvaluation": {
+    "score": 30,
+    "evidence": [
+      "'아머미니' 본문 2회는 현재 권장 범위입니다.",
+      "메인 키워드의 핵심 축 단어 반복이 과도하게 치우치지 않았습니다.",
+      "본문 분량이 SEO용 설명 글로는 최소 기준을 넘깁니다.",
+      "목표 검색 조합 커버력이 79점으로 비교적 안정적입니다."
+    ],
+    "improvements": [
+      "제목 길이를 28~45자 안쪽으로 맞추는 편이 좋습니다.",
+      "제목 앞부분에 '팟 , 공팟 , 카트리지 , 사용법'를 더 빠르게 노출하면 검색 의도가 선명해집니다.",
+      "첫 두 문단 안에 '팟 , 공팟 , 카트리지 , 사용법'를 자연스럽게 넣는 편이 좋습니다.",
+      "첫 문장에 '팟 , 공팟 , 카트리지 , 사용법'를 한 번 직접 배치해 검색 의도를 더 또렷하게 보여주세요.",
+      "핵심 소제목 1개 이상에 '팟 , 공팟 , 카트리지 , 사용법'를 포함해 주제 축을 더 선명하게 잡아주세요.",
+      "마무리 문단에서 '팟 , 공팟 , 카트리지 , 사용법'를 한 번 더 정리해 글의 중심 키워드를 닫아주세요."
+    ],
+    "keywordReport": {
+      "items": [
+        {
+          "keyword": "팟 , 공팟 , 카트리지 , 사용법",
+          "count": 0,
+          "status": "under",
+          "targetMin": 4,
+          "targetMax": 7,
+          "role": "main",
+          "recommendation": "메인 키워드 '팟 , 공팟 , 카트리지 , 사용법'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "아머미니",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '아머미니' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "크로스미니",
+          "count": 6,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '크로스미니'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "direct-run",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 'direct-run'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "mainKeyword": {
+        "keyword": "팟 , 공팟 , 카트리지 , 사용법",
+        "count": 0,
+        "status": "under",
+        "targetMin": 4,
+        "targetMax": 7,
+        "role": "main",
+        "recommendation": "메인 키워드 '팟 , 공팟 , 카트리지 , 사용법'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+      },
+      "subKeywords": [
+        {
+          "keyword": "아머미니",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '아머미니' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "크로스미니",
+          "count": 6,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '크로스미니'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "direct-run",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 'direct-run'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        }
+      ],
+      "bridgeKeywords": [],
+      "internalLinkAnchors": [],
+      "forbiddenItems": [
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "contractApplied": true,
+      "overallRisk": "medium",
+      "overallRiskSummary": "일부 키워드 조정이 필요하지만, 문맥을 유지하며 보정할 수 있습니다.",
+      "paragraphWarnings": [],
+      "seoKeywordItems": [
+        {
+          "keyword": "아머미니",
+          "role": "sub",
+          "exactCount": 2,
+          "includedCount": 0,
+          "effectiveCount": 2,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "크로스미니",
+          "role": "sub",
+          "exactCount": 6,
+          "includedCount": 0,
+          "effectiveCount": 6,
+          "risk": "caution",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "direct-run",
+          "role": "sub",
+          "exactCount": 0,
+          "includedCount": 0,
+          "effectiveCount": 0,
+          "risk": "under",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        }
+      ],
+      "requiredEntityChecks": [
+        {
+          "entity": "아머미니",
+          "included": true,
+          "note": "포함됨"
+        }
+      ],
+      "bodyRepetitionItems": [
+        {
+          "token": "합니다",
+          "count": 5,
+          "category": "sentence_ending",
+          "severity": "notice",
+          "message": "'합니다' 문장 마무리가 반복됩니다.",
+          "suggestion": "문장 종결 표현을 섞어서 리듬을 바꿔 주세요.",
+          "isSeoRisk": false
+        }
+      ],
+      "legacyTokenItems": [
+        {
+          "token": "카트리지",
+          "count": 9,
+          "sourceKeywords": [
+            "팟 , 공팟 , 카트리지 , 사용법"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "공팟",
+          "count": 8,
+          "sourceKeywords": [
+            "팟 , 공팟 , 카트리지 , 사용법"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "크로스미니",
+          "count": 6,
+          "sourceKeywords": [
+            "크로스미니"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "사용법",
+          "count": 5,
+          "sourceKeywords": [
+            "팟 , 공팟 , 카트리지 , 사용법"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "direct run",
+          "count": 2,
+          "sourceKeywords": [
+            "direct-run"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "direct",
+          "count": 2,
+          "sourceKeywords": [
+            "direct-run"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "아머미니",
+          "count": 2,
+          "sourceKeywords": [
+            "아머미니"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "고르면",
+          "count": 2,
+          "sourceKeywords": [
+            "고르면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "run",
+          "count": 2,
+          "sourceKeywords": [
+            "direct-run"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "비교해보면",
+          "count": 1,
+          "sourceKeywords": [
+            "비교해보면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "가지면",
+          "count": 1,
+          "sourceKeywords": [
+            "가지면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "남동구",
+          "count": 1,
+          "sourceKeywords": [
+            "남동구"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "tokenItems": [
+        {
+          "token": "카트리지",
+          "count": 9,
+          "sourceKeywords": [
+            "팟 , 공팟 , 카트리지 , 사용법"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "공팟",
+          "count": 8,
+          "sourceKeywords": [
+            "팟 , 공팟 , 카트리지 , 사용법"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "크로스미니",
+          "count": 6,
+          "sourceKeywords": [
+            "크로스미니"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "사용법",
+          "count": 5,
+          "sourceKeywords": [
+            "팟 , 공팟 , 카트리지 , 사용법"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "direct run",
+          "count": 2,
+          "sourceKeywords": [
+            "direct-run"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "direct",
+          "count": 2,
+          "sourceKeywords": [
+            "direct-run"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "아머미니",
+          "count": 2,
+          "sourceKeywords": [
+            "아머미니"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "고르면",
+          "count": 2,
+          "sourceKeywords": [
+            "고르면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "run",
+          "count": 2,
+          "sourceKeywords": [
+            "direct-run"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "비교해보면",
+          "count": 1,
+          "sourceKeywords": [
+            "비교해보면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "가지면",
+          "count": 1,
+          "sourceKeywords": [
+            "가지면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "남동구",
+          "count": 1,
+          "sourceKeywords": [
+            "남동구"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "totalMentions": 8,
+      "introCoverage": false,
+      "titleFrontLoaded": false,
+      "bodyLength": 2422,
+      "summary": [
+        "메인 키워드 '팟 , 공팟 , 카트리지 , 사용법' 본문 0회",
+        "제목 앞부분의 메인 키워드 배치가 약합니다.",
+        "제목 앞부분의 메인 키워드 배치가 약합니다.",
+        "전체 반복 위험도 medium"
+      ],
+      "recommendations": [
+        "메인 키워드 '팟 , 공팟 , 카트리지 , 사용법'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+        "서브 키워드 '크로스미니'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+        "서브 키워드 'direct-run'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+      ]
+    },
+    "keywordMetrics": [
+      {
+        "keyword": "팟 , 공팟 , 카트리지 , 사용법",
+        "role": "main",
+        "label": "메인 키워드",
+        "completenessScore": 33,
+        "exposurePotentialScore": 47,
+        "count": 0,
+        "targetMin": 4,
+        "targetMax": 7,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 0회",
+        "action": "'팟 , 공팟 , 카트리지 , 사용법'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "아머미니",
+        "role": "sub",
+        "label": "서브 키워드 1",
+        "completenessScore": 58,
+        "exposurePotentialScore": 68,
+        "count": 2,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 2회",
+        "action": "'아머미니'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "크로스미니",
+        "role": "sub",
+        "label": "서브 키워드 2",
+        "completenessScore": 77,
+        "exposurePotentialScore": 80,
+        "count": 6,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 6회",
+        "action": "서브 키워드 '크로스미니'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+      },
+      {
+        "keyword": "direct-run",
+        "role": "sub",
+        "label": "서브 키워드 3",
+        "completenessScore": 32,
+        "exposurePotentialScore": 47,
+        "count": 0,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 0회",
+        "action": "'direct-run'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      }
+    ],
+    "combinationCoverageScore": 79,
+    "combinationMetrics": [
+      {
+        "phrase": "팟 , 공팟 , 카트리지 , 사용법",
+        "role": "main",
+        "priority": "core",
+        "exactMatches": 0,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 90,
+        "exposurePotentialScore": 84,
+        "summary": "제목 약함 · 도입부 연결 · 소제목 연결 · 0회 직접 표현",
+        "action": "'팟 , 공팟 , 카트리지 , 사용법' 조합을 제목이나 제목 가까운 소제목에 더 직접적으로 드러내는 편이 좋습니다."
+      },
+      {
+        "phrase": "아머미니",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 2,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 66,
+        "exposurePotentialScore": 60,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 연결 · 2회 직접 표현",
+        "action": "첫 두 문단 안에서 '아머미니' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "크로스미니",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 6,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 98,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 연결 · 6회 직접 표현",
+        "action": "'크로스미니' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "direct-run",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 0,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 55,
+        "exposurePotentialScore": 48,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 0회 직접 표현",
+        "action": "첫 두 문단 안에서 'direct-run' 검색 의도를 더 직접적으로 받아 주세요."
+      }
+    ]
+  },
+  "naverLogicEvaluation": {
+    "primary": "c-rank",
+    "label": "C-Rank 중심",
+    "completenessScore": 17,
+    "reason": "이 주제는 지역성, 실사용 맥락, 내부링크 연결이 중요해서 C-Rank 관점이 더 강합니다.",
+    "evidence": [
+      "문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다.",
+      "비교와 선택 기준 요소가 살아 있어 실전 검색 의도에 잘 맞습니다.",
+      "내부링크 설계 대상이 있어 주제권 확장 관점이 살아 있습니다.",
+      "지역성과 실사용 맥락이 보여 C-Rank 관점의 주제권 연결이 자연스럽습니다.",
+      "실사용 맥락과 검색자 질문이 보여 D.I.A. 관점의 설득력이 있습니다."
+    ],
+    "improvements": [
+      "허브 참조 링크는 '전자담배 기기 버블몬 그래피티 3 내가 사용할수 있는가가 중요한 부평 전자담배 추천' 제목과 https://blog.naver.com/iibodii00/224196934494/ URL을 정확히 같은 쌍으로 써야 합니다.",
+      "리프 참조 링크는 '전자담배 코일 교체시기 단박에 알아봅니다' 제목과 https://blog.naver.com/iibodii00/222163144516 URL을 정확히 같은 쌍으로 써야 합니다.",
+      "C-Rank 중심 글이라면 지역성, 실사용, 내부링크 흐름을 조금 더 분명히 보여주는 편이 좋습니다."
+    ]
+  },
+  "postId": "post-29659760",
+  "savedAt": "2026-06-19T06:31:32.864Z"
+}
