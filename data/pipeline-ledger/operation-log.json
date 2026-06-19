@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "type": "material_change",
-      "originalTitle": "구월동 전자담배 추천 기기 가이드",
-      "proposedTitle": "구월동 전자담배 추천 기기 가이드 | 입문자도 바로 선택 가능",
-      "isMaterial": false,
-      "triggeredSignals": [
-        "coreKeywordChanged"
-      ],
-      "stringSimilarity": 0.56,
-      "overrideByHighSim": false,
-      "pipelineId": "pipe-e0b72d32",
-      "at": "2026-04-09T09:38:42.759Z"
-    },
-    {
       "type": "approval_ux",
       "materialChange": false,
       "requestedAt": "2026-04-09T09:38:44.544Z",
@@ -5711,7 +5698,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-fdabfd81",
       "at": "2026-06-19T06:30:57.742Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-d7872a23",
+      "userId": "a",
+      "message": "토픽 선택 실패: 현재 다른 작업에서 진행 중인 토픽입니다. 완료 후 다시 시도해 주세요.",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-5b1643e0",
+      "at": "2026-06-19T06:32:09.451Z"
     }
   ],
-  "lastUpdated": "2026-06-19T06:30:57.742Z"
+  "lastUpdated": "2026-06-19T06:32:09.451Z"
 }
