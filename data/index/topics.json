@@ -3219,7 +3219,29 @@
       "assignedUserId": "a",
       "createdAt": "2026-06-19T06:27:39.762Z",
       "updatedAt": "2026-06-19T06:28:28.873Z"
+    },
+    {
+      "topicId": "topic-d7872a23",
+      "title": "말론바 일회용 전자담배",
+      "description": "메인키워드: 말론바 / 서브 키워드: 일회용 전자담배",
+      "category": "direct-run",
+      "tags": [
+        "말론바",
+        "일회용 전자담배"
+      ],
+      "targetKeyword": "말론바",
+      "subKeywords": [
+        "일회용 전자담배"
+      ],
+      "source": "direct",
+      "targetMainKeyword": "말론바",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-06-19T06:30:45.441Z",
+      "updatedAt": "2026-06-19T06:30:45.441Z"
     }
   ],
-  "lastUpdated": "2026-06-19T06:28:28.873Z"
+  "lastUpdated": "2026-06-19T06:30:45.441Z"
 }
