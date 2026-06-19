@@ -5669,7 +5669,22 @@
       "createdAt": "2026-06-19T06:32:08.162Z",
       "publishedAt": null,
       "updatedAt": "2026-06-19T06:32:52.787Z"
+    },
+    {
+      "postId": "post-3364afa7",
+      "topicId": "topic-d7872a23",
+      "userId": "a",
+      "title": "말론바 일회용 전자담배",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-1515a271",
+      "pendingApproval": null,
+      "createdAt": "2026-06-19T06:32:54.484Z",
+      "publishedAt": null,
+      "updatedAt": "2026-06-19T06:32:54.484Z"
     }
   ],
-  "lastUpdated": "2026-06-19T06:32:52.787Z"
+  "lastUpdated": "2026-06-19T06:32:54.484Z"
 }
