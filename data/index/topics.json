@@ -3127,7 +3127,29 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-17T06:46:36.400Z",
       "updatedAt": "2026-06-17T06:49:40.150Z"
+    },
+    {
+      "topicId": "topic-874334f0",
+      "title": "인천 전자담배 액상 선택 시 꼭 알아야 할 성분과 안전 기준",
+      "description": "전자담배 액상 구매 전 꼭 확인해야 하는 성분 정보와 인천 지역에서 적용되는 안전 기준을 자세히 설명합니다.",
+      "category": "전자담배",
+      "tags": [
+        "액상",
+        "성분",
+        "안전기준",
+        "인천",
+        "전자담배"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-19T05:28:34.144Z",
+      "updatedAt": "2026-06-19T05:28:34.144Z"
     }
   ],
-  "lastUpdated": "2026-06-17T07:58:12.348Z"
+  "lastUpdated": "2026-06-19T05:28:34.144Z"
 }
