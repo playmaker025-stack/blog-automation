@@ -2,6 +2,18 @@
   "userId": "a",
   "samples": [
     {
+      "sampleId": "published-post-4ca377f7",
+      "title": "말론바 일회용 전자담배 사용법과 인기 맛 리뷰",
+      "category": "direct-run",
+      "tags": [
+        "말론바",
+        "일회용 전자담배"
+      ],
+      "wordCount": 2321,
+      "publishedAt": "2026-06-19T08:16:02.685Z",
+      "filePath": "user-modeling/users/a/corpus/samples/published-post-4ca377f7.md"
+    },
+    {
       "sampleId": "published-post-52cca721",
       "title": "무니코틴 액상과 잘 어울리는 포켓코리아 아머니니 전자담배 기기",
       "category": "direct-run",
@@ -134,5 +146,5 @@
       "filePath": "user-modeling/users/a/corpus/samples/published-post-import-3c16fe70.md"
     }
   ],
-  "lastUpdated": "2026-06-17T07:58:17.344Z"
+  "lastUpdated": "2026-06-19T08:16:09.823Z"
 }
