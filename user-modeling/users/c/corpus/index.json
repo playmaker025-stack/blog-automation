@@ -2,6 +2,21 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-b3ba7c8f",
+      "title": "전자담배 액상 니코틴 함량별 안전 사용 가이드",
+      "category": "전자담배",
+      "tags": [
+        "남동구",
+        "전자담배액상",
+        "니코틴",
+        "안전사용",
+        "가이드"
+      ],
+      "wordCount": 2041,
+      "publishedAt": "2026-06-19T08:21:15.530Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-b3ba7c8f.md"
+    },
+    {
       "sampleId": "published-post-manual-mqj2jitj",
       "title": "스틱형 전자담배 XROS MINI 크로스미니 사용방법",
       "category": "published-post",
@@ -358,21 +373,7 @@
       "wordCount": 2503,
       "publishedAt": "2026-05-11T08:49:41.905Z",
       "filePath": "user-modeling/users/c/corpus/samples/published-post-536609fc.md"
-    },
-    {
-      "sampleId": "published-post-03dabba4",
-      "title": "전담 누수 보기 전에 핵심 개념부터 정리",
-      "category": "c",
-      "tags": [
-        "전담 누수",
-        "선행포스팅",
-        "키워드빌드업",
-        "개념정리"
-      ],
-      "wordCount": 1582,
-      "publishedAt": "2026-05-09T05:58:20.745Z",
-      "filePath": "user-modeling/users/c/corpus/samples/published-post-03dabba4.md"
     }
   ],
-  "lastUpdated": "2026-06-18T05:38:08.115Z"
+  "lastUpdated": "2026-06-19T08:21:24.391Z"
 }
