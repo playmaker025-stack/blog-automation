@@ -3195,7 +3195,31 @@
       "assignedUserId": "a",
       "createdAt": "2026-06-19T06:16:48.914Z",
       "updatedAt": "2026-06-19T06:22:21.153Z"
+    },
+    {
+      "topicId": "topic-fa9ed5cf",
+      "title": "크로스미니",
+      "description": "메인키워드: 팟 , 공팟 , 카트리지 , 사용법 / 서브 키워드: 전자담배, 아머미니",
+      "category": "direct-run",
+      "tags": [
+        "팟 , 공팟 , 카트리지 , 사용법",
+        "전자담배",
+        "아머미니"
+      ],
+      "targetKeyword": "팟 , 공팟 , 카트리지 , 사용법",
+      "subKeywords": [
+        "전자담배",
+        "아머미니"
+      ],
+      "source": "direct",
+      "targetMainKeyword": "팟 , 공팟 , 카트리지 , 사용법",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-06-19T06:27:39.762Z",
+      "updatedAt": "2026-06-19T06:27:39.762Z"
     }
   ],
-  "lastUpdated": "2026-06-19T06:22:21.153Z"
+  "lastUpdated": "2026-06-19T06:27:39.762Z"
 }
