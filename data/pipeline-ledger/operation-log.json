@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "type": "approval_ux",
-      "materialChange": false,
-      "requestedAt": "2026-04-09T09:49:23.025Z",
-      "respondedAt": "2026-04-09T09:49:23.822Z",
-      "approved": true,
-      "elapsedMs": 797,
-      "timedOut": false,
-      "pipelineId": "pipe-7acfd61b",
-      "at": "2026-04-09T09:49:24.412Z"
-    },
-    {
       "type": "corpus_retrieval",
       "userId": "a",
       "selectedCount": 0,
@@ -5708,7 +5697,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-05159091",
       "at": "2026-06-19T07:23:05.552Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 액상 니코틴 함량별 안전 사용 가이드",
+      "proposedTitle": "전자담배 액상 니코틴 함량별 안전 사용 가이드",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-ce723b21",
+      "at": "2026-06-19T07:24:30.503Z"
     }
   ],
-  "lastUpdated": "2026-06-19T07:23:05.552Z"
+  "lastUpdated": "2026-06-19T07:24:30.503Z"
 }
