@@ -3149,7 +3149,29 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-19T05:28:34.144Z",
       "updatedAt": "2026-06-19T05:28:34.144Z"
+    },
+    {
+      "topicId": "topic-70ed1644",
+      "title": "남동구 전자담배 액상 니코틴 함량별 안전 사용 가이드",
+      "description": "남동구 지역 사용자들을 위한 전자담배 액상 니코틴 함량별 안전한 사용법과 주의사항을 구체적으로 설명합니다.",
+      "category": "전자담배",
+      "tags": [
+        "남동구",
+        "전자담배액상",
+        "니코틴",
+        "안전사용",
+        "가이드"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-19T05:33:41.174Z",
+      "updatedAt": "2026-06-19T05:33:41.174Z"
     }
   ],
-  "lastUpdated": "2026-06-19T05:28:34.144Z"
+  "lastUpdated": "2026-06-19T05:33:41.174Z"
 }
