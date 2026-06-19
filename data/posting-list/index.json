@@ -5609,7 +5609,22 @@
       "publishedAt": "2026-06-18T12:15:59.289Z",
       "createdAt": "2026-06-18T12:15:59.289Z",
       "updatedAt": "2026-06-18T12:15:59.289Z"
+    },
+    {
+      "postId": "post-673ae6d2",
+      "topicId": "topic-70ed1644",
+      "userId": "c",
+      "title": "전자담배 액상 니코틴 함량별 안전 사용 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-86e26966",
+      "pendingApproval": null,
+      "createdAt": "2026-06-19T05:38:39.836Z",
+      "publishedAt": null,
+      "updatedAt": "2026-06-19T05:38:39.836Z"
     }
   ],
-  "lastUpdated": "2026-06-18T12:15:59.289Z"
+  "lastUpdated": "2026-06-19T05:38:39.836Z"
 }
