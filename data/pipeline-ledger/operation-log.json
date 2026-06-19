@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "type": "gate_result",
-      "gate": "pre-write",
-      "passed": true,
-      "blockedBy": null,
-      "reason": "pre-write gate 통과",
-      "pipelineId": "pipe-d505a653",
-      "at": "2026-04-07T10:11:04.387Z"
-    },
-    {
       "type": "material_change",
       "originalTitle": "구월동 전자담배 추천 기기 가이드",
       "proposedTitle": "구월동 전자담배 기기 추천 | 입문자부터 마니아까지 완벽 가이드",
@@ -5711,7 +5702,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-dcffbbe6",
       "at": "2026-06-19T06:16:58.172Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "무니코틴 액상과 잘 어울리는 전자담배 기기 포켓코리아 아머미니",
+      "proposedTitle": "무니코틴 액상과 잘 어울리는 전자담배 기기 포켓코리아 아머미니",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-431debbf",
+      "at": "2026-06-19T06:19:15.413Z"
     }
   ],
-  "lastUpdated": "2026-06-19T06:16:58.172Z"
+  "lastUpdated": "2026-06-19T06:19:15.413Z"
 }
