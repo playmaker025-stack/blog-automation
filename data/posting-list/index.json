@@ -5659,16 +5659,16 @@
       "postId": "post-4ca377f7",
       "topicId": "topic-d7872a23",
       "userId": "a",
-      "title": "말론바 일회용 전자담배",
-      "status": "ready",
-      "naverPostUrl": null,
+      "title": "말론바 일회용 전자담배 사용법과 인기 맛 리뷰",
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/iibodii00/224321052285",
       "evalScore": 56,
       "wordCount": 2321,
       "compositionSessionId": "pipe-fdabfd81",
       "pendingApproval": null,
       "createdAt": "2026-06-19T06:32:08.162Z",
-      "publishedAt": null,
-      "updatedAt": "2026-06-19T06:35:15.571Z"
+      "publishedAt": "2026-06-19T08:16:02.685Z",
+      "updatedAt": "2026-06-19T08:16:02.394Z"
     },
     {
       "postId": "post-3364afa7",
@@ -5686,5 +5686,5 @@
       "updatedAt": "2026-06-19T06:33:34.611Z"
     }
   ],
-  "lastUpdated": "2026-06-19T06:35:15.571Z"
+  "lastUpdated": "2026-06-19T08:16:02.394Z"
 }
