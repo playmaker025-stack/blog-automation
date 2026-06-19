@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "type": "gate_result",
-      "gate": "pre-write",
-      "passed": true,
-      "blockedBy": null,
-      "reason": "pre-write gate 통과",
-      "pipelineId": "pipe-e0b72d32",
-      "at": "2026-04-09T09:39:03.192Z"
-    },
-    {
       "type": "material_change",
       "originalTitle": "인천 전자담배 액상 고르는 방법",
       "proposedTitle": "인천 전자담배 액상 고르는 방법 완전 정리 (입문자 필독)",
@@ -5708,7 +5699,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-1515a271",
       "at": "2026-06-19T06:32:38.890Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "failed",
+      "topicId": "topic-d7872a23",
+      "userId": "a",
+      "message": "is at 556e789e1bf6d8629ee7453d943b616db32cefc9 but expected 21600b3438f5ec1aeb4ba4cd0924f64a907d3a84 - https://docs.github.com/rest/repos/contents#create-or-update-file-contents",
+      "recoveredTopicToDraft": false,
+      "errorName": "y",
+      "pipelineId": "pipe-1515a271",
+      "at": "2026-06-19T06:33:44.816Z"
     }
   ],
-  "lastUpdated": "2026-06-19T06:32:38.890Z"
+  "lastUpdated": "2026-06-19T06:33:44.816Z"
 }
