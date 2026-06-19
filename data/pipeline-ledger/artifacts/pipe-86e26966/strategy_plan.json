@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-86e26966",
   "type": "strategy_plan",
-  "savedAt": "2026-06-19T05:37:03.249Z",
+  "savedAt": "2026-06-19T05:38:45.084Z",
   "data": {
     "title": "전자담배 액상 니코틴 함량별 안전 사용 가이드",
     "outline": [
@@ -48,7 +48,9 @@
     "keyPoints": [
       "검색의도에 바로 답하는 구조를 유지한다.",
       "과장 없이 실제 선택 기준을 구체적으로 제시한다.",
-      "허브/리프 연결과 내부링크 흐름을 고려한다."
+      "허브/리프 연결과 내부링크 흐름을 고려한다.",
+      "수정사항 반영: 이 글이 먹을 키워드는 \"\"니코틴\"이야",
+      "수정사항 반영: 이 글이 먹을 키워드는 \"남동구\"가 아니라 \"니코틴\" 으로 해줘"
     ],
     "estimatedLength": 1800,
     "tone": "friendly",
@@ -62,8 +64,111 @@
       "액상",
       "함량별"
     ],
-    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
-    "corpusSummary": null,
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.\n\n[수정 반영] 이 글이 먹을 키워드는 \"\"니코틴\"이야\n\n[수정 반영] 이 글이 먹을 키워드는 \"남동구\"가 아니라 \"니코틴\" 으로 해줘",
+    "corpusSummary": {
+      "userId": "c",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 3119,
+        "signatureExpressions": [],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "질문으로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-3a07f3a9",
+          "title": "만수역 전자담배 기기별 사용법과 유지관리 핵심 가이드",
+          "excerpt": "전자담배를 사용하면 \"왜 갑자기 맛이 이상하지?\" \"이거 언제 교체해야 하지?\" 고민해본 적 있으신가요? 만수역이나 구월동에서 전자담배를 사용하는 분들, 실제로 기기마다 관리법이 완전히 다르다는 사실 알고 계셨나요? 오늘은 만수역 전자담배 사용자라면 꼭 알아야 할 기기별 사용법과 유지관리 그리고 실전 트러블 해결법 까지 한 번에 정리해드립니다. 감성 후기나 신제품 홍보가 아닌, 실제 문제 해결과 선택 기준에 집중한 정보만 담았",
+          "styleNotes": "tone=casual, contentKind=leaf, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-32a4e215",
+          "title": "남동구전자담배 출력조절과 온오프 기능 완벽 가이드",
+          "excerpt": "인천에서 전자담배 상담을 하다 보면 기능이 많은 기기보다 기본 조작이 쉬운 제품을 찾는 분이 훨씬 많이 있습니다 특히 남동구 쪽에서 오시는 분들은 \"전원이 왜 안 들어오죠?\" \"세기 조절은 어디까지 올려도 되나요?\" 처럼 아주 현실적인 질문을 먼저 하세요. 그래서 오늘은 전담을 처음 써보거나 이미 쓰고 있는데 조작이 헷갈리는 분들 기준으로 가장 많이 막히는 부분만 정리해 보겠습니다. 결론부터 말씀드리면 초보자에게 중요한 건 기",
+          "styleNotes": "tone=casual, contentKind=hub, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-manual-mqj2jitj",
+          "title": "스틱형 전자담배 XROS MINI 크로스미니 사용방법",
+          "excerpt": "스틱형 전자담배 XROS MINI 크로스미니 사용방법 스틱형 전자담배 XROS MINI 크로스미니 사용방법 : 네이버 블로그 NAVER 블로그 부평 전자담배 만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-e60008d9",
+          "title": "간석동전자담배 기기별 고장 원인과 해결 방법",
+          "excerpt": "전자담배를 사용하다 보면 예상치 못한 고장으로 불편을 겪는 일이 많이 있습니다. 특히 간석동전자담배 사용자분들도 연기 부족, 액상 누수, 버튼 불량 등 다양한 문제로 문의를 자주 주시는데요. 이번 글에서는 간석동 지역을 기준으로 기기별 고장 원인과 간단히 해결할 수 있는 방법을 정리해 드리겠습니다. 전자담배 고장의 주요 유형 간석동 전자담배 사용자들이 흔히 겪는 고장은 크게 다섯 가지로 나뉩니다. 1️⃣ 연기 전혀 발생하지 않",
+          "styleNotes": "tone=casual, contentKind=leaf, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-9b7617b2",
+          "title": "인천 부평 전자담배 금연구역과 과태료 최신 안내",
+          "excerpt": "인천 부평 지역에서 전자담배도 금연구역 단속 대상인지 궁금하신가요? 과거에는 전자담배가 냄새가 적고 일반 담배와 다르다는 이유로 비교적 자유롭게 사용됐지만, 2026년부터는 상황이 달라졌습니다. 국민건강증진법과 담배사업법 개정으로 액상형과 권련형 전자담배 모두 일반 담배와 동일하게 법적 '담배'로 분류되어 금연구역에서 단속됩니다. 그 결과, 부평 지역 금연구역에서 전자담배를 피울 경우 일반 담배와 마찬가지로 과태료가 부과됩니다",
+          "styleNotes": "tone=casual, contentKind=hub, category=전자담배"
+        }
+      ],
+      "representativeExcerpts": [
+        "스틱형 전자담배 XROS MINI 크로스미니 사용방법 스틱형 전자담배 XROS MINI 크로스미니 사용방법 : 네이버 블로그 NAVER 블로그 부평 전자담배 만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경",
+        "무니코틴 액상 유저에게도 아머미니 전자담배가 잘 어울리는 이유 무니코틴 액상 유저에게도 아머미니 전자담배가 잘 어울리는 이유 : 네이버 블로그 NAVER 블로그 부평 전자담배 만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기",
+        "무니코틴 액상 유저에게도 아머미니 전자담배가 잘 어울리는 이유 무니코틴 액상 유저에게도 아머미니 전자담배가 잘 어울리는 이유 : 네이버 블로그 NAVER 블로그 부평 전자담배 만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기",
+        "인천에서 전자담배 상담을 하다 보면 기능이 많은 기기보다 기본 조작이 쉬운 제품을 찾는 분이 훨씬 많이 있습니다 특히 남동구 쪽에서 오시는 분들은 \"전원이 왜 안 들어오죠?\" \"세기 조절은 어디까지 올려도 되나요?\" 처럼 아주 현실적인 질문을 먼저 하세요. 그래서 오늘은 전담을 처음 써보거나 이미 쓰고 있는데 조작이 헷갈리는 분들 기준으로 가장 많이 막히는 부분만 정리해 보겠습니다. 결론부터 말씀드리면 초보자에게 중요한 건 기",
+        "전담 쓰다가 갑자기 탄맛이 올라오면 제일 먼저 헷갈리는것이 있습니다 액상이 잘못된 건지 코일이 끝난 건지 기기쪽 문제인지 바로 구분이 안 되기 때문이죠. 실제로 인천에서 자주 듣는 질문도 비슷합니다. \"액상은 남아 있는데 왜 타는 맛이 나요?\" \"코일을 바꿔야 하는지 설정부터 봐야 하는지 모르겠어요\" 결론부터 말하면 전담 액상 탄맛은 대부분 코일 상태, 액상 유입, 출력 설정, 액상 점도와 조합 이 네 가지에서 갈립니다. 중요"
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-3a07f3a9",
+          "finalScore": 0.714,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.66,
+            "roleMatch": 0.6,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-32a4e215",
+          "finalScore": 0.706,
+          "components": {
+            "relevance": 0.48,
+            "recency": 0.98,
+            "roleMatch": 0.6,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-manual-mqj2jitj",
+          "finalScore": 0.678,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.99,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-e60008d9",
+          "finalScore": 0.658,
+          "components": {
+            "relevance": 0.52,
+            "recency": 0.72,
+            "roleMatch": 0.6,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-9b7617b2",
+          "finalScore": 0.619,
+          "components": {
+            "relevance": 0.62,
+            "recency": 0.7,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 82,
