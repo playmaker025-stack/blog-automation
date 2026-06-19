@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "type": "corpus_retrieval",
-      "userId": "a",
-      "selectedCount": 0,
-      "strategy": "fallback_recent",
-      "staleCount": 0,
-      "staleWarnings": [],
-      "topScores": [],
-      "targetCategory": "A블로그",
-      "pipelineId": "pipe-7acfd61b",
-      "at": "2026-04-09T09:49:38.781Z"
-    },
-    {
       "type": "gate_result",
       "gate": "pre-write",
       "passed": true,
@@ -5708,7 +5696,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-ce723b21",
       "at": "2026-06-19T07:24:30.503Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-70ed1644",
+      "userId": "c",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-673ae6d2 / Similar existing title found: 전자담배 액상 니코틴 함량별 안전 사용 가이드 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-1b767d9f",
+      "at": "2026-06-19T08:15:59.867Z"
     }
   ],
-  "lastUpdated": "2026-06-19T07:24:30.503Z"
+  "lastUpdated": "2026-06-19T08:15:59.867Z"
 }
