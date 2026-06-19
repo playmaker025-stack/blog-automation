@@ -5645,16 +5645,16 @@
       "topicId": "topic-fa9ed5cf",
       "userId": "a",
       "title": "크로스미니",
-      "status": "draft",
+      "status": "ready",
       "naverPostUrl": null,
       "evalScore": null,
-      "wordCount": 0,
+      "wordCount": 2316,
       "compositionSessionId": "pipe-a33ea603",
       "pendingApproval": null,
       "createdAt": "2026-06-19T06:28:30.440Z",
       "publishedAt": null,
-      "updatedAt": "2026-06-19T06:28:30.440Z"
+      "updatedAt": "2026-06-19T06:29:38.182Z"
     }
   ],
-  "lastUpdated": "2026-06-19T06:28:30.440Z"
+  "lastUpdated": "2026-06-19T06:29:38.182Z"
 }
