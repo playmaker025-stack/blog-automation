@@ -3215,10 +3215,10 @@
       "targetMainKeyword": "팟 , 공팟 , 카트리지 , 사용법",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "a",
       "createdAt": "2026-06-19T06:27:39.762Z",
-      "updatedAt": "2026-06-19T06:28:28.873Z"
+      "updatedAt": "2026-06-19T06:31:41.059Z"
     },
     {
       "topicId": "topic-d7872a23",
@@ -3243,5 +3243,5 @@
       "updatedAt": "2026-06-19T06:30:45.441Z"
     }
   ],
-  "lastUpdated": "2026-06-19T06:30:45.441Z"
+  "lastUpdated": "2026-06-19T06:31:41.059Z"
 }
