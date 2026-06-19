@@ -5639,7 +5639,22 @@
       "createdAt": "2026-06-19T06:19:33.538Z",
       "publishedAt": null,
       "updatedAt": "2026-06-19T06:22:19.307Z"
+    },
+    {
+      "postId": "post-29659760",
+      "topicId": "topic-fa9ed5cf",
+      "userId": "a",
+      "title": "크로스미니",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-a33ea603",
+      "pendingApproval": null,
+      "createdAt": "2026-06-19T06:28:30.440Z",
+      "publishedAt": null,
+      "updatedAt": "2026-06-19T06:28:30.440Z"
     }
   ],
-  "lastUpdated": "2026-06-19T06:22:19.307Z"
+  "lastUpdated": "2026-06-19T06:28:30.440Z"
 }
