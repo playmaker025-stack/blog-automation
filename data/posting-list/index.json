@@ -5662,13 +5662,13 @@
       "title": "말론바 일회용 전자담배",
       "status": "ready",
       "naverPostUrl": null,
-      "evalScore": null,
+      "evalScore": 56,
       "wordCount": 2321,
       "compositionSessionId": "pipe-fdabfd81",
       "pendingApproval": null,
       "createdAt": "2026-06-19T06:32:08.162Z",
       "publishedAt": null,
-      "updatedAt": "2026-06-19T06:34:31.932Z"
+      "updatedAt": "2026-06-19T06:35:15.571Z"
     },
     {
       "postId": "post-3364afa7",
@@ -5686,5 +5686,5 @@
       "updatedAt": "2026-06-19T06:33:34.611Z"
     }
   ],
-  "lastUpdated": "2026-06-19T06:34:31.932Z"
+  "lastUpdated": "2026-06-19T06:35:15.571Z"
 }
