@@ -5663,12 +5663,12 @@
       "status": "ready",
       "naverPostUrl": null,
       "evalScore": null,
-      "wordCount": 2031,
+      "wordCount": 1838,
       "compositionSessionId": "pipe-fdabfd81",
       "pendingApproval": null,
       "createdAt": "2026-06-19T06:32:08.162Z",
       "publishedAt": null,
-      "updatedAt": "2026-06-19T06:32:52.787Z"
+      "updatedAt": "2026-06-19T06:33:42.888Z"
     },
     {
       "postId": "post-3364afa7",
@@ -5686,5 +5686,5 @@
       "updatedAt": "2026-06-19T06:33:34.611Z"
     }
   ],
-  "lastUpdated": "2026-06-19T06:33:34.611Z"
+  "lastUpdated": "2026-06-19T06:33:42.888Z"
 }
