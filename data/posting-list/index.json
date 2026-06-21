@@ -5714,7 +5714,22 @@
       "publishedAt": "2026-06-20T09:54:17.733Z",
       "createdAt": "2026-06-20T09:54:17.733Z",
       "updatedAt": "2026-06-20T09:54:17.733Z"
+    },
+    {
+      "postId": "post-manual-mqnpbb95",
+      "topicId": "",
+      "userId": "e",
+      "title": "베이포레소 크로스 미니 시리즈 사용방법",
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/godmaker0/224322701028",
+      "wordCount": 0,
+      "evalScore": null,
+      "compositionSessionId": null,
+      "pendingApproval": null,
+      "publishedAt": "2026-06-21T11:26:32.572Z",
+      "createdAt": "2026-06-21T11:26:32.572Z",
+      "updatedAt": "2026-06-21T11:26:32.572Z"
     }
   ],
-  "lastUpdated": "2026-06-20T09:54:17.733Z"
+  "lastUpdated": "2026-06-21T11:26:32.572Z"
 }
