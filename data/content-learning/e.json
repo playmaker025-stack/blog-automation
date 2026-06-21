@@ -2,6 +2,19 @@
   "userId": "e",
   "entries": [
     {
+      "postId": "post-manual-mqnpbb95",
+      "topicId": "",
+      "userId": "e",
+      "title": "베이포레소 크로스 미니 시리즈 사용방법",
+      "naverPostUrl": "https://blog.naver.com/godmaker0/224322701028",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-21T11:26:32.572Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-21T11:26:34.384Z"
+    },
+    {
       "postId": "post-manual-mqi2v9v4",
       "topicId": "",
       "userId": "e",
@@ -132,5 +145,5 @@
       "learnedAt": "2026-05-10T12:02:04.252Z"
     }
   ],
-  "updatedAt": "2026-06-17T12:59:25.668Z"
+  "updatedAt": "2026-06-21T11:26:34.384Z"
 }
