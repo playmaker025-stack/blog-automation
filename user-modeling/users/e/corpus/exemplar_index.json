@@ -2,6 +2,17 @@
   "userId": "e",
   "exemplars": [
     {
+      "sampleId": "published-post-manual-mqnpbb95",
+      "title": "베이포레소 크로스 미니 시리즈 사용방법",
+      "category": "published-post",
+      "tags": [],
+      "relevanceScore": 0.7,
+      "styleNotes": "tone=casual",
+      "excerpt": "베이포레소 크로스 미니 시리즈 사용방법 베이포레소 크로스 미니 시리즈 사용방법 : 네이버 블로그 NAVER 블로그 인천전자담배 만수동만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 ",
+      "wordCount": 6714,
+      "publishedAt": "2026-06-21T11:26:32.572Z"
+    },
+    {
       "sampleId": "published-post-manual-mqi2v9v4",
       "title": "무니코틴 액상 쓰기 좋은 입호흡 전자담배 아머미니",
       "category": "published-post",
@@ -166,5 +177,5 @@
       "publishedAt": "2026-05-17T12:17:40.859Z"
     }
   ],
-  "lastCurated": "2026-06-17T12:59:29.990Z"
+  "lastCurated": "2026-06-21T11:26:39.144Z"
 }
