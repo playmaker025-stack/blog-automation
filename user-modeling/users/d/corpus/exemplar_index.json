@@ -2,6 +2,17 @@
   "userId": "d",
   "exemplars": [
     {
+      "sampleId": "published-post-manual-mqp6cu54",
+      "title": "전자담배 액상 넣었는데 맛이 안 날 때 – 초보자들이 가장 많이 하는 실수",
+      "category": "published-post",
+      "tags": [],
+      "relevanceScore": 0.7,
+      "styleNotes": "tone=casual",
+      "excerpt": "전자담배 액상 넣었는데 맛이 안 날 때 – 초보자들이 가장 많이 하는 실수 전자담배 액상 넣었는데 맛이 안 날 때 – 초보자들이 가장 많이 하는 실수 : 네이버 블로그 NAVER 블로그 인천 전자담배 부평 만수르 조카 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬",
+      "wordCount": 6214,
+      "publishedAt": "2026-06-22T12:11:21.691Z"
+    },
+    {
       "sampleId": "published-post-manual-mqjgrcfi",
       "title": "무니코틴 액상 추천기기 조합 포켓코리아 아머미니",
       "category": "published-post",
@@ -371,5 +382,5 @@
       "publishedAt": "2026-04-22T12:34:03.755Z"
     }
   ],
-  "lastCurated": "2026-06-18T12:16:06.406Z"
+  "lastCurated": "2026-06-22T12:11:29.588Z"
 }
