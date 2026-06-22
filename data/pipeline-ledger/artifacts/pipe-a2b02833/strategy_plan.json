@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-a2b02833",
   "type": "strategy_plan",
-  "savedAt": "2026-06-22T07:01:48.746Z",
+  "savedAt": "2026-06-22T07:02:02.081Z",
   "data": {
     "title": "전자담배 출력조절 기능 완전 정복과 고장 예방 체크포인트",
     "outline": [
@@ -63,7 +63,110 @@
       "정복과"
     ],
     "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "c",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 2202,
+        "signatureExpressions": [],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "질문으로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-e17c7d6e",
+          "title": "발라리안맥스프로 누수·고장 생겼을 때 원인과 해결 순서",
+          "excerpt": "발라리안맥스프로 쓰다가 액상이 새거나 갑자기 반응이 없으면 제일 먼저 헷갈립니다. \"이게 진짜 고장인가 아니면 팟이나 사용 습관 문제인가?\" 결론부터 말하면 발라리안맥스프로의 문제는 대개 팟 체결, 접점 오염, 팟 수명, 액상 유입 과다 에서 갈립니다. 무조건 본체 불량으로 단정하기보다 지금 바로 확인할 수 있는 순서대로 보면 원인 분리가 훨씬 빠릅니다. 실제로 인천전자담배 매장에서 상담하다 보면 완전 먹통으로 가져오셨다가 팟",
+          "styleNotes": "tone=casual, contentKind=leaf, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-b3ba7c8f",
+          "title": "전자담배 액상 니코틴 함량별 안전 사용 가이드",
+          "excerpt": "무니코틴 액상부터 봐야 할지 아니면 어느 정도 함량이 있는 제품부터 시작해야 할지 헷갈리는 분이 많습니다. 특히 처음 전자담배를 알아보는 분들은 \"센 게 맞나, 약한 게 맞나\" 부터 막히는 경우가 많아요. 결론부터 말하면, 전자담배 액상은 숫자가 높은 제품을 고르는 것보다 내 흡연량, 기기 종류, 흡입 습관에 맞추는 게 먼저 입니다. 같은 액상이라도 팟 기기인지, 출력은 어느 정도인지, 한 번에 얼마나 자주 흡입하는지에 따라 ",
+          "styleNotes": "tone=casual, contentKind=leaf, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-99c636ac",
+          "title": "사랑니 뽑고 전자담배 사용 시 주의사항과 무니코틴 선택 팁",
+          "excerpt": "사랑니 뽑고 나서 방문하시는 분들이 있는데 제일 많이 나오는 질문이 \"연초는 안 좋은 거 알겠는데 전담은 괜찮지 않나요?\" 에요 부천매장에서 문의 주시는 분들 있었고 예전에는 주안 쪽 손님들도 거의 같은 부분에서 헷갈려 하셨습니다. 결론부터 말씀드리면 사랑니 발치 후 전자담배는 니코틴만의 문제가 아닙니다. 가장 먼저 봐야 하는 건 흡입할 떄 생기는 압력 그리고 회복 중인 발치 부위 상태예요. 그래서 무니코틴 전자담배로 바꿔도 ",
+          "styleNotes": "tone=casual, contentKind=leaf, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-3a07f3a9",
+          "title": "만수역 전자담배 기기별 사용법과 유지관리 핵심 가이드",
+          "excerpt": "전자담배를 사용하면 \"왜 갑자기 맛이 이상하지?\" \"이거 언제 교체해야 하지?\" 고민해본 적 있으신가요? 만수역이나 구월동에서 전자담배를 사용하는 분들, 실제로 기기마다 관리법이 완전히 다르다는 사실 알고 계셨나요? 오늘은 만수역 전자담배 사용자라면 꼭 알아야 할 기기별 사용법과 유지관리 그리고 실전 트러블 해결법 까지 한 번에 정리해드립니다. 감성 후기나 신제품 홍보가 아닌, 실제 문제 해결과 선택 기준에 집중한 정보만 담았",
+          "styleNotes": "tone=casual, contentKind=leaf, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-32a4e215",
+          "title": "남동구전자담배 출력조절과 온오프 기능 완벽 가이드",
+          "excerpt": "인천에서 전자담배 상담을 하다 보면 기능이 많은 기기보다 기본 조작이 쉬운 제품을 찾는 분이 훨씬 많이 있습니다 특히 남동구 쪽에서 오시는 분들은 \"전원이 왜 안 들어오죠?\" \"세기 조절은 어디까지 올려도 되나요?\" 처럼 아주 현실적인 질문을 먼저 하세요. 그래서 오늘은 전담을 처음 써보거나 이미 쓰고 있는데 조작이 헷갈리는 분들 기준으로 가장 많이 막히는 부분만 정리해 보겠습니다. 결론부터 말씀드리면 초보자에게 중요한 건 기",
+          "styleNotes": "tone=casual, contentKind=hub, category=전자담배"
+        }
+      ],
+      "representativeExcerpts": [
+        "무니코틴 액상부터 봐야 할지 아니면 어느 정도 함량이 있는 제품부터 시작해야 할지 헷갈리는 분이 많습니다. 특히 처음 전자담배를 알아보는 분들은 \"센 게 맞나, 약한 게 맞나\" 부터 막히는 경우가 많아요. 결론부터 말하면, 전자담배 액상은 숫자가 높은 제품을 고르는 것보다 내 흡연량, 기기 종류, 흡입 습관에 맞추는 게 먼저 입니다. 같은 액상이라도 팟 기기인지, 출력은 어느 정도인지, 한 번에 얼마나 자주 흡입하는지에 따라",
+        "스틱형 전자담배 XROS MINI 크로스미니 사용방법 스틱형 전자담배 XROS MINI 크로스미니 사용방법 : 네이버 블로그 NAVER 블로그 부평 전자담배 만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경",
+        "무니코틴 액상 유저에게도 아머미니 전자담배가 잘 어울리는 이유 무니코틴 액상 유저에게도 아머미니 전자담배가 잘 어울리는 이유 : 네이버 블로그 NAVER 블로그 부평 전자담배 만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기",
+        "무니코틴 액상 유저에게도 아머미니 전자담배가 잘 어울리는 이유 무니코틴 액상 유저에게도 아머미니 전자담배가 잘 어울리는 이유 : 네이버 블로그 NAVER 블로그 부평 전자담배 만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기",
+        "인천에서 전자담배 상담을 하다 보면 기능이 많은 기기보다 기본 조작이 쉬운 제품을 찾는 분이 훨씬 많이 있습니다 특히 남동구 쪽에서 오시는 분들은 \"전원이 왜 안 들어오죠?\" \"세기 조절은 어디까지 올려도 되나요?\" 처럼 아주 현실적인 질문을 먼저 하세요. 그래서 오늘은 전담을 처음 써보거나 이미 쓰고 있는데 조작이 헷갈리는 분들 기준으로 가장 많이 막히는 부분만 정리해 보겠습니다. 결론부터 말씀드리면 초보자에게 중요한 건 기"
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-e17c7d6e",
+          "finalScore": 0.653,
+          "components": {
+            "relevance": 0.58,
+            "recency": 0.9,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-b3ba7c8f",
+          "finalScore": 0.651,
+          "components": {
+            "relevance": 0.53,
+            "recency": 0.98,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-99c636ac",
+          "finalScore": 0.639,
+          "components": {
+            "relevance": 0.53,
+            "recency": 0.93,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-3a07f3a9",
+          "finalScore": 0.635,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.64,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-32a4e215",
+          "finalScore": 0.626,
+          "components": {
+            "relevance": 0.48,
+            "recency": 0.95,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 83,
