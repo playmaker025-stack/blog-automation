@@ -2,6 +2,15 @@
   "userId": "d",
   "samples": [
     {
+      "sampleId": "published-post-manual-mqp6cu54",
+      "title": "전자담배 액상 넣었는데 맛이 안 날 때 – 초보자들이 가장 많이 하는 실수",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 6214,
+      "publishedAt": "2026-06-22T12:11:21.691Z",
+      "filePath": "user-modeling/users/d/corpus/samples/published-post-manual-mqp6cu54.md"
+    },
+    {
       "sampleId": "published-post-manual-mqjgrcfi",
       "title": "무니코틴 액상 추천기기 조합 포켓코리아 아머미니",
       "category": "published-post",
@@ -313,5 +322,5 @@
       "filePath": "user-modeling/users/d/corpus/samples/published-post-21e6d9ae.md"
     }
   ],
-  "lastUpdated": "2026-06-18T12:16:06.406Z"
+  "lastUpdated": "2026-06-22T12:11:29.588Z"
 }
