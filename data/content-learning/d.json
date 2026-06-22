@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mqp6cu54",
+      "topicId": "",
+      "userId": "d",
+      "title": "전자담배 액상 넣었는데 맛이 안 날 때 – 초보자들이 가장 많이 하는 실수",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224323825838",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-22T12:11:21.691Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-22T12:11:23.648Z"
+    },
+    {
       "postId": "post-manual-mqjgrcfi",
       "topicId": "",
       "userId": "d",
@@ -366,5 +379,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-06-18T12:16:01.447Z"
+  "updatedAt": "2026-06-22T12:11:23.648Z"
 }
