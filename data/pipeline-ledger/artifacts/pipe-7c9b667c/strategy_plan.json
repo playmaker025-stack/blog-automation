@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-7c9b667c",
   "type": "strategy_plan",
-  "savedAt": "2026-06-22T05:06:25.712Z",
+  "savedAt": "2026-06-22T05:06:38.434Z",
   "data": {
     "title": "만수동 전자담배 풀셋 구매 시 체크해야 할 필수 포인트",
     "outline": [
@@ -63,7 +63,112 @@
       "필수"
     ],
     "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "b",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 2006,
+        "signatureExpressions": [
+          "안녕하세요"
+        ],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "주제 직접 서술로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-dfb90308",
+          "title": "만수동전자담배 액상선택, 고농도별 특징과 맞춤 추천",
+          "excerpt": "안녕하십니까. 만수동전자담배 만수르 동생 입니다. ​ 전담배 매장에서 “타격감 쌘 액상 주세요”라고 말하면 보통 고농도 액상을 안내받게 됩니다. ​ 버니나 핵쥬스 아틱 시리즈 이외에도 다양한 제품군이 있죠 ​ 연초대용으로 사용가등한 멘솔이 전혀없는 토바코 계열도 상당합니다. ​ 그런데 여기서 한 가지. 고농도 = 무조건 좋은 선택일까요? ​ 오늘은 단순 추천이 아니라 ​ 만수동전자담배 매장에서의 실제 상담 기준으로 정리해보겠습",
+          "styleNotes": "tone=casual, contentKind=hub, category=b"
+        },
+        {
+          "sampleId": "published-post-af6fb7fc",
+          "title": "만수동 전자담배 기기별 고장 유형별 자가진단과 점검법",
+          "excerpt": "안녕하세요. 만수동 전자담배 만수르 동생입니다 ​ 전담을 사용하다 보면 갑자기 문제가 생겨 당황하는 경우가 있습니다. ​ 새 팟으로 교체했는데 맛이 이상하거나 충전은 되는 것 같은데 힘이 약하게 느껴지는 경우가 대표적입니다. ​ 또 팟 바닥에 액이 조금 맺히거나, 평소보다 무화량이 줄어들면 “이게 고장인가?” 하고 고민하게 됩니다. ​ 이럴 때는 무턱대고 분해하거나 바로 교체하기보다, 먼저 정상 범위의 반응인지 고장 신호인지 ",
+          "styleNotes": "tone=casual, contentKind=hub, category=b"
+        },
+        {
+          "sampleId": "published-post-f4daab63",
+          "title": "구월동 전자담배 입문자 위한 기기 선택과 사용법 안내",
+          "excerpt": "안녕하십니까! 구월동 전자담배 만수르 동생입니다. 입문자분들께서는 어떤 기기를 고르는 게 좋을지, 그리고 어떻게 사용하는 게 편리한지 궁금해하시는 경우가 많습니다. 특히 처음 시작하시는 분이라면 기능 설명만으로는 쉽게 판단하기 어려워 더욱 고민이 깊죠. 이번 글에서는 전담 입문자를 위해 실제 사용 경험과 관리 편의성을 중심으로 기기 선택 기준과 사용법을 쉽게 정리해 드리겠습니다. AI 활용 설정 사진 설명을 입력하세요. 구월동",
+          "styleNotes": "tone=casual, contentKind=hub, category=b"
+        },
+        {
+          "sampleId": "published-post-e8ee9484",
+          "title": "만수동 전자담배 액상 신선도 유지법과 꿀팁 총정리",
+          "excerpt": "안녕하십니까. 만수동 전자담배 만수르 동생입니다. ​ 액상을 구매할 때, \"같은 액상인데 왜 어떤 병은 끝까지 맛이 유지되고, 어떤 병은 금방 맛이 둔해질까? 라는 질문을 자주 듣습니다. ​ 이 차이의 핵심은 액상 자체뿐 아니라 용량 선택과 개봉 후 보관 습관에 크게 좌우됩니다. ​ 특히 이동이 잦은 분들은 보관 방식에 따라 신선도 체감이 더 뚜렷해집니다. 액상보관, 내 사용 패턴에 맞는 타입 선택 ​ 액상 신선도 유지의 첫걸",
+          "styleNotes": "tone=casual, contentKind=hub, category=b"
+        },
+        {
+          "sampleId": "published-post-2e778402",
+          "title": "만수동 전자담배 기기별 고장 유형과 자가점검 방법 안내",
+          "excerpt": "만수동 전자담배 기기별 고장 유형과 자가점검 방법 안내 안녕하세요! 만수동에서 전자담배를 이용하는 분들이 종종 기기고장으로 당황하는 경우가 많습니다. 연무량 감소부터 작동 중단까지 갑작스러운 증상들 때문에 고민이 많으실 텐데요, 특히 만수동과 인근 구월동 지역에서는 전자담배 매장이 많아 방문 전 자가점검을 해보고 싶어 하는 분들이 많습니다. 이번 글에서는 만수동 전자담배 사용자들이 자주 겪는 기기별 고장 유형과 쉽게 따라 할 ",
+          "styleNotes": "tone=casual, contentKind=hub, category=b"
+        }
+      ],
+      "representativeExcerpts": [
+        "무니코틴 액상에 잘 어울리는 입호흡 전자담배 추천! 포켓코리아 아머미니 무니코틴 액상에 잘 어울리는 입호흡 전자담배 추천! 포켓코리아 아머미니 : 네이버 블로그 NAVER 블로그 만수동만수르동생 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보",
+        "부평전자담배 베이포레소 크로스5미니 사용방법 부평전자담배 베이포레소 크로스5미니 사용방법 : 네이버 블로그 NAVER 블로그 만수동만수르동생 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내 블로그 마켓",
+        "안녕하십니까! 구월동 전자담배 만수르 동생입니다. 입문자분들께서는 어떤 기기를 고르는 게 좋을지, 그리고 어떻게 사용하는 게 편리한지 궁금해하시는 경우가 많습니다. 특히 처음 시작하시는 분이라면 기능 설명만으로는 쉽게 판단하기 어려워 더욱 고민이 깊죠. 이번 글에서는 전담 입문자를 위해 실제 사용 경험과 관리 편의성을 중심으로 기기 선택 기준과 사용법을 쉽게 정리해 드리겠습니다. AI 활용 설정 사진 설명을 입력하세요. 구월동",
+        "안녕하십니까. 만수동전자담배 만수르 동생 입니다. ​ 전담배 매장에서 “타격감 쌘 액상 주세요”라고 말하면 보통 고농도 액상을 안내받게 됩니다. ​ 버니나 핵쥬스 아틱 시리즈 이외에도 다양한 제품군이 있죠 ​ 연초대용으로 사용가등한 멘솔이 전혀없는 토바코 계열도 상당합니다. ​ 그런데 여기서 한 가지. 고농도 = 무조건 좋은 선택일까요? ​ 오늘은 단순 추천이 아니라 ​ 만수동전자담배 매장에서의 실제 상담 기준으로 정리해보겠습",
+        "안녕하세요. 만수동 전자담배 만수르 동생입니다 ​ 전담을 사용하다 보면 갑자기 문제가 생겨 당황하는 경우가 있습니다. ​ 새 팟으로 교체했는데 맛이 이상하거나 충전은 되는 것 같은데 힘이 약하게 느껴지는 경우가 대표적입니다. ​ 또 팟 바닥에 액이 조금 맺히거나, 평소보다 무화량이 줄어들면 “이게 고장인가?” 하고 고민하게 됩니다. ​ 이럴 때는 무턱대고 분해하거나 바로 교체하기보다, 먼저 정상 범위의 반응인지 고장 신호인지"
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-dfb90308",
+          "finalScore": 0.697,
+          "components": {
+            "relevance": 0.67,
+            "recency": 0.93,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-af6fb7fc",
+          "finalScore": 0.693,
+          "components": {
+            "relevance": 0.67,
+            "recency": 0.92,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-f4daab63",
+          "finalScore": 0.69,
+          "components": {
+            "relevance": 0.64,
+            "recency": 0.96,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-e8ee9484",
+          "finalScore": 0.668,
+          "components": {
+            "relevance": 0.63,
+            "recency": 0.89,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-2e778402",
+          "finalScore": 0.662,
+          "components": {
+            "relevance": 0.66,
+            "recency": 0.81,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 50,
