@@ -2,6 +2,21 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-579cce1d",
+      "title": "전자담배 출력조절 기능 완전 정복과 고장 예방 체크포인트",
+      "category": "전자담배",
+      "tags": [
+        "인천",
+        "남동구",
+        "전자담배",
+        "출력조절",
+        "고장예방"
+      ],
+      "wordCount": 2006,
+      "publishedAt": "2026-06-22T08:01:29.859Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-579cce1d.md"
+    },
+    {
       "sampleId": "published-post-b3ba7c8f",
       "title": "전자담배 액상 니코틴 함량별 안전 사용 가이드",
       "category": "전자담배",
@@ -359,21 +374,7 @@
       "wordCount": 7263,
       "publishedAt": "2026-05-11T08:52:27.847Z",
       "filePath": "user-modeling/users/c/corpus/samples/published-post-manual-mp0yr91r.md"
-    },
-    {
-      "sampleId": "published-post-536609fc",
-      "title": "누수 걱정 없이 전자담배 고르는 핵심 기준",
-      "category": "c",
-      "tags": [
-        "전담 누수",
-        "선행포스팅",
-        "키워드빌드업",
-        "선택기준"
-      ],
-      "wordCount": 2503,
-      "publishedAt": "2026-05-11T08:49:41.905Z",
-      "filePath": "user-modeling/users/c/corpus/samples/published-post-536609fc.md"
     }
   ],
-  "lastUpdated": "2026-06-19T08:21:24.391Z"
+  "lastUpdated": "2026-06-22T08:01:38.958Z"
 }
