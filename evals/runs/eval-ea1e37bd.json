@@ -1,0 +1,969 @@
+{
+  "runId": "eval-ea1e37bd",
+  "scores": {
+    "originality": 65,
+    "style_match": 70,
+    "structure": 68,
+    "engagement": 66,
+    "forbidden_check": 100
+  },
+  "aggregateScore": 59,
+  "reasoning": {
+    "originality": "주제에 대해 실제 경험과 구체적인 판단 기준을 제시하여 독자에게 실질적 도움을 주려는 점에서 독창성이 있으나, 전자담배 구매 가이드라는 흔한 주제 특성상 완전히 새로운 관점은 부족합니다.",
+    "style_match": "친근하고 이해하기 쉬운 문체로 작성되어 있으며, 독자와 대화하듯 자연스러운 톤을 유지해 목표 톤에 부합합니다.",
+    "structure": "도입부, 문제 인식, 정상/비정상 구분, 원인 분석, 체크리스트, 마무리까지 논리적 흐름이 잘 구성되어 있으나, 상위 허브 주제와의 연결이 다소 약해 내부 링크 흐름이 더 강화될 필요가 있습니다.",
+    "engagement": "실제 체감 후기와 구체적 사례를 들어 독자의 공감을 유도하고 있으나, 글이 다소 길고 정보가 많아 중간중간 시각적 요소나 요약이 추가되면 더 좋겠습니다.",
+    "forbidden_check": "내부 SEO 용어, 워크플로우 용어 등 금지된 표현은 전혀 포함되어 있지 않아 매우 우수합니다.",
+    "seo": "SEO 점수 83점. 제목 길이가 모바일 검색 노출 구간에 비교적 안정적입니다.",
+    "naver_logic": "네이버 로직 점수 23점. 문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다."
+  },
+  "recommendations": [
+    "핵심 소제목 1개 이상에 '만수동'를 포함해 주제 축을 더 선명하게 잡아주세요.",
+    "메인 키워드 '만수동'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+    "서브 키워드 '풀셋 만수동'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+    "서브 키워드 '구매가이드 만수동'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+    "허브 참조 링크는 '만수동 전자담배 기기별 장단점과 추천 가이드' 제목과 https://blog.naver.com/youferst/224274819132 URL을 정확히 같은 쌍으로 써야 합니다.",
+    "리프 참조 링크는 '만수동 전자담배 기기 문제해결법과 매장방문 적기 안내' 제목과 https://blog.naver.com/youferst/224294522035 URL을 정확히 같은 쌍으로 써야 합니다."
+  ],
+  "pass": false,
+  "seoEvaluation": {
+    "score": 83,
+    "evidence": [
+      "제목 길이가 모바일 검색 노출 구간에 비교적 안정적입니다.",
+      "메인 키워드가 제목 앞부분에 배치되어 있습니다.",
+      "도입부에 메인 키워드가 보여 검색 의도 연결이 자연스럽습니다.",
+      "첫 문장에 메인 키워드가 보여 검색 의도를 바로 연결합니다.",
+      "결론부에도 메인 키워드가 다시 등장해 문서 마무리가 일관됩니다.",
+      "'풀셋' 본문 2회는 현재 권장 범위입니다."
+    ],
+    "improvements": [
+      "핵심 소제목 1개 이상에 '만수동'를 포함해 주제 축을 더 선명하게 잡아주세요.",
+      "메인 키워드 '만수동'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+      "서브 키워드 '풀셋 만수동'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+      "서브 키워드 '구매가이드 만수동'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+    ],
+    "keywordReport": {
+      "items": [
+        {
+          "keyword": "만수동",
+          "count": 2,
+          "status": "under",
+          "targetMin": 4,
+          "targetMax": 7,
+          "role": "main",
+          "recommendation": "메인 키워드 '만수동'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "풀셋",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '풀셋' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "구매가이드",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '구매가이드' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "체감후기",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '체감후기' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "구매",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '구매' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "필수",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '필수' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "풀셋 만수동",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '풀셋 만수동'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "구매가이드 만수동",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '구매가이드 만수동'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "mainKeyword": {
+        "keyword": "만수동",
+        "count": 2,
+        "status": "under",
+        "targetMin": 4,
+        "targetMax": 7,
+        "role": "main",
+        "recommendation": "메인 키워드 '만수동'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+      },
+      "subKeywords": [
+        {
+          "keyword": "풀셋",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '풀셋' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "구매가이드",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '구매가이드' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "체감후기",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '체감후기' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "구매",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '구매' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "필수",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '필수' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "풀셋 만수동",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '풀셋 만수동'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "구매가이드 만수동",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '구매가이드 만수동'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        }
+      ],
+      "bridgeKeywords": [],
+      "internalLinkAnchors": [],
+      "forbiddenItems": [
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "contractApplied": true,
+      "overallRisk": "medium",
+      "overallRiskSummary": "일부 키워드 조정이 필요하지만, 문맥을 유지하며 보정할 수 있습니다.",
+      "paragraphWarnings": [],
+      "seoKeywordItems": [
+        {
+          "keyword": "만수동",
+          "role": "main",
+          "exactCount": 2,
+          "includedCount": 0,
+          "effectiveCount": 2,
+          "risk": "under",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "풀셋",
+          "role": "sub",
+          "exactCount": 2,
+          "includedCount": 0,
+          "effectiveCount": 2,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "구매가이드",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "체감후기",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "구매",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "필수",
+          "role": "sub",
+          "exactCount": 2,
+          "includedCount": 0,
+          "effectiveCount": 2,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "풀셋 만수동",
+          "role": "sub",
+          "exactCount": 0,
+          "includedCount": 0,
+          "effectiveCount": 0,
+          "risk": "under",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "구매가이드 만수동",
+          "role": "sub",
+          "exactCount": 0,
+          "includedCount": 0,
+          "effectiveCount": 0,
+          "risk": "under",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        }
+      ],
+      "requiredEntityChecks": [],
+      "bodyRepetitionItems": [
+        {
+          "token": "기기",
+          "count": 8,
+          "category": "noun",
+          "severity": "notice",
+          "message": "'기기' 반복이 눈에 띄기 시작합니다.",
+          "suggestion": "같은 명사를 설명형 문장, 수치, 사례 표현으로 바꿔 밀도를 낮춰 주세요.",
+          "isSeoRisk": false
+        }
+      ],
+      "legacyTokenItems": [
+        {
+          "token": "만수동",
+          "count": 2,
+          "sourceKeywords": [
+            "만수동",
+            "풀셋 만수동",
+            "구매가이드 만수동"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "배터리",
+          "count": 2,
+          "sourceKeywords": [
+            "배터리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "풀셋",
+          "count": 2,
+          "sourceKeywords": [
+            "풀셋",
+            "풀셋 만수동"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "필수",
+          "count": 2,
+          "sourceKeywords": [
+            "필수"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "구매가이드",
+          "count": 1,
+          "sourceKeywords": [
+            "구매가이드",
+            "구매가이드 만수동"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "체감후기",
+          "count": 1,
+          "sourceKeywords": [
+            "체감후기"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "고르면",
+          "count": 1,
+          "sourceKeywords": [
+            "고르면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "만수역",
+          "count": 1,
+          "sourceKeywords": [
+            "만수역"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "빠지면",
+          "count": 1,
+          "sourceKeywords": [
+            "빠지면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "하나면",
+          "count": 1,
+          "sourceKeywords": [
+            "하나면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "구매",
+          "count": 1,
+          "sourceKeywords": [
+            "구매"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "tokenItems": [
+        {
+          "token": "만수동",
+          "count": 2,
+          "sourceKeywords": [
+            "만수동",
+            "풀셋 만수동",
+            "구매가이드 만수동"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "배터리",
+          "count": 2,
+          "sourceKeywords": [
+            "배터리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "풀셋",
+          "count": 2,
+          "sourceKeywords": [
+            "풀셋",
+            "풀셋 만수동"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "필수",
+          "count": 2,
+          "sourceKeywords": [
+            "필수"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "구매가이드",
+          "count": 1,
+          "sourceKeywords": [
+            "구매가이드",
+            "구매가이드 만수동"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "체감후기",
+          "count": 1,
+          "sourceKeywords": [
+            "체감후기"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "고르면",
+          "count": 1,
+          "sourceKeywords": [
+            "고르면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "만수역",
+          "count": 1,
+          "sourceKeywords": [
+            "만수역"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "빠지면",
+          "count": 1,
+          "sourceKeywords": [
+            "빠지면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "하나면",
+          "count": 1,
+          "sourceKeywords": [
+            "하나면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "구매",
+          "count": 1,
+          "sourceKeywords": [
+            "구매"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "totalMentions": 9,
+      "introCoverage": true,
+      "titleFrontLoaded": true,
+      "bodyLength": 2138,
+      "summary": [
+        "메인 키워드 '만수동' 본문 2회",
+        "전체 반복 위험도 medium"
+      ],
+      "recommendations": [
+        "메인 키워드 '만수동'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+        "서브 키워드 '풀셋 만수동'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요.",
+        "서브 키워드 '구매가이드 만수동'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+      ]
+    },
+    "keywordMetrics": [
+      {
+        "keyword": "만수동",
+        "role": "main",
+        "label": "메인 키워드",
+        "completenessScore": 80,
+        "exposurePotentialScore": 79,
+        "count": 2,
+        "targetMin": 4,
+        "targetMax": 7,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 앞배치 / 도입부 포함 / 본문 2회",
+        "action": "메인 키워드 '만수동'는 본문 기준 4~7회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+      },
+      {
+        "keyword": "풀셋",
+        "role": "sub",
+        "label": "서브 키워드 1",
+        "completenessScore": 88,
+        "exposurePotentialScore": 94,
+        "count": 2,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 2회",
+        "action": "도입부에서 '풀셋' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "구매가이드",
+        "role": "sub",
+        "label": "서브 키워드 2",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 1회",
+        "action": "'구매가이드'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "체감후기",
+        "role": "sub",
+        "label": "서브 키워드 3",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 1회",
+        "action": "'체감후기'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "구매",
+        "role": "sub",
+        "label": "서브 키워드 4",
+        "completenessScore": 63,
+        "exposurePotentialScore": 79,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 포함 / 도입부 부족 / 본문 1회",
+        "action": "도입부에서 '구매' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "필수",
+        "role": "sub",
+        "label": "서브 키워드 5",
+        "completenessScore": 63,
+        "exposurePotentialScore": 79,
+        "count": 2,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 포함 / 도입부 부족 / 본문 2회",
+        "action": "도입부에서 '필수' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "풀셋 만수동",
+        "role": "sub",
+        "label": "서브 키워드 6",
+        "completenessScore": 32,
+        "exposurePotentialScore": 47,
+        "count": 0,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 0회",
+        "action": "'풀셋 만수동'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "구매가이드 만수동",
+        "role": "sub",
+        "label": "서브 키워드 7",
+        "completenessScore": 32,
+        "exposurePotentialScore": 47,
+        "count": 0,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 0회",
+        "action": "'구매가이드 만수동'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      }
+    ],
+    "combinationCoverageScore": 78,
+    "combinationMetrics": [
+      {
+        "phrase": "만수동",
+        "role": "main",
+        "priority": "core",
+        "exactMatches": 2,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 100,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 보강 가능 · 2회 직접 표현",
+        "action": "현재 조합 흐름을 유지해도 괜찮습니다."
+      },
+      {
+        "phrase": "풀셋",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 2,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 99,
+        "exposurePotentialScore": 98,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 보강 가능 · 2회 직접 표현",
+        "action": "현재 조합 흐름을 유지해도 괜찮습니다."
+      },
+      {
+        "phrase": "구매가이드",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '구매가이드' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "체감후기",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '체감후기' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "구매",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 74,
+        "exposurePotentialScore": 71,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '구매' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "필수",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 2,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 74,
+        "exposurePotentialScore": 71,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 보강 가능 · 2회 직접 표현",
+        "action": "첫 두 문단 안에서 '필수' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "풀셋 만수동",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 0,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 96,
+        "exposurePotentialScore": 94,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 보강 가능 · 0회 직접 표현",
+        "action": "토큰은 모두 들어가 있으니 '풀셋 만수동' 조합을 한 문장 안에서 한 번 더 자연스럽게 묶어 주세요."
+      },
+      {
+        "phrase": "구매가이드 만수동",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 0,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 55,
+        "exposurePotentialScore": 48,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 0회 직접 표현",
+        "action": "첫 두 문단 안에서 '구매가이드 만수동' 검색 의도를 더 직접적으로 받아 주세요."
+      }
+    ]
+  },
+  "naverLogicEvaluation": {
+    "primary": "c-rank",
+    "label": "C-Rank 중심",
+    "completenessScore": 23,
+    "reason": "이 주제는 지역성, 실사용 맥락, 내부링크 연결이 중요해서 C-Rank 관점이 더 강합니다.",
+    "evidence": [
+      "문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다.",
+      "비교와 선택 기준 요소가 살아 있어 실전 검색 의도에 잘 맞습니다.",
+      "내부링크 설계 대상이 있어 주제권 확장 관점이 살아 있습니다.",
+      "지역성과 실사용 맥락이 보여 C-Rank 관점의 주제권 연결이 자연스럽습니다.",
+      "실사용 맥락과 검색자 질문이 보여 D.I.A. 관점의 설득력이 있습니다."
+    ],
+    "improvements": [
+      "허브 참조 링크는 '만수동 전자담배 기기별 장단점과 추천 가이드' 제목과 https://blog.naver.com/youferst/224274819132 URL을 정확히 같은 쌍으로 써야 합니다.",
+      "리프 참조 링크는 '만수동 전자담배 기기 문제해결법과 매장방문 적기 안내' 제목과 https://blog.naver.com/youferst/224294522035 URL을 정확히 같은 쌍으로 써야 합니다."
+    ]
+  },
+  "postId": "post-74704490",
+  "savedAt": "2026-06-22T05:09:01.922Z"
+}
