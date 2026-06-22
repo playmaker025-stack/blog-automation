@@ -3259,11 +3259,11 @@
       "contentKind": "hub",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-06-22T07:00:50.704Z",
-      "updatedAt": "2026-06-22T07:01:54.815Z"
+      "updatedAt": "2026-06-22T07:05:04.800Z"
     }
   ],
-  "lastUpdated": "2026-06-22T07:01:54.815Z"
+  "lastUpdated": "2026-06-22T07:05:04.800Z"
 }
