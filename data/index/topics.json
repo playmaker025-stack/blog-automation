@@ -3241,7 +3241,29 @@
       "assignedUserId": "a",
       "createdAt": "2026-06-19T06:30:45.441Z",
       "updatedAt": "2026-06-19T08:16:05.416Z"
+    },
+    {
+      "topicId": "topic-ce5b6f60",
+      "title": "인천 남동구 전자담배 출력조절 기능 완전 정복과 고장 예방 체크포인트",
+      "description": "남동구 지역 사용자들을 위한 전자담배 출력조절 기능의 정확한 이해와 사용법, 고장 예방을 위한 점검 사항을 종합적으로 안내합니다.",
+      "category": "전자담배",
+      "tags": [
+        "인천",
+        "남동구",
+        "전자담배",
+        "출력조절",
+        "고장예방"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-22T07:00:50.704Z",
+      "updatedAt": "2026-06-22T07:00:50.704Z"
     }
   ],
-  "lastUpdated": "2026-06-22T05:09:11.115Z"
+  "lastUpdated": "2026-06-22T07:00:50.704Z"
 }
