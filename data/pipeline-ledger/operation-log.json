@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "type": "gate_result",
-      "gate": "post-audit",
-      "passed": true,
-      "blockedBy": null,
-      "reason": "post-audit gate 통과",
-      "evalScore": 74,
-      "pipelineId": "pipe-7acfd61b",
-      "at": "2026-04-09T09:51:53.369Z"
-    },
-    {
       "type": "baseline_candidate",
       "scenarioId": "topic-3526161f",
       "runId": "eval-177419cc",
@@ -5709,7 +5699,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-320194e7",
       "at": "2026-06-19T08:16:12.862Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "만수동 전자담배 풀셋 구매 시 체크해야 할 필수 포인트",
+      "proposedTitle": "만수동 전자담배 풀셋 구매 시 체크해야 할 필수 포인트",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-7c9b667c",
+      "at": "2026-06-22T05:06:28.028Z"
     }
   ],
-  "lastUpdated": "2026-06-19T08:16:12.862Z"
+  "lastUpdated": "2026-06-22T05:06:28.028Z"
 }
