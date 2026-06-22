@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "type": "baseline_candidate",
-      "scenarioId": "topic-3526161f",
-      "runId": "eval-177419cc",
-      "aggregateScore": 74,
-      "registered": true,
-      "reason": "candidate 등록 완료 (74점)",
-      "pipelineId": "pipe-7acfd61b",
-      "at": "2026-04-09T09:51:55.599Z"
-    },
-    {
       "type": "material_change",
       "originalTitle": "입문용 팟 전자담배 기준, 한달 비용이 달라지는 4가지 변수",
       "proposedTitle": "입문용 팟 전자담배 고를 때, 한 달 유지 부담이 달라지는 4가지 변수",
@@ -5710,7 +5700,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-7c9b667c",
       "at": "2026-06-22T05:06:28.028Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전자담배 출력조절 기능 완전 정복과 고장 예방 체크포인트",
+      "proposedTitle": "전자담배 출력조절 기능 완전 정복과 고장 예방 체크포인트",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-a2b02833",
+      "at": "2026-06-22T07:01:50.889Z"
     }
   ],
-  "lastUpdated": "2026-06-22T05:06:28.028Z"
+  "lastUpdated": "2026-06-22T07:01:50.889Z"
 }
