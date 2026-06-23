@@ -2,6 +2,20 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-320fb0c6",
+      "title": "젤로 전자담배 기기별 특징과 액상 추천",
+      "category": "전자담배",
+      "tags": [
+        "젤로",
+        "만수역",
+        "기기별사용법",
+        "액상추천"
+      ],
+      "wordCount": 2808,
+      "publishedAt": "2026-06-23T05:30:38.722Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-320fb0c6.md"
+    },
+    {
       "sampleId": "published-post-579cce1d",
       "title": "전자담배 출력조절 기능 완전 정복과 고장 예방 체크포인트",
       "category": "전자담배",
@@ -365,16 +379,7 @@
       "wordCount": 2328,
       "publishedAt": "2026-05-12T04:44:21.806Z",
       "filePath": "user-modeling/users/c/corpus/samples/published-post-131c1c35.md"
-    },
-    {
-      "sampleId": "published-post-manual-mp0yr91r",
-      "title": "누수 걱정 없이 전자담배 고르는 핵심 기준",
-      "category": "published-post",
-      "tags": [],
-      "wordCount": 7263,
-      "publishedAt": "2026-05-11T08:52:27.847Z",
-      "filePath": "user-modeling/users/c/corpus/samples/published-post-manual-mp0yr91r.md"
     }
   ],
-  "lastUpdated": "2026-06-22T08:01:38.958Z"
+  "lastUpdated": "2026-06-23T05:30:45.840Z"
 }
