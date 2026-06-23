@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "type": "material_change",
-      "originalTitle": "입문용 팟 전자담배 기준, 한달 비용이 달라지는 4가지 변수",
-      "proposedTitle": "입문용 팟 전자담배 고를 때, 한 달 유지 부담이 달라지는 4가지 변수",
-      "isMaterial": false,
-      "triggeredSignals": [],
-      "stringSimilarity": 0.75,
-      "overrideByHighSim": false,
-      "pipelineId": "pipe-c8cf4565",
-      "at": "2026-04-09T09:58:35.356Z"
-    },
-    {
       "type": "approval_ux",
       "materialChange": false,
       "requestedAt": "2026-04-09T09:58:37.169Z",
@@ -5711,7 +5700,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-a2b02833",
       "at": "2026-06-22T07:01:50.889Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "젤로 전자담배 기기별 특징과 액상 추천",
+      "proposedTitle": "젤로 전자담배 기기별 특징과 액상 추천",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-3ef6b4ab",
+      "at": "2026-06-23T02:56:50.173Z"
     }
   ],
-  "lastUpdated": "2026-06-22T07:01:50.889Z"
+  "lastUpdated": "2026-06-23T02:56:50.173Z"
 }
