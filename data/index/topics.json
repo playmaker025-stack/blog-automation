@@ -3263,7 +3263,28 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-22T07:00:50.704Z",
       "updatedAt": "2026-06-22T08:01:33.398Z"
+    },
+    {
+      "topicId": "topic-c7c245fa",
+      "title": "전자담배 무니코틴 액상 선택 시 고려해야 할 5가지 포인트",
+      "description": "전자담배 초보자와 무니코틴 액상 사용자를 위해 안전하고 만족스러운 무니코틴 액상 선택법과 주의사항을 상세히 안내합니다.",
+      "category": "전자담배",
+      "tags": [
+        "무니코틴",
+        "액상선택",
+        "안전사용",
+        "초보자"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-23T02:56:03.116Z",
+      "updatedAt": "2026-06-23T02:56:03.116Z"
     }
   ],
-  "lastUpdated": "2026-06-22T08:01:33.398Z"
+  "lastUpdated": "2026-06-23T02:56:03.116Z"
 }
