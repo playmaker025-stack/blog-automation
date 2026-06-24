@@ -2,6 +2,24 @@
   "userId": "a",
   "entries": [
     {
+      "keyword": "인천",
+      "phrase": "인천이나 부평에서 실물 보기 전 뭘 정리해 가면",
+      "title": "하이엔드 전자담배 싱글 드리퍼 엔네콰드로 그라운드 rda ennequardro ground rda",
+      "postId": "post-3f5fe2ff",
+      "topicId": "topic-8e4da09d",
+      "userId": "a",
+      "usedAt": "2026-06-24T07:30:00.143Z"
+    },
+    {
+      "keyword": "부평",
+      "phrase": "인천이나 부평에서 실물 보기 전 뭘 정리해 가면",
+      "title": "하이엔드 전자담배 싱글 드리퍼 엔네콰드로 그라운드 rda ennequardro ground rda",
+      "postId": "post-3f5fe2ff",
+      "topicId": "topic-8e4da09d",
+      "userId": "a",
+      "usedAt": "2026-06-24T07:30:00.143Z"
+    },
+    {
       "keyword": "부평구",
       "phrase": "부평구 쪽에서 매장 상담할 때도 이 질문만",
       "title": "말론바 일회용 전자담배",
@@ -1550,5 +1568,5 @@
       "usedAt": "2026-04-24T03:41:28.866Z"
     }
   ],
-  "updatedAt": "2026-06-19T06:35:13.029Z"
+  "updatedAt": "2026-06-24T07:30:00.143Z"
 }
