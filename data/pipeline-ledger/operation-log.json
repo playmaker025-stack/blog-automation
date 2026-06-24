@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "type": "approval_ux",
-      "materialChange": false,
-      "requestedAt": "2026-04-09T09:58:37.169Z",
-      "respondedAt": "2026-04-09T09:58:44.371Z",
-      "approved": true,
-      "elapsedMs": 7202,
-      "timedOut": false,
-      "pipelineId": "pipe-c8cf4565",
-      "at": "2026-04-09T09:58:45.134Z"
-    },
-    {
       "type": "corpus_retrieval",
       "userId": "b",
       "selectedCount": 0,
@@ -5711,7 +5700,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-3ef6b4ab",
       "at": "2026-06-23T02:56:50.173Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "하이엔드 전자담배 싱글 드리퍼 엔네콰드로 그라운드 rda ennequardro ground rda",
+      "proposedTitle": "하이엔드 전자담배 싱글 드리퍼 엔네콰드로 그라운드 rda ennequardro ground rda",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-da6ed40f",
+      "at": "2026-06-24T07:26:31.586Z"
     }
   ],
-  "lastUpdated": "2026-06-23T02:56:50.173Z"
+  "lastUpdated": "2026-06-24T07:26:31.586Z"
 }
