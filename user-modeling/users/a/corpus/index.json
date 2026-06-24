@@ -2,6 +2,17 @@
   "userId": "a",
   "samples": [
     {
+      "sampleId": "published-post-3f5fe2ff",
+      "title": "하이엔드 폐호흡 싱글 rda 엔네콰드로 그라운드 rda Ennequadro Ground rda",
+      "category": "direct-run",
+      "tags": [
+        "하이엔드 전자담배 싱글 드리퍼"
+      ],
+      "wordCount": 2276,
+      "publishedAt": "2026-06-24T08:47:29.238Z",
+      "filePath": "user-modeling/users/a/corpus/samples/published-post-3f5fe2ff.md"
+    },
+    {
       "sampleId": "published-post-4ca377f7",
       "title": "말론바 일회용 전자담배 사용법과 인기 맛 리뷰",
       "category": "direct-run",
@@ -146,5 +157,5 @@
       "filePath": "user-modeling/users/a/corpus/samples/published-post-import-3c16fe70.md"
     }
   ],
-  "lastUpdated": "2026-06-19T08:16:09.823Z"
+  "lastUpdated": "2026-06-24T08:47:36.255Z"
 }
