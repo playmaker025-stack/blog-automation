@@ -2,6 +2,19 @@
   "userId": "a",
   "entries": [
     {
+      "postId": "post-3f5fe2ff",
+      "topicId": "topic-8e4da09d",
+      "userId": "a",
+      "title": "하이엔드 폐호흡 싱글 rda 엔네콰드로 그라운드 rda Ennequadro Ground rda",
+      "naverPostUrl": "https://blog.naver.com/iibodii00/224325995644",
+      "evalScore": 53,
+      "wordCount": 2276,
+      "publishedAt": "2026-06-24T08:47:29.238Z",
+      "topicSource": "direct",
+      "contentKind": null,
+      "learnedAt": "2026-06-24T08:47:33.239Z"
+    },
+    {
       "postId": "post-4ca377f7",
       "topicId": "topic-d7872a23",
       "userId": "a",
@@ -145,5 +158,5 @@
       "learnedAt": "2026-04-22T09:26:59.763Z"
     }
   ],
-  "updatedAt": "2026-06-19T08:16:07.036Z"
+  "updatedAt": "2026-06-24T08:47:33.239Z"
 }
