@@ -3305,7 +3305,26 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-23T02:56:05.401Z",
       "updatedAt": "2026-06-23T05:30:41.615Z"
+    },
+    {
+      "topicId": "topic-8e4da09d",
+      "title": "하이엔드 전자담배 싱글 드리퍼 엔네콰드로 그라운드 rda ennequardro ground rda",
+      "description": "메인키워드: 하이엔드 전자담배 싱글 드리퍼",
+      "category": "direct-run",
+      "tags": [
+        "하이엔드 전자담배 싱글 드리퍼"
+      ],
+      "targetKeyword": "하이엔드 전자담배 싱글 드리퍼",
+      "subKeywords": [],
+      "source": "direct",
+      "targetMainKeyword": "하이엔드 전자담배 싱글 드리퍼",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "a",
+      "createdAt": "2026-06-24T07:26:19.350Z",
+      "updatedAt": "2026-06-24T07:26:19.350Z"
     }
   ],
-  "lastUpdated": "2026-06-23T05:30:41.615Z"
+  "lastUpdated": "2026-06-24T07:26:19.350Z"
 }
