@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mqs21d8x",
+      "topicId": "",
+      "userId": "d",
+      "title": "전자담배 액상 넣을 때 절대 하면 안 되는 행동 5가지 – 코일 수명 줄이는 지름길입니다 😅",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224326174633",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-24T12:33:47.249Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-24T12:33:49.390Z"
+    },
+    {
       "postId": "post-manual-mqp6cu54",
       "topicId": "",
       "userId": "d",
@@ -379,5 +392,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-06-22T12:11:23.648Z"
+  "updatedAt": "2026-06-24T12:33:49.390Z"
 }
