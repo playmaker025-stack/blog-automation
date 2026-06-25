@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mqtge0py",
+      "topicId": "",
+      "userId": "d",
+      "title": "전자담배 액상은 많은데 피울 게 없는 이유 – 베이퍼들이 공감하는 현상 😅",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224327304777",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-25T12:03:19.011Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-25T12:03:21.128Z"
+    },
+    {
       "postId": "post-manual-mqs21d8x",
       "topicId": "",
       "userId": "d",
@@ -392,5 +405,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-06-24T12:33:49.390Z"
+  "updatedAt": "2026-06-25T12:03:21.128Z"
 }
