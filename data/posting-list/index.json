@@ -5894,7 +5894,22 @@
       "createdAt": "2026-06-25T08:24:43.408Z",
       "publishedAt": null,
       "updatedAt": "2026-06-25T08:27:47.200Z"
+    },
+    {
+      "postId": "post-8934738e",
+      "topicId": "topic-a46bee8c",
+      "userId": "c",
+      "title": "말론 전담 팟 0.4옴, 0.6옴 비교 차이",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-7ef45426",
+      "pendingApproval": null,
+      "createdAt": "2026-06-25T09:00:35.660Z",
+      "publishedAt": null,
+      "updatedAt": "2026-06-25T09:00:35.660Z"
     }
   ],
-  "lastUpdated": "2026-06-25T08:27:47.200Z"
+  "lastUpdated": "2026-06-25T09:00:35.660Z"
 }
