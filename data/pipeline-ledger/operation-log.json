@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "type": "gate_result",
-      "gate": "post-audit",
-      "passed": true,
-      "blockedBy": null,
-      "reason": "post-audit gate 통과",
-      "evalScore": 73,
-      "pipelineId": "pipe-0d88e80e",
-      "at": "2026-04-09T10:16:34.063Z"
-    },
-    {
       "type": "baseline_candidate",
       "scenarioId": "topic-32ad4b9e",
       "runId": "eval-e91c6635",
@@ -5713,7 +5703,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-1ef11511",
       "at": "2026-06-25T08:21:51.927Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "말론 전담 팟 0.4옴, 0.6옴 비교 차이",
+      "proposedTitle": "말론 전담 팟 0.4옴, 0.6옴 비교 차이",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-7ef45426",
+      "at": "2026-06-25T09:00:08.862Z"
     }
   ],
-  "lastUpdated": "2026-06-25T08:21:51.927Z"
+  "lastUpdated": "2026-06-25T09:00:08.862Z"
 }
