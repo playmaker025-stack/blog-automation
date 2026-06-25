@@ -3433,11 +3433,11 @@
       "contentKind": "hub",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-06-25T08:05:24.423Z",
-      "updatedAt": "2026-06-25T08:05:53.574Z"
+      "updatedAt": "2026-06-25T08:08:53.917Z"
     }
   ],
-  "lastUpdated": "2026-06-25T08:05:53.574Z"
+  "lastUpdated": "2026-06-25T08:08:53.917Z"
 }
