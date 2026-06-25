@@ -5879,7 +5879,22 @@
       "createdAt": "2026-06-25T08:15:53.058Z",
       "publishedAt": null,
       "updatedAt": "2026-06-25T08:18:49.175Z"
+    },
+    {
+      "postId": "post-c665ecdd",
+      "topicId": "topic-83e5c188",
+      "userId": "c",
+      "title": "구월동 전자담배 미니 기기별 장단점과 구매 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-1ef11511",
+      "pendingApproval": null,
+      "createdAt": "2026-06-25T08:24:43.408Z",
+      "publishedAt": null,
+      "updatedAt": "2026-06-25T08:24:43.408Z"
     }
   ],
-  "lastUpdated": "2026-06-25T08:18:49.175Z"
+  "lastUpdated": "2026-06-25T08:24:43.408Z"
 }
