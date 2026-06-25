@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-1ef11511",
+  "type": "approval_request",
+  "savedAt": "2026-06-25T08:24:45.039Z",
+  "data": {
+    "pipelineId": "pipe-1ef11511",
+    "previousTitle": "",
+    "proposedTitle": "구월동 전자담배 미니 기기별 장단점과 구매 가이드",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.\n\n[수정 반영] 이 글이 먹을 키워드는 \"인천\"이 아니라\n\"미니 기기\"로 해줘\n\n[사용자 승인 후 추가 수정 요청]\n",
+    "requestedAt": "2026-06-25T08:24:39.688Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-06-25T08:24:39.688Z",
+      "modifications": null
+    }
+  }
+}
