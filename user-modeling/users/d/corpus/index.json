@@ -2,6 +2,15 @@
   "userId": "d",
   "samples": [
     {
+      "sampleId": "published-post-manual-mqtge0py",
+      "title": "전자담배 액상은 많은데 피울 게 없는 이유 – 베이퍼들이 공감하는 현상 😅",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 6124,
+      "publishedAt": "2026-06-25T12:03:19.011Z",
+      "filePath": "user-modeling/users/d/corpus/samples/published-post-manual-mqtge0py.md"
+    },
+    {
       "sampleId": "published-post-manual-mqs21d8x",
       "title": "전자담배 액상 넣을 때 절대 하면 안 되는 행동 5가지 – 코일 수명 줄이는 지름길입니다 😅",
       "category": "published-post",
@@ -306,16 +315,7 @@
       "wordCount": 2515,
       "publishedAt": "2026-04-28T13:22:19.214Z",
       "filePath": "user-modeling/users/d/corpus/samples/published-post-bb8481dc.md"
-    },
-    {
-      "sampleId": "published-post-63f0c6d4",
-      "title": "전자담배 액상, 과일멘솔과 연초류 비교 및 추천 가이드",
-      "category": "direct-run",
-      "tags": [],
-      "wordCount": 2209,
-      "publishedAt": "2026-04-26T04:31:03.938Z",
-      "filePath": "user-modeling/users/d/corpus/samples/published-post-63f0c6d4.md"
     }
   ],
-  "lastUpdated": "2026-06-24T12:33:54.565Z"
+  "lastUpdated": "2026-06-25T12:03:26.056Z"
 }
