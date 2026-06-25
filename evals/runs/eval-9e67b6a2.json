@@ -1,0 +1,979 @@
+{
+  "runId": "eval-9e67b6a2",
+  "scores": {
+    "originality": 55,
+    "style_match": 65,
+    "structure": 60,
+    "engagement": 58,
+    "forbidden_check": 90
+  },
+  "aggregateScore": 53,
+  "reasoning": {
+    "originality": "전자담배 미니 기기별 장단점과 구매 가이드라는 주제는 흔한 주제이나, 실제 사용 경험과 구월동 지역 매장 방문 전 체크리스트를 포함해 현실적인 조언을 제공하여 다소 차별화된 점이 있음.",
+    "style_match": "친근한 어조로 작성되어 있으며, 독자에게 직접 말을 거는 형태로 친근감을 주려는 시도가 보임. 다만 일부 문장 구성과 표현이 다소 딱딱하거나 반복적이라 완전한 친근함과 자연스러움은 부족함.",
+    "structure": "허브형 도입과 기기별 비교, 구매 전 체크리스트, 정상/비정상 구분, 구매 가이드 등 요구된 토폴로지에 맞춰 구성되어 있으나, 각 섹션 간 연결이 매끄럽지 않고 내부 링크 활용이 제한적임. 일부 문단은 중복되거나 내용이 산만하게 느껴짐.",
+    "engagement": "실제 경험과 구체적인 사례를 들어 독자의 이해를 돕고 있으나, 글이 다소 길고 핵심이 분산되어 집중도가 떨어짐. 검색 의도에 바로 답하는 간결함이 부족하고, 예시가 구체적이면서도 명확하지 않은 부분이 있음.",
+    "forbidden_check": "내부 SEO 용어, 워크플로우 용어 등 금지된 표현은 포함되어 있지 않음. 키워드 '인천'이 일부 포함되어 있으나, 요청에 따라 '미니 기기' 중심으로 작성하려는 의도가 보임. 과도한 키워드 반복이나 부자연스러운 문장도 발견되지 않음.",
+    "seo": "SEO 점수 74점. 도입부에 메인 키워드가 보여 검색 의도 연결이 자연스럽습니다.",
+    "naver_logic": "네이버 로직 점수 21점. 문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다."
+  },
+  "recommendations": [
+    "제목 길이를 28~45자 안쪽으로 맞추는 편이 좋습니다.",
+    "제목 앞부분에 '인천'를 더 빠르게 노출하면 검색 의도가 선명해집니다.",
+    "마무리 문단에서 '인천'를 한 번 더 정리해 글의 중심 키워드를 닫아주세요.",
+    "서브 키워드 '구월동'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+    "허브 참조 링크는 '젤로 전자담배 기기별 특징과 액상 추천' 제목과 https://blog.naver.com/mansur_vape/224324562076 URL을 정확히 같은 쌍으로 써야 합니다.",
+    "리프 참조 링크는 '액상형 전자담배 온라인 판매금지? 전담 인터넷 구매 왜 막혔을까' 제목과 https://blog.naver.com/mansur_vape/224296756267 URL을 정확히 같은 쌍으로 써야 합니다."
+  ],
+  "pass": false,
+  "seoEvaluation": {
+    "score": 74,
+    "evidence": [
+      "도입부에 메인 키워드가 보여 검색 의도 연결이 자연스럽습니다.",
+      "첫 문장에 메인 키워드가 보여 검색 의도를 바로 연결합니다.",
+      "소제목에도 메인 키워드가 반영되어 문서 구조와 주제가 잘 맞물립니다.",
+      "'인천' 본문 4회는 현재 권장 범위입니다.",
+      "'남동구' 본문 2회는 현재 권장 범위입니다.",
+      "'미니' 본문 1회는 현재 권장 범위입니다."
+    ],
+    "improvements": [
+      "제목 길이를 28~45자 안쪽으로 맞추는 편이 좋습니다.",
+      "제목 앞부분에 '인천'를 더 빠르게 노출하면 검색 의도가 선명해집니다.",
+      "마무리 문단에서 '인천'를 한 번 더 정리해 글의 중심 키워드를 닫아주세요.",
+      "서브 키워드 '구월동'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+    ],
+    "keywordReport": {
+      "items": [
+        {
+          "keyword": "인천",
+          "count": 4,
+          "status": "ok",
+          "targetMin": 4,
+          "targetMax": 7,
+          "role": "main",
+          "recommendation": "메인 키워드 '인천' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "남동구",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '남동구' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "미니",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '미니' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "구매가이드",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '구매가이드' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "구월동",
+          "count": 4,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '구월동'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "기기별",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '기기별' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "남동구 인천",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '남동구 인천' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "미니 인천",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '미니 인천' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "mainKeyword": {
+        "keyword": "인천",
+        "count": 4,
+        "status": "ok",
+        "targetMin": 4,
+        "targetMax": 7,
+        "role": "main",
+        "recommendation": "메인 키워드 '인천' 반복은 현재 적정합니다."
+      },
+      "subKeywords": [
+        {
+          "keyword": "남동구",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '남동구' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "미니",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '미니' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "구매가이드",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '구매가이드' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "구월동",
+          "count": 4,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '구월동'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "기기별",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '기기별' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "남동구 인천",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '남동구 인천' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "미니 인천",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '미니 인천' 반복은 현재 적정합니다."
+        }
+      ],
+      "bridgeKeywords": [],
+      "internalLinkAnchors": [],
+      "forbiddenItems": [
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "contractApplied": true,
+      "overallRisk": "medium",
+      "overallRiskSummary": "일부 키워드 조정이 필요하지만, 문맥을 유지하며 보정할 수 있습니다.",
+      "paragraphWarnings": [],
+      "seoKeywordItems": [
+        {
+          "keyword": "인천",
+          "role": "main",
+          "exactCount": 2,
+          "includedCount": 2,
+          "effectiveCount": 4,
+          "risk": "ok",
+          "note": "긴 계획 키워드에 포함된 2회를 분리해 exact 2회 / included 2회로 계산했습니다.",
+          "exactPhraseExclusionApplied": true
+        },
+        {
+          "keyword": "남동구",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 1,
+          "effectiveCount": 2,
+          "risk": "ok",
+          "note": "긴 계획 키워드에 포함된 1회를 분리해 exact 1회 / included 1회로 계산했습니다.",
+          "exactPhraseExclusionApplied": true
+        },
+        {
+          "keyword": "미니",
+          "role": "sub",
+          "exactCount": 0,
+          "includedCount": 1,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드에 포함된 1회를 분리해 exact 0회 / included 1회로 계산했습니다.",
+          "exactPhraseExclusionApplied": true
+        },
+        {
+          "keyword": "구매가이드",
+          "role": "sub",
+          "exactCount": 2,
+          "includedCount": 0,
+          "effectiveCount": 2,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "구월동",
+          "role": "sub",
+          "exactCount": 4,
+          "includedCount": 0,
+          "effectiveCount": 4,
+          "risk": "caution",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "기기별",
+          "role": "sub",
+          "exactCount": 2,
+          "includedCount": 0,
+          "effectiveCount": 2,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "남동구 인천",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "미니 인천",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        }
+      ],
+      "requiredEntityChecks": [
+        {
+          "entity": "글이 먹을 키워드는 \"인천\"이 아니라",
+          "included": false,
+          "note": "누락됨"
+        },
+        {
+          "entity": "\"미니 기기\"로 해줘",
+          "included": false,
+          "note": "누락됨"
+        }
+      ],
+      "bodyRepetitionItems": [
+        {
+          "token": "합니다",
+          "count": 5,
+          "category": "sentence_ending",
+          "severity": "notice",
+          "message": "'합니다' 문장 마무리가 반복됩니다.",
+          "suggestion": "문장 종결 표현을 섞어서 리듬을 바꿔 주세요.",
+          "isSeoRisk": false
+        }
+      ],
+      "legacyTokenItems": [
+        {
+          "token": "구월동",
+          "count": 4,
+          "sourceKeywords": [
+            "구월동"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "배터리",
+          "count": 4,
+          "sourceKeywords": [
+            "배터리"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "인천",
+          "count": 4,
+          "sourceKeywords": [
+            "인천",
+            "남동구 인천",
+            "미니 인천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "구매가이드",
+          "count": 2,
+          "sourceKeywords": [
+            "구매가이드"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "기기별",
+          "count": 2,
+          "sourceKeywords": [
+            "기기별"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "남동구",
+          "count": 2,
+          "sourceKeywords": [
+            "남동구",
+            "남동구 인천"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "남동구 인천",
+          "count": 1,
+          "sourceKeywords": [
+            "남동구 인천"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "미니 인천",
+          "count": 1,
+          "sourceKeywords": [
+            "미니 인천"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "고르면",
+          "count": 1,
+          "sourceKeywords": [
+            "고르면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "보시면",
+          "count": 1,
+          "sourceKeywords": [
+            "보시면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "미니",
+          "count": 1,
+          "sourceKeywords": [
+            "미니",
+            "미니 인천"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "tokenItems": [
+        {
+          "token": "구월동",
+          "count": 4,
+          "sourceKeywords": [
+            "구월동"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "배터리",
+          "count": 4,
+          "sourceKeywords": [
+            "배터리"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "인천",
+          "count": 4,
+          "sourceKeywords": [
+            "인천",
+            "남동구 인천",
+            "미니 인천"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "구매가이드",
+          "count": 2,
+          "sourceKeywords": [
+            "구매가이드"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "기기별",
+          "count": 2,
+          "sourceKeywords": [
+            "기기별"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "남동구",
+          "count": 2,
+          "sourceKeywords": [
+            "남동구",
+            "남동구 인천"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "남동구 인천",
+          "count": 1,
+          "sourceKeywords": [
+            "남동구 인천"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "미니 인천",
+          "count": 1,
+          "sourceKeywords": [
+            "미니 인천"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "고르면",
+          "count": 1,
+          "sourceKeywords": [
+            "고르면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "보시면",
+          "count": 1,
+          "sourceKeywords": [
+            "보시면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "미니",
+          "count": 1,
+          "sourceKeywords": [
+            "미니",
+            "미니 인천"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "totalMentions": 17,
+      "introCoverage": true,
+      "titleFrontLoaded": false,
+      "bodyLength": 2021,
+      "summary": [
+        "메인 키워드 '인천' 본문 4회",
+        "제목 앞부분의 메인 키워드 배치가 약합니다.",
+        "전체 반복 위험도 medium"
+      ],
+      "recommendations": [
+        "서브 키워드 '구월동'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+      ]
+    },
+    "keywordMetrics": [
+      {
+        "keyword": "인천",
+        "role": "main",
+        "label": "메인 키워드",
+        "completenessScore": 87,
+        "exposurePotentialScore": 87,
+        "count": 4,
+        "targetMin": 4,
+        "targetMax": 7,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 미포함 / 도입부 포함 / 본문 4회",
+        "action": "'인천'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "남동구",
+        "role": "sub",
+        "label": "서브 키워드 1",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 2,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 2회",
+        "action": "'남동구'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "미니",
+        "role": "sub",
+        "label": "서브 키워드 2",
+        "completenessScore": 63,
+        "exposurePotentialScore": 79,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 포함 / 도입부 부족 / 본문 1회",
+        "action": "도입부에서 '미니' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "구매가이드",
+        "role": "sub",
+        "label": "서브 키워드 3",
+        "completenessScore": 64,
+        "exposurePotentialScore": 68,
+        "count": 2,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 2회",
+        "action": "'구매가이드'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "구월동",
+        "role": "sub",
+        "label": "서브 키워드 4",
+        "completenessScore": 68,
+        "exposurePotentialScore": 77,
+        "count": 4,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 4회",
+        "action": "서브 키워드 '구월동'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+      },
+      {
+        "keyword": "기기별",
+        "role": "sub",
+        "label": "서브 키워드 5",
+        "completenessScore": 78,
+        "exposurePotentialScore": 82,
+        "count": 2,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 포함 / 도입부 부족 / 본문 2회",
+        "action": "도입부에서 '기기별' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "남동구 인천",
+        "role": "sub",
+        "label": "서브 키워드 6",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 1회",
+        "action": "'남동구 인천'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "미니 인천",
+        "role": "sub",
+        "label": "서브 키워드 7",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 1회",
+        "action": "'미니 인천'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      }
+    ],
+    "combinationCoverageScore": 73,
+    "combinationMetrics": [
+      {
+        "phrase": "인천",
+        "role": "main",
+        "priority": "core",
+        "exactMatches": 4,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 90,
+        "exposurePotentialScore": 83,
+        "summary": "제목 약함 · 도입부 연결 · 소제목 연결 · 4회 직접 표현",
+        "action": "'인천' 조합을 제목이나 제목 가까운 소제목에 더 직접적으로 드러내는 편이 좋습니다."
+      },
+      {
+        "phrase": "남동구",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 2,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 2회 직접 표현",
+        "action": "첫 두 문단 안에서 '남동구' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "미니",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 74,
+        "exposurePotentialScore": 71,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '미니' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "구매가이드",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 2,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 66,
+        "exposurePotentialScore": 60,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 연결 · 2회 직접 표현",
+        "action": "첫 두 문단 안에서 '구매가이드' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "구월동",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 4,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 93,
+        "exposurePotentialScore": 90,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 보강 가능 · 4회 직접 표현",
+        "action": "'구월동' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "기기별",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 2,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 82,
+        "exposurePotentialScore": 79,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 연결 · 2회 직접 표현",
+        "action": "첫 두 문단 안에서 '기기별' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "남동구 인천",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '남동구 인천' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "미니 인천",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '미니 인천' 검색 의도를 더 직접적으로 받아 주세요."
+      }
+    ]
+  },
+  "naverLogicEvaluation": {
+    "primary": "c-rank",
+    "label": "C-Rank 중심",
+    "completenessScore": 21,
+    "reason": "이 주제는 지역성, 실사용 맥락, 내부링크 연결이 중요해서 C-Rank 관점이 더 강합니다.",
+    "evidence": [
+      "문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다.",
+      "비교와 선택 기준 요소가 살아 있어 실전 검색 의도에 잘 맞습니다.",
+      "내부링크 설계 대상이 있어 주제권 확장 관점이 살아 있습니다.",
+      "지역성과 실사용 맥락이 보여 C-Rank 관점의 주제권 연결이 자연스럽습니다.",
+      "실사용 맥락과 검색자 질문이 보여 D.I.A. 관점의 설득력이 있습니다."
+    ],
+    "improvements": [
+      "허브 참조 링크는 '젤로 전자담배 기기별 특징과 액상 추천' 제목과 https://blog.naver.com/mansur_vape/224324562076 URL을 정확히 같은 쌍으로 써야 합니다.",
+      "리프 참조 링크는 '액상형 전자담배 온라인 판매금지? 전담 인터넷 구매 왜 막혔을까' 제목과 https://blog.naver.com/mansur_vape/224296756267 URL을 정확히 같은 쌍으로 써야 합니다."
+    ]
+  },
+  "postId": "post-c665ecdd",
+  "savedAt": "2026-06-25T08:26:47.031Z"
+}
