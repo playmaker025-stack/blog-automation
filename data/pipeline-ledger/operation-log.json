@@ -2,15 +2,6 @@
   "entries": [
     {
       "type": "gate_result",
-      "gate": "pre-write",
-      "passed": true,
-      "blockedBy": null,
-      "reason": "pre-write gate 통과",
-      "pipelineId": "pipe-c8cf4565",
-      "at": "2026-04-09T09:59:01.805Z"
-    },
-    {
-      "type": "gate_result",
       "gate": "post-audit",
       "passed": true,
       "blockedBy": null,
@@ -5710,7 +5701,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-c984c973",
       "at": "2026-06-25T04:50:16.784Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-4652dab8",
+      "userId": "c",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-1b1cb59a / Similar existing title found: 전담 코일 탔을 때 대처법과 안전 사용 팁 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-eeab3a3b",
+      "at": "2026-06-25T04:51:40.717Z"
     }
   ],
-  "lastUpdated": "2026-06-25T04:50:16.784Z"
+  "lastUpdated": "2026-06-25T04:51:40.717Z"
 }
