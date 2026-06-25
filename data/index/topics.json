@@ -3346,7 +3346,30 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-25T04:49:02.514Z",
       "updatedAt": "2026-06-25T06:17:37.949Z"
+    },
+    {
+      "topicId": "topic-188072c0",
+      "title": "인천 부평 발라리안 맥스 프로 전자담배 입호흡 기기 완전 분석",
+      "description": "발라리안 맥스 프로 전자담배가 입호흡 기기인지, 사용법과 특징을 인천 부평 지역 사용자 관점에서 상세히 설명합니다.",
+      "category": "전자담배",
+      "tags": [
+        "인천",
+        "부평",
+        "발라리안",
+        "맥스프로",
+        "입호흡",
+        "전자담배기기"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-25T07:59:25.708Z",
+      "updatedAt": "2026-06-25T07:59:25.708Z"
     }
   ],
-  "lastUpdated": "2026-06-25T06:17:37.949Z"
+  "lastUpdated": "2026-06-25T07:59:25.708Z"
 }
