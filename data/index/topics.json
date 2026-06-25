@@ -3437,7 +3437,29 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-25T08:05:24.423Z",
       "updatedAt": "2026-06-25T08:27:48.973Z"
+    },
+    {
+      "topicId": "topic-a46bee8c",
+      "title": "말론 전담 팟 0.4옴, 0.6옴 비교 차이",
+      "description": "메인키워드: 말론 전담 팟 / 서브 키워드: 종류",
+      "category": "direct-run",
+      "tags": [
+        "말론 전담 팟",
+        "종류"
+      ],
+      "targetKeyword": "말론 전담 팟",
+      "subKeywords": [
+        "종류"
+      ],
+      "source": "direct",
+      "targetMainKeyword": "말론 전담 팟",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-25T08:59:54.351Z",
+      "updatedAt": "2026-06-25T08:59:54.351Z"
     }
   ],
-  "lastUpdated": "2026-06-25T08:27:48.973Z"
+  "lastUpdated": "2026-06-25T08:59:54.351Z"
 }
