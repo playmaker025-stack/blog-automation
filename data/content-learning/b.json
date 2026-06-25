@@ -2,6 +2,19 @@
   "userId": "b",
   "entries": [
     {
+      "postId": "post-57f99502",
+      "topicId": "topic-2ac266e6",
+      "userId": "b",
+      "title": "만수동 전자담배 구매가이드: 필수 체크 포인트",
+      "naverPostUrl": "https://blog.naver.com/youferst/224327309099",
+      "evalScore": 58,
+      "wordCount": 2003,
+      "publishedAt": "2026-06-25T12:09:12.495Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-06-25T12:09:22.866Z"
+    },
+    {
       "postId": "post-manual-mqm6ku1r",
       "topicId": "",
       "userId": "b",
@@ -249,5 +262,5 @@
       "learnedAt": "2026-04-25T10:02:38.491Z"
     }
   ],
-  "updatedAt": "2026-06-20T09:54:19.476Z"
+  "updatedAt": "2026-06-25T12:09:22.866Z"
 }
