@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "type": "material_change",
-      "originalTitle": "인천 전자담배 입문 가이드 테스트",
-      "proposedTitle": "인천 전자담배 입문 완전 가이드 – 처음이라면 이것만 보세요",
-      "isMaterial": false,
-      "triggeredSignals": [
-        "coreKeywordChanged"
-      ],
-      "stringSimilarity": 0.43999999999999995,
-      "overrideByHighSim": false,
-      "pipelineId": "pipe-0d88e80e",
-      "at": "2026-04-09T10:13:30.663Z"
-    },
-    {
       "type": "approval_ux",
       "materialChange": false,
       "requestedAt": "2026-04-09T10:13:32.883Z",
@@ -5714,7 +5701,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-6a2a2b43",
       "at": "2026-06-25T08:05:46.817Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-2ac266e6",
+      "userId": "b",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-74704490 / Similar existing title found: 만수동 전자담배 풀셋 구매 시 체크해야 할 필수 포인트 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-f93dd618",
+      "at": "2026-06-25T08:14:42.207Z"
     }
   ],
-  "lastUpdated": "2026-06-25T08:05:46.817Z"
+  "lastUpdated": "2026-06-25T08:14:42.207Z"
 }
