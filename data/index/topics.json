@@ -3369,7 +3369,29 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-25T07:59:25.708Z",
       "updatedAt": "2026-06-25T07:59:25.708Z"
+    },
+    {
+      "topicId": "topic-e2ee4939",
+      "title": "만수역 입호흡 전자담배 기기별 장단점 비교와 추천 가이드",
+      "description": "만수역 인근에서 입호흡 전자담배 기기별 특징, 장단점, 사용자 유형별 추천 정보를 제공합니다.",
+      "category": "전자담배",
+      "tags": [
+        "전자담배",
+        "입호흡",
+        "기기비교",
+        "만수역",
+        "추천"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-25T08:02:18.846Z",
+      "updatedAt": "2026-06-25T08:02:18.846Z"
     }
   ],
-  "lastUpdated": "2026-06-25T07:59:25.708Z"
+  "lastUpdated": "2026-06-25T08:02:18.846Z"
 }
