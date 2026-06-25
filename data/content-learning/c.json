@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-115aa39f",
+      "topicId": "topic-4652dab8",
+      "userId": "c",
+      "title": "전담 코일 탔을 때 대처법과 안전 사용 팁",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224326987343",
+      "evalScore": 51,
+      "wordCount": 1870,
+      "publishedAt": "2026-06-25T06:17:33.170Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-06-25T06:17:39.533Z"
+    },
+    {
       "postId": "post-320fb0c6",
       "topicId": "topic-ccfed6cd",
       "userId": "c",
@@ -535,5 +548,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-06-23T05:30:43.139Z"
+  "updatedAt": "2026-06-25T06:17:39.533Z"
 }
