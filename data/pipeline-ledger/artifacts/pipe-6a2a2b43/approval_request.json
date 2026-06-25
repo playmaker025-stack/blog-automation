@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-6a2a2b43",
+  "type": "approval_request",
+  "savedAt": "2026-06-25T08:05:57.479Z",
+  "data": {
+    "pipelineId": "pipe-6a2a2b43",
+    "previousTitle": "",
+    "proposedTitle": "인천 남동구 전자담배 미니 기기별 장단점과 구매 가이드",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-06-25T08:05:51.351Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-06-25T08:05:51.351Z",
+      "modifications": null
+    }
+  }
+}
