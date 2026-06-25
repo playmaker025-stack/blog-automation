@@ -3391,7 +3391,30 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-25T08:02:18.846Z",
       "updatedAt": "2026-06-25T08:02:18.846Z"
+    },
+    {
+      "topicId": "topic-77bebdcb",
+      "title": "부천 상동 전자담배 기기 디자인 트렌드와 인기 모델 리뷰",
+      "description": "부천 상동 지역에서 인기 있는 최신 전자담배 기기 디자인 트렌드와 대표 모델 리뷰를 소개합니다.",
+      "category": "전자담배",
+      "tags": [
+        "전자담배",
+        "기기",
+        "디자인",
+        "부천",
+        "상동",
+        "리뷰"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-25T08:02:20.606Z",
+      "updatedAt": "2026-06-25T08:02:20.606Z"
     }
   ],
-  "lastUpdated": "2026-06-25T08:02:18.846Z"
+  "lastUpdated": "2026-06-25T08:02:20.606Z"
 }
