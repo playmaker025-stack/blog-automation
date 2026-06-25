@@ -3414,7 +3414,30 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-25T08:02:20.606Z",
       "updatedAt": "2026-06-25T08:02:20.606Z"
+    },
+    {
+      "topicId": "topic-83e5c188",
+      "title": "인천 남동구 전자담배 미니 기기별 장단점과 구매 가이드",
+      "description": "남동구에서 인기 있는 미니 전자담배 기기들의 특징과 장단점, 구매 시 고려사항을 상세히 안내합니다.",
+      "category": "전자담배",
+      "tags": [
+        "인천",
+        "남동구",
+        "전자담배",
+        "미니",
+        "기기",
+        "구매가이드"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-25T08:05:24.423Z",
+      "updatedAt": "2026-06-25T08:05:24.423Z"
     }
   ],
-  "lastUpdated": "2026-06-25T08:02:20.606Z"
+  "lastUpdated": "2026-06-25T08:05:24.423Z"
 }
