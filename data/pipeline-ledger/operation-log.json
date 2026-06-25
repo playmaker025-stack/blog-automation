@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "type": "corpus_retrieval",
-      "userId": "a",
-      "selectedCount": 0,
-      "strategy": "fallback_recent",
-      "staleCount": 0,
-      "staleWarnings": [],
-      "topScores": [],
-      "targetCategory": "일반",
-      "pipelineId": "pipe-0d88e80e",
-      "at": "2026-04-09T10:13:49.275Z"
-    },
-    {
       "type": "gate_result",
       "gate": "pre-write",
       "passed": true,
@@ -5712,7 +5700,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-cc4f55ee",
       "at": "2026-06-25T08:14:56.999Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-83e5c188",
+      "userId": "c",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-5f892046",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-2de2f58f",
+      "at": "2026-06-25T08:21:00.460Z"
     }
   ],
-  "lastUpdated": "2026-06-25T08:14:56.999Z"
+  "lastUpdated": "2026-06-25T08:21:00.460Z"
 }
