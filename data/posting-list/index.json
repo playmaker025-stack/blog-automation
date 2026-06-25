@@ -5869,16 +5869,16 @@
       "postId": "post-57f99502",
       "topicId": "topic-2ac266e6",
       "userId": "b",
-      "title": "만수동 전자담배 풀셋 구매 시 체크해야 할 필수 포인트",
-      "status": "ready",
-      "naverPostUrl": null,
+      "title": "만수동 전자담배 구매가이드: 필수 체크 포인트",
+      "status": "published",
+      "naverPostUrl": "https://blog.naver.com/youferst/224327309099",
       "evalScore": 58,
       "wordCount": 2003,
       "compositionSessionId": "pipe-cc4f55ee",
       "pendingApproval": null,
       "createdAt": "2026-06-25T08:15:53.058Z",
-      "publishedAt": null,
-      "updatedAt": "2026-06-25T08:18:49.175Z"
+      "publishedAt": "2026-06-25T12:09:12.495Z",
+      "updatedAt": "2026-06-25T12:09:18.118Z"
     },
     {
       "postId": "post-c665ecdd",
@@ -5926,5 +5926,5 @@
       "updatedAt": "2026-06-25T12:03:19.011Z"
     }
   ],
-  "lastUpdated": "2026-06-25T12:03:19.011Z"
+  "lastUpdated": "2026-06-25T12:09:18.118Z"
 }
