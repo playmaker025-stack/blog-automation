@@ -5834,7 +5834,22 @@
       "createdAt": "2026-06-25T04:50:50.357Z",
       "publishedAt": null,
       "updatedAt": "2026-06-25T04:53:09.765Z"
+    },
+    {
+      "postId": "post-115aa39f",
+      "topicId": "topic-4652dab8",
+      "userId": "c",
+      "title": "전담 코일 탔을 때 대처법과 안전 사용 팁",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-e0d94d7a",
+      "pendingApproval": null,
+      "createdAt": "2026-06-25T04:53:14.642Z",
+      "publishedAt": null,
+      "updatedAt": "2026-06-25T04:53:14.642Z"
     }
   ],
-  "lastUpdated": "2026-06-25T04:53:09.765Z"
+  "lastUpdated": "2026-06-25T04:53:14.642Z"
 }
