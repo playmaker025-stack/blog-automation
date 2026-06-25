@@ -2,6 +2,21 @@
   "userId": "c",
   "samples": [
     {
+      "sampleId": "published-post-115aa39f",
+      "title": "전담 코일 탔을 때 대처법과 안전 사용 팁",
+      "category": "전자담배",
+      "tags": [
+        "전자담배",
+        "코일",
+        "부평",
+        "사용법",
+        "안전"
+      ],
+      "wordCount": 1870,
+      "publishedAt": "2026-06-25T06:17:33.170Z",
+      "filePath": "user-modeling/users/c/corpus/samples/published-post-115aa39f.md"
+    },
+    {
       "sampleId": "published-post-320fb0c6",
       "title": "젤로 전자담배 기기별 특징과 액상 추천",
       "category": "전자담배",
@@ -365,21 +380,7 @@
       "wordCount": 6491,
       "publishedAt": "2026-05-13T07:07:28.224Z",
       "filePath": "user-modeling/users/c/corpus/samples/published-post-manual-mp3pvxg2.md"
-    },
-    {
-      "sampleId": "published-post-131c1c35",
-      "title": "전자담배 초보자 필수 체크포인트: 입문 전 꼭 확인할 기준",
-      "category": "c",
-      "tags": [
-        "전담 누수",
-        "선행포스팅",
-        "키워드빌드업",
-        "초보자가이드"
-      ],
-      "wordCount": 2328,
-      "publishedAt": "2026-05-12T04:44:21.806Z",
-      "filePath": "user-modeling/users/c/corpus/samples/published-post-131c1c35.md"
     }
   ],
-  "lastUpdated": "2026-06-23T05:30:45.840Z"
+  "lastUpdated": "2026-06-25T06:17:42.793Z"
 }
