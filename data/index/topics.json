@@ -3324,7 +3324,29 @@
       "assignedUserId": "a",
       "createdAt": "2026-06-24T07:26:19.350Z",
       "updatedAt": "2026-06-24T08:47:31.683Z"
+    },
+    {
+      "topicId": "topic-4652dab8",
+      "title": "인천 부평 전자담배 코일 탔을 때 대처법과 안전 사용 팁",
+      "description": "전자담배 코일이 탔을 때 그냥 사용해도 되는지, 안전하게 대처하는 방법과 교체 시점을 상세히 안내합니다.",
+      "category": "전자담배",
+      "tags": [
+        "전자담배",
+        "코일",
+        "부평",
+        "사용법",
+        "안전"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-25T04:49:02.514Z",
+      "updatedAt": "2026-06-25T04:49:02.514Z"
     }
   ],
-  "lastUpdated": "2026-06-24T08:47:31.683Z"
+  "lastUpdated": "2026-06-25T04:49:02.514Z"
 }
