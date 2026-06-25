@@ -2,15 +2,6 @@
   "entries": [
     {
       "type": "gate_result",
-      "gate": "pre-write",
-      "passed": true,
-      "blockedBy": null,
-      "reason": "pre-write gate 통과",
-      "pipelineId": "pipe-0d88e80e",
-      "at": "2026-04-09T10:13:51.800Z"
-    },
-    {
-      "type": "gate_result",
       "gate": "post-audit",
       "passed": true,
       "blockedBy": null,
@@ -5711,7 +5702,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-2de2f58f",
       "at": "2026-06-25T08:21:00.460Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "구월동 전자담배 미니 기기별 장단점과 구매 가이드",
+      "proposedTitle": "구월동 전자담배 미니 기기별 장단점과 구매 가이드",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-1ef11511",
+      "at": "2026-06-25T08:21:51.927Z"
     }
   ],
-  "lastUpdated": "2026-06-25T08:21:00.460Z"
+  "lastUpdated": "2026-06-25T08:21:51.927Z"
 }
