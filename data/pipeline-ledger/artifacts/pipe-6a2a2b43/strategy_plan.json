@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-6a2a2b43",
   "type": "strategy_plan",
-  "savedAt": "2026-06-25T08:05:44.326Z",
+  "savedAt": "2026-06-25T08:06:02.052Z",
   "data": {
     "title": "인천 남동구 전자담배 미니 기기별 장단점과 구매 가이드",
     "outline": [
@@ -63,7 +63,110 @@
       "장단점과"
     ],
     "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "c",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 2884,
+        "signatureExpressions": [],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "주제 직접 서술로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-b3ba7c8f",
+          "title": "전자담배 액상 니코틴 함량별 안전 사용 가이드",
+          "excerpt": "무니코틴 액상부터 봐야 할지 아니면 어느 정도 함량이 있는 제품부터 시작해야 할지 헷갈리는 분이 많습니다. 특히 처음 전자담배를 알아보는 분들은 \"센 게 맞나, 약한 게 맞나\" 부터 막히는 경우가 많아요. 결론부터 말하면, 전자담배 액상은 숫자가 높은 제품을 고르는 것보다 내 흡연량, 기기 종류, 흡입 습관에 맞추는 게 먼저 입니다. 같은 액상이라도 팟 기기인지, 출력은 어느 정도인지, 한 번에 얼마나 자주 흡입하는지에 따라 ",
+          "styleNotes": "tone=casual, contentKind=leaf, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-3a07f3a9",
+          "title": "만수역 전자담배 기기별 사용법과 유지관리 핵심 가이드",
+          "excerpt": "전자담배를 사용하면 \"왜 갑자기 맛이 이상하지?\" \"이거 언제 교체해야 하지?\" 고민해본 적 있으신가요? 만수역이나 구월동에서 전자담배를 사용하는 분들, 실제로 기기마다 관리법이 완전히 다르다는 사실 알고 계셨나요? 오늘은 만수역 전자담배 사용자라면 꼭 알아야 할 기기별 사용법과 유지관리 그리고 실전 트러블 해결법 까지 한 번에 정리해드립니다. 감성 후기나 신제품 홍보가 아닌, 실제 문제 해결과 선택 기준에 집중한 정보만 담았",
+          "styleNotes": "tone=casual, contentKind=leaf, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-32a4e215",
+          "title": "남동구전자담배 출력조절과 온오프 기능 완벽 가이드",
+          "excerpt": "인천에서 전자담배 상담을 하다 보면 기능이 많은 기기보다 기본 조작이 쉬운 제품을 찾는 분이 훨씬 많이 있습니다 특히 남동구 쪽에서 오시는 분들은 \"전원이 왜 안 들어오죠?\" \"세기 조절은 어디까지 올려도 되나요?\" 처럼 아주 현실적인 질문을 먼저 하세요. 그래서 오늘은 전담을 처음 써보거나 이미 쓰고 있는데 조작이 헷갈리는 분들 기준으로 가장 많이 막히는 부분만 정리해 보겠습니다. 결론부터 말씀드리면 초보자에게 중요한 건 기",
+          "styleNotes": "tone=casual, contentKind=hub, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-579cce1d",
+          "title": "전자담배 출력조절 기능 완전 정복과 고장 예방 체크포인트",
+          "excerpt": "전자담배 맛이 갑자기 세지거나 반대로 밍밍해졌다면 바로 고장으로 단정할 필요는 없습니다. 출력조절 값, 코일 상태, 액상량, 배터리 접점 이 4가지만 3분 안에 보면 원인 방향이 거의 갈립니다. 특히 많이 쓰는 팟디바이스는 보통 12W 18W 조금 더 강한 흡입을 원하는 기기는 25W 이상 에서 체감 차이가 확 납니다. 직접 써봤더니 같은 액상이어도 2W 차이만으로 목넘김과 맛 표현이 달라져서 무작정 올리기보다 정상 범위를 먼",
+          "styleNotes": "tone=casual, contentKind=hub, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-manual-mqj2jitj",
+          "title": "스틱형 전자담배 XROS MINI 크로스미니 사용방법",
+          "excerpt": "스틱형 전자담배 XROS MINI 크로스미니 사용방법 스틱형 전자담배 XROS MINI 크로스미니 사용방법 : 네이버 블로그 NAVER 블로그 부평 전자담배 만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경",
+          "styleNotes": "tone=casual"
+        }
+      ],
+      "representativeExcerpts": [
+        "전담에서 탄 맛이 올라오면 그 상태로 계속 쓰지 않는 게 먼저입니다. 보통 액상이 충분히 스며들기 전에 사용했거나 3초 이상 연속 흡입이 반복됐을 때 생기고 심하면 1번만 흡입해도 목이 따갑게 느껴집니다. 이미 탄 냄새가 선명하게 난 팟은 보통은 정상적인 경우가 없어서 교체가 가장 빠릅니다. 헷갈릴 때는 맛, 냄새, 액상 잔량, 최근 사용 습관 이 4가지만 바로 확인하면 원인 구분이 됩니다. 액상이 20 30% 이하로 내려간",
+        "인천에서 젤로를 보러 오시는 분들 상담을 해보면 처음 사는 분들은 누수 적응이 쉬운 팟 구조와 사용 난이도 기존 사용자는 흡압감과 유지비에서 선택이 갈리는데요 직접 써봤더니 기기값이 평균적인 가격이어도 한 달 쓰면서 팟 교체 주기와 액상 소모량이 더 크게 체감되더라고요. 액상추천도 인기 맛만 따라가면 의외로 실패가 많습니다. 같은 젤로 라인이라도 단맛 선호, 쿨링 강도, 하루 사용량에 따라 만족도가 달랐고 30ml 한 병을 1",
+        "전자담배 맛이 갑자기 세지거나 반대로 밍밍해졌다면 바로 고장으로 단정할 필요는 없습니다. 출력조절 값, 코일 상태, 액상량, 배터리 접점 이 4가지만 3분 안에 보면 원인 방향이 거의 갈립니다. 특히 많이 쓰는 팟디바이스는 보통 12W 18W 조금 더 강한 흡입을 원하는 기기는 25W 이상 에서 체감 차이가 확 납니다. 직접 써봤더니 같은 액상이어도 2W 차이만으로 목넘김과 맛 표현이 달라져서 무작정 올리기보다 정상 범위를 먼",
+        "무니코틴 액상부터 봐야 할지 아니면 어느 정도 함량이 있는 제품부터 시작해야 할지 헷갈리는 분이 많습니다. 특히 처음 전자담배를 알아보는 분들은 \"센 게 맞나, 약한 게 맞나\" 부터 막히는 경우가 많아요. 결론부터 말하면, 전자담배 액상은 숫자가 높은 제품을 고르는 것보다 내 흡연량, 기기 종류, 흡입 습관에 맞추는 게 먼저 입니다. 같은 액상이라도 팟 기기인지, 출력은 어느 정도인지, 한 번에 얼마나 자주 흡입하는지에 따라",
+        "스틱형 전자담배 XROS MINI 크로스미니 사용방법 스틱형 전자담배 XROS MINI 크로스미니 사용방법 : 네이버 블로그 NAVER 블로그 부평 전자담배 만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경"
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-b3ba7c8f",
+          "finalScore": 0.721,
+          "components": {
+            "relevance": 0.53,
+            "recency": 0.95,
+            "roleMatch": 0.6,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-3a07f3a9",
+          "finalScore": 0.706,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.63,
+            "roleMatch": 0.6,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-32a4e215",
+          "finalScore": 0.695,
+          "components": {
+            "relevance": 0.48,
+            "recency": 0.93,
+            "roleMatch": 0.6,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-579cce1d",
+          "finalScore": 0.687,
+          "components": {
+            "relevance": 0.62,
+            "recency": 0.98,
+            "roleMatch": 0.6,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-manual-mqj2jitj",
+          "finalScore": 0.667,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.95,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 86,
