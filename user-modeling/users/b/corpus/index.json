@@ -2,6 +2,21 @@
   "userId": "b",
   "samples": [
     {
+      "sampleId": "published-post-57f99502",
+      "title": "만수동 전자담배 구매가이드: 필수 체크 포인트",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "전자담배",
+        "풀셋",
+        "구매가이드",
+        "체감후기"
+      ],
+      "wordCount": 2003,
+      "publishedAt": "2026-06-25T12:09:12.495Z",
+      "filePath": "user-modeling/users/b/corpus/samples/published-post-57f99502.md"
+    },
+    {
       "sampleId": "published-post-manual-mqm6ku1r",
       "title": "무니코틴 액상에 잘 어울리는 입호흡 전자담배 추천! 포켓코리아 아머미니",
       "category": "published-post",
@@ -249,5 +264,5 @@
       "filePath": "user-modeling/users/b/corpus/samples/published-post-import-08c915d5f3.md"
     }
   ],
-  "lastUpdated": "2026-06-20T09:54:24.823Z"
+  "lastUpdated": "2026-06-25T12:09:25.862Z"
 }
