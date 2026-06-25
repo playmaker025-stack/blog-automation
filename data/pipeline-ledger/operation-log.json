@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "type": "corpus_retrieval",
-      "userId": "b",
-      "selectedCount": 0,
-      "strategy": "fallback_recent",
-      "staleCount": 0,
-      "staleWarnings": [],
-      "topScores": [],
-      "targetCategory": "B블로그",
-      "pipelineId": "pipe-c8cf4565",
-      "at": "2026-04-09T09:58:59.347Z"
-    },
-    {
       "type": "gate_result",
       "gate": "pre-write",
       "passed": true,
@@ -5711,7 +5699,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-da6ed40f",
       "at": "2026-06-24T07:26:31.586Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "전담 코일 탔을 때 대처법과 안전 사용 팁",
+      "proposedTitle": "전담 코일 탔을 때 대처법과 안전 사용 팁",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-c984c973",
+      "at": "2026-06-25T04:50:16.784Z"
     }
   ],
-  "lastUpdated": "2026-06-24T07:26:31.586Z"
+  "lastUpdated": "2026-06-25T04:50:16.784Z"
 }
