@@ -5849,7 +5849,22 @@
       "createdAt": "2026-06-25T04:53:14.642Z",
       "publishedAt": "2026-06-25T06:17:33.170Z",
       "updatedAt": "2026-06-25T06:17:35.033Z"
+    },
+    {
+      "postId": "post-5f892046",
+      "topicId": "topic-83e5c188",
+      "userId": "c",
+      "title": "인천 남동구 전자담배 미니 기기별 장단점과 구매 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-6a2a2b43",
+      "pendingApproval": null,
+      "createdAt": "2026-06-25T08:05:55.145Z",
+      "publishedAt": null,
+      "updatedAt": "2026-06-25T08:05:55.145Z"
     }
   ],
-  "lastUpdated": "2026-06-25T06:17:35.033Z"
+  "lastUpdated": "2026-06-25T08:05:55.145Z"
 }
