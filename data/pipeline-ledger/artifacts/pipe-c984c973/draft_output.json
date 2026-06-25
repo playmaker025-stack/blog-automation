@@ -1,87 +1,33 @@
 {
   "pipelineId": "pipe-c984c973",
   "type": "draft_output",
-  "savedAt": "2026-06-25T04:52:21.814Z",
+  "savedAt": "2026-06-25T04:53:07.481Z",
   "data": {
     "postId": "post-1b1cb59a",
     "title": "전담 코일 탔을 때 대처법과 안전 사용 팁",
-    "wordCount": 1907,
-    "generatedAt": "2026-06-25T04:52:20.748Z",
+    "wordCount": 1956,
+    "generatedAt": "2026-06-25T04:53:06.460Z",
     "contentPath": "data/posting-list/posts/post-1b1cb59a/content.md",
     "corpusSummaryUsed": true,
     "finalDraftCheck": {
-      "ok": false,
-      "blockingReasons": [
-        "sub keyword \"안전\" 4회 사용, 상한 3회 초과"
-      ],
+      "ok": true,
+      "blockingReasons": [],
       "warnings": [
+        "mustResolve 단서 부족: 전자담배의 원인 그룹",
+        "필수 섹션 반영 부족: 전자담배의 원인 그룹",
         "medium overlap: 도입 패턴 반복 위험 problem_symptom",
         "medium overlap: 결론 패턴 반복 위험 problem_checklist"
       ],
       "matchedForbiddenPhrases": [],
-      "keywordStuffingFindings": [
-        "sub keyword \"안전\" 4회 사용, 상한 3회 초과"
-      ],
+      "keywordStuffingFindings": [],
       "deferFindings": [],
-      "contractCoverageFindings": [],
+      "contractCoverageFindings": [
+        "mustResolve 단서 부족: 전자담배의 원인 그룹"
+      ],
       "overlapFindings": [
         "medium overlap: 도입 패턴 반복 위험 problem_symptom",
         "medium overlap: 결론 패턴 반복 위험 problem_checklist"
       ]
-    },
-    "finalDraftRewrite": {
-      "attempted": true,
-      "applied": true,
-      "instructions": [
-        "차단 사유 수정: sub keyword \"안전\" 4회 사용, 상한 3회 초과",
-        "키워드/질문문 자연화: sub keyword \"안전\" 4회 사용, 상한 3회 초과",
-        "누락 기준 보강: mustResolve 단서 부족: 전자담배의 원인 그룹"
-      ],
-      "beforeCheck": {
-        "ok": false,
-        "blockingReasons": [
-          "sub keyword \"안전\" 4회 사용, 상한 3회 초과"
-        ],
-        "warnings": [
-          "mustResolve 단서 부족: 전자담배의 원인 그룹",
-          "필수 섹션 반영 부족: 전자담배의 원인 그룹",
-          "medium overlap: 도입 패턴 반복 위험 problem_symptom",
-          "medium overlap: 결론 패턴 반복 위험 problem_checklist"
-        ],
-        "matchedForbiddenPhrases": [],
-        "keywordStuffingFindings": [
-          "sub keyword \"안전\" 4회 사용, 상한 3회 초과"
-        ],
-        "deferFindings": [],
-        "contractCoverageFindings": [
-          "mustResolve 단서 부족: 전자담배의 원인 그룹"
-        ],
-        "overlapFindings": [
-          "medium overlap: 도입 패턴 반복 위험 problem_symptom",
-          "medium overlap: 결론 패턴 반복 위험 problem_checklist"
-        ]
-      },
-      "afterCheck": {
-        "ok": false,
-        "blockingReasons": [
-          "sub keyword \"안전\" 4회 사용, 상한 3회 초과"
-        ],
-        "warnings": [
-          "medium overlap: 도입 패턴 반복 위험 problem_symptom",
-          "medium overlap: 결론 패턴 반복 위험 problem_checklist"
-        ],
-        "matchedForbiddenPhrases": [],
-        "keywordStuffingFindings": [
-          "sub keyword \"안전\" 4회 사용, 상한 3회 초과"
-        ],
-        "deferFindings": [],
-        "contractCoverageFindings": [],
-        "overlapFindings": [
-          "medium overlap: 도입 패턴 반복 위험 problem_symptom",
-          "medium overlap: 결론 패턴 반복 위험 problem_checklist"
-        ]
-      },
-      "content": "전자담배에서 탄 맛이 올라오면 **그 상태로\n계속 쓰지 않는 게 맞습니다.** 보통 1~3번\n안에 목이 따갑거나 종이 탄 냄새가 느껴지면\n소모부가 이미 손상됐을 가능성이 크고, 이때는\n5분 안에 원인 확인 후 교체 여부를 결정하는\n게 가장 안전합니다.\n\n결론부터 말하면, 전자담배 문제는 **액상\n잔량, 새 팟 적심 시간 5~10분, 출력\n세기, 연속 흡입 여부**만 봐도 대부분\n갈립니다. 직접 써봤더니 이 네 가지만 바로\n확인해도 “그냥 더 써도 되나?” 하는 애매한\n상황이 꽤 빨리 정리됐어요.\n\n오늘은\n지금 계속 써도 되는지,\n정상 범위와 비정상 신호는 뭔지,\n그리고 바로 해볼 대처법과 안전 기준까지\n딱 필요한 순서로 말씀드릴게요.\n\n## 탄 맛 나면 그냥 써도 될까?\n\n짧게 답하면 **아니요**입니다.\n살짝 맛이 약해진 정도와 진짜 탄 맛은\n다릅니다. 처음엔 저도 몰랐는데 단맛이 죽는 건\n버틸 수 있어도, 목 안쪽이 마르고 금속성\n느낌이나 종이 탄 향이 남으면 계속 쓰는 쪽이\n더 불편했어요.\n\n특히 **코일 전자담배** 쓰는 분들이 헷갈리는\n부분이 이겁니다. 정상은 풍미가 조금 둔해진\n정도이고, 비정상은 한 번 흡입할 때마다 뜨겁고\n목 자극이 반복되는 상태예요. N일 쓰고 느낀\n건, 이런 신호가 나오면 괜히 버티지 않는 게\n결과적으로 액상도 덜 버립니다.\n\n## 정상 범위와 비정상 신호\n\n정상에 가까운 경우는 보통 이렇습니다.\n\n- 액상이 거의 바닥이라 맛이 약함\n- 새 팟 교체 직후 2~3번 정도 맛이 덜\n- 올라옴\n- 단맛 강한 액상을 며칠 써서 풍미가 둔해짐\n-\n\n반대로 비정상 신호는 바로 구분됩니다.\n\n- 액상이 남아 있는데도 탄 냄새가 남\n- 이상한 맛이 한 번이 아니라 반복됨\n- 흡입할수록 뜨겁고 목이 따가움\n- 누수는 없는데 맛만 갑자기 심하게 깨짐\n\n직접 써봤더니 “조금 이상한데 참을 만한데?”\n싶을 때가 제일 애매했는데요. 그 상태에서 몇\n번 더 쓰면 맛이 돌아오기보다 더 망가지는\n경우가 많았습니다.\n\n## 왜 이런 일이 생길까\n\n원인은 크게 4가지로 보면 편합니다.\n\n### 1) 액상 부족\n제일 흔합니다. 겉으로는 남아 보여도 한쪽만\n젖어 있을 수 있어요. 실제로 해보니 기기를\n기울여 쓰는 습관이 있으면 더 잘 생겼습니다.\n\n### 2) 새 팟 적심 부족\n교체하고 바로 흡입하면 안쪽이 덜 젖은 상태일\n수 있습니다. 보통 **5~10분**은 두는 게\n무난해요. 처음엔 저도 몰랐는데 이 시간 차이가\n생각보다 큽니다.\n\n### 3) 연속 흡입\n짧은 시간에 여러 번 사용하면 액상 공급 속도가\n못 따라옵니다. 저는 10초 간격으로 쓸 때보다\n**20~30초 정도 텀**을 뒀을 때 훨씬\n안정적이었어요.\n\n### 4) 출력이 너무 강함\n세기를 높이면 맛은 진해지지만 소모도\n빨라집니다. 그래서 전담 사용법에서 출력 조절은\n생각보다 중요해요.\n\n## 지금 바로 확인할 순서\n\n애매하면 이 순서대로 보시면 됩니다.\n\n1. 액상 잔량 확인\n2. 방금 교체한 팟인지 확인\n3. 적심 시간을 5~10분 줬는지 확인\n4. 최근 연속 흡입이 있었는지 체크\n5. 출력 세기를 한 단계 낮춰보기\n6. 그대로면 교체\n\n사실 여기서 많이들 실수하는데요, **탄 맛이\n난 뒤에 액상만 더 채운다고 해결되지 않는\n경우가 많습니다.** 한 번 손상되면 맛이\n완전히 돌아오지 않는 일이 꽤 있었어요. 가격이\n4,000원이었는데 아끼려다 액상만 더 버린\n적도 있었습니다.\n\n## 대처법과 안전하게 쓰는 기준\n\n탄 맛이 시작됐을 때 **대처법과** 안전\n기준은 복잡하지 않습니다.\n\n- 이상한 냄새가 2번 이상 반복되면 즉시 중단\n-\n- 새로 끼운 상태라면 5~10분 충분히 적시기\n-\n- 출력 조절형이면 한 단계 낮춰서 다시 확인\n-\n- 연속 흡입 습관이 있으면 텀 두기\n- 그래도 같으면 미련 없이 교체\n\n직접 써봤더니 억지로 살리려는 것보다 빨리\n바꾸는 게 덜 아깝더라고요. 가격이\n3,000원~5,000원대였는데 그걸 아끼려다\n목 컨디션이 하루 종일 불편한 쪽이\n손해였습니다.\n\n## 이런 경우는 기기 점검이 필요합니다\n\n아래 상황이면 단순 소모부 문제보다 기기 쪽도\n같이 봐야 합니다.\n\n- 새로 바꿨는데도 바로 탄 맛이 남\n- 누수와 맛 이상이 같이 반복됨\n- 배터리 출력이 들쭉날쭉함\n- 충전 직후 유난히 뜨거움\n\n부평역 쪽에서 상담할 때도 이런 경우는 단순\n교체로 끝내지 않고 접점 오염이나 출력 이상을\n같이 확인합니다. 실제로 해보니 소모부만 바꿔도\n해결 안 되는 케이스가 생각보다 있었어요.\n\n## 예방은 결국 이 네 가지입니다\n\n전자담배는 화려한 팁보다 기본 관리가 더\n중요합니다.\n\n- 액상을 바닥까지 쓰지 않기\n- 교체 후 10분 정도 기다리기\n- 연속 흡입 줄이기\n- 세기 너무 높이지 않기\n\n처음엔 저도 몰랐는데 이 네 가지만 지켜도 탄\n맛 빈도가 확실히 줄었습니다. 청천동 쪽 손님들\n이야기 들어봐도 결국 문제는 과한 연속 사용이나\n급하게 새 팟을 쓰는 습관에서 많이\n시작되더라고요.\n\n지금 맛이 애매하게 이상하다면 오늘 적은\n순서대로 먼저 확인해보세요. 그리고 같은\n전자담배 문제라도 증상이 비슷해 보여 헷갈릴 수\n있으니, 다음엔 **전자담배 누수 원인과\n구분법**도 같이 보시면 판단이 훨씬\n쉬워집니다.\n\n## 추가 확인 기준\n- 전자담배의 원인 그룹: 이 글에서 바로 확인해야 할 기준입니다. 실제 선택 전에 이 부분을 먼저 점검하면 판단이 쉬워집니다."
     }
   }
 }
