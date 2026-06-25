@@ -2,6 +2,24 @@
   "userId": "c",
   "entries": [
     {
+      "keyword": "부평역",
+      "phrase": "부평역 쪽에서 상담할 때도 이런 경우는 단순",
+      "title": "전담 코일 탔을 때 대처법과 안전 사용 팁",
+      "postId": "post-1b1cb59a",
+      "topicId": "topic-4652dab8",
+      "userId": "c",
+      "usedAt": "2026-06-25T04:53:20.595Z"
+    },
+    {
+      "keyword": "청천동",
+      "phrase": "청천동 쪽 손님들",
+      "title": "전담 코일 탔을 때 대처법과 안전 사용 팁",
+      "postId": "post-1b1cb59a",
+      "topicId": "topic-4652dab8",
+      "userId": "c",
+      "usedAt": "2026-06-25T04:53:20.595Z"
+    },
+    {
       "keyword": "만수역",
       "phrase": "- 만수역 쪽 방문 전 꼭 물어볼 상담 포인트",
       "title": "젤로 전자담배 기기별 특징과 액상 추천",
@@ -992,5 +1010,5 @@
       "usedAt": "2026-04-24T05:03:57.440Z"
     }
   ],
-  "updatedAt": "2026-06-23T02:59:07.268Z"
+  "updatedAt": "2026-06-25T04:53:20.595Z"
 }
