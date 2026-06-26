@@ -1,0 +1,1010 @@
+{
+  "runId": "eval-97211a76",
+  "scores": {
+    "originality": 65,
+    "style_match": 70,
+    "structure": 68,
+    "engagement": 65,
+    "forbidden_check": 100
+  },
+  "aggregateScore": 55,
+  "reasoning": {
+    "originality": "말론 전담 팟 0.4옴과 0.6옴 비교라는 주제는 전자담배 관련 콘텐츠에서 흔히 다뤄지는 내용이나, 작성자는 직접 사용 경험과 지역 상담 사례를 포함해 개인적 체험을 녹여내어 차별성을 어느 정도 확보했습니다. 다만, 완전히 새로운 관점이나 독창적 정보는 부족한 편입니다.",
+    "style_match": "친근하고 이해하기 쉬운 문체로 작성되어 있으며, 전문 용어 사용을 최소화하고 독자와 대화하듯 풀어내어 요청한 톤에 부합합니다. 다만, 일부 문장 연결이 다소 단조롭고 반복되는 표현이 있어 스타일 완성도는 중간 수준입니다.",
+    "structure": "허브형 도입부, 비교 기준, 사용자 유형별 추천, 문제점 점검, 요약 정리 등 요구된 토폴로지에 맞춰 체계적으로 구성되어 있습니다. 다만, 하위 주제 목록과 내부 링크 안내가 명확히 드러나지 않아 확장성 측면에서 아쉬움이 있습니다.",
+    "engagement": "실제 사용 경험과 구체적 사례를 들어 독자의 공감과 이해를 돕고 있으나, 글이 다소 길고 정보가 많아 집중력이 떨어질 수 있습니다. 중간중간 소제목과 요약을 통해 가독성을 높였으나, 더 적극적인 독자 참여 유도나 질문 제시는 부족합니다.",
+    "forbidden_check": "내부 SEO 용어, 워크플로우 관련 단어, 평가자 언급 등 금지된 표현은 전혀 포함되어 있지 않아 매우 우수합니다.",
+    "seo": "SEO 점수 79점. 메인 키워드가 제목 앞부분에 배치되어 있습니다.",
+    "naver_logic": "네이버 로직 점수 17점. 문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다."
+  },
+  "recommendations": [
+    "제목 길이를 28~45자 안쪽으로 맞추는 편이 좋습니다.",
+    "서브 키워드 '말론'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+    "서브 키워드 '전담'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+    "서브 키워드 '4옴'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+    "서브 키워드 '6옴'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+    "서브 키워드 '말론 말론 전담 팟'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+  ],
+  "pass": false,
+  "seoEvaluation": {
+    "score": 79,
+    "evidence": [
+      "메인 키워드가 제목 앞부분에 배치되어 있습니다.",
+      "도입부에 메인 키워드가 보여 검색 의도 연결이 자연스럽습니다.",
+      "첫 문장에 메인 키워드가 보여 검색 의도를 바로 연결합니다.",
+      "소제목에도 메인 키워드가 반영되어 문서 구조와 주제가 잘 맞물립니다.",
+      "결론부에도 메인 키워드가 다시 등장해 문서 마무리가 일관됩니다.",
+      "'말론 전담 팟' 본문 5회는 현재 권장 범위입니다."
+    ],
+    "improvements": [
+      "제목 길이를 28~45자 안쪽으로 맞추는 편이 좋습니다.",
+      "서브 키워드 '말론'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+      "서브 키워드 '전담'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+      "서브 키워드 '4옴'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+      "서브 키워드 '6옴'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+      "서브 키워드 '말론 말론 전담 팟'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+    ],
+    "keywordReport": {
+      "items": [
+        {
+          "keyword": "말론 전담 팟",
+          "count": 5,
+          "status": "ok",
+          "targetMin": 4,
+          "targetMax": 7,
+          "role": "main",
+          "recommendation": "메인 키워드 '말론 전담 팟' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "종류",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '종류' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "말론",
+          "count": 5,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '말론'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "전담",
+          "count": 5,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '전담'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "4옴",
+          "count": 6,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '4옴'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "6옴",
+          "count": 5,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '6옴'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "종류 말론 전담 팟",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '종류 말론 전담 팟' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "말론 말론 전담 팟",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '말론 말론 전담 팟'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        },
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "mainKeyword": {
+        "keyword": "말론 전담 팟",
+        "count": 5,
+        "status": "ok",
+        "targetMin": 4,
+        "targetMax": 7,
+        "role": "main",
+        "recommendation": "메인 키워드 '말론 전담 팟' 반복은 현재 적정합니다."
+      },
+      "subKeywords": [
+        {
+          "keyword": "종류",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '종류' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "말론",
+          "count": 5,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '말론'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "전담",
+          "count": 5,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '전담'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "4옴",
+          "count": 6,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '4옴'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "6옴",
+          "count": 5,
+          "status": "caution",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '6옴'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "종류 말론 전담 팟",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '종류 말론 전담 팟' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "말론 말론 전담 팟",
+          "count": 0,
+          "status": "under",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '말론 말론 전담 팟'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+        }
+      ],
+      "bridgeKeywords": [],
+      "internalLinkAnchors": [],
+      "forbiddenItems": [
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "contractApplied": true,
+      "overallRisk": "medium",
+      "overallRiskSummary": "일부 키워드 조정이 필요하지만, 문맥을 유지하며 보정할 수 있습니다.",
+      "paragraphWarnings": [],
+      "seoKeywordItems": [
+        {
+          "keyword": "말론 전담 팟",
+          "role": "main",
+          "exactCount": 4,
+          "includedCount": 1,
+          "effectiveCount": 5,
+          "risk": "ok",
+          "note": "긴 계획 키워드에 포함된 1회를 분리해 exact 4회 / included 1회로 계산했습니다.",
+          "exactPhraseExclusionApplied": true
+        },
+        {
+          "keyword": "종류",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 1,
+          "effectiveCount": 2,
+          "risk": "ok",
+          "note": "긴 계획 키워드에 포함된 1회를 분리해 exact 1회 / included 1회로 계산했습니다.",
+          "exactPhraseExclusionApplied": true
+        },
+        {
+          "keyword": "말론",
+          "role": "sub",
+          "exactCount": 0,
+          "includedCount": 5,
+          "effectiveCount": 5,
+          "risk": "caution",
+          "note": "긴 계획 키워드에 포함된 5회를 분리해 exact 0회 / included 5회로 계산했습니다.",
+          "exactPhraseExclusionApplied": true
+        },
+        {
+          "keyword": "전담",
+          "role": "sub",
+          "exactCount": 0,
+          "includedCount": 5,
+          "effectiveCount": 5,
+          "risk": "caution",
+          "note": "긴 계획 키워드에 포함된 5회를 분리해 exact 0회 / included 5회로 계산했습니다.",
+          "exactPhraseExclusionApplied": true
+        },
+        {
+          "keyword": "4옴",
+          "role": "sub",
+          "exactCount": 6,
+          "includedCount": 0,
+          "effectiveCount": 6,
+          "risk": "caution",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "6옴",
+          "role": "sub",
+          "exactCount": 5,
+          "includedCount": 0,
+          "effectiveCount": 5,
+          "risk": "caution",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "종류 말론 전담 팟",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "말론 말론 전담 팟",
+          "role": "sub",
+          "exactCount": 0,
+          "includedCount": 0,
+          "effectiveCount": 0,
+          "risk": "under",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        }
+      ],
+      "requiredEntityChecks": [
+        {
+          "entity": "종류",
+          "included": true,
+          "note": "포함됨"
+        }
+      ],
+      "bodyRepetitionItems": [
+        {
+          "token": "액상",
+          "count": 8,
+          "category": "noun",
+          "severity": "notice",
+          "message": "'액상' 반복이 눈에 띄기 시작합니다.",
+          "suggestion": "같은 명사를 설명형 문장, 수치, 사례 표현으로 바꿔 밀도를 낮춰 주세요.",
+          "isSeoRisk": false
+        }
+      ],
+      "legacyTokenItems": [
+        {
+          "token": "4옴",
+          "count": 6,
+          "sourceKeywords": [
+            "4옴"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "말론 전담 팟",
+          "count": 5,
+          "sourceKeywords": [
+            "말론 전담 팟",
+            "종류 말론 전담 팟",
+            "말론 말론 전담 팟"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "말론 전담",
+          "count": 5,
+          "sourceKeywords": [
+            "말론 전담 팟",
+            "종류 말론 전담 팟",
+            "말론 말론 전담 팟"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "6옴",
+          "count": 5,
+          "sourceKeywords": [
+            "6옴"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "말론",
+          "count": 5,
+          "sourceKeywords": [
+            "말론 전담 팟",
+            "말론",
+            "종류 말론 전담 팟",
+            "말론 말론 전담 팟"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "전담",
+          "count": 5,
+          "sourceKeywords": [
+            "말론 전담 팟",
+            "전담",
+            "종류 말론 전담 팟",
+            "말론 말론 전담 팟"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "데일리",
+          "count": 3,
+          "sourceKeywords": [
+            "데일리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "보시면",
+          "count": 2,
+          "sourceKeywords": [
+            "보시면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "종류",
+          "count": 2,
+          "sourceKeywords": [
+            "종류",
+            "종류 말론 전담 팟"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "종류 말론 전담 팟",
+          "count": 1,
+          "sourceKeywords": [
+            "종류 말론 전담 팟"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "종류 말론",
+          "count": 1,
+          "sourceKeywords": [
+            "종류 말론 전담 팟"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "고르면",
+          "count": 1,
+          "sourceKeywords": [
+            "고르면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "tokenItems": [
+        {
+          "token": "4옴",
+          "count": 6,
+          "sourceKeywords": [
+            "4옴"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "말론 전담 팟",
+          "count": 5,
+          "sourceKeywords": [
+            "말론 전담 팟",
+            "종류 말론 전담 팟",
+            "말론 말론 전담 팟"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "말론 전담",
+          "count": 5,
+          "sourceKeywords": [
+            "말론 전담 팟",
+            "종류 말론 전담 팟",
+            "말론 말론 전담 팟"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "6옴",
+          "count": 5,
+          "sourceKeywords": [
+            "6옴"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "말론",
+          "count": 5,
+          "sourceKeywords": [
+            "말론 전담 팟",
+            "말론",
+            "종류 말론 전담 팟",
+            "말론 말론 전담 팟"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "전담",
+          "count": 5,
+          "sourceKeywords": [
+            "말론 전담 팟",
+            "전담",
+            "종류 말론 전담 팟",
+            "말론 말론 전담 팟"
+          ],
+          "note": "적당히 보이는 편입니다. 다른 핵심 단어와의 균형을 같이 보는 것이 좋습니다."
+        },
+        {
+          "token": "데일리",
+          "count": 3,
+          "sourceKeywords": [
+            "데일리"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "보시면",
+          "count": 2,
+          "sourceKeywords": [
+            "보시면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "종류",
+          "count": 2,
+          "sourceKeywords": [
+            "종류",
+            "종류 말론 전담 팟"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "종류 말론 전담 팟",
+          "count": 1,
+          "sourceKeywords": [
+            "종류 말론 전담 팟"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "종류 말론",
+          "count": 1,
+          "sourceKeywords": [
+            "종류 말론 전담 팟"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "고르면",
+          "count": 1,
+          "sourceKeywords": [
+            "고르면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "totalMentions": 29,
+      "introCoverage": true,
+      "titleFrontLoaded": true,
+      "bodyLength": 2165,
+      "summary": [
+        "메인 키워드 '말론 전담 팟' 본문 5회",
+        "전체 반복 위험도 medium"
+      ],
+      "recommendations": [
+        "서브 키워드 '말론'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+        "서브 키워드 '전담'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+        "서브 키워드 '4옴'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+        "서브 키워드 '6옴'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+        "서브 키워드 '말론 말론 전담 팟'는 본문 기준 1~3회가 목표입니다. 필요한 문단에만 자연스럽게 보강해 주세요."
+      ]
+    },
+    "keywordMetrics": [
+      {
+        "keyword": "말론 전담 팟",
+        "role": "main",
+        "label": "메인 키워드",
+        "completenessScore": 100,
+        "exposurePotentialScore": 100,
+        "count": 5,
+        "targetMin": 4,
+        "targetMax": 7,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 앞배치 / 도입부 포함 / 본문 5회",
+        "action": "도입부에서 '말론 전담 팟' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "종류",
+        "role": "sub",
+        "label": "서브 키워드 1",
+        "completenessScore": 58,
+        "exposurePotentialScore": 68,
+        "count": 2,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 2회",
+        "action": "'종류'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "말론",
+        "role": "sub",
+        "label": "서브 키워드 2",
+        "completenessScore": 87,
+        "exposurePotentialScore": 80,
+        "count": 5,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 5회",
+        "action": "서브 키워드 '말론'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+      },
+      {
+        "keyword": "전담",
+        "role": "sub",
+        "label": "서브 키워드 3",
+        "completenessScore": 87,
+        "exposurePotentialScore": 80,
+        "count": 5,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 5회",
+        "action": "서브 키워드 '전담'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+      },
+      {
+        "keyword": "4옴",
+        "role": "sub",
+        "label": "서브 키워드 4",
+        "completenessScore": 71,
+        "exposurePotentialScore": 80,
+        "count": 6,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 6회",
+        "action": "서브 키워드 '4옴'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+      },
+      {
+        "keyword": "6옴",
+        "role": "sub",
+        "label": "서브 키워드 5",
+        "completenessScore": 71,
+        "exposurePotentialScore": 80,
+        "count": 5,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 포함 / 도입부 포함 / 본문 5회",
+        "action": "서브 키워드 '6옴'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+      },
+      {
+        "keyword": "종류 말론 전담 팟",
+        "role": "sub",
+        "label": "서브 키워드 6",
+        "completenessScore": 58,
+        "exposurePotentialScore": 68,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 1회",
+        "action": "'종류 말론 전담 팟'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "말론 말론 전담 팟",
+        "role": "sub",
+        "label": "서브 키워드 7",
+        "completenessScore": 32,
+        "exposurePotentialScore": 47,
+        "count": 0,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 0회",
+        "action": "'말론 말론 전담 팟'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      }
+    ],
+    "combinationCoverageScore": 92,
+    "combinationMetrics": [
+      {
+        "phrase": "말론 전담 팟",
+        "role": "main",
+        "priority": "core",
+        "exactMatches": 5,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 100,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 연결 · 5회 직접 표현",
+        "action": "'말론 전담 팟' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "종류",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 2,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 66,
+        "exposurePotentialScore": 60,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 연결 · 2회 직접 표현",
+        "action": "첫 두 문단 안에서 '종류' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "말론",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 5,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 98,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 연결 · 5회 직접 표현",
+        "action": "'말론' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "전담",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 5,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 98,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 연결 · 5회 직접 표현",
+        "action": "'전담' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "4옴",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 6,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 98,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 연결 · 6회 직접 표현",
+        "action": "'4옴' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "6옴",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 5,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 98,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 연결 · 5회 직접 표현",
+        "action": "'6옴' 직접 반복이 많아 보여 일부는 동의어/설명형 문장으로 풀어 주는 편이 좋습니다."
+      },
+      {
+        "phrase": "종류 말론 전담 팟",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 66,
+        "exposurePotentialScore": 60,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 연결 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '종류 말론 전담 팟' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "말론 말론 전담 팟",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 0,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 100,
+        "exposurePotentialScore": 100,
+        "summary": "제목 연결 · 도입부 연결 · 소제목 연결 · 0회 직접 표현",
+        "action": "토큰은 모두 들어가 있으니 '말론 말론 전담 팟' 조합을 한 문장 안에서 한 번 더 자연스럽게 묶어 주세요."
+      }
+    ]
+  },
+  "naverLogicEvaluation": {
+    "primary": "c-rank",
+    "label": "C-Rank 중심",
+    "completenessScore": 17,
+    "reason": "이 주제는 지역성, 실사용 맥락, 내부링크 연결이 중요해서 C-Rank 관점이 더 강합니다.",
+    "evidence": [
+      "문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다.",
+      "비교와 선택 기준 요소가 살아 있어 실전 검색 의도에 잘 맞습니다.",
+      "내부링크 설계 대상이 있어 주제권 확장 관점이 살아 있습니다.",
+      "지역성과 실사용 맥락이 보여 C-Rank 관점의 주제권 연결이 자연스럽습니다.",
+      "실사용 맥락과 검색자 질문이 보여 D.I.A. 관점의 설득력이 있습니다."
+    ],
+    "improvements": [
+      "허브 참조 링크는 '액상형 전담 종류 - 만수르 전자담배에서 알려드릴게요!' 제목과 https://blog.naver.com/mansur_vape/224300284999 URL을 정확히 같은 쌍으로 써야 합니다.",
+      "리프 참조 링크는 '인천전자담배 액상형 전담 말론 사용법 만수르네가 알려드려요!' 제목과 https://blog.naver.com/mansur_vape/224091470290/ URL을 정확히 같은 쌍으로 써야 합니다.",
+      "C-Rank 중심 글이라면 지역성, 실사용, 내부링크 흐름을 조금 더 분명히 보여주는 편이 좋습니다."
+    ]
+  },
+  "postId": "post-a2e8763f",
+  "savedAt": "2026-06-26T07:18:40.717Z"
+}
