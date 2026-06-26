@@ -2,6 +2,42 @@
   "userId": "c",
   "entries": [
     {
+      "keyword": "부평",
+      "phrase": "부평 쪽에서 문의하시는 분들도",
+      "title": "말론 전담 팟 0.4옴, 0.6옴 비교 차이",
+      "postId": "post-a2e8763f",
+      "topicId": "topic-a46bee8c",
+      "userId": "c",
+      "usedAt": "2026-06-26T07:18:44.561Z"
+    },
+    {
+      "keyword": "남동구",
+      "phrase": "남동구에서",
+      "title": "말론 전담 팟 0.4옴, 0.6옴 비교 차이",
+      "postId": "post-a2e8763f",
+      "topicId": "topic-a46bee8c",
+      "userId": "c",
+      "usedAt": "2026-06-26T07:18:44.561Z"
+    },
+    {
+      "keyword": "부천",
+      "phrase": "부천이나 상동",
+      "title": "말론 전담 팟 0.4옴, 0.6옴 비교 차이",
+      "postId": "post-a2e8763f",
+      "topicId": "topic-a46bee8c",
+      "userId": "c",
+      "usedAt": "2026-06-26T07:18:44.561Z"
+    },
+    {
+      "keyword": "상동",
+      "phrase": "부천이나 상동",
+      "title": "말론 전담 팟 0.4옴, 0.6옴 비교 차이",
+      "postId": "post-a2e8763f",
+      "topicId": "topic-a46bee8c",
+      "userId": "c",
+      "usedAt": "2026-06-26T07:18:44.561Z"
+    },
+    {
       "keyword": "인천",
       "phrase": "인천에서",
       "title": "말론 전담 팟 0.4옴, 0.6옴 비교 차이",
@@ -1091,5 +1127,5 @@
       "usedAt": "2026-04-24T05:03:57.440Z"
     }
   ],
-  "updatedAt": "2026-06-25T09:03:39.550Z"
+  "updatedAt": "2026-06-26T07:18:44.561Z"
 }
