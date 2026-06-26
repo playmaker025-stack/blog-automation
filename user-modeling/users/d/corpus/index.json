@@ -2,6 +2,15 @@
   "userId": "d",
   "samples": [
     {
+      "sampleId": "published-post-manual-mquuqo4l",
+      "title": "전자담배 액상 새로 샀을 때 가장 기대되는 첫 모금의 법칙 😆",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 5817,
+      "publishedAt": "2026-06-26T11:32:50.699Z",
+      "filePath": "user-modeling/users/d/corpus/samples/published-post-manual-mquuqo4l.md"
+    },
+    {
       "sampleId": "published-post-manual-mqtge0py",
       "title": "전자담배 액상은 많은데 피울 게 없는 이유 – 베이퍼들이 공감하는 현상 😅",
       "category": "published-post",
@@ -306,16 +315,7 @@
       "wordCount": 5864,
       "publishedAt": "2026-05-04T13:20:05.432Z",
       "filePath": "user-modeling/users/d/corpus/samples/published-post-manual-mor88gnv.md"
-    },
-    {
-      "sampleId": "published-post-bb8481dc",
-      "title": "부평 전자담배 액상 입 튐 문제, 매장에서 빠르게 해결하는 법",
-      "category": "direct-run",
-      "tags": [],
-      "wordCount": 2515,
-      "publishedAt": "2026-04-28T13:22:19.214Z",
-      "filePath": "user-modeling/users/d/corpus/samples/published-post-bb8481dc.md"
     }
   ],
-  "lastUpdated": "2026-06-25T12:03:26.056Z"
+  "lastUpdated": "2026-06-26T11:32:57.379Z"
 }
