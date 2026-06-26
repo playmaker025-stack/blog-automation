@@ -2,6 +2,19 @@
   "userId": "d",
   "entries": [
     {
+      "postId": "post-manual-mquuqo4l",
+      "topicId": "",
+      "userId": "d",
+      "title": "전자담배 액상 새로 샀을 때 가장 기대되는 첫 모금의 법칙 😆",
+      "naverPostUrl": "https://blog.naver.com/moya5522/224328312226",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-26T11:32:50.699Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-26T11:32:52.707Z"
+    },
+    {
       "postId": "post-manual-mqtge0py",
       "topicId": "",
       "userId": "d",
@@ -405,5 +418,5 @@
       "learnedAt": "2026-04-22T09:47:07.147Z"
     }
   ],
-  "updatedAt": "2026-06-25T12:03:21.128Z"
+  "updatedAt": "2026-06-26T11:32:52.707Z"
 }
