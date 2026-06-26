@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "type": "baseline_candidate",
-      "scenarioId": "topic-32ad4b9e",
-      "runId": "eval-e91c6635",
-      "aggregateScore": 73,
-      "registered": true,
-      "reason": "candidate 등록 완료 (73점)",
-      "pipelineId": "pipe-0d88e80e",
-      "at": "2026-04-09T10:16:36.705Z"
-    },
-    {
       "type": "material_change",
       "originalTitle": "말론 vs 아스트로 MK3 입문 추천",
       "proposedTitle": "말론 vs 아스트로 MK3 입문 추천 – 입호흡 전자담배 차이 총정리",
@@ -5714,7 +5704,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-7ef45426",
       "at": "2026-06-25T09:00:08.862Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-a46bee8c",
+      "userId": "c",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-8934738e / Similar existing title found: 말론 전담 팟 0.4옴, 0.6옴 비교 차이 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-0608d6ba",
+      "at": "2026-06-26T07:14:03.836Z"
     }
   ],
-  "lastUpdated": "2026-06-25T09:00:08.862Z"
+  "lastUpdated": "2026-06-26T07:14:03.836Z"
 }
