@@ -2,6 +2,19 @@
   "userId": "c",
   "entries": [
     {
+      "postId": "post-a2e8763f",
+      "topicId": "topic-a46bee8c",
+      "userId": "c",
+      "title": "말론 전담 팟 0.4옴 vs 0.6옴 비교 차이",
+      "naverPostUrl": "https://blog.naver.com/mansur_vape/224328214806",
+      "evalScore": 55,
+      "wordCount": 2165,
+      "publishedAt": "2026-06-26T09:09:29.189Z",
+      "topicSource": "direct",
+      "contentKind": null,
+      "learnedAt": "2026-06-26T09:09:36.744Z"
+    },
+    {
       "postId": "post-115aa39f",
       "topicId": "topic-4652dab8",
       "userId": "c",
@@ -548,5 +561,5 @@
       "learnedAt": "2026-04-23T07:31:05.997Z"
     }
   ],
-  "updatedAt": "2026-06-25T06:17:39.533Z"
+  "updatedAt": "2026-06-26T09:09:36.744Z"
 }
