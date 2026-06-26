@@ -1,7 +1,7 @@
 {
   "pipelineId": "pipe-2145b0df",
   "type": "strategy_plan",
-  "savedAt": "2026-06-26T07:14:34.666Z",
+  "savedAt": "2026-06-26T07:15:57.727Z",
   "data": {
     "title": "말론 전담 팟 0.4옴, 0.6옴 비교 차이",
     "outline": [
@@ -65,7 +65,110 @@
       "차이"
     ],
     "rationale": "직접 입력 토픽이므로 메인 키워드 '말론 전담 팟'를 중심축으로 두고, 서브 키워드 '종류'는 보조 맥락으로 반영했습니다. AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
-    "corpusSummary": null,
+    "corpusSummary": {
+      "userId": "c",
+      "selectedCount": 5,
+      "styleProfile": {
+        "dominantTone": "friendly",
+        "avgWordCount": 3024,
+        "signatureExpressions": [],
+        "structurePattern": "질문-답변형",
+        "openingPattern": "질문으로 시작"
+      },
+      "exemplarExcerpts": [
+        {
+          "sampleId": "published-post-22a2eeb5",
+          "title": "전자담배 vs 연초 차이 비교 - 건강, 유지 비용 만수르전담 에서 알려드릴게요!",
+          "excerpt": "인천 매장에서 상담하다 보면 정말 자주 나오는 질문이 있습니다. \"전담 vs 연초 뭐가 더 나아요?\" 그런데 이 질문은 단순 비교로 끝나지 않습니다. 냄새가 고민인지 한 달 가격이 부담인지 익숙한 흡연감이 중요한지에 따라 답이 완전히 달라지기 때문이죠. 특히 처음 바꾸려는 분들은 \"전자담배가 더 낫다던데요?\" 정도로 시작했다가 막상 본인 생활패턴과 안 맞아서 기기값만 쓰고 다시 연초로 돌아가기도 합니다. 그래서 오늘은 인천에서",
+          "styleNotes": "tone=casual, category=direct-run"
+        },
+        {
+          "sampleId": "published-post-99c636ac",
+          "title": "사랑니 뽑고 전자담배 사용 시 주의사항과 무니코틴 선택 팁",
+          "excerpt": "사랑니 뽑고 나서 방문하시는 분들이 있는데 제일 많이 나오는 질문이 \"연초는 안 좋은 거 알겠는데 전담은 괜찮지 않나요?\" 에요 부천매장에서 문의 주시는 분들 있었고 예전에는 주안 쪽 손님들도 거의 같은 부분에서 헷갈려 하셨습니다. 결론부터 말씀드리면 사랑니 발치 후 전자담배는 니코틴만의 문제가 아닙니다. 가장 먼저 봐야 하는 건 흡입할 떄 생기는 압력 그리고 회복 중인 발치 부위 상태예요. 그래서 무니코틴 전자담배로 바꿔도 ",
+          "styleNotes": "tone=casual, contentKind=leaf, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-579cce1d",
+          "title": "전자담배 출력조절 기능 완전 정복과 고장 예방 체크포인트",
+          "excerpt": "전자담배 맛이 갑자기 세지거나 반대로 밍밍해졌다면 바로 고장으로 단정할 필요는 없습니다. 출력조절 값, 코일 상태, 액상량, 배터리 접점 이 4가지만 3분 안에 보면 원인 방향이 거의 갈립니다. 특히 많이 쓰는 팟디바이스는 보통 12W 18W 조금 더 강한 흡입을 원하는 기기는 25W 이상 에서 체감 차이가 확 납니다. 직접 써봤더니 같은 액상이어도 2W 차이만으로 목넘김과 맛 표현이 달라져서 무작정 올리기보다 정상 범위를 먼",
+          "styleNotes": "tone=casual, contentKind=hub, category=전자담배"
+        },
+        {
+          "sampleId": "published-post-manual-mpqpw2k2",
+          "title": "액상형 전담 종류 - 만수르 전자담배에서 알려드릴게요!",
+          "excerpt": "액상형 전담 종류 만수르 전자담배에서 알려드릴게요! 액상형 전담 종류 만수르 전자담배에서 알려드릴게요! : 네이버 블로그 NAVER 블로그 부평 전자담배 만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불",
+          "styleNotes": "tone=casual"
+        },
+        {
+          "sampleId": "published-post-6945bfc7",
+          "title": "전자담배 탄맛 발생하는 이유(원인)그리고 대처법 - 건강을 위한 해결방법",
+          "excerpt": "전자담배를 사용하다 보면 갑자기 입안에 탄맛이 확 느껴져 당황한 경험 한 번쯤 있으셨을 거예요 평소와 똑같이 사용했는데 왜 이런 현상이 생기는지 인천이나 남동구, 계산동 등 지역 매장에서도 전자담배 탄맛 발생 원인에 대한 문의가 꾸준히 들어옵니다. 오늘은 이런 상황에서 바로 점검할 수 있는 기준과 실제로 도움이 되는 대처법 그리고 건강까지 생각한 해결방법을 한 번에 정리해드릴게요! 전담 탄맛의 발생 원인을 정확히 이해하면 단순",
+          "styleNotes": "tone=casual, category=direct-run"
+        }
+      ],
+      "representativeExcerpts": [
+        "전담에서 탄 맛이 올라오면 그 상태로 계속 쓰지 않는 게 먼저입니다. 보통 액상이 충분히 스며들기 전에 사용했거나 3초 이상 연속 흡입이 반복됐을 때 생기고 심하면 1번만 흡입해도 목이 따갑게 느껴집니다. 이미 탄 냄새가 선명하게 난 팟은 보통은 정상적인 경우가 없어서 교체가 가장 빠릅니다. 헷갈릴 때는 맛, 냄새, 액상 잔량, 최근 사용 습관 이 4가지만 바로 확인하면 원인 구분이 됩니다. 액상이 20 30% 이하로 내려간",
+        "인천에서 젤로를 보러 오시는 분들 상담을 해보면 처음 사는 분들은 누수 적응이 쉬운 팟 구조와 사용 난이도 기존 사용자는 흡압감과 유지비에서 선택이 갈리는데요 직접 써봤더니 기기값이 평균적인 가격이어도 한 달 쓰면서 팟 교체 주기와 액상 소모량이 더 크게 체감되더라고요. 액상추천도 인기 맛만 따라가면 의외로 실패가 많습니다. 같은 젤로 라인이라도 단맛 선호, 쿨링 강도, 하루 사용량에 따라 만족도가 달랐고 30ml 한 병을 1",
+        "전자담배 맛이 갑자기 세지거나 반대로 밍밍해졌다면 바로 고장으로 단정할 필요는 없습니다. 출력조절 값, 코일 상태, 액상량, 배터리 접점 이 4가지만 3분 안에 보면 원인 방향이 거의 갈립니다. 특히 많이 쓰는 팟디바이스는 보통 12W 18W 조금 더 강한 흡입을 원하는 기기는 25W 이상 에서 체감 차이가 확 납니다. 직접 써봤더니 같은 액상이어도 2W 차이만으로 목넘김과 맛 표현이 달라져서 무작정 올리기보다 정상 범위를 먼",
+        "무니코틴 액상부터 봐야 할지 아니면 어느 정도 함량이 있는 제품부터 시작해야 할지 헷갈리는 분이 많습니다. 특히 처음 전자담배를 알아보는 분들은 \"센 게 맞나, 약한 게 맞나\" 부터 막히는 경우가 많아요. 결론부터 말하면, 전자담배 액상은 숫자가 높은 제품을 고르는 것보다 내 흡연량, 기기 종류, 흡입 습관에 맞추는 게 먼저 입니다. 같은 액상이라도 팟 기기인지, 출력은 어느 정도인지, 한 번에 얼마나 자주 흡입하는지에 따라",
+        "스틱형 전자담배 XROS MINI 크로스미니 사용방법 스틱형 전자담배 XROS MINI 크로스미니 사용방법 : 네이버 블로그 NAVER 블로그 부평 전자담배 만수르 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 span.u likeit button) 공감 face 3개 (전체)) 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경"
+      ],
+      "retrievalStrategy": "exemplar_index",
+      "staleWarnings": [],
+      "scoringBreakdown": [
+        {
+          "sampleId": "published-post-22a2eeb5",
+          "finalScore": 0.669,
+          "components": {
+            "relevance": 0.47,
+            "recency": 0.84,
+            "roleMatch": 0.6,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-99c636ac",
+          "finalScore": 0.586,
+          "components": {
+            "relevance": 0.53,
+            "recency": 0.9,
+            "roleMatch": 0,
+            "intentMatch": 1
+          }
+        },
+        {
+          "sampleId": "published-post-579cce1d",
+          "finalScore": 0.565,
+          "components": {
+            "relevance": 0.62,
+            "recency": 0.97,
+            "roleMatch": 0,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-manual-mpqpw2k2",
+          "finalScore": 0.557,
+          "components": {
+            "relevance": 0.7,
+            "recency": 0.81,
+            "roleMatch": 0,
+            "intentMatch": 0.5
+          }
+        },
+        {
+          "sampleId": "published-post-6945bfc7",
+          "finalScore": 0.554,
+          "components": {
+            "relevance": 0.59,
+            "recency": 0.79,
+            "roleMatch": 0.6,
+            "intentMatch": 0
+          }
+        }
+      ]
+    },
     "publicationLearning": {
       "source": "writing-profile",
       "totalEntries": 86,
