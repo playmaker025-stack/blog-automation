@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-2145b0df",
+  "type": "approval_request",
+  "savedAt": "2026-06-26T07:15:53.825Z",
+  "data": {
+    "pipelineId": "pipe-2145b0df",
+    "previousTitle": "",
+    "proposedTitle": "말론 전담 팟 0.4옴, 0.6옴 비교 차이",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "직접 입력 토픽이므로 메인 키워드 '말론 전담 팟'를 중심축으로 두고, 서브 키워드 '종류'는 보조 맥락으로 반영했습니다. AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.\n\n[사용자 승인 후 추가 수정 요청]\n",
+    "requestedAt": "2026-06-26T07:15:47.531Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-06-26T07:15:47.531Z",
+      "modifications": null
+    }
+  }
+}
