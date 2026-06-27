@@ -2,6 +2,20 @@
   "userId": "b",
   "samples": [
     {
+      "sampleId": "published-post-0ce076e9",
+      "title": "간석동 전자담배 액상 인기 제품 비교와 후기",
+      "category": "b",
+      "tags": [
+        "만수동",
+        "간석동",
+        "전자담배",
+        "액상후기"
+      ],
+      "wordCount": 1936,
+      "publishedAt": "2026-06-27T10:01:57.964Z",
+      "filePath": "user-modeling/users/b/corpus/samples/published-post-0ce076e9.md"
+    },
+    {
       "sampleId": "published-post-57f99502",
       "title": "만수동 전자담배 구매가이드: 필수 체크 포인트",
       "category": "b",
@@ -264,5 +278,5 @@
       "filePath": "user-modeling/users/b/corpus/samples/published-post-import-08c915d5f3.md"
     }
   ],
-  "lastUpdated": "2026-06-25T12:09:25.862Z"
+  "lastUpdated": "2026-06-27T10:02:09.414Z"
 }
