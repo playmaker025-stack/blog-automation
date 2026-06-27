@@ -1,17 +1,6 @@
 {
   "entries": [
     {
-      "type": "approval_ux",
-      "materialChange": false,
-      "requestedAt": "2026-04-09T10:18:53.077Z",
-      "respondedAt": "2026-04-09T10:18:58.713Z",
-      "approved": true,
-      "elapsedMs": 5636,
-      "timedOut": false,
-      "pipelineId": "pipe-fcd4a2f1",
-      "at": "2026-04-09T10:18:59.288Z"
-    },
-    {
       "type": "corpus_retrieval",
       "userId": "c",
       "selectedCount": 0,
@@ -5713,7 +5702,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-2145b0df",
       "at": "2026-06-26T07:14:36.498Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "만수동 간석동 인근 전자담배 액상 인기 제품 비교와 후기",
+      "proposedTitle": "만수동 간석동 인근 전자담배 액상 인기 제품 비교와 후기",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-c105ebd5",
+      "at": "2026-06-27T05:10:36.447Z"
     }
   ],
-  "lastUpdated": "2026-06-26T07:14:36.498Z"
+  "lastUpdated": "2026-06-27T05:10:36.447Z"
 }
