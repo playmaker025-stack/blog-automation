@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-c105ebd5",
+  "type": "approval_request",
+  "savedAt": "2026-06-27T05:10:43.541Z",
+  "data": {
+    "pipelineId": "pipe-c105ebd5",
+    "previousTitle": "",
+    "proposedTitle": "만수동 간석동 인근 전자담배 액상 인기 제품 비교와 후기",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-06-27T05:10:38.011Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-06-27T05:10:38.011Z",
+      "modifications": null
+    }
+  }
+}
