@@ -2,6 +2,19 @@
   "userId": "b",
   "entries": [
     {
+      "postId": "post-0ce076e9",
+      "topicId": "topic-8add5a84",
+      "userId": "b",
+      "title": "간석동 전자담배 액상 인기 제품 비교와 후기",
+      "naverPostUrl": "https://blog.naver.com/youferst/224329045576",
+      "evalScore": 66,
+      "wordCount": 1936,
+      "publishedAt": "2026-06-27T10:01:57.964Z",
+      "topicSource": "generated",
+      "contentKind": "leaf",
+      "learnedAt": "2026-06-27T10:02:06.769Z"
+    },
+    {
       "postId": "post-57f99502",
       "topicId": "topic-2ac266e6",
       "userId": "b",
@@ -262,5 +275,5 @@
       "learnedAt": "2026-04-25T10:02:38.491Z"
     }
   ],
-  "updatedAt": "2026-06-25T12:09:22.866Z"
+  "updatedAt": "2026-06-27T10:02:06.769Z"
 }
