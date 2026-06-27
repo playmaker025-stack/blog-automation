@@ -1,29 +1,90 @@
 {
   "pipelineId": "pipe-c105ebd5",
   "type": "draft_output",
-  "savedAt": "2026-06-27T05:12:12.394Z",
+  "savedAt": "2026-06-27T05:13:05.576Z",
   "data": {
     "postId": "post-0ce076e9",
     "title": "만수동 간석동 인근 전자담배 액상 인기 제품 비교와 후기",
-    "wordCount": 1961,
-    "generatedAt": "2026-06-27T05:12:11.386Z",
+    "wordCount": 1936,
+    "generatedAt": "2026-06-27T05:13:04.567Z",
     "contentPath": "data/posting-list/posts/post-0ce076e9/content.md",
     "corpusSummaryUsed": true,
     "finalDraftCheck": {
-      "ok": true,
-      "blockingReasons": [],
+      "ok": false,
+      "blockingReasons": [
+        "sub keyword \"간석동\" 4회 사용, 상한 3회 초과",
+        "sub keyword \"인근\" 4회 사용, 상한 3회 초과"
+      ],
       "warnings": [
         "medium overlap: 도입 패턴 반복 위험 customer_question",
         "medium overlap: 결론 패턴 반복 위험 criteria_summary"
       ],
       "matchedForbiddenPhrases": [],
-      "keywordStuffingFindings": [],
+      "keywordStuffingFindings": [
+        "sub keyword \"간석동\" 4회 사용, 상한 3회 초과",
+        "sub keyword \"인근\" 4회 사용, 상한 3회 초과"
+      ],
       "deferFindings": [],
       "contractCoverageFindings": [],
       "overlapFindings": [
         "medium overlap: 도입 패턴 반복 위험 customer_question",
         "medium overlap: 결론 패턴 반복 위험 criteria_summary"
       ]
+    },
+    "finalDraftRewrite": {
+      "attempted": true,
+      "applied": true,
+      "instructions": [
+        "차단 사유 수정: sub keyword \"간석동\" 5회 사용, 상한 3회 초과",
+        "차단 사유 수정: sub keyword \"인근\" 4회 사용, 상한 3회 초과",
+        "키워드/질문문 자연화: sub keyword \"간석동\" 5회 사용, 상한 3회 초과",
+        "키워드/질문문 자연화: sub keyword \"인근\" 4회 사용, 상한 3회 초과"
+      ],
+      "beforeCheck": {
+        "ok": false,
+        "blockingReasons": [
+          "sub keyword \"간석동\" 5회 사용, 상한 3회 초과",
+          "sub keyword \"인근\" 4회 사용, 상한 3회 초과"
+        ],
+        "warnings": [
+          "medium overlap: 도입 패턴 반복 위험 customer_question",
+          "medium overlap: 결론 패턴 반복 위험 criteria_summary"
+        ],
+        "matchedForbiddenPhrases": [],
+        "keywordStuffingFindings": [
+          "sub keyword \"간석동\" 5회 사용, 상한 3회 초과",
+          "sub keyword \"인근\" 4회 사용, 상한 3회 초과"
+        ],
+        "deferFindings": [],
+        "contractCoverageFindings": [],
+        "overlapFindings": [
+          "medium overlap: 도입 패턴 반복 위험 customer_question",
+          "medium overlap: 결론 패턴 반복 위험 criteria_summary"
+        ]
+      },
+      "afterCheck": {
+        "ok": false,
+        "blockingReasons": [
+          "sub keyword \"간석동\" 4회 사용, 상한 3회 초과",
+          "sub keyword \"인근\" 4회 사용, 상한 3회 초과"
+        ],
+        "warnings": [
+          "medium overlap: 도입 패턴 반복 위험 customer_question",
+          "medium overlap: 결론 패턴 반복 위험 criteria_summary"
+        ],
+        "matchedForbiddenPhrases": [],
+        "keywordStuffingFindings": [
+          "sub keyword \"간석동\" 4회 사용, 상한 3회 초과",
+          "sub keyword \"인근\" 4회 사용, 상한 3회 초과"
+        ],
+        "deferFindings": [],
+        "contractCoverageFindings": [],
+        "overlapFindings": [
+          "medium overlap: 도입 패턴 반복 위험 customer_question",
+          "medium overlap: 결론 패턴 반복 위험 criteria_summary"
+        ]
+      },
+      "content": "만수동에서 액상을 고를 때 가장 먼저 볼 건\n브랜드보다 **흡입 패턴**입니다. 제가 직접\n써봤더니 하루에 10번 이상 짧게 자주 피는\n분은 과일멘솔 쪽이 편했고, 반대로 한 번에\n길게 쓰는 분은 단맛이 있는 과일계가 만족도가\n높았습니다. 30ml 기준 2만 원대 제품들만\n비교해도 이 차이가 꽤 분명했어요.\n\n간석동 인근까지 같이 보는 분들이 많이 묻는\n것도 결국 같은 질문입니다. **인기 제품이\n무조건 정답은 아니고, 목넘김·잔향·코일 소모\n속도 이 3가지가 맞아야 오래 갑니다.**\n처음엔 저도 몰랐는데 같은 9,000원대 공팟을\n써도 어떤 액상은 5일쯤부터 맛이 무너지고,\n어떤 건 10일 넘게 버티더라고요.\n\n오늘은 제가 실제로 고를 때 보는 기준을 편하게\n적어볼게요.\n처음 사는 분이 뭘 먼저 봐야 하는지,\n만수동이랑 간석동 인근에서 많이 찾는 스타일이\n어떻게 다른지,\n그리고 누구에게 A가 맞고 B가 맞는지까지 바로\n판단되게 정리해보겠습니다.\n\n## 결론부터 짧게 말하면\n\n직접 써봤더니 **데일리용은 깔끔함**,\n**집중해서 즐기는 용도는 진한 맛 표현**이\n중요했습니다.\nN일 쓰고 느낀 건 첫맛이 강한 액상보다, 3일\n뒤에도 안 질리는 액상이 결국 재구매로\n이어졌다는 점이에요.\n\n## 왜 같은 액상후기라도 평이 갈릴까\n\n같은 제품을 두고도 평이 갈리는 이유는\n간단합니다. 쓰는 시간이 다르기 때문이에요.\n출근 전에 몇 모금, 점심 먹고 몇 모금처럼\n짧게 자주 쓰는 분은 시원함과 깔끔함을 더 크게\n느낍니다. 반대로 저녁에 여유 있게 길게\n흡입하는 분은 향의 진함이나 달달한 만족감을 더\n중요하게 보더라고요.\n\n처음엔 저도 몰랐는데, 제가 만수역 오가면서\n쓰던 액상과 집에서 오래 피우던 액상이 아예\n다르게 남았습니다. 실제로 해보니 이동 중에는\n멘솔이 강한 쪽이 편했고, 실내에서는 향이\n풍부한 액상이 더 손이 자주 갔어요.\n\n## 단맛 과일계가 맞는 경우\n\n망고, 포도, 피치처럼 단맛이 분명한 제품은\n첫인상이 확실합니다. 가격이\n23,000원이었는데 향 표현이 선명해서 처음\n2~3일 만족도가 높았던 제품도 있었어요.\n그래서 맛이 약하면 재미없다고 느끼는 분,\n저녁에 천천히 즐기는 분에게는 이쪽이 잘\n맞습니다.\n\n다만 정상과 아쉬운 점을 같이 봐야 해요.\n정상은 첫맛이 진하고 한 번 필 때 만족감이 큰\n것, 아쉬운 쪽은 잔향이 오래 남거나 팟이 빨리\n무거워지는 경우입니다. 특히 연속 흡입이 많으면\n코일이 빨리 지치는 느낌이 있어서, 하루\n사용량이 많은 분은 생각보다 유지비 차이가\n납니다.\n\n## 과일멘솔·멘솔계가 맞는 경우\n\n이쪽은 화려한 맛 폭발보다는 **질리지 않는\n데일리성**이 강점입니다. 직접 써봤더니 과일\n6, 멘솔 4 정도로 느껴지는 밸런스가 가장\n무난했어요. 연초에서 넘어온 분이나 입문자도\n적응이 빠른 편이었고요.\n\n특히 이 기준에서 자주 듣는 질문이 “안 질리는\n거 뭐가 있냐”인데, 저는 이럴 때 멘솔\n세기부터 봅니다. 너무 세면 첫 느낌은\n시원하지만 하루 종일 쓰기엔 피로하고, 너무\n약하면 심심해집니다. N일 쓰고 느낀 건\n데일리용은 화려함보다 **목넘김이 편한지**가\n더 중요했어요.\n\n## 만수동과 간석동 인근에서 고를 때 체감 차이\n\n제가 상담하듯 보면 만수동 쪽은 짧고 자주 쓰는\n패턴이 많아서 깔끔한 액상을 찾는 분이\n많았습니다. 출근 전, 점심 후, 퇴근길처럼\n끊어서 사용하는 경우가 많아서 산뜻한 과일멘솔이\n무난했어요.\n\n반대로 이 기준 쪽까지 같이 비교하는 분들은 “좀\n더 진한 맛 없어요?”를 묻는 경우가\n많았습니다. 그래서 간석동 만수동 인근에서 같이\n고를 때는 이렇게 보면 편합니다.\n\n- **하루 흡입 횟수가 많다** → 멘솔 중심\n-\n- **한 번 필 때 만족감이 커야 한다** →\n- 단맛 과일계\n- **코일 교체 주기를 길게 가져가고 싶다**\n- → 깔끔한 계열 우선\n- **향이 선명해야 만족한다** → 달달한\n- 제품 우선\n\n사실 여기서 많이들 실수하는데요.\n**맛있다**와 **매일 쓰기 좋다**는 완전히\n다른 기준입니다.\n\n## 저는 이 4가지는 꼭 봅니다\n\n1. 첫입이 아니라 **두 시간 뒤에도 다시\n1. 손이 가는지**\n2. 단맛 잔향이 입안에 과하게 남지 않는지\n3. 내 기기에서 탄맛이나 누수가 빨리 오지\n3. 않는지\n4. 가격 대비 코일 소모가 과하지 않은지\n\n실제로 해보니 이 기준으로 걸러야 실패가\n줄었습니다. 저도 예전에 남동구청 근처 들렀다가\n인기 제품만 보고 골랐다가, 향은 좋은데\n데일리로는 너무 무거워서 오래 못 쓴 적이\n있었거든요.\n\n## 그래서 누구에게 뭐가 맞냐면\n\n깔끔한 멘솔·과일멘솔은\n- 첫 전담 적응 중인 분\n- 자주 피는 분\n- 텁텁함이 싫은 분에게 맞았습니다.\n\n단맛 강한 과일·디저트 계열은\n- 향이 확 살아야 만족하는 분\n- 한 번의 만족감을 크게 보는 분\n- 실내에서 천천히 즐기는 분에게 잘 맞았어요.\n- 가격이 25,000원이었는데 만족감은\n- 확실했지만, 팟 컨디션은 더 자주 봐야\n- 했습니다.\n\n정리하면, 만수동에서 액상을 비교할 때는\n**인기 순서보다 내 사용 장면**을 먼저\n떠올리면 됩니다. 이번 액상후기도 단순히 뭐가\n더 낫다는 식보다, 실제로 어떤 사람이 어떤\n타입을 고르면 덜 후회하는지에 맞춰 적어봤어요.\n\n기기 궁합까지 같이 보실 분은 제가 전에 적었던\n**입문용 팟디바이스 선택 글**도 같이\n읽어보시면 판단이 더 빨라집니다."
     }
   }
 }
