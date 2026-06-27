@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "type": "baseline_candidate",
-      "scenarioId": "topic-6ca55bd1",
-      "runId": "eval-47ed01b0",
-      "aggregateScore": 78,
-      "registered": true,
-      "reason": "candidate 등록 완료 (78점)",
-      "pipelineId": "pipe-fcd4a2f1",
-      "at": "2026-04-09T10:21:25.042Z"
-    },
-    {
       "type": "material_change",
       "originalTitle": "인천 전자담배 입문 가이드 테스트",
       "proposedTitle": "인천 전자담배 입문 가이드 | 처음이라면 이것만 알면 됩니다",
@@ -5715,7 +5705,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-a646df0d",
       "at": "2026-06-27T10:43:25.634Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부천 상동 전자담배 담뱃값 인상에 따른 경제적 부담과 대처법",
+      "proposedTitle": "부천 상동 전자담배 담뱃값 인상에 따른 경제적 부담과 대처법",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-e9b96710",
+      "at": "2026-06-27T10:43:39.162Z"
     }
   ],
-  "lastUpdated": "2026-06-27T10:43:25.634Z"
+  "lastUpdated": "2026-06-27T10:43:39.162Z"
 }
