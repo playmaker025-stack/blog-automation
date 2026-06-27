@@ -2986,10 +2986,10 @@
       "contentKind": "leaf",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "b",
       "createdAt": "2026-06-15T02:58:46.275Z",
-      "updatedAt": "2026-06-27T05:10:40.649Z"
+      "updatedAt": "2026-06-27T05:13:24.277Z"
     },
     {
       "topicId": "topic-f77e2891",
@@ -3461,5 +3461,5 @@
       "updatedAt": "2026-06-26T09:09:34.755Z"
     }
   ],
-  "lastUpdated": "2026-06-27T05:10:40.649Z"
+  "lastUpdated": "2026-06-27T05:13:24.277Z"
 }
