@@ -1,0 +1,19 @@
+{
+  "pipelineId": "pipe-adca3a3d",
+  "type": "approval_request",
+  "savedAt": "2026-06-27T10:42:34.994Z",
+  "data": {
+    "pipelineId": "pipe-adca3a3d",
+    "previousTitle": "",
+    "proposedTitle": "부천 상동 전자담배 담뱃값 인상에 따른 경제적 부담과 대처법",
+    "materialChange": false,
+    "materialChangeSignals": [],
+    "rationale": "AI 전략 수립이 지연되어 토픽 제목, 카테고리, 태그 기반의 안전 폴백 전략을 사용했습니다.",
+    "requestedAt": "2026-06-27T10:42:29.500Z",
+    "response": {
+      "approved": true,
+      "respondedAt": "2026-06-27T10:42:29.500Z",
+      "modifications": null
+    }
+  }
+}
