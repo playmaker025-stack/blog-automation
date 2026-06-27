@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "type": "gate_result",
-      "gate": "post-audit",
-      "passed": true,
-      "blockedBy": null,
-      "reason": "post-audit gate 통과",
-      "evalScore": 78,
-      "pipelineId": "pipe-fcd4a2f1",
-      "at": "2026-04-09T10:21:22.634Z"
-    },
-    {
       "type": "baseline_candidate",
       "scenarioId": "topic-6ca55bd1",
       "runId": "eval-47ed01b0",
@@ -5714,7 +5704,18 @@
       "errorName": "Error",
       "pipelineId": "pipe-883e2213",
       "at": "2026-06-27T10:42:40.647Z"
+    },
+    {
+      "type": "pipeline_failure",
+      "stage": "strategy-planning",
+      "topicId": "topic-2866ce9a",
+      "userId": "c",
+      "message": "Preflight check blocked writing: Same topicId already has ready:post-89ac2211 / Similar existing title found: 부천 상동 전자담배 담뱃값 인상에 따른 경제적 부담과 대처법 (ready, 1)",
+      "recoveredTopicToDraft": false,
+      "errorName": "Error",
+      "pipelineId": "pipe-a646df0d",
+      "at": "2026-06-27T10:43:25.634Z"
     }
   ],
-  "lastUpdated": "2026-06-27T10:42:40.647Z"
+  "lastUpdated": "2026-06-27T10:43:25.634Z"
 }
