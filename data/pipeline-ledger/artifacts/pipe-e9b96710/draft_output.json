@@ -1,0 +1,94 @@
+{
+  "pipelineId": "pipe-e9b96710",
+  "type": "draft_output",
+  "savedAt": "2026-06-27T10:44:35.174Z",
+  "data": {
+    "postId": "post-12d2e427",
+    "title": "부천 상동 전자담배 담뱃값 인상에 따른 경제적 부담과 대처법",
+    "wordCount": 1896,
+    "generatedAt": "2026-06-27T10:44:34.078Z",
+    "contentPath": "data/posting-list/posts/post-12d2e427/content.md",
+    "corpusSummaryUsed": true,
+    "finalDraftCheck": {
+      "ok": false,
+      "blockingReasons": [
+        "main keyword \"부천\" 10회 사용, 상한 7회 초과",
+        "sub keyword \"담뱃값\" 6회 사용, 상한 3회 초과"
+      ],
+      "warnings": [
+        "medium overlap: 도입 패턴 반복 위험 customer_question",
+        "medium overlap: 결론 패턴 반복 위험 criteria_summary"
+      ],
+      "matchedForbiddenPhrases": [],
+      "keywordStuffingFindings": [
+        "main keyword \"부천\" 10회 사용, 상한 7회 초과",
+        "sub keyword \"담뱃값\" 6회 사용, 상한 3회 초과"
+      ],
+      "deferFindings": [],
+      "contractCoverageFindings": [],
+      "overlapFindings": [
+        "medium overlap: 도입 패턴 반복 위험 customer_question",
+        "medium overlap: 결론 패턴 반복 위험 criteria_summary"
+      ]
+    },
+    "finalDraftRewrite": {
+      "attempted": true,
+      "applied": true,
+      "instructions": [
+        "차단 사유 수정: 질문문/따옴표 안 exact keyword 사용: 상동 / \"상동 전자담배 연기 알레르기? 코·기도 붓는\"",
+        "차단 사유 수정: main keyword \"부천\" 10회 사용, 상한 7회 초과",
+        "차단 사유 수정: sub keyword \"담뱃값\" 6회 사용, 상한 3회 초과",
+        "키워드/질문문 자연화: 질문문/따옴표 안 exact keyword 사용: 상동 / \"상동 전자담배 연기 알레르기? 코·기도 붓는\"",
+        "키워드/질문문 자연화: main keyword \"부천\" 10회 사용, 상한 7회 초과",
+        "키워드/질문문 자연화: sub keyword \"담뱃값\" 6회 사용, 상한 3회 초과"
+      ],
+      "beforeCheck": {
+        "ok": false,
+        "blockingReasons": [
+          "질문문/따옴표 안 exact keyword 사용: 상동 / \"상동 전자담배 연기 알레르기? 코·기도 붓는\"",
+          "main keyword \"부천\" 10회 사용, 상한 7회 초과",
+          "sub keyword \"담뱃값\" 6회 사용, 상한 3회 초과"
+        ],
+        "warnings": [
+          "medium overlap: 도입 패턴 반복 위험 customer_question",
+          "medium overlap: 결론 패턴 반복 위험 criteria_summary"
+        ],
+        "matchedForbiddenPhrases": [],
+        "keywordStuffingFindings": [
+          "질문문/따옴표 안 exact keyword 사용: 상동 / \"상동 전자담배 연기 알레르기? 코·기도 붓는\"",
+          "main keyword \"부천\" 10회 사용, 상한 7회 초과",
+          "sub keyword \"담뱃값\" 6회 사용, 상한 3회 초과"
+        ],
+        "deferFindings": [],
+        "contractCoverageFindings": [],
+        "overlapFindings": [
+          "medium overlap: 도입 패턴 반복 위험 customer_question",
+          "medium overlap: 결론 패턴 반복 위험 criteria_summary"
+        ]
+      },
+      "afterCheck": {
+        "ok": false,
+        "blockingReasons": [
+          "main keyword \"부천\" 10회 사용, 상한 7회 초과",
+          "sub keyword \"담뱃값\" 6회 사용, 상한 3회 초과"
+        ],
+        "warnings": [
+          "medium overlap: 도입 패턴 반복 위험 customer_question",
+          "medium overlap: 결론 패턴 반복 위험 criteria_summary"
+        ],
+        "matchedForbiddenPhrases": [],
+        "keywordStuffingFindings": [
+          "main keyword \"부천\" 10회 사용, 상한 7회 초과",
+          "sub keyword \"담뱃값\" 6회 사용, 상한 3회 초과"
+        ],
+        "deferFindings": [],
+        "contractCoverageFindings": [],
+        "overlapFindings": [
+          "medium overlap: 도입 패턴 반복 위험 customer_question",
+          "medium overlap: 결론 패턴 반복 위험 criteria_summary"
+        ]
+      },
+      "content": "부천에서 전자담배로 바꾸면 담뱃값 인상에 따른\n부담이 줄어드냐는 질문을 정말 많이 받습니다.\n결론부터 말하면 **하루 한 갑 기준이라면 초기\n기기값 3만~6만원이 들어도 2~4주 안에 지출\n차이를 체감하는 경우가 많습니다.**\n\n다만 무조건 싸게 끝나는 건 아닙니다.\n**액상, 팟·코일 교체비까지 포함한 한 달\n총비용**을 같이 봐야 하고, 처음 선택을\n잘못하면 오히려 재구매가 잦아져 부담이 커질 수\n있습니다. 그래서 오늘은 부천에서 전자담배를\n알아볼 때 뭘 기준으로 봐야 하는지, 방문 전에\n무엇을 확인하면 좋은지 딱 필요한 내용만\n정리해보겠습니다.\n\n오늘 글은 이렇게 보시면 됩니다.\n담뱃값이 왜 더 크게 부담되는지,\n부천에서 어떤 기준으로 골라야 덜 아쉬운지,\n그리고 방문 전에 꼭 물어봐야 할 것까지\n순서대로 말씀드릴게요.\n직접 써봤더니 이 세 가지만 알아도 선택이 훨씬\n쉬워졌습니다.\n\n## 담뱃값이 더 아프게 느껴지는 이유\n\n가격이 오른 사실 자체보다 더 큰 건 **매일\n반복되는 지출**이라는 점입니다. 하루 한\n갑이면 하루 금액은 익숙해 보여도, 일주일과 한\n달로 바꾸면 체감이 확 달라집니다. 처음엔 저도\n몰랐는데, “오늘 얼마 썼지?”보다 “이번 달에\n얼마 나가나?”로 계산해보면 부담이 훨씬\n선명하게 보이더라고요.\n\n전자담배는 여기서 선택지가 됩니다. 하지만\n전자담배도 제품마다 유지비 차이가 큽니다.\n실제로 해보니 기기 본체 가격보다 **소모품\n교체 주기와 액상 사용량**이 더 중요했습니다.\n가격이 45,000원이었는데 막상 팟 교체가\n빠르면 생각보다 월 지출이 올라가는 경우도\n있었습니다.\n\n## 부천에서 고를 때 먼저 봐야 하는 기준\n\n부천에서 상담받을 때는 복잡하게 보지 말고 세\n가지만 먼저 확인하시면 됩니다.\n\n### 하루 사용량이 어느 정도인지\n\n하루 반 갑 이하인지, 한 갑 이상인지부터\n나눠서 봐야 합니다.\n직접 써봤더니 사용량이 적은 분은 간편한 팟형이\n편했고, 많이 쓰는 분은 배터리나 액상 용량이\n너무 작은 제품을 고르면 결국 추가 지출이\n생기기 쉬웠습니다.\n\n### 소모품 가격이 공개되어 있는지\n\n기기값만 보고 결정하면 나중에 아쉬운 일이\n많습니다.\n팟 1개 가격, 코일 교체 주기, 액상 한 병\n사용 기간을 같이 들어야 실제 유지비가\n보입니다. N일 쓰고 느낀 건, 처음\n결제금액보다 **한 달 뒤 다시 얼마\n들어가는지**가 훨씬 중요하다는 점이었습니다.\n\n### 관리가 쉬운 제품인지\n\n입문자는 누수, 탄맛, 충전 방식에서 금방\n불편함을 느낍니다.\n처음엔 저도 디자인 먼저 봤는데, 실제로 해보니\n관리가 번거로운 제품은 손이 안 가더라고요.\n결국 자주 안 쓰게 되면 경제적 부담을 줄이려던\n목적도 흐려집니다.\n\n## 실패를 줄이는 비교 기준\n\n여기서 많이들 실수하는데요.\n“제일 싼 제품”만 찾으면 오히려 만족도가\n떨어질 수 있습니다.\n\n비교할 때는 이렇게 보시면 됩니다.\n\n- **입문자**: 버튼 조작이 쉬운지, 설명을\n- 이해하기 쉬운지\n- **사용량 많은 분**: 배터리 지속시간과\n- 액상 소모 속도\n- **맛을 중요하게 보는 분**: 액상\n- 호환성, 팟·코일 수급이 쉬운지\n\n반대로 상담할 때 경계할 부분도 있습니다.\n\n- 소모품 가격 설명이 흐릿함\n- 교체 주기를 대충 말함\n- 내 흡연량을 묻지 않고 바로 제품만 권함\n\n부천에서 전자담배를 알아볼 때는 이런 차이가 꽤\n큽니다. 특히 **담뱃값인상 부천** 흐름으로\n검색해 들어오신 분들은 “당장 얼마가 싸냐”보다\n“계속 쓸 수 있느냐”를 같이 보셔야 합니다.\n저는 직접 써봤더니 편하게 유지되는 제품이 결국\n가장 덜 부담스러웠습니다.\n\n## 방문 전에 미리 확인하면 좋은 것\n\n매장 가기 전에 아래 내용만 메모해도 훨씬\n수월합니다.\n\n- 기기 본체 가격\n- 팟 또는 코일 1개 가격\n- 액상 1병으로 대략 며칠 쓰는지\n- 누수·탄맛이 날 때 점검 가능한지\n- 초보자 설명을 얼마나 자세히 해주는지\n\n중동 쪽에서 오시는 분들도 보통 이 부분을 가장\n많이 물어보시더라고요. 실제로 해보니 설명이\n자세한 곳일수록 처음 실수가 적었습니다. 특히\n**담뱃값인상** 때문에 전환을 고민하는\n상황이라면, 무조건 저렴한 제품보다 관리\n난이도와 재구매 주기를 같이 확인하는 게\n현실적인 대처법입니다.\n\n## 결국 어떻게 판단하면 되나\n\n정리하면 간단합니다.\n부천에서 전자담배를 알아볼 때는 **하루\n사용량, 한 달 유지비, 관리 편의성** 이 세\n가지를 함께 보시면 됩니다. 담뱃값이 오를수록\n순간 가격보다 누적 비용 차이가 더 크게\n느껴집니다.\n\n가격이 30,000원대라서 바로 끌리는 제품도\n있지만, 처음 한 달 총비용으로 다시 계산해보면\n결과가 달라질 수 있습니다. 처음엔 저도\n몰랐는데, 방문 전에 소모품 가격과 교체 주기만\n확인해도 실패 확률이 꽤 줄었습니다.\n\n연기나 자극감까지 함께 걱정된다면 **[부천\n이 기준 전자담배 연기 알레르기? 코·기도 붓는\n이유와\n대처법](https://blog.naver.co\nm/mansur_vape/224275412143\n)** 글도 이어서 보시면 판단에 도움이\n됩니다. 다음엔 입문자용 기기 선택 기준도 같이\n보시면, 부천에서 내 사용량에 맞는 제품을\n고르기가 훨씬 편해질 거예요."
+    }
+  }
+}
