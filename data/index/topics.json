@@ -3459,7 +3459,30 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-25T08:59:54.351Z",
       "updatedAt": "2026-06-26T09:09:34.755Z"
+    },
+    {
+      "topicId": "topic-2866ce9a",
+      "title": "부천 상동 전자담배 담뱃값 인상에 따른 경제적 부담과 대처법",
+      "description": "2026년 담뱃값 인상 예정에 따른 부천 상동 지역 전자담배 사용자들의 경제적 부담과 합리적 대처 방법을 설명합니다.",
+      "category": "전자담배",
+      "tags": [
+        "부천",
+        "상동",
+        "전자담배",
+        "담뱃값인상",
+        "경제적부담",
+        "대처법"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "leaf",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-27T10:41:44.565Z",
+      "updatedAt": "2026-06-27T10:41:44.565Z"
     }
   ],
-  "lastUpdated": "2026-06-27T10:02:04.751Z"
+  "lastUpdated": "2026-06-27T10:41:44.565Z"
 }
