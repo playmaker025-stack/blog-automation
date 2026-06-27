@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "type": "corpus_retrieval",
-      "userId": "c",
-      "selectedCount": 0,
-      "strategy": "fallback_recent",
-      "staleCount": 0,
-      "staleWarnings": [],
-      "topScores": [],
-      "targetCategory": "C블로그",
-      "pipelineId": "pipe-fcd4a2f1",
-      "at": "2026-04-09T10:19:14.970Z"
-    },
-    {
       "type": "gate_result",
       "gate": "pre-write",
       "passed": true,
@@ -5713,7 +5701,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-c105ebd5",
       "at": "2026-06-27T05:10:36.447Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "부천 상동 전자담배 담뱃값 인상에 따른 경제적 부담과 대처법",
+      "proposedTitle": "부천 상동 전자담배 담뱃값 인상에 따른 경제적 부담과 대처법",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-adca3a3d",
+      "at": "2026-06-27T10:42:13.159Z"
     }
   ],
-  "lastUpdated": "2026-06-27T05:10:36.447Z"
+  "lastUpdated": "2026-06-27T10:42:13.159Z"
 }
