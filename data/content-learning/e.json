@@ -2,6 +2,19 @@
   "userId": "e",
   "entries": [
     {
+      "postId": "post-manual-mqxpu5a3",
+      "topicId": "",
+      "userId": "e",
+      "title": "비행기에서 전자담배는 어떻게 보관할까요? 해외여행 꿀팁",
+      "naverPostUrl": "https://blog.naver.com/godmaker0/224329849103",
+      "evalScore": null,
+      "wordCount": 0,
+      "publishedAt": "2026-06-28T11:38:52.642Z",
+      "topicSource": null,
+      "contentKind": null,
+      "learnedAt": "2026-06-28T11:38:54.864Z"
+    },
+    {
       "postId": "post-manual-mqnpbb95",
       "topicId": "",
       "userId": "e",
@@ -145,5 +158,5 @@
       "learnedAt": "2026-05-10T12:02:04.252Z"
     }
   ],
-  "updatedAt": "2026-06-21T11:26:34.384Z"
+  "updatedAt": "2026-06-28T11:38:54.864Z"
 }
