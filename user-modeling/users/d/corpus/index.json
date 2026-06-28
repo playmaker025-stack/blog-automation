@@ -2,6 +2,15 @@
   "userId": "d",
   "samples": [
     {
+      "sampleId": "published-post-manual-mqxatryt",
+      "title": "전자담배 액상 고를 때 다들 한 번쯤 하는 착각 😂",
+      "category": "published-post",
+      "tags": [],
+      "wordCount": 6072,
+      "publishedAt": "2026-06-28T04:38:40.588Z",
+      "filePath": "user-modeling/users/d/corpus/samples/published-post-manual-mqxatryt.md"
+    },
+    {
       "sampleId": "published-post-manual-mquuqo4l",
       "title": "전자담배 액상 새로 샀을 때 가장 기대되는 첫 모금의 법칙 😆",
       "category": "published-post",
@@ -306,16 +315,7 @@
       "wordCount": 6432,
       "publishedAt": "2026-05-06T12:38:43.649Z",
       "filePath": "user-modeling/users/d/corpus/samples/published-post-manual-mou1myzp.md"
-    },
-    {
-      "sampleId": "published-post-manual-mor88gnv",
-      "title": "전자담배 액상 vs 일회용 뭐가 더 나을까 – 결국 이 차이입니다",
-      "category": "published-post",
-      "tags": [],
-      "wordCount": 5864,
-      "publishedAt": "2026-05-04T13:20:05.432Z",
-      "filePath": "user-modeling/users/d/corpus/samples/published-post-manual-mor88gnv.md"
     }
   ],
-  "lastUpdated": "2026-06-26T11:32:57.379Z"
+  "lastUpdated": "2026-06-28T04:38:46.689Z"
 }
