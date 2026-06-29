@@ -1,0 +1,983 @@
+{
+  "runId": "eval-8e7621d7",
+  "scores": {
+    "originality": 65,
+    "style_match": 70,
+    "structure": 68,
+    "engagement": 66,
+    "forbidden_check": 100
+  },
+  "aggregateScore": 60,
+  "reasoning": {
+    "originality": "주제에 대해 비교적 구체적인 실제 경험과 사용 패턴을 바탕으로 작성되어 있어 독창성이 평균 이상입니다. 다만, 전자담배 관련 정보가 흔한 주제라 완전히 새로운 관점은 부족합니다.",
+    "style_match": "친근하고 이해하기 쉬운 문체로 작성되어 있어 요청한 톤에 잘 맞습니다. 다만 일부 문장 연결이 다소 매끄럽지 않은 부분이 있어 개선 여지가 있습니다.",
+    "structure": "허브형 구조를 갖추고 있으며, 도입부에서 전체 개요를 제시하고, 유형별 추천과 주의사항, 체크리스트, 관련 링크 안내까지 포함해 체계적입니다. 다만 내부링크 흐름이 다소 단절된 느낌이 있어 보완 필요합니다.",
+    "engagement": "실제 사용 경험과 구체적인 예시를 들어 독자의 관심을 끌고 있으나, 키워드 반복과 일부 문장 중복으로 인해 읽는 재미가 다소 떨어질 수 있습니다.",
+    "forbidden_check": "내부 SEO 용어, 워크플로우 용어 등 금지된 표현은 전혀 포함되어 있지 않아 매우 우수합니다.",
+    "seo": "SEO 점수 88점. 제목 길이가 모바일 검색 노출 구간에 비교적 안정적입니다.",
+    "naver_logic": "네이버 로직 점수 17점. 문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다."
+  },
+  "recommendations": [
+    "제목 앞부분에 '만수역'를 더 빠르게 노출하면 검색 의도가 선명해집니다.",
+    "메인 키워드 '만수역'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요.",
+    "허브 참조 링크는 '팟 전자담배 vs 일회용 전자담배 차이 − 입문자 추천 전자담배 비교 (부평동전자담배)' 제목과 https://blog.naver.com/mansur_vape/224213849431 URL을 정확히 같은 쌍으로 써야 합니다.",
+    "리프 참조 링크는 '발라리안 맥스프로 전자담배 사용 후기와 팁' 제목과 https://blog.naver.com/mansur_vape/224307036707 URL을 정확히 같은 쌍으로 써야 합니다.",
+    "C-Rank 중심 글이라면 지역성, 실사용, 내부링크 흐름을 조금 더 분명히 보여주는 편이 좋습니다.",
+    "키워드 '만수역'은 검색 의도에 부합하지 않으므로 '일회용 전자담배' 중심으로 키워드 최적화 방향을 수정하세요."
+  ],
+  "pass": false,
+  "seoEvaluation": {
+    "score": 88,
+    "evidence": [
+      "제목 길이가 모바일 검색 노출 구간에 비교적 안정적입니다.",
+      "도입부에 메인 키워드가 보여 검색 의도 연결이 자연스럽습니다.",
+      "첫 문장에 메인 키워드가 보여 검색 의도를 바로 연결합니다.",
+      "소제목에도 메인 키워드가 반영되어 문서 구조와 주제가 잘 맞물립니다.",
+      "결론부에도 메인 키워드가 다시 등장해 문서 마무리가 일관됩니다.",
+      "'일회용' 본문 1회는 현재 권장 범위입니다."
+    ],
+    "improvements": [
+      "제목 앞부분에 '만수역'를 더 빠르게 노출하면 검색 의도가 선명해집니다.",
+      "메인 키워드 '만수역'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+    ],
+    "keywordReport": {
+      "items": [
+        {
+          "keyword": "만수역",
+          "count": 10,
+          "status": "caution",
+          "targetMin": 4,
+          "targetMax": 7,
+          "role": "main",
+          "recommendation": "메인 키워드 '만수역'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+        },
+        {
+          "keyword": "일회용",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '일회용' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "사용법",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '사용법' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "추천과",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '추천과' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "사용",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '사용' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "주의사항",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '주의사항' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "일회용 만수역",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '일회용 만수역' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "사용법 만수역",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '사용법 만수역' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "mainKeyword": {
+        "keyword": "만수역",
+        "count": 10,
+        "status": "caution",
+        "targetMin": 4,
+        "targetMax": 7,
+        "role": "main",
+        "recommendation": "메인 키워드 '만수역'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+      },
+      "subKeywords": [
+        {
+          "keyword": "일회용",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '일회용' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "사용법",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '사용법' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "추천과",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '추천과' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "사용",
+          "count": 2,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '사용' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "주의사항",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '주의사항' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "일회용 만수역",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '일회용 만수역' 반복은 현재 적정합니다."
+        },
+        {
+          "keyword": "사용법 만수역",
+          "count": 1,
+          "status": "ok",
+          "targetMin": 1,
+          "targetMax": 3,
+          "role": "sub",
+          "recommendation": "서브 키워드 '사용법 만수역' 반복은 현재 적정합니다."
+        }
+      ],
+      "bridgeKeywords": [],
+      "internalLinkAnchors": [],
+      "forbiddenItems": [
+        {
+          "keyword": "선행포스팅",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'선행포스팅'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "키워드빌드업",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'키워드빌드업'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "SEO 점수",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'SEO 점수'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "검색의도",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'검색의도'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "메인 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'메인 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "서브 키워드",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'서브 키워드'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "본문 n회",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'본문 n회'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "적정 범위",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'적정 범위'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "내부링크 설계",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'내부링크 설계'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "허브/리프",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'허브/리프'는 본문에 노출되지 않았습니다."
+        },
+        {
+          "keyword": "상위노출 가능성",
+          "count": 0,
+          "status": "ok",
+          "targetMin": 0,
+          "targetMax": 0,
+          "role": "forbidden",
+          "recommendation": "'상위노출 가능성'는 본문에 노출되지 않았습니다."
+        }
+      ],
+      "contractApplied": true,
+      "overallRisk": "medium",
+      "overallRiskSummary": "일부 키워드 조정이 필요하지만, 문맥을 유지하며 보정할 수 있습니다.",
+      "paragraphWarnings": [],
+      "seoKeywordItems": [
+        {
+          "keyword": "만수역",
+          "role": "main",
+          "exactCount": 8,
+          "includedCount": 2,
+          "effectiveCount": 10,
+          "risk": "caution",
+          "note": "긴 계획 키워드에 포함된 2회를 분리해 exact 8회 / included 2회로 계산했습니다.",
+          "exactPhraseExclusionApplied": true
+        },
+        {
+          "keyword": "일회용",
+          "role": "sub",
+          "exactCount": 0,
+          "includedCount": 1,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드에 포함된 1회를 분리해 exact 0회 / included 1회로 계산했습니다.",
+          "exactPhraseExclusionApplied": true
+        },
+        {
+          "keyword": "사용법",
+          "role": "sub",
+          "exactCount": 0,
+          "includedCount": 1,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드에 포함된 1회를 분리해 exact 0회 / included 1회로 계산했습니다.",
+          "exactPhraseExclusionApplied": true
+        },
+        {
+          "keyword": "추천과",
+          "role": "sub",
+          "exactCount": 2,
+          "includedCount": 0,
+          "effectiveCount": 2,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "사용",
+          "role": "sub",
+          "exactCount": 2,
+          "includedCount": 0,
+          "effectiveCount": 2,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "주의사항",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "일회용 만수역",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        },
+        {
+          "keyword": "사용법 만수역",
+          "role": "sub",
+          "exactCount": 1,
+          "includedCount": 0,
+          "effectiveCount": 1,
+          "risk": "ok",
+          "note": "긴 계획 키워드 포함형이 없어 exact 기준으로만 계산했습니다.",
+          "exactPhraseExclusionApplied": false
+        }
+      ],
+      "requiredEntityChecks": [],
+      "bodyRepetitionItems": [
+        {
+          "token": "입니다",
+          "count": 5,
+          "category": "sentence_ending",
+          "severity": "notice",
+          "message": "'입니다' 문장 마무리가 반복됩니다.",
+          "suggestion": "문장 종결 표현을 섞어서 리듬을 바꿔 주세요.",
+          "isSeoRisk": false
+        }
+      ],
+      "legacyTokenItems": [
+        {
+          "token": "만수역",
+          "count": 10,
+          "sourceKeywords": [
+            "만수역",
+            "일회용 만수역",
+            "사용법 만수역"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "추천과",
+          "count": 2,
+          "sourceKeywords": [
+            "추천과"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "해보면",
+          "count": 2,
+          "sourceKeywords": [
+            "해보면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "사용",
+          "count": 2,
+          "sourceKeywords": [
+            "사용"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "사용법 만수역",
+          "count": 1,
+          "sourceKeywords": [
+            "사용법 만수역"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "일회용 만수역",
+          "count": 1,
+          "sourceKeywords": [
+            "일회용 만수역"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "구분해보면",
+          "count": 1,
+          "sourceKeywords": [
+            "구분해보면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "주의사항",
+          "count": 1,
+          "sourceKeywords": [
+            "주의사항"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "구월동",
+          "count": 1,
+          "sourceKeywords": [
+            "구월동"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "사용법",
+          "count": 1,
+          "sourceKeywords": [
+            "사용법",
+            "사용법 만수역"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "아니면",
+          "count": 1,
+          "sourceKeywords": [
+            "아니면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "일회용",
+          "count": 1,
+          "sourceKeywords": [
+            "일회용",
+            "일회용 만수역"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "tokenItems": [
+        {
+          "token": "만수역",
+          "count": 10,
+          "sourceKeywords": [
+            "만수역",
+            "일회용 만수역",
+            "사용법 만수역"
+          ],
+          "note": "반복이 많은 편입니다. 이 단어가 메인 축이라도 문단마다 되풀이되면 과밀로 보일 수 있습니다."
+        },
+        {
+          "token": "추천과",
+          "count": 2,
+          "sourceKeywords": [
+            "추천과"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "해보면",
+          "count": 2,
+          "sourceKeywords": [
+            "해보면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "사용",
+          "count": 2,
+          "sourceKeywords": [
+            "사용"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "사용법 만수역",
+          "count": 1,
+          "sourceKeywords": [
+            "사용법 만수역"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "일회용 만수역",
+          "count": 1,
+          "sourceKeywords": [
+            "일회용 만수역"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "구분해보면",
+          "count": 1,
+          "sourceKeywords": [
+            "구분해보면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "주의사항",
+          "count": 1,
+          "sourceKeywords": [
+            "주의사항"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "구월동",
+          "count": 1,
+          "sourceKeywords": [
+            "구월동"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "사용법",
+          "count": 1,
+          "sourceKeywords": [
+            "사용법",
+            "사용법 만수역"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "아니면",
+          "count": 1,
+          "sourceKeywords": [
+            "아니면"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        },
+        {
+          "token": "일회용",
+          "count": 1,
+          "sourceKeywords": [
+            "일회용",
+            "일회용 만수역"
+          ],
+          "note": "실제 본문에서 확인된 키워드 축입니다."
+        }
+      ],
+      "totalMentions": 19,
+      "introCoverage": true,
+      "titleFrontLoaded": false,
+      "bodyLength": 2199,
+      "summary": [
+        "메인 키워드 '만수역' 본문 10회",
+        "제목 앞부분의 메인 키워드 배치가 약합니다.",
+        "전체 반복 위험도 medium"
+      ],
+      "recommendations": [
+        "메인 키워드 '만수역'가 주의 구간입니다. 반복 문장을 줄이고 같은 의미는 설명형 문장으로 바꿔 주세요."
+      ]
+    },
+    "keywordMetrics": [
+      {
+        "keyword": "만수역",
+        "role": "main",
+        "label": "메인 키워드",
+        "completenessScore": 75,
+        "exposurePotentialScore": 67,
+        "count": 10,
+        "targetMin": 4,
+        "targetMax": 7,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "summary": "제목 미포함 / 도입부 포함 / 본문 10회",
+        "action": "'만수역'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "일회용",
+        "role": "sub",
+        "label": "서브 키워드 1",
+        "completenessScore": 63,
+        "exposurePotentialScore": 79,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 포함 / 도입부 부족 / 본문 1회",
+        "action": "도입부에서 '일회용' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "사용법",
+        "role": "sub",
+        "label": "서브 키워드 2",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 1회",
+        "action": "'사용법'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "추천과",
+        "role": "sub",
+        "label": "서브 키워드 3",
+        "completenessScore": 63,
+        "exposurePotentialScore": 79,
+        "count": 2,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 포함 / 도입부 부족 / 본문 2회",
+        "action": "도입부에서 '추천과' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "사용",
+        "role": "sub",
+        "label": "서브 키워드 4",
+        "completenessScore": 69,
+        "exposurePotentialScore": 79,
+        "count": 2,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 포함 / 도입부 부족 / 본문 2회",
+        "action": "도입부에서 '사용' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "주의사항",
+        "role": "sub",
+        "label": "서브 키워드 5",
+        "completenessScore": 72,
+        "exposurePotentialScore": 82,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": true,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 포함 / 도입부 부족 / 본문 1회",
+        "action": "도입부에서 '주의사항' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "keyword": "일회용 만수역",
+        "role": "sub",
+        "label": "서브 키워드 6",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 1회",
+        "action": "'일회용 만수역'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      },
+      {
+        "keyword": "사용법 만수역",
+        "role": "sub",
+        "label": "서브 키워드 7",
+        "completenessScore": 49,
+        "exposurePotentialScore": 65,
+        "count": 1,
+        "targetMin": 1,
+        "targetMax": 3,
+        "titleIncluded": false,
+        "titleFrontLoaded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "summary": "제목 미포함 / 도입부 부족 / 본문 1회",
+        "action": "'사용법 만수역'를 제목이나 핵심 소제목에 더 분명하게 배치해 주세요."
+      }
+    ],
+    "combinationCoverageScore": 72,
+    "combinationMetrics": [
+      {
+        "phrase": "만수역",
+        "role": "main",
+        "priority": "core",
+        "exactMatches": 10,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": true,
+        "introIncluded": true,
+        "earlyCoverage": true,
+        "coverageScore": 90,
+        "exposurePotentialScore": 83,
+        "summary": "제목 약함 · 도입부 연결 · 소제목 연결 · 10회 직접 표현",
+        "action": "'만수역' 조합을 제목이나 제목 가까운 소제목에 더 직접적으로 드러내는 편이 좋습니다."
+      },
+      {
+        "phrase": "일회용",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 74,
+        "exposurePotentialScore": 71,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '일회용' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "사용법",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '사용법' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "추천과",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 2,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 74,
+        "exposurePotentialScore": 71,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 보강 가능 · 2회 직접 표현",
+        "action": "첫 두 문단 안에서 '추천과' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "사용",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 2,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 74,
+        "exposurePotentialScore": 71,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 보강 가능 · 2회 직접 표현",
+        "action": "첫 두 문단 안에서 '사용' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "주의사항",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": true,
+        "headingIncluded": true,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 82,
+        "exposurePotentialScore": 79,
+        "summary": "제목 연결 · 도입부 약함 · 소제목 연결 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '주의사항' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "일회용 만수역",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '일회용 만수역' 검색 의도를 더 직접적으로 받아 주세요."
+      },
+      {
+        "phrase": "사용법 만수역",
+        "role": "support",
+        "priority": "support",
+        "exactMatches": 1,
+        "tokenCoverage": 1,
+        "titleIncluded": false,
+        "headingIncluded": false,
+        "introIncluded": false,
+        "earlyCoverage": false,
+        "coverageScore": 58,
+        "exposurePotentialScore": 52,
+        "summary": "제목 약함 · 도입부 약함 · 소제목 보강 가능 · 1회 직접 표현",
+        "action": "첫 두 문단 안에서 '사용법 만수역' 검색 의도를 더 직접적으로 받아 주세요."
+      }
+    ]
+  },
+  "naverLogicEvaluation": {
+    "primary": "c-rank",
+    "label": "C-Rank 중심",
+    "completenessScore": 17,
+    "reason": "이 주제는 지역성, 실사용 맥락, 내부링크 연결이 중요해서 C-Rank 관점이 더 강합니다.",
+    "evidence": [
+      "문제 상황과 선택 기준이 본문에 드러나 검색 의도 연결이 자연스럽습니다.",
+      "비교와 선택 기준 요소가 살아 있어 실전 검색 의도에 잘 맞습니다.",
+      "내부링크 설계 대상이 있어 주제권 확장 관점이 살아 있습니다.",
+      "지역성과 실사용 맥락이 보여 C-Rank 관점의 주제권 연결이 자연스럽습니다.",
+      "실사용 맥락과 검색자 질문이 보여 D.I.A. 관점의 설득력이 있습니다."
+    ],
+    "improvements": [
+      "허브 참조 링크는 '팟 전자담배 vs 일회용 전자담배 차이 − 입문자 추천 전자담배 비교 (부평동전자담배)' 제목과 https://blog.naver.com/mansur_vape/224213849431 URL을 정확히 같은 쌍으로 써야 합니다.",
+      "리프 참조 링크는 '발라리안 맥스프로 전자담배 사용 후기와 팁' 제목과 https://blog.naver.com/mansur_vape/224307036707 URL을 정확히 같은 쌍으로 써야 합니다.",
+      "C-Rank 중심 글이라면 지역성, 실사용, 내부링크 흐름을 조금 더 분명히 보여주는 편이 좋습니다."
+    ]
+  },
+  "postId": "post-7e859fb5",
+  "savedAt": "2026-06-29T02:50:27.539Z"
+}
