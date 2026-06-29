@@ -3482,7 +3482,29 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-27T10:41:44.565Z",
       "updatedAt": "2026-06-27T11:30:51.789Z"
+    },
+    {
+      "topicId": "topic-b0fec127",
+      "title": "만수역 일회용 전자담배 추천과 사용 시 주의사항 완벽 가이드",
+      "description": "만수역 인근에서 구매 가능한 일회용 전자담배 추천 제품과 올바른 사용법, 주의해야 할 점을 상세히 안내합니다.",
+      "category": "전자담배",
+      "tags": [
+        "만수역",
+        "일회용",
+        "전자담배",
+        "추천",
+        "사용법"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-29T02:47:38.309Z",
+      "updatedAt": "2026-06-29T02:47:38.309Z"
     }
   ],
-  "lastUpdated": "2026-06-27T11:30:51.789Z"
+  "lastUpdated": "2026-06-29T02:47:38.309Z"
 }
