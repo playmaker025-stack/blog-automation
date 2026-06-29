@@ -1,19 +1,6 @@
 {
   "entries": [
     {
-      "type": "material_change",
-      "originalTitle": "인천 전자담배 입문 가이드 테스트",
-      "proposedTitle": "인천 전자담배 입문 가이드 | 처음이라면 이것만 알면 됩니다",
-      "isMaterial": false,
-      "triggeredSignals": [
-        "coreKeywordChanged"
-      ],
-      "stringSimilarity": 0.43999999999999995,
-      "overrideByHighSim": false,
-      "pipelineId": "pipe-4cad2fb2",
-      "at": "2026-04-09T10:30:08.269Z"
-    },
-    {
       "type": "approval_ux",
       "materialChange": false,
       "requestedAt": "2026-04-09T10:30:10.398Z",
@@ -5716,7 +5703,18 @@
       "overrideByHighSim": true,
       "pipelineId": "pipe-e9b96710",
       "at": "2026-06-27T10:43:39.162Z"
+    },
+    {
+      "type": "material_change",
+      "originalTitle": "일회용 전자담배 추천과 사용 시 주의사항 완벽 가이드",
+      "proposedTitle": "일회용 전자담배 추천과 사용 시 주의사항 완벽 가이드",
+      "isMaterial": false,
+      "triggeredSignals": [],
+      "stringSimilarity": 1,
+      "overrideByHighSim": true,
+      "pipelineId": "pipe-23743cb4",
+      "at": "2026-06-29T02:48:16.248Z"
     }
   ],
-  "lastUpdated": "2026-06-27T10:43:39.162Z"
+  "lastUpdated": "2026-06-29T02:48:16.248Z"
 }
