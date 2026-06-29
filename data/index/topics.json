@@ -3500,10 +3500,10 @@
       "contentKind": "hub",
       "feasibility": null,
       "relatedSources": [],
-      "status": "in-progress",
+      "status": "draft",
       "assignedUserId": "c",
       "createdAt": "2026-06-29T02:47:38.309Z",
-      "updatedAt": "2026-06-29T02:48:42.608Z"
+      "updatedAt": "2026-06-29T02:51:26.284Z"
     },
     {
       "topicId": "topic-0c3f8265",
@@ -3529,5 +3529,5 @@
       "updatedAt": "2026-06-29T02:47:40.574Z"
     }
   ],
-  "lastUpdated": "2026-06-29T02:48:42.608Z"
+  "lastUpdated": "2026-06-29T02:51:26.284Z"
 }
