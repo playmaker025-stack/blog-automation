@@ -3504,7 +3504,30 @@
       "assignedUserId": "c",
       "createdAt": "2026-06-29T02:47:38.309Z",
       "updatedAt": "2026-06-29T02:47:38.309Z"
+    },
+    {
+      "topicId": "topic-0c3f8265",
+      "title": "인천 남동구 전자담배 입호흡 기기 추천과 초보자 사용법 안내",
+      "description": "인천 남동구 지역에서 입호흡 전자담배 기기 추천과 함께 초보자가 쉽게 따라할 수 있는 사용법을 단계별로 설명합니다.",
+      "category": "전자담배",
+      "tags": [
+        "인천",
+        "남동구",
+        "입호흡",
+        "전자담배",
+        "기기추천",
+        "초보자"
+      ],
+      "subKeywords": [],
+      "source": "generated",
+      "contentKind": "hub",
+      "feasibility": null,
+      "relatedSources": [],
+      "status": "draft",
+      "assignedUserId": "c",
+      "createdAt": "2026-06-29T02:47:40.574Z",
+      "updatedAt": "2026-06-29T02:47:40.574Z"
     }
   ],
-  "lastUpdated": "2026-06-29T02:47:38.309Z"
+  "lastUpdated": "2026-06-29T02:47:40.574Z"
 }
