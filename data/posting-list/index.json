@@ -6029,7 +6029,22 @@
       "publishedAt": "2026-06-28T11:38:52.642Z",
       "createdAt": "2026-06-28T11:38:52.642Z",
       "updatedAt": "2026-06-28T11:38:52.642Z"
+    },
+    {
+      "postId": "post-7e859fb5",
+      "topicId": "topic-b0fec127",
+      "userId": "c",
+      "title": "일회용 전자담배 추천과 사용 시 주의사항 완벽 가이드",
+      "status": "draft",
+      "naverPostUrl": null,
+      "evalScore": null,
+      "wordCount": 0,
+      "compositionSessionId": "pipe-23743cb4",
+      "pendingApproval": null,
+      "createdAt": "2026-06-29T02:48:43.971Z",
+      "publishedAt": null,
+      "updatedAt": "2026-06-29T02:48:43.971Z"
     }
   ],
-  "lastUpdated": "2026-06-28T11:38:52.642Z"
+  "lastUpdated": "2026-06-29T02:48:43.971Z"
 }
