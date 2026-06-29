@@ -1,10 +1,10 @@
 {
   "userId": "c",
-  "topicMode": "direct",
+  "topicMode": "list",
   "selectedTopicId": "",
   "directTopicTitle": "말론 no pod attached 노팟",
   "directMainKeyword": "말론 전담 팟",
   "directSubKeyword": "종류",
   "autoApprove": false,
-  "updatedAt": "2026-06-29T02:45:22.943Z"
+  "updatedAt": "2026-06-29T02:46:25.843Z"
 }
